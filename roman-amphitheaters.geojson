@@ -1,0 +1,159 @@
+{
+"@context": {
+  "Feature": "http://geovocab.org/spatial#Feature",
+  "FeatureCollection": " _:n1",
+  "Point": "http://geovocab.org/geometry#Point",
+  "coordinates": {"@id":"http://example.org/geojsonUnorderedCoordArrayMember"},
+  "features": "_:listOfAmphitheaters",
+  "geometry": "http://geovocab.org/geometry#geometry",
+  "id": "@id",
+  "properties": { "@id":"http://example.org/properties" },
+  "type": "@type",
+  "capacity": { "@id":"http://example.org/capacity"},
+  "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
+  "xsd": "http://www.w3.org/2001/XMLSchema#",
+  "dcterms":"http://purl.org/dc/terms/",
+  "dcterms:created": {
+   "@type":"xsd:gDate"}
+} ,
+  "type": "FeatureCollection",
+  "features": [
+  
+      {
+      "type": "Feature",
+      "id":"duraEuroposAmphitheater",
+      "properties": {
+        "dcterms:title": "Amphitheater at Dura Europos",
+        "dcterms:created": 216,
+        "capacity":1000,
+        "rdfs:comment":"Capacity and date drawn from N. Pollard's \"Soldiers, Cities, and Civilians in Roman Syria\", p. 52"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.728926, 34.749855 
+        ]
+      }
+    },{
+      "type": "Feature",
+      "id":"arlesAmphitheater",
+      "properties": {
+        "dcterms:title": "Amphitheater at Arles",
+        "rdfs:seeAlso": "http://en.wikipedia.org/wiki/Arles_Amphitheatre",
+        "dcterms:created":90,
+        "capacity": 20000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.631111, 43.677778  
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id":"lyonAmphitheater",
+      "properties": {
+        "dcterms:title": "Amphitheater at Lyon",
+        "rdfs:seeAlso": "http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls",
+        "rdfs:comment": "The capacity refers to number of seats after the early 2nd AD century expansion. In AD 19 the capacity was under 2000.",
+        "dcterms:created":19,
+        "capacity": 20000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.830556,45.770556  
+        ]
+      }
+    },{
+      "type": "Feature",
+      "id":"romeAmphitheater",
+      "properties": {
+        "dcterms:title": "Colosseum (Rome)",
+        "rdfs:seeAlso": "http://en.wikipedia.org/wiki/Colosseum",
+        "dcterms:created":70,
+        "capacity": 50000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.492269,
+          41.890169
+        ]
+      }
+    },{
+      "type": "Feature",
+      "id":"eleutheropolisAmphitheater",
+      "properties": {
+        "dcterms:title": "Amphitheater at Eleutheropolis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8939, 31.6082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id":"pompeiiAmphitheater",
+      "properties": {
+        "dcterms:title": "Amphitheater at Pompeii",
+        "rdfs:seeAlso": "http://en.wikipedia.org/wiki/Amphitheatre_of_Pompeii",
+        "dcterms:created":-70,
+        "capacity": 20000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.49497,
+          40.751264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id":"meridaAmphitheater",
+      "properties": {
+        "dcterms:title": "Amphitheater at Mérida (Emerita Augusta)",
+        "rdfs:seeAlso": "http://en.wikipedia.org/wiki/Mérida_amphitheatre",
+        "dcterms:created":-8,
+        "capacity": 15000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.337722, 38.916194
+        ]
+      }
+    },{
+      "type": "Feature",
+      "id":"newsteadAmphitheater",
+      "properties": {
+        "dcterms:title": "Amphitheater at Newstead (Trimontium)",
+        "capacity": 2000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6919, 55.6026
+        ]
+      }
+    },{
+      "type": "Feature",
+      "id":"conimbrigaAmphitheater",
+      "properties": {
+        "dcterms:title": "Amphitheater at Conimbriga",
+        "dcterms:created": 50,
+        "capacity": 4000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.49333, 40.099444
+        ]
+      }
+    }
+  ]
+}
