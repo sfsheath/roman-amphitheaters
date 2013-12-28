@@ -167,6 +167,21 @@
           14.056, 40.841847
         ]
       }
+    },{
+      "type": "Feature",
+      "id":"pozzuoliFlavianAmphitheater",
+      "properties": {
+        "dcterms:title": "Flavian Amphitheater at Pozzuoli",
+        "dcterms:created": 70,
+        "capacity":20000,
+        "rdfs:seeAlso": "http://en.wikipedia.org/wiki/Flavian_Amphitheater_(Pozzuoli)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.125315, 40.825929
+        ]
+      }
     }
   ]
 }
