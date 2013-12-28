@@ -207,6 +207,20 @@
           15.278934, 37.074132
         ]
       }
+    },{
+      "type": "Feature",
+      "id":"carthageAmphitheater",
+      "properties": {
+        "dcterms:title": "Amphitheater at Carthage",
+        "dcterms:created": 100,
+        "capacity": 30000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            10.314924, 36.856078
+        ]
+      }
     }
   ]
 }
