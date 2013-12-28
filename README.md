@@ -1,7 +1,7 @@
 roman-amphitheaters
 ===================
 
-A re-usable list of Roman Amphitheaters. Currently formatted as geojson with a json-ld context.
+A re-usable list of Roman Amphitheaters. Currently formatted as geojson with a json-ld context. It's very incomplete as there some 200+ amphitheaters known from the Roman world.
 
 Some of this data comes from Wikipedia's list of Roman amphitheaters at http://en.wikipedia.org/wiki/List_of_Roman_amphitheatres . I used that as a starting point but have made corrections.
 
