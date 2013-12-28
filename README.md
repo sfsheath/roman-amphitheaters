@@ -30,4 +30,8 @@ If you want to load this file into a geojson-aware mapping tool, use the URL:
 
  https://raw.github.com/sfsheath/roman-amphitheaters/master/roman-amphitheaters.geojson
  
- What's the purpose? To explore reusable data. If it becomes a complete list of amphitheaters, that's a pleasant side-effect.
+As a convenience, here's a link that validates the geojson in the above file:
+
+ http://geojsonlint.com/validate?url=https%3A%2F%2Fraw.github.com%2Fsfsheath%2Froman-amphitheaters%2Fmaster%2Froman-amphitheaters.geojson
+ 
+What's the purpose? To explore reusable data. If it becomes a complete list of amphitheaters, that's a pleasant side-effect.
