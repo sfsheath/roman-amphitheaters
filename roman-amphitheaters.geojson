@@ -154,6 +154,19 @@
           -8.49333, 40.099444
         ]
       }
+    },{
+      "type": "Feature",
+      "id":"cumaeAmphitheater",
+      "properties": {
+        "dcterms:title": "Amphitheater at Cumae",
+        "dcterms:created": -100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.056, 40.841847
+        ]
+      }
     }
   ]
 }
