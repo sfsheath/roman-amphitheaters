@@ -182,6 +182,19 @@
           14.125315, 40.825929
         ]
       }
+    },{
+      "type": "Feature",
+      "id":"pozzuoliEarlyAmphitheater",
+      "properties": {
+        "dcterms:title": "Early Amphitheater at Pozzuoli",
+        "dcterms:created": -100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.127615, 40.826239
+        ]
+      }
     }
   ]
 }
