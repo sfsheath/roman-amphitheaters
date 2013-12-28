@@ -195,6 +195,18 @@
           14.127615, 40.826239
         ]
       }
+    },{
+      "type": "Feature",
+      "id":"syracuseAmphitheater",
+      "properties": {
+        "dcterms:title": "Amphitheater at Syracuse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.278934, 37.074132
+        ]
+      }
     }
   ]
 }
