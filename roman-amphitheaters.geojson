@@ -11,10 +11,10 @@
   "type": "@type",
   "capacity": { "@id":"http://example.org/capacity"},
   "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
+  "rdfs:seeAlso": { "@type":"@id" },
   "xsd": "http://www.w3.org/2001/XMLSchema#",
   "dcterms":"http://purl.org/dc/terms/",
-  "dcterms:created": {
-   "@type":"xsd:gDate"}
+  "dcterms:created": { "@type":"xsd:gDate" }
 } ,
   "type": "FeatureCollection",
   "features": [
@@ -232,6 +232,20 @@
         "type": "Point",
         "coordinates": [
             12.778929, 41.941708
+        ]
+      }
+    },{
+      "type": "Feature",
+      "id":"corinthAmphitheater",
+      "properties": {
+        "dcterms:title": "Amphitheater at Corinth",
+        "dcterms:created": -44,
+        "rdfs:seeAlso": "http://corinth.sas.upenn.edu/gisamphitheater.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            22.892126, 37.909629
         ]
       }
     }
