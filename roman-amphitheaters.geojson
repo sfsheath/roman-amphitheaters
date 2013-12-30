@@ -221,6 +221,19 @@
             10.314924, 36.856078
         ]
       }
+    },{
+      "type": "Feature",
+      "id":"hadrianVillaAmphitheater",
+      "properties": {
+        "dcterms:title": "Amphitheater at Hadrian's Villa at Tivoli",
+        "dcterms:created": 120
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            12.778929, 41.941708
+        ]
+      }
     }
   ]
 }
