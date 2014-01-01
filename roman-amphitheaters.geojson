@@ -276,6 +276,18 @@
               23.154052,47.177552
         ]
       }
+    },{
+      "type": "Feature",
+      "id":"nijmegenAmphitheater",
+      "properties": {
+        "dcterms:title": "Amphitheater at Nijmegen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+             5.878859,51.838523
+        ]
+      }
     }
   ]
 }
