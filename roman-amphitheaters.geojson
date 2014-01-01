@@ -262,6 +262,20 @@
               27.556674,43.218689
         ]
       }
+    },{
+      "type": "Feature",
+      "id":"porolissumAmphitheater",
+      "properties": {
+        "dcterms:title": "Amphitheater at Porolissum",
+        "dcterms:created": 157,
+        "rdfs:comment":"There was a wooden predecessor."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+              23.154052,47.177552
+        ]
+      }
     }
   ]
 }
