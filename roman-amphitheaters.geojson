@@ -248,6 +248,20 @@
             22.892126, 37.909629
         ]
       }
+    },{
+      "type": "Feature",
+      "id":"marcianopolisAmphitheater",
+      "properties": {
+        "dcterms:title": "Amphitheater at Marcianopolis (Devnya)",
+        "dcterms:created": 200,
+        "capacity": 4000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+              27.556674,43.218689
+        ]
+      }
     }
   ]
 }
