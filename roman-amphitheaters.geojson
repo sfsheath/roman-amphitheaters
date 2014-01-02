@@ -7,7 +7,7 @@
   "features": "_:listOfAmphitheaters",
   "geometry": "http://geovocab.org/geometry#geometry",
   "id": "@id",
-  "properties": { "@id":"http://example.org/properties" },
+  "properties": { "@id":"rdfs:isDescribeBy" },
   "type": "@type",
   "capacity": { "@id":"http://example.org/capacity"},
   "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
