@@ -9,7 +9,7 @@
   "id": "@id",
   "properties": { "@id":"rdfs:isDefinedBy" },
   "type": "@type",
-  "capacity": { "@id":"http://example.org/capacity"},
+  "capacity": { "@id":"http://dbpedia.org/property/seatingCapacity"},
   "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
   "rdfs:seeAlso": { "@type":"@id" },
   "xsd": "http://www.w3.org/2001/XMLSchema#",
