@@ -16,7 +16,7 @@
   "dcterms":"http://purl.org/dc/terms/",
   "dcterms:created": { "@type":"xsd:gDate"},
   "title":"dcterms:title",
-  "created":{"@id:"dcterms:created", "@type":"xsd:gDate"}
+  "created":{"@id":"dcterms:created", "@type":"xsd:gDate"}
 } ,
   "type": "FeatureCollection",
   "features": [
