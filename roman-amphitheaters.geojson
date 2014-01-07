@@ -288,6 +288,34 @@
              5.878859,51.838523
         ]
       }
+    },{
+      "type": "Feature",
+      "id":"carnuntumLargeAmphitheater",
+      "properties": {
+        "dcterms:title": "Large amphitheater at Carnuntum",
+        "dcterms:created": 150,
+        "capacity": 15000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+             16.892619,48.126824
+        ]
+      }
+    },{
+      "type": "Feature",
+      "id":"carnuntumPetronellAmphitheater",
+      "properties": {
+        "dcterms:title": "Amphitheater at Carnuntum",
+        "dcterms:created": 100,
+        "capacity": 12000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+               16.850943,48.110019
+        ]
+      }
     }
   ]
 }
