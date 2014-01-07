@@ -14,7 +14,6 @@
   "rdfs:seeAlso": { "@type":"@id" },
   "xsd": "http://www.w3.org/2001/XMLSchema#",
   "dcterms":"http://purl.org/dc/terms/",
-  "dcterms:created": { "@type":"xsd:gDate"},
   "title":"dcterms:title",
   "created":{"@id":"dcterms:created", "@type":"xsd:gDate"}
 } ,
