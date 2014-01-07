@@ -24,8 +24,8 @@
       "type": "Feature",
       "id":"duraEuroposAmphitheater",
       "properties": {
-        "dcterms:title": "Amphitheater at Dura Europos",
-        "dcterms:created": 216,
+        "title": "Amphitheater at Dura Europos",
+        "created": 216,
         "capacity":1000,
         "rdfs:comment":"Capacity and date drawn from N. Pollard's \"Soldiers, Cities, and Civilians in Roman Syria\", p. 52"
       },
@@ -39,9 +39,9 @@
       "type": "Feature",
       "id":"arlesAmphitheater",
       "properties": {
-        "dcterms:title": "Amphitheater at Arles",
+        "title": "Amphitheater at Arles",
         "rdfs:seeAlso": "http://en.wikipedia.org/wiki/Arles_Amphitheatre",
-        "dcterms:created":90,
+        "created":90,
         "capacity": 20000
       },
       "geometry": {
@@ -55,10 +55,10 @@
       "type": "Feature",
       "id":"lyonAmphitheater",
       "properties": {
-        "dcterms:title": "Amphitheater at Lyon",
+        "title": "Amphitheater at Lyon",
         "rdfs:seeAlso": "http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls",
         "rdfs:comment": "The capacity refers to number of seats after the early 2nd AD century expansion. In AD 19 the capacity was under 2000.",
-        "dcterms:created":19,
+        "created":19,
         "capacity": 20000
       },
       "geometry": {
@@ -71,9 +71,9 @@
       "type": "Feature",
       "id":"romeAmphitheater",
       "properties": {
-        "dcterms:title": "Colosseum (Rome)",
+        "title": "Colosseum (Rome)",
         "rdfs:seeAlso": "http://en.wikipedia.org/wiki/Colosseum",
-        "dcterms:created":70,
+        "created":70,
         "capacity": 50000
       },
       "geometry": {
@@ -87,7 +87,7 @@
       "type": "Feature",
       "id":"eleutheropolisAmphitheater",
       "properties": {
-        "dcterms:title": "Amphitheater at Eleutheropolis"
+        "title": "Amphitheater at Eleutheropolis"
       },
       "geometry": {
         "type": "Point",
@@ -100,9 +100,9 @@
       "type": "Feature",
       "id":"pompeiiAmphitheater",
       "properties": {
-        "dcterms:title": "Amphitheater at Pompeii",
+        "title": "Amphitheater at Pompeii",
         "rdfs:seeAlso": "http://en.wikipedia.org/wiki/Amphitheatre_of_Pompeii",
-        "dcterms:created":-70,
+        "created":-70,
         "capacity": 20000
       },
       "geometry": {
@@ -117,9 +117,9 @@
       "type": "Feature",
       "id":"meridaAmphitheater",
       "properties": {
-        "dcterms:title": "Amphitheater at Mérida (Emerita Augusta)",
+        "title": "Amphitheater at Mérida (Emerita Augusta)",
         "rdfs:seeAlso": "http://en.wikipedia.org/wiki/Mérida_amphitheatre",
-        "dcterms:created":-8,
+        "created":-8,
         "capacity": 15000
       },
       "geometry": {
@@ -132,7 +132,7 @@
       "type": "Feature",
       "id":"newsteadAmphitheater",
       "properties": {
-        "dcterms:title": "Amphitheater at Newstead (Trimontium)",
+        "title": "Amphitheater at Newstead (Trimontium)",
         "capacity": 2000
       },
       "geometry": {
@@ -145,8 +145,8 @@
       "type": "Feature",
       "id":"conimbrigaAmphitheater",
       "properties": {
-        "dcterms:title": "Amphitheater at Conimbriga",
-        "dcterms:created": 50,
+        "title": "Amphitheater at Conimbriga",
+        "created": 50,
         "capacity": 4000
       },
       "geometry": {
@@ -159,8 +159,8 @@
       "type": "Feature",
       "id":"cumaeAmphitheater",
       "properties": {
-        "dcterms:title": "Amphitheater at Cumae",
-        "dcterms:created": -100
+        "title": "Amphitheater at Cumae",
+        "created": -100
       },
       "geometry": {
         "type": "Point",
@@ -172,8 +172,8 @@
       "type": "Feature",
       "id":"pozzuoliFlavianAmphitheater",
       "properties": {
-        "dcterms:title": "Flavian Amphitheater at Pozzuoli",
-        "dcterms:created": 70,
+        "title": "Flavian Amphitheater at Pozzuoli",
+        "created": 70,
         "capacity":20000,
         "rdfs:seeAlso": "http://en.wikipedia.org/wiki/Flavian_Amphitheater_(Pozzuoli)"
       },
@@ -187,8 +187,8 @@
       "type": "Feature",
       "id":"pozzuoliEarlyAmphitheater",
       "properties": {
-        "dcterms:title": "Early Amphitheater at Pozzuoli",
-        "dcterms:created": -100
+        "title": "Early Amphitheater at Pozzuoli",
+        "created": -100
       },
       "geometry": {
         "type": "Point",
@@ -200,7 +200,7 @@
       "type": "Feature",
       "id":"syracuseAmphitheater",
       "properties": {
-        "dcterms:title": "Amphitheater at Syracuse"
+        "title": "Amphitheater at Syracuse"
       },
       "geometry": {
         "type": "Point",
@@ -212,8 +212,8 @@
       "type": "Feature",
       "id":"carthageAmphitheater",
       "properties": {
-        "dcterms:title": "Amphitheater at Carthage",
-        "dcterms:created": 100,
+        "title": "Amphitheater at Carthage",
+        "created": 100,
         "capacity": 30000
       },
       "geometry": {
@@ -226,8 +226,8 @@
       "type": "Feature",
       "id":"hadrianVillaAmphitheater",
       "properties": {
-        "dcterms:title": "Amphitheater at Hadrian's Villa at Tivoli",
-        "dcterms:created": 120
+        "title": "Amphitheater at Hadrian's Villa at Tivoli",
+        "created": 120
       },
       "geometry": {
         "type": "Point",
@@ -239,8 +239,8 @@
       "type": "Feature",
       "id":"corinthAmphitheater",
       "properties": {
-        "dcterms:title": "Amphitheater at Corinth",
-        "dcterms:created": -44,
+        "title": "Amphitheater at Corinth",
+        "created": -44,
         "rdfs:seeAlso": "http://corinth.sas.upenn.edu/gisamphitheater.html"
       },
       "geometry": {
@@ -253,8 +253,8 @@
       "type": "Feature",
       "id":"marcianopolisAmphitheater",
       "properties": {
-        "dcterms:title": "Amphitheater at Marcianopolis (Devnya)",
-        "dcterms:created": 200,
+        "title": "Amphitheater at Marcianopolis (Devnya)",
+        "created": 200,
         "capacity": 4000
       },
       "geometry": {
@@ -267,8 +267,8 @@
       "type": "Feature",
       "id":"porolissumAmphitheater",
       "properties": {
-        "dcterms:title": "Amphitheater at Porolissum",
-        "dcterms:created": 157,
+        "title": "Amphitheater at Porolissum",
+        "created": 157,
         "rdfs:comment":"There was a wooden predecessor."
       },
       "geometry": {
@@ -293,8 +293,8 @@
       "type": "Feature",
       "id":"carnuntumLargeAmphitheater",
       "properties": {
-        "dcterms:title": "Large amphitheater at Carnuntum",
-        "dcterms:created": 150,
+        "title": "Large amphitheater at Carnuntum",
+        "created": 150,
         "capacity": 15000
       },
       "geometry": {
@@ -307,8 +307,8 @@
       "type": "Feature",
       "id":"carnuntumPetronellAmphitheater",
       "properties": {
-        "dcterms:title": "Amphitheater at Carnuntum",
-        "dcterms:created": 100,
+        "title": "Amphitheater at Carnuntum",
+        "created": 100,
         "capacity": 12000
       },
       "geometry": {
