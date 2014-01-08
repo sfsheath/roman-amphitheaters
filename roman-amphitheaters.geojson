@@ -330,6 +330,32 @@
         "coordinates": [
                14.309452,32.632340
         ]
+     },{
+      "type": "Feature",
+      "id":"EmpurieslAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Empuries (Ampurias, Emporiae, Emporion)",
+        "created": 50,
+        "capacity": 3300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+               3.117431,42.130042
+        ]
+     },{
+      "type": "Feature",
+      "id":"TarragonalAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Tarragona (Tarraco)",
+        "created": 100,
+        "capacity": 15000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+               1.258780,41.114522
+        ]
       }
     }
   ]
