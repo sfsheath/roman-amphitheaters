@@ -343,6 +343,7 @@
         "coordinates": [
                3.117431,42.130042
         ]
+     }
      },{
       "type": "Feature",
       "id":"TarragonalAmphitheater",
@@ -357,6 +358,7 @@
                1.258780,41.114522
         ]
       }
+    }
     }
   ]
 }  
