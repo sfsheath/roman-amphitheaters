@@ -32,6 +32,6 @@ If you want to load this file into a geojson-aware mapping tool, use the URL:
  
 As a convenience, here's a link that validates the geojson in the above file:
 
- http://geojsonlint.com/validate?url=hhttp%3A%2F%2Fsfsheath.github.io%2Froman-amphitheaters%2Froman-amphitheaters.geojson
+ http://geojsonlint.com/validate?url=http%3A%2F%2Fsfsheath.github.io%2Froman-amphitheaters%2Froman-amphitheaters.geojson
  
 What's the purpose? To explore reusable data. If it becomes a complete list of amphitheaters, that's a pleasant side-effect.
