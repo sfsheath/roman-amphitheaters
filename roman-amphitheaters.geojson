@@ -15,7 +15,8 @@
   "xsd": "http://www.w3.org/2001/XMLSchema#",
   "dcterms":"http://purl.org/dc/terms/",
   "title":"dcterms:title",
-  "created":{"@id":"dcterms:created", "@type":"xsd:gDate"}
+  "created":{"@id":"dcterms:created", "@type":"xsd:gDate"},
+  "gn":"http://www.geonames.org/ontology#"
 } ,
   "type": "FeatureCollection",
   "features": [
