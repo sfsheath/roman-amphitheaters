@@ -16,7 +16,8 @@
   "dcterms":"http://purl.org/dc/terms/",
   "title":"dcterms:title",
   "created":{"@id":"dcterms:created", "@type":"xsd:gDate"},
-  "gn":"http://www.geonames.org/ontology#"
+  "gn":"http://www.geonames.org/ontology#",
+  "gn:locatedIn": { "@type":"@id" }
 } ,
   "type": "FeatureCollection",
   "features": [
@@ -28,7 +29,8 @@
         "title": "Amphitheater at Dura Europos",
         "created": 216,
         "capacity":1000,
-        "rdfs:comment":"Capacity and date drawn from N. Pollard's \"Soldiers, Cities, and Civilians in Roman Syria\", p. 52"
+        "rdfs:comment":"Capacity and date drawn from N. Pollard's \"Soldiers, Cities, and Civilians in Roman Syria\", p. 52",
+        "gn:locatedIn":"http://pleiades.stoa.org/places/893989#this"
       },
       "geometry": {
         "type": "Point",
@@ -43,7 +45,8 @@
         "title": "Amphitheater at Arles",
         "rdfs:seeAlso": "http://en.wikipedia.org/wiki/Arles_Amphitheatre",
         "created":90,
-        "capacity": 20000
+        "capacity": 20000,
+        "gn:locatedIn":"http://pleiades.stoa.org/places/148217#this"
       },
       "geometry": {
         "type": "Point",
@@ -60,7 +63,8 @@
         "rdfs:seeAlso": "http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls",
         "rdfs:comment": "The capacity refers to number of seats after the early 2nd AD century expansion. In AD 19 the capacity was under 2000.",
         "created":19,
-        "capacity": 20000
+        "capacity": 20000,
+        "gn:locatedIn":"http://pleiades.stoa.org/places/167717#this"
       },
       "geometry": {
         "type": "Point",
@@ -75,7 +79,8 @@
         "title": "Colosseum (Rome)",
         "rdfs:seeAlso": "http://en.wikipedia.org/wiki/Colosseum",
         "created":70,
-        "capacity": 50000
+        "capacity": 50000,
+        "gn:locatedIn":"http://pleiades.stoa.org/places/423025#this"
       },
       "geometry": {
         "type": "Point",
@@ -88,7 +93,8 @@
       "type": "Feature",
       "id":"eleutheropolisAmphitheater",
       "properties": {
-        "title": "Amphitheater at Eleutheropolis"
+        "title": "Amphitheater at Eleutheropolis",
+        "gn:locatedIn":"http://pleiades.stoa.org/places/687854#this"
       },
       "geometry": {
         "type": "Point",
@@ -104,7 +110,8 @@
         "title": "Amphitheater at Pompeii",
         "rdfs:seeAlso": "http://en.wikipedia.org/wiki/Amphitheatre_of_Pompeii",
         "created":-70,
-        "capacity": 20000
+        "capacity": 20000,
+        "gn:locatedIn":"http://pleiades.stoa.org/places/433032#this"
       },
       "geometry": {
         "type": "Point",
@@ -121,7 +128,8 @@
         "title": "Amphitheater at Mérida (Emerita Augusta)",
         "rdfs:seeAlso": "http://en.wikipedia.org/wiki/Mérida_amphitheatre",
         "created":-8,
-        "capacity": 15000
+        "capacity": 15000,
+        "gn:locatedIn":"http://pleiades.stoa.org/places/256155#this"
       },
       "geometry": {
         "type": "Point",
@@ -134,7 +142,8 @@
       "id":"newsteadAmphitheater",
       "properties": {
         "title": "Amphitheater at Newstead (Trimontium)",
-        "capacity": 2000
+        "capacity": 2000,
+        "gn:locatedIn":"http://pleiades.stoa.org/places/89304#this"
       },
       "geometry": {
         "type": "Point",
@@ -148,7 +157,8 @@
       "properties": {
         "title": "Amphitheater at Conimbriga",
         "created": 50,
-        "capacity": 4000
+        "capacity": 4000,
+        "gn:locatedIn":"http://pleiades.stoa.org/places/236443#this"
       },
       "geometry": {
         "type": "Point",
@@ -161,7 +171,8 @@
       "id":"cumaeAmphitheater",
       "properties": {
         "title": "Amphitheater at Cumae",
-        "created": -100
+        "created": -100,
+        "gn:locatedIn":"http://pleiades.stoa.org/places/432808#this"
       },
       "geometry": {
         "type": "Point",
@@ -189,7 +200,8 @@
       "id":"pozzuoliEarlyAmphitheater",
       "properties": {
         "title": "Early Amphitheater at Pozzuoli",
-        "created": -100
+        "created": -100,
+        "gn:locatedIn":"http://pleiades.stoa.org/places/432815#this"
       },
       "geometry": {
         "type": "Point",
@@ -201,7 +213,8 @@
       "type": "Feature",
       "id":"syracuseAmphitheater",
       "properties": {
-        "title": "Amphitheater at Syracuse"
+        "title": "Amphitheater at Syracuse",
+        "gn:locatedIn":"http://pleiades.stoa.org/places/462503#this"
       },
       "geometry": {
         "type": "Point",
@@ -215,7 +228,8 @@
       "properties": {
         "title": "Amphitheater at Carthage",
         "created": 100,
-        "capacity": 30000
+        "capacity": 30000,
+        "gn:locatedIn":"http://pleiades.stoa.org/places/314921#this"
       },
       "geometry": {
         "type": "Point",
@@ -228,7 +242,8 @@
       "id":"hadrianVillaAmphitheater",
       "properties": {
         "title": "Amphitheater at Hadrian's Villa at Tivoli",
-        "created": 120
+        "created": 120,
+        "gn:locatedIn":"http://pleiades.stoa.org/places/423127#this"
       },
       "geometry": {
         "type": "Point",
@@ -242,7 +257,8 @@
       "properties": {
         "title": "Amphitheater at Corinth",
         "created": -44,
-        "rdfs:seeAlso": "http://corinth.sas.upenn.edu/gisamphitheater.html"
+        "rdfs:seeAlso": "http://corinth.sas.upenn.edu/gisamphitheater.html",
+        "gn:locatedIn":"http://pleiades.stoa.org/places/570182#this"
       },
       "geometry": {
         "type": "Point",
@@ -256,7 +272,8 @@
       "properties": {
         "title": "Amphitheater at Marcianopolis (Devnya)",
         "created": 200,
-        "capacity": 4000
+        "capacity": 4000,
+        "gn:locatedIn":"http://pleiades.stoa.org/places/216878#this"
       },
       "geometry": {
         "type": "Point",
@@ -270,7 +287,8 @@
       "properties": {
         "title": "Amphitheater at Porolissum",
         "created": 157,
-        "rdfs:comment":"There was a wooden predecessor."
+        "rdfs:comment":"There was a wooden predecessor.",
+        "gn:locatedIn":"http://pleiades.stoa.org/places/207361#this"
       },
       "geometry": {
         "type": "Point",
@@ -282,7 +300,8 @@
       "type": "Feature",
       "id":"nijmegenAmphitheater",
       "properties": {
-        "dcterms:title": "Amphitheater at Nijmegen"
+        "dcterms:title": "Amphitheater at Nijmegen",
+        "gn:locatedIn":"http://pleiades.stoa.org/places/98921#this"
       },
       "geometry": {
         "type": "Point",
@@ -296,7 +315,8 @@
       "properties": {
         "title": "Large amphitheater at Carnuntum",
         "created": 150,
-        "capacity": 15000
+        "capacity": 15000,
+        "gn:locatedIn":"http://pleiades.stoa.org/places/128376#this"
       },
       "geometry": {
         "type": "Point",
@@ -310,7 +330,8 @@
       "properties": {
         "title": "Amphitheater at Carnuntum",
         "created": 100,
-        "capacity": 12000
+        "capacity": 12000,
+        "gn:locatedIn":"http://pleiades.stoa.org/places/128376#this"
       },
       "geometry": {
         "type": "Point",
@@ -324,7 +345,8 @@
       "properties": {
         "title": "Amphitheater at Leptis Magna",
         "created": 56,
-        "capacity": 16000
+        "capacity": 16000,
+        "gn:locatedIn":"http://pleiades.stoa.org/places/344448#this"
       },
       "geometry": {
         "type": "Point",
@@ -337,7 +359,8 @@
       "properties": {
         "title": "Amphitheater at Empuries",
         "created": 50,
-        "capacity": 3300
+        "capacity": 3300,
+        "gn:locatedIn":"http://pleiades.stoa.org/places/246382#this"
       },
       "geometry": {
         "type": "Point",
@@ -351,7 +374,8 @@
       "properties": {
         "title": "Amphitheater at Tarragona",
         "created": 100,
-        "capacity": 15000
+        "capacity": 15000,
+        "gn:locatedIn":"http://pleiades.stoa.org/places/246349#this"
       },
       "geometry": {
         "type": "Point",
