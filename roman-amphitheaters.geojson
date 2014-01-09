@@ -340,7 +340,7 @@
       }
     },{
       "type": "Feature",
-      "id":"leptisMagnalAmphitheater",
+      "id":"leptisMagnaAmphitheater",
       "properties": {
         "title": "Amphitheater at Leptis Magna",
         "created": 56,
@@ -352,7 +352,8 @@
         "coordinates": [
                14.309452,32.632340
         ]
-     }},{
+     }
+     },{
       "type": "Feature",
       "id":"empuriesAmphitheater",
       "properties": {
@@ -393,6 +394,34 @@
         "type": "Point",
         "coordinates": [
                9.113228,39.223908,60
+        ]
+      }
+    },{
+      "type": "Feature",
+      "id":"ItalicaAmphitheater",
+      "properties": {
+        "dcterms:title": "Amphitheater at Italica (Santiponce)",
+        "dcterms:created":140,
+        "capacity": 25000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.046742, 37.443893
+        ]
+      }
+    },{
+      "type": "Feature",
+      "id":"SegobrigaAmphitheater",
+      "properties": {
+        "dcterms:title": "Amphitheater at Segobriga",
+        "dcterms:created":90,
+        "capacity": 7500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.813944, 39.886018
         ]
       }
     }
