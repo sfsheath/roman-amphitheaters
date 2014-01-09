@@ -1,4 +1,4 @@
-{
+{ 
 "@context": {
   "Feature": "http://geovocab.org/spatial#Feature",
   "FeatureCollection": " _:n1",
