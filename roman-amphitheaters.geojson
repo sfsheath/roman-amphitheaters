@@ -30,6 +30,10 @@
     "gn":"http://www.geonames.org/ontology#",
     "gn:locatedIn":{
       "@type":"@id"
+    },
+    "prov":"http://www.w3.org/TR/prov-o/#",
+    "prov:wasDerivedFrom":{
+      "@type":"@id"
     }
   },
   "type":"FeatureCollection",
