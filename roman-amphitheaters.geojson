@@ -398,21 +398,21 @@
       }
     },{
       "type": "Feature",
-      "id":"ItalicaAmphitheater",
+      "id":"italicaAmphitheater",
       "properties": {
-        "dcterms:title": "Amphitheater at Italica (Santiponce)",
+        "dcterms:title": "Amphitheater at Italica",
         "dcterms:created":140,
         "capacity": 25000
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.046742, 37.443893
+          -6.046742, 37.443893,17
         ]
       }
     },{
       "type": "Feature",
-      "id":"SegobrigaAmphitheater",
+      "id":"segobrigaAmphitheater",
       "properties": {
         "dcterms:title": "Amphitheater at Segobriga",
         "dcterms:created":90,
@@ -421,7 +421,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.813944, 39.886018
+          -2.813944, 39.886018,817
         ]
       }
     }
