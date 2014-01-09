@@ -1,4 +1,4 @@
-{ 
+{
 "@context": {
   "Feature": "http://geovocab.org/spatial#Feature",
   "FeatureCollection": " _:n1",
@@ -51,7 +51,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.631111, 43.677778  
+          4.631111, 43.677778,21  
         ]
       }
     },
@@ -85,8 +85,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.492269,
-          41.890169
+          12.492269, 41.890169
         ]
       }
     },{
