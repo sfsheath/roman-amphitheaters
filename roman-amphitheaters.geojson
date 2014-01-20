@@ -1554,6 +1554,21 @@
           150
         ]
       }
+    },{
+      "type":"Feature",
+      "id":"leptiminusAmphitheater",
+      "properties":{
+        "title":"Amphitheatre at Leptiminus",
+        "location":"http://pleiades.stoa.org/places/589796#this"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          10.866282,
+          35.678077,
+          9
+        ]
+      }
     }
   ]
 }
