@@ -1575,7 +1575,7 @@
       "properties":{
         "title":"Amphitheater at Micia",
         "capacity": 1500,
-        "location": http://pleiades.stoa.org/places/207286
+        "location": "http://pleiades.stoa.org/places/207286"
       },
       "geometry":{
         "type":"Point",
