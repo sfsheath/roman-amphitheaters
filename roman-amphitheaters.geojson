@@ -1333,9 +1333,9 @@
     },
     {
       "type":"Feature",
-      "id":"tiburAmphitheatre",
+      "id":"tiburAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Tibur",
+        "title":"Amphitheater at Tibur",
         "location":"http://pleiades.stoa.org/places/423081#this",
         "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/423081/location-of-anfiteatro-di-bleso"
       },
@@ -1349,9 +1349,9 @@
     },
     {
       "type":"Feature",
-      "id":"iscaAmphitheatre",
+      "id":"iscaAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Isca",
+        "title":"Amphitheater at Isca",
         "location":"http://pleiades.stoa.org/places/79532#this",
         "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/79532/roman-amphitheatre"
       },
@@ -1542,7 +1542,7 @@
       "type":"Feature",
       "id":"gortynAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Gortyn",
+        "title":"Amphitheater at Gortyn",
         "created":150,
         "location":"http://pleiades.stoa.org/places/589796#this"
       },
@@ -1558,7 +1558,7 @@
       "type":"Feature",
       "id":"leptiminusAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Leptiminus",
+        "title":"Amphitheater at Leptiminus",
         "location":"http://pleiades.stoa.org/places/589796#this"
       },
       "geometry":{
