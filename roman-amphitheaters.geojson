@@ -1384,15 +1384,15 @@
       "id":"urbsSalviaAmphitheatre",
       "properties":{
         "title":"Amphitheatre at Urbs Salvia",
-        "location":"http://pleiades.stoa.org/places/413364#this",
-        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/413364/location-of-roman-amphitheater"
+        "location":"http://pleiades.stoa.org/places/413364#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
           13.386850799999999,
           43.201027000000003
-        ]
+        ],
+        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/413364/location-of-roman-amphitheater"
       }
     },
     {
@@ -1400,15 +1400,15 @@
       "id":"mediolanumAmphitheatre",
       "properties":{
         "title":"Amphitheatre at Mediolanum",
-        "location":"http://pleiades.stoa.org/places/138458#this",
-        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/138458/location-of-gallo-roman-amphitheater"
+        "location":"http://pleiades.stoa.org/places/138458#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
           -0.64335120000000001,
           45.745392600000002
-        ]
+        ],
+        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/138458/location-of-gallo-roman-amphitheater"
       }
     },
     {
