@@ -1416,15 +1416,15 @@
       "id":"asisiumAmphitheatre",
       "properties":{
         "title":"Amphitheatre at Asisium",
-        "location":"http://pleiades.stoa.org/places/413037#this",
-        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/413037/roman-amphitheater-of-asisium"
+        "location":"http://pleiades.stoa.org/places/413037#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
           12.620383,
           43.071021999999999
-        ]
+        ],
+        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/413037/roman-amphitheater-of-asisium"
       }
     },
     {
@@ -1432,15 +1432,15 @@
       "id":"dyrrhachiumEpidamnosAmphitheatre",
       "properties":{
         "title":"Amphitheatre at Dyrr(h)achium/Epidamnos",
-        "location":"http://pleiades.stoa.org/places/481818#this",
-        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/481818/location-of-roman-amphitheater"
+        "location":"http://pleiades.stoa.org/places/481818#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
           19.445180199999999,
           41.312382800000002
-        ]
+        ],
+        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/481818/location-of-roman-amphitheater"
       }
     },
     {
@@ -1448,15 +1448,15 @@
       "id":"lambaesisAmphitheatre",
       "properties":{
         "title":"Amphitheatre at Lambaesis",
-        "location":"http://pleiades.stoa.org/places/334570#this",
-        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/334570/location-of-roman-amphitheater"
+        "location":"http://pleiades.stoa.org/places/334570#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
           6.2599349999999996,
           35.489246999999999
-        ]
+        ],
+        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/334570/location-of-roman-amphitheater"
       }
     },
     {
@@ -1464,15 +1464,15 @@
       "id":"mactarisAmphitheatre",
       "properties":{
         "title":"Amphitheatre at Mactaris",
-        "location":"http://pleiades.stoa.org/places/324774#this",
-        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/324774/location-of-roman-amphitheater"
+        "location":"http://pleiades.stoa.org/places/324774#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
           9.2066727000000004,
           35.855627900000002
-        ]
+        ],
+        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/324774/location-of-roman-amphitheater"
       }
     },
     {
@@ -1480,47 +1480,47 @@
       "id":"coriniumAmphitheatre",
       "properties":{
         "title":"Amphitheatre at Corinium",
-        "location":"http://pleiades.stoa.org/places/197225#this",
-        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/197225/location-of-roman-amphitheater"
+        "location":"http://pleiades.stoa.org/places/197225#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
           -1.9714981,
           51.710580200000003
-        ]
+        ],
+        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/197225/location-of-roman-amphitheater"
       }
     },
     {
       "type":"Feature",
-      "id":"vindonissaAmphitheatre",
+      "id":"vindonissaAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Vindonissa",
-        "location":"http://pleiades.stoa.org/places/177661#this",
-        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/177661/location-of-roman-amphitheater"
+        "title":"Amphitheater at Vindonissa",
+        "location":"http://pleiades.stoa.org/places/177661#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
           8.2133217999999992,
           47.476714200000004
-        ]
+        ],
+        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/177661/location-of-roman-amphitheater"
       }
     },
     {
       "type":"Feature",
-      "id":"thysdrusAmphitheatre",
+      "id":"thysdrusAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Thysdrus",
-        "location":"http://pleiades.stoa.org/places/324835#this",
-        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/324835/amphitheatre-of-el-jem"
+        "title":"Amphitheater at Thysdrus",
+        "location":"http://pleiades.stoa.org/places/324835#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
           10.706939,
           35.296390000000002
-        ]
+        ],
+        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/324835/amphitheatre-of-el-jem"
       }
     },
     {
@@ -1567,6 +1567,22 @@
           10.866282,
           35.678077,
           9
+        ]
+      }
+    },{
+      "type":"Feature",
+      "id":"miciaAmphitheater",
+      "properties":{
+        "title":"Amphitheater at Micia",
+        "capacity": 1500,
+        "location": http://pleiades.stoa.org/places/207286
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          22.817310,
+          45.915008,
+          183
         ]
       }
     }
