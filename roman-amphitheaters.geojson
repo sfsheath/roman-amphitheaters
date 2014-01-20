@@ -516,9 +516,9 @@
     },
     {
       "type":"Feature",
-      "id":"kataneCatinaAmphitheatre",
+      "id":"kataneCatinaAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Katane/Catina",
+        "title":"Amphitheater at Katane/Catina",
         "location":"http://pleiades.stoa.org/places/462270#this"
         
       },
@@ -533,9 +533,9 @@
     },
     {
       "type":"Feature",
-      "id":"poseidoniaPaestumAmphitheatre",
+      "id":"paestumAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Poseidonia/Paestum",
+        "title":"Amphitheatre at Paestum",
         "location":"http://pleiades.stoa.org/places/442733#this"
       },
       "geometry":{
@@ -549,9 +549,9 @@
     },
     {
       "type":"Feature",
-      "id":"lunaAmphitheatre",
+      "id":"lunaAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Luna",
+        "title":"Amphitheater at Luna",
         "location":"http://pleiades.stoa.org/places/403235#this"
       },
       "geometry":{
@@ -1525,7 +1525,7 @@
     },
     {
       "type":"Feature",
-      "id":"colForumIuliiAmphitheatre",
+      "id":"colForumIuliiAmphitheater",
       "properties":{
         "title":"Amphitheatre at Col. Forum Iulii",
         "location":"http://pleiades.stoa.org/places/157836#this",
@@ -1538,22 +1538,22 @@
           43.434729300000001
         ]
       }
-    },
-    {
+    },{
       "type":"Feature",
-      "id":"cumaeKyme(Campanian)Amphitheatre",
+      "id":"gortynAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Cumae/Kyme (Campanian)",
-        "location":"http://pleiades.stoa.org/places/432808#this",
-        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/432808/location-of-roman-amphitheater"
+        "title":"Amphitheatre at Gortyn",
+        "created":150,
+        "location":"http://pleiades.stoa.org/places/589796#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          14.0563637,
-          40.842482099999998
+          24.953076,
+          35.056454,
+          150
         ]
       }
-    }    
+    }
   ]
 }
