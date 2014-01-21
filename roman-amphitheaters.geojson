@@ -222,7 +222,8 @@
         "type":"Point",
         "coordinates":[
           14.056,
-          40.841847
+          40.841847,
+          19
         ]
       }
     },
@@ -240,7 +241,8 @@
         "type":"Point",
         "coordinates":[
           14.125315,
-          40.825929
+          40.825929,
+          41
         ]
       }
     },
@@ -1342,15 +1344,16 @@
       "id":"tiburAmphitheater",
       "properties":{
         "title":"Amphitheater at Tibur",
-        "location":"http://pleiades.stoa.org/places/423081#this",
-        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/423081/location-of-anfiteatro-di-bleso"
+        "location":"http://pleiades.stoa.org/places/423081#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          12.7981959,
-          41.960833000000001
-        ]
+          12.798114,
+          41.960571,
+          248
+        ],
+        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/423081/location-of-anfiteatro-di-bleso"
       }
     },
     {
