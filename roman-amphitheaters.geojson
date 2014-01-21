@@ -869,22 +869,6 @@
     },
     {
       "type":"Feature",
-      "id":"aquincumAmphitheatre",
-      "properties":{
-        "title":"Amphitheatre at Aquincum",
-        "location":"http://pleiades.stoa.org/places/197130#this",
-        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/197130/location-of-roman-amphitheater-2"
-      },
-      "geometry":{
-        "type":"Point",
-        "coordinates":[
-          19.039065999999998,
-          47.532947
-        ]
-      }
-    },
-    {
-      "type":"Feature",
       "id":"virunumAmphitheatre",
       "properties":{
         "title":"Amphitheatre at Virunum",
@@ -1061,9 +1045,9 @@
     },
     {
       "type":"Feature",
-      "id":"segobrigaAmphitheatre",
+      "id":"segobrigaAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Segobriga",
+        "title":"Amphitheater at Segobriga",
         "location":"http://pleiades.stoa.org/places/266036#this",
         "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/266036/location-of-roman-amphitheater"
       },
@@ -1077,9 +1061,9 @@
     },
     {
       "type":"Feature",
-      "id":"lucaAmphitheatre",
+      "id":"lucaAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Luca",
+        "title":"Amphitheater at Luca",
         "location":"http://pleiades.stoa.org/places/403234#this",
         "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/403234/location-of-roman-amphitheater"
       },
@@ -1125,18 +1109,40 @@
     },
     {
       "type":"Feature",
-      "id":"aquincumAmphitheatre",
+      "id":"aquincumCivilAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Aquincum",
+        "title":"Civil Amphitheater at Aquincum",
         "location":"http://pleiades.stoa.org/places/197130#this",
-        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/197130/location-of-roman-amphitheater-1"
+        "created":275,
+        "wikipedia": "http://en.wikipedia.org/wiki/Aquincum_Civil_Amphitheatre"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
           19.047985000000001,
-          47.567577
-        ]
+          47.567577,
+          105
+        ],
+        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/197130/location-of-roman-amphitheater-1"
+      }
+    },
+    {
+      "type":"Feature",
+      "id":"aquincumMilitaryAmphitheater",
+      "properties":{
+        "title":"Military Amphitheater at Aquincum",
+        "location":"http://pleiades.stoa.org/places/197130#this",
+        "created":150,
+        "wikipedia": "http://en.wikipedia.org/wiki/Aquincum_Military_Amphitheatre"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          19.039065999999998,
+          47.532947,
+          101
+        ],
+        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/197130/location-of-roman-amphitheater-2"
       }
     },
     {
