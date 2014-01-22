@@ -258,7 +258,8 @@
         "type":"Point",
         "coordinates":[
           14.127615,
-          40.826239
+          40.826239,
+          58
         ]
       }
     },
@@ -273,7 +274,8 @@
         "type":"Point",
         "coordinates":[
           15.278934,
-          37.074132
+          37.074132,
+          23
         ]
       }
     },
@@ -290,7 +292,8 @@
         "type":"Point",
         "coordinates":[
           10.314924,
-          36.856078
+          36.856078,
+          14
         ]
       }
     },
@@ -306,7 +309,8 @@
         "type":"Point",
         "coordinates":[
           12.778929,
-          41.941708
+          41.941708,
+          99
         ]
       }
     },
@@ -323,7 +327,8 @@
         "type":"Point",
         "coordinates":[
           22.892126,
-          37.909629
+          37.909629,
+          98
         ]
       }
     },
@@ -340,7 +345,8 @@
         "type":"Point",
         "coordinates":[
           27.556674,
-          43.218689
+          43.218689,
+          120
         ]
       }
     },
@@ -357,7 +363,8 @@
         "type":"Point",
         "coordinates":[
           23.154052,
-          47.177552
+          47.177552,
+          441
         ]
       }
     },
@@ -372,7 +379,8 @@
         "type":"Point",
         "coordinates":[
           5.878859,
-          51.838523
+          51.838523,
+          46
         ]
       }
     },
@@ -1584,7 +1592,7 @@
       "properties":{
         "title":"Amphitheater at Micia",
         "capacity": 1500,
-        "location": "http://pleiades.stoa.org/places/207286"
+        "location": "http://pleiades.stoa.org/places/207286#this"
       },
       "geometry":{
         "type":"Point",
@@ -1593,6 +1601,25 @@
           45.915008,
           183
         ]
+      }
+    },{
+      "type":"Feature",
+      "id":"gemellaeAmphitheater",
+      "properties":{
+        "title":"Amphitheater at Gemellae",
+        "capacity": 3000,
+        "created": 130,
+        "golvinNo": 44,
+        "location": "http://pleiades.stoa.org/places/334553#this"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          5.522904,
+          34.636598,
+          83
+        ],
+        rdfs:comment: "Location is of fort as a proxy for amphitheater."
       }
     }
   ]
