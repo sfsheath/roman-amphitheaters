@@ -1619,7 +1619,7 @@
           34.636598,
           83
         ],
-        rdfs:comment: "Location is of fort as a proxy for amphitheater."
+        "rdfs:comment": "Location is of fort as a proxy for amphitheater."
       }
     }
   ]
