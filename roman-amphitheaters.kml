@@ -209,7 +209,7 @@
 		<SimpleData name="capacity">3300</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/246382#this</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>3.117431,42.130042</coordinates></Point>
+      <Point><coordinates>3.117431,42.130042,27</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
@@ -219,7 +219,7 @@
 		<SimpleData name="location">http://pleiades.stoa.org/places/246349#this</SimpleData>
 		<SimpleData name="rdfs:seeAlso">http://pleiades.stoa.org/places/246349/location-of-roman-amphitheater</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>1.25878,41.114522</coordinates></Point>
+      <Point><coordinates>1.25878,41.114522,13</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
@@ -253,7 +253,7 @@
 		<SimpleData name="title">Amphitheater at Katane/Catina</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/462270#this</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>15.0851052,37.5074627</coordinates></Point>
+      <Point><coordinates>15.085323,37.507096,31</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
