@@ -451,7 +451,8 @@
         "type":"Point",
         "coordinates":[
           3.117431,
-          42.130042
+          42.130042,
+          27
         ]
       }
     },
@@ -469,7 +470,8 @@
         "type":"Point",
         "coordinates":[
           1.258780,
-          41.114522
+          41.114522,
+          13
         ]
       }
     },
@@ -538,8 +540,9 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          15.085105199999999,
-          37.507462699999998
+            15.085323,
+            37.507096,
+            31
         ],
         "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/462270/location-of-roman-amphitheater"
       }
