@@ -557,8 +557,9 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          15.006450900000001,
-          40.4220726
+            15.006449,
+            40.422354,
+            18
         ],
         "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/442733/location-of-amphitheater"
       }
@@ -573,8 +574,9 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          10.022019200000001,
-          44.062875699999999
+            10.022386,
+            44.062656,
+            4
         ],
         "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/403235/location-of-roman-amphitheater-at-guildhall"
       }
