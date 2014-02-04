@@ -260,35 +260,35 @@
 		<SimpleData name="title">Amphitheatre at Paestum</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/442733#this</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>15.0064509,40.4220726</coordinates></Point>
+      <Point><coordinates>15.006449,40.422354,18</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Luna</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/403235#this</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>10.0220192,44.0628757</coordinates></Point>
+      <Point><coordinates>10.022386,44.062656,4</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheatre at Casinum</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/432764#this</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>13.823597,41.4825511</coordinates></Point>
+      <Point><coordinates>13.823575,41.482933,73</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheatre at Viminacium</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/207549#this</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>21.2196328,44.7384801</coordinates></Point>
+      <Point><coordinates>21.220083,44.737985,72</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheatre at Flavia Solva</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/197273#this</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>15.5657773,46.7671535</coordinates></Point>
+      <Point><coordinates>15.5657773,46.7671535,266</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
@@ -296,7 +296,7 @@
 		<SimpleData name="location">http://pleiades.stoa.org/places/413288#this</SimpleData>
 		<SimpleData name="prov:wasDerivedFrom">http://pleiades.stoa.org/places/413288/location-of-roman-amphitheater</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>11.1591735,42.8283826</coordinates></Point>
+      <Point><coordinates>11.159132,42.828405,165</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
