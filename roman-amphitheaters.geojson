@@ -583,9 +583,9 @@
     },
     {
       "type":"Feature",
-      "id":"casinumAmphitheatre",
+      "id":"casinumAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Casinum",
+        "title":"Amphitheater at Casinum",
         "location":"http://pleiades.stoa.org/places/432764#this"
       },
       "geometry":{
@@ -600,7 +600,7 @@
     },
     {
       "type":"Feature",
-      "id":"viminaciumAmphitheatre",
+      "id":"viminaciumAmphitheater",
       "properties":{
         "title":"Amphitheatre at Viminacium",
         "location":"http://pleiades.stoa.org/places/207549#this"
@@ -617,7 +617,7 @@
     },
     {
       "type":"Feature",
-      "id":"flaviaSolvaAmphitheatre",
+      "id":"flaviaSolvaAmphitheater",
       "properties":{
         "title":"Amphitheatre at Flavia Solva",
         "location":"http://pleiades.stoa.org/places/197273#this"
@@ -634,7 +634,7 @@
     },
     {
       "type":"Feature",
-      "id":"rusellaeAmphitheatre",
+      "id":"rusellaeAmphitheater",
       "properties":{
         "title":"Amphitheatre at Rusellae",
         "location":"http://pleiades.stoa.org/places/413288#this",
@@ -651,114 +651,121 @@
     },
     {
       "type":"Feature",
-      "id":"lutetiaAmphitheatre",
+      "id":"lutetiaAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Lutetia",
-        "location":"http://pleiades.stoa.org/places/109126#this",
+        "title":"Amphitheater at Lutetia",
+        "location":"http://pleiades.stoa.org/places/109126#this"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+            2.352855,
+            48.845097,
+            46
+        ],
         "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/109126/location-of-arenes-de-lutece"
-      },
-      "geometry":{
-        "type":"Point",
-        "coordinates":[
-          2.3525032000000001,
-          48.845166200000001
-        ]
       }
     },
     {
       "type":"Feature",
-      "id":"octodurusForumClaudiiVallensiumAmphitheatre",
+      "id":"octodurusForumClaudiiVallensiumAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Octodurus/Forum Claudii Vallensium",
-        "location":"http://pleiades.stoa.org/places/167859#this",
+        "title":"Amphitheater at Octodurus/Forum Claudii Vallensium",
+        "location":"http://pleiades.stoa.org/places/167859#this"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+            7.073493,
+            46.094356,
+            480
+        ],
         "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/167859/location-of-roman-amphitheater"
-      },
-      "geometry":{
-        "type":"Point",
-        "coordinates":[
-          7.0738675000000004,
-          46.094545199999999
-        ]
       }
     },
     {
       "type":"Feature",
-      "id":"cyreneAmphitheatre",
+      "id":"cyreneAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Cyrene",
-        "location":"http://pleiades.stoa.org/places/373778#this",
+        "title":"Amphitheater at Cyrene",
+        "location":"http://pleiades.stoa.org/places/373778#this"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+            21.850808,
+            32.824526,
+            550
+        ],
         "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/373778/cyrene-main-theatre"
-      },
-      "geometry":{
-        "type":"Point",
-        "coordinates":[
-          21.850829999999998,
-          32.824590999999998
-        ]
       }
     },
     {
       "type":"Feature",
-      "id":"libarnaAmphitheatre",
+      "id":"libarnaAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Libarna",
+        "title":"Amphitheater at Libarna",
         "location":"http://pleiades.stoa.org/places/383694#this",
         "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/383694/location-of-roman-amphitheater"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          8.8675522000000004,
-          44.706335699999997
+            8.867967,
+            44.706013,
+            225
         ]
       }
     },
     {
       "type":"Feature",
-      "id":"luceriaNoukeria(Apoulon)Amphitheatre",
+      "id":"luceriaNoukeriaAmphitheatre",
       "properties":{
         "title":"Amphitheatre at Luceria/Noukeria (Apoulon)",
-        "location":"http://pleiades.stoa.org/places/442640#this",
+        "location":"http://pleiades.stoa.org/places/442640#this"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+            15.344984,
+            41.508249,
+            196
+        ],
         "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/442640/location-of-roman-amphitheater"
-      },
-      "geometry":{
-        "type":"Point",
-        "coordinates":[
-          15.3441899,
-          41.508342399999997
-        ]
       }
     },
     {
       "type":"Feature",
-      "id":"abellaAmphitheatre",
+      "id":"abellaAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Abella",
-        "location":"http://pleiades.stoa.org/places/432617#this",
-        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/432617/location-of-roman-amphitheater"
+        "title":"Amphitheater at Abella",
+        "location":"http://pleiades.stoa.org/places/432617#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          14.608942799999999,
-          40.9619663
-        ]
+            14.608415,
+            40.961526,
+            224
+        ],
+        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/432617/location-of-roman-amphitheater"
       }
     },
     {
       "type":"Feature",
-      "id":"nemaususAmphitheatre",
+      "id":"nemaususAmphitheater",
       "properties":{
         "title":"Amphitheatre at Nemausus",
-        "location":"http://pleiades.stoa.org/places/148142#this",
-        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/148142/arenes"
+        "location":"http://pleiades.stoa.org/places/148142#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          4.3592385,
-          43.834753800000001
-        ]
+            4.359599,
+            43.834876,
+            50
+        ],
+        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/148142/arenes"
       }
     },
     {
@@ -1633,6 +1640,21 @@
         ],
         "rdfs:comment": "Location is of fort as a proxy for amphitheater."
       }
+    },{
+      "type":"Feature",
+      "id":"cherchellAmphitheater",
+      "properties":{
+        "title":"Amphitheater at Cherchell",
+        "location": "http://pleiades.stoa.org/places/295279#this"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          2.198958,
+          36.608780,
+          29
+        ]
+      }
     }
   ]
-}
+} 

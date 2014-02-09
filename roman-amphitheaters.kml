@@ -271,7 +271,7 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="title">Amphitheatre at Casinum</SimpleData>
+		<SimpleData name="title">Amphitheater at Casinum</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/432764#this</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>13.823575,41.482933,73</coordinates></Point>
@@ -300,59 +300,53 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="title">Amphitheatre at Lutetia</SimpleData>
+		<SimpleData name="title">Amphitheater at Lutetia</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/109126#this</SimpleData>
-		<SimpleData name="prov:wasDerivedFrom">http://pleiades.stoa.org/places/109126/location-of-arenes-de-lutece</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>2.3525032,48.8451662</coordinates></Point>
+      <Point><coordinates>2.352855,48.845097,46</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="title">Amphitheatre at Octodurus/Forum Claudii Vallensium</SimpleData>
+		<SimpleData name="title">Amphitheater at Octodurus/Forum Claudii Vallensium</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/167859#this</SimpleData>
-		<SimpleData name="prov:wasDerivedFrom">http://pleiades.stoa.org/places/167859/location-of-roman-amphitheater</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>7.0738675,46.0945452</coordinates></Point>
+      <Point><coordinates>7.073493,46.094356,480</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="title">Amphitheatre at Cyrene</SimpleData>
+		<SimpleData name="title">Amphitheater at Cyrene</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/373778#this</SimpleData>
-		<SimpleData name="prov:wasDerivedFrom">http://pleiades.stoa.org/places/373778/cyrene-main-theatre</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>21.85083,32.824591</coordinates></Point>
+      <Point><coordinates>21.850808,32.824526,550</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="title">Amphitheatre at Libarna</SimpleData>
+		<SimpleData name="title">Amphitheater at Libarna</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/383694#this</SimpleData>
 		<SimpleData name="prov:wasDerivedFrom">http://pleiades.stoa.org/places/383694/location-of-roman-amphitheater</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>8.8675522,44.7063357</coordinates></Point>
+      <Point><coordinates>8.867967,44.706013,225</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheatre at Luceria/Noukeria (Apoulon)</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/442640#this</SimpleData>
-		<SimpleData name="prov:wasDerivedFrom">http://pleiades.stoa.org/places/442640/location-of-roman-amphitheater</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>15.3441899,41.5083424</coordinates></Point>
+      <Point><coordinates>15.344984,41.508249,196</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="title">Amphitheatre at Abella</SimpleData>
+		<SimpleData name="title">Amphitheater at Abella</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/432617#this</SimpleData>
-		<SimpleData name="prov:wasDerivedFrom">http://pleiades.stoa.org/places/432617/location-of-roman-amphitheater</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>14.6089428,40.9619663</coordinates></Point>
+      <Point><coordinates>14.608415,40.961526,224</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheatre at Nemausus</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/148142#this</SimpleData>
-		<SimpleData name="prov:wasDerivedFrom">http://pleiades.stoa.org/places/148142/arenes</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>4.3592385,43.8347538</coordinates></Point>
+      <Point><coordinates>4.359599,43.834876,50</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
@@ -778,6 +772,13 @@
 		<SimpleData name="golvinNo">44</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>5.522904,34.636598,83</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Cherchell</SimpleData>
+		<SimpleData name="location">http://pleiades.stoa.org/places/295279#this</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.198958,36.60878,29</coordinates></Point>
   </Placemark>
 </Folder>
 <Schema name="OGRGeoJSON" id="OGRGeoJSON">
