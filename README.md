@@ -32,7 +32,7 @@ If you want to load this file into a geojson-aware mapping tool, use the URL:
  
 And a turtle version is at this URL:
 
- http://sfsheath.github.io/roman-amphitheaters/roman-amphitheaters.geojson/roman-amphitheaters.ttl
+ http://sfsheath.github.io/roman-amphitheaters/roman-amphitheaters.ttl
 
 As a convenience, here's a link that validates the geojson in the above file:
 
