@@ -1,0 +1,951 @@
+@base <http://sfsheath.github.io/roman-amphitheaters/roman-amphitheaters.geojson> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://sfsheath.github.io/roman-amphitheaters/abellaAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.4608415e1,
+       4.0961526e1,
+       224;
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/432617/location-of-roman-amphitheater>];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Abella";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/432617#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/albaFucensAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.3412317e1,
+       4.2077222e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Alba Fucens";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/413005#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/413005/amphitheater-of-alba-fucens>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/allifaeAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.4334692e1,
+       4.13259562e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Allifae";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/432658#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/432658/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/aquincumCivilAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.9047985e1,
+       4.7567577e1,
+       105;
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/197130/location-of-roman-amphitheater-1>];
+   rdfs:isDefinedBy [ dc:title "Civil Amphitheater at Aquincum";
+     dc:created "275"^^xsd:gDate;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/197130#this";
+     rdfs:seeAlso "http://en.wikipedia.org/wiki/Aquincum_Civil_Amphitheatre"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/aquincumMilitaryAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.9039066e1,
+       4.7532947e1,
+       101;
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/197130/location-of-roman-amphitheater-2>];
+   rdfs:isDefinedBy [ dc:title "Military Amphitheater at Aquincum";
+     dc:created "150"^^xsd:gDate;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/197130#this";
+     rdfs:seeAlso "http://en.wikipedia.org/wiki/Aquincum_Military_Amphitheatre"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/arlesAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 4.631111e0,
+       4.3677778e1,
+       21];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Arles";
+     <http://dbpedia.org/property/seatingCapacity> 20000;
+     dc:created "90"^^xsd:gDate;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/148217#this";
+     rdfs:seeAlso <http://pleiades.stoa.org/places/148217/location-of-roman-amphitheater>,
+       "http://en.wikipedia.org/wiki/Arles_Amphitheatre"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/arretiumAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.18796902e1,
+       4.34608671e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Arretium";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/413032#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/413032/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/asisiumAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.2620383e1,
+       4.3071022e1;
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/413037/roman-amphitheater-of-asisium>];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Asisium";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/413037#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/burdigalaAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> -5.83166e-1,
+       4.48478175e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Burdigala";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/138248#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/138248/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/cagliariAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 9.113227999999999e0,
+       3.9223908e1,
+       60];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Cagliari";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/471899#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/carnuntumLargeAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.6892619e1,
+       4.8126824e1,
+       164];
+   rdfs:isDefinedBy [ dc:title "Large amphitheater at Carnuntum";
+     <http://dbpedia.org/property/seatingCapacity> 15000;
+     dc:created "150"^^xsd:gDate;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/128376#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/carnuntumPetronellAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.6850943e1,
+       4.8110019e1,
+       185];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Carnuntum";
+     <http://dbpedia.org/property/seatingCapacity> 12000;
+     dc:created "100"^^xsd:gDate;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/128376#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/carsulaeAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.2559679e1,
+       4.26394249e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Carsulae";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/413065#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/413065/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/carthageAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.0314924e1,
+       3.6856078e1,
+       14];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Carthage";
+     <http://dbpedia.org/property/seatingCapacity> 30000;
+     dc:created "100"^^xsd:gDate;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/314921#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/carthagoNovaAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> -9.801609999999999e-1,
+       3.76006455e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Carthago Nova/Col. Urbs Iulia";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/265849#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/265849/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/casinumAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.3823575e1,
+       4.1482933e1,
+       73;
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/432764/loation-of-roman-amphitheater>];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Casinum";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/432764#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/cemenelumAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 7.2752435e0,
+       4.37196728e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Cemenelum";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/157834#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/157834/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/charterhouseAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> -2.7206451e0,
+       5.13054023e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Charterhouse";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/79534#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/79534/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/cherchellAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 2.198958e0,
+       3.660878e1,
+       29];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Cherchell";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/295279#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/civitasCamunnorumAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.0280644e1,
+       4.59438129e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Civitas Camunnorum";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/383617#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/383617/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/colAugustaRauricaAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 7.7210006e0,
+       4.75293018e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Col. Augusta Raurica";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/177494#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/177494/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/colForumIuliiAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 6.7283212e0,
+       4.34347293e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Col. Forum Iulii";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/157836#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/157836/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/conimbrigaAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> -8.49333e0,
+       4.0099444e1,
+       100];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Conimbriga";
+     <http://dbpedia.org/property/seatingCapacity> 4000;
+     dc:created "50"^^xsd:gDate;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/236443#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/cordubaColPatriciaAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> -4.7888426e0,
+       3.78841265e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Corduba/Col. Patricia";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/256128#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/256128/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/coriniumAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> -1.9714981e0,
+       5.17105802e1;
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/197225/location-of-roman-amphitheater>];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Corinium";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/197225#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/corinthAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 2.2892126e1,
+       3.7909629e1,
+       98];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Corinth";
+     dc:created "-44"^^xsd:gDate;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/570182#this";
+     rdfs:seeAlso <http://corinth.sas.upenn.edu/gisamphitheater.html>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/cumaeAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.4056e1,
+       4.0841847e1,
+       19];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Cumae";
+     dc:created "-100"^^xsd:gDate;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/432808#this";
+     rdfs:seeAlso <http://pleiades.stoa.org/places/432808/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/cyreneAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 2.1850808e1,
+       3.2824526e1,
+       550;
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/373778/cyrene-main-theatre>];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Cyrene";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/373778#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/devaAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> -2.8878093e0,
+       5.31892233e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Deva";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/79420#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/79420/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/duraEuroposAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 4.0728926e1,
+       3.4749855e1,
+       223];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Dura Europos";
+     <http://dbpedia.org/property/seatingCapacity> 1000;
+     dc:created "216"^^xsd:gDate;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/893989#this";
+     rdfs:comment "Capacity and date drawn from N. Pollard's \"Soldiers, Cities, and Civilians in Roman Syria\", p. 52"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/dyrrhachiumEpidamnosAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.94451802e1,
+       4.13123828e1;
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/481818/location-of-roman-amphitheater>];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Dyrr(h)achium/Epidamnos";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/481818#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/eleutheropolisAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 3.48939e1,
+       3.16082e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Eleutheropolis";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/687854#this";
+     rdfs:seeAlso <http://pleiades.stoa.org/places/687854/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/empuriesAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 3.117431e0,
+       4.2130042e1,
+       27];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Empuries";
+     <http://dbpedia.org/property/seatingCapacity> 3300;
+     dc:created "50"^^xsd:gDate;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/246382#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/flaviaSolvaAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.55657773e1,
+       4.67671535e1,
+       266;
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/197273/location-of-roman-amphitheater>];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Flavia Solva";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/197273#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/florentiaAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.12595198e1,
+       4.37687303e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Florentia";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/413138#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/413138/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/gemellaeAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 5.522904e0,
+       3.4636598e1,
+       83;
+     rdfs:comment "Location is of fort as a proxy for amphitheater."];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Gemellae";
+     <http://dbpedia.org/property/seatingCapacity> 3000;
+     dc:created "130"^^xsd:gDate;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/334553#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/gennesAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> -2.386057e-1,
+       4.73352194e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Gennes";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/138371#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/138371/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/gortynAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 2.4953076e1,
+       3.5056454e1,
+       150];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Gortyn";
+     dc:created "150"^^xsd:gDate;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/589796#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/grumentumAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.59115794e1,
+       4.02876404e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Grumentum";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/442603#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/442603/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/hadrianVillaAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.2778929e1,
+       4.1941708e1,
+       99];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Hadrian's Villa at Tivoli";
+     dc:created "120"^^xsd:gDate;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/423127#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/hispellumAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.26662021e1,
+       4.29957909e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Hispellum";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/413170#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/413170/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/hydataHypsitanaForumTraianiAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 8.804418800000001e0,
+       3.99931239e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Hydata Hypsitana/Forum Traiani";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/471947#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/471947/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/iscaAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> -2.956878e0,
+       5.1608059e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Isca";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/79532#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/79532/roman-amphitheatre>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/isuriumAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> -1.3796296e0,
+       5.40881157e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Isurium";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/89209#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/89209/possible-location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/italicaAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> -6.046742e0,
+       3.7443893e1,
+       17];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Italica";
+     <http://dbpedia.org/property/seatingCapacity> 25000;
+     dc:created 140;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/256231#this";
+     rdfs:seeAlso <http://pleiades.stoa.org/places/256231/roman-amphitheater-of-italica>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/kataneCatinaAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.5085323e1,
+       3.7507096e1,
+       31;
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/462270/location-of-roman-amphitheater>];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Katane/Catina";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/462270#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/korinionCironiumAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> -1.9714981e0,
+       5.17105802e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Korinion/Cironium";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/79549#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/79549/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/lambaesisAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 6.259935e0,
+       3.5489247e1;
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/334570/location-of-roman-amphitheater>];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Lambaesis";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/334570#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/larinumAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.49159226e1,
+       4.18058428e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Larinum";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/442629#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/442629/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/leptiminusAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.0866282e1,
+       3.5678077e1,
+       9];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Leptiminus";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/324767#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/leptisMagnaAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.4309452e1,
+       3.263234e1,
+       18];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Leptis Magna";
+     <http://dbpedia.org/property/seatingCapacity> 16000;
+     dc:created "56"^^xsd:gDate;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/344448#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/libarnaAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 8.867967e0,
+       4.4706013e1,
+       225];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Libarna";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/383694#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/383694/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/lixusAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> -6.1084683e0,
+       3.51999004e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Lixus";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/275666#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/275666/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/londiniumAugustaAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> -9.245e-2,
+       5.15156317e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Londinium/Augusta";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/79574#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/79574/location-of-roman-amphitheater-at-guildhall>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/lucaAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.05057722e1,
+       4.38455203e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Luca";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/403234#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/403234/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/luceriaNoukeriaAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.5344984e1,
+       4.1508249e1,
+       196;
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/442640/location-of-roman-amphitheater>];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Luceria/Noukeria (Apoulon)";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/442640#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/lucusFeroniaeAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.2594868e1,
+       4.2129831e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Lucus Feroniae";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/413184#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/413184/location-of-lucus-feroniae-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/lunaAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.0022386e1,
+       4.4062656e1,
+       4;
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/403235/location-of-roman-amphitheater-at-guildhall>];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Luna";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/403235#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/lutetiaAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 2.352855e0,
+       4.8845097e1,
+       46;
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/109126/location-of-arenes-de-lutece>];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Lutetia";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/109126#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/lyonAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 4.830556e0,
+       4.5770556e1,
+       206];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Lyon";
+     <http://dbpedia.org/property/seatingCapacity> 20000;
+     dc:created "19"^^xsd:gDate;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/167717#this";
+     rdfs:comment "The capacity refers to number of seats after the early 2nd AD century expansion. In AD 19 the capacity was under 2000.";
+     rdfs:seeAlso "http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/mactarisAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 9.2066727e0,
+       3.58556279e1;
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/324774/location-of-roman-amphitheater>];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Mactaris";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/324774#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/marcianopolisAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 2.7556674e1,
+       4.3218689e1,
+       120];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Marcianopolis (Devnya)";
+     <http://dbpedia.org/property/seatingCapacity> 4000;
+     dc:created "200"^^xsd:gDate;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/216878#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/mediolanumAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> -6.433512e-1,
+       4.57453926e1;
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/138458/location-of-gallo-roman-amphitheater>];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Mediolanum";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/138458#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/meridaAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> -6.337952e0,
+       3.8916168e1,
+       231];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Mérida (Emerita Augusta)";
+     <http://dbpedia.org/property/seatingCapacity> 15000;
+     dc:created "-8"^^xsd:gDate;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/256155#this";
+     rdfs:seeAlso "http://en.wikipedia.org/wiki/Mérida_amphitheatre"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/miciaAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 2.281731e1,
+       4.5915008e1,
+       183];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Micia";
+     <http://dbpedia.org/property/seatingCapacity> 1500;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/207286#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/nemaususAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 4.359599e0,
+       4.3834876e1,
+       50;
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/148142/arenes>];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Nemausus";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/148142#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/newsteadAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> -2.6919e0,
+       5.56026e1,
+       83];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Newstead (Trimontium)";
+     <http://dbpedia.org/property/seatingCapacity> 2000;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/89304#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/nijmegenAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 5.878859e0,
+       5.1838523e1,
+       46];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Nijmegen";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/98921#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/ocriculumAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.24671905e1,
+       4.24115648e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Ocriculum";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/413231#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/413231/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/octodurusForumClaudiiVallensiumAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 7.073493e0,
+       4.6094356e1,
+       480;
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/167859/location-of-roman-amphitheater>];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Octodurus/Forum Claudii Vallensium";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/167859#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/paestumAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.5006449e1,
+       4.0422354e1,
+       18;
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/442733/location-of-amphitheater>];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Paestum";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/442733#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/pompeiiAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.4495262e1,
+       4.0751213e1,
+       21];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Pompeii";
+     <http://dbpedia.org/property/seatingCapacity> 20000;
+     dc:created "-70"^^xsd:gDate;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/433032#this";
+     rdfs:seeAlso <http://pleiades.stoa.org/places/433032/amphitheater-of-pompeii>,
+       "http://en.wikipedia.org/wiki/Amphitheatre_of_Pompeii"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/porolissumAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 2.3154052e1,
+       4.7177552e1,
+       441];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Porolissum";
+     dc:created "157"^^xsd:gDate;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/207361#this";
+     rdfs:comment "There was a wooden predecessor."] .
+
+<http://sfsheath.github.io/roman-amphitheaters/pozzuoliEarlyAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.4127615e1,
+       4.0826239e1,
+       58];
+   rdfs:isDefinedBy [ dc:title "Early Amphitheater at Pozzuoli";
+     dc:created "-100"^^xsd:gDate;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/432815#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/pozzuoliFlavianAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.4125315e1,
+       4.0825929e1,
+       41];
+   rdfs:isDefinedBy [ dc:title "Flavian Amphitheater at Pozzuoli";
+     <http://dbpedia.org/property/seatingCapacity> 20000;
+     dc:created "70"^^xsd:gDate;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/432815#this";
+     rdfs:seeAlso "http://en.wikipedia.org/wiki/Flavian_Amphitheater_(Pozzuoli)"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/romeAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.2492269e1,
+       4.1890169e1,
+       22];
+   rdfs:isDefinedBy [ dc:title "Colosseum (Rome)";
+     <http://dbpedia.org/property/seatingCapacity> 50000;
+     dc:created "70"^^xsd:gDate;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/423025#this";
+     rdfs:seeAlso <http://pleiades.stoa.org/places/285857974/centerpoint-of-amphitheatrum-flavium>,
+       "http://en.wikipedia.org/wiki/Colosseum"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/rusellaeAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.1159132e1,
+       4.2828405e1,
+       165];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Rusellae";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/413288#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/413288/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/salonaAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.6473893e1,
+       4.35381718e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Salona";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/197488#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/197488/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/scylletiumScolaciumAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.65923292e1,
+       3.88068878e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Scylletium/Scolacium";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/452439#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/452439/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/scythopolisNysaAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 3.5501631e1,
+       3.2498395e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Scythopolis/Nysa";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/678378#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/678378/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/segobrigaAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> -2.813944e0,
+       3.9886018e1,
+       817],
+     [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> -2.8139756e0,
+       3.98859849e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Segobriga";
+     <http://dbpedia.org/property/seatingCapacity> 7500;
+     dc:created 90;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/266036#this";
+     rdfs:seeAlso <http://pleiades.stoa.org/places/266036/location-of-roman-amphitheater>],
+     [ dc:title "Amphitheater at Segobriga";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/266036#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/266036/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/sutriumAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.22293009e1,
+       4.22393124e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Sutrium";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/413328#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/413328/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/syracuseAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.5278934e1,
+       3.7074132e1,
+       23];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Syracuse";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/462503#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/tarragonaAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.25878e0,
+       4.1114522e1,
+       13];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Tarragona";
+     <http://dbpedia.org/property/seatingCapacity> 15000;
+     dc:created "100"^^xsd:gDate;
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/246349#this";
+     rdfs:seeAlso <http://pleiades.stoa.org/places/246349/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/telesiaAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.4500832e1,
+       4.12242769e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Telesia";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/433147#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/433147/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/thysdrusAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.0706939e1,
+       3.529639e1;
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/324835/amphitheatre-of-el-jem>];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Thysdrus";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/324835#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/tiburAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.2798114e1,
+       4.1960571e1,
+       248;
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/423081/location-of-anfiteatro-di-bleso>];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Tibur";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/423081#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/ulpiaTraianaSarmizegetusaAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 2.27853206e1,
+       4.55166773e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Ulpia Traiana Sarmizegetusa";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/207527#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/207527/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/urbsSalviaAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.33868508e1,
+       4.3201027e1;
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/413364/location-of-roman-amphitheater>];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Urbs Salvia";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/413364#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/uthinaAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.01696982e1,
+       3.66089698e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Uthina";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/315247#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/315247/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/veronaAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.09935591e1,
+       4.54390682e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Verona";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/383816#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/383816/location-of-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/vesunnaAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 7.133087e-1,
+       4.51831921e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Vesunna";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/138650#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/138650/location-of-roman-amphitheater>] .
+
+<http://sfsheath.github.io/roman-amphitheaters/viminaciumAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 2.1220083e1,
+       4.4737985e1,
+       72;
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/207549/location-of-roman-amphitheater>];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Viminacium";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/207549#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/vindonissaAmphitheater> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 8.213321799999999e0,
+       4.74767142e1;
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/177661/location-of-roman-amphitheater>];
+   rdfs:isDefinedBy [ dc:title "Amphitheater at Vindonissa";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/177661#this"] .
+
+<http://sfsheath.github.io/roman-amphitheaters/virunumAmphitheatre> a <http://geovocab.org/spatial#Feature>;
+   <http://geovocab.org/geometry#geometry> [ a <http://geovocab.org/geometry#Point>;
+     <http://example.org/geojsonUnorderedCoordArrayMember> 1.43669959e1,
+       4.66978777e1];
+   rdfs:isDefinedBy [ dc:title "Amphitheatre at Virunum";
+     <http://www.geonames.org/ontology#locatedIn> "http://pleiades.stoa.org/places/197583#this";
+     <http://www.w3.org/TR/prov-o/#wasDerivedFrom> <http://pleiades.stoa.org/places/197583/location-of-roman-amphitheater>] .
+
+ [ a rdfs:Resource;
+    rdfs:Resource <http://sfsheath.github.io/roman-amphitheaters/duraEuroposAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/arlesAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/lyonAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/romeAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/eleutheropolisAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/pompeiiAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/meridaAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/newsteadAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/conimbrigaAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/cumaeAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/pozzuoliFlavianAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/pozzuoliEarlyAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/syracuseAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/carthageAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/hadrianVillaAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/corinthAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/marcianopolisAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/porolissumAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/nijmegenAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/carnuntumLargeAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/carnuntumPetronellAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/leptisMagnaAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/empuriesAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/tarragonaAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/cagliariAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/italicaAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/segobrigaAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/kataneCatinaAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/paestumAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/lunaAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/casinumAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/viminaciumAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/flaviaSolvaAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/rusellaeAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/lutetiaAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/octodurusForumClaudiiVallensiumAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/cyreneAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/libarnaAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/luceriaNoukeriaAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/abellaAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/nemaususAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/charterhouseAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/devaAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/gennesAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/scythopolisNysaAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/scylletiumScolaciumAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/burdigalaAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/uthinaAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/carthagoNovaAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/virunumAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/carsulaeAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/florentiaAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/ocriculumAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/lixusAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/arretiumAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/larinumAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/lucusFeroniaeAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/allifaeAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/cemenelumAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/hydataHypsitanaForumTraianiAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/lucaAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/hispellumAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/veronaAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/aquincumCivilAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/aquincumMilitaryAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/isuriumAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/vesunnaAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/civitasCamunnorumAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/grumentumAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/cordubaColPatriciaAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/albaFucensAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/colAugustaRauricaAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/sutriumAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/ulpiaTraianaSarmizegetusaAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/salonaAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/korinionCironiumAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/londiniumAugustaAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/tiburAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/iscaAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/telesiaAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/urbsSalviaAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/mediolanumAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/asisiumAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/dyrrhachiumEpidamnosAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/lambaesisAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/mactarisAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/coriniumAmphitheatre>,
+      <http://sfsheath.github.io/roman-amphitheaters/vindonissaAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/thysdrusAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/colForumIuliiAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/gortynAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/leptiminusAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/miciaAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/gemellaeAmphitheater>,
+      <http://sfsheath.github.io/roman-amphitheaters/cherchellAmphitheater>] .
