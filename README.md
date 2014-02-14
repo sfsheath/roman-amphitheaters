@@ -30,8 +30,19 @@ If you want to load this file into a geojson-aware mapping tool, use the URL:
 
  http://sfsheath.github.io/roman-amphitheaters/roman-amphitheaters.geojson
  
+And a turtle version is at this URL:
+
+ http://sfsheath.github.io/roman-amphitheaters/roman-amphitheaters.geojson/roman-amphitheaters.ttl
+
 As a convenience, here's a link that validates the geojson in the above file:
 
  http://geojsonlint.com/validate?url=http%3A%2F%2Fsfsheath.github.io%2Froman-amphitheaters%2Froman-amphitheaters.geojson
+
+And here's an example of running the geojson through Greg Kellogg's online distiller:
+ 
+ http://rdf.greggkellogg.net/distiller?format=turtle&in_fmt=jsonld&uri=http://sfsheath.github.io/roman-amphitheaters/roman-amphitheaters.geojson
+
+ 
+
  
 What's the purpose? To explore reusable data. If it becomes a complete list of amphitheaters, that's a pleasant side-effect.
