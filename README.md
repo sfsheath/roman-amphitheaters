@@ -8,19 +8,23 @@ Some of this data comes from Wikipedia's list of Roman amphitheaters at http://e
 The basic json object for a "record" is:
 
 <pre>
-{
-      "type": "Feature",
+    {
+      "type":"Feature",
       "id":"arlesAmphitheater",
-      "properties": {
-        "dcterms:title": "Amphitheater at Arles",
-        "rdfs:seeAlso": "http://en.wikipedia.org/wiki/Arles_Amphitheatre",
-        "dcterms:created":90,
-        "capacity": 20000
+      "properties":{
+        "title":"Amphitheater at Arles",
+        "wikipedia":"http://en.wikipedia.org/wiki/Arles_Amphitheatre",
+        "created":90,
+        "capacity":20000,
+        "location":"http://pleiades.stoa.org/places/148217#this",
+        "rdfs:seeAlso":"http://pleiades.stoa.org/places/148217/location-of-roman-amphitheater"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.631111, 43.677778  
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          4.631111,
+          43.677778,
+          21
         ]
       }
     }
