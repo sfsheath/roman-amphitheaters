@@ -144,7 +144,8 @@
         "created":-70,
         "capacity":20000,
         "location":"http://pleiades.stoa.org/places/433032#this",
-        "rdfs:seeAlso":"http://pleiades.stoa.org/places/433032/amphitheater-of-pompeii"
+        "rdfs:seeAlso":"http://pleiades.stoa.org/places/433032/amphitheater-of-pompeii",
+        "welchID":"1"
       },
       "geometry":{
         "type":"Point",
@@ -216,7 +217,8 @@
         "title":"Amphitheater at Cumae",
         "created":-100,
         "location":"http://pleiades.stoa.org/places/432808#this",
-        "rdfs:seeAlso":"http://pleiades.stoa.org/places/432808/location-of-roman-amphitheater"
+        "rdfs:seeAlso":"http://pleiades.stoa.org/places/432808/location-of-roman-amphitheater",
+        "welchID":"4"
       },
       "geometry":{
         "type":"Point",
@@ -534,8 +536,8 @@
       "id":"kataneCatinaAmphitheater",
       "properties":{
         "title":"Amphitheater at Katane/Catina",
-        "location":"http://pleiades.stoa.org/places/462270#this"
-        
+        "location":"http://pleiades.stoa.org/places/462270#this",
+        "capacity":16000
       },
       "geometry":{
         "type":"Point",
@@ -1292,7 +1294,10 @@
       "properties":{
         "title":"Amphitheatre at Sutrium",
         "location":"http://pleiades.stoa.org/places/413328#this",
-        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/413328/location-of-roman-amphitheater"
+        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/413328/location-of-roman-amphitheater",
+        "capacity":8500,
+        "created":-50,
+        "welchID": "15"
       },
       "geometry":{
         "type":"Point",
@@ -1404,8 +1409,11 @@
       "id":"telesiaAmphitheatre",
       "properties":{
         "title":"Amphitheatre at Telesia",
+        "created": -75,
+        "capacity": 9000,
         "location":"http://pleiades.stoa.org/places/433147#this",
-        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/433147/location-of-roman-amphitheater"
+        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/433147/location-of-roman-amphitheater",
+        "welchID":"9"
       },
       "geometry":{
         "type":"Point",
@@ -1628,7 +1636,7 @@
         "title":"Amphitheater at Gemellae",
         "capacity": 3000,
         "created": 130,
-        "golvinNo": 44,
+        "golvinID": "44",
         "location": "http://pleiades.stoa.org/places/334553#this"
       },
       "geometry":{
