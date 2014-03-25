@@ -142,7 +142,7 @@
         "title":"Amphitheater at Pompeii",
         "wikipedia":"http://en.wikipedia.org/wiki/Amphitheatre_of_Pompeii",
         "created":-70,
-        "capacity":20000,
+        "capacity":22000,
         "location":"http://pleiades.stoa.org/places/433032#this",
         "rdfs:seeAlso":"http://pleiades.stoa.org/places/433032/amphitheater-of-pompeii",
         "welchID":"1"
@@ -554,7 +554,10 @@
       "id":"paestumAmphitheater",
       "properties":{
         "title":"Amphitheatre at Paestum",
-        "location":"http://pleiades.stoa.org/places/442733#this"
+        "created": -75,
+        "capacity": 4500,
+        "location":"http://pleiades.stoa.org/places/442733#this",
+        "welchID": "10"
       },
       "geometry":{
         "type":"Point",
@@ -1556,7 +1559,9 @@
       "id":"thysdrusAmphitheater",
       "properties":{
         "title":"Amphitheater at Thysdrus",
-        "location":"http://pleiades.stoa.org/places/324835#this"
+        "location":"http://pleiades.stoa.org/places/324835#this",
+        "created": 238,
+        "capacity": 35000
       },
       "geometry":{
         "type":"Point",
