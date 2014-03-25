@@ -1130,6 +1130,8 @@
       "id":"veronaAmphitheatre",
       "properties":{
         "title":"Amphitheatre at Verona",
+        "created":30,
+        "capacity": 30000,
         "location":"http://pleiades.stoa.org/places/383816#this",
         "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/383816/location-of-amphitheater"
       },
