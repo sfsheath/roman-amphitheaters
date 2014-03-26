@@ -385,7 +385,7 @@
       "type":"Feature",
       "id":"nijmegenAmphitheater",
       "properties":{
-        "dcterms:title":"Amphitheater at Nijmegen",
+        "title":"Amphitheater at Nijmegen",
         "location":"http://pleiades.stoa.org/places/98921#this"
       },
       "geometry":{
@@ -508,8 +508,8 @@
       "type":"Feature",
       "id":"italicaAmphitheater",
       "properties":{
-        "dcterms:title":"Amphitheater at Italica",
-        "dcterms:created":140,
+        "title":"Amphitheater at Italica",
+        "created":140,
         "capacity":25000,
         "location":"http://pleiades.stoa.org/places/256231#this",
         "rdfs:seeAlso":"http://pleiades.stoa.org/places/256231/roman-amphitheater-of-italica"
@@ -527,8 +527,8 @@
       "type":"Feature",
       "id":"segobrigaAmphitheater",
       "properties":{
-        "dcterms:title":"Amphitheater at Segobriga",
-        "dcterms:created":90,
+        "title":"Amphitheater at Segobriga",
+        "created":90,
         "capacity":7500,
         "location":"http://pleiades.stoa.org/places/266036#this",
         "rdfs:seeAlso":"http://pleiades.stoa.org/places/266036/location-of-roman-amphitheater"
