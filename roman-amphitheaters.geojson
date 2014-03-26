@@ -142,10 +142,25 @@
         "title":"Amphitheater at Pompeii",
         "wikipedia":"http://en.wikipedia.org/wiki/Amphitheatre_of_Pompeii",
         "created":-70,
+        "last use":79,
         "capacity":22000,
         "location":"http://pleiades.stoa.org/places/433032#this",
         "rdfs:seeAlso":"http://pleiades.stoa.org/places/433032/amphitheater-of-pompeii",
-        "welchID":"1"
+        "welchID":"1",
+                "bibliography": [
+                    {
+                        "item": {
+                            "dc:bibliographicCitation": "P. Zanker, <i>Pompeii: Public and private life</i> (Cambridge, MA, 1998) 68-72."
+                        },
+                        "worldcat": "http://www.worldcat.org/oclc/39143166"
+                    },
+                    {
+                        "item": {
+                            "dc:bibliographicCitation": "K. Welch, <i>The Roman Amphitheater from its Origins to the Colosseum</i> (Cambridge, MA, 2007) 192-198."
+                        },
+                        "worldcat": "http://www.worldcat.org/oclc/39143166"
+                    }
+                    ]
       },
       "geometry":{
         "type":"Point",
