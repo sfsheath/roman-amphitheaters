@@ -46,7 +46,7 @@
       "properties":{
         "title":"Amphitheater at Dura Europos",
         "created":216,
-        "capacity":1000,
+        "capacity":10000,
         "rdfs:comment":"Capacity and date drawn from N. Pollard's \"Soldiers, Cities, and Civilians in Roman Syria\", p. 52",
         "location":"http://pleiades.stoa.org/places/893989#this"
       },
