@@ -1670,6 +1670,22 @@
           29
         ]
       }
+    },{
+      "type":"Feature",
+      "id":"pulaAmphitheater",
+      "properties":{
+        "title":"Amphitheater at Pula",
+        "created":1,
+        "capacity":26000
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          13.850243,
+          44.873229,
+          16
+        ]
+      }
     }
   ]
 } 
