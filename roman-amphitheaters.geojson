@@ -769,9 +769,11 @@
     },
     {
       "type":"Feature",
-      "id":"nemaususAmphitheater",
+      "id":"nimesAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Nemausus",
+        "title":"Amphitheatre at Nimes",
+        "created": 90,
+        "capacity": 24000,
         "location":"http://pleiades.stoa.org/places/148142#this"
       },
       "geometry":{
@@ -885,6 +887,8 @@
       "id":"uthinaAmphitheatre",
       "properties":{
         "title":"Amphitheatre at Uthina",
+        "created":120,
+        "capacity": 16000,
         "location":"http://pleiades.stoa.org/places/315247#this",
         "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/315247/location-of-roman-amphitheater"
       },
