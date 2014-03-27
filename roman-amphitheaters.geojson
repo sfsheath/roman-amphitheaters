@@ -1,5 +1,6 @@
 {
   "@context":{
+    "@base": "http://example.org/",
     "Feature":"http://geovocab.org/spatial#Feature",
     "FeatureCollection":"rdfs:Resource",
     "Point":"http://geovocab.org/geometry#Point",
@@ -1147,6 +1148,7 @@
         "title":"Amphitheatre at Verona",
         "created":30,
         "capacity": 30000,
+        "wikipedia":"https://en.wikipedia.org/wiki/Verona_Arena",
         "location":"http://pleiades.stoa.org/places/383816#this",
         "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/383816/location-of-amphitheater"
       },
