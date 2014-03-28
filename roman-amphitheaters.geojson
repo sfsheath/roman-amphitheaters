@@ -17,6 +17,9 @@
     "capacity":{
       "@id":"http://dbpedia.org/property/seatingCapacity"
     },
+    "comment":{
+      "@id":"rdfs:comment"
+    },
     "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
     "rdfs:seeAlso":{
       "@type":"@id"
@@ -798,8 +801,9 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          -2.7206451,
-          51.305402299999997
+            -2.720301,
+            51.305437,
+            296
         ]
       }
     },
@@ -808,15 +812,16 @@
       "id":"devaAmphitheatre",
       "properties":{
         "title":"Amphitheatre at Deva",
-        "location":"http://pleiades.stoa.org/places/79420#this",
-        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/79420/location-of-roman-amphitheater"
+        "location":"http://pleiades.stoa.org/places/79420#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          -2.8878092999999998,
-          53.189223300000002
-        ]
+            -2.886928,
+            53.189079,
+            23
+        ],
+        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/79420/location-of-roman-amphitheater"
       }
     },
     {
@@ -824,15 +829,15 @@
       "id":"gennesAmphitheatre",
       "properties":{
         "title":"Amphitheatre at Gennes",
-        "location":"http://pleiades.stoa.org/places/138371#this",
-        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/138371/location-of-roman-amphitheater"
+        "location":"http://pleiades.stoa.org/places/138371#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
           -0.2386057,
           47.3352194
-        ]
+        ],
+        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/138371/location-of-roman-amphitheater"
       }
     },
     {
@@ -840,15 +845,15 @@
       "id":"scythopolisNysaAmphitheatre",
       "properties":{
         "title":"Amphitheatre at Scythopolis/Nysa",
-        "location":"http://pleiades.stoa.org/places/678378#this",
-        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/678378/location-of-roman-amphitheater"
+        "location":"http://pleiades.stoa.org/places/678378#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
           35.501631000000003,
           32.498395000000002
-        ]
+        ],
+        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/678378/location-of-roman-amphitheater"
       }
     },
     {
@@ -1701,6 +1706,24 @@
           13.850243,
           44.873229,
           16
+        ]
+      }
+    },{
+      "type":"Feature",
+      "id":"carmonaAmphitheater",
+      "properties":{
+        "title":"Amphitheater at Carmona",
+        "created": -50,
+        "capacity": 8000,
+        "comment": "Size is only estimate based Welch reporting a comparison with Sutrium.",
+        "welchID": "17"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -5.650907,
+          37.469674,
+          223
         ]
       }
     }
