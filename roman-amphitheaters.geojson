@@ -1855,7 +1855,7 @@
         "title":"Amphitheater at Caesarea",
         "buildingtype" : "amphitheater",
         "created": 150,
-        "comment": "Date very approximate.",
+        "comment": "Date very approximate."
       },
       "geometry":{
         "type":"Point",
