@@ -1848,6 +1848,23 @@
           223
         ]
       }
+    },{
+      "type":"Feature",
+      "id":"caesareaAmphitheater",
+      "properties":{
+        "title":"Amphitheater at Caesarea",
+        "buildingtype" : "amphitheater",
+        "created": 150,
+        "comment": "Date very approximate.",
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           34.897451,
+           32.506473,
+           11
+        ]
+      }
     }
   ]
 } 
