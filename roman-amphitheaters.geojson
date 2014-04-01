@@ -227,8 +227,10 @@
       "properties":{
         "title":"Amphitheater at Newstead (Trimontium)",
         "buildingtype" : "amphitheater",
+        "created" : 80,
         "capacity":2000,
-        "location":"http://pleiades.stoa.org/places/89304#this"
+        "location":"http://pleiades.stoa.org/places/89304#this",
+        "comment" : "Date based on main period of military activity at the site."
       },
       "geometry":{
         "type":"Point",
