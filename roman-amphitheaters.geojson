@@ -1867,6 +1867,25 @@
            11
         ]
       }
+    },,{
+      "type":"Feature",
+      "id":"pergamumAmphitheater",
+      "properties":{
+        "title":"Amphitheater at Pergamum",
+        "buildingtype" : "amphitheater",
+        "created": 100,
+        "capacity": 25000,
+        "comment": "Date very approximate."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           27.174177,
+           39.125751,
+           11
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ]
 } 
