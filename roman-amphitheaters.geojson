@@ -1882,7 +1882,24 @@
         "coordinates":[
            27.174177,
            39.125751,
-           11
+           100
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"anazarbusAmphitheater",
+      "properties":{
+        "title":"Amphitheater at Anazarbus",
+        "buildingtype" : "amphitheater",
+        "comment": "Location not confirmed."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          35.900509,
+          37.248241,
+          50
         ],
         "source":"http://maps.google.com/"
       }
