@@ -1922,6 +1922,22 @@
         ],
         "source":"http://maps.google.com/"
       }
-    }   
+    },{
+      "type":"Feature",
+      "id":"cyzicusAmphitheater",
+      "properties":{
+        "title":"Amphitheater at Cyzicus",
+        "buildingtype" : "amphitheater",
+        "comment": "Location not specific.",
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           27.89,
+           40.38
+        ],
+        "source":"http://maps.google.com/"
+      }
+    }
   ]
-} 
+}
