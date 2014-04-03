@@ -1928,7 +1928,7 @@
       "properties":{
         "title":"Amphitheater at Cyzicus",
         "buildingtype" : "amphitheater",
-        "comment": "Location not specific.",
+        "comment": "Location not specific."
       },
       "geometry":{
         "type":"Point",
