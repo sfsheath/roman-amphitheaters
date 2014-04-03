@@ -1903,6 +1903,24 @@
         ],
         "source":"http://maps.google.com/"
       }
-    }
+    },{
+      "type":"Feature",
+      "id":"antiochAmphitheater",
+      "properties":{
+        "title":"Amphitheater at Antioch",
+        "created": -50,
+        "buildingtype" : "amphitheater",
+        "comment": "Location not specific.",
+        "welchID": "19"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+            36.160437,
+            36.202624,
+            89
+        ],
+        "source":"http://maps.google.com/"
+      }
   ]
 } 
