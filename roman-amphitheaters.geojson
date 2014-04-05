@@ -1526,7 +1526,7 @@
       "properties":{
         "title":"Amphitheater at Caerleon",
         "buildingtype" : "amphitheater",
-        "location":"http://pleiades.stoa.org/places/79532#this",
+        "location":"http://pleiades.stoa.org/places/79532#this"
       },
       "geometry":{
         "type":"Point",
