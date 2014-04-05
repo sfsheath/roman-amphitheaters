@@ -1938,6 +1938,24 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"sabrathaAmphitheater",
+      "properties":{
+        "title":"Amphitheater at Sabratha",
+        "buildingtype" : "amphitheater",
+        "capacity" : 20700,
+        "created" : 125
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           12.494040,
+           32.803879,
+           11
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ]
 }
