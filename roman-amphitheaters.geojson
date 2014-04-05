@@ -1522,19 +1522,20 @@
     },
     {
       "type":"Feature",
-      "id":"iscaAmphitheater",
+      "id":"caerleonAmphitheater",
       "properties":{
-        "title":"Amphitheater at Isca",
+        "title":"Amphitheater at Caerleon",
         "buildingtype" : "amphitheater",
         "location":"http://pleiades.stoa.org/places/79532#this",
-        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/79532/roman-amphitheatre"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
           -2.9568780000000001,
-          51.608058999999997
-        ]
+          51.608058999999997,
+          13
+        ],
+        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/79532/roman-amphitheatre"
       }
     },
     {
@@ -1976,7 +1977,7 @@
       "type":"Feature",
       "id":"paphosAmphitheater",
       "properties":{
-        "title":"Amphitheater at Salamis",
+        "title":"Amphitheater at Paphos",
         "buildingtype" : "amphitheater"
       },
       "geometry":{
@@ -1985,6 +1986,54 @@
            32.405344,
            34.754942,
            6
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"carmarthenAmphitheater",
+      "properties":{
+        "title":"Amphitheater at Carmarthen",
+        "buildingtype" : "amphitheater"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           -4.296651,
+           51.862005,
+           29
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"caerwentAmphitheater",
+      "properties":{
+        "title":"Amphitheater at Caerwent",
+        "buildingtype" : "amphitheater"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           -2.766307,
+           51.612173,
+           25
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"tomen-y-murAmphitheater",
+      "properties":{
+        "title":"Amphitheater at Tomen y Mur",
+        "buildingtype" : "amphitheater"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           -3.923500,
+           52.931893,
+           295
         ],
         "source":"http://maps.google.com/"
       }
