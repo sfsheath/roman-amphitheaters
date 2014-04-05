@@ -1956,6 +1956,38 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"salamisAmphitheater",
+      "properties":{
+        "title":"Amphitheater at Salamis",
+        "buildingtype" : "amphitheater",
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           33.902435,
+           35.185517,
+           6
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"paphosAmphitheater",
+      "properties":{
+        "title":"Amphitheater at Salamis",
+        "buildingtype" : "amphitheater",
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           32.405344,
+           34.754942,
+           6
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ]
 }
