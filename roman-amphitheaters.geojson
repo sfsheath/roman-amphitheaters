@@ -2037,6 +2037,24 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },,{
+      "type":"Feature",
+      "id":"thaenaeAmphitheater",
+      "properties":{
+        "title":"Amphitheater at Thaenae",
+        "buildingtype" : "amphitheater",
+        "created" : 125,
+        "capacity" : 8700
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           10.673126,
+           34.655481,
+           7
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ]
 }
