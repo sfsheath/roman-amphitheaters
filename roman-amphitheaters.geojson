@@ -5,7 +5,8 @@
     "FeatureCollection":"rdfs:Resource",
     "Point":"http://geovocab.org/geometry#Point",
     "coordinates":{
-      "@id":"http://example.org/geojsonUnorderedCoordArrayMember"
+      "@id":"http://example.org/geojsonUnorderedCoordArrayMember",
+      "@container":"@list"
     },
     "features":"rdfs:Resource",
     "geometry":"http://geovocab.org/geometry#geometry",
