@@ -1187,23 +1187,6 @@
     },
     {
       "type":"Feature",
-      "id":"segobrigaAmphitheater",
-      "properties":{
-        "title":"Amphitheater at Segobriga",
-        "buildingtype" : "amphitheater",
-        "location":"http://pleiades.stoa.org/places/266036#this",
-        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/266036/location-of-roman-amphitheater"
-      },
-      "geometry":{
-        "type":"Point",
-        "coordinates":[
-          -2.8139756,
-          39.885984899999997
-        ]
-      }
-    },
-    {
-      "type":"Feature",
       "id":"lucaAmphitheater",
       "properties":{
         "title":"Amphitheater at Luca",
