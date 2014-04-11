@@ -2058,6 +2058,24 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"thevesteAmphitheater",
+      "properties":{
+        "title":"Amphitheater at Theveste",
+        "buildingtype" : "amphitheater",
+        "created" : 120,
+        "capacity" : 14200
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           8.123809,
+           35.401171,
+           877
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ]
 }
