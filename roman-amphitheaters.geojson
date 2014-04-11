@@ -1686,7 +1686,8 @@
         "buildingtype" : "amphitheater",
         "location":"http://pleiades.stoa.org/places/324835#this",
         "created": 238,
-        "capacity": 35000
+        "capacity": 35000,
+        "youtube" : "https://www.youtube.com/watch?v=bDDyEMg34Os"
       },
       "geometry":{
         "type":"Point",
@@ -2073,6 +2074,25 @@
            8.123809,
            35.401171,
            877
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"trierAmphitheater",
+      "properties":{
+        "title":"Amphitheater at Trier",
+        "buildingtype" : "amphitheater",
+        "created" : 100,
+        "capacity" : 20000,
+        "youtube" : "https://www.youtube.com/watch?v=WYOvPyCntiY"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           6.649088,
+           49.748052,
+           168
         ],
         "source":"http://maps.google.com/"
       }
