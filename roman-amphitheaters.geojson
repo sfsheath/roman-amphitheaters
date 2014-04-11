@@ -2028,7 +2028,8 @@
         "title":"Amphitheater at Thaenae",
         "buildingtype" : "amphitheater",
         "created" : 125,
-        "capacity" : 8700
+        "capacity" : 8700,
+        "golvinID" : "71"
       },
       "geometry":{
         "type":"Point",
@@ -2036,6 +2037,24 @@
            10.673126,
            34.655481,
            7
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"sbeitlaAmphitheater",
+      "properties":{
+        "title":"Amphitheater at Sbeitla",
+        "buildingtype" : "amphitheater",
+        "created" : 160,
+        "capacity" : 6600
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           9.114582,
+           35.243617,
+           556
         ],
         "source":"http://maps.google.com/"
       }
