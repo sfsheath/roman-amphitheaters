@@ -978,9 +978,9 @@
            10.169215,
            36.608597,
            112
-        ],
+        ]
+      },
         "prov:wasDerivedFrom" : "http://maps.google.com"
-      }
     },
     {
       "type":"Feature",
