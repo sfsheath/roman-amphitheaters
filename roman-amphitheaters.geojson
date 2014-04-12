@@ -970,7 +970,7 @@
         "buildingtype" : "amphitheater",
         "created":120,
         "capacity": 16000,
-        "location":"http://pleiades.stoa.org/places/315247#this",
+        "location":"http://pleiades.stoa.org/places/315247#this"
       },
       "geometry":{
         "type":"Point",
@@ -978,9 +978,9 @@
            10.169215,
            36.608597,
            112
-        ]
-      },
-        "prov:wasDerivedFrom" : "http://maps.google.com"
+        ],
+        "source" : "http://maps.google.com"
+      }
     },
     {
       "type":"Feature",
