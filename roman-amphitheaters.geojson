@@ -971,14 +971,15 @@
         "created":120,
         "capacity": 16000,
         "location":"http://pleiades.stoa.org/places/315247#this",
-        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/315247/location-of-roman-amphitheater"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          10.169698199999999,
-          36.608969799999997
-        ]
+           10.169215,
+           36.608597,
+           112
+        ],
+        "prov:wasDerivedFrom" : "http://maps.google.com"
       }
     },
     {
@@ -1234,8 +1235,9 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          10.993559100000001,
-          45.439068200000001
+          10.994350,
+          45.439040,
+          62
         ]
       }
     },
@@ -1414,7 +1416,8 @@
         "type":"Point",
         "coordinates":[
           12.2293009,
-          42.239312400000003
+          42.239312400000003,
+          271
         ]
       }
     },
@@ -1537,8 +1540,9 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          14.500832000000001,
-          41.2242769
+          14.500496,
+          41.223911,
+          68
         ]
       }
     },
@@ -1693,7 +1697,8 @@
         "type":"Point",
         "coordinates":[
           10.706939,
-          35.296390000000002
+          35.296390000000002,
+          111
         ],
         "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/324835/amphitheatre-of-el-jem"
       }
