@@ -1684,6 +1684,26 @@
     },
     {
       "type":"Feature",
+      "id":"thysdrusSmallAmphitheater",
+      "properties":{
+        "title":"Small Amphitheater at Thysdrus",
+        "buildingtype" : "amphitheater",
+        "location":"http://pleiades.stoa.org/places/324835#this",
+        "created": 125,
+        "capacity": 9000
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          10.707911,
+          35.290106,
+          116
+        ],
+        "prov:wasDerivedFrom":"http://maps.google.com/"
+      }
+    },
+    {
+      "type":"Feature",
       "id":"thysdrusAmphitheater",
       "properties":{
         "title":"Amphitheater at Thysdrus",
