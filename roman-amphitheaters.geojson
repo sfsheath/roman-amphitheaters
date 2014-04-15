@@ -1599,17 +1599,21 @@
     },
     {
       "type":"Feature",
-      "id":"dyrrhachiumEpidamnosAmphitheatre",
+      "id":"durresAmphitheatre",
       "properties":{
-        "title":"Amphitheatre at Dyrr(h)achium/Epidamnos",
+        "title":"Amphitheatre at Durrës",
+        "created" : 100,
+        "capacity" : 20000,
         "buildingtype" : "amphitheater",
-        "location":"http://pleiades.stoa.org/places/481818#this"
+        "location":"http://pleiades.stoa.org/places/481818#this",
+        "wikipedia" : "http://en.wikipedia.org/wiki/Durrës_Amphitheatre"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          19.445180199999999,
-          41.312382800000002
+           19.445131,
+           41.312241,
+           15
         ],
         "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/481818/location-of-roman-amphitheater"
       }
@@ -2118,6 +2122,41 @@
            6.649088,
            49.748052,
            168
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"susaAmphitheater",
+      "properties":{
+        "title":"Amphitheater at Susa",
+        "latinName" : "Segusium",
+        "created" : -20,
+        "buildingtype" : "amphitheater",
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           7.044970,
+           45.133185,
+           546
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"ivreaAmphitheater",
+      "properties":{
+        "title":"Amphitheater at Ivrea",
+        "latinName" : "Eporedia",
+        "buildingtype" : "amphitheater",
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           7.887734,
+           45.467767,
+           240
         ],
         "source":"http://maps.google.com/"
       }
