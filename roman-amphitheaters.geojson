@@ -2149,7 +2149,7 @@
       "properties":{
         "title":"Amphitheater at Ivrea",
         "latinName" : "Eporedia",
-        "buildingtype" : "amphitheater",
+        "buildingtype" : "amphitheater"
       },
       "geometry":{
         "type":"Point",
