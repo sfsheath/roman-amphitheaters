@@ -1389,14 +1389,17 @@
       "properties":{
         "title":"Amphitheatre at Col. Augusta Raurica",
         "buildingtype" : "amphitheater",
+        "created" : 200,
+        "capacity" : 6000,
         "location":"http://pleiades.stoa.org/places/177494#this",
         "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/177494/location-of-roman-amphitheater"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          7.7210006,
-          47.529301799999999
+           7.720610,
+           47.529294,
+           285
         ]
       }
     },
