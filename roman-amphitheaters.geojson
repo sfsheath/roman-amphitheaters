@@ -1675,15 +1675,18 @@
       "properties":{
         "title":"Amphitheater at Vindonissa",
         "buildingtype" : "amphitheater",
+        "created" : 50,
+        "capacity" : 11000,
         "location":"http://pleiades.stoa.org/places/177661#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          8.2133217999999992,
-          47.476714200000004
+           8.213605,
+           47.476290,
+           361
         ],
-        "prov:wasDerivedFrom":"http://pleiades.stoa.org/places/177661/location-of-roman-amphitheater"
+        "prov:wasDerivedFrom":"http://maps.google.com/"
       }
     },
     {
