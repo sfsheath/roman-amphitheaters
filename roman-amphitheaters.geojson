@@ -2132,7 +2132,7 @@
         "title":"Amphitheater at Susa",
         "latinName" : "Segusium",
         "created" : -20,
-        "buildingtype" : "amphitheater",
+        "buildingtype" : "amphitheater"
       },
       "geometry":{
         "type":"Point",
