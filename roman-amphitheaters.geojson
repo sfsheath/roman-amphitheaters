@@ -2156,6 +2156,25 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"bararusAmphitheater",
+      "properties":{
+        "title":"Amphitheater at Bararus",
+        "created": 220,
+        "buildingtype" : "amphitheater",
+        "comment" : "Unfinished? Considered the last North African amphitheater.",
+        "location": "http://pleiades.stoa.org/places/324673#this"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           10.791226,
+           35.211828,
+           68
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ]
 }
