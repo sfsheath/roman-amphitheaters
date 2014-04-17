@@ -27,15 +27,15 @@
       },
     "capacity":{"@id":"http://dbpedia.org/property/seatingCapacity" },
     "comment":{"@id":"rdfs:comment" },
-    "see":{"@id":"rdfs:seeAlso","@type":"@id" },
-    "wikipedia":{"@id":"rdfs:seeAlso","@type":"@id"},
-    "title":{"@id":"dcterms:title"},
     "created":{
       "@id":"dcterms:created",
       "@type":"xsd:gDate"
     },
     "location":{"@id":"gn:locatedIn","@type":"@id"},
+    "see":{"@id":"rdfs:seeAlso","@type":"@id" },
     "source":{"@id":"prov:wasDerivedFrom","@type":"@id" }
+    "title":{"@id":"dcterms:title"},
+    "wikipedia":{"@id":"rdfs:seeAlso","@type":"@id"},
   },
 
   "type":"FeatureCollection",
@@ -44,11 +44,11 @@
       "type":"Feature",
       "id":"duraEuroposAmphitheater",
       "properties":{
-        "title":"Amphitheater at Dura Europos",
         "buildingtype" : "amphitheater",
         "created":216,
         "capacity":1000,
-        "rdfs:comment":"Capacity and date drawn from N. Pollard's \"Soldiers, Cities, and Civilians in Roman Syria\", p. 52",
+        "title":"Amphitheater at Dura Europos",
+        "comment":"Capacity and date drawn from N. Pollard's \"Soldiers, Cities, and Civilians in Roman Syria\", p. 52",
         "location":"http://pleiades.stoa.org/places/893989#this"
       },
       "geometry":{
@@ -64,13 +64,13 @@
       "type":"Feature",
       "id":"arlesAmphitheater",
       "properties":{
-        "title":"Amphitheater at Arles",
         "buildingtype" : "amphitheater",
-        "wikipedia":"http://en.wikipedia.org/wiki/Arles_Amphitheatre",
         "created":90,
         "capacity":20000,
         "location":"http://pleiades.stoa.org/places/148217#this",
         "see":"http://pleiades.stoa.org/places/148217/location-of-roman-amphitheater"
+        "title":"Amphitheater at Arles",
+        "wikipedia":"http://en.wikipedia.org/wiki/Arles_Amphitheatre",
       },
       "geometry":{
         "type":"Point",
@@ -88,7 +88,7 @@
         "title":"Amphitheater at Lyon",
         "buildingtype" : "amphitheater",
         "wikipedia":"http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls",
-        "rdfs:comment":"The capacity refers to number of seats after the early 2nd AD century expansion. In AD 19 the capacity was under 2000.",
+        "comment":"The capacity refers to number of seats after the early 2nd AD century expansion. In AD 19 the capacity was under 2000.",
         "created":19,
         "capacity":20000,
         "location":"http://pleiades.stoa.org/places/167717#this"
@@ -409,7 +409,7 @@
         "title":"Amphitheater at Porolissum",
         "buildingtype" : "amphitheater",
         "created":157,
-        "rdfs:comment":"There was a wooden predecessor.",
+        "comment":"There was a wooden predecessor.",
         "location":"http://pleiades.stoa.org/places/207361#this"
       },
       "geometry":{
@@ -1808,7 +1808,7 @@
           34.636598,
           83
         ],
-        "rdfs:comment": "Location is of fort as a proxy for amphitheater."
+        "comment": "Location is of fort as a proxy for amphitheater."
       }
     },{
       "type":"Feature",
