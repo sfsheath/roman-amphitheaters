@@ -39,6 +39,7 @@
   },
 
   "type":"FeatureCollection",
+  "@id":"http://example.org/list-of-roman-amphitheaters",
   "features":[
     {
       "type":"Feature",
@@ -173,7 +174,7 @@
         "location":"http://pleiades.stoa.org/places/433032#this",
         "see":"http://pleiades.stoa.org/places/433032/amphitheater-of-pompeii",
         "welchID":"1",
-                "bibliography": [
+        "bibliography": [
                     {
                         "dc:bibliographicCitation": "P. Zanker, <i>Pompeii: Public and private life</i> (Cambridge, MA, 1998) 68-72.",
                         "worldcat": "http://www.worldcat.org/oclc/39143166"
