@@ -4,33 +4,34 @@
     "gn":"http://www.geonames.org/ontology#",
     "prov":"http://www.w3.org/TR/prov-o/#",
     "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
+    "xsd":"http://www.w3.org/2001/XMLSchema#",
 
     "@base": "http://example.org/",
+   
+    "id":"@id",
     "features":"@graph",
     "Feature":{"@id":"http://geovocab.org/spatial#Feature"},
-    "Point":"http://geovocab.org/geometry#Point",
+    "Point":{"@id":"http://geovocab.org/geometry#Point"},
     "coordinates":{
       "@id":"http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
       "@container":"@list"
     },
     "geometry":{"@id":"http://geovocab.org/geometry#geometry"},
-    "id":"@id",
     "properties":{ "@id":"rdfs:isDefinedBy" },
     "buildingtype" : {
       "@id" : "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
       "@type" : "@id"
       },
-    "capacity":{ "@id":"http://dbpedia.org/property/seatingCapacity" },
-    "comment":{ "@id":"rdfs:comment" },
+    "capacity":{"@id":"http://dbpedia.org/property/seatingCapacity" },
+    "comment":{"@id":"rdfs:comment" },
     "see":{"@id":"rdfs:seeAlso" },
     "wikipedia":{"@id":"rdfs:seeAlso"},
-    "xsd":"http://www.w3.org/2001/XMLSchema#",
     "title":{"@id":"dcterms:title"},
     "created":{
       "@id":"dcterms:created",
       "@type":"xsd:gDate"
     },
-    "location":"gn:locatedIn",
+    "location":{"@id":"gn:locatedIn"},
     "source":{"@id":"prov:wasDerivedFrom" }
   },
   "type":"FeatureCollection",
