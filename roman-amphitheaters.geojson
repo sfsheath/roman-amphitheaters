@@ -2,13 +2,12 @@
   "@context":{
     "@base": "http://example.org/",
     "Feature":"http://geovocab.org/spatial#Feature",
-    "FeatureCollection":"rdfs:Resource",
     "Point":"http://geovocab.org/geometry#Point",
     "coordinates":{
       "@id":"http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
       "@container":"@list"
     },
-    "features":"rdfs:Resource",
+    "features":"@graph",
     "geometry":"http://geovocab.org/geometry#geometry",
     "id":"@id",
     "properties":{
