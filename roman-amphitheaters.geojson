@@ -9,7 +9,7 @@
     "@base": "http://example.org/",
    
     "id":"@id",
-    "features":"@graph",
+    "features":{"@id":"rdfs:resource","@container":"@set"},
 
     "Feature":{"@id":"http://geovocab.org/spatial#Feature"},
     "Point":{"@id":"http://geovocab.org/geometry#Point"},
@@ -26,15 +26,15 @@
       },
     "capacity":{"@id":"http://dbpedia.org/property/seatingCapacity" },
     "comment":{"@id":"rdfs:comment" },
-    "see":{"@id":"rdfs:seeAlso" },
-    "wikipedia":{"@id":"rdfs:seeAlso"},
+    "see":{"@id":"rdfs:seeAlso","@type":"@id" },
+    "wikipedia":{"@id":"rdfs:seeAlso","@type":"@id"},
     "title":{"@id":"dcterms:title"},
     "created":{
       "@id":"dcterms:created",
       "@type":"xsd:gDate"
     },
-    "location":{"@id":"gn:locatedIn"},
-    "source":{"@id":"prov:wasDerivedFrom" }
+    "location":{"@id":"gn:locatedIn","@type":"@id"},
+    "source":{"@id":"prov:wasDerivedFrom","@type":"@id" }
   },
 
   "type":"FeatureCollection",
