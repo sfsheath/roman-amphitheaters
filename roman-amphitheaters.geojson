@@ -20,6 +20,7 @@
     },
     "geometry":{"@id":"http://geovocab.org/geometry#geometry"},
     "properties":{ "@id":"rdfs:isDefinedBy" },
+
     "buildingtype" : {
       "@id" : "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
       "@type" : "@id"
@@ -69,7 +70,7 @@
         "created":90,
         "capacity":20000,
         "location":"http://pleiades.stoa.org/places/148217#this",
-        "rdfs:seeAlso":"http://pleiades.stoa.org/places/148217/location-of-roman-amphitheater"
+        "see":"http://pleiades.stoa.org/places/148217/location-of-roman-amphitheater"
       },
       "geometry":{
         "type":"Point",
@@ -370,7 +371,7 @@
         "title":"Amphitheater at Corinth",
         "buildingtype" : "amphitheater",
         "created":-44,
-        "rdfs:seeAlso":"http://corinth.sas.upenn.edu/gisamphitheater.html",
+        "see":"http://corinth.sas.upenn.edu/gisamphitheater.html",
         "location":"http://pleiades.stoa.org/places/570182#this"
       },
       "geometry":{
