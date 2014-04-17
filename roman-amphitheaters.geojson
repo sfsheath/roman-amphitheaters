@@ -132,7 +132,7 @@
         "created":80,
         "capacity":50000,
         "location":"http://pleiades.stoa.org/places/423025#this",
-        "rdfs:seeAlso":"http://pleiades.stoa.org/places/285857974/centerpoint-of-amphitheatrum-flavium"
+        "see":"http://pleiades.stoa.org/places/285857974/centerpoint-of-amphitheatrum-flavium"
       },
       "geometry":{
         "type":"Point",
@@ -150,7 +150,7 @@
         "title":"Amphitheater at Eleutheropolis",
         "buildingtype" : "amphitheater",
         "location":"http://pleiades.stoa.org/places/687854#this",
-        "rdfs:seeAlso":"http://pleiades.stoa.org/places/687854/location-of-roman-amphitheater"
+        "see":"http://pleiades.stoa.org/places/687854/location-of-roman-amphitheater"
       },
       "geometry":{
         "type":"Point",
@@ -171,7 +171,7 @@
         "last use":79,
         "capacity":22000,
         "location":"http://pleiades.stoa.org/places/433032#this",
-        "rdfs:seeAlso":"http://pleiades.stoa.org/places/433032/amphitheater-of-pompeii",
+        "see":"http://pleiades.stoa.org/places/433032/amphitheater-of-pompeii",
         "welchID":"1",
                 "bibliography": [
                     {
@@ -260,7 +260,7 @@
         "buildingtype" : "amphitheater",
         "created":-100,
         "location":"http://pleiades.stoa.org/places/432808#this",
-        "rdfs:seeAlso":"http://pleiades.stoa.org/places/432808/location-of-roman-amphitheater",
+        "see":"http://pleiades.stoa.org/places/432808/location-of-roman-amphitheater",
         "welchID":"4"
       },
       "geometry":{
@@ -523,7 +523,7 @@
         "created":100,
         "capacity":15000,
         "location":"http://pleiades.stoa.org/places/246349#this",
-        "rdfs:seeAlso":"http://pleiades.stoa.org/places/246349/location-of-roman-amphitheater"
+        "see":"http://pleiades.stoa.org/places/246349/location-of-roman-amphitheater"
       },
       "geometry":{
         "type":"Point",
@@ -560,7 +560,7 @@
         "created":140,
         "capacity":25000,
         "location":"http://pleiades.stoa.org/places/256231#this",
-        "rdfs:seeAlso":"http://pleiades.stoa.org/places/256231/roman-amphitheater-of-italica"
+        "see":"http://pleiades.stoa.org/places/256231/roman-amphitheater-of-italica"
       },
       "geometry":{
         "type":"Point",
@@ -580,7 +580,7 @@
         "created":90,
         "capacity":7500,
         "location":"http://pleiades.stoa.org/places/266036#this",
-        "rdfs:seeAlso":"http://pleiades.stoa.org/places/266036/location-of-roman-amphitheater"
+        "see":"http://pleiades.stoa.org/places/266036/location-of-roman-amphitheater"
       },
       "geometry":{
         "type":"Point",
