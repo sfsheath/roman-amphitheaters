@@ -9,7 +9,7 @@
     "@base": "http://example.org/",
    
     "id":"@id",
-    "features":{"@id":"rdfs:resource","@container":"@set"},
+    "features":"@graph",
 
     "Feature":{"@id":"http://geovocab.org/spatial#Feature"},
     "Point":{"@id":"http://geovocab.org/geometry#Point"},
