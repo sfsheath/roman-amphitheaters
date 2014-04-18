@@ -6,31 +6,23 @@
     "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
     "xsd":"http://www.w3.org/2001/XMLSchema#",
 
-    "@base": "http://example.org/",
+    "@base": "http://purl.org/roman-amphitheaters/id/",
    
-    "id":"@id",
-    "features":"@graph",
-
     "Feature":{"@id":"http://geovocab.org/spatial#Feature"},
+    "FeatureCollection":{"@id":"http://example.org/vocab#FeatureCollection"},
     "Point":{"@id":"http://geovocab.org/geometry#Point"},
 
-    "coordinates":{
-      "@id":"http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
-      "@container":"@list"
-    },
+    "coordinates":{ "@id":"http://www.w3.org/1999/02/22-rdf-syntax-ns#value", "@container":"@list" },
+    "features":"@graph",
     "geometry":{"@id":"http://geovocab.org/geometry#geometry"},
+    "id":"@id",
     "properties":{ "@id":"rdfs:isDefinedBy" },
+    "type":"@type",
 
-    "buildingtype" : {
-      "@id" : "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-      "@type" : "@id"
-      },
+    "buildingtype" : { "@id" : "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", "@type" : "@id" },
     "capacity":{"@id":"http://dbpedia.org/property/seatingCapacity" },
     "comment":{"@id":"rdfs:comment" },
-    "created":{
-      "@id":"dcterms:created",
-      "@type":"xsd:gDate"
-    },
+    "created":{ "@id":"dcterms:created", "@type":"xsd:gDate" },
     "location":{"@id":"gn:locatedIn","@type":"@id"},
     "see":{"@id":"rdfs:seeAlso","@type":"@id" },
     "source":{"@id":"prov:wasDerivedFrom","@type":"@id" },
@@ -39,7 +31,7 @@
   },
 
   "type":"FeatureCollection",
-  "@id":"http://example.org/list-of-roman-amphitheaters",
+  "@id":"http://purl.org/roman-amphitheaters/",
   "features":[
     {
       "type":"Feature",
