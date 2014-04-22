@@ -3,7 +3,7 @@ roman-amphitheaters
 
 A re-usable list of Roman Amphitheaters. Currently formatted as geojson with a json-ld context. It's very incomplete as, depending on how you define the term, there are some 200+ amphitheaters known from the Roman world.
 
-Some of this data comes from Wikipedia's list of Roman amphitheaters at http://en.wikipedia.org/wiki/List_of_Roman_amphitheatres . I used that as a starting point but have made corrections.
+Some of this data comes from Wikipedia's list of Roman amphitheaters at http://en.wikipedia.org/wiki/List_of_Roman_amphitheatres . I used that as a starting point but have made corrections. Tom Elliot added data from the Pleiades Project. See roman-amphitheaters.geojson for other contributors.
 
 The basic json object for a "record" is:
 
@@ -46,7 +46,12 @@ And here's an example of running the geojson through Greg Kellogg's online disti
  
  http://rdf.greggkellogg.net/distiller?format=turtle&in_fmt=jsonld&uri=http://sfsheath.github.io/roman-amphitheaters/roman-amphitheaters.geojson
 
- 
-
+##Why?
  
 What's the purpose? To explore reusable data. If it becomes a complete list of amphitheaters, that's a pleasant side-effect.
+
+##See Also
+
+* [Interactive map](http://sfsheath.github.io/roman-amphitheaters-map/)
+* [Compare attributes](http://bl.ocks.org/sfsheath/9745576). (Give the data a while to load)
+
