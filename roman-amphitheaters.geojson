@@ -6,7 +6,7 @@
     "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
     "xsd":"http://www.w3.org/2001/XMLSchema#",
 
-    "@base": "http://purl.org/roman-amphitheaters/id/",
+    "@base": "http://purl.org/roman-amphitheaters/id/#",
    
     "Feature":{"@id":"http://geovocab.org/spatial#Feature"},
     "FeatureCollection":{"@id":"http://example.org/vocab#FeatureCollection"},
@@ -31,7 +31,7 @@
   },
 
   "type":"FeatureCollection",
-  "@id":"http://purl.org/roman-amphitheaters/",
+  "@id":"http://purl.org/roman-amphitheaters",
   "features":[
     {
       "type":"Feature",
