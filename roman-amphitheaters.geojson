@@ -138,6 +138,27 @@
     },
     {
       "type":"Feature",
+      "id":"romeAmphitheatrumCastrense",
+      "properties":{
+        "title":"Amphitheatrum Castrense (Rome)",
+        "buildingtype" : "amphitheater",
+        "wikipedia":"http://en.wikipedia.org/wiki/Amphitheatrum_Castrense",
+        "created":218,
+        "capacity":7000,
+        "comment": "Brick construction.",
+        "location":"http://pleiades.stoa.org/places/423025#this"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          12.515144,
+          41.887715,
+          48
+        ]
+      }
+    },
+    {
+      "type":"Feature",
       "id":"eleutheropolisAmphitheater",
       "properties":{
         "title":"Amphitheater at Eleutheropolis",
