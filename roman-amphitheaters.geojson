@@ -953,19 +953,22 @@
     },
     {
       "type":"Feature",
-      "id":"burdigalaAmphitheatre",
+      "id":"bordeauxAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Burdigala",
+        "title":"Amphitheater at Bordeaux",
         "buildingtype" : "amphitheater",
-        "location":"http://pleiades.stoa.org/places/138248#this",
-        "source":"http://pleiades.stoa.org/places/138248/location-of-roman-amphitheater"
+        "capacity":28700,
+        "created":220,
+        "location":"http://pleiades.stoa.org/places/138248#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          -0.58316599999999996,
-          44.847817499999998
-        ]
+           -0.582476,
+           44.847382,
+           17
+        ],
+        "source":["http://maps.google.com/","http://pleiades.stoa.org/places/138248/location-of-roman-amphitheater"]
       }
     },
     {
