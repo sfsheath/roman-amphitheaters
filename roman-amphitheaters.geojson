@@ -146,6 +146,7 @@
         "created":218,
         "capacity":7000,
         "comment": "Brick construction.",
+        "golvinID": "189",
         "location":"http://pleiades.stoa.org/places/423025#this"
       },
       "geometry":{
