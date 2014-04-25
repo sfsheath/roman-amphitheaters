@@ -3,6 +3,7 @@
 <Document><Folder><name>OGRGeoJSON</name>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="period">Septimius Severus</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">216</SimpleData>
 		<SimpleData name="capacity">1000</SimpleData>
@@ -26,6 +27,7 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="period">Tiberius</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">19</SimpleData>
 		<SimpleData name="capacity">20000</SimpleData>
@@ -62,6 +64,20 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="period">Caracalla</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="created">218</SimpleData>
+		<SimpleData name="capacity">7000</SimpleData>
+		<SimpleData name="title">Amphitheatrum Castrense (Rome)</SimpleData>
+		<SimpleData name="comment">Brick construction.</SimpleData>
+		<SimpleData name="location">http://pleiades.stoa.org/places/423025#this</SimpleData>
+		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Amphitheatrum_Castrense</SimpleData>
+		<SimpleData name="golvinID">189</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>12.515144,41.887715,48</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="title">Amphitheater at Eleutheropolis</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/687854#this</SimpleData>
@@ -71,6 +87,7 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="period">Republican</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">-70</SimpleData>
 		<SimpleData name="capacity">22000</SimpleData>
@@ -86,6 +103,7 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="period">Augustus</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">-8</SimpleData>
 		<SimpleData name="capacity">15000</SimpleData>
@@ -129,6 +147,7 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="period">Vespasian</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">70</SimpleData>
 		<SimpleData name="capacity">20000</SimpleData>
@@ -140,6 +159,7 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="period">Republican</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">-100</SimpleData>
 		<SimpleData name="title">Early Amphitheater at Pozzuoli</SimpleData>
@@ -176,6 +196,7 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="period">Julius Caesar</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">-44</SimpleData>
 		<SimpleData name="title">Amphitheater at Corinth</SimpleData>
@@ -234,6 +255,7 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="period">Septimius Severus</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">56</SimpleData>
 		<SimpleData name="capacity">16000</SimpleData>
@@ -458,11 +480,13 @@
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="title">Amphitheatre at Burdigala</SimpleData>
+		<SimpleData name="created">220</SimpleData>
+		<SimpleData name="capacity">28700</SimpleData>
+		<SimpleData name="title">Amphitheater at Bordeaux</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/138248#this</SimpleData>
-		<SimpleData name="source">http://pleiades.stoa.org/places/138248/location-of-roman-amphitheater</SimpleData>
+		<SimpleData name="golvinID">188</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-0.583166,44.8478175</coordinates></Point>
+      <Point><coordinates>-0.582476,44.847382,17</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
@@ -854,6 +878,7 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="period">Gordion III</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">238</SimpleData>
 		<SimpleData name="capacity">35000</SimpleData>
@@ -1091,8 +1116,21 @@
 	</SchemaData></ExtendedData>
       <Point><coordinates>10.791226,35.211828,68</coordinates></Point>
   </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="period">Septimius Severus</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="created">212</SimpleData>
+		<SimpleData name="capacity">20000</SimpleData>
+		<SimpleData name="title">Amphitheater at Castra Albana</SimpleData>
+		<SimpleData name="location">http://pleiades.stoa.org/places/422885#this</SimpleData>
+		<SimpleData name="golvinID">190</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>12.66501,41.732637,454</coordinates></Point>
+  </Placemark>
 </Folder>
 <Schema name="OGRGeoJSON" id="OGRGeoJSON">
+	<SimpleField name="period" type="string"></SimpleField>
 	<SimpleField name="buildingtype" type="string"></SimpleField>
 	<SimpleField name="created" type="int"></SimpleField>
 	<SimpleField name="capacity" type="int"></SimpleField>
@@ -1101,12 +1139,12 @@
 	<SimpleField name="location" type="string"></SimpleField>
 	<SimpleField name="see" type="string"></SimpleField>
 	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleField name="golvinID" type="string"></SimpleField>
 	<SimpleField name="last use" type="int"></SimpleField>
 	<SimpleField name="welchID" type="string"></SimpleField>
 	<SimpleField name="bibliography" type="string"></SimpleField>
 	<SimpleField name="source" type="string"></SimpleField>
 	<SimpleField name="youtube" type="string"></SimpleField>
-	<SimpleField name="golvinID" type="string"></SimpleField>
 	<SimpleField name="latinName" type="string"></SimpleField>
 </Schema>
 </Document></kml>

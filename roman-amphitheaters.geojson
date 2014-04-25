@@ -32,11 +32,13 @@
 
   "type":"FeatureCollection",
   "@id":"http://purl.org/roman-amphitheaters",
+  "see": ["http://en.wikipedia.org/wiki/Roman_amphitheatre","http://en.wikipedia.org/wiki/List_of_Roman_amphitheatres"],
   "features":[
     {
       "type":"Feature",
       "id":"duraEuroposAmphitheater",
       "properties":{
+        "period": "Septimius Severus",
         "buildingtype" : "amphitheater",
         "created":216,
         "capacity":1000,
@@ -83,6 +85,7 @@
         "comment":"The capacity refers to number of seats after the early 2nd AD century expansion. In AD 19 the capacity was under 2000.",
         "created":19,
         "capacity":20000,
+        "period": "Tiberius",
         "location":"http://pleiades.stoa.org/places/167717#this",
         "wikipedia":"http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls"
       },
@@ -146,6 +149,7 @@
         "created":218,
         "capacity":7000,
         "comment": "Brick construction.",
+        "period": "Caracalla",
         "golvinID": "189",
         "location":"http://pleiades.stoa.org/places/423025#this"
       },
@@ -186,6 +190,7 @@
         "last use":79,
         "capacity":22000,
         "location":"http://pleiades.stoa.org/places/433032#this",
+        "period": "Republican",
         "see":"http://pleiades.stoa.org/places/433032/amphitheater-of-pompeii",
         "welchID":"1",
         "bibliography": [
@@ -214,10 +219,11 @@
       "properties":{
         "title":"Amphitheater at Mérida (Emerita Augusta)",
         "buildingtype" : "amphitheater",
-        "wikipedia":"http://en.wikipedia.org/wiki/Mérida_amphitheatre",
-        "created":-8,
         "capacity":15000,
-        "location":"http://pleiades.stoa.org/places/256155#this"
+        "created":-8,
+        "period" : "Augustus",
+        "location":"http://pleiades.stoa.org/places/256155#this",
+        "wikipedia":"http://en.wikipedia.org/wiki/Mérida_amphitheatre"
       },
       "geometry":{
         "type":"Point",
@@ -253,7 +259,7 @@
       "id":"conimbrigaAmphitheater",
       "properties":{
         "title":"Amphitheater at Conimbriga",
-        "buildingtype" : "amphitheater",
+        "buildingtype": "amphitheater",
         "created":50,
         "capacity":4000,
         "location":"http://pleiades.stoa.org/places/236443#this"
@@ -295,6 +301,7 @@
         "buildingtype" : "amphitheater",
         "created":70,
         "capacity":20000,
+        "period": "Vespasian",
         "wikipedia":"http://en.wikipedia.org/wiki/Flavian_Amphitheater_(Pozzuoli)",
         "location":"http://pleiades.stoa.org/places/432815#this"
       },
@@ -314,6 +321,7 @@
         "title":"Early Amphitheater at Pozzuoli",
         "buildingtype" : "amphitheater",
         "created":-100,
+        "period": "Republican",
         "location":"http://pleiades.stoa.org/places/432815#this"
       },
       "geometry":{
@@ -386,6 +394,7 @@
         "title":"Amphitheater at Corinth",
         "buildingtype" : "amphitheater",
         "created":-44,
+        "period": "Julius Caesar",
         "see":"http://corinth.sas.upenn.edu/gisamphitheater.html",
         "location":"http://pleiades.stoa.org/places/570182#this"
       },
@@ -499,6 +508,7 @@
         "buildingtype" : "amphitheater",
         "created":56,
         "capacity":16000,
+        "period": "Septimius Severus",
         "location":"http://pleiades.stoa.org/places/344448#this"
       },
       "geometry":{
@@ -959,6 +969,7 @@
         "buildingtype" : "amphitheater",
         "capacity":28700,
         "created":220,
+        "golvinID": "188",
         "location":"http://pleiades.stoa.org/places/138248#this"
       },
       "geometry":{
@@ -1095,19 +1106,23 @@
     },
     {
       "type":"Feature",
-      "id":"arretiumAmphitheatre",
+      "id":"arezzoAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Arretium",
+        "title":"Amphitheatre at Arezzo",
         "buildingtype" : "amphitheater",
-        "location":"http://pleiades.stoa.org/places/413032#this",
-        "source":"http://pleiades.stoa.org/places/413032/location-of-roman-amphitheater"
+        "created": 80,
+        "capacity": 8000,
+        "latintoponym": "Arretium",
+        "location":"http://pleiades.stoa.org/places/413032#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          11.879690200000001,
-          43.460867100000002
-        ]
+           11.880370,
+           43.460491,
+           263
+        ],
+        "source":["http://pleiades.stoa.org/places/413032/location-of-roman-amphitheater","http://maps.google.com/"]
       }
     },
     {
@@ -1707,9 +1722,9 @@
       "properties":{
         "title":"Small Amphitheater at Thysdrus",
         "buildingtype" : "amphitheater",
-        "location":"http://pleiades.stoa.org/places/324835#this",
         "created": 125,
-        "capacity": 9000
+        "capacity": 9000,
+        "location":"http://pleiades.stoa.org/places/324835#this"
       },
       "geometry":{
         "type":"Point",
@@ -1730,6 +1745,7 @@
         "location":"http://pleiades.stoa.org/places/324835#this",
         "created": 238,
         "capacity": 35000,
+        "period": "Gordion III",
         "youtube" : "https://www.youtube.com/watch?v=bDDyEMg34Os"
       },
       "geometry":{
@@ -2201,6 +2217,7 @@
         "buildingtype" : "amphitheater",
         "capacity": 20000,
         "created": 212,
+        "period" : "Septimius Severus",
         "golvinID": "190",
         "location": "http://pleiades.stoa.org/places/422885#this",
         "title":"Amphitheater at Castra Albana"
