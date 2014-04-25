@@ -2194,6 +2194,27 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"castraAlbanaAmphitheater",
+      "properties":{
+        "buildingtype" : "amphitheater",
+        "capacity": 20000,
+        "created": 212,
+        "golvinID": "190",
+        "location": "http://pleiades.stoa.org/places/422885#this",
+        "title":"Amphitheater at Castra Albana"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           12.665010,
+           41.732637,
+           454
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
+
   ]
 }
