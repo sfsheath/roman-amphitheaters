@@ -395,6 +395,7 @@
         "title":"Amphitheater at Corinth",
         "buildingtype" : "amphitheater",
         "created":-44,
+        "capacity": 14000,
         "period": "Julius Caesar",
         "see":"http://corinth.sas.upenn.edu/gisamphitheater.html",
         "location":"http://pleiades.stoa.org/places/570182#this"
