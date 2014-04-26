@@ -24,6 +24,7 @@
     "comment":{"@id":"rdfs:comment" },
     "created":{ "@id":"dcterms:created", "@type":"xsd:gDate" },
     "location":{"@id":"gn:locatedIn","@type":"@id"},
+    "period": {"@id":"dcterms:coverage","@type":"@id"},
     "see":{"@id":"rdfs:seeAlso","@type":"@id" },
     "source":{"@id":"prov:wasDerivedFrom","@type":"@id" },
     "title":{"@id":"dcterms:title"},
