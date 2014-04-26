@@ -52,6 +52,7 @@ What's the purpose? To explore reusable data. If it becomes a complete list of a
 
 ##See Also
 
+* [Not always up to date CSV Version](http://purl.org/roman-amphitheaters/ra.csv). This will redirect to a long and ugly URL that initiates a SPARQL query with output set to CSV.
 * [Interactive map](http://sfsheath.github.io/roman-amphitheaters-map/)
 * [Compare attributes](http://bl.ocks.org/sfsheath/9745576). (Give the data a while to load)
 
