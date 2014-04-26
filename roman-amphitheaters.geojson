@@ -1008,15 +1008,16 @@
       "properties":{
         "title":"Amphitheatre at Carthago Nova/Col. Urbs Iulia",
         "buildingtype" : "amphitheater",
-        "location":"http://pleiades.stoa.org/places/265849#this",
-        "source":"http://pleiades.stoa.org/places/265849/location-of-roman-amphitheater"
+        "location":"http://pleiades.stoa.org/places/265849#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
           -0.98016099999999995,
-          37.600645499999999
-        ]
+          37.600645499999999,
+          23
+        ],
+        "source":"http://pleiades.stoa.org/places/265849/location-of-roman-amphitheater"
       }
     },
     {
@@ -1609,19 +1610,21 @@
     },
     {
       "type":"Feature",
-      "id":"asisiumAmphitheatre",
+      "id":"assisiAmphitheatre",
       "properties":{
-        "title":"Amphitheatre at Asisium",
+        "title":"Amphitheatre at Assisi",
         "buildingtype" : "amphitheater",
-        "location":"http://pleiades.stoa.org/places/413037#this"
+        "location":"http://pleiades.stoa.org/places/413037#this",
+        "youtube": "https://www.youtube.com/watch?v=uLSmRRxtf4M"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          12.620383,
-          43.071021999999999
+             12.620454,
+             43.071077,
+             445
         ],
-        "source":"http://pleiades.stoa.org/places/413037/roman-amphitheater-of-asisium"
+        "source":["http://pleiades.stoa.org/places/413037/roman-amphitheater-of-asisium","http://maps.google.com"]
       }
     },
     {
