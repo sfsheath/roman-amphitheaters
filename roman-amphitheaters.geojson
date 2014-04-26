@@ -1614,6 +1614,7 @@
       "properties":{
         "title":"Amphitheatre at Assisi",
         "buildingtype" : "amphitheater",
+        "latintoponym": "Asisium",
         "location":"http://pleiades.stoa.org/places/413037#this",
         "youtube": "https://www.youtube.com/watch?v=uLSmRRxtf4M"
       },
