@@ -39,10 +39,11 @@
       "type":"Feature",
       "id":"duraEuroposAmphitheater",
       "properties":{
-        "period": "Septimius Severus",
         "buildingtype" : "amphitheater",
         "created":216,
+        "chronogroup": "Severan",
         "capacity":1000,
+        "emperor": "Septimius Severus",
         "title":"Amphitheater at Dura Europos",
         "comment":"Capacity and date drawn from N. Pollard's \"Soldiers, Cities, and Civilians in Roman Syria\", p. 52",
         "location":"http://pleiades.stoa.org/places/893989#this"
@@ -63,6 +64,7 @@
         "buildingtype" : "amphitheater",
         "created":90,
         "capacity":20000,
+        "chronogroup": "Flavian",
         "location":"http://pleiades.stoa.org/places/148217#this",
         "see":"http://pleiades.stoa.org/places/148217/location-of-roman-amphitheater",
         "title":"Amphitheater at Arles",
@@ -86,8 +88,9 @@
         "comment":"The capacity refers to number of seats after the early 2nd AD century expansion. In AD 19 the capacity was under 2000.",
         "created":19,
         "capacity":20000,
-        "period": "Tiberius",
+        "chronogroup": "Julio-Claudian",
         "location":"http://pleiades.stoa.org/places/167717#this",
+        "emperor": "Tiberius",
         "wikipedia":"http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls"
       },
       "geometry":{
@@ -129,6 +132,8 @@
         "created":80,
         "capacity":50000,
         "location":"http://pleiades.stoa.org/places/423025#this",
+        "emperor": "Vespasian",
+        "chronogroup": "Flavian",
         "see":"http://pleiades.stoa.org/places/285857974/centerpoint-of-amphitheatrum-flavium"
       },
       "geometry":{
@@ -150,7 +155,8 @@
         "created":218,
         "capacity":7000,
         "comment": "Brick construction.",
-        "period": "Caracalla",
+        "chronogroup": "Severan",
+        "emperor": "Caracalla",
         "golvinID": "189",
         "location":"http://pleiades.stoa.org/places/423025#this"
       },
@@ -191,7 +197,7 @@
         "last use":79,
         "capacity":22000,
         "location":"http://pleiades.stoa.org/places/433032#this",
-        "period": "Republican",
+        "chronogroup": "republican",
         "see":"http://pleiades.stoa.org/places/433032/amphitheater-of-pompeii",
         "welchID":"1",
         "bibliography": [
@@ -221,9 +227,10 @@
         "title":"Amphitheater at Mérida (Emerita Augusta)",
         "buildingtype" : "amphitheater",
         "capacity":15000,
+        "chronogroup": "Julio-Claudian",
         "created":-8,
-        "period" : "Augustus",
         "location":"http://pleiades.stoa.org/places/256155#this",
+        "emperor" : "Augustus",
         "wikipedia":"http://en.wikipedia.org/wiki/Mérida_amphitheatre"
       },
       "geometry":{
@@ -241,8 +248,9 @@
       "properties":{
         "title":"Amphitheater at Newstead (Trimontium)",
         "buildingtype" : "amphitheater",
-        "created" : 80,
         "capacity":2000,
+        "chronogroup": "Flavian",
+        "created" : 80,
         "location":"http://pleiades.stoa.org/places/89304#this",
         "comment" : "Date based on main period of military activity at the site."
       },
@@ -280,6 +288,7 @@
       "properties":{
         "title":"Amphitheater at Cumae",
         "buildingtype" : "amphitheater",
+        "chronogroup": "republican",
         "created":-100,
         "location":"http://pleiades.stoa.org/places/432808#this",
         "see":"http://pleiades.stoa.org/places/432808/location-of-roman-amphitheater",
@@ -303,6 +312,7 @@
         "created":70,
         "capacity":20000,
         "period": "Vespasian",
+        "chronogroup": "Flavian",
         "wikipedia":"http://en.wikipedia.org/wiki/Flavian_Amphitheater_(Pozzuoli)",
         "location":"http://pleiades.stoa.org/places/432815#this"
       },
@@ -322,7 +332,7 @@
         "title":"Early Amphitheater at Pozzuoli",
         "buildingtype" : "amphitheater",
         "created":-100,
-        "period": "Republican",
+        "period": "republican",
         "location":"http://pleiades.stoa.org/places/432815#this"
       },
       "geometry":{
@@ -510,8 +520,9 @@
         "buildingtype" : "amphitheater",
         "created":56,
         "capacity":16000,
-        "period": "Septimius Severus",
-        "location":"http://pleiades.stoa.org/places/344448#this"
+        "chronogroup": "Severan",
+        "location":"http://pleiades.stoa.org/places/344448#this",
+        "period": "Septimius Severus"
       },
       "geometry":{
         "type":"Point",
@@ -643,6 +654,7 @@
       "properties":{
         "title":"Amphitheatre at Paestum",
         "buildingtype" : "amphitheater",
+        "chronogroup": "republican",
         "created": -75,
         "capacity": 4500,
         "location":"http://pleiades.stoa.org/places/442733#this",
@@ -864,6 +876,7 @@
         "buildingtype" : "amphitheater",
         "created": 90,
         "capacity": 24000,
+        "chronogroup": "Flavian",
         "location":"http://pleiades.stoa.org/places/148142#this"
       },
       "geometry":{
@@ -1751,6 +1764,7 @@
         "location":"http://pleiades.stoa.org/places/324835#this",
         "created": 238,
         "capacity": 35000,
+        "chronogroup": "Post-Severan",
         "period": "Gordion III",
         "youtube" : "https://www.youtube.com/watch?v=bDDyEMg34Os"
       },
@@ -2223,9 +2237,10 @@
         "buildingtype" : "amphitheater",
         "capacity": 20000,
         "created": 212,
-        "period" : "Septimius Severus",
+        "chronogroup": "Severan",
         "golvinID": "190",
         "location": "http://pleiades.stoa.org/places/422885#this",
+        "emperor" : "Septimius Severus",
         "title":"Amphitheater at Castra Albana"
       },
       "geometry":{
