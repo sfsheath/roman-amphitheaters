@@ -578,7 +578,10 @@
       "properties":{
         "title":"Amphitheater at Cagliari",
         "buildingtype" : "amphitheater",
-        "location":"http://pleiades.stoa.org/places/471899#this"
+        "capacity": 10000,
+        "created": 100,
+        "location":"http://pleiades.stoa.org/places/471899#this",
+        "wikipedia": "http://en.wikipedia.org/wiki/Roman_Amphitheatre_of_Cagliari"
       },
       "geometry":{
         "type":"Point",
@@ -586,7 +589,8 @@
           9.113228,
           39.223908,
           60
-        ]
+        ],
+        "source": "http://maps.google.com/"
       }
     },
     {
@@ -2252,7 +2256,43 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"sophiaAmphitheater",
+      "properties":{
+        "buildingtype" : "amphitheater",
+        "capacity": 20000,
+        "created": 284,
+        "chronogroup": "Post-Severan",
+        "emperor": "Diocletian",
+        "latintoponyn": "Ulpia Serdica",
+        "title":"Amphitheater at Sophia"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           23.328650,
+           42.697178,
+           554
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"ptolemaisAmphitheater",
+      "properties":{
+        "buildingtype" : "amphitheater",
+        "title":"Amphitheater at Ptolemais"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           20.945728,
+           32.707953,
+           12
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
-
   ]
 }
