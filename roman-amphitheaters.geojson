@@ -2293,6 +2293,23 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"toulouseAmphitheater",
+      "properties":{
+        "buildingtype" : "amphitheater",
+        "created": 50,
+        "title":"Amphitheater at Toulouse"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           1.397664,
+           43.614808,
+           149 
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ]
 }
