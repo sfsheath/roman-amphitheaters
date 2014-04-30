@@ -88,7 +88,7 @@
         "comment":"The capacity refers to number of seats after the early 2nd AD century expansion. In AD 19 the capacity was under 2000.",
         "created":19,
         "capacity":20000,
-        "chronogroup": "Julio-Claudian",
+        "chronogroup": "Second Century",
         "location":"http://pleiades.stoa.org/places/167717#this",
         "emperor": "Tiberius",
         "wikipedia":"http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls"
@@ -271,6 +271,7 @@
         "buildingtype": "amphitheater",
         "created":50,
         "capacity":4000,
+        "chronogroup": "Julio-Claudian",
         "location":"http://pleiades.stoa.org/places/236443#this"
       },
       "geometry":{
@@ -369,6 +370,7 @@
         "buildingtype" : "amphitheater",
         "created":100,
         "capacity":30000,
+        "chronogroup": "Second century",
         "location":"http://pleiades.stoa.org/places/314921#this"
       },
       "geometry":{
@@ -406,7 +408,7 @@
         "buildingtype" : "amphitheater",
         "created":-44,
         "capacity": 14000,
-        "period": "Julius Caesar",
+        "chronogroup": "Julius Caesar",
         "see":"http://corinth.sas.upenn.edu/gisamphitheater.html",
         "location":"http://pleiades.stoa.org/places/570182#this"
       },
@@ -427,6 +429,7 @@
         "buildingtype" : "amphitheater",
         "created":200,
         "capacity":4000,
+        "chronogroup": "Severan",
         "location":"http://pleiades.stoa.org/places/216878#this"
       },
       "geometry":{
@@ -482,6 +485,7 @@
         "buildingtype" : "amphitheater",
         "created":150,
         "capacity":15000,
+        "chronogroup": "Second century",
         "location":"http://pleiades.stoa.org/places/128376#this"
       },
       "geometry":{
@@ -501,6 +505,7 @@
         "buildingtype" : "amphitheater",
         "created":100,
         "capacity":12000,
+        "chronogroup": "Second century",
         "location":"http://pleiades.stoa.org/places/128376#this"
       },
       "geometry":{
@@ -541,6 +546,7 @@
         "buildingtype" : "amphitheater",
         "created":50,
         "capacity":3300,
+        "chronogroup": "First century",
         "location":"http://pleiades.stoa.org/places/246382#this"
       },
       "geometry":{
@@ -560,6 +566,7 @@
         "buildingtype" : "amphitheater",
         "created":100,
         "capacity":15000,
+        "chronogroup": "Second century",
         "location":"http://pleiades.stoa.org/places/246349#this",
         "see":"http://pleiades.stoa.org/places/246349/location-of-roman-amphitheater"
       },
@@ -579,6 +586,7 @@
         "title":"Amphitheater at Cagliari",
         "buildingtype" : "amphitheater",
         "capacity": 10000,
+        "chronogroup": "Second century",
         "created": 100,
         "location":"http://pleiades.stoa.org/places/471899#this",
         "wikipedia": "http://en.wikipedia.org/wiki/Roman_Amphitheatre_of_Cagliari"
@@ -599,6 +607,7 @@
       "properties":{
         "title":"Amphitheater at Italica",
         "buildingtype" : "amphitheater",
+        "chronogroup": "Second century",
         "created":140,
         "capacity":25000,
         "location":"http://pleiades.stoa.org/places/256231#this",
@@ -621,6 +630,7 @@
         "buildingtype" : "amphitheater",
         "created":90,
         "capacity":7500,
+        "chronogroup": "Flavian",
         "location":"http://pleiades.stoa.org/places/266036#this",
         "see":"http://pleiades.stoa.org/places/266036/location-of-roman-amphitheater"
       },
@@ -987,6 +997,7 @@
         "title":"Amphitheater at Bordeaux",
         "buildingtype" : "amphitheater",
         "capacity":28700,
+        "chronogroup": "Severan",
         "created":220,
         "golvinID": "188",
         "location":"http://pleiades.stoa.org/places/138248#this"
@@ -1009,6 +1020,7 @@
         "buildingtype" : "amphitheater",
         "created":120,
         "capacity": 16000,
+        "chronogroup": "Second century",
         "location":"http://pleiades.stoa.org/places/315247#this"
       },
       "geometry":{
@@ -1132,6 +1144,7 @@
         "buildingtype" : "amphitheater",
         "created": 80,
         "capacity": 8000,
+        "chronogroup": "Flavian",
         "latintoponym": "Arretium",
         "location":"http://pleiades.stoa.org/places/413032#this"
       },
@@ -1272,6 +1285,7 @@
         "buildingtype" : "amphitheater",
         "created":30,
         "capacity": 30000,
+        "chronogroup": "Julio-claudian",
         "wikipedia":"https://en.wikipedia.org/wiki/Verona_Arena",
         "location":"http://pleiades.stoa.org/places/383816#this",
         "source":"http://pleiades.stoa.org/places/383816/location-of-amphitheater"
@@ -1435,6 +1449,7 @@
         "buildingtype" : "amphitheater",
         "created" : 200,
         "capacity" : 6000,
+        "chronogroup": "Severan",
         "location":"http://pleiades.stoa.org/places/177494#this",
         "source":"http://pleiades.stoa.org/places/177494/location-of-roman-amphitheater"
       },
@@ -1456,6 +1471,7 @@
         "buildingtype" : "amphitheater",
         "source":"http://pleiades.stoa.org/places/413328/location-of-roman-amphitheater",
         "capacity":8500,
+        "chronogroup": "republican",
         "created":-50,
         "welchID": "15"
       },
@@ -1580,6 +1596,7 @@
         "buildingtype" : "amphitheater",
         "created": -75,
         "capacity": 9000,
+        "chronogroup": "republican",
         "location":"http://pleiades.stoa.org/places/433147#this",
         "source":"http://pleiades.stoa.org/places/433147/location-of-roman-amphitheater",
         "welchID":"9"
@@ -1654,6 +1671,7 @@
         "title":"Amphitheatre at Durrës",
         "created" : 100,
         "capacity" : 20000,
+        "chronogroup": "Second century",
         "buildingtype" : "amphitheater",
         "location":"http://pleiades.stoa.org/places/481818#this",
         "wikipedia" : "http://en.wikipedia.org/wiki/Durrës_Amphitheatre"
@@ -1727,6 +1745,7 @@
         "buildingtype" : "amphitheater",
         "created" : 50,
         "capacity" : 11000,
+        "chronogroup": "Julio-Claudian",
         "location":"http://pleiades.stoa.org/places/177661#this"
       },
       "geometry":{
@@ -1747,6 +1766,7 @@
         "buildingtype" : "amphitheater",
         "created": 125,
         "capacity": 9000,
+        "chronogroup": "Second century",
         "location":"http://pleiades.stoa.org/places/324835#this"
       },
       "geometry":{
