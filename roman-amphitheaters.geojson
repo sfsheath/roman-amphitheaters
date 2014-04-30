@@ -1875,6 +1875,7 @@
         "title":"Amphitheater at Gemellae",
         "buildingtype" : "amphitheater",
         "capacity": 3000,
+        "chronogroup": "republican",
         "created": 130,
         "golvinID": "44",
         "location": "http://pleiades.stoa.org/places/334553#this"
@@ -1911,7 +1912,8 @@
         "title":"Amphitheater at Pula",
         "buildingtype" : "amphitheater",
         "created":1,
-        "capacity":26000
+        "capacity":26000,
+        "chronogroup":"Julio-Claudian"
       },
       "geometry":{
         "type":"Point",
@@ -1929,6 +1931,7 @@
         "buildingtype" : "amphitheater",
         "created": -50,
         "capacity": 8000,
+        "chronogroup":"republican",
         "comment": "Size is only estimate based Welch reporting a comparison with Sutrium.",
         "welchID": "17"
       },
@@ -1965,6 +1968,7 @@
         "buildingtype" : "amphitheater",
         "created": 100,
         "capacity": 25000,
+        "chronogroup": "Second century",
         "comment": "Date very approximate."
       },
       "geometry":{
@@ -2035,7 +2039,8 @@
         "title":"Amphitheater at Sabratha",
         "buildingtype" : "amphitheater",
         "capacity" : 20700,
-        "created" : 125
+        "created" : 125,
+        "chronogroup": "Second century"
       },
       "geometry":{
         "type":"Point",
@@ -2134,6 +2139,7 @@
         "buildingtype" : "amphitheater",
         "created" : 125,
         "capacity" : 8700,
+        "chronogroup": "republican",
         "golvinID" : "71"
       },
       "geometry":{
@@ -2152,7 +2158,8 @@
         "title":"Amphitheater at Sbeitla",
         "buildingtype" : "amphitheater",
         "created" : 160,
-        "capacity" : 6600
+        "capacity" : 6600,
+        "chronogroup": "Second century"
       },
       "geometry":{
         "type":"Point",
@@ -2170,7 +2177,8 @@
         "title":"Amphitheater at Theveste",
         "buildingtype" : "amphitheater",
         "created" : 120,
-        "capacity" : 14200
+        "capacity" : 14200,
+        "chronogroup":"Second century"
       },
       "geometry":{
         "type":"Point",
@@ -2189,6 +2197,7 @@
         "buildingtype" : "amphitheater",
         "created" : 100,
         "capacity" : 20000,
+        "chronogroup":"Second century",
         "youtube" : "https://www.youtube.com/watch?v=WYOvPyCntiY"
       },
       "geometry":{
