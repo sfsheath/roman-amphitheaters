@@ -1612,9 +1612,9 @@
     },
     {
       "type":"Feature",
-      "id":"mediolanumAmphitheatre",
+      "id":"saintesAmphitheatre",
       "properties":{
-        "title":"Amphitheatre at Mediolanum",
+        "title":"Amphitheatre at Saintes",
         "buildingtype" : "amphitheater",
         "location":"http://pleiades.stoa.org/places/138458#this"
       },
@@ -2307,6 +2307,59 @@
            1.397664,
            43.614808,
            149 
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"caparraAmphitheater",
+      "properties":{
+        "buildingtype": "amphitheater",
+        "latintoponym": "Municipium Flavium Caparense",
+        "title": "Amphitheater at Caparra"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+            -6.100049,
+            40.164159,
+            405
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"cordobaAmphitheater",
+      "properties":{
+        "buildingtype": "amphitheater",
+        "chronogroup": "First century",
+        "comment": "Discovered in 2003.",
+        "title": "Amphitheater at Cordoba",
+        "wikimapia": "http://wikimapia.org/1560328/Roman-amphitheater"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -4.788888,
+          37.884183,
+          125
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"lillebonnAmphitheater",
+      "properties":{
+        "buildingtype": "amphitheater",
+        "chronogroup": "First century",
+        "title": "Amphitheater at Lillebonne"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          0.536724,
+          49.517759,
+          19
         ],
         "source":"http://maps.google.com/"
       }
