@@ -2449,6 +2449,24 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"poitiersAmphitheater",
+      "properties": {
+        "buildingtype": "amphitheater",
+        "latintoponym": "Limonum Pictonum",
+        "title": "Amphitheater at Poitiers",
+        "amphi-theatrum": "http://amphi-theatrum.de/1381.html"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           0.339589,
+           46.578150,
+           119
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ]
 }
