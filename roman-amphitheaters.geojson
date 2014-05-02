@@ -2506,6 +2506,25 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"milanAmphitheater",
+      "properties": {
+        "buildingtype": "amphitheater",
+        "latintoponym": "Mediolanum",
+        "title": "Amphitheater at Milan",
+        "chronogroup": "First century",
+        "amphi-theatrum": "http://amphi-theatrum.de/1523.html"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           9.178518,
+           45.456898,
+           116
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ]
 }
