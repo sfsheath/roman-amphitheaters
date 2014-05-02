@@ -2451,19 +2451,40 @@
       }
     },{
       "type":"Feature",
-      "id":"poitiersAmphitheater",
+      "id":"reimsAmphitheater",
       "properties": {
         "buildingtype": "amphitheater",
-        "latintoponym": "Limonum Pictonum",
-        "title": "Amphitheater at Poitiers",
-        "amphi-theatrum": "http://amphi-theatrum.de/1381.html"
+        "latintoponym": "Durocortorum",
+        "title": "Amphitheater at Reims",
+        "chronogroup": "unassigned",
+        "amphi-theatrum": "http://amphi-theatrum.de/1394.html"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-           0.339589,
-           46.578150,
-           119
+           4.018775,
+           49.261265,
+           80
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"rodezAmphitheater",
+      "properties": {
+        "buildingtype": "amphitheater",
+        "capacity": 15000,
+        "latintoponym": "Segodonum",
+        "title": "Amphitheater at Rodez",
+        "chronogroup": "unassigned",
+        "amphi-theatrum": "http://amphi-theatrum.de/1484.html"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           2.571162,
+           44.353698,
+           611
         ],
         "source":"http://maps.google.com/"
       }
