@@ -2392,6 +2392,25 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"besanconAmphitheater",
+      "properties":{
+        "buildingtype": "amphitheater",
+        "chronogroup": "Second century",
+        "latintoponym": "Vesontio",
+        "title": "Amphitheater at Besançon",
+        "amphi-theatrum": "http://amphi-theatrum.de/1551.html"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          6.015942,
+          47.239027,
+          246
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ]
 }
