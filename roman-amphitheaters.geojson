@@ -2636,6 +2636,25 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"monteleoneAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1504.html",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
+        "latintoponym": "Trebula Mutuesca",
+        "title": "Amphitheater at San Benedetto dei Marsi"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+             12.867528,
+             42.228444,
+             495
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ]
 }
