@@ -1398,19 +1398,21 @@
     },
     {
       "type":"Feature",
-      "id":"grumentumAmphitheatre",
+      "id":"grumentoAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Grumentum",
+        "amphi-theatrum": "http://amphi-theatrum.de/1519.html",
+        "title":"Amphitheatre at Grumento",
         "buildingtype" : "amphitheater",
-        "location":"http://pleiades.stoa.org/places/442603#this",
-        "source":"http://pleiades.stoa.org/places/442603/location-of-roman-amphitheater"
+        "latintoponym": "Grumentum",
+        "location":"http://pleiades.stoa.org/places/442603#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
           15.911579400000001,
           40.287640400000001
-        ]
+        ],
+        "source":"http://pleiades.stoa.org/places/442603/location-of-roman-amphitheater"
       }
     },
     {
