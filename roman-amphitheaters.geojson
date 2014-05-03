@@ -107,11 +107,11 @@
       "properties":{
         "buildingtype": "practice arena",
         "title":"Ludus Magnus Arena",
-        "wikipedia":"http://en.wikipedia.org/wiki/Ludus_Magnus",
         "created":81,
         "capacity":500,
         "location":"http://pleiades.stoa.org/places/423025#this",
-        "comment": "Capacity is a guess."
+        "comment": "Capacity is a guess.",
+        "wikipedia":"http://en.wikipedia.org/wiki/Ludus_Magnus"
       },
       "geometry":{
         "type":"Point",
@@ -126,15 +126,15 @@
       "type":"Feature",
       "id":"romeAmphitheater",
       "properties":{
-        "title":"Colosseum (Rome)",
         "buildingtype" : "amphitheater",
-        "wikipedia":"http://en.wikipedia.org/wiki/Colosseum",
+        "chronogroup": "Flavian",
         "created":80,
         "capacity":50000,
-        "location":"http://pleiades.stoa.org/places/423025#this",
         "emperor": "Vespasian",
-        "chronogroup": "Flavian",
-        "see":"http://pleiades.stoa.org/places/285857974/centerpoint-of-amphitheatrum-flavium"
+        "location":"http://pleiades.stoa.org/places/423025#this",
+        "see":"http://pleiades.stoa.org/places/285857974/centerpoint-of-amphitheatrum-flavium",
+        "title":"Colosseum (Rome)",
+        "wikipedia":"http://en.wikipedia.org/wiki/Colosseum"
       },
       "geometry":{
         "type":"Point",
@@ -175,6 +175,7 @@
       "properties":{
         "title":"Amphitheater at Eleutheropolis",
         "buildingtype" : "amphitheater",
+        "chronogroup": "Imperial",
         "location":"http://pleiades.stoa.org/places/687854#this",
         "see":"http://pleiades.stoa.org/places/687854/location-of-roman-amphitheater"
       },
@@ -269,9 +270,9 @@
       "properties":{
         "title":"Amphitheater at Conimbriga",
         "buildingtype": "amphitheater",
-        "created":50,
         "capacity":4000,
         "chronogroup": "Julio-Claudian",
+        "created":50,
         "location":"http://pleiades.stoa.org/places/236443#this"
       },
       "geometry":{
@@ -332,8 +333,8 @@
       "properties":{
         "title":"Early Amphitheater at Pozzuoli",
         "buildingtype" : "amphitheater",
+        "chronogroup":"republican",
         "created":-100,
-        "period": "republican",
         "location":"http://pleiades.stoa.org/places/432815#this"
       },
       "geometry":{
@@ -351,7 +352,9 @@
       "properties":{
         "title":"Amphitheater at Syracuse",
         "buildingtype" : "amphitheater",
-        "location":"http://pleiades.stoa.org/places/462503#this"
+        "chronogroup": "Julio-Claudian",
+        "location":"http://pleiades.stoa.org/places/462503#this",
+        "wikipedia": "http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Siracusa"
       },
       "geometry":{
         "type":"Point",
@@ -388,6 +391,7 @@
       "properties":{
         "title":"Amphitheater at Hadrian's Villa at Tivoli",
         "buildingtype" : "amphitheater",
+        "chronogroup": "Hadrianic",
         "created":120,
         "location":"http://pleiades.stoa.org/places/423127#this"
       },
@@ -406,9 +410,9 @@
       "properties":{
         "title":"Amphitheater at Corinth",
         "buildingtype" : "amphitheater",
-        "created":-44,
         "capacity": 14000,
         "chronogroup": "Julius Caesar",
+        "created":-44,
         "see":"http://corinth.sas.upenn.edu/gisamphitheater.html",
         "location":"http://pleiades.stoa.org/places/570182#this"
       },
@@ -427,9 +431,9 @@
       "properties":{
         "title":"Amphitheater at Marcianopolis (Devnya)",
         "buildingtype" : "amphitheater",
-        "created":200,
-        "capacity":4000,
         "chronogroup": "Severan",
+        "capacity":4000,
+        "created":200,
         "location":"http://pleiades.stoa.org/places/216878#this"
       },
       "geometry":{
@@ -447,6 +451,7 @@
       "properties":{
         "title":"Amphitheater at Porolissum",
         "buildingtype" : "amphitheater",
+        "chronogroup": "Second century",
         "created":157,
         "comment":"There was a wooden predecessor.",
         "location":"http://pleiades.stoa.org/places/207361#this"
@@ -466,6 +471,7 @@
       "properties":{
         "title":"Amphitheater at Nijmegen",
         "buildingtype" : "amphitheater",
+        "chronogroup": "Imperial",
         "location":"http://pleiades.stoa.org/places/98921#this"
       },
       "geometry":{
@@ -483,9 +489,9 @@
       "properties":{
         "title":"Large amphitheater at Carnuntum",
         "buildingtype" : "amphitheater",
-        "created":150,
-        "capacity":15000,
         "chronogroup": "Second century",
+        "capacity":15000,
+        "created":150,
         "location":"http://pleiades.stoa.org/places/128376#this"
       },
       "geometry":{
@@ -523,9 +529,9 @@
       "properties":{
         "title":"Amphitheater at Leptis Magna",
         "buildingtype" : "amphitheater",
-        "created":56,
         "capacity":16000,
         "chronogroup": "Severan",
+        "created":56,
         "location":"http://pleiades.stoa.org/places/344448#this",
         "period": "Septimius Severus"
       },
@@ -2522,6 +2528,86 @@
            9.178518,
            45.456898,
            116
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"aquileiaAmphitheater",
+      "properties": {
+        "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
+        "latintoponym": "Aquileia",
+        "title": "Amphitheater at Aquileia",
+        "comment": "Location approximate"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           13.370713,
+           45.768239,
+           2
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"paduaAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1399.html",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Julio-Claudian",
+        "latintoponym": "Patavia",
+        "title": "Amphitheater at Padua"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           11.879039,
+           45.411483,
+           17
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"lecceAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1389.html",
+        "buildingtype": "amphitheater",
+        "capacity": 25000,
+        "chronogroup": "Imperial",
+        "latintoponym": "Lupiae",
+        "title": "Amphitheater at Lecce",
+        "wikipedia": "http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Lecce"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           18.172733,
+           40.352463,
+           51
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"terminiImereseAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1555.html",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Flavian",
+        "comment": "Location approximate.",
+        "latintoponym": "Thermae Himerae",
+        "title": "Amphitheater at Termini Imerese",
+        "wikipedia": "http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Lecce"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           13.695186,
+           37.983696,
+           76
         ],
         "source":"http://maps.google.com/"
       }
