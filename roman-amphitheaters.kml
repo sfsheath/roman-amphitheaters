@@ -85,6 +85,7 @@
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="title">Amphitheater at Eleutheropolis</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/687854#this</SimpleData>
 		<SimpleData name="see">http://pleiades.stoa.org/places/687854/location-of-roman-amphitheater</SimpleData>
@@ -172,17 +173,19 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">-100</SimpleData>
+		<SimpleData name="chronogroup">republican</SimpleData>
 		<SimpleData name="title">Early Amphitheater at Pozzuoli</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/432815#this</SimpleData>
-		<SimpleData name="period">republican</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>14.127615,40.826239,58</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Julio-Claudian</SimpleData>
 		<SimpleData name="title">Amphitheater at Syracuse</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/462503#this</SimpleData>
+		<SimpleData name="wikipedia">http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Siracusa</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>15.278934,37.074132,23</coordinates></Point>
   </Placemark>
@@ -201,6 +204,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">120</SimpleData>
+		<SimpleData name="chronogroup">Hadrianic</SimpleData>
 		<SimpleData name="title">Amphitheater at Hadrian's Villa at Tivoli</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/423127#this</SimpleData>
 	</SchemaData></ExtendedData>
@@ -233,6 +237,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">157</SimpleData>
+		<SimpleData name="chronogroup">Second century</SimpleData>
 		<SimpleData name="title">Amphitheater at Porolissum</SimpleData>
 		<SimpleData name="comment">There was a wooden predecessor.</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/207361#this</SimpleData>
@@ -242,6 +247,7 @@
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="title">Amphitheater at Nijmegen</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/98921#this</SimpleData>
 	</SchemaData></ExtendedData>
@@ -718,9 +724,10 @@
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="title">Amphitheatre at Grumentum</SimpleData>
+		<SimpleData name="title">Amphitheatre at Grumento</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/442603#this</SimpleData>
-		<SimpleData name="source">http://pleiades.stoa.org/places/442603/location-of-roman-amphitheater</SimpleData>
+		<SimpleData name="latintoponym">Grumentum</SimpleData>
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1519.html</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>15.9115794,40.2876404</coordinates></Point>
   </Placemark>
@@ -1232,6 +1239,120 @@
 	</SchemaData></ExtendedData>
       <Point><coordinates>0.536724,49.517759,19</coordinates></Point>
   </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Second century</SimpleData>
+		<SimpleData name="title">Amphitheater at Besançon</SimpleData>
+		<SimpleData name="latintoponym">Vesontio</SimpleData>
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1551.html</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>6.015942,47.239027,246</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Second century</SimpleData>
+		<SimpleData name="title">Amphitheater at Limoges</SimpleData>
+		<SimpleData name="latintoponym">Augustoritum</SimpleData>
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1549.html</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>1.251841,45.830474,304</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Second century</SimpleData>
+		<SimpleData name="title">Amphitheater at Meaux</SimpleData>
+		<SimpleData name="latintoponym">Iatinum Fixtinnum</SimpleData>
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/2416.html</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>1.251841,48.97,50</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="title">Amphitheater at Poitiers</SimpleData>
+		<SimpleData name="latintoponym">Limonum Pictonum</SimpleData>
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1381.html</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0.339589,46.57815,119</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">unassigned</SimpleData>
+		<SimpleData name="title">Amphitheater at Reims</SimpleData>
+		<SimpleData name="latintoponym">Durocortorum</SimpleData>
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1394.html</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>4.018775,49.261265,80</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">unassigned</SimpleData>
+		<SimpleData name="capacity">15000</SimpleData>
+		<SimpleData name="title">Amphitheater at Rodez</SimpleData>
+		<SimpleData name="latintoponym">Segodonum</SimpleData>
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1484.html</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.571162,44.353698,611</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">First century</SimpleData>
+		<SimpleData name="title">Amphitheater at Milan</SimpleData>
+		<SimpleData name="latintoponym">Mediolanum</SimpleData>
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1523.html</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.178518,45.456898,116</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="title">Amphitheater at Aquileia</SimpleData>
+		<SimpleData name="comment">Location approximate</SimpleData>
+		<SimpleData name="latintoponym">Aquileia</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.370713,45.768239,2</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Julio-Claudian</SimpleData>
+		<SimpleData name="title">Amphitheater at Padua</SimpleData>
+		<SimpleData name="latintoponym">Patavia</SimpleData>
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1399.html</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.879039,45.411483,17</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="capacity">25000</SimpleData>
+		<SimpleData name="title">Amphitheater at Lecce</SimpleData>
+		<SimpleData name="wikipedia">http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Lecce</SimpleData>
+		<SimpleData name="latintoponym">Lupiae</SimpleData>
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1389.html</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>18.172733,40.352463,51</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Flavian</SimpleData>
+		<SimpleData name="title">Amphitheater at Termini Imerese</SimpleData>
+		<SimpleData name="comment">Location approximate.</SimpleData>
+		<SimpleData name="wikipedia">http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Lecce</SimpleData>
+		<SimpleData name="latintoponym">Thermae Himerae</SimpleData>
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1555.html</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.695186,37.983696,76</coordinates></Point>
+  </Placemark>
 </Folder>
 <Schema name="OGRGeoJSON" id="OGRGeoJSON">
 	<SimpleField name="buildingtype" type="string"></SimpleField>
@@ -1251,6 +1372,7 @@
 	<SimpleField name="period" type="string"></SimpleField>
 	<SimpleField name="source" type="string"></SimpleField>
 	<SimpleField name="latintoponym" type="string"></SimpleField>
+	<SimpleField name="amphi-theatrum" type="string"></SimpleField>
 	<SimpleField name="youtube" type="string"></SimpleField>
 	<SimpleField name="latinName" type="string"></SimpleField>
 	<SimpleField name="latintoponyn" type="string"></SimpleField>
