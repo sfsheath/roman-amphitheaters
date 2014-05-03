@@ -1434,18 +1434,21 @@
     },
     {
       "type":"Feature",
-      "id":"albaFucensAmphitheatre",
+      "id":"albaFucensAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Alba Fucens",
+        "title":"Amphitheater at Alba Fucens",
         "buildingtype" : "amphitheater",
+        "chronogroup": "Julio-Claudian",
+        "latintoponym": "Alba Fucens",
         "location":"http://pleiades.stoa.org/places/413005#this",
         "source":"http://pleiades.stoa.org/places/413005/amphitheater-of-alba-fucens"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          13.412317,
-          42.077221999999999
+           13.412289,
+           42.077200,
+           977
         ]
       }
     },
@@ -2601,8 +2604,7 @@
         "chronogroup": "Flavian",
         "comment": "Location approximate.",
         "latintoponym": "Thermae Himerae",
-        "title": "Amphitheater at Termini Imerese",
-        "wikipedia": "http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Lecce"
+        "title": "Amphitheater at Termini Imerese"
       },
       "geometry":{
         "type":"Point",
@@ -2610,6 +2612,25 @@
            13.695186,
            37.983696,
            76
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"sanBenedettoDeiMarsiAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1601.html",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
+        "latintoponym": "Marruvium",
+        "title": "Amphitheater at San Benedetto dei Marsi",
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+             13.627505,
+             42.006504,
+             683
         ],
         "source":"http://maps.google.com/"
       }
