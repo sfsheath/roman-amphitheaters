@@ -2655,6 +2655,25 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"bolsenaAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1554.html",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Flavian",
+        "latintoponym": "Volsinii Novi",
+        "title": "Amphitheater at Bolsena"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           11.990158,
+           42.650243,
+           417
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ]
 }
