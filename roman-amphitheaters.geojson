@@ -1417,19 +1417,22 @@
     },
     {
       "type":"Feature",
-      "id":"cordubaColPatriciaAmphitheatre",
+      "id":"cordubaAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Corduba/Col. Patricia",
+        "title":"Amphitheatre at Corduba",
         "buildingtype" : "amphitheater",
+        "latingtoponym": "Colonia Patricia",
         "location":"http://pleiades.stoa.org/places/256128#this",
-        "source":"http://pleiades.stoa.org/places/256128/location-of-roman-amphitheater"
+        "wikimapia": "http://wikimapia.org/1560328/Roman-amphitheater"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          -4.7888425999999997,
-          37.884126500000001
-        ]
+          -4.788888,
+          37.884183,
+          125
+        ],
+        "source":"http://pleiades.stoa.org/places/256128/location-of-roman-amphitheater"
       }
     },
     {
@@ -2374,8 +2377,7 @@
         "buildingtype": "amphitheater",
         "chronogroup": "First century",
         "comment": "Discovered in 2003.",
-        "title": "Amphitheater at Cordoba",
-        "wikimapia": "http://wikimapia.org/1560328/Roman-amphitheater"
+        "title": "Amphitheater at Cordoba"
       },
       "geometry":{
         "type":"Point",
