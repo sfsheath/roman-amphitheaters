@@ -1202,17 +1202,19 @@
       "type":"Feature",
       "id":"allifaeAmphitheatre",
       "properties":{
+        "amphi-theatrum": "http://amphi-theatrum.de/2038.html",
         "title":"Amphitheatre at Allifae",
         "buildingtype" : "amphitheater",
-        "location":"http://pleiades.stoa.org/places/432658#this",
-        "source":"http://pleiades.stoa.org/places/432658/location-of-roman-amphitheater"
+        "location":"http://pleiades.stoa.org/places/432658#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          14.334692,
-          41.3259562
+          14.334997,
+          41.325601,
+          106
         ]
+        "source":["http://maps.google.com/","http://pleiades.stoa.org/places/432658/location-of-roman-amphitheater"]
       }
     },
     {
