@@ -1213,7 +1213,7 @@
           14.334997,
           41.325601,
           106
-        ]
+        ],
         "source":["http://maps.google.com/","http://pleiades.stoa.org/places/432658/location-of-roman-amphitheater"]
       }
     },
@@ -2673,6 +2673,25 @@
            11.990158,
            42.650243,
            417
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"anconaAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1396.html",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Julio-Claudian",
+        "latintoponym": "Ancona",
+        "title": "Amphitheater at Anconca"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           13.511791,
+           43.624604,
+           54
         ],
         "source":"http://maps.google.com/"
       }
