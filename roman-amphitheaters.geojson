@@ -872,10 +872,13 @@
     },
     {
       "type":"Feature",
-      "id":"abellaAmphitheater",
+      "id":"avellaAmphitheater",
       "properties":{
+        "amphi-theatrum": "http://amphi-theatrum.de/1461.html",
         "title":"Amphitheater at Abella",
         "buildingtype" : "amphitheater",
+        "chronogroup": "republican",
+        "latintoponym": "Abella",
         "location":"http://pleiades.stoa.org/places/432617#this"
       },
       "geometry":{
@@ -2692,6 +2695,44 @@
            13.511791,
            43.624604,
            54
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"ascoliPicenoAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1518.html",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
+        "latintoponym": "Ascolum Picenum",
+        "title": "Amphitheater at Ascoli Picenum"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           13.570767,
+           42.855655,
+           157
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"beneventoAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1776.html",
+        "buildingtype": "amphitheater",
+        "chronogroup": "republican",
+        "latintoponym": "Beneventum",
+        "title": "Amphitheater at Benevento"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           14.781523,
+           41.130009,
+           166
         ],
         "source":"http://maps.google.com/"
       }
