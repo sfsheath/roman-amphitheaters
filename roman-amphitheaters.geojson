@@ -1631,17 +1631,23 @@
     },
     {
       "type":"Feature",
-      "id":"urbsSalviaAmphitheatre",
+      "id":"urbisagliaAmphitheater",
       "properties":{
+        "amphi-theatrum": "http://amphi-theatrum.de/1556.html",
         "title":"Amphitheatre at Urbs Salvia",
         "buildingtype" : "amphitheater",
+        "capacity": 5150,
+        "chronogroup": "Flavian",
+        "creation": 81,
+        "latintoponym": "Urbs Saglia",
         "location":"http://pleiades.stoa.org/places/413364#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          13.386850799999999,
-          43.201027000000003
+           13.387224,
+           43.200877,
+           219
         ],
         "source":"http://pleiades.stoa.org/places/413364/location-of-roman-amphitheater"
       }
@@ -2756,6 +2762,27 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"sanVittorinoAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1557.html",
+        "buildingtype": "amphitheater",
+        "capacity": 20000,
+        "chronogroup": "First century",
+        "latintoponym": "Amiternum",
+        "title": "Amphitheater at San Vittorino"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           13.306027,
+           42.400531,
+           672
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
+
   ]
 }
