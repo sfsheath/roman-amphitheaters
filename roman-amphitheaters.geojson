@@ -2736,6 +2736,26 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"calviRisortaAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1462.html",
+        "buildingtype": "amphitheater",
+        "chronogroup": "republican",
+        "dimensions":{"structure_major":110, "structure_minor": 72, "arena_major":87.2},
+        "latintoponym": "Cales",
+        "title": "Amphitheater at Calvi Risorta"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           14.137993,
+           41.202429,
+           89
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ]
 }
