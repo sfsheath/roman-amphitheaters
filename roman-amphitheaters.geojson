@@ -373,7 +373,7 @@
         "buildingtype" : "amphitheater",
         "created":100,
         "capacity":30000,
-        "chronogroup": "Second century",
+        "chronogroup": "Second Century",
         "location":"http://pleiades.stoa.org/places/314921#this"
       },
       "geometry":{
@@ -451,7 +451,7 @@
       "properties":{
         "title":"Amphitheater at Porolissum",
         "buildingtype" : "amphitheater",
-        "chronogroup": "Second century",
+        "chronogroup": "Second Century",
         "created":157,
         "comment":"There was a wooden predecessor.",
         "location":"http://pleiades.stoa.org/places/207361#this"
@@ -489,7 +489,7 @@
       "properties":{
         "title":"Large amphitheater at Carnuntum",
         "buildingtype" : "amphitheater",
-        "chronogroup": "Second century",
+        "chronogroup": "Second Century",
         "capacity":15000,
         "created":150,
         "location":"http://pleiades.stoa.org/places/128376#this"
@@ -511,7 +511,7 @@
         "buildingtype" : "amphitheater",
         "created":100,
         "capacity":12000,
-        "chronogroup": "Second century",
+        "chronogroup": "Second Century",
         "location":"http://pleiades.stoa.org/places/128376#this"
       },
       "geometry":{
@@ -552,7 +552,7 @@
         "buildingtype" : "amphitheater",
         "created":50,
         "capacity":3300,
-        "chronogroup": "First century",
+        "chronogroup": "First Century",
         "location":"http://pleiades.stoa.org/places/246382#this"
       },
       "geometry":{
@@ -572,7 +572,7 @@
         "buildingtype" : "amphitheater",
         "created":100,
         "capacity":15000,
-        "chronogroup": "Second century",
+        "chronogroup": "Second Century",
         "location":"http://pleiades.stoa.org/places/246349#this",
         "see":"http://pleiades.stoa.org/places/246349/location-of-roman-amphitheater"
       },
@@ -592,7 +592,7 @@
         "title":"Amphitheater at Cagliari",
         "buildingtype" : "amphitheater",
         "capacity": 10000,
-        "chronogroup": "Second century",
+        "chronogroup": "Second Century",
         "created": 100,
         "location":"http://pleiades.stoa.org/places/471899#this",
         "wikipedia": "http://en.wikipedia.org/wiki/Roman_Amphitheatre_of_Cagliari"
@@ -613,7 +613,7 @@
       "properties":{
         "title":"Amphitheater at Italica",
         "buildingtype" : "amphitheater",
-        "chronogroup": "Second century",
+        "chronogroup": "Second Century",
         "created":140,
         "capacity":25000,
         "location":"http://pleiades.stoa.org/places/256231#this",
@@ -1029,7 +1029,7 @@
         "buildingtype" : "amphitheater",
         "created":120,
         "capacity": 16000,
-        "chronogroup": "Second century",
+        "chronogroup": "Second Century",
         "location":"http://pleiades.stoa.org/places/315247#this"
       },
       "geometry":{
@@ -1696,7 +1696,7 @@
         "title":"Amphitheatre at Durrës",
         "created" : 100,
         "capacity" : 20000,
-        "chronogroup": "Second century",
+        "chronogroup": "Second Century",
         "buildingtype" : "amphitheater",
         "location":"http://pleiades.stoa.org/places/481818#this",
         "wikipedia" : "http://en.wikipedia.org/wiki/Durrës_Amphitheatre"
@@ -1791,7 +1791,7 @@
         "buildingtype" : "amphitheater",
         "created": 125,
         "capacity": 9000,
-        "chronogroup": "Second century",
+        "chronogroup": "Second Century",
         "location":"http://pleiades.stoa.org/places/324835#this"
       },
       "geometry":{
@@ -1993,7 +1993,7 @@
         "buildingtype" : "amphitheater",
         "created": 100,
         "capacity": 25000,
-        "chronogroup": "Second century",
+        "chronogroup": "Second Century",
         "comment": "Date very approximate."
       },
       "geometry":{
@@ -2065,7 +2065,7 @@
         "buildingtype" : "amphitheater",
         "capacity" : 20700,
         "created" : 125,
-        "chronogroup": "Second century"
+        "chronogroup": "Second Century"
       },
       "geometry":{
         "type":"Point",
@@ -2184,7 +2184,7 @@
         "buildingtype" : "amphitheater",
         "created" : 160,
         "capacity" : 6600,
-        "chronogroup": "Second century"
+        "chronogroup": "Second Century"
       },
       "geometry":{
         "type":"Point",
@@ -2203,7 +2203,7 @@
         "buildingtype" : "amphitheater",
         "created" : 120,
         "capacity" : 14200,
-        "chronogroup":"Second century"
+        "chronogroup":"Second Century"
       },
       "geometry":{
         "type":"Point",
@@ -2222,7 +2222,7 @@
         "buildingtype" : "amphitheater",
         "created" : 100,
         "capacity" : 20000,
-        "chronogroup":"Second century",
+        "chronogroup":"Second Century",
         "youtube" : "https://www.youtube.com/watch?v=WYOvPyCntiY"
       },
       "geometry":{
@@ -2386,7 +2386,7 @@
       "id":"cordobaAmphitheater",
       "properties":{
         "buildingtype": "amphitheater",
-        "chronogroup": "First century",
+        "chronogroup": "First Century",
         "comment": "Discovered in 2003.",
         "title": "Amphitheater at Cordoba"
       },
@@ -2404,7 +2404,7 @@
       "id":"lillebonnAmphitheater",
       "properties":{
         "buildingtype": "amphitheater",
-        "chronogroup": "First century",
+        "chronogroup": "First Century",
         "title": "Amphitheater at Lillebonne"
       },
       "geometry":{
@@ -2421,7 +2421,7 @@
       "id":"besanconAmphitheater",
       "properties":{
         "buildingtype": "amphitheater",
-        "chronogroup": "Second century",
+        "chronogroup": "Second Century",
         "latintoponym": "Vesontio",
         "title": "Amphitheater at Besançon",
         "amphi-theatrum": "http://amphi-theatrum.de/1551.html"
@@ -2440,7 +2440,7 @@
       "id":"limogesAmphitheater",
       "properties":{
         "buildingtype": "amphitheater",
-        "chronogroup": "Second century",
+        "chronogroup": "Second Century",
         "latintoponym": "Augustoritum",
         "title": "Amphitheater at Limoges",
         "amphi-theatrum": "http://amphi-theatrum.de/1549.html"
@@ -2459,7 +2459,7 @@
       "id":"meauxAmphitheater",
       "properties": {
         "buildingtype": "amphitheater",
-        "chronogroup": "Second century",
+        "chronogroup": "Second Century",
         "latintoponym": "Iatinum Fixtinnum",
         "title": "Amphitheater at Meaux",
         "amphi-theatrum": "http://amphi-theatrum.de/2416.html"
@@ -2537,7 +2537,7 @@
         "buildingtype": "amphitheater",
         "latintoponym": "Mediolanum",
         "title": "Amphitheater at Milan",
-        "chronogroup": "First century",
+        "chronogroup": "First Century",
         "amphi-theatrum": "http://amphi-theatrum.de/1523.html"
       },
       "geometry":{
@@ -2769,7 +2769,7 @@
         "amphi-theatrum": "http://amphi-theatrum.de/1557.html",
         "buildingtype": "amphitheater",
         "capacity": 20000,
-        "chronogroup": "First century",
+        "chronogroup": "First Century",
         "latintoponym": "Amiternum",
         "title": "Amphitheater at San Vittorino"
       },
