@@ -668,7 +668,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">30</SimpleData>
-		<SimpleData name="chronogroup">Julio-claudian</SimpleData>
+		<SimpleData name="chronogroup">Julio-Claudian</SimpleData>
 		<SimpleData name="capacity">30000</SimpleData>
 		<SimpleData name="title">Amphitheatre at Verona</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/383816#this</SimpleData>

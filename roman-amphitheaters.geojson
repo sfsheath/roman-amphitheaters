@@ -2029,6 +2029,7 @@
         "title":"Amphitheater at Antioch",
         "created": -50,
         "buildingtype" : "amphitheater",
+        "chronogroup": "republican",
         "comment": "Location not specific.",
         "welchID": "19"
       },
