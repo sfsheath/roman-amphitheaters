@@ -105,7 +105,7 @@
       "type":"Feature",
       "id":"ludusMagnusArena",
       "properties":{
-        "buildingtype": "practice arena",
+        "buildingtype": "practiceArena",
         "title":"Ludus Magnus Arena",
         "created":81,
         "capacity":500,

@@ -1,0 +1,15 @@
+PREFIX dc: <http://purl.org/dc/terms/>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX ex: <http://example.org/>
+PREFIX geo: <http://geovocab.org/geometry#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?name ?year_created ?seating_capacity ?elevation ?longitude ?latitude
+WHERE {
+?name rdfs:isDefinedBy/dc:title ?title .
+?name rdfs:isDefinedBy/dc:created ?year_created .
+?name rdfs:isDefinedBy/dbp:seatingCapacity ?seating_capacity .
+?name geo:geometry/rdf:value/rdf:first ?longitude .
+?name geo:geometry/rdf:value/rdf:rest/rdf:first ?latitude .
+?name geo:geometry/rdf:value/rdf:rest/rdf:rest/rdf:first ?elevation .
+ }
