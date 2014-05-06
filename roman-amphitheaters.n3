@@ -1190,7 +1190,7 @@ _:genid379 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> _:genid378 .
 _:genid380 <http://purl.org/dc/terms/title> "Ludus Magnus Arena" .
 _:genid380 <http://dbpedia.org/property/seatingCapacity> "500"^^<http://www.w3.org/2001/XMLSchema#integer> .
 _:genid380 <http://purl.org/dc/terms/created> "81"^^<http://www.w3.org/2001/XMLSchema#gDate> .
-_:genid380 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/practicearena> .
+_:genid380 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/practiceArena> .
 _:genid380 <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/423025#this> .
 _:genid380 <http://www.w3.org/2000/01/rdf-schema#comment> "Capacity is a guess." .
 _:genid380 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://en.wikipedia.org/wiki/Ludus_Magnus> .

@@ -43,7 +43,7 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="buildingtype">practice arena</SimpleData>
+		<SimpleData name="buildingtype">practiceArena</SimpleData>
 		<SimpleData name="created">81</SimpleData>
 		<SimpleData name="capacity">500</SimpleData>
 		<SimpleData name="title">Ludus Magnus Arena</SimpleData>

@@ -998,7 +998,7 @@
      dc:title "Ludus Magnus Arena";
      <http://dbpedia.org/property/seatingCapacity> 500;
      dc:created "81"^^xsd:gDate;
-     <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/practice arena>;
+     <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/practiceArena>;
      <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/423025#this>;
      rdfs:comment "Capacity is a guess.";
      rdfs:seeAlso <http://en.wikipedia.org/wiki/Ludus_Magnus>
