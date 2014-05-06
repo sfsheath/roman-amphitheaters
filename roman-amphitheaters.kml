@@ -193,7 +193,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">100</SimpleData>
-		<SimpleData name="chronogroup">Second century</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="capacity">30000</SimpleData>
 		<SimpleData name="title">Amphitheater at Carthage</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/314921#this</SimpleData>
@@ -237,7 +237,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">157</SimpleData>
-		<SimpleData name="chronogroup">Second century</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="title">Amphitheater at Porolissum</SimpleData>
 		<SimpleData name="comment">There was a wooden predecessor.</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/207361#this</SimpleData>
@@ -257,7 +257,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">150</SimpleData>
-		<SimpleData name="chronogroup">Second century</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="capacity">15000</SimpleData>
 		<SimpleData name="title">Large amphitheater at Carnuntum</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/128376#this</SimpleData>
@@ -268,7 +268,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">100</SimpleData>
-		<SimpleData name="chronogroup">Second century</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="capacity">12000</SimpleData>
 		<SimpleData name="title">Amphitheater at Carnuntum</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/128376#this</SimpleData>
@@ -291,7 +291,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">50</SimpleData>
-		<SimpleData name="chronogroup">First century</SimpleData>
+		<SimpleData name="chronogroup">First Century</SimpleData>
 		<SimpleData name="capacity">3300</SimpleData>
 		<SimpleData name="title">Amphitheater at Empuries</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/246382#this</SimpleData>
@@ -302,7 +302,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">100</SimpleData>
-		<SimpleData name="chronogroup">Second century</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="capacity">15000</SimpleData>
 		<SimpleData name="title">Amphitheater at Tarragona</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/246349#this</SimpleData>
@@ -314,7 +314,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">100</SimpleData>
-		<SimpleData name="chronogroup">Second century</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="capacity">10000</SimpleData>
 		<SimpleData name="title">Amphitheater at Cagliari</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/471899#this</SimpleData>
@@ -326,7 +326,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">140</SimpleData>
-		<SimpleData name="chronogroup">Second century</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="capacity">25000</SimpleData>
 		<SimpleData name="title">Amphitheater at Italica</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/256231#this</SimpleData>
@@ -529,7 +529,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">120</SimpleData>
-		<SimpleData name="chronogroup">Second century</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="capacity">16000</SimpleData>
 		<SimpleData name="title">Amphitheatre at Uthina</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/315247#this</SimpleData>
@@ -880,7 +880,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">100</SimpleData>
-		<SimpleData name="chronogroup">Second century</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="capacity">20000</SimpleData>
 		<SimpleData name="title">Amphitheatre at Durrës</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/481818#this</SimpleData>
@@ -927,7 +927,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">125</SimpleData>
-		<SimpleData name="chronogroup">Second century</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="capacity">9000</SimpleData>
 		<SimpleData name="title">Small Amphitheater at Thysdrus</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/324835#this</SimpleData>
@@ -1037,7 +1037,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">100</SimpleData>
-		<SimpleData name="chronogroup">Second century</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="capacity">25000</SimpleData>
 		<SimpleData name="title">Amphitheater at Pergamum</SimpleData>
 		<SimpleData name="comment">Date very approximate.</SimpleData>
@@ -1074,7 +1074,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">125</SimpleData>
-		<SimpleData name="chronogroup">Second century</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="capacity">20700</SimpleData>
 		<SimpleData name="title">Amphitheater at Sabratha</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1130,7 +1130,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">160</SimpleData>
-		<SimpleData name="chronogroup">Second century</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="capacity">6600</SimpleData>
 		<SimpleData name="title">Amphitheater at Sbeitla</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1140,7 +1140,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">120</SimpleData>
-		<SimpleData name="chronogroup">Second century</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="capacity">14200</SimpleData>
 		<SimpleData name="title">Amphitheater at Theveste</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1150,7 +1150,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">100</SimpleData>
-		<SimpleData name="chronogroup">Second century</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="capacity">20000</SimpleData>
 		<SimpleData name="title">Amphitheater at Trier</SimpleData>
 		<SimpleData name="youtube">https://www.youtube.com/watch?v=WYOvPyCntiY</SimpleData>
@@ -1235,7 +1235,7 @@
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="chronogroup">First century</SimpleData>
+		<SimpleData name="chronogroup">First Century</SimpleData>
 		<SimpleData name="title">Amphitheater at Cordoba</SimpleData>
 		<SimpleData name="comment">Discovered in 2003.</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1244,7 +1244,7 @@
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="chronogroup">First century</SimpleData>
+		<SimpleData name="chronogroup">First Century</SimpleData>
 		<SimpleData name="title">Amphitheater at Lillebonne</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>0.536724,49.517759,19</coordinates></Point>
@@ -1252,7 +1252,7 @@
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="chronogroup">Second century</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="title">Amphitheater at Besançon</SimpleData>
 		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1551.html</SimpleData>
 		<SimpleData name="latintoponym">Vesontio</SimpleData>
@@ -1262,7 +1262,7 @@
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="chronogroup">Second century</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="title">Amphitheater at Limoges</SimpleData>
 		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1549.html</SimpleData>
 		<SimpleData name="latintoponym">Augustoritum</SimpleData>
@@ -1272,7 +1272,7 @@
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="chronogroup">Second century</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="title">Amphitheater at Meaux</SimpleData>
 		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/2416.html</SimpleData>
 		<SimpleData name="latintoponym">Iatinum Fixtinnum</SimpleData>
@@ -1312,7 +1312,7 @@
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="chronogroup">First century</SimpleData>
+		<SimpleData name="chronogroup">First Century</SimpleData>
 		<SimpleData name="title">Amphitheater at Milan</SimpleData>
 		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1523.html</SimpleData>
 		<SimpleData name="latintoponym">Mediolanum</SimpleData>
@@ -1436,7 +1436,7 @@
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="chronogroup">First century</SimpleData>
+		<SimpleData name="chronogroup">First Century</SimpleData>
 		<SimpleData name="capacity">20000</SimpleData>
 		<SimpleData name="title">Amphitheater at San Vittorino</SimpleData>
 		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1557.html</SimpleData>
