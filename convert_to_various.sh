@@ -6,7 +6,7 @@ echo rapper
 rapper -i turtle roman-amphitheaters.ttl > roman-amphitheaters.n3
 
 echo arq
-~/Documents/apache-jena-2.11.1/bin/arq --query sparql/slider.sparql --data roman-amphitheaters.n3  --results CSV > ra.csv
+~/Documents/apache-jena-2.11.1/bin/arq --query sparql/slider.sparql --data roman-amphitheaters.n3  --results CSV > roman-amphitheaters.csv
 
 # KML
 echo ogr2ogr
