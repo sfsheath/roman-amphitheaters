@@ -1,9 +1,10 @@
 # rdf turtle
-echo curl
-curl 'http://rdf.greggkellogg.net/distiller?format=turtle&in_fmt=jsonld&uri=http://sfsheath.github.io/roman-amphitheaters/roman-amphitheaters.geojson' > roman-amphitheaters.ttl
+echo jsonld 
+jsonld normalize -q roman-amphitheaters.geojson > roman-amphitheaters.nq
 
 echo rapper
-rapper -i turtle roman-amphitheaters.ttl > roman-amphitheaters.n3
+rapper -q -i nquads -o turtle roman-amphitheaters.nq > roman-amphitheaters.ttl
+rapper -q -i nquads roman-amphitheaters.nq > roman-amphitheaters.n3
 
 echo arq
 ~/Documents/apache-jena-2.11.1/bin/arq --query sparql/slider.sparql --data roman-amphitheaters.n3  --results CSV > roman-amphitheaters.csv

@@ -1069,7 +1069,7 @@
 		<SimpleData name="title">Amphitheater at Cyzicus</SimpleData>
 		<SimpleData name="comment">Location not specific.</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>27.89,40.38</coordinates></Point>
+      <Point><coordinates>27.884552,40.398213,54</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">

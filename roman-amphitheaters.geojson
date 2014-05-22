@@ -2053,8 +2053,9 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-           27.89,
-           40.38
+           27.884552,
+           40.398213,
+           54
         ],
         "source":"http://maps.google.com/"
       }
