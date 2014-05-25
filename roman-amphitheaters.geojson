@@ -23,6 +23,7 @@
     "capacity":{"@id":"http://dbpedia.org/property/seatingCapacity" },
     "comment":{"@id":"rdfs:comment" },
     "created":{ "@id":"dcterms:created", "@type":"xsd:gDate" },
+    "dedication": {"@id":"http://purl.org/roman-amphitheaters/ontology#dedication"},
     "location":{"@id":"gn:locatedIn","@type":"@id"},
     "period": {"@id":"dcterms:coverage"},
     "see":{"@id":"rdfs:seeAlso","@type":"@id" },
@@ -39,11 +40,13 @@
       "type":"Feature",
       "id":"duraEuroposAmphitheater",
       "properties":{
+        "amphi-theatrum": "http://amphi-theatrum.de/1449.html",
         "buildingtype" : "amphitheater",
         "created":216,
         "chronogroup": "Severan",
         "capacity":1000,
         "emperor": "Septimius Severus",
+        "dedication":["http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD023604"],
         "title":"Amphitheater at Dura Europos",
         "comment":"Capacity and date drawn from N. Pollard's \"Soldiers, Cities, and Civilians in Roman Syria\", p. 52",
         "location":"http://pleiades.stoa.org/places/893989#this"
