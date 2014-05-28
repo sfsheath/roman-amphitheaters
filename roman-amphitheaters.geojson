@@ -64,6 +64,7 @@
       "type":"Feature",
       "id":"arlesAmphitheater",
       "properties":{
+        "amphi-theatrum": "http://amphi-theatrum.de/1371.html",
         "buildingtype" : "amphitheater",
         "created":90,
         "capacity":20000,
@@ -86,15 +87,19 @@
       "type":"Feature",
       "id":"lyonAmphitheater",
       "properties":{
-        "title":"Amphitheater at Lyon",
+        "amphi-theatrum": "http://amphi-theatrum.de/1416.html",
         "buildingtype" : "amphitheater",
-        "comment":"The capacity refers to number of seats after the early 2nd AD century expansion. In AD 19 the capacity was under 2000.",
-        "created":19,
-        "capacity":20000,
+        "comment": "The capacity refers to number of seats after the early 2nd AD century expansion. In AD 19 the capacity was under 2000.",
+        "created": 19,
+        "capacity": 20000,
         "chronogroup": "Second Century",
-        "location":"http://pleiades.stoa.org/places/167717#this",
+        "dimensions": {"arena-major": 67.6, "arena-minor": 42},
         "emperor": "Tiberius",
-        "wikipedia":"http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls"
+        "location":"http://pleiades.stoa.org/places/167717#this",
+        "title":"Amphitheater at Lyon",
+        "wikipedia":[
+         "http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls",
+         "http://fr.wikipedia.org/wiki/Amphithéâtre_des_Trois_Gaules"]
       },
       "geometry":{
         "type":"Point",
