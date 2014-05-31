@@ -18,6 +18,7 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1371.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">90</SimpleData>
 		<SimpleData name="chronogroup">Flavian</SimpleData>
@@ -31,6 +32,7 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1416.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">19</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
@@ -39,7 +41,8 @@
 		<SimpleData name="title">Amphitheater at Lyon</SimpleData>
 		<SimpleData name="comment">The capacity refers to number of seats after the early 2nd AD century expansion. In AD 19 the capacity was under 2000.</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/167717#this</SimpleData>
-		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls</SimpleData>
+		<SimpleData name="wikipedia">[ &quot;http:\/\/en.wikipedia.org\/wiki\/Amphitheatre_of_the_Three_Gauls&quot;, &quot;http:\/\/fr.wikipedia.org\/wiki\/Amphithéâtre_des_Trois_Gaules&quot; ]</SimpleData>
+		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 67.6, &quot;arena-minor&quot;: 42 }</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>4.830556,45.770556,206</coordinates></Point>
   </Placemark>
@@ -86,13 +89,15 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/2397.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
+		<SimpleData name="capacity">3500</SimpleData>
 		<SimpleData name="title">Amphitheater at Eleutheropolis</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/687854#this</SimpleData>
-		<SimpleData name="see">http://pleiades.stoa.org/places/687854/location-of-roman-amphitheater</SimpleData>
+		<SimpleData name="last-use">363</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>34.8939,31.6082</coordinates></Point>
+      <Point><coordinates>34.893845,31.608189,253</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
@@ -952,11 +957,13 @@
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="title">Amphitheatre at Col. Forum Iulii</SimpleData>
+		<SimpleData name="created">100</SimpleData>
+		<SimpleData name="chronogroup">Flavian</SimpleData>
+		<SimpleData name="capacity">12000</SimpleData>
+		<SimpleData name="title">Amphitheater Fréjus</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/157836#this</SimpleData>
-		<SimpleData name="source">http://pleiades.stoa.org/places/157836/location-of-roman-amphitheater</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>6.7283212,43.4347293</coordinates></Point>
+      <Point><coordinates>6.72871,43.43446,12</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
@@ -1431,8 +1438,8 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">republican</SimpleData>
 		<SimpleData name="title">Amphitheater at Calvi Risorta</SimpleData>
-		<SimpleData name="latintoponym">Cales</SimpleData>
 		<SimpleData name="dimensions">{ &quot;structure_major&quot;: 110, &quot;structure_minor&quot;: 72, &quot;arena_major&quot;: 87.2 }</SimpleData>
+		<SimpleData name="latintoponym">Cales</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>14.137993,41.202429,89</coordinates></Point>
   </Placemark>
@@ -1461,7 +1468,9 @@
 	<SimpleField name="location" type="string"></SimpleField>
 	<SimpleField name="see" type="string"></SimpleField>
 	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleField name="dimensions" type="string"></SimpleField>
 	<SimpleField name="golvinID" type="string"></SimpleField>
+	<SimpleField name="last-use" type="int"></SimpleField>
 	<SimpleField name="last use" type="int"></SimpleField>
 	<SimpleField name="welchID" type="string"></SimpleField>
 	<SimpleField name="bibliography" type="string"></SimpleField>
@@ -1474,6 +1483,5 @@
 	<SimpleField name="youtube" type="string"></SimpleField>
 	<SimpleField name="latinName" type="string"></SimpleField>
 	<SimpleField name="latintoponyn" type="string"></SimpleField>
-	<SimpleField name="dimensions" type="string"></SimpleField>
 </Schema>
 </Document></kml>

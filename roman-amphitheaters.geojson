@@ -181,18 +181,22 @@
       "type":"Feature",
       "id":"eleutheropolisAmphitheater",
       "properties":{
-        "title":"Amphitheater at Eleutheropolis",
+        "amphi-theatrum": "http://amphi-theatrum.de/2397.html",
         "buildingtype" : "amphitheater",
-        "chronogroup": "Imperial",
+        "capacity": 3500,
+        "chronogroup": "Second Century",
+        "last-use": 363,
         "location":"http://pleiades.stoa.org/places/687854#this",
-        "see":"http://pleiades.stoa.org/places/687854/location-of-roman-amphitheater"
+        "title":"Amphitheater at Eleutheropolis"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          34.8939,
-          31.6082
-        ]
+           34.893845,
+           31.608189,
+           253
+        ],
+        "source":["http://pleiades.stoa.org/places/687854/location-of-roman-amphitheater","http://maps.google.com/"]
       }
     },
     {
@@ -1837,19 +1841,23 @@
     },
     {
       "type":"Feature",
-      "id":"colForumIuliiAmphitheater",
+      "id":"frejusAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Col. Forum Iulii",
+        "title":"Amphitheater Fréjus",
         "buildingtype" : "amphitheater",
-        "location":"http://pleiades.stoa.org/places/157836#this",
-        "source":"http://pleiades.stoa.org/places/157836/location-of-roman-amphitheater"
+        "capacity": 12000,
+        "created": 100,
+        "chronogroup": "Flavian",
+        "location":"http://pleiades.stoa.org/places/157836#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          6.7283211999999999,
-          43.434729300000001
-        ]
+          6.728710,
+          43.434460,
+          12
+        ],
+        "source":["http://pleiades.stoa.org/places/157836/location-of-roman-amphitheater","http://maps.google.com/"]
       }
     },{
       "type":"Feature",
