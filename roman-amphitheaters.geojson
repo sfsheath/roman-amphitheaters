@@ -1843,12 +1843,14 @@
       "type":"Feature",
       "id":"frejusAmphitheater",
       "properties":{
-        "title":"Amphitheater Fréjus",
+        "amphi-theatrum": "http://amphi-theatrum.de/1540.html",
         "buildingtype" : "amphitheater",
         "capacity": 12000,
         "created": 100,
         "chronogroup": "Flavian",
-        "location":"http://pleiades.stoa.org/places/157836#this"
+        "latintoponym": "Forum Julii",
+        "location":"http://pleiades.stoa.org/places/157836#this",
+        "title":"Amphitheater Fréjus"
       },
       "geometry":{
         "type":"Point",
@@ -2797,6 +2799,23 @@
            13.306027,
            42.400531,
            672
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"beziersAmphitheater",
+      "properties": {
+        "buildingtype": "amphitheater",
+        "latintoponym": "Baeterrae ",
+        "title": "Amphitheater at Béziers"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           3.214026,
+           43.339589,
+           56
         ],
         "source":"http://maps.google.com/"
       }
