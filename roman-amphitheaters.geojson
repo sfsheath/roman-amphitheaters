@@ -2838,6 +2838,22 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"narbonneAmphitheater",
+      "properties": {
+        "buildingtype": "amphitheater",
+        "title": "Amphitheater at Narbonne"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           3.010181,
+           43.184873,
+           14
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
 
   ]
