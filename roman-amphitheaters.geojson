@@ -2819,6 +2819,25 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"agenAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1552.html",
+        "buildingtype": "amphitheater",
+        "capacity": 15000,
+        "created": 215,
+        "title": "Amphitheater at Agen"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           0.622122,
+           44.206545,
+           52
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
 
   ]
