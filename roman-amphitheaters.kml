@@ -956,12 +956,14 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1540.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">100</SimpleData>
 		<SimpleData name="chronogroup">Flavian</SimpleData>
 		<SimpleData name="capacity">12000</SimpleData>
 		<SimpleData name="title">Amphitheater Fréjus</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/157836#this</SimpleData>
+		<SimpleData name="latintoponym">Forum Julii</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>6.72871,43.43446,12</coordinates></Point>
   </Placemark>
@@ -1454,6 +1456,46 @@
 	</SchemaData></ExtendedData>
       <Point><coordinates>13.306027,42.400531,672</coordinates></Point>
   </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="title">Amphitheater at Béziers</SimpleData>
+		<SimpleData name="latintoponym">Baeterrae </SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.214026,43.339589,56</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1552.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="created">215</SimpleData>
+		<SimpleData name="capacity">15000</SimpleData>
+		<SimpleData name="title">Amphitheater at Agen</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0.622122,44.206545,52</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Flavian</SimpleData>
+		<SimpleData name="title">Amphitheater at Narbonne</SimpleData>
+		<SimpleData name="dimensions">{ &quot;arena-maximum&quot;: 75, &quot;arena-minimum&quot;: 46.6, &quot;outer-maximum&quot;: 121.6, &quot;outer-minimum&quot;: 93.2 }</SimpleData>
+		<SimpleData name="visibility">none</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.010181,43.184873,14</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1384.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Second century</SimpleData>
+		<SimpleData name="title">Amphitheater at Amiens</SimpleData>
+		<SimpleData name="visibility">none</SimpleData>
+		<SimpleData name="capactiy">15000</SimpleData>
+		<SimpleData name="golvin-id">102</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.293485,49.8944,32</coordinates></Point>
+  </Placemark>
 </Folder>
 <Schema name="OGRGeoJSON" id="OGRGeoJSON">
 	<SimpleField name="amphi-theatrum" type="string"></SimpleField>
@@ -1483,5 +1525,8 @@
 	<SimpleField name="youtube" type="string"></SimpleField>
 	<SimpleField name="latinName" type="string"></SimpleField>
 	<SimpleField name="latintoponyn" type="string"></SimpleField>
+	<SimpleField name="visibility" type="string"></SimpleField>
+	<SimpleField name="capactiy" type="int"></SimpleField>
+	<SimpleField name="golvin-id" type="string"></SimpleField>
 </Schema>
 </Document></kml>

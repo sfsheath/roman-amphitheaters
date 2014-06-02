@@ -2845,7 +2845,8 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Flavian",
         "dimensions":{"arena-maximum":75,"arena-minimum":46.6,"outer-maximum":121.6,"outer-minimum":93.2},
-        "title": "Amphitheater at Narbonne"
+        "title": "Amphitheater at Narbonne",
+        "visibility": "none"
       },
       "geometry":{
         "type":"Point",
@@ -2865,7 +2866,8 @@
         "capactiy": 15000,
         "chronogroup": "Second century",
         "golvin-id": "102",
-        "title": "Amphitheater at Amiens"
+        "title": "Amphitheater at Amiens",
+        "visibility": "none"
       },
       "geometry":{
         "type":"Point",
