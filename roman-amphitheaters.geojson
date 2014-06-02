@@ -244,7 +244,8 @@
         "created":-8,
         "location":"http://pleiades.stoa.org/places/256155#this",
         "emperor" : "Augustus",
-        "wikipedia":"http://en.wikipedia.org/wiki/Mérida_amphitheatre"
+        "wikipedia":"http://en.wikipedia.org/wiki/Mérida_amphitheatre",
+        "youtube": "https://www.youtube.com/watch?v=T3QufLdGrU0"
       },
       "geometry":{
         "type":"Point",
@@ -798,7 +799,8 @@
       "properties":{
         "title":"Amphitheater at Lutetia",
         "buildingtype" : "amphitheater",
-        "location":"http://pleiades.stoa.org/places/109126#this"
+        "location":"http://pleiades.stoa.org/places/109126#this",
+        "youtube": "https://www.youtube.com/watch?v=DStHFfxd_qo"
       },
       "geometry":{
         "type":"Point",
@@ -1956,7 +1958,8 @@
         "buildingtype" : "amphitheater",
         "created":1,
         "capacity":26000,
-        "chronogroup":"Julio-Claudian"
+        "chronogroup":"Julio-Claudian",
+        "youtube": "https://www.youtube.com/watch?v=hqTud5XxI_s"
       },
       "geometry":{
         "type":"Point",
