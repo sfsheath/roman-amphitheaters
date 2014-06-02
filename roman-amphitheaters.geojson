@@ -2843,6 +2843,8 @@
       "id":"narbonneAmphitheater",
       "properties": {
         "buildingtype": "amphitheater",
+        "chronogroup": "Flavian",
+        "dimensions":{"arena-maximum":75,"arena-minimum":46.6,"outer-maximum":121.6,"outer-minimum":93.2},
         "title": "Amphitheater at Narbonne"
       },
       "geometry":{
@@ -2851,6 +2853,26 @@
            3.010181,
            43.184873,
            14
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"amiensAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1384.html",
+        "buildingtype": "amphitheater",
+        "capactiy": 15000,
+        "chronogroup": "Second century",
+        "golvin-id": "102",
+        "title": "Amphitheater at Amiens"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           2.293485,
+           49.894400,
+           32
         ],
         "source":"http://maps.google.com/"
       }
