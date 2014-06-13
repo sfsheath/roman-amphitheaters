@@ -72,7 +72,8 @@
         "location":"http://pleiades.stoa.org/places/148217#this",
         "see":"http://pleiades.stoa.org/places/148217/location-of-roman-amphitheater",
         "title":"Amphitheater at Arles",
-        "wikipedia":"http://en.wikipedia.org/wiki/Arles_Amphitheatre"
+        "wikipedia":"http://en.wikipedia.org/wiki/Arles_Amphitheatre",
+        "youtube": "https://www.youtube.com/watch?v=oCz-76hb1LU"
       },
       "geometry":{
         "type":"Point",
@@ -914,7 +915,8 @@
         "created": 90,
         "capacity": 24000,
         "chronogroup": "Flavian",
-        "location":"http://pleiades.stoa.org/places/148142#this"
+        "location":"http://pleiades.stoa.org/places/148142#this",
+        "youtube": "https://www.youtube.com/watch?v=c384XQlnINo"
       },
       "geometry":{
         "type":"Point",
@@ -1806,7 +1808,8 @@
         "created": 125,
         "capacity": 9000,
         "chronogroup": "Second Century",
-        "location":"http://pleiades.stoa.org/places/324835#this"
+        "location":"http://pleiades.stoa.org/places/324835#this",
+        "youtube":["https://www.youtube.com/watch?v=bDDyEMg34Os"]
       },
       "geometry":{
         "type":"Point",
@@ -1959,7 +1962,7 @@
         "created":1,
         "capacity":26000,
         "chronogroup":"Julio-Claudian",
-        "youtube": "https://www.youtube.com/watch?v=hqTud5XxI_s"
+        "youtube": ["https://www.youtube.com/watch?v=hqTud5XxI_s","https://www.youtube.com/watch?v=YZGAZ6HFUmA","https://www.youtube.com/watch?v=oF1jrFn-5mY"]
       },
       "geometry":{
         "type":"Point",
@@ -2878,6 +2881,26 @@
            2.293485,
            49.894400,
            32
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"meauxAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/2416.html",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
+        "latintoponym": "Iatinum Fixtinnum",
+        "title": "Amphitheater at Meaux",
+        "visibility": "none"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           2.883491,
+           48.970006,
+           50
         ],
         "source":"http://maps.google.com/"
       }
