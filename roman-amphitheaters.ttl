@@ -622,6 +622,21 @@
         <http://www.w3.org/ns/prov#wasDerivedFrom> <http://pleiades.stoa.org/places/79534/location-of-roman-amphitheater>
     ] .
 
+<http://purl.org/roman-amphitheaters/id/chartresAmphitheater>
+    <http://geovocab.org/geometry#geometry> [
+        a <http://geovocab.org/geometry#Point> ;
+        rdf:value (1.48926E0
+            4.8450069E1
+            140
+        ) ;
+        <http://www.w3.org/ns/prov#wasDerivedFrom> <http://maps.google.com/>
+    ] ;
+    a <http://geovocab.org/spatial#Feature> ;
+    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://purl.org/dc/terms/title> "Amphitheater at Chartres" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
+    ] .
+
 <http://purl.org/roman-amphitheaters/id/cherchellAmphitheater>
     <http://geovocab.org/geometry#geometry> [
         a <http://geovocab.org/geometry#Point> ;
@@ -1435,13 +1450,6 @@
 <http://purl.org/roman-amphitheaters/id/meauxAmphitheater>
     <http://geovocab.org/geometry#geometry> [
         a <http://geovocab.org/geometry#Point> ;
-        rdf:value (1.251841E0
-            4.897E1
-            50
-        ) ;
-        <http://www.w3.org/ns/prov#wasDerivedFrom> <http://maps.google.com/>
-    ], [
-        a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.883491E0
             4.8970006E1
             50
@@ -1450,9 +1458,6 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://purl.org/dc/terms/title> "Amphitheater at Meaux" ;
-        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
-    ], [
         <http://purl.org/dc/terms/title> "Amphitheater at Meaux" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
     ] .

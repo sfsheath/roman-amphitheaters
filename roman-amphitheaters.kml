@@ -1289,16 +1289,6 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/2416.html</SimpleData>
-		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="chronogroup">Second Century</SimpleData>
-		<SimpleData name="title">Amphitheater at Meaux</SimpleData>
-		<SimpleData name="latintoponym">Iatinum Fixtinnum</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>1.251841,48.97,50</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1381.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="title">Amphitheater at Poitiers</SimpleData>
@@ -1512,6 +1502,16 @@
 		<SimpleData name="visibility">none</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>2.883491,48.970006,50</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="title">Amphitheater at Chartres</SimpleData>
+		<SimpleData name="latintoponym">Autricum</SimpleData>
+		<SimpleData name="visibility">none</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>1.48926,48.450069,140</coordinates></Point>
   </Placemark>
 </Folder>
 <Schema name="OGRGeoJSON" id="OGRGeoJSON">

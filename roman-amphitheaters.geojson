@@ -2482,25 +2482,6 @@
       }
     },{
       "type":"Feature",
-      "id":"meauxAmphitheater",
-      "properties": {
-        "buildingtype": "amphitheater",
-        "chronogroup": "Second Century",
-        "latintoponym": "Iatinum Fixtinnum",
-        "title": "Amphitheater at Meaux",
-        "amphi-theatrum": "http://amphi-theatrum.de/2416.html"
-      },
-      "geometry":{
-        "type":"Point",
-        "coordinates":[
-           1.251841,
-           48.970000,
-           50
-        ],
-        "source":"http://maps.google.com/"
-      }
-    },{
-      "type":"Feature",
       "id":"poitiersAmphitheater",
       "properties": {
         "buildingtype": "amphitheater",
@@ -2901,6 +2882,25 @@
            2.883491,
            48.970006,
            50
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"chartresAmphitheater",
+      "properties": {
+        "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
+        "latintoponym": "Autricum",
+        "title": "Amphitheater at Chartres",
+        "visibility": "none"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           1.489260,
+           48.450069,
+           140
         ],
         "source":"http://maps.google.com/"
       }
