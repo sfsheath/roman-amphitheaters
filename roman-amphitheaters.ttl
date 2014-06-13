@@ -1440,9 +1440,19 @@
             50
         ) ;
         <http://www.w3.org/ns/prov#wasDerivedFrom> <http://maps.google.com/>
+    ], [
+        a <http://geovocab.org/geometry#Point> ;
+        rdf:value (2.883491E0
+            4.8970006E1
+            50
+        ) ;
+        <http://www.w3.org/ns/prov#wasDerivedFrom> <http://maps.google.com/>
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://purl.org/dc/terms/title> "Amphitheater at Meaux" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
+    ], [
         <http://purl.org/dc/terms/title> "Amphitheater at Meaux" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
     ] .

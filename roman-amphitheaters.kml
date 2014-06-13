@@ -27,6 +27,7 @@
 		<SimpleData name="location">http://pleiades.stoa.org/places/148217#this</SimpleData>
 		<SimpleData name="see">http://pleiades.stoa.org/places/148217/location-of-roman-amphitheater</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Arles_Amphitheatre</SimpleData>
+		<SimpleData name="youtube">https://www.youtube.com/watch?v=oCz-76hb1LU</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>4.631111,43.677778,21</coordinates></Point>
   </Placemark>
@@ -125,6 +126,7 @@
 		<SimpleData name="title">Amphitheater at Mérida (Emerita Augusta)</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/256155#this</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Mérida_amphitheatre</SimpleData>
+		<SimpleData name="youtube">https://www.youtube.com/watch?v=T3QufLdGrU0</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-6.337952,38.916168,231</coordinates></Point>
   </Placemark>
@@ -420,6 +422,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="title">Amphitheater at Lutetia</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/109126#this</SimpleData>
+		<SimpleData name="youtube">https://www.youtube.com/watch?v=DStHFfxd_qo</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>2.352855,48.845097,46</coordinates></Point>
   </Placemark>
@@ -475,6 +478,7 @@
 		<SimpleData name="capacity">24000</SimpleData>
 		<SimpleData name="title">Amphitheatre at Nimes</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/148142#this</SimpleData>
+		<SimpleData name="youtube">https://www.youtube.com/watch?v=c384XQlnINo</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>4.359599,43.834876,50</coordinates></Point>
   </Placemark>
@@ -878,8 +882,8 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="title">Amphitheatre at Assisi</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/413037#this</SimpleData>
-		<SimpleData name="latintoponym">Asisium</SimpleData>
 		<SimpleData name="youtube">https://www.youtube.com/watch?v=uLSmRRxtf4M</SimpleData>
+		<SimpleData name="latintoponym">Asisium</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>12.620454,43.071077,445</coordinates></Point>
   </Placemark>
@@ -938,6 +942,7 @@
 		<SimpleData name="capacity">9000</SimpleData>
 		<SimpleData name="title">Small Amphitheater at Thysdrus</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/324835#this</SimpleData>
+		<SimpleData name="youtube">[ &quot;https:\/\/www.youtube.com\/watch?v=bDDyEMg34Os&quot; ]</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>10.707911,35.290106,116</coordinates></Point>
   </Placemark>
@@ -949,8 +954,8 @@
 		<SimpleData name="capacity">35000</SimpleData>
 		<SimpleData name="title">Amphitheater at Thysdrus</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/324835#this</SimpleData>
-		<SimpleData name="period">Gordion III</SimpleData>
 		<SimpleData name="youtube">https://www.youtube.com/watch?v=bDDyEMg34Os</SimpleData>
+		<SimpleData name="period">Gordion III</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>10.706939,35.29639,111</coordinates></Point>
   </Placemark>
@@ -1020,6 +1025,7 @@
 		<SimpleData name="chronogroup">Julio-Claudian</SimpleData>
 		<SimpleData name="capacity">26000</SimpleData>
 		<SimpleData name="title">Amphitheater at Pula</SimpleData>
+		<SimpleData name="youtube">[ &quot;https:\/\/www.youtube.com\/watch?v=hqTud5XxI_s&quot;, &quot;https:\/\/www.youtube.com\/watch?v=YZGAZ6HFUmA&quot;, &quot;https:\/\/www.youtube.com\/watch?v=oF1jrFn-5mY&quot; ]</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>13.850243,44.873229,16</coordinates></Point>
   </Placemark>
@@ -1496,6 +1502,17 @@
 	</SchemaData></ExtendedData>
       <Point><coordinates>2.293485,49.8944,32</coordinates></Point>
   </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/2416.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="title">Amphitheater at Meaux</SimpleData>
+		<SimpleData name="latintoponym">Iatinum Fixtinnum</SimpleData>
+		<SimpleData name="visibility">none</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.883491,48.970006,50</coordinates></Point>
+  </Placemark>
 </Folder>
 <Schema name="OGRGeoJSON" id="OGRGeoJSON">
 	<SimpleField name="amphi-theatrum" type="string"></SimpleField>
@@ -1510,6 +1527,7 @@
 	<SimpleField name="location" type="string"></SimpleField>
 	<SimpleField name="see" type="string"></SimpleField>
 	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleField name="youtube" type="string"></SimpleField>
 	<SimpleField name="dimensions" type="string"></SimpleField>
 	<SimpleField name="golvinID" type="string"></SimpleField>
 	<SimpleField name="last-use" type="int"></SimpleField>
@@ -1522,7 +1540,6 @@
 	<SimpleField name="latingtoponym" type="string"></SimpleField>
 	<SimpleField name="wikimapia" type="string"></SimpleField>
 	<SimpleField name="creation" type="int"></SimpleField>
-	<SimpleField name="youtube" type="string"></SimpleField>
 	<SimpleField name="latinName" type="string"></SimpleField>
 	<SimpleField name="latintoponyn" type="string"></SimpleField>
 	<SimpleField name="visibility" type="string"></SimpleField>
