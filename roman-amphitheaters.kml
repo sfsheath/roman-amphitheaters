@@ -1513,6 +1513,32 @@
 	</SchemaData></ExtendedData>
       <Point><coordinates>1.48926,48.450069,140</coordinates></Point>
   </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1483.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="title">Amphitheater at Senlis</SimpleData>
+		<SimpleData name="wikipedia">http://fr.wikipedia.org/wiki/Arènes_de_Senlis</SimpleData>
+		<SimpleData name="latintoponym">Augustomagus</SimpleData>
+		<SimpleData name="visibility">good</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.575376,49.205169,64</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1383.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Hadrianic</SimpleData>
+		<SimpleData name="capacity">14000</SimpleData>
+		<SimpleData name="title">Amphitheater at Tours</SimpleData>
+		<SimpleData name="wikipedia">http://fr.wikipedia.org/wiki/Amphithéâtre_de_Tours</SimpleData>
+		<SimpleData name="golvinID">54</SimpleData>
+		<SimpleData name="latintoponym">Caesarodunum Turonum</SimpleData>
+		<SimpleData name="visibility">good</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0.696233,47.395342,59</coordinates></Point>
+  </Placemark>
 </Folder>
 <Schema name="OGRGeoJSON" id="OGRGeoJSON">
 	<SimpleField name="amphi-theatrum" type="string"></SimpleField>

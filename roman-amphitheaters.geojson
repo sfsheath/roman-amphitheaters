@@ -2904,6 +2904,50 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"senlisAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1483.html",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
+        "latintoponym": "Augustomagus",
+        "title": "Amphitheater at Senlis",
+        "visibility": "good",
+        "wikipedia": "http://fr.wikipedia.org/wiki/Arènes_de_Senlis"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           2.575376,
+           49.205169,
+           64
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"toursAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1383.html",
+        "buildingtype": "amphitheater",
+        "capacity": 14000,
+        "chronogroup": "Hadrianic",
+        "golvinID": "54",
+        "latintoponym": "Caesarodunum Turonum",
+        "title": "Amphitheater at Tours",
+        "visibility": "good",
+        "wikipedia": "http://fr.wikipedia.org/wiki/Amphithéâtre_de_Tours"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           0.696233,
+           47.395342,
+           59
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
 
   ]
