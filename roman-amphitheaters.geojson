@@ -1368,19 +1368,21 @@
     },
     {
       "type":"Feature",
-      "id":"isuriumAmphitheatre",
+      "id":"aldburoughAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Isurium",
+        "title":"Amphitheater at Aldborough",
         "buildingtype" : "amphitheater",
-        "location":"http://pleiades.stoa.org/places/89209#this",
-        "source":"http://pleiades.stoa.org/places/89209/possible-location-of-roman-amphitheater"
+        "chronogroup": "Imperial",
+        "latintoponym": "Isurium Brigantium",
+        "location":"http://pleiades.stoa.org/places/89209#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
           -1.3796295999999999,
           54.088115700000003
-        ]
+        ],
+        "source":"http://pleiades.stoa.org/places/89209/possible-location-of-roman-amphitheater"
       }
     },
     {
@@ -2945,6 +2947,27 @@
            0.696233,
            47.395342,
            59
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"caistorStEdmundAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1986.html",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
+        "latintoponym": "Venta Icenorum",
+        "title": "Amphitheater at Caistor Saint Edmund",
+        "visibility": "none",
+        "webpage": "http://www.norfarchtrust.org.uk/caistor"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           1.288445,
+           52.579764,
+           7
         ],
         "source":"http://maps.google.com/"
       }

@@ -711,9 +711,10 @@
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="title">Amphitheatre at Isurium</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="title">Amphitheater at Aldborough</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/89209#this</SimpleData>
-		<SimpleData name="source">http://pleiades.stoa.org/places/89209/possible-location-of-roman-amphitheater</SimpleData>
+		<SimpleData name="latintoponym">Isurium Brigantium</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-1.3796296,54.0881157</coordinates></Point>
   </Placemark>
@@ -1539,6 +1540,18 @@
 	</SchemaData></ExtendedData>
       <Point><coordinates>0.696233,47.395342,59</coordinates></Point>
   </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1986.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="title">Amphitheater at Caistor Saint Edmund</SimpleData>
+		<SimpleData name="latintoponym">Venta Icenorum</SimpleData>
+		<SimpleData name="visibility">none</SimpleData>
+		<SimpleData name="webpage">http://www.norfarchtrust.org.uk/caistor</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>1.288445,52.579764,7</coordinates></Point>
+  </Placemark>
 </Folder>
 <Schema name="OGRGeoJSON" id="OGRGeoJSON">
 	<SimpleField name="amphi-theatrum" type="string"></SimpleField>
@@ -1571,5 +1584,6 @@
 	<SimpleField name="visibility" type="string"></SimpleField>
 	<SimpleField name="capactiy" type="int"></SimpleField>
 	<SimpleField name="golvin-id" type="string"></SimpleField>
+	<SimpleField name="webpage" type="string"></SimpleField>
 </Schema>
 </Document></kml>
