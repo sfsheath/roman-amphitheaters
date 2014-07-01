@@ -2981,7 +2981,8 @@
         "chronogroup": "Republican",
         "latintoponym": "Capua",
         "title": "Republican Amphitheater at Capua",
-        "visibility": "partial"
+        "visibility": "partial",
+        "welch-id": "2"
       },
       "geometry":{
         "type":"Point",
@@ -3012,7 +3013,48 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"liternoAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1862.html",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Republican",
+        "comment": "Location is incorrect. Said to be south of city wall.",
+        "latintoponym": "Liternum",
+        "title": "Amphitheater at Literno",
+        "visibility": "none",
+        "welch-id": "3"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+              14.030400,
+              40.920949,
+              9
+        ],
+        "source":"http://maps.google.com/"
+      },{
+      "type":"Feature",
+      "id":"noleAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1594.html",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Republican"
+        "latintoponym": "Nola",
+        "title": "Amphitheater at Nole",
+        "visibility": "partial",
+        "welch-id": "13"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+              14.520540,
+              40.927702,
+              35
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
-
   ]
 }
