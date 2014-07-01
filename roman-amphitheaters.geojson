@@ -3034,13 +3034,14 @@
               9
         ],
         "source":"http://maps.google.com/"
+        }
       },{
       "type":"Feature",
       "id":"noleAmphitheater",
       "properties": {
         "amphi-theatrum": "http://amphi-theatrum.de/1594.html",
         "buildingtype": "amphitheater",
-        "chronogroup": "Republican"
+        "chronogroup": "Republican",
         "latintoponym": "Nola",
         "title": "Amphitheater at Nole",
         "visibility": "partial",

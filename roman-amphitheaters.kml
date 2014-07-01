@@ -1559,6 +1559,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="title">Republican Amphitheater at Capua</SimpleData>
+		<SimpleData name="welch-id">2</SimpleData>
 		<SimpleData name="latintoponym">Capua</SimpleData>
 		<SimpleData name="visibility">partial</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1574,6 +1575,31 @@
 		<SimpleData name="visibility">partial</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>14.250089,41.085935,34</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1862.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Republican</SimpleData>
+		<SimpleData name="title">Amphitheater at Literno</SimpleData>
+		<SimpleData name="comment">Location is incorrect. Said to be south of city wall.</SimpleData>
+		<SimpleData name="welch-id">3</SimpleData>
+		<SimpleData name="latintoponym">Liternum</SimpleData>
+		<SimpleData name="visibility">none</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>14.0304,40.920949,9</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1594.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Republican</SimpleData>
+		<SimpleData name="title">Amphitheater at Nole</SimpleData>
+		<SimpleData name="welch-id">13</SimpleData>
+		<SimpleData name="latintoponym">Nola</SimpleData>
+		<SimpleData name="visibility">partial</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>14.52054,40.927702,35</coordinates></Point>
   </Placemark>
 </Folder>
 <Schema name="OGRGeoJSON" id="OGRGeoJSON">
