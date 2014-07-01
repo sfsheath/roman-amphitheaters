@@ -70,6 +70,7 @@
 		<SimpleData name="location">http://pleiades.stoa.org/places/423025#this</SimpleData>
 		<SimpleData name="see">http://pleiades.stoa.org/places/285857974/centerpoint-of-amphitheatrum-flavium</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Colosseum</SimpleData>
+		<SimpleData name="youtube">[ &quot;https:\/\/www.youtube.com\/watch?v=kxwenPo1grc&quot;, &quot;https:\/\/www.youtube.com\/watch?v=flXe8h3i5vc&quot; ]</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>12.492269,41.890169,22</coordinates></Point>
   </Placemark>
@@ -111,7 +112,7 @@
 		<SimpleData name="see">http://pleiades.stoa.org/places/433032/amphitheater-of-pompeii</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Amphitheatre_of_Pompeii</SimpleData>
 		<SimpleData name="last use">79</SimpleData>
-		<SimpleData name="welchID">1</SimpleData>
+		<SimpleData name="welch-id">1</SimpleData>
 		<SimpleData name="bibliography">[ { &quot;dc:bibliographicCitation&quot;: &quot;P. Zanker, &lt;i&gt;Pompeii: Public and private life&lt;\/i&gt; (Cambridge, MA, 1998) 68-72.&quot;, &quot;worldcat&quot;: &quot;http:\/\/www.worldcat.org\/oclc\/39143166&quot; }, { &quot;dc:bibliographicCitation&quot;: &quot;K. Welch, &lt;i&gt;The Roman Amphitheater from its Origins to the Colosseum&lt;\/i&gt; (Cambridge, MA, 2007) 192-198.&quot;, &quot;worldcat&quot;: &quot;http:\/\/www.worldcat.org\/oclc\/39143166&quot; } ]</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>14.495262,40.751213,21</coordinates></Point>
@@ -161,7 +162,7 @@
 		<SimpleData name="title">Amphitheater at Cumae</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/432808#this</SimpleData>
 		<SimpleData name="see">http://pleiades.stoa.org/places/432808/location-of-roman-amphitheater</SimpleData>
-		<SimpleData name="welchID">4</SimpleData>
+		<SimpleData name="welch-id">4</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>14.056,40.841847,19</coordinates></Point>
   </Placemark>
@@ -372,7 +373,7 @@
 		<SimpleData name="capacity">4500</SimpleData>
 		<SimpleData name="title">Amphitheatre at Paestum</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/442733#this</SimpleData>
-		<SimpleData name="welchID">10</SimpleData>
+		<SimpleData name="welch-id">10</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>15.006449,40.422354,18</coordinates></Point>
   </Placemark>
@@ -787,7 +788,7 @@
 		<SimpleData name="capacity">8500</SimpleData>
 		<SimpleData name="title">Amphitheatre at Sutrium</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/413328#this</SimpleData>
-		<SimpleData name="welchID">15</SimpleData>
+		<SimpleData name="welch-id">15</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/413328/location-of-roman-amphitheater</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>12.2293009,42.2393124,271</coordinates></Point>
@@ -852,7 +853,7 @@
 		<SimpleData name="capacity">9000</SimpleData>
 		<SimpleData name="title">Amphitheatre at Telesia</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/433147#this</SimpleData>
-		<SimpleData name="welchID">9</SimpleData>
+		<SimpleData name="welch-id">9</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/433147/location-of-roman-amphitheater</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>14.500496,41.223911,68</coordinates></Point>
@@ -1038,7 +1039,7 @@
 		<SimpleData name="capacity">8000</SimpleData>
 		<SimpleData name="title">Amphitheater at Carmona</SimpleData>
 		<SimpleData name="comment">Size is only estimate based Welch reporting a comparison with Sutrium.</SimpleData>
-		<SimpleData name="welchID">17</SimpleData>
+		<SimpleData name="welch-id">17</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-5.650907,37.469674,223</coordinates></Point>
   </Placemark>
@@ -1077,7 +1078,7 @@
 		<SimpleData name="chronogroup">republican</SimpleData>
 		<SimpleData name="title">Amphitheater at Antioch</SimpleData>
 		<SimpleData name="comment">Location not specific.</SimpleData>
-		<SimpleData name="welchID">19</SimpleData>
+		<SimpleData name="welch-id">19</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>36.160437,36.202624,89</coordinates></Point>
   </Placemark>
@@ -1552,6 +1553,28 @@
 	</SchemaData></ExtendedData>
       <Point><coordinates>1.288445,52.579764,7</coordinates></Point>
   </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/2081.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Republican</SimpleData>
+		<SimpleData name="title">Republican Amphitheater at Capua</SimpleData>
+		<SimpleData name="latintoponym">Capua</SimpleData>
+		<SimpleData name="visibility">partial</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>14.250309,41.084593,37</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/2082.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Flavian</SimpleData>
+		<SimpleData name="title">Imperial Amphitheater at Capua</SimpleData>
+		<SimpleData name="latintoponym">Capua</SimpleData>
+		<SimpleData name="visibility">partial</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>14.250089,41.085935,34</coordinates></Point>
+  </Placemark>
 </Folder>
 <Schema name="OGRGeoJSON" id="OGRGeoJSON">
 	<SimpleField name="amphi-theatrum" type="string"></SimpleField>
@@ -1571,7 +1594,7 @@
 	<SimpleField name="golvinID" type="string"></SimpleField>
 	<SimpleField name="last-use" type="int"></SimpleField>
 	<SimpleField name="last use" type="int"></SimpleField>
-	<SimpleField name="welchID" type="string"></SimpleField>
+	<SimpleField name="welch-id" type="string"></SimpleField>
 	<SimpleField name="bibliography" type="string"></SimpleField>
 	<SimpleField name="period" type="string"></SimpleField>
 	<SimpleField name="source" type="string"></SimpleField>
