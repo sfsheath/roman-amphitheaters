@@ -189,7 +189,8 @@
         "chronogroup": "Second Century",
         "last-use": 363,
         "location":"http://pleiades.stoa.org/places/687854#this",
-        "title":"Amphitheater at Eleutheropolis"
+        "title":"Amphitheater at Eleutheropolis",
+        "youtube": "https://www.youtube.com/watch?v=bA6YNf8ZwlI"
       },
       "geometry":{
         "type":"Point",
@@ -247,7 +248,7 @@
         "location":"http://pleiades.stoa.org/places/256155#this",
         "emperor": "Augustus",
         "wikipedia":"http://en.wikipedia.org/wiki/Mérida_amphitheatre",
-        "youtube": "https://www.youtube.com/watch?v=T3QufLdGrU0"
+        "youtube": ["https://www.youtube.com/watch?v=g4gNhPD2dV4","https://www.youtube.com/watch?v=T3QufLdGrU0"]
       },
       "geometry":{
         "type":"Point",
@@ -331,7 +332,8 @@
         "period": "Vespasian",
         "chronogroup": "Flavian",
         "wikipedia":"http://en.wikipedia.org/wiki/Flavian_Amphitheater_(Pozzuoli)",
-        "location":"http://pleiades.stoa.org/places/432815#this"
+        "location":"http://pleiades.stoa.org/places/432815#this",
+        "youtube": "https://www.youtube.com/watch?v=lRV_NbfLgro"
       },
       "geometry":{
         "type":"Point",
@@ -589,7 +591,8 @@
         "capacity":15000,
         "chronogroup": "Second Century",
         "location":"http://pleiades.stoa.org/places/246349#this",
-        "see":"http://pleiades.stoa.org/places/246349/location-of-roman-amphitheater"
+        "youtube": "https://www.youtube.com/watch?v=Z-1Qrk5qLAE"
+        
       },
       "geometry":{
         "type":"Point",
@@ -597,7 +600,8 @@
           1.258780,
           41.114522,
           13
-        ]
+        ],
+        "source":"http://pleiades.stoa.org/places/246349/location-of-roman-amphitheater"
       }
     },
     {
@@ -1316,7 +1320,8 @@
         "chronogroup": "Julio-Claudian",
         "wikipedia":"https://en.wikipedia.org/wiki/Verona_Arena",
         "location":"http://pleiades.stoa.org/places/383816#this",
-        "source":"http://pleiades.stoa.org/places/383816/location-of-amphitheater"
+        "source":"http://pleiades.stoa.org/places/383816/location-of-amphitheater",
+        "youtube": "https://www.youtube.com/watch?v=CJoS5abKuYc"
       },
       "geometry":{
         "type":"Point",
@@ -1558,36 +1563,22 @@
     },
     {
       "type":"Feature",
-      "id":"korinionCironiumAmphitheatre",
+      "id":"londonAmphitheatre",
       "properties":{
-        "title":"Amphitheatre at Korinion/Cironium",
         "buildingtype": "amphitheater",
-        "location":"http://pleiades.stoa.org/places/79549#this",
-        "source":"http://pleiades.stoa.org/places/79549/location-of-roman-amphitheater"
-      },
-      "geometry":{
-        "type":"Point",
-        "coordinates":[
-          -1.9714981,
-          51.710580200000003
-        ]
-      }
-    },
-    {
-      "type":"Feature",
-      "id":"londiniumAugustaAmphitheatre",
-      "properties":{
-        "title":"Amphitheatre at Londinium/Augusta",
-        "buildingtype": "amphitheater",
+        "latintoponym": "Londinium",
         "location":"http://pleiades.stoa.org/places/79574#this",
-        "source":"http://pleiades.stoa.org/places/79574/location-of-roman-amphitheater-at-guildhall"
+        "title":"Amphitheatre at London",
+        "youtube": "https://www.youtube.com/watch?v=qvw9xA-hTz8"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          -0.092450000000000004,
-          51.5156317
-        ]
+            -0.092136,
+            51.515522,
+            29
+        ],
+        "source":["http://maps.google.com","http://pleiades.stoa.org/places/79574/location-of-roman-amphitheater-at-guildhall"]
       }
     },
     {
@@ -1614,7 +1605,8 @@
       "properties":{
         "title":"Amphitheater at Caerleon",
         "buildingtype": "amphitheater",
-        "location":"http://pleiades.stoa.org/places/79532#this"
+        "location":"http://pleiades.stoa.org/places/79532#this",
+        "youtube": "https://www.youtube.com/watch?v=VIT1JAOadho"
       },
       "geometry":{
         "type":"Point",
@@ -1623,7 +1615,7 @@
           51.608058999999997,
           13
         ],
-        "source":"http://pleiades.stoa.org/places/79532/roman-amphitheatre"
+        "source": ["http://maps.google.com/","http://pleiades.stoa.org/places/79532/roman-amphitheatre"]
       }
     },
     {
@@ -1677,7 +1669,8 @@
       "properties":{
         "title":"Amphitheatre at Saintes",
         "buildingtype": "amphitheater",
-        "location":"http://pleiades.stoa.org/places/138458#this"
+        "location":"http://pleiades.stoa.org/places/138458#this",
+        "youtube": "https://www.youtube.com/watch?v=2TCI21s-bxM"
       },
       "geometry":{
         "type":"Point",
@@ -1766,19 +1759,23 @@
     },
     {
       "type":"Feature",
-      "id":"coriniumAmphitheatre",
+      "id":"cirencesterAmphitheater",
       "properties":{
-        "title":"Amphitheatre at Corinium",
+        "amphi-theatrum": "http://amphi-theatrum.de/1490.html",
+        "title":"Amphitheater at Cirencester",
+        "latintoponym": "Corinium Dobunnorum",
         "buildingtype": "amphitheater",
-        "location":"http://pleiades.stoa.org/places/197225#this"
+        "location":"http://pleiades.stoa.org/places/197225#this",
+        "youtube": "https://www.youtube.com/watch?v=9RFDium7TYU"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          -1.9714981,
-          51.710580200000003
+            -1.972188,
+            51.711510,
+            119
         ],
-        "source":"http://pleiades.stoa.org/places/197225/location-of-roman-amphitheater"
+        "source":["http://maps.google.com/","http://pleiades.stoa.org/places/197225/location-of-roman-amphitheater"]
       }
     },
     {
@@ -2252,7 +2249,7 @@
         "created" : 100,
         "capacity" : 20000,
         "chronogroup":"Second Century",
-        "youtube": "https://www.youtube.com/watch?v=WYOvPyCntiY"
+        "youtube": ["https://www.youtube.com/watch?v=WYOvPyCntiY","https://www.youtube.com/watch?v=kOv5vx9S0z8"]
       },
       "geometry":{
         "type":"Point",
@@ -3053,6 +3050,27 @@
               14.520540,
               40.927702,
               35
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"silchesterAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1493.html",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Second century",
+        "latintoponym": "Calleva Atrebatum",
+        "title": "Amphitheater at Silchester",
+        "visibility": "partial",
+        "youtube": "https://www.youtube.com/watch?v=ScpzLOmZEXs"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+                -1.972148,
+                51.711433,
+                119
         ],
         "source":"http://maps.google.com/"
       }
