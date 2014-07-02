@@ -1611,7 +1611,7 @@
 		<SimpleData name="latintoponym">Calleva Atrebatum</SimpleData>
 		<SimpleData name="visibility">partial</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-1.972148,51.711433,119</coordinates></Point>
+      <Point><coordinates>-1.07547,51.358881,91</coordinates></Point>
   </Placemark>
 </Folder>
 <Schema name="OGRGeoJSON" id="OGRGeoJSON">
