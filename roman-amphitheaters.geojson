@@ -2264,7 +2264,7 @@
         "created" : 100,
         "capacity" : 20000,
         "chronogroup":"Second Century",
-        "youtube": ["https://www.youtube.com/watch?v=WYOvPyCntiY","https://www.youtube.com/watch?v=kOv5vx9S0z8"]
+        "youtube": ["https://www.youtube.com/watch?v=WYOvPyCntiY","https://www.youtube.com/watch?v=kOv5vx9S0z8","https://www.youtube.com/watch?v=dl9PAgQuSNs"]
       },
       "geometry":{
         "type":"Point",
@@ -3015,7 +3015,7 @@
         "latintoponym": "Capua",
         "title": "Imperial Amphitheater at Capua",
         "visibility": "partial",
-        "youtube": ["https://www.youtube.com/watch?v=93yf8t-lKGI"]
+        "youtube": ["https://www.youtube.com/watch?v=8q86tToFDwI","https://www.youtube.com/watch?v=93yf8t-lKGI"]
       },
       "geometry":{
         "type":"Point",
