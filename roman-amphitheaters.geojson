@@ -216,6 +216,7 @@
         "chronogroup": "republican",
         "see":"http://pleiades.stoa.org/places/433032/amphitheater-of-pompeii",
         "welch-id":"1",
+        "youtube": "https://www.youtube.com/watch?v=bqf4bJyo3rU",
         "bibliography": [
                     {
                         "dc:bibliographicCitation": "P. Zanker, <i>Pompeii: Public and private life</i> (Cambridge, MA, 1998) 68-72.",
@@ -333,7 +334,10 @@
         "chronogroup": "Flavian",
         "wikipedia":"http://en.wikipedia.org/wiki/Flavian_Amphitheater_(Pozzuoli)",
         "location":"http://pleiades.stoa.org/places/432815#this",
-        "youtube": "https://www.youtube.com/watch?v=lRV_NbfLgro"
+        "youtube": ["https://www.youtube.com/watch?v=VCCD-YeNQKk",
+           "https://www.youtube.com/watch?v=lRV_NbfLgro",
+           "https://www.youtube.com/watch?v=S4yHdPOzxck"
+           ]
       },
       "geometry":{
         "type":"Point",
@@ -371,7 +375,8 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Julio-Claudian",
         "location":"http://pleiades.stoa.org/places/462503#this",
-        "wikipedia": "http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Siracusa"
+        "wikipedia": "http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Siracusa",
+        "youtube": ["https://www.youtube.com/watch?v=aUcjHzMZCeY"]
       },
       "geometry":{
         "type":"Point",
@@ -391,7 +396,8 @@
         "created":100,
         "capacity":30000,
         "chronogroup": "Second Century",
-        "location":"http://pleiades.stoa.org/places/314921#this"
+        "location":"http://pleiades.stoa.org/places/314921#this",
+        "youtube": "https://www.youtube.com/watch?v=oDiCqZCu06I"
       },
       "geometry":{
         "type":"Point",
@@ -529,7 +535,8 @@
         "created":100,
         "capacity":12000,
         "chronogroup": "Second Century",
-        "location":"http://pleiades.stoa.org/places/128376#this"
+        "location":"http://pleiades.stoa.org/places/128376#this",
+        "youtube": "https://www.youtube.com/watch?v=Z5TcbJdyEns"
       },
       "geometry":{
         "type":"Point",
@@ -591,8 +598,8 @@
         "capacity":15000,
         "chronogroup": "Second Century",
         "location":"http://pleiades.stoa.org/places/246349#this",
-        "youtube": "https://www.youtube.com/watch?v=Z-1Qrk5qLAE"
-        
+        "youtube": ["https://www.youtube.com/watch?v=Z-1Qrk5qLAE",
+          "https://www.youtube.com/watch?v=puw8pLl9vJU"]
       },
       "geometry":{
         "type":"Point",
@@ -1516,7 +1523,8 @@
         "capacity":8500,
         "chronogroup": "republican",
         "created":-50,
-        "welch-id": "15"
+        "welch-id": "15",
+        "youtube": "https://www.youtube.com/watch?v=OgHl5MT95bg"
       },
       "geometry":{
         "type":"Point",
@@ -1606,7 +1614,10 @@
         "title":"Amphitheater at Caerleon",
         "buildingtype": "amphitheater",
         "location":"http://pleiades.stoa.org/places/79532#this",
-        "youtube": "https://www.youtube.com/watch?v=VIT1JAOadho"
+        "youtube": [
+           "https://www.youtube.com/watch?v=VIT1JAOadho",
+           "https://www.youtube.com/watch?v=vV-DCm-MFNI"
+           ]
       },
       "geometry":{
         "type":"Point",
@@ -1766,7 +1777,10 @@
         "latintoponym": "Corinium Dobunnorum",
         "buildingtype": "amphitheater",
         "location":"http://pleiades.stoa.org/places/197225#this",
-        "youtube": "https://www.youtube.com/watch?v=9RFDium7TYU"
+        "youtube": [
+            "https://www.youtube.com/watch?v=9RFDium7TYU",
+            "https://www.youtube.com/watch?v=8Nfeu_GD8KM",
+            "https://www.youtube.com/watch?v=gjrfQOxRj6k"]
       },
       "geometry":{
         "type":"Point",
@@ -1809,7 +1823,8 @@
         "capacity": 9000,
         "chronogroup": "Second Century",
         "location":"http://pleiades.stoa.org/places/324835#this",
-        "youtube":["https://www.youtube.com/watch?v=bDDyEMg34Os"]
+        "youtube":["https://www.youtube.com/watch?v=bDDyEMg34Os",
+                   "https://www.youtube.com/watch?v=HGjt7TVcbAY"]
       },
       "geometry":{
         "type":"Point",
@@ -2999,7 +3014,8 @@
         "chronogroup": "Flavian",
         "latintoponym": "Capua",
         "title": "Imperial Amphitheater at Capua",
-        "visibility": "partial"
+        "visibility": "partial",
+        "youtube": ["https://www.youtube.com/watch?v=93yf8t-lKGI"]
       },
       "geometry":{
         "type":"Point",
@@ -3071,6 +3087,28 @@
                   -1.075470,
                   51.358881,
                   91
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"dorchesterAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1491.html",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Second century",
+        "latintoponym": "Durnovaria",
+        "title": "Amphitheater at Dorchester",
+        "visibility": "partial",
+        "website": "http://www.maumburyrings.co.uk",
+        "youtube": "https://www.youtube.com/watch?v=ScpzLOmZEXs"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+                  -2.440246,
+                  50.708044,
+                  78
         ],
         "source":"http://maps.google.com/"
       }
