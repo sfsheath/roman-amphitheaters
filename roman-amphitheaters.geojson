@@ -3112,6 +3112,61 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"bragaAmphitheater",
+      "properties": {
+        "buildingtype": "amphitheater",
+        "latintoponym": "Bracara Augusta",
+        "title": "Amphitheater at Braga",
+        "visibility": "partial"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+                  -8.430075,
+                  41.546669,
+                  175
+                  
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"sisapoAmphitheater",
+      "properties": {
+        "buildingtype": "amphitheater",
+        "title": "Amphitheater at Sisapo",
+        "visibility": "partial"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+                  -4.516667,
+                  38.645833,
+                  659
+
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"leonAmphitheater",
+      "properties": {
+        "buildingtype": "amphitheater",
+        "title": "Amphitheater at León",
+        "visibility": "partial"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+                  -5.566944,
+                  42.598889,
+                  846
+
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ]
 }
