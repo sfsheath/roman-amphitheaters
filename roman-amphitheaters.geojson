@@ -3285,6 +3285,25 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"noceraSuperioreAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1515.html",
+        "buildingtype": "amphitheater",
+        "latintoponym": "Nuceria",
+        "title": "Amphitheater at Nocera Superiore",
+        "visibility": "none"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+                14.657022,
+                40.745750,
+                50
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ]
 }
