@@ -3246,6 +3246,25 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"ierapetraAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/2128.html",
+        "buildingtype": "amphitheater",
+        "see": "https://www.academia.edu/1557389/Rediscovering_the_small_theatre_and_amphitheatre_of_ancient_Ierapytna_SE_Crete_",
+        "title": "Amphitheater at Ierapetra",
+        "visibility": "partial"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+                25.745132,
+                35.011385,
+                4
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ]
 }
