@@ -3205,7 +3205,44 @@
                   4.310856,
                   46.953003,
                   317
-
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"xantenAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1450.html",
+        "buildingtype": "amphitheater",
+        "capacity": 10000,
+        "latintoponym": "Colonia Ulpia Traiana",
+        "title": "Amphitheater at Xanten",
+        "visibility": "good"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+                6.451386,
+                51.667172,
+                21
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"arnsburgAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1896.html",
+        "buildingtype": "amphitheater",
+        "title": "Amphitheater at Arnsburg",
+        "visibility": "none"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+                8.787954,
+                50.485657,
+                163
         ],
         "source":"http://maps.google.com/"
       }
