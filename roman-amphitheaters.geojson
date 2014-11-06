@@ -3265,6 +3265,26 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"kunzingAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1876.html",
+        "buildingtype": "amphitheater",
+        "primarymaterial": "wood",
+        "latintoponym": "Quintana",
+        "title": "Amphitheater at Künzing",
+        "visibility": "none"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+                13.082821,
+                48.667088,
+                308
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ]
 }
