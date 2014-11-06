@@ -1632,6 +1632,31 @@
 	</SchemaData></ExtendedData>
       <Point><coordinates>-2.440246,50.708044,78</coordinates></Point>
   </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="title">Amphitheater at Braga</SimpleData>
+		<SimpleData name="latintoponym">Bracara Augusta</SimpleData>
+		<SimpleData name="visibility">partial</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-8.430075,41.546669,175</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="title">Amphitheater at Sisapo</SimpleData>
+		<SimpleData name="visibility">partial</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-4.516667,38.645833,659</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="title">Amphitheater at León</SimpleData>
+		<SimpleData name="visibility">partial</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-5.566944,42.598889,846</coordinates></Point>
+  </Placemark>
 </Folder>
 <Schema name="OGRGeoJSON" id="OGRGeoJSON">
 	<SimpleField name="amphi-theatrum" type="string"></SimpleField>

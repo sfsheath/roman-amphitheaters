@@ -73,7 +73,7 @@
         "see":"http://pleiades.stoa.org/places/148217/location-of-roman-amphitheater",
         "title":"Amphitheater at Arles",
         "wikipedia":"http://en.wikipedia.org/wiki/Arles_Amphitheatre",
-        "youtube": "https://www.youtube.com/watch?v=oCz-76hb1LU"
+        "youtube": ["https://www.youtube.com/watch?v=oCz-76hb1LU"]
       },
       "geometry":{
         "type":"Point",
@@ -98,9 +98,7 @@
         "emperor": "Tiberius",
         "location":"http://pleiades.stoa.org/places/167717#this",
         "title":"Amphitheater at Lyon",
-        "wikipedia": [
-         "http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls",
-         "http://fr.wikipedia.org/wiki/Amphithéâtre_des_Trois_Gaules"]
+        "wikipedia": "http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls"
       },
       "geometry":{
         "type":"Point",
@@ -190,7 +188,7 @@
         "last-use": 363,
         "location":"http://pleiades.stoa.org/places/687854#this",
         "title":"Amphitheater at Eleutheropolis",
-        "youtube": "https://www.youtube.com/watch?v=bA6YNf8ZwlI"
+        "youtube": ["https://www.youtube.com/watch?v=bA6YNf8ZwlI"]
       },
       "geometry":{
         "type":"Point",
@@ -216,7 +214,7 @@
         "chronogroup": "republican",
         "see":"http://pleiades.stoa.org/places/433032/amphitheater-of-pompeii",
         "welch-id":"1",
-        "youtube": "https://www.youtube.com/watch?v=bqf4bJyo3rU",
+        "youtube": ["https://www.youtube.com/watch?v=bqf4bJyo3rU"],
         "bibliography": [
                     {
                         "dc:bibliographicCitation": "P. Zanker, <i>Pompeii: Public and private life</i> (Cambridge, MA, 1998) 68-72.",
@@ -397,7 +395,7 @@
         "capacity":30000,
         "chronogroup": "Second Century",
         "location":"http://pleiades.stoa.org/places/314921#this",
-        "youtube": "https://www.youtube.com/watch?v=oDiCqZCu06I"
+        "youtube": ["https://www.youtube.com/watch?v=oDiCqZCu06I"]
       },
       "geometry":{
         "type":"Point",
@@ -536,7 +534,7 @@
         "capacity":12000,
         "chronogroup": "Second Century",
         "location":"http://pleiades.stoa.org/places/128376#this",
-        "youtube": "https://www.youtube.com/watch?v=Z5TcbJdyEns"
+        "youtube": ["https://www.youtube.com/watch?v=Z5TcbJdyEns"]
       },
       "geometry":{
         "type":"Point",
@@ -813,7 +811,7 @@
         "title":"Amphitheater at Lutetia",
         "buildingtype": "amphitheater",
         "location":"http://pleiades.stoa.org/places/109126#this",
-        "youtube": "https://www.youtube.com/watch?v=DStHFfxd_qo"
+        "youtube": ["https://www.youtube.com/watch?v=DStHFfxd_qo"]
       },
       "geometry":{
         "type":"Point",
@@ -928,7 +926,7 @@
         "capacity": 24000,
         "chronogroup": "Flavian",
         "location":"http://pleiades.stoa.org/places/148142#this",
-        "youtube": "https://www.youtube.com/watch?v=c384XQlnINo"
+        "youtube": ["https://www.youtube.com/watch?v=c384XQlnINo"]
       },
       "geometry":{
         "type":"Point",
@@ -988,7 +986,8 @@
         "type":"Point",
         "coordinates":[
           -0.2386057,
-          47.3352194
+          47.3352194,
+          47
         ],
         "source":"http://pleiades.stoa.org/places/138371/location-of-roman-amphitheater"
       }
@@ -1005,7 +1004,8 @@
         "type":"Point",
         "coordinates":[
           35.501631000000003,
-          32.498395000000002
+          32.498395000000002,
+          121
         ],
         "source":"http://pleiades.stoa.org/places/678378/location-of-roman-amphitheater"
       }
@@ -1023,7 +1023,8 @@
         "type":"Point",
         "coordinates":[
           16.592329199999998,
-          38.806887799999998
+          38.806887799999998,
+          44
         ]
       }
     },
@@ -1101,7 +1102,8 @@
         "type":"Point",
         "coordinates":[
           14.366995899999999,
-          46.697877699999999
+          46.697877699999999,
+          479
         ]
       }
     },
@@ -1118,25 +1120,27 @@
         "type":"Point",
         "coordinates":[
           12.559678999999999,
-          42.639424900000002
+          42.639424900000002,
+          440
         ]
       }
     },
     {
       "type":"Feature",
-      "id":"florentiaAmphitheatre",
+      "id":"florenceAmphitheatre",
       "properties":{
-        "title":"Amphitheatre at Florentia",
+        "title":"Amphitheatre at Florence",
         "buildingtype": "amphitheater",
+        "latintoponym": "Florentia",
         "location":"http://pleiades.stoa.org/places/413138#this",
-        "source":"http://pleiades.stoa.org/places/413138/location-of-roman-amphitheater"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
           11.2595198,
           43.768730300000001
-        ]
+        ],
+        "source":"http://pleiades.stoa.org/places/413138/location-of-roman-amphitheater"
       }
     },
     {
@@ -1152,7 +1156,8 @@
         "type":"Point",
         "coordinates":[
           12.467190499999999,
-          42.411564800000001
+          42.411564800000001,
+          86
         ]
       }
     },
@@ -1169,7 +1174,8 @@
         "type":"Point",
         "coordinates":[
           -6.1084683000000002,
-          35.199900399999997
+          35.199900399999997,
+          52
         ]
       }
     },
@@ -1208,7 +1214,8 @@
         "type":"Point",
         "coordinates":[
           14.9159226,
-          41.805842800000001
+          41.805842800000001,
+          406
         ]
       }
     },
@@ -1225,7 +1232,8 @@
         "type":"Point",
         "coordinates":[
           12.594868,
-          42.129831000000003
+          42.129831000000003,
+          52
         ]
       }
     },
@@ -1261,7 +1269,8 @@
         "type":"Point",
         "coordinates":[
           7.2752435000000002,
-          43.719672799999998
+          43.719672799999998,
+          112
         ]
       }
     },
@@ -1278,7 +1287,8 @@
         "type":"Point",
         "coordinates":[
           8.8044188000000005,
-          39.993123900000001
+          39.993123900000001,
+          49
         ]
       }
     },
@@ -1295,7 +1305,8 @@
         "type":"Point",
         "coordinates":[
           10.505772199999999,
-          43.845520299999997
+          43.845520299999997,
+          19
         ]
       }
     },
@@ -1328,7 +1339,7 @@
         "wikipedia":"https://en.wikipedia.org/wiki/Verona_Arena",
         "location":"http://pleiades.stoa.org/places/383816#this",
         "source":"http://pleiades.stoa.org/places/383816/location-of-amphitheater",
-        "youtube": "https://www.youtube.com/watch?v=CJoS5abKuYc"
+        "youtube": ["https://www.youtube.com/watch?v=CJoS5abKuYc"]
       },
       "geometry":{
         "type":"Point",
@@ -1524,7 +1535,7 @@
         "chronogroup": "republican",
         "created":-50,
         "welch-id": "15",
-        "youtube": "https://www.youtube.com/watch?v=OgHl5MT95bg"
+        "youtube": ["https://www.youtube.com/watch?v=OgHl5MT95bg"]
       },
       "geometry":{
         "type":"Point",
@@ -1548,7 +1559,8 @@
         "type":"Point",
         "coordinates":[
           22.785320599999999,
-          45.516677299999998
+          45.516677299999998,
+          491
         ]
       }
     },
@@ -1577,7 +1589,7 @@
         "latintoponym": "Londinium",
         "location":"http://pleiades.stoa.org/places/79574#this",
         "title":"Amphitheatre at London",
-        "youtube": "https://www.youtube.com/watch?v=qvw9xA-hTz8"
+        "youtube": ["https://www.youtube.com/watch?v=qvw9xA-hTz8"]
       },
       "geometry":{
         "type":"Point",
@@ -1681,7 +1693,7 @@
         "title":"Amphitheatre at Saintes",
         "buildingtype": "amphitheater",
         "location":"http://pleiades.stoa.org/places/138458#this",
-        "youtube": "https://www.youtube.com/watch?v=2TCI21s-bxM"
+        "youtube": ["https://www.youtube.com/watch?v=2TCI21s-bxM"]
       },
       "geometry":{
         "type":"Point",
@@ -1700,7 +1712,7 @@
         "buildingtype": "amphitheater",
         "latintoponym": "Asisium",
         "location":"http://pleiades.stoa.org/places/413037#this",
-        "youtube": "https://www.youtube.com/watch?v=uLSmRRxtf4M"
+        "youtube": ["https://www.youtube.com/watch?v=uLSmRRxtf4M"]
       },
       "geometry":{
         "type":"Point",
@@ -1847,7 +1859,7 @@
         "capacity": 35000,
         "chronogroup": "Post-Severan",
         "period": "Gordion III",
-        "youtube": "https://www.youtube.com/watch?v=bDDyEMg34Os"
+        "youtube": ["https://www.youtube.com/watch?v=bDDyEMg34Os"]
       },
       "geometry":{
         "type":"Point",
@@ -3079,7 +3091,7 @@
         "latintoponym": "Calleva Atrebatum",
         "title": "Amphitheater at Silchester",
         "visibility": "partial",
-        "youtube": "https://www.youtube.com/watch?v=ScpzLOmZEXs"
+        "youtube": ["https://www.youtube.com/watch?v=ScpzLOmZEXs"]
       },
       "geometry":{
         "type":"Point",
@@ -3101,7 +3113,7 @@
         "title": "Amphitheater at Dorchester",
         "visibility": "partial",
         "website": "http://www.maumburyrings.co.uk",
-        "youtube": "https://www.youtube.com/watch?v=ScpzLOmZEXs"
+        "youtube": ["https://www.youtube.com/watch?v=ScpzLOmZEXs"]
       },
       "geometry":{
         "type":"Point",
@@ -3119,7 +3131,7 @@
         "buildingtype": "amphitheater",
         "latintoponym": "Bracara Augusta",
         "title": "Amphitheater at Braga",
-        "visibility": "partial"
+        "visibility": "none"
       },
       "geometry":{
         "type":"Point",
@@ -3155,7 +3167,7 @@
       "properties": {
         "buildingtype": "amphitheater",
         "title": "Amphitheater at León",
-        "visibility": "partial"
+        "visibility": "none"
       },
       "geometry":{
         "type":"Point",
@@ -3163,6 +3175,26 @@
                   -5.566944,
                   42.598889,
                   846
+
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"autunAmphitheater",
+      "properties": {
+        "buildingtype": "amphitheater",
+        "latintoponym": "Augustodunum",
+        "title": "Amphitheater at Autun",
+        "visibility": "none"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+
+                  4.310856,
+                  46.953003,
+                  317
 
         ],
         "source":"http://maps.google.com/"
