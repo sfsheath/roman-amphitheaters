@@ -1138,7 +1138,8 @@
         "type":"Point",
         "coordinates":[
           11.2595198,
-          43.768730300000001
+          43.768730300000001,
+          47
         ],
         "source":"http://pleiades.stoa.org/places/413138/location-of-roman-amphitheater"
       }
@@ -1323,7 +1324,8 @@
         "type":"Point",
         "coordinates":[
           12.6662021,
-          42.995790900000003
+          42.995790900000003,
+          211
         ]
       }
     },
@@ -1404,7 +1406,8 @@
         "type":"Point",
         "coordinates":[
           -1.3796295999999999,
-          54.088115700000003
+          54.088115700000003,
+          41
         ],
         "source":"http://pleiades.stoa.org/places/89209/possible-location-of-roman-amphitheater"
       }
@@ -1422,7 +1425,8 @@
         "type":"Point",
         "coordinates":[
           0.71330870000000002,
-          45.183192099999999
+          45.183192099999999,
+          97
         ]
       }
     },
@@ -1439,7 +1443,8 @@
         "type":"Point",
         "coordinates":[
           10.280644000000001,
-          45.943812899999998
+          45.943812899999998,
+          283
         ]
       }
     },
@@ -1457,7 +1462,8 @@
         "type":"Point",
         "coordinates":[
           15.911579400000001,
-          40.287640400000001
+          40.287640400000001,
+          579
         ],
         "source":"http://pleiades.stoa.org/places/442603/location-of-roman-amphitheater"
       }
@@ -1577,7 +1583,8 @@
         "type":"Point",
         "coordinates":[
           16.473893,
-          43.538171800000001
+          43.5381718,
+          8
         ]
       }
     },
@@ -1699,7 +1706,8 @@
         "type":"Point",
         "coordinates":[
           -0.64335120000000001,
-          45.745392600000002
+          45.745392600000002,
+          20
         ],
         "source":"http://pleiades.stoa.org/places/138458/location-of-gallo-roman-amphitheater"
       }
@@ -1758,7 +1766,8 @@
         "type":"Point",
         "coordinates":[
           6.2599349999999996,
-          35.489246999999999
+          35.489246999999999,
+          1170
         ],
         "source":"http://pleiades.stoa.org/places/334570/location-of-roman-amphitheater"
       }
@@ -1775,7 +1784,8 @@
         "type":"Point",
         "coordinates":[
           9.2066727000000004,
-          35.855627900000002
+          35.855627900000002,
+          911
         ],
         "source":"http://pleiades.stoa.org/places/324774/location-of-roman-amphitheater"
       }

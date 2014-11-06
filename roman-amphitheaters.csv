@@ -1,4 +1,4 @@
-id,title,capacity,wiki,youtube,latitude,longitude,elevation
+id,title,capacity,wikipedia,youtube,latitude,longitude,elevation
 "duraEuroposAmphitheater","Amphitheater at Dura Europos",1000,,,34.749855,40.728926,223
 "arlesAmphitheater","Amphitheater at Arles",20000,"http://en.wikipedia.org/wiki/Arles_Amphitheatre","https://www.youtube.com/watch?v=oCz-76hb1LU",43.677778,4.631111,21
 "lyonAmphitheater","Amphitheater at Lyon",20000,"http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls",,45.770556,4.830556,206
@@ -52,7 +52,7 @@ id,title,capacity,wiki,youtube,latitude,longitude,elevation
 "carthagoNovaAmphitheatre","Amphitheatre at Carthago Nova/Col. Urbs Iulia",,,,37.6006455,-0.980161,23
 "virunumAmphitheatre","Amphitheatre at Virunum",,,,46.6978777,14.3669959,479
 "carsulaeAmphitheatre","Amphitheatre at Carsulae",,,,42.6394249,12.559679,440
-"florenceAmphitheatre","Amphitheatre at Florence",,,,43.7687303,11.2595198,
+"florenceAmphitheatre","Amphitheatre at Florence",,,,43.7687303,11.2595198,47
 "ocriculumAmphitheatre","Amphitheatre at Ocriculum",,,,42.4115648,12.4671905,86
 "lixusAmphitheatre","Amphitheatre at Lixus",,,,35.1999004,-6.1084683,52
 "arezzoAmphitheater","Amphitheatre at Arezzo",8000,,,43.460491,11.88037,263
@@ -62,30 +62,30 @@ id,title,capacity,wiki,youtube,latitude,longitude,elevation
 "cemenelumAmphitheatre","Amphitheatre at Cemenelum",,,,43.7196728,7.2752435,112
 "hydataHypsitanaForumTraianiAmphitheatre","Amphitheatre at Hydata Hypsitana/Forum Traiani",,,,39.9931239,8.8044188,49
 "lucaAmphitheater","Amphitheater at Luca",,,,43.8455203,10.5057722,19
-"hispellumAmphitheatre","Amphitheatre at Hispellum",,,,42.9957909,12.6662021,
+"hispellumAmphitheatre","Amphitheatre at Hispellum",,,,42.9957909,12.6662021,211
 "veronaAmphitheatre","Amphitheatre at Verona",30000,"https://en.wikipedia.org/wiki/Verona_Arena","https://www.youtube.com/watch?v=CJoS5abKuYc",45.43904,10.99435,62
 "aquincumCivilAmphitheater","Civil Amphitheater at Aquincum",,"http://en.wikipedia.org/wiki/Aquincum_Civil_Amphitheatre",,47.567577,19.047985,105
 "aquincumMilitaryAmphitheater","Military Amphitheater at Aquincum",,"http://en.wikipedia.org/wiki/Aquincum_Military_Amphitheatre",,47.532947,19.039066,101
-"aldburoughAmphitheater","Amphitheater at Aldborough",,,,54.0881157,-1.3796296,
-"vesunnaAmphitheatre","Amphitheatre at Vesunna",,,,45.1831921,0.7133087,
-"civitasCamunnorumAmphitheatre","Amphitheatre at Civitas Camunnorum",,,,45.9438129,10.280644,
-"grumentoAmphitheater","Amphitheatre at Grumento",,,,40.2876404,15.9115794,
+"aldburoughAmphitheater","Amphitheater at Aldborough",,,,54.0881157,-1.3796296,41
+"vesunnaAmphitheatre","Amphitheatre at Vesunna",,,,45.1831921,0.7133087,97
+"civitasCamunnorumAmphitheatre","Amphitheatre at Civitas Camunnorum",,,,45.9438129,10.280644,283
+"grumentoAmphitheater","Amphitheatre at Grumento",,,,40.2876404,15.9115794,579
 "cordubaAmphitheater","Amphitheatre at Corduba",,,,37.884183,-4.788888,125
 "albaFucensAmphitheater","Amphitheater at Alba Fucens",,,,42.0772,13.412289,977
 "colAugustaRauricaAmphitheatre","Amphitheatre at Col. Augusta Raurica",6000,,,47.529294,7.72061,285
 "sutriumAmphitheatre","Amphitheatre at Sutrium",8500,,"https://www.youtube.com/watch?v=OgHl5MT95bg",42.2393124,12.2293009,271
 "ulpiaTraianaSarmizegetusaAmphitheatre","Amphitheatre at Ulpia Traiana Sarmizegetusa",,,,45.5166773,22.7853206,491
-"salonaAmphitheatre","Amphitheatre at Salona",,,,43.5381718,16.473893,
+"salonaAmphitheatre","Amphitheatre at Salona",,,,43.5381718,16.473893,8
 "londonAmphitheatre","Amphitheatre at London",,,"https://www.youtube.com/watch?v=qvw9xA-hTz8",51.515522,-0.092136,29
 "tiburAmphitheater","Amphitheater at Tibur",,,,41.960571,12.798114,248
 "caerleonAmphitheater","Amphitheater at Caerleon",,,"https://www.youtube.com/watch?v=VIT1JAOadho",51.608059,-2.956878,13
 "telesiaAmphitheatre","Amphitheatre at Telesia",9000,,,41.223911,14.500496,68
 "urbisagliaAmphitheater","Amphitheatre at Urbs Salvia",5150,,,43.200877,13.387224,219
-"saintesAmphitheatre","Amphitheatre at Saintes",,,"https://www.youtube.com/watch?v=2TCI21s-bxM",45.7453926,-0.6433512,
+"saintesAmphitheatre","Amphitheatre at Saintes",,,"https://www.youtube.com/watch?v=2TCI21s-bxM",45.7453926,-0.6433512,20
 "assisiAmphitheatre","Amphitheatre at Assisi",,,"https://www.youtube.com/watch?v=uLSmRRxtf4M",43.071077,12.620454,445
 "durresAmphitheatre","Amphitheatre at Durrës",20000,"http://en.wikipedia.org/wiki/Durrës_Amphitheatre",,41.312241,19.445131,15
-"lambaesisAmphitheatre","Amphitheatre at Lambaesis",,,,35.489247,6.259935,
-"mactarisAmphitheatre","Amphitheatre at Mactaris",,,,35.8556279,9.2066727,
+"lambaesisAmphitheatre","Amphitheatre at Lambaesis",,,,35.489247,6.259935,1170
+"mactarisAmphitheatre","Amphitheatre at Mactaris",,,,35.8556279,9.2066727,911
 "cirencesterAmphitheater","Amphitheater at Cirencester",,,"https://www.youtube.com/watch?v=9RFDium7TYU",51.71151,-1.972188,119
 "vindonissaAmphitheater","Amphitheater at Vindonissa",11000,,,47.47629,8.213605,361
 "thysdrusSmallAmphitheater","Small Amphitheater at Thysdrus",9000,,"https://www.youtube.com/watch?v=bDDyEMg34Os",35.290106,10.707911,116
