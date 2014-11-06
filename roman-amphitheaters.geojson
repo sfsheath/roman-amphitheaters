@@ -1132,7 +1132,7 @@
         "title":"Amphitheatre at Florence",
         "buildingtype": "amphitheater",
         "latintoponym": "Florentia",
-        "location":"http://pleiades.stoa.org/places/413138#this",
+        "location":"http://pleiades.stoa.org/places/413138#this"
       },
       "geometry":{
         "type":"Point",
