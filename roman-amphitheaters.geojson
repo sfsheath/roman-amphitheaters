@@ -3365,6 +3365,7 @@
       "properties": {
         "buildingtype": "amphitheater",
         "latintoponym": "Bremodorum",
+        "moderncountry": "Switzerland",
         "title": "Amphitheater at Bern",
         "visibility": "good"
       },
@@ -3374,6 +3375,26 @@
                 7.451179,
                 46.975715,
                 547
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"dambachAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1792.html",
+        "buildingtype": "amphitheater",
+        "moderncountry": "Germany",
+        "see": "http://www.deutsche-limeskommission.de/fileadmin/dlk/images/dlk/pdfs/Der_Limes_3_2009_2.pdf",
+        "title": "Amphitheater at “Dambach”",
+        "visibility": "none"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+               10.583180,
+               49.104033,
+               463
         ],
         "source":"http://maps.google.com/"
       }
