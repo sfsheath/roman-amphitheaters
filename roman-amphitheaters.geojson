@@ -3322,6 +3322,61 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"sopronAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1975.html",
+        "buildingtype": "amphitheater",
+        "latintoponym": "Scarabantia",
+        "title": "Amphitheater at Sopron",
+        "visibility": "good"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+                16.589397,
+                47.692813,
+                283
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"nyonAmphitheater",
+      "properties": {
+        "buildingtype": "amphitheater",
+        "latintoponym": "Colonia Iulia Equestris",
+        "title": "Amphitheater at Nyon",
+        "visibility": "good"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+                6.241301,
+                46.383464,
+                391
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"bernAmphitheater",
+      "properties": {
+        "buildingtype": "amphitheater",
+        "latintoponym": "Bremodorum",
+        "title": "Amphitheater at Bern",
+        "visibility": "good"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+                7.451179,
+                46.975715,
+                547
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ]
 }
