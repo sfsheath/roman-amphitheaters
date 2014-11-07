@@ -9,7 +9,7 @@ rapper -q -i nquads roman-amphitheaters.nq > roman-amphitheaters.n3
 #echo arq
 #~/Documents/apache-jena-2.11.1/bin/arq --query sparql/slider.sparql --data roman-amphitheaters.n3  --results CSV > roman-amphitheaters.csv
 
-cat roman-amphitheaters.geojson | jq  -c '.features[] | .id,.properties .title, .properties .capacity, .geometry .coordinates[1], .geometry .coordinates[0], "eol"' | perl -pe 's/\n/,/' | perl -pe 's/"eol",/\n/g' | perl -pe 's/,$//' > roman-amphitheaters.csv
+#cat roman-amphitheaters.geojson | jq  -c '.features[] | .id,.properties .title, .properties .capacity, .geometry .coordinates[1], .geometry .coordinates[0], "eol"' | perl -pe 's/\n/,/' | perl -pe 's/"eol",/\n/g' | perl -pe 's/,$//' > roman-amphitheaters.csv
 
 
 # KML
