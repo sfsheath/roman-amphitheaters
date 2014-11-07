@@ -3304,6 +3304,24 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"bobadelaAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1975.html",
+        "buildingtype": "amphitheater",
+        "title": "Amphitheater at Bobadela",
+        "visibility": "good"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+                -7.893572,
+                40.361088,
+                383
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ]
 }
