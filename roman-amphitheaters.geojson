@@ -490,6 +490,7 @@
       "type":"Feature",
       "id":"nijmegenAmphitheater",
       "properties":{
+        "amphi-theatrum": "http://amphi-theatrum.de/1453.html",
         "title":"Amphitheater at Nijmegen",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
@@ -3395,6 +3396,45 @@
                10.583180,
                49.104033,
                463
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"burnumAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1878.html",
+        "buildingtype": "amphitheater",
+        "moderncountry": "Croatia",
+        "title": "Amphitheater at Burnum",
+        "visibility": "good"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+               16.018169,
+               44.019098,
+               250
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"gleisdorfAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/2424.html",
+        "buildingtype": "amphitheater",
+        "moderncountry": "Austria",
+        "see": "https://www.academia.edu/804203/Amphitheater_in_Noricum",
+        "title": "Amphitheater at Gleisdorf",
+        "visibility": "none"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+               15.707727,
+               47.111055,
+               365
         ],
         "source":"http://maps.google.com/"
       }

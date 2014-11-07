@@ -261,6 +261,7 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1453.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="title">Amphitheater at Nijmegen</SimpleData>
@@ -1765,6 +1766,27 @@
 		<SimpleData name="moderncountry">Germany</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>10.58318,49.104033,463</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1878.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="title">Amphitheater at Burnum</SimpleData>
+		<SimpleData name="visibility">good</SimpleData>
+		<SimpleData name="moderncountry">Croatia</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>16.018169,44.019098,250</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/2424.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="title">Amphitheater at Gleisdorf</SimpleData>
+		<SimpleData name="see">https://www.academia.edu/804203/Amphitheater_in_Noricum</SimpleData>
+		<SimpleData name="visibility">none</SimpleData>
+		<SimpleData name="moderncountry">Austria</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>15.707727,47.111055,365</coordinates></Point>
   </Placemark>
 </Folder>
 <Schema name="OGRGeoJSON" id="OGRGeoJSON">
