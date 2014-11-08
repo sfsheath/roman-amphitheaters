@@ -11,7 +11,7 @@
 		<SimpleData name="emperor">Septimius Severus</SimpleData>
 		<SimpleData name="dedication">(1:http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD023604)</SimpleData>
 		<SimpleData name="title">Amphitheater at Dura Europos</SimpleData>
-		<SimpleData name="comment">Capacity and date drawn from N. Pollard's &quot;Soldiers, Cities, and Civilians in Roman Syria&quot;, p. 52</SimpleData>
+		<SimpleData name="comment">Capacity and date drawn from N. Pollard's “Soldiers, Cities, and Civilians in Roman Syria”, p. 52</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/893989#this</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>40.728926,34.749855,223</coordinates></Point>
@@ -296,11 +296,11 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="created">56</SimpleData>
-		<SimpleData name="chronogroup">Severan</SimpleData>
+		<SimpleData name="chronogroup">Neronian</SimpleData>
 		<SimpleData name="capacity">16000</SimpleData>
+		<SimpleData name="emperor">Nero</SimpleData>
 		<SimpleData name="title">Amphitheater at Leptis Magna</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/344448#this</SimpleData>
-		<SimpleData name="period">Septimius Severus</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>14.309452,32.63234,18</coordinates></Point>
   </Placemark>
@@ -1787,6 +1787,17 @@
 		<SimpleData name="moderncountry">Austria</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>15.707727,47.111055,365</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1505.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="title">Amphitheater at Skikda</SimpleData>
+		<SimpleData name="latintoponym">Rusicade</SimpleData>
+		<SimpleData name="visibility">none</SimpleData>
+		<SimpleData name="moderncountry">Algeria</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>6.91383,36.876413,38</coordinates></Point>
   </Placemark>
 </Folder>
 <Schema name="OGRGeoJSON" id="OGRGeoJSON">

@@ -48,7 +48,7 @@
         "emperor": "Septimius Severus",
         "dedication":["http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD023604"],
         "title":"Amphitheater at Dura Europos",
-        "comment":"Capacity and date drawn from N. Pollard's \"Soldiers, Cities, and Civilians in Roman Syria\", p. 52",
+        "comment":"Capacity and date drawn from N. Pollard's “Soldiers, Cities, and Civilians in Roman Syria”, p. 52",
         "location":"http://pleiades.stoa.org/places/893989#this"
       },
       "geometry":{
@@ -553,10 +553,11 @@
         "title":"Amphitheater at Leptis Magna",
         "buildingtype": "amphitheater",
         "capacity":16000,
-        "chronogroup": "Severan",
+        "chronogroup": "Neronian",
         "created":56,
+        "dedication": "http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD015590",
         "location":"http://pleiades.stoa.org/places/344448#this",
-        "period": "Septimius Severus"
+        "emperor": "Nero"
       },
       "geometry":{
         "type":"Point",
@@ -3435,6 +3436,26 @@
                15.707727,
                47.111055,
                365
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"skikdaAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/1505.html",
+        "buildingtype": "amphitheater",
+        "latintoponym": "Rusicade",
+        "moderncountry": "Algeria",
+        "title": "Amphitheater at Skikda",
+        "visibility": "none"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+               6.913830,
+               36.876413,
+               38
         ],
         "source":"http://maps.google.com/"
       }
