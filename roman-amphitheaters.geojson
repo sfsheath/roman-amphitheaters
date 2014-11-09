@@ -40,16 +40,17 @@
       "type":"Feature",
       "id":"duraEuroposAmphitheater",
       "properties":{
+        "title":"Amphitheater at Dura Europos",
         "amphi-theatrum": "http://amphi-theatrum.de/1449.html",
         "buildingtype": "amphitheater",
-        "created":216,
-        "chronogroup": "Severan",
         "capacity":1000,
-        "emperor": "Septimius Severus",
-        "dedication":["http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD023604"],
-        "title":"Amphitheater at Dura Europos",
+        "chronogroup": "Severan",
         "comment":"Capacity and date drawn from N. Pollard's “Soldiers, Cities, and Civilians in Roman Syria”, p. 52",
-        "location":"http://pleiades.stoa.org/places/893989#this"
+        "created":216,
+        "dedication":["http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD023604"],
+        "emperor": "Septimius Severus",
+        "location":"http://pleiades.stoa.org/places/893989#this",
+        "moderncountry": "Syria"
       },
       "geometry":{
         "type":"Point",
@@ -64,14 +65,15 @@
       "type":"Feature",
       "id":"arlesAmphitheater",
       "properties":{
+        "title":"Amphitheater at Arles",
         "amphi-theatrum": "http://amphi-theatrum.de/1371.html",
         "buildingtype": "amphitheater",
-        "created":90,
         "capacity":20000,
         "chronogroup": "Flavian",
+        "created":90,
         "location":"http://pleiades.stoa.org/places/148217#this",
+        "moderncountry": "France",
         "see":"http://pleiades.stoa.org/places/148217/location-of-roman-amphitheater",
-        "title":"Amphitheater at Arles",
         "wikipedia":"http://en.wikipedia.org/wiki/Arles_Amphitheatre",
         "youtube": ["https://www.youtube.com/watch?v=oCz-76hb1LU"]
       },
@@ -88,16 +90,17 @@
       "type":"Feature",
       "id":"lyonAmphitheater",
       "properties":{
+        "title":"Amphitheater at Lyon",
         "amphi-theatrum": "http://amphi-theatrum.de/1416.html",
         "buildingtype": "amphitheater",
-        "comment": "The capacity refers to number of seats after the early 2nd AD century expansion. In AD 19 the capacity was under 2000.",
-        "created": 19,
         "capacity": 20000,
         "chronogroup": "Second Century",
+        "comment": "The capacity refers to number of seats after the early 2nd AD century expansion. In AD 19 the capacity was under 2000.",
+        "created": 19,
         "dimensions": {"arena-major": 67.6, "arena-minor": 42},
         "emperor": "Tiberius",
         "location":"http://pleiades.stoa.org/places/167717#this",
-        "title":"Amphitheater at Lyon",
+        "moderncountry": "France",
         "wikipedia": "http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls"
       },
       "geometry":{
@@ -133,14 +136,14 @@
       "type":"Feature",
       "id":"romeAmphitheater",
       "properties":{
+        "title":"Flavian Amphitheater (Rome)",
         "buildingtype": "amphitheater",
+        "capacity":50000,
         "chronogroup": "Flavian",
         "created":80,
-        "capacity":50000,
         "emperor": "Vespasian",
         "location":"http://pleiades.stoa.org/places/423025#this",
         "see":"http://pleiades.stoa.org/places/285857974/centerpoint-of-amphitheatrum-flavium",
-        "title":"Colosseum (Rome)",
         "wikipedia":"http://en.wikipedia.org/wiki/Colosseum",
         "youtube": ["https://www.youtube.com/watch?v=kxwenPo1grc","https://www.youtube.com/watch?v=flXe8h3i5vc"]
       },
@@ -159,14 +162,15 @@
       "properties":{
         "title":"Amphitheatrum Castrense (Rome)",
         "buildingtype": "amphitheater",
-        "wikipedia":"http://en.wikipedia.org/wiki/Amphitheatrum_Castrense",
-        "created":218,
         "capacity":7000,
-        "comment": "Brick construction.",
         "chronogroup": "Severan",
+        "comment": "Brick construction.",
+        "created":218,
         "emperor": "Caracalla",
         "golvinID": "189",
-        "location":"http://pleiades.stoa.org/places/423025#this"
+        "location":"http://pleiades.stoa.org/places/423025#this",
+        "moderncountry": "Italy",
+        "wikipedia":"http://en.wikipedia.org/wiki/Amphitheatrum_Castrense"
       },
       "geometry":{
         "type":"Point",
@@ -181,13 +185,14 @@
       "type":"Feature",
       "id":"eleutheropolisAmphitheater",
       "properties":{
+        "title":"Amphitheater at Eleutheropolis",
         "amphi-theatrum": "http://amphi-theatrum.de/2397.html",
         "buildingtype": "amphitheater",
-        "capacity": 3500,
         "chronogroup": "Second Century",
+        "capacity": 3500,
         "last-use": 363,
         "location":"http://pleiades.stoa.org/places/687854#this",
-        "title":"Amphitheater at Eleutheropolis",
+        "moderncountry": "Israel",
         "youtube": ["https://www.youtube.com/watch?v=bA6YNf8ZwlI"]
       },
       "geometry":{
@@ -3456,6 +3461,26 @@
                6.913830,
                36.876413,
                38
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"bostraAmphitheater",
+      "properties": {
+        "amphi-theatrum": "http://amphi-theatrum.de/2002.html",
+        "buildingtype": "amphitheater",
+        "latintoponym": "Nova Trajana Bostra",
+        "moderncountry": "Syria",
+        "title": "Amphitheater at Bosra",
+        "visibility": "partial"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+               36.479844,
+               32.517923,
+               845
         ],
         "source":"http://maps.google.com/"
       }
