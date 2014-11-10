@@ -907,8 +907,8 @@
       "type":"Feature",
       "id":"avellaAmphitheater",
       "properties":{
-        "amphi-theatrum": "http://amphi-theatrum.de/1461.html",
         "title":"Amphitheater at Abella",
+        "amphi-theatrum": "http://amphi-theatrum.de/1461.html",
         "buildingtype": "amphitheater",
         "chronogroup": "republican",
         "latintoponym": "Abella",
@@ -1250,8 +1250,8 @@
       "type":"Feature",
       "id":"allifaeAmphitheatre",
       "properties":{
-        "amphi-theatrum": "http://amphi-theatrum.de/2038.html",
         "title":"Amphitheater at Allifae",
+        "amphi-theatrum": "http://amphi-theatrum.de/2038.html",
         "buildingtype": "amphitheater",
         "location":"http://pleiades.stoa.org/places/432658#this"
       },
@@ -1460,8 +1460,8 @@
       "type":"Feature",
       "id":"grumentoAmphitheater",
       "properties":{
-        "amphi-theatrum": "http://amphi-theatrum.de/1519.html",
         "title":"Amphitheater at Grumento",
+        "amphi-theatrum": "http://amphi-theatrum.de/1519.html",
         "buildingtype": "amphitheater",
         "latintoponym": "Grumentum",
         "location":"http://pleiades.stoa.org/places/442603#this"
@@ -1600,10 +1600,10 @@
       "type":"Feature",
       "id":"londonAmphitheatre",
       "properties":{
+        "title":"Amphitheater at London",
         "buildingtype": "amphitheater",
         "latintoponym": "Londinium",
         "location":"http://pleiades.stoa.org/places/79574#this",
-        "title":"Amphitheater at London",
         "youtube": ["https://www.youtube.com/watch?v=qvw9xA-hTz8"]
       },
       "geometry":{
@@ -1682,8 +1682,8 @@
       "type":"Feature",
       "id":"urbisagliaAmphitheater",
       "properties":{
-        "amphi-theatrum": "http://amphi-theatrum.de/1556.html",
         "title":"Amphitheater at Urbs Salvia",
+        "amphi-theatrum": "http://amphi-theatrum.de/1556.html",
         "buildingtype": "amphitheater",
         "capacity": 5150,
         "chronogroup": "Flavian",
@@ -1802,8 +1802,8 @@
       "type":"Feature",
       "id":"cirencesterAmphitheater",
       "properties":{
-        "amphi-theatrum": "http://amphi-theatrum.de/1490.html",
         "title":"Amphitheater at Cirencester",
+        "amphi-theatrum": "http://amphi-theatrum.de/1490.html",
         "latintoponym": "Corinium Dobunnorum",
         "buildingtype": "amphitheater",
         "location":"http://pleiades.stoa.org/places/197225#this",
@@ -1893,14 +1893,14 @@
       "type":"Feature",
       "id":"frejusAmphitheater",
       "properties":{
+        "title":"Amphitheater Fréjus",
         "amphi-theatrum": "http://amphi-theatrum.de/1540.html",
         "buildingtype": "amphitheater",
         "capacity": 12000,
         "created": 100,
         "chronogroup": "Flavian",
         "latintoponym": "Forum Julii",
-        "location":"http://pleiades.stoa.org/places/157836#this",
-        "title":"Amphitheater Fréjus"
+        "location":"http://pleiades.stoa.org/places/157836#this"
       },
       "geometry":{
         "type":"Point",
@@ -2363,14 +2363,14 @@
       "type":"Feature",
       "id":"castraAlbanaAmphitheater",
       "properties":{
+        "title":"Amphitheater at Castra Albana",
         "buildingtype": "amphitheater",
         "capacity": 20000,
         "created": 212,
         "chronogroup": "Severan",
-        "golvinID": "190",
-        "location": "http://pleiades.stoa.org/places/422885#this",
         "emperor": "Septimius Severus",
-        "title":"Amphitheater at Castra Albana"
+        "golvinID": "190",
+        "location": "http://pleiades.stoa.org/places/422885#this"
       },
       "geometry":{
         "type":"Point",
@@ -2385,13 +2385,13 @@
       "type":"Feature",
       "id":"sophiaAmphitheater",
       "properties":{
+        "title":"Amphitheater at Sophia",
         "buildingtype": "amphitheater",
         "capacity": 20000,
         "created": 284,
         "chronogroup": "Post-Severan",
         "emperor": "Diocletian",
-        "latintoponyn": "Ulpia Serdica",
-        "title":"Amphitheater at Sophia"
+        "latintoponyn": "Ulpia Serdica"
       },
       "geometry":{
         "type":"Point",
@@ -2406,8 +2406,8 @@
       "type":"Feature",
       "id":"ptolemaisAmphitheater",
       "properties":{
-        "buildingtype": "amphitheater",
-        "title":"Amphitheater at Ptolemais"
+        "title":"Amphitheater at Ptolemais",
+        "buildingtype": "amphitheater"
       },
       "geometry":{
         "type":"Point",
@@ -2422,9 +2422,9 @@
       "type":"Feature",
       "id":"toulouseAmphitheater",
       "properties":{
+        "title":"Amphitheater at Toulouse",
         "buildingtype": "amphitheater",
-        "created": 50,
-        "title":"Amphitheater at Toulouse"
+        "created": 50
       },
       "geometry":{
         "type":"Point",
@@ -2439,9 +2439,9 @@
       "type":"Feature",
       "id":"caparraAmphitheater",
       "properties":{
+        "title": "Amphitheater at Caparra",
         "buildingtype": "amphitheater",
-        "latintoponym": "Municipium Flavium Caparense",
-        "title": "Amphitheater at Caparra"
+        "latintoponym": "Municipium Flavium Caparense"
       },
       "geometry":{
         "type":"Point",
@@ -2456,10 +2456,10 @@
       "type":"Feature",
       "id":"cordobaAmphitheater",
       "properties":{
+        "title": "Amphitheater at Cordoba",
         "buildingtype": "amphitheater",
         "chronogroup": "First Century",
-        "comment": "Discovered in 2003.",
-        "title": "Amphitheater at Cordoba"
+        "comment": "Discovered in 2003."
       },
       "geometry":{
         "type":"Point",
@@ -2474,9 +2474,9 @@
       "type":"Feature",
       "id":"lillebonnAmphitheater",
       "properties":{
+        "title": "Amphitheater at Lillebonne",
         "buildingtype": "amphitheater",
-        "chronogroup": "First Century",
-        "title": "Amphitheater at Lillebonne"
+        "chronogroup": "First Century"
       },
       "geometry":{
         "type":"Point",
@@ -2491,10 +2491,10 @@
       "type":"Feature",
       "id":"besanconAmphitheater",
       "properties":{
+        "title": "Amphitheater at Besançon",
         "buildingtype": "amphitheater",
         "chronogroup": "Second Century",
         "latintoponym": "Vesontio",
-        "title": "Amphitheater at Besançon",
         "amphi-theatrum": "http://amphi-theatrum.de/1551.html"
       },
       "geometry":{
@@ -2510,10 +2510,10 @@
       "type":"Feature",
       "id":"limogesAmphitheater",
       "properties":{
+        "title": "Amphitheater at Limoges",
         "buildingtype": "amphitheater",
         "chronogroup": "Second Century",
         "latintoponym": "Augustoritum",
-        "title": "Amphitheater at Limoges",
         "amphi-theatrum": "http://amphi-theatrum.de/1549.html"
       },
       "geometry":{
@@ -2529,9 +2529,9 @@
       "type":"Feature",
       "id":"poitiersAmphitheater",
       "properties": {
+        "title": "Amphitheater at Poitiers",
         "buildingtype": "amphitheater",
         "latintoponym": "Limonum Pictonum",
-        "title": "Amphitheater at Poitiers",
         "amphi-theatrum": "http://amphi-theatrum.de/1381.html"
       },
       "geometry":{
@@ -2547,9 +2547,9 @@
       "type":"Feature",
       "id":"reimsAmphitheater",
       "properties": {
+        "title": "Amphitheater at Reims",
         "buildingtype": "amphitheater",
         "latintoponym": "Durocortorum",
-        "title": "Amphitheater at Reims",
         "chronogroup": "unassigned",
         "amphi-theatrum": "http://amphi-theatrum.de/1394.html"
       },
@@ -2566,10 +2566,10 @@
       "type":"Feature",
       "id":"rodezAmphitheater",
       "properties": {
+        "title": "Amphitheater at Rodez",
         "buildingtype": "amphitheater",
         "capacity": 15000,
         "latintoponym": "Segodonum",
-        "title": "Amphitheater at Rodez",
         "chronogroup": "unassigned",
         "amphi-theatrum": "http://amphi-theatrum.de/1484.html"
       },
@@ -2586,9 +2586,9 @@
       "type":"Feature",
       "id":"milanAmphitheater",
       "properties": {
+        "title": "Amphitheater at Milan",
         "buildingtype": "amphitheater",
         "latintoponym": "Mediolanum",
-        "title": "Amphitheater at Milan",
         "chronogroup": "First Century",
         "amphi-theatrum": "http://amphi-theatrum.de/1523.html"
       },
@@ -2605,10 +2605,10 @@
       "type":"Feature",
       "id":"aquileiaAmphitheater",
       "properties": {
+        "title": "Amphitheater at Aquileia",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "latintoponym": "Aquileia",
-        "title": "Amphitheater at Aquileia",
         "comment": "Location approximate"
       },
       "geometry":{
@@ -2624,11 +2624,11 @@
       "type":"Feature",
       "id":"paduaAmphitheater",
       "properties": {
+        "title": "Amphitheater at Padua",
         "amphi-theatrum": "http://amphi-theatrum.de/1399.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Julio-Claudian",
-        "latintoponym": "Patavia",
-        "title": "Amphitheater at Padua"
+        "latintoponym": "Patavia"
       },
       "geometry":{
         "type":"Point",
@@ -2643,12 +2643,12 @@
       "type":"Feature",
       "id":"lecceAmphitheater",
       "properties": {
+        "title": "Amphitheater at Lecce",
         "amphi-theatrum": "http://amphi-theatrum.de/1389.html",
         "buildingtype": "amphitheater",
         "capacity": 25000,
         "chronogroup": "Imperial",
         "latintoponym": "Lupiae",
-        "title": "Amphitheater at Lecce",
         "wikipedia": "http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Lecce"
       },
       "geometry":{
@@ -2664,12 +2664,12 @@
       "type":"Feature",
       "id":"terminiImereseAmphitheater",
       "properties": {
+        "title": "Amphitheater at Termini Imerese",
         "amphi-theatrum": "http://amphi-theatrum.de/1555.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Flavian",
         "comment": "Location approximate.",
-        "latintoponym": "Thermae Himerae",
-        "title": "Amphitheater at Termini Imerese"
+        "latintoponym": "Thermae Himerae"
       },
       "geometry":{
         "type":"Point",
@@ -2684,11 +2684,11 @@
       "type":"Feature",
       "id":"sanBenedettoDeiMarsiAmphitheater",
       "properties": {
+        "title": "Amphitheater at San Benedetto dei Marsi",
         "amphi-theatrum": "http://amphi-theatrum.de/1601.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
-        "latintoponym": "Marruvium",
-        "title": "Amphitheater at San Benedetto dei Marsi"
+        "latintoponym": "Marruvium"
       },
       "geometry":{
         "type":"Point",
@@ -2703,11 +2703,11 @@
       "type":"Feature",
       "id":"monteleoneAmphitheater",
       "properties": {
+        "title": "Amphitheater at Monteleone",
         "amphi-theatrum": "http://amphi-theatrum.de/1504.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
-        "latintoponym": "Trebula Mutuesca",
-        "title": "Amphitheater at Monteleone"
+        "latintoponym": "Trebula Mutuesca"
       },
       "geometry":{
         "type":"Point",
@@ -2722,11 +2722,11 @@
       "type":"Feature",
       "id":"bolsenaAmphitheater",
       "properties": {
+        "title": "Amphitheater at Bolsena",
         "amphi-theatrum": "http://amphi-theatrum.de/1554.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Flavian",
-        "latintoponym": "Volsinii Novi",
-        "title": "Amphitheater at Bolsena"
+        "latintoponym": "Volsinii Novi"
       },
       "geometry":{
         "type":"Point",
@@ -2741,11 +2741,11 @@
       "type":"Feature",
       "id":"anconaAmphitheater",
       "properties": {
+        "title": "Amphitheater at Anconca",
         "amphi-theatrum": "http://amphi-theatrum.de/1396.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Julio-Claudian",
-        "latintoponym": "Ancona",
-        "title": "Amphitheater at Anconca"
+        "latintoponym": "Ancona"
       },
       "geometry":{
         "type":"Point",
@@ -2760,11 +2760,11 @@
       "type":"Feature",
       "id":"ascoliPicenoAmphitheater",
       "properties": {
+        "title": "Amphitheater at Ascoli Picenum",
         "amphi-theatrum": "http://amphi-theatrum.de/1518.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
-        "latintoponym": "Ascolum Picenum",
-        "title": "Amphitheater at Ascoli Picenum"
+        "latintoponym": "Ascolum Picenum"
       },
       "geometry":{
         "type":"Point",
@@ -2779,11 +2779,11 @@
       "type":"Feature",
       "id":"beneventoAmphitheater",
       "properties": {
+        "title": "Amphitheater at Benevento",
         "amphi-theatrum": "http://amphi-theatrum.de/1776.html",
         "buildingtype": "amphitheater",
         "chronogroup": "republican",
-        "latintoponym": "Beneventum",
-        "title": "Amphitheater at Benevento"
+        "latintoponym": "Beneventum"
       },
       "geometry":{
         "type":"Point",
@@ -2798,12 +2798,12 @@
       "type":"Feature",
       "id":"calviRisortaAmphitheater",
       "properties": {
+        "title": "Amphitheater at Calvi Risorta",
         "amphi-theatrum": "http://amphi-theatrum.de/1462.html",
         "buildingtype": "amphitheater",
         "chronogroup": "republican",
         "dimensions":{"structure_major":110, "structure_minor": 72, "arena_major":87.2},
-        "latintoponym": "Cales",
-        "title": "Amphitheater at Calvi Risorta"
+        "latintoponym": "Cales"
       },
       "geometry":{
         "type":"Point",
@@ -2818,12 +2818,12 @@
       "type":"Feature",
       "id":"sanVittorinoAmphitheater",
       "properties": {
+        "title": "Amphitheater at San Vittorino",
         "amphi-theatrum": "http://amphi-theatrum.de/1557.html",
         "buildingtype": "amphitheater",
         "capacity": 20000,
         "chronogroup": "First Century",
-        "latintoponym": "Amiternum",
-        "title": "Amphitheater at San Vittorino"
+        "latintoponym": "Amiternum"
       },
       "geometry":{
         "type":"Point",
@@ -2838,9 +2838,9 @@
       "type":"Feature",
       "id":"beziersAmphitheater",
       "properties": {
+        "title": "Amphitheater at Béziers",
         "buildingtype": "amphitheater",
-        "latintoponym": "Baeterrae ",
-        "title": "Amphitheater at Béziers"
+        "latintoponym": "Baeterrae "
       },
       "geometry":{
         "type":"Point",
@@ -2855,11 +2855,11 @@
       "type":"Feature",
       "id":"agenAmphitheater",
       "properties": {
+        "title": "Amphitheater at Agen",
         "amphi-theatrum": "http://amphi-theatrum.de/1552.html",
         "buildingtype": "amphitheater",
         "capacity": 15000,
-        "created": 215,
-        "title": "Amphitheater at Agen"
+        "created": 215
       },
       "geometry":{
         "type":"Point",
@@ -2874,10 +2874,10 @@
       "type":"Feature",
       "id":"narbonneAmphitheater",
       "properties": {
+        "title": "Amphitheater at Narbonne",
         "buildingtype": "amphitheater",
         "chronogroup": "Flavian",
         "dimensions":{"arena-maximum":75,"arena-minimum":46.6,"outer-maximum":121.6,"outer-minimum":93.2},
-        "title": "Amphitheater at Narbonne",
         "visibility": "none"
       },
       "geometry":{
@@ -2893,12 +2893,12 @@
       "type":"Feature",
       "id":"amiensAmphitheater",
       "properties": {
+        "title": "Amphitheater at Amiens",
         "amphi-theatrum": "http://amphi-theatrum.de/1384.html",
         "buildingtype": "amphitheater",
         "capactiy": 15000,
         "chronogroup": "Second century",
         "golvin-id": "102",
-        "title": "Amphitheater at Amiens",
         "visibility": "none"
       },
       "geometry":{
@@ -2914,11 +2914,11 @@
       "type":"Feature",
       "id":"meauxAmphitheater",
       "properties": {
+        "title": "Amphitheater at Meaux",
         "amphi-theatrum": "http://amphi-theatrum.de/2416.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "latintoponym": "Iatinum Fixtinnum",
-        "title": "Amphitheater at Meaux",
         "visibility": "none"
       },
       "geometry":{
@@ -2934,10 +2934,10 @@
       "type":"Feature",
       "id":"chartresAmphitheater",
       "properties": {
+        "title": "Amphitheater at Chartres",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "latintoponym": "Autricum",
-        "title": "Amphitheater at Chartres",
         "visibility": "none"
       },
       "geometry":{
@@ -2953,11 +2953,11 @@
       "type":"Feature",
       "id":"senlisAmphitheater",
       "properties": {
+        "title": "Amphitheater at Senlis",
         "amphi-theatrum": "http://amphi-theatrum.de/1483.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "latintoponym": "Augustomagus",
-        "title": "Amphitheater at Senlis",
         "visibility": "good",
         "wikipedia": "http://fr.wikipedia.org/wiki/Arènes_de_Senlis"
       },
