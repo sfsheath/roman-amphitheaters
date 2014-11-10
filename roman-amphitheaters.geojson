@@ -3471,11 +3471,11 @@
       "type":"Feature",
       "id":"bostraAmphitheater",
       "properties": {
+        "title": "Amphitheater at Bosra",
         "amphi-theatrum": "http://amphi-theatrum.de/2002.html",
         "buildingtype": "amphitheater",
         "latintoponym": "Nova Trajana Bostra",
         "moderncountry": "Syria",
-        "title": "Amphitheater at Bosra",
         "visibility": "partial"
       },
       "geometry":{
@@ -3491,11 +3491,11 @@
       "type":"Feature",
       "id":"palmyraAmphitheater",
       "properties": {
+        "title": "Possible Amphitheater at Palmyra",
         "buildingtype": "amphitheater",
         "certainty": "uncertain",
         "certainty-qualifier": "presence",
         "moderncountry": "Syria",
-        "title": "Possible Amphitheater at Palmyra",
         "visibility": "none"
       },
       "geometry":{
@@ -3504,6 +3504,29 @@
                38.273763,
                34.553789,
                408
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"stMarcelAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Saint Marcel",
+        "amphi-theatrum": "http://amphi-theatrum.de/1618.html",
+        "buildingtype": "amphitheater",
+        "certainty": "uncertain",
+        "certainty-qualifier": "location",
+        "latintoponym": "Argentomagus",
+        "moderncountry": "France",
+        "see": "http://www.persee.fr/web/revues/home/prescript/article/galia_0016-4119_1968_num_26_2_2505",
+        "visibility": "none"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+               1.518328,
+               46.601549,
+               150
         ],
         "source":"http://maps.google.com/"
       }

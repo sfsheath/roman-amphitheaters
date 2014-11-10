@@ -1829,6 +1829,20 @@
 	</SchemaData></ExtendedData>
       <Point><coordinates>38.273763,34.553789,408</coordinates></Point>
   </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Saint Marcel</SimpleData>
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1618.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="moderncountry">France</SimpleData>
+		<SimpleData name="see">http://www.persee.fr/web/revues/home/prescript/article/galia_0016-4119_1968_num_26_2_2505</SimpleData>
+		<SimpleData name="latintoponym">Argentomagus</SimpleData>
+		<SimpleData name="visibility">none</SimpleData>
+		<SimpleData name="certainty">uncertain</SimpleData>
+		<SimpleData name="certainty-qualifier">location</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>1.518328,46.601549,150</coordinates></Point>
+  </Placemark>
 </Folder>
 <Schema name="OGRGeoJSON" id="OGRGeoJSON">
 	<SimpleField name="title" type="string"></SimpleField>
