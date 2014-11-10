@@ -3530,6 +3530,49 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"metzAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Metz",
+        "amphi-theatrum": "http://amphi-theatrum.de/1395.html",
+        "buildingtype": "amphitheater",
+        "capacity": 30000,
+        "certainty": "uncertain",
+        "certainty-qualifier": "location",
+        "chronogroup": "Late1stEarly2nd",
+        "last-use": 300,
+        "moderncountry": "France",
+        "see": "http://www.inrap.fr/preventive-archaeology/Events/Last-discoveries/p-1355-lg1-Excavation-of-the-amphitheatre-quarter-in-Metz.htm",
+        "visibility": "none"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+               6.181932,
+               49.107645,
+               171
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"metzAmphitheater",
+      "properties": {
+        "title": "Half Amphitheater at Metz",
+        "buildingtype": "half-amphitheater",
+        "moderncountry": "France",
+        "visibility": "good"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+               5.49096,
+               48.385217,
+               371
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ]
 }

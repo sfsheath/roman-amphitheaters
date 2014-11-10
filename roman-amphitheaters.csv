@@ -176,3 +176,5 @@ id,title,capacity,wikipedia,youtube,latitude,longitude,elevation
 "bostraAmphitheater","Amphitheater at Bosra",,,,32.517923,36.479844,845
 "palmyraAmphitheater","Possible Amphitheater at Palmyra",,,,34.553789,38.273763,408
 "stMarcelAmphitheater","Amphitheater at Saint Marcel",,,,46.601549,1.518328,150
+"metzAmphitheater","Amphitheater at Metz",30000,,,49.107645,6.181932,171
+"metzAmphitheater","Half Amphitheater at Metz",,,,48.385217,5.49096,371
