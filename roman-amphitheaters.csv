@@ -20,8 +20,9 @@ id,title,capacity,wikipedia,youtube,latitude,longitude,elevation
 "marcianopolisAmphitheater","Amphitheater at Marcianopolis (Devnya)",4000,,,43.218689,27.556674,120
 "porolissumAmphitheater","Amphitheater at Porolissum",,,,47.177552,23.154052,441
 "nijmegenAmphitheater","Amphitheater at Nijmegen",,,,51.838523,5.878859,46
-"carnuntumLargeAmphitheater","Large amphitheater at Carnuntum",15000,,,48.126824,16.892619,164
-"carnuntumPetronellAmphitheater","Amphitheater at Carnuntum",12000,,"https://www.youtube.com/watch?v=Z5TcbJdyEns",48.110019,16.850943,185
+"carnuntumMilitaryAmphitheater","Large amphitheater at Carnuntum",8000,,,48.126824,16.892619,164
+"carnuntumPetronellAmphitheater","Amphitheater at Carnuntum",13000,,"https://www.youtube.com/watch?v=Z5TcbJdyEns",48.110019,16.850943,185
+"carnuntumLudus","Ludus at Carnuntum",,,"https://www.youtube.com/watch?v=aJFH3TCVzTk",48.109807,16.848689,185
 "leptisMagnaAmphitheater","Amphitheater at Leptis Magna",16000,,,32.63234,14.309452,18
 "empuriesAmphitheater","Amphitheater at Empuries",3300,,,42.130042,3.117431,27
 "tarragonaAmphitheater","Amphitheater at Tarragona",15000,,"https://www.youtube.com/watch?v=Z-1Qrk5qLAE",41.114522,1.25878,13
@@ -155,7 +156,7 @@ id,title,capacity,wikipedia,youtube,latitude,longitude,elevation
 "liternoAmphitheater","Amphitheater at Literno",,,,40.920949,14.0304,9
 "noleAmphitheater","Amphitheater at Nole",,,,40.927702,14.52054,35
 "silchesterAmphitheater","Amphitheater at Silchester",,,"https://www.youtube.com/watch?v=ScpzLOmZEXs",51.358881,-1.07547,91
-"dorchesterAmphitheater","Amphitheater at Dorchester",,,"https://www.youtube.com/watch?v=ScpzLOmZEXs",50.708044,-2.440246,78
+"dorchesterAmphitheater","Amphitheater at Dorchester / Maumbury Henge",,,"https://www.youtube.com/watch?v=ScpzLOmZEXs",50.708044,-2.440246,78
 "bragaAmphitheater","Amphitheater at Braga",,,,41.546669,-8.430075,175
 "sisapoAmphitheater","Amphitheater at Sisapo",,,,38.645833,-4.516667,659
 "leonAmphitheater","Amphitheater at León",,,,42.598889,-5.566944,846
@@ -177,4 +178,4 @@ id,title,capacity,wikipedia,youtube,latitude,longitude,elevation
 "palmyraAmphitheater","Possible Amphitheater at Palmyra",,,,34.553789,38.273763,408
 "stMarcelAmphitheater","Amphitheater at Saint Marcel",,,,46.601549,1.518328,150
 "metzAmphitheater","Amphitheater at Metz",30000,,,49.107645,6.181932,171
-"metzAmphitheater","Half Amphitheater at Metz",,,,48.385217,5.49096,371
+"grandHalfAmphitheater","Half Amphitheater at Grand",,,,48.385217,5.49096,371

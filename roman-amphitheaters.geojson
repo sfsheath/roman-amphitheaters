@@ -213,8 +213,8 @@
         "title":"Amphitheater at Pompeii",
         "buildingtype": "amphitheater",
         "wikipedia":"http://en.wikipedia.org/wiki/Amphitheatre_of_Pompeii",
-        "created":-70,
-        "last use":79,
+        "created":-80,
+        "last-use":79,
         "capacity":22000,
         "location":"http://pleiades.stoa.org/places/433032#this",
         "chronogroup": "republican",
@@ -510,15 +510,14 @@
           46
         ]
       }
-    },
-    {
+    },{
       "type":"Feature",
-      "id":"carnuntumLargeAmphitheater",
+      "id":"carnuntumMilitaryAmphitheater",
       "properties":{
         "title":"Large amphitheater at Carnuntum",
         "buildingtype": "amphitheater",
         "chronogroup": "Second Century",
-        "capacity":15000,
+        "capacity":8000,
         "created":150,
         "location":"http://pleiades.stoa.org/places/128376#this"
       },
@@ -530,17 +529,17 @@
           164
         ]
       }
-    },
-    {
+    },{
       "type":"Feature",
       "id":"carnuntumPetronellAmphitheater",
       "properties":{
         "title":"Amphitheater at Carnuntum",
         "buildingtype": "amphitheater",
         "created":100,
-        "capacity":12000,
+        "capacity":13000,
         "chronogroup": "Second Century",
         "location":"http://pleiades.stoa.org/places/128376#this",
+        "see": "https://www.academia.edu/3791286/The_amphitheatre_of_Carnuntum_Towards_a_complete_3D_model_using_airborne_Structure_from_Motion_and_dense_image_matching",
         "youtube": ["https://www.youtube.com/watch?v=Z5TcbJdyEns"]
       },
       "geometry":{
@@ -551,8 +550,24 @@
           185
         ]
       }
-    },
-    {
+    },{
+      "type":"Feature",
+      "id":"carnuntumLudus",
+      "properties":{
+        "title":"Ludus at Carnuntum",
+        "buildingtype": "practiceArena",
+        "see": "https://www.academia.edu/3791251/The_discovery_of_a_gladiatorial_school_at_Carnuntum",
+        "youtube": ["https://www.youtube.com/watch?v=aJFH3TCVzTk"]
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          16.848689,
+          48.109807,
+          185
+        ]
+      }
+    },{
       "type":"Feature",
       "id":"leptisMagnaAmphitheater",
       "properties":{
@@ -1005,14 +1020,14 @@
       "id":"scythopolisNysaAmphitheatre",
       "properties":{
         "title":"Amphitheater at Scythopolis/Nysa",
-        "buildingtype": "amphitheater",
+        "buildingtype": "amphitheater-in-hippodrome",
         "location":"http://pleiades.stoa.org/places/678378#this"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          35.501631000000003,
-          32.498395000000002,
+          35.501631,
+          32.498395,
           -121
         ],
         "source":"http://pleiades.stoa.org/places/678378/location-of-roman-amphitheater"
@@ -1426,6 +1441,10 @@
       "properties":{
         "title":"Amphitheater at Vesunna",
         "buildingtype": "amphitheater",
+        "dimensions": {
+         "exterior-length": 131,
+         "exterior-width": 113
+        },
         "location":"http://pleiades.stoa.org/places/138650#this",
         "source":"http://pleiades.stoa.org/places/138650/location-of-roman-amphitheater"
       },
@@ -2531,6 +2550,10 @@
       "properties": {
         "title": "Amphitheater at Poitiers",
         "buildingtype": "amphitheater",
+        "dimensions":{
+          "exterior-length": 108,
+          "exterior-width": 88
+        },
         "latintoponym": "Limonum Pictonum",
         "amphi-theatrum": "http://amphi-theatrum.de/1381.html"
       },
@@ -3124,11 +3147,11 @@
       "type":"Feature",
       "id":"dorchesterAmphitheater",
       "properties": {
+        "title": "Amphitheater at Dorchester / Maumbury Henge",
         "amphi-theatrum": "http://amphi-theatrum.de/1491.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Second century",
         "latintoponym": "Durnovaria",
-        "title": "Amphitheater at Dorchester",
         "visibility": "partial",
         "website": "http://www.maumburyrings.co.uk",
         "youtube": ["https://www.youtube.com/watch?v=ScpzLOmZEXs"]
@@ -3557,9 +3580,9 @@
       }
     },{
       "type":"Feature",
-      "id":"metzAmphitheater",
+      "id":"grandHalfAmphitheater",
       "properties": {
-        "title": "Half Amphitheater at Metz",
+        "title": "Half Amphitheater at Grand",
         "buildingtype": "half-amphitheater",
         "moderncountry": "France",
         "visibility": "good"
