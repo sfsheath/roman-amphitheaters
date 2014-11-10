@@ -58,6 +58,7 @@
 		<SimpleData name="comment">Capacity is a guess.</SimpleData>
 		<SimpleData name="created">81</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/423025#this</SimpleData>
+		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Ludus_Magnus</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>12.494913,41.88995,22</coordinates></Point>
@@ -1769,6 +1770,8 @@
 		<SimpleData name="moderncountry">Germany</SimpleData>
 		<SimpleData name="see">http://www.deutsche-limeskommission.de/fileadmin/dlk/images/dlk/pdfs/Der_Limes_3_2009_2.pdf</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
+		<SimpleData name="certainty">uncertain</SimpleData>
+		<SimpleData name="certainty-qualifier">function</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>10.58318,49.104033,463</coordinates></Point>
   </Placemark>
@@ -1815,6 +1818,17 @@
 	</SchemaData></ExtendedData>
       <Point><coordinates>36.479844,32.517923,845</coordinates></Point>
   </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Possible Amphitheater at Palmyra</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="moderncountry">Syria</SimpleData>
+		<SimpleData name="visibility">none</SimpleData>
+		<SimpleData name="certainty">uncertain</SimpleData>
+		<SimpleData name="certainty-qualifier">presence</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.273763,34.553789,408</coordinates></Point>
+  </Placemark>
 </Folder>
 <Schema name="OGRGeoJSON" id="OGRGeoJSON">
 	<SimpleField name="title" type="string"></SimpleField>
@@ -1851,5 +1865,7 @@
 	<SimpleField name="webpage" type="string"></SimpleField>
 	<SimpleField name="website" type="string"></SimpleField>
 	<SimpleField name="primarymaterial" type="string"></SimpleField>
+	<SimpleField name="certainty" type="string"></SimpleField>
+	<SimpleField name="certainty-qualifier" type="string"></SimpleField>
 </Schema>
 </Document></kml>

@@ -115,12 +115,13 @@
       "type":"Feature",
       "id":"ludusMagnusArena",
       "properties":{
-        "buildingtype": "practiceArena",
         "title":"Ludus Magnus Arena",
-        "created":81,
+        "buildingtype": "practiceArena",
         "capacity":500,
-        "location":"http://pleiades.stoa.org/places/423025#this",
+        "created":81,
         "comment": "Capacity is a guess.",
+        "location":"http://pleiades.stoa.org/places/423025#this",
+        "moderncountry": "Italy",
         "wikipedia":"http://en.wikipedia.org/wiki/Ludus_Magnus"
       },
       "geometry":{
@@ -3391,6 +3392,8 @@
       "properties": {
         "amphi-theatrum": "http://amphi-theatrum.de/1792.html",
         "buildingtype": "amphitheater",
+        "certainty": "uncertain",
+        "certainty-qualifier": "function",
         "moderncountry": "Germany",
         "see": "http://www.deutsche-limeskommission.de/fileadmin/dlk/images/dlk/pdfs/Der_Limes_3_2009_2.pdf",
         "title": "Amphitheater at “Dambach”",
@@ -3481,6 +3484,26 @@
                36.479844,
                32.517923,
                845
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"palmyraAmphitheater",
+      "properties": {
+        "buildingtype": "amphitheater",
+        "certainty": "uncertain",
+        "certainty-qualifier": "presence",
+        "moderncountry": "Syria",
+        "title": "Possible Amphitheater at Palmyra",
+        "visibility": "none"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+               38.273763,
+               34.553789,
+               408
         ],
         "source":"http://maps.google.com/"
       }
