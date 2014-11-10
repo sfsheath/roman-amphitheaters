@@ -514,11 +514,11 @@
       "type":"Feature",
       "id":"carnuntumMilitaryAmphitheater",
       "properties":{
-        "title":"Large amphitheater at Carnuntum",
+        "title":"Military Amphitheater at Carnuntum",
         "buildingtype": "amphitheater",
-        "chronogroup": "Second Century",
+        "chronogroup": "First Century",
         "capacity":8000,
-        "created":150,
+        "created":80,
         "location":"http://pleiades.stoa.org/places/128376#this"
       },
       "geometry":{
@@ -527,27 +527,6 @@
           16.892619,
           48.126824,
           164
-        ]
-      }
-    },{
-      "type":"Feature",
-      "id":"carnuntumPetronellAmphitheater",
-      "properties":{
-        "title":"Amphitheater at Carnuntum",
-        "buildingtype": "amphitheater",
-        "created":100,
-        "capacity":13000,
-        "chronogroup": "Second Century",
-        "location":"http://pleiades.stoa.org/places/128376#this",
-        "see": "https://www.academia.edu/3791286/The_amphitheatre_of_Carnuntum_Towards_a_complete_3D_model_using_airborne_Structure_from_Motion_and_dense_image_matching",
-        "youtube": ["https://www.youtube.com/watch?v=Z5TcbJdyEns"]
-      },
-      "geometry":{
-        "type":"Point",
-        "coordinates":[
-          16.850943,
-          48.110019,
-          185
         ]
       }
     },{
@@ -564,6 +543,27 @@
         "coordinates":[
           16.848689,
           48.109807,
+          185
+        ]
+      }
+    },{
+      "type":"Feature",
+      "id":"carnuntumCivilianAmphitheater",
+      "properties":{
+        "title":"Civilian Amphitheater at Carnuntum",
+        "buildingtype": "amphitheater",
+        "created":100,
+        "capacity":13000,
+        "chronogroup": "Second Century",
+        "location":"http://pleiades.stoa.org/places/128376#this",
+        "see": "https://www.academia.edu/3791286/The_amphitheatre_of_Carnuntum_Towards_a_complete_3D_model_using_airborne_Structure_from_Motion_and_dense_image_matching",
+        "youtube": ["https://www.youtube.com/watch?v=Z5TcbJdyEns"]
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          16.850943,
+          48.110019,
           185
         ]
       }
