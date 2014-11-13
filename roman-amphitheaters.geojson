@@ -48,6 +48,10 @@
         "comment":"Capacity and date drawn from N. Pollard's “Soldiers, Cities, and Civilians in Roman Syria”, p. 52",
         "created":216,
         "dedication":["http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD023604"],
+        "dimensions":{
+          "arena-major": 31,
+          "arena-minor": 25
+          },
         "emperor": "Septimius Severus",
         "location":"http://pleiades.stoa.org/places/893989#this",
         "moderncountry": "Syria"
@@ -71,6 +75,10 @@
         "capacity":20000,
         "chronogroup": "Flavian",
         "created":90,
+        "dimensions":{
+          "arena-major": 47,
+          "arena-minor": 32
+          },
         "location":"http://pleiades.stoa.org/places/148217#this",
         "moderncountry": "France",
         "see":"http://pleiades.stoa.org/places/148217/location-of-roman-amphitheater",
@@ -142,6 +150,12 @@
         "capacity":50000,
         "chronogroup": "Flavian",
         "created":80,
+        "dimensions":{
+           "exterior-major": 189,
+           "exterior-minor": 156,
+           "arena-major": 83,
+           "arena-minor": 48
+           },
         "emperor": "Vespasian",
         "location":"http://pleiades.stoa.org/places/423025#this",
         "see":"http://pleiades.stoa.org/places/285857974/centerpoint-of-amphitheatrum-flavium",
@@ -167,6 +181,10 @@
         "chronogroup": "Severan",
         "comment": "Brick construction.",
         "created":218,
+        "dimensions": {
+          "exterior-major": 88,
+          "exterior-minor": 75.8
+        },
         "emperor": "Caracalla",
         "golvinID": "189",
         "location":"http://pleiades.stoa.org/places/423025#this",
@@ -191,6 +209,10 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Second Century",
         "capacity": 3500,
+        "dimensions": {
+          "arena-major": 47,
+          "arena-minor": 38 
+         },
         "last-use": 363,
         "location":"http://pleiades.stoa.org/places/687854#this",
         "moderncountry": "Israel",
@@ -212,14 +234,20 @@
       "properties":{
         "title":"Amphitheater at Pompeii",
         "buildingtype": "amphitheater",
-        "wikipedia":"http://en.wikipedia.org/wiki/Amphitheatre_of_Pompeii",
-        "created":-80,
-        "last-use":79,
         "capacity":22000,
-        "location":"http://pleiades.stoa.org/places/433032#this",
         "chronogroup": "republican",
-        "see":"http://pleiades.stoa.org/places/433032/amphitheater-of-pompeii",
+        "created":-80,
+        "dimensions": {
+          "exterior-major": 135,
+          "exterior-minor": 104,
+          "arena-major": 66,
+          "arena-minor": 35 
+         },
+        "last-use":79,
+        "location":"http://pleiades.stoa.org/places/433032#this",
+        "see":["https://3dwarehouse.sketchup.com/model.html?redirect=1&mid=6971b010096197d8dfd89dd71a555b12","http://pleiades.stoa.org/places/433032/amphitheater-of-pompeii"],
         "welch-id":"1",
+        "wikipedia":"http://en.wikipedia.org/wiki/Amphitheatre_of_Pompeii",
         "youtube": ["https://www.youtube.com/watch?v=bqf4bJyo3rU"],
         "bibliography": [
                     {
@@ -1231,6 +1259,12 @@
       "properties":{
         "title":"Amphitheater at Larinum",
         "buildingtype": "amphitheater",
+"dimensions": {
+          "exterior-major": 98,
+          "exterior-minor": 86,
+          "arena-major": 57,
+          "arena-minor": 40 
+         },
         "location":"http://pleiades.stoa.org/places/442629#this",
         "source":"http://pleiades.stoa.org/places/442629/location-of-roman-amphitheater"
       },
@@ -1442,8 +1476,8 @@
         "title":"Amphitheater at Vesunna",
         "buildingtype": "amphitheater",
         "dimensions": {
-         "exterior-length": 131,
-         "exterior-width": 113
+         "exterior-major": 131,
+         "exterior-minor": 113
         },
         "location":"http://pleiades.stoa.org/places/138650#this",
         "source":"http://pleiades.stoa.org/places/138650/location-of-roman-amphitheater"
@@ -1493,26 +1527,6 @@
           579
         ],
         "source":"http://pleiades.stoa.org/places/442603/location-of-roman-amphitheater"
-      }
-    },
-    {
-      "type":"Feature",
-      "id":"cordubaAmphitheater",
-      "properties":{
-        "title":"Amphitheater at Corduba",
-        "buildingtype": "amphitheater",
-        "latingtoponym": "Colonia Patricia",
-        "location":"http://pleiades.stoa.org/places/256128#this",
-        "wikimapia": "http://wikimapia.org/1560328/Roman-amphitheater"
-      },
-      "geometry":{
-        "type":"Point",
-        "coordinates":[
-          -4.788888,
-          37.884183,
-          125
-        ],
-        "source":"http://pleiades.stoa.org/places/256128/location-of-roman-amphitheater"
       }
     },
     {
@@ -2426,7 +2440,11 @@
       "id":"ptolemaisAmphitheater",
       "properties":{
         "title":"Amphitheater at Ptolemais",
-        "buildingtype": "amphitheater"
+        "buildingtype": "amphitheater",
+        "dimensions": {
+          "arena-major": 40,
+          "arena-minor": 25
+        }
       },
       "geometry":{
         "type":"Point",
@@ -2478,7 +2496,10 @@
         "title": "Amphitheater at Cordoba",
         "buildingtype": "amphitheater",
         "chronogroup": "First Century",
-        "comment": "Discovered in 2003."
+        "comment": "Discovered in 2003.",
+        "latingtoponym": "Colonia Patricia",
+        "location":"http://pleiades.stoa.org/places/256128#this",
+        "wikimapia": "http://wikimapia.org/1560328/Roman-amphitheater"
       },
       "geometry":{
         "type":"Point",
@@ -2551,8 +2572,8 @@
         "title": "Amphitheater at Poitiers",
         "buildingtype": "amphitheater",
         "dimensions":{
-          "exterior-length": 108,
-          "exterior-width": 88
+          "exterior-major": 108,
+          "exterior-minor": 88
         },
         "latintoponym": "Limonum Pictonum",
         "amphi-theatrum": "http://amphi-theatrum.de/1381.html"
@@ -2825,7 +2846,6 @@
         "amphi-theatrum": "http://amphi-theatrum.de/1462.html",
         "buildingtype": "amphitheater",
         "chronogroup": "republican",
-        "dimensions":{"structure_major":110, "structure_minor": 72, "arena_major":87.2},
         "latintoponym": "Cales"
       },
       "geometry":{
@@ -3232,7 +3252,6 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-
                   4.310856,
                   46.953003,
                   317
@@ -3243,11 +3262,12 @@
       "type":"Feature",
       "id":"xantenAmphitheater",
       "properties": {
+        "title": "Amphitheater at Xanten",
         "amphi-theatrum": "http://amphi-theatrum.de/1450.html",
         "buildingtype": "amphitheater",
         "capacity": 10000,
         "latintoponym": "Colonia Ulpia Traiana",
-        "title": "Amphitheater at Xanten",
+        "see": "https://3dwarehouse.sketchup.com/model.html?id=16596dabb2ebd0469b2513a62f433bae",
         "visibility": "good"
       },
       "geometry":{
