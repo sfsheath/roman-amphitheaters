@@ -40,23 +40,24 @@
       "type":"Feature",
       "id":"duraEuroposAmphitheater",
       "properties":{
-        "title":"Amphitheater at Dura Europos",
+        "title": "Amphitheater at Dura Europos",
         "amphi-theatrum": "http://amphi-theatrum.de/1449.html",
         "buildingtype": "amphitheater",
-        "capacity":1000,
+        "capacity": 1000,
         "chronogroup": "Severan",
-        "comment":"Capacity and date drawn from N. Pollard's “Soldiers, Cities, and Civilians in Roman Syria”, p. 52",
-        "created":216,
+        "comment": "Capacity and date drawn from N. Pollard's “Soldiers, Cities, and Civilians in Roman Syria”, p. 52",
+        "created": 216,
         "dedication":["http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD023604"],
         "dimensions":{
           "arena-major": 31,
           "arena-minor": 25
           },
         "emperor": "Septimius Severus",
+        "hypogeum": false,
         "location":"http://pleiades.stoa.org/places/893989#this",
         "moderncountry": "Syria"
       },
-      "geometry":{
+      "geometry": {
         "type":"Point",
         "coordinates":[
           40.728926,
@@ -76,9 +77,12 @@
         "chronogroup": "Flavian",
         "created":90,
         "dimensions":{
+          "external-major": 136,
+          "external-minor": 107,
           "arena-major": 47,
           "arena-minor": 32
           },
+        "hypogeum": true,
         "location":"http://pleiades.stoa.org/places/148217#this",
         "moderncountry": "France",
         "see":"http://pleiades.stoa.org/places/148217/location-of-roman-amphitheater",
@@ -125,9 +129,7 @@
       "properties":{
         "title":"Ludus Magnus Arena",
         "buildingtype": "practiceArena",
-        "capacity":500,
         "created":81,
-        "comment": "Capacity is a guess.",
         "location":"http://pleiades.stoa.org/places/423025#this",
         "moderncountry": "Italy",
         "wikipedia":"http://en.wikipedia.org/wiki/Ludus_Magnus"
@@ -143,9 +145,9 @@
     },
     {
       "type":"Feature",
-      "id":"romeAmphitheater",
+      "id":"romeFlavianAmphitheater",
       "properties":{
-        "title":"Flavian Amphitheater (Rome)",
+        "title":"Flavian Amphitheater at Rome",
         "buildingtype": "amphitheater",
         "capacity":50000,
         "chronogroup": "Flavian",
@@ -210,6 +212,8 @@
         "chronogroup": "Second Century",
         "capacity": 3500,
         "dimensions": {
+          "external-major": 71,
+          "external-minor": 56,
           "arena-major": 47,
           "arena-minor": 38 
          },
@@ -278,6 +282,13 @@
         "capacity":15000,
         "chronogroup": "Julio-Claudian",
         "created":-8,
+        "dimensions": {
+          "exterior-major": 126,
+          "exterior-minor": 102,
+          "arena-major": 64,
+          "arena-minor": 41 
+         },
+        "hypogeum": true,
         "location":"http://pleiades.stoa.org/places/256155#this",
         "emperor": "Augustus",
         "wikipedia":"http://en.wikipedia.org/wiki/Mérida_amphitheatre",
@@ -361,7 +372,14 @@
         "title":"Flavian Amphitheater at Pozzuoli",
         "buildingtype": "amphitheater",
         "created":70,
-        "capacity":20000,
+        "capacity": 35700,
+        "dimensions": {
+          "exterior-major": 149,
+          "exterior-minor": 116,
+          "arena-major": 74.8,
+          "arena-minor": 42,
+          "source": "Bomgardner"
+         },
         "period": "Vespasian",
         "chronogroup": "Flavian",
         "wikipedia":"http://en.wikipedia.org/wiki/Flavian_Amphitheater_(Pozzuoli)",
@@ -524,8 +542,8 @@
       "type":"Feature",
       "id":"nijmegenAmphitheater",
       "properties":{
-        "amphi-theatrum": "http://amphi-theatrum.de/1453.html",
         "title":"Amphitheater at Nijmegen",
+        "amphi-theatrum": "http://amphi-theatrum.de/1453.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "location":"http://pleiades.stoa.org/places/98921#this"
@@ -605,6 +623,7 @@
         "chronogroup": "Neronian",
         "created":56,
         "dedication": "http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD015590",
+        "emperor": "Nero",
         "location":"http://pleiades.stoa.org/places/344448#this",
         "emperor": "Nero"
       },
@@ -669,7 +688,7 @@
         "capacity": 10000,
         "chronogroup": "Second Century",
         "created": 100,
-        "location":"http://pleiades.stoa.org/places/471899#this",
+        "location": "http://pleiades.stoa.org/places/471899#this",
         "wikipedia": "http://en.wikipedia.org/wiki/Roman_Amphitheatre_of_Cagliari"
       },
       "geometry":{
@@ -689,8 +708,9 @@
         "title":"Amphitheater at Italica",
         "buildingtype": "amphitheater",
         "chronogroup": "Second Century",
-        "created":140,
-        "capacity":25000,
+        "created": 140,
+        "capacity": 25000,
+        "hypogeum": true,
         "location":"http://pleiades.stoa.org/places/256231#this",
         "see":"http://pleiades.stoa.org/places/256231/roman-amphitheater-of-italica"
       },
@@ -916,6 +936,13 @@
       "properties":{
         "title":"Amphitheater at Libarna",
         "buildingtype": "amphitheater",
+        "hypogeum": true,
+        "dimensions": {
+          "external-major": 88,
+          "external-minor": 61,
+          "arena-major": 65,
+          "arena-minor": 38
+         },
         "location":"http://pleiades.stoa.org/places/383694#this",
         "source":"http://pleiades.stoa.org/places/383694/location-of-roman-amphitheater"
       },
@@ -1395,8 +1422,15 @@
         "created":30,
         "capacity": 30000,
         "chronogroup": "Julio-Claudian",
-        "wikipedia":"https://en.wikipedia.org/wiki/Verona_Arena",
+        "dimensions": {
+          "exterior-major": 152.43,
+          "exterior-minor": 123.42,
+          "arena-major": 75.68,
+          "arena-minor": 44.43,
+          "source": "Bomgardner"
+         },
         "location":"http://pleiades.stoa.org/places/383816#this",
+        "wikipedia":"https://en.wikipedia.org/wiki/Verona_Arena",
         "source":"http://pleiades.stoa.org/places/383816/location-of-amphitheater",
         "youtube": ["https://www.youtube.com/watch?v=CJoS5abKuYc"]
       },
@@ -2478,6 +2512,10 @@
       "properties":{
         "title": "Amphitheater at Caparra",
         "buildingtype": "amphitheater",
+        "dimensions":{
+          "arena-major": 30,
+          "arena-minor": 19
+         },
         "latintoponym": "Municipium Flavium Caparense"
       },
       "geometry":{
@@ -3061,11 +3099,11 @@
       "type":"Feature",
       "id":"capuaRepublicanAmphitheater",
       "properties": {
+        "title": "Republican Amphitheater at Capua",
         "amphi-theatrum": "http://amphi-theatrum.de/2081.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Republican",
         "latintoponym": "Capua",
-        "title": "Republican Amphitheater at Capua",
         "visibility": "partial",
         "welch-id": "2"
       },
@@ -3082,11 +3120,20 @@
       "type":"Feature",
       "id":"capuaImperialAmphitheater",
       "properties": {
+        "title": "Imperial Amphitheater at Capua",
         "amphi-theatrum": "http://amphi-theatrum.de/2082.html",
         "buildingtype": "amphitheater",
+        "capacity": 47000,
         "chronogroup": "Flavian",
+        "dimensions": {
+          "exterior-major": 165,
+          "exterior-minor": 135,
+          "arena-major": 76.12,
+          "arena-minor": 45.83,
+          "source": "Bomgardner"
+         },
+        "hypogeum": true,
         "latintoponym": "Capua",
-        "title": "Imperial Amphitheater at Capua",
         "visibility": "partial",
         "youtube": ["https://www.youtube.com/watch?v=8q86tToFDwI","https://www.youtube.com/watch?v=93yf8t-lKGI"]
       },
