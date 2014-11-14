@@ -96,7 +96,7 @@ id,title,type,capacity,wikipedia,youtube,extmajor,extminor,arenamajor,arenaminor
 "miciaAmphitheater","Amphitheater at Micia","amphitheater",1500,,,,,,,45.915008,22.81731,183
 "gemellaeAmphitheater","Amphitheater at Gemellae","amphitheater",3000,,,,,,,34.636598,5.522904,83
 "cherchellAmphitheater","Amphitheater at Cherchell","amphitheater",,,,,,,,36.60878,2.198958,29
-"pulaAmphitheater","Amphitheater at Pula","amphitheater",26000,,"https://www.youtube.com/watch?v=hqTud5XxI_s",,,,,44.873229,13.850243,16
+"pulaAmphitheater","Amphitheater at Pula","amphitheater",26000,"http://en.wikipedia.org/wiki/Pula_Arena","https://www.youtube.com/watch?v=hqTud5XxI_s",132.45,105.1,67.95,41.65,44.873229,13.850243,16
 "carmonaAmphitheater","Amphitheater at Carmona","amphitheater",8000,,,,,,,37.469674,-5.650907,223
 "caesareaAmphitheater","Amphitheater at Caesarea","amphitheater",,,,,,,,32.506473,34.897451,11
 "pergamumAmphitheater","Amphitheater at Pergamum","amphitheater",25000,,,,,,,39.125751,27.174177,100
@@ -177,4 +177,4 @@ id,title,type,capacity,wikipedia,youtube,extmajor,extminor,arenamajor,arenaminor
 "palmyraAmphitheater","Possible Amphitheater at Palmyra","amphitheater",,,,,,,,34.553789,38.273763,408
 "stMarcelAmphitheater","Amphitheater at Saint Marcel","amphitheater",,,,,,,,46.601549,1.518328,150
 "metzAmphitheater","Amphitheater at Metz","amphitheater",30000,,,,,,,49.107645,6.181932,171
-"grandHalfAmphitheater","Half Amphitheater at Grand","half-amphitheater",,,,,,,,48.385217,5.49096,371
+"grandHalfAmphitheater","Half Amphitheater at Grand","half-amphitheater",17000,,,179,,50,41,48.385217,5.49096,371

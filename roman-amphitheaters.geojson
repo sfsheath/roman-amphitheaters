@@ -2074,6 +2074,15 @@
         "created":1,
         "capacity":26000,
         "chronogroup":"Julio-Claudian",
+        "dimensions": {
+          "exterior-major": 132.45,
+          "exterior-minor": 105.10,
+          "arena-major": 67.95,
+          "arena-minor": 41.65,
+          "height": 32.45
+         },
+        "latintoponym": "Colonia Pietas Iulia Pola Pollentia Herculanea",
+        "wikipedia": "http://en.wikipedia.org/wiki/Pula_Arena",
         "youtube": ["https://www.youtube.com/watch?v=hqTud5XxI_s","https://www.youtube.com/watch?v=YZGAZ6HFUmA","https://www.youtube.com/watch?v=oF1jrFn-5mY"]
       },
       "geometry":{
@@ -3651,6 +3660,12 @@
       "properties": {
         "title": "Half Amphitheater at Grand",
         "buildingtype": "half-amphitheater",
+        "capacity": 17000,
+        "dimensions": {
+          "exterior-major": 179,
+          "arena-major": 50,
+          "arena-minor": 41
+         },
         "moderncountry": "France",
         "visibility": "good"
       },
