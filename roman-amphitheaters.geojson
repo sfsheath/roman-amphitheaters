@@ -128,7 +128,7 @@
       "id":"ludusMagnusArena",
       "properties":{
         "title":"Ludus Magnus Arena",
-        "buildingtype": "practiceArena",
+        "buildingtype": "practice-arena",
         "created":81,
         "location":"http://pleiades.stoa.org/places/423025#this",
         "moderncountry": "Italy",
@@ -580,7 +580,7 @@
       "id":"carnuntumLudus",
       "properties":{
         "title":"Ludus at Carnuntum",
-        "buildingtype": "practiceArena",
+        "buildingtype": "practice-arena",
         "see": "https://www.academia.edu/3791251/The_discovery_of_a_gladiatorial_school_at_Carnuntum",
         "youtube": ["https://www.youtube.com/watch?v=aJFH3TCVzTk"]
       },
@@ -2967,7 +2967,7 @@
         "title": "Amphitheater at Narbonne",
         "buildingtype": "amphitheater",
         "chronogroup": "Flavian",
-        "dimensions":{"arena-maximum":75,"arena-minimum":46.6,"outer-maximum":121.6,"outer-minimum":93.2},
+        "dimensions":{"arena-major":75,"arena-minor":46.6,"exterior-major":121.6,"exterior-minor":93.2},
         "visibility": "none"
       },
       "geometry":{

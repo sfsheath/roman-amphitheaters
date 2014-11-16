@@ -2,7 +2,7 @@ id,title,type,capacity,wikipedia,youtube,extmajor,extminor,arenamajor,arenaminor
 "duraEuroposAmphitheater","Amphitheater at Dura Europos","amphitheater",1000,,,,,31,25,34.749855,40.728926,223
 "arlesAmphitheater","Amphitheater at Arles","amphitheater",20000,"http://en.wikipedia.org/wiki/Arles_Amphitheatre","https://www.youtube.com/watch?v=oCz-76hb1LU",,,47,32,43.677778,4.631111,21
 "lyonAmphitheater","Amphitheater at Lyon","amphitheater",20000,"http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls",,,,67.6,42,45.770556,4.830556,206
-"ludusMagnusArena","Ludus Magnus Arena","practiceArena",,"http://en.wikipedia.org/wiki/Ludus_Magnus",,,,,,41.88995,12.494913,22
+"ludusMagnusArena","Ludus Magnus Arena","practice-arena",,"http://en.wikipedia.org/wiki/Ludus_Magnus",,,,,,41.88995,12.494913,22
 "romeFlavianAmphitheater","Flavian Amphitheater at Rome","amphitheater",50000,"http://en.wikipedia.org/wiki/Colosseum","https://www.youtube.com/watch?v=kxwenPo1grc",189,156,83,48,41.890169,12.492269,22
 "romeAmphitheatrumCastrense","Amphitheatrum Castrense (Rome)","amphitheater",7000,"http://en.wikipedia.org/wiki/Amphitheatrum_Castrense",,88,75.8,,,41.887715,12.515144,48
 "eleutheropolisAmphitheater","Amphitheater at Eleutheropolis","amphitheater",3500,,"https://www.youtube.com/watch?v=bA6YNf8ZwlI",,,47,38,31.608189,34.893845,253
@@ -21,7 +21,7 @@ id,title,type,capacity,wikipedia,youtube,extmajor,extminor,arenamajor,arenaminor
 "porolissumAmphitheater","Amphitheater at Porolissum","amphitheater",,,,,,,,47.177552,23.154052,441
 "nijmegenAmphitheater","Amphitheater at Nijmegen","amphitheater",,,,,,,,51.838523,5.878859,46
 "carnuntumMilitaryAmphitheater","Military Amphitheater at Carnuntum","amphitheater",8000,,,,,,,48.126824,16.892619,164
-"carnuntumLudus","Ludus at Carnuntum","practiceArena",,,"https://www.youtube.com/watch?v=aJFH3TCVzTk",,,,,48.109807,16.848689,185
+"carnuntumLudus","Ludus at Carnuntum","practice-arena",,,"https://www.youtube.com/watch?v=aJFH3TCVzTk",,,,,48.109807,16.848689,185
 "carnuntumCivilianAmphitheater","Civilian Amphitheater at Carnuntum","amphitheater",13000,,"https://www.youtube.com/watch?v=Z5TcbJdyEns",,,,,48.110019,16.850943,185
 "leptisMagnaAmphitheater","Amphitheater at Leptis Magna","amphitheater",16000,,,,,,,32.63234,14.309452,18
 "empuriesAmphitheater","Amphitheater at Empuries","amphitheater",3300,,,,,,,42.130042,3.117431,27
@@ -143,7 +143,7 @@ id,title,type,capacity,wikipedia,youtube,extmajor,extminor,arenamajor,arenaminor
 "sanVittorinoAmphitheater","Amphitheater at San Vittorino","amphitheater",20000,,,,,,,42.400531,13.306027,672
 "beziersAmphitheater","Amphitheater at Béziers","amphitheater",,,,,,,,43.339589,3.214026,56
 "agenAmphitheater","Amphitheater at Agen","amphitheater",15000,,,,,,,44.206545,0.622122,52
-"narbonneAmphitheater","Amphitheater at Narbonne","amphitheater",,,,,,,,43.184873,3.010181,14
+"narbonneAmphitheater","Amphitheater at Narbonne","amphitheater",,,,121.6,93.2,75,46.6,43.184873,3.010181,14
 "amiensAmphitheater","Amphitheater at Amiens","amphitheater",,,,,,,,49.8944,2.293485,32
 "meauxAmphitheater","Amphitheater at Meaux","amphitheater",,,,,,,,48.970006,2.883491,50
 "chartresAmphitheater","Amphitheater at Chartres","amphitheater",,,,,,,,48.450069,1.48926,140
