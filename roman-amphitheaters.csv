@@ -14,7 +14,7 @@ id,title,type,capacity,wikipedia,youtube,extmajor,extminor,arenamajor,arenaminor
 "pozzuoliFlavianAmphitheater","Flavian Amphitheater at Pozzuoli","amphitheater",35700,"http://en.wikipedia.org/wiki/Flavian_Amphitheater_(Pozzuoli)","https://www.youtube.com/watch?v=VCCD-YeNQKk",149,116,74.8,42,40.825929,14.125315,41
 "pozzuoliEarlyAmphitheater","Early Amphitheater at Pozzuoli","amphitheater",,,,,,,,40.826239,14.127615,58
 "syracuseAmphitheater","Amphitheater at Syracuse","amphitheater",,"http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Siracusa","https://www.youtube.com/watch?v=aUcjHzMZCeY",,,,,37.074132,15.278934,23
-"carthageAmphitheater","Amphitheater at Carthage","amphitheater",30000,,"https://www.youtube.com/watch?v=oDiCqZCu06I",,,,,36.856078,10.314924,14
+"carthageAmphitheater","Amphitheater at Carthage","amphitheater",30000,"http://en.wikipedia.org/wiki/Carthage_amphitheatre","https://www.youtube.com/watch?v=oDiCqZCu06I",,,,,36.856078,10.314924,14
 "hadrianVillaAmphitheater","Amphitheater at Hadrian's Villa at Tivoli","amphitheater",,,,,,,,41.941708,12.778929,99
 "corinthAmphitheater","Amphitheater at Corinth","amphitheater",14000,,,,,,,37.909629,22.892126,98
 "marcianopolisAmphitheater","Amphitheater at Marcianopolis (Devnya)","amphitheater",4000,,,,,,,43.218689,27.556674,120
@@ -44,7 +44,7 @@ id,title,type,capacity,wikipedia,youtube,extmajor,extminor,arenamajor,arenaminor
 "avellaAmphitheater","Amphitheater at Abella","amphitheater",,,,,,,,40.961526,14.608415,224
 "nimesAmphitheater","Amphitheater at Nimes","amphitheater",24000,,"https://www.youtube.com/watch?v=c384XQlnINo",,,,,43.834876,4.359599,50
 "charterhouseAmphitheatre","Amphitheater at Charterhouse","amphitheater",,,,,,,,51.305437,-2.720301,296
-"devaAmphitheatre","Amphitheater at Deva","amphitheater",,,,,,,,53.189079,-2.886928,23
+"chesterAmphitheatre","Amphitheater at Chester","amphitheater",,,,,,,,53.189079,-2.886928,23
 "gennesAmphitheatre","Amphitheater at Gennes","amphitheater",,,,,,,,47.3352194,-0.2386057,47
 "scythopolisNysaAmphitheatre","Amphitheater at Scythopolis/Nysa","amphitheater-in-hippodrome",,,,,,,,32.498395,35.501631,-121
 "scylletiumScolaciumAmphitheatre","Amphitheater at Scylletium/Scolacium","amphitheater",,,,,,,,38.8068878,16.5923292,44
@@ -136,7 +136,7 @@ id,title,type,capacity,wikipedia,youtube,extmajor,extminor,arenamajor,arenaminor
 "sanBenedettoDeiMarsiAmphitheater","Amphitheater at San Benedetto dei Marsi","amphitheater",,,,,,,,42.006504,13.627505,683
 "monteleoneAmphitheater","Amphitheater at Monteleone","amphitheater",,,,,,,,42.228444,12.867528,495
 "bolsenaAmphitheater","Amphitheater at Bolsena","amphitheater",,,,,,,,42.650243,11.990158,417
-"anconaAmphitheater","Amphitheater at Anconca","amphitheater",,,,,,,,43.624604,13.511791,54
+"anconaAmphitheater","Amphitheater at Anconca","amphitheater",,,,111,97,67,53,43.624604,13.511791,54
 "ascoliPicenoAmphitheater","Amphitheater at Ascoli Picenum","amphitheater",,,,,,,,42.855655,13.570767,157
 "beneventoAmphitheater","Amphitheater at Benevento","amphitheater",,,,,,,,41.130009,14.781523,166
 "calviRisortaAmphitheater","Amphitheater at Calvi Risorta","amphitheater",,,,,,,,41.202429,14.137993,89

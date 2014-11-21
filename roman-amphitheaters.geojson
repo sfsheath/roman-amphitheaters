@@ -447,6 +447,7 @@
         "capacity":30000,
         "chronogroup": "Second Century",
         "location":"http://pleiades.stoa.org/places/314921#this",
+        "wikipedia": "http://en.wikipedia.org/wiki/Carthage_amphitheatre",
         "youtube": ["https://www.youtube.com/watch?v=oDiCqZCu06I"]
       },
       "geometry":{
@@ -1036,10 +1037,11 @@
     },
     {
       "type":"Feature",
-      "id":"devaAmphitheatre",
+      "id":"chesterAmphitheatre",
       "properties":{
-        "title":"Amphitheater at Deva",
+        "title":"Amphitheater at Chester",
         "buildingtype": "amphitheater",
+        "latintoponym": "Deva Victrix",
         "location":"http://pleiades.stoa.org/places/79420#this"
       },
       "geometry":{
@@ -2440,6 +2442,7 @@
       "id":"castraAlbanaAmphitheater",
       "properties":{
         "title":"Amphitheater at Castra Albana",
+        "amphi-theatrum": "http://amphi-theatrum.de/1567.html",
         "buildingtype": "amphitheater",
         "capacity": 20000,
         "created": 212,
@@ -2836,6 +2839,12 @@
         "amphi-theatrum": "http://amphi-theatrum.de/1396.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Julio-Claudian",
+        "dimensions": {
+          "exterior-major": 111,
+          "exterior-minor": 97,
+          "arena-major": 67,
+          "arena-minor": 53
+         },
         "latintoponym": "Ancona"
       },
       "geometry":{
