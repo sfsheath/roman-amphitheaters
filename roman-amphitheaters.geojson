@@ -507,12 +507,18 @@
       "id":"corinthAmphitheater",
       "properties":{
         "title":"Amphitheater at Corinth",
+        "amphi-theatrum": "http://amphi-theatrum.de/1361.html",
         "buildingtype": "amphitheater",
         "capacity": 14000,
         "chronogroup": "Julius Caesar",
         "created":-44,
+        "dimensions": {
+          "arena-major":  73,
+          "arena-minor": 44
+         },
         "see":"http://corinth.sas.upenn.edu/gisamphitheater.html",
-        "location":"http://pleiades.stoa.org/places/570182#this"
+        "location":"http://pleiades.stoa.org/places/570182#this",
+        "moderncountry": "Greece"
       },
       "geometry":{
         "type":"Point",
@@ -528,11 +534,13 @@
       "id":"marcianopolisAmphitheater",
       "properties":{
         "title":"Amphitheater at Marcianopolis (Devnya)",
+        "amphi-theatrum": "http://amphi-theatrum.de/1534.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Severan",
         "capacity":4000,
         "created":200,
-        "location":"http://pleiades.stoa.org/places/216878#this"
+        "location":"http://pleiades.stoa.org/places/216878#this",
+        "moderncountry": "Bulgaria"
       },
       "geometry":{
         "type":"Point",
@@ -548,11 +556,19 @@
       "id":"porolissumAmphitheater",
       "properties":{
         "title":"Amphitheater at Porolissum",
+        "amphi-theatrum": "http://amphi-theatrum.de/1443.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Second Century",
         "created":157,
         "comment":"There was a wooden predecessor.",
-        "location":"http://pleiades.stoa.org/places/207361#this"
+        "dimensions": {
+          "exterior-major": 84,
+          "exterior-minor": 75,
+          "arena-major": 64,
+          "arena-minor": 52
+         },
+        "location":"http://pleiades.stoa.org/places/207361#this",
+        "moderncountry": "Romania"
       },
       "geometry":{
         "type":"Point",
@@ -586,10 +602,17 @@
       "id":"carnuntumMilitaryAmphitheater",
       "properties":{
         "title":"Military Amphitheater at Carnuntum",
+        "amphi-theatrum": "http://amphi-theatrum.de/1430.html",
         "buildingtype": "amphitheater",
         "chronogroup": "First Century",
         "capacity":8000,
         "created":80,
+        "dimensions": {
+          "exterior-major": 99.5,
+          "exterior-minor": 81.5,
+          "arena-major": 71,
+          "arena-minor": 43
+         },
         "location":"http://pleiades.stoa.org/places/128376#this"
       },
       "geometry":{
@@ -622,6 +645,7 @@
       "id":"carnuntumCivilianAmphitheater",
       "properties":{
         "title":"Civilian Amphitheater at Carnuntum",
+        "amphi-theatrum": "http://amphi-theatrum.de/1430.html",
         "buildingtype": "amphitheater",
         "created":100,
         "capacity":13000,
@@ -648,6 +672,12 @@
         "chronogroup": "Neronian",
         "created":56,
         "dedication": "http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD015590",
+        "dimensions": {
+          "exterior-major": 128,
+          "exterior-minor": 110,
+          "arena-major": 69,
+          "arena-minor": 52
+         },
         "emperor": "Nero",
         "location":"http://pleiades.stoa.org/places/344448#this",
         "emperor": "Nero"
