@@ -77,8 +77,8 @@
         "chronogroup": "Flavian",
         "created":90,
         "dimensions":{
-          "external-major": 136,
-          "external-minor": 107,
+          "exterior-major": 136,
+          "exterior-minor": 107,
           "arena-major": 47,
           "arena-minor": 32
           },
@@ -212,8 +212,8 @@
         "chronogroup": "Second Century",
         "capacity": 3500,
         "dimensions": {
-          "external-major": 71,
-          "external-minor": 56,
+          "exterior-major": 71,
+          "exterior-minor": 56,
           "arena-major": 47,
           "arena-minor": 38 
          },
@@ -308,10 +308,18 @@
       "id":"newsteadAmphitheater",
       "properties":{
         "title":"Amphitheater at Newstead (Trimontium)",
+        "amphi-theatrum": "http://amphi-theatrum.de/1899.html",
         "buildingtype": "amphitheater",
         "capacity":2000,
         "chronogroup": "Flavian",
         "created" : 80,
+        "dimensions": {
+          "exterior-major": 70,
+          "exterior-minor": 60,
+          "arena-major": 37,
+          "arena-minor": 23,
+          "source": "http://amphi-theatrum.de/1899.html"
+         },
         "location":"http://pleiades.stoa.org/places/89304#this",
         "comment": "Date based on main period of military activity at the site."
       },
@@ -352,6 +360,10 @@
         "buildingtype": "amphitheater",
         "chronogroup": "republican",
         "created":-100,
+        "dimensions": {
+          "exterior-major": 114,
+          "exterior-minor": 84
+        },
         "location":"http://pleiades.stoa.org/places/432808#this",
         "see":"http://pleiades.stoa.org/places/432808/location-of-roman-amphitheater",
         "welch-id":"4"
@@ -422,8 +434,16 @@
       "id":"syracuseAmphitheater",
       "properties":{
         "title":"Amphitheater at Syracuse",
+        "amphi-theatrum": "http://amphi-theatrum.de/1514.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Julio-Claudian",
+        "dimensions": {
+          "exterior-major": 141,
+          "exterior-minor": 118,
+          "arena-major": 69,
+          "arena-minor": 39,
+           "source": "http://amphi-theatrum.de/1514.html"
+          },
         "location":"http://pleiades.stoa.org/places/462503#this",
         "wikipedia": "http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Siracusa",
         "youtube": ["https://www.youtube.com/watch?v=aUcjHzMZCeY"]
@@ -446,6 +466,10 @@
         "created":100,
         "capacity":30000,
         "chronogroup": "Second Century",
+        "dimensions": {
+          "arena-major": 79,
+          "arena-minor": 50
+        },
         "location":"http://pleiades.stoa.org/places/314921#this",
         "wikipedia": "http://en.wikipedia.org/wiki/Carthage_amphitheatre",
         "youtube": ["https://www.youtube.com/watch?v=oDiCqZCu06I"]
@@ -939,8 +963,8 @@
         "buildingtype": "amphitheater",
         "hypogeum": true,
         "dimensions": {
-          "external-major": 88,
-          "external-minor": 61,
+          "exterior-major": 88,
+          "exterior-minor": 61,
           "arena-major": 65,
           "arena-minor": 38
          },

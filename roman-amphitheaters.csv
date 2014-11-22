@@ -1,20 +1,20 @@
 id,title,type,capacity,wikipedia,youtube,extmajor,extminor,arenamajor,arenaminor,latitude,longitude,elevation
 "duraEuroposAmphitheater","Amphitheater at Dura Europos","amphitheater",1000,,,,,31,25,34.749855,40.728926,223
-"arlesAmphitheater","Amphitheater at Arles","amphitheater",20000,"http://en.wikipedia.org/wiki/Arles_Amphitheatre","https://www.youtube.com/watch?v=oCz-76hb1LU",,,47,32,43.677778,4.631111,21
+"arlesAmphitheater","Amphitheater at Arles","amphitheater",20000,"http://en.wikipedia.org/wiki/Arles_Amphitheatre","https://www.youtube.com/watch?v=oCz-76hb1LU",136,107,47,32,43.677778,4.631111,21
 "lyonAmphitheater","Amphitheater at Lyon","amphitheater",20000,"http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls",,,,67.6,42,45.770556,4.830556,206
 "ludusMagnusArena","Ludus Magnus Arena","practice-arena",,"http://en.wikipedia.org/wiki/Ludus_Magnus",,,,,,41.88995,12.494913,22
 "romeFlavianAmphitheater","Flavian Amphitheater at Rome","amphitheater",50000,"http://en.wikipedia.org/wiki/Colosseum","https://www.youtube.com/watch?v=kxwenPo1grc",189,156,83,48,41.890169,12.492269,22
 "romeAmphitheatrumCastrense","Amphitheatrum Castrense (Rome)","amphitheater",7000,"http://en.wikipedia.org/wiki/Amphitheatrum_Castrense",,88,75.8,,,41.887715,12.515144,48
-"eleutheropolisAmphitheater","Amphitheater at Eleutheropolis","amphitheater",3500,,"https://www.youtube.com/watch?v=bA6YNf8ZwlI",,,47,38,31.608189,34.893845,253
+"eleutheropolisAmphitheater","Amphitheater at Eleutheropolis","amphitheater",3500,,"https://www.youtube.com/watch?v=bA6YNf8ZwlI",71,56,47,38,31.608189,34.893845,253
 "pompeiiAmphitheater","Amphitheater at Pompeii","amphitheater",22000,"http://en.wikipedia.org/wiki/Amphitheatre_of_Pompeii","https://www.youtube.com/watch?v=bqf4bJyo3rU",135,104,66,35,40.751213,14.495262,21
 "meridaAmphitheater","Amphitheater at Mérida (Emerita Augusta)","amphitheater",15000,"http://en.wikipedia.org/wiki/Mérida_amphitheatre","https://www.youtube.com/watch?v=g4gNhPD2dV4",126,102,64,41,38.916168,-6.337952,231
-"newsteadAmphitheater","Amphitheater at Newstead (Trimontium)","amphitheater",2000,,,,,,,55.6026,-2.6919,83
+"newsteadAmphitheater","Amphitheater at Newstead (Trimontium)","amphitheater",2000,,,70,60,37,23,55.6026,-2.6919,83
 "conimbrigaAmphitheater","Amphitheater at Conimbriga","amphitheater",4000,,,,,,,40.099444,-8.49333,100
-"cumaeAmphitheater","Amphitheater at Cumae","amphitheater",,,,,,,,40.841847,14.056,19
+"cumaeAmphitheater","Amphitheater at Cumae","amphitheater",,,,114,84,,,40.841847,14.056,19
 "pozzuoliFlavianAmphitheater","Flavian Amphitheater at Pozzuoli","amphitheater",35700,"http://en.wikipedia.org/wiki/Flavian_Amphitheater_(Pozzuoli)","https://www.youtube.com/watch?v=VCCD-YeNQKk",149,116,74.8,42,40.825929,14.125315,41
 "pozzuoliEarlyAmphitheater","Early Amphitheater at Pozzuoli","amphitheater",,,,,,,,40.826239,14.127615,58
-"syracuseAmphitheater","Amphitheater at Syracuse","amphitheater",,"http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Siracusa","https://www.youtube.com/watch?v=aUcjHzMZCeY",,,,,37.074132,15.278934,23
-"carthageAmphitheater","Amphitheater at Carthage","amphitheater",30000,"http://en.wikipedia.org/wiki/Carthage_amphitheatre","https://www.youtube.com/watch?v=oDiCqZCu06I",,,,,36.856078,10.314924,14
+"syracuseAmphitheater","Amphitheater at Syracuse","amphitheater",,"http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Siracusa","https://www.youtube.com/watch?v=aUcjHzMZCeY",141,118,69,39,37.074132,15.278934,23
+"carthageAmphitheater","Amphitheater at Carthage","amphitheater",30000,"http://en.wikipedia.org/wiki/Carthage_amphitheatre","https://www.youtube.com/watch?v=oDiCqZCu06I",,,79,50,36.856078,10.314924,14
 "hadrianVillaAmphitheater","Amphitheater at Hadrian's Villa at Tivoli","amphitheater",,,,,,,,41.941708,12.778929,99
 "corinthAmphitheater","Amphitheater at Corinth","amphitheater",14000,,,,,,,37.909629,22.892126,98
 "marcianopolisAmphitheater","Amphitheater at Marcianopolis (Devnya)","amphitheater",4000,,,,,,,43.218689,27.556674,120
@@ -39,7 +39,7 @@ id,title,type,capacity,wikipedia,youtube,extmajor,extminor,arenamajor,arenaminor
 "lutetiaAmphitheater","Amphitheater at Lutetia","amphitheater",,,"https://www.youtube.com/watch?v=DStHFfxd_qo",,,,,48.845097,2.352855,46
 "octodurusForumClaudiiVallensiumAmphitheater","Amphitheater at Octodurus/Forum Claudii Vallensium","amphitheater",,,,,,,,46.094356,7.073493,480
 "cyreneAmphitheater","Amphitheater at Cyrene","amphitheater",,,,,,,,32.824526,21.850808,550
-"libarnaAmphitheater","Amphitheater at Libarna","amphitheater",,,,,,65,38,44.706013,8.867967,225
+"libarnaAmphitheater","Amphitheater at Libarna","amphitheater",,,,88,61,65,38,44.706013,8.867967,225
 "luceriaNoukeriaAmphitheatre","Amphitheater at Luceria/Noukeria (Apoulon)","amphitheater",,,,,,,,41.508249,15.344984,196
 "avellaAmphitheater","Amphitheater at Abella","amphitheater",,,,,,,,40.961526,14.608415,224
 "nimesAmphitheater","Amphitheater at Nimes","amphitheater",24000,,"https://www.youtube.com/watch?v=c384XQlnINo",,,,,43.834876,4.359599,50
