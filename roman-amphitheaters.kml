@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
-<Document><Folder><name>OGRGeoJSON</name>
+<Document id="root_doc">
+<Schema name="OGRGeoJSON" id="OGRGeoJSON">
+	<SimpleField name="title" type="string"></SimpleField>
+	<SimpleField name="amphi-theatrum" type="string"></SimpleField>
+	<SimpleField name="buildingtype" type="string"></SimpleField>
+	<SimpleField name="capacity" type="int"></SimpleField>
+	<SimpleField name="chronogroup" type="string"></SimpleField>
+	<SimpleField name="comment" type="string"></SimpleField>
+	<SimpleField name="created" type="int"></SimpleField>
+	<SimpleArrayField name="dedication" type="string"></SimpleArrayField>
+	<SimpleField name="dimensions" type="string"></SimpleField>
+	<SimpleField name="emperor" type="string"></SimpleField>
+	<SimpleField name="hypogeum" type="int"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="moderncountry" type="string"></SimpleField>
+	<SimpleField name="see" type="string"></SimpleField>
+	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleArrayField name="youtube" type="string"></SimpleArrayField>
+	<SimpleField name="golvinID" type="string"></SimpleField>
+	<SimpleField name="last-use" type="int"></SimpleField>
+	<SimpleField name="welch-id" type="string"></SimpleField>
+	<SimpleField name="bibliography" type="string"></SimpleField>
+	<SimpleField name="period" type="string"></SimpleField>
+	<SimpleField name="private" type="int"></SimpleField>
+	<SimpleField name="source" type="string"></SimpleField>
+	<SimpleField name="latintoponym" type="string"></SimpleField>
+	<SimpleField name="creation" type="int"></SimpleField>
+	<SimpleField name="latinName" type="string"></SimpleField>
+	<SimpleField name="latintoponyn" type="string"></SimpleField>
+	<SimpleField name="latingtoponym" type="string"></SimpleField>
+	<SimpleField name="wikimapia" type="string"></SimpleField>
+	<SimpleField name="visibility" type="string"></SimpleField>
+	<SimpleField name="capactiy" type="int"></SimpleField>
+	<SimpleField name="golvin-id" type="string"></SimpleField>
+	<SimpleField name="webpage" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="primarymaterial" type="string"></SimpleField>
+	<SimpleField name="certainty" type="string"></SimpleField>
+	<SimpleField name="certainty-qualifier" type="string"></SimpleField>
+</Schema>
+<Folder><name>OGRGeoJSON</name>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Dura Europos</SimpleData>
@@ -11,7 +51,9 @@
 		<SimpleData name="comment">Capacity and date drawn from N. Pollard's “Soldiers, Cities, and Civilians in Roman Syria”, p. 52</SimpleData>
 		<SimpleData name="created">216</SimpleData>
 		<SimpleData name="dedication">(1:http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD023604)</SimpleData>
+		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 31, &quot;arena-minor&quot;: 25 }</SimpleData>
 		<SimpleData name="emperor">Septimius Severus</SimpleData>
+		<SimpleData name="hypogeum">0</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/893989#this</SimpleData>
 		<SimpleData name="moderncountry">Syria</SimpleData>
 	</SchemaData></ExtendedData>
@@ -25,6 +67,8 @@
 		<SimpleData name="capacity">20000</SimpleData>
 		<SimpleData name="chronogroup">Flavian</SimpleData>
 		<SimpleData name="created">90</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 136, &quot;exterior-minor&quot;: 107, &quot;arena-major&quot;: 47, &quot;arena-minor&quot;: 32 }</SimpleData>
+		<SimpleData name="hypogeum">1</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/148217#this</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="see">http://pleiades.stoa.org/places/148217/location-of-roman-amphitheater</SimpleData>
@@ -42,20 +86,18 @@
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="comment">The capacity refers to number of seats after the early 2nd AD century expansion. In AD 19 the capacity was under 2000.</SimpleData>
 		<SimpleData name="created">19</SimpleData>
+		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 67.600000, &quot;arena-minor&quot;: 42 }</SimpleData>
 		<SimpleData name="emperor">Tiberius</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/167717#this</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls</SimpleData>
-		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 67.6, &quot;arena-minor&quot;: 42 }</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>4.830556,45.770556,206</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Ludus Magnus Arena</SimpleData>
-		<SimpleData name="buildingtype">practiceArena</SimpleData>
-		<SimpleData name="capacity">500</SimpleData>
-		<SimpleData name="comment">Capacity is a guess.</SimpleData>
+		<SimpleData name="buildingtype">practice-arena</SimpleData>
 		<SimpleData name="created">81</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/423025#this</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
@@ -65,11 +107,12 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="title">Flavian Amphitheater (Rome)</SimpleData>
+		<SimpleData name="title">Flavian Amphitheater at Rome</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">50000</SimpleData>
 		<SimpleData name="chronogroup">Flavian</SimpleData>
 		<SimpleData name="created">80</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 189, &quot;exterior-minor&quot;: 156, &quot;arena-major&quot;: 83, &quot;arena-minor&quot;: 48 }</SimpleData>
 		<SimpleData name="emperor">Vespasian</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/423025#this</SimpleData>
 		<SimpleData name="see">http://pleiades.stoa.org/places/285857974/centerpoint-of-amphitheatrum-flavium</SimpleData>
@@ -86,6 +129,7 @@
 		<SimpleData name="chronogroup">Severan</SimpleData>
 		<SimpleData name="comment">Brick construction.</SimpleData>
 		<SimpleData name="created">218</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 88, &quot;exterior-minor&quot;: 75.800000 }</SimpleData>
 		<SimpleData name="emperor">Caracalla</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/423025#this</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
@@ -101,6 +145,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">3500</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 71, &quot;exterior-minor&quot;: 56, &quot;arena-major&quot;: 47, &quot;arena-minor&quot;: 38 }</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/687854#this</SimpleData>
 		<SimpleData name="moderncountry">Israel</SimpleData>
 		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=bA6YNf8ZwlI)</SimpleData>
@@ -114,12 +159,13 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">22000</SimpleData>
 		<SimpleData name="chronogroup">republican</SimpleData>
-		<SimpleData name="created">-70</SimpleData>
+		<SimpleData name="created">-80</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 135, &quot;exterior-minor&quot;: 104, &quot;arena-major&quot;: 66, &quot;arena-minor&quot;: 35 }</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/433032#this</SimpleData>
-		<SimpleData name="see">http://pleiades.stoa.org/places/433032/amphitheater-of-pompeii</SimpleData>
+		<SimpleData name="see">[ &quot;https:\/\/3dwarehouse.sketchup.com\/model.html?redirect=1&amp;mid=6971b010096197d8dfd89dd71a555b12&quot;, &quot;http:\/\/pleiades.stoa.org\/places\/433032\/amphitheater-of-pompeii&quot; ]</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Amphitheatre_of_Pompeii</SimpleData>
 		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=bqf4bJyo3rU)</SimpleData>
-		<SimpleData name="last use">79</SimpleData>
+		<SimpleData name="last-use">79</SimpleData>
 		<SimpleData name="welch-id">1</SimpleData>
 		<SimpleData name="bibliography">[ { &quot;dc:bibliographicCitation&quot;: &quot;P. Zanker, &lt;i&gt;Pompeii: Public and private life&lt;\/i&gt; (Cambridge, MA, 1998) 68-72.&quot;, &quot;worldcat&quot;: &quot;http:\/\/www.worldcat.org\/oclc\/39143166&quot; }, { &quot;dc:bibliographicCitation&quot;: &quot;K. Welch, &lt;i&gt;The Roman Amphitheater from its Origins to the Colosseum&lt;\/i&gt; (Cambridge, MA, 2007) 192-198.&quot;, &quot;worldcat&quot;: &quot;http:\/\/www.worldcat.org\/oclc\/39143166&quot; } ]</SimpleData>
 	</SchemaData></ExtendedData>
@@ -132,7 +178,9 @@
 		<SimpleData name="capacity">15000</SimpleData>
 		<SimpleData name="chronogroup">Julio-Claudian</SimpleData>
 		<SimpleData name="created">-8</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 126, &quot;exterior-minor&quot;: 102, &quot;arena-major&quot;: 64, &quot;arena-minor&quot;: 41 }</SimpleData>
 		<SimpleData name="emperor">Augustus</SimpleData>
+		<SimpleData name="hypogeum">1</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/256155#this</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Mérida_amphitheatre</SimpleData>
 		<SimpleData name="youtube">(2:https://www.youtube.com/watch?v=g4gNhPD2dV4,...)</SimpleData>
@@ -142,11 +190,13 @@
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Newstead (Trimontium)</SimpleData>
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1899.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">2000</SimpleData>
 		<SimpleData name="chronogroup">Flavian</SimpleData>
 		<SimpleData name="comment">Date based on main period of military activity at the site.</SimpleData>
 		<SimpleData name="created">80</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 70, &quot;exterior-minor&quot;: 60, &quot;arena-major&quot;: 37, &quot;arena-minor&quot;: 23, &quot;source&quot;: &quot;http:\/\/amphi-theatrum.de\/1899.html&quot; }</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/89304#this</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-2.6919,55.6026,83</coordinates></Point>
@@ -168,6 +218,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">republican</SimpleData>
 		<SimpleData name="created">-100</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 114, &quot;exterior-minor&quot;: 84 }</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/432808#this</SimpleData>
 		<SimpleData name="see">http://pleiades.stoa.org/places/432808/location-of-roman-amphitheater</SimpleData>
 		<SimpleData name="welch-id">4</SimpleData>
@@ -178,9 +229,10 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Flavian Amphitheater at Pozzuoli</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="capacity">20000</SimpleData>
+		<SimpleData name="capacity">35700</SimpleData>
 		<SimpleData name="chronogroup">Flavian</SimpleData>
 		<SimpleData name="created">70</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 149, &quot;exterior-minor&quot;: 116, &quot;arena-major&quot;: 74.800000, &quot;arena-minor&quot;: 42, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/432815#this</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Flavian_Amphitheater_(Pozzuoli)</SimpleData>
 		<SimpleData name="youtube">(3:https://www.youtube.com/watch?v=VCCD-YeNQKk,...)</SimpleData>
@@ -201,8 +253,10 @@
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Syracuse</SimpleData>
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1514.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Julio-Claudian</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 141, &quot;exterior-minor&quot;: 118, &quot;arena-major&quot;: 69, &quot;arena-minor&quot;: 39, &quot;source&quot;: &quot;http:\/\/amphi-theatrum.de\/1514.html&quot; }</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/462503#this</SimpleData>
 		<SimpleData name="wikipedia">http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Siracusa</SimpleData>
 		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=aUcjHzMZCeY)</SimpleData>
@@ -216,7 +270,9 @@
 		<SimpleData name="capacity">30000</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="created">100</SimpleData>
+		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 79, &quot;arena-minor&quot;: 50 }</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/314921#this</SimpleData>
+		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Carthage_amphitheatre</SimpleData>
 		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=oDiCqZCu06I)</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>10.314924,36.856078,14</coordinates></Point>
@@ -228,17 +284,21 @@
 		<SimpleData name="chronogroup">Hadrianic</SimpleData>
 		<SimpleData name="created">120</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/423127#this</SimpleData>
+		<SimpleData name="private">1</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>12.778929,41.941708,99</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Corinth</SimpleData>
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1361.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">14000</SimpleData>
 		<SimpleData name="chronogroup">Julius Caesar</SimpleData>
 		<SimpleData name="created">-44</SimpleData>
+		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 73, &quot;arena-minor&quot;: 44 }</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/570182#this</SimpleData>
+		<SimpleData name="moderncountry">Greece</SimpleData>
 		<SimpleData name="see">http://corinth.sas.upenn.edu/gisamphitheater.html</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>22.892126,37.909629,98</coordinates></Point>
@@ -246,22 +306,27 @@
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Marcianopolis (Devnya)</SimpleData>
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1534.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">4000</SimpleData>
 		<SimpleData name="chronogroup">Severan</SimpleData>
 		<SimpleData name="created">200</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/216878#this</SimpleData>
+		<SimpleData name="moderncountry">Bulgaria</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>27.556674,43.218689,120</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Porolissum</SimpleData>
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1443.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="comment">There was a wooden predecessor.</SimpleData>
 		<SimpleData name="created">157</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 84, &quot;exterior-minor&quot;: 75, &quot;arena-major&quot;: 64, &quot;arena-minor&quot;: 52 }</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/207361#this</SimpleData>
+		<SimpleData name="moderncountry">Romania</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>23.154052,47.177552,441</coordinates></Point>
   </Placemark>
@@ -277,23 +342,37 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="title">Large amphitheater at Carnuntum</SimpleData>
+		<SimpleData name="title">Military Amphitheater at Carnuntum</SimpleData>
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1430.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="capacity">15000</SimpleData>
-		<SimpleData name="chronogroup">Second Century</SimpleData>
-		<SimpleData name="created">150</SimpleData>
+		<SimpleData name="capacity">8000</SimpleData>
+		<SimpleData name="chronogroup">First Century</SimpleData>
+		<SimpleData name="created">80</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 99.500000, &quot;exterior-minor&quot;: 81.500000, &quot;arena-major&quot;: 71, &quot;arena-minor&quot;: 43 }</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/128376#this</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>16.892619,48.126824,164</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="title">Amphitheater at Carnuntum</SimpleData>
+		<SimpleData name="title">Ludus at Carnuntum</SimpleData>
+		<SimpleData name="buildingtype">practice-arena</SimpleData>
+		<SimpleData name="see">https://www.academia.edu/3791251/The_discovery_of_a_gladiatorial_school_at_Carnuntum</SimpleData>
+		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=aJFH3TCVzTk)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>16.848689,48.109807,185</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Civilian Amphitheater at Carnuntum</SimpleData>
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1430.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="capacity">12000</SimpleData>
+		<SimpleData name="capacity">13000</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="created">100</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 129, &quot;exterior-minor&quot;: 113, &quot;arena-major&quot;: 66, &quot;arena-minor&quot;: 50 }</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/128376#this</SimpleData>
+		<SimpleData name="see">https://www.academia.edu/3791286/The_amphitheatre_of_Carnuntum_Towards_a_complete_3D_model_using_airborne_Structure_from_Motion_and_dense_image_matching</SimpleData>
 		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=Z5TcbJdyEns)</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>16.850943,48.110019,185</coordinates></Point>
@@ -305,6 +384,7 @@
 		<SimpleData name="capacity">16000</SimpleData>
 		<SimpleData name="chronogroup">Neronian</SimpleData>
 		<SimpleData name="created">56</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 94, &quot;exterior-minor&quot;: 88, &quot;arena-major&quot;: 56, &quot;arena-minor&quot;: 46.500000 }</SimpleData>
 		<SimpleData name="emperor">Nero</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/344448#this</SimpleData>
 	</SchemaData></ExtendedData>
@@ -317,6 +397,7 @@
 		<SimpleData name="capacity">3300</SimpleData>
 		<SimpleData name="chronogroup">First Century</SimpleData>
 		<SimpleData name="created">50</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 86, &quot;exterior-minor&quot;: 54, &quot;arena-major&quot;: 71, &quot;arena-minor&quot;: 42 }</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/246382#this</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>3.117431,42.130042,27</coordinates></Point>
@@ -328,6 +409,7 @@
 		<SimpleData name="capacity">15000</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="created">100</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 95, &quot;exterior-minor&quot;: 69.500000, &quot;arena-major&quot;: 62, &quot;arena-minor&quot;: 39 }</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/246349#this</SimpleData>
 		<SimpleData name="youtube">(2:https://www.youtube.com/watch?v=Z-1Qrk5qLAE,...)</SimpleData>
 	</SchemaData></ExtendedData>
@@ -352,6 +434,7 @@
 		<SimpleData name="capacity">25000</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="created">140</SimpleData>
+		<SimpleData name="hypogeum">1</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/256231#this</SimpleData>
 		<SimpleData name="see">http://pleiades.stoa.org/places/256231/roman-amphitheater-of-italica</SimpleData>
 	</SchemaData></ExtendedData>
@@ -460,6 +543,8 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Libarna</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 88, &quot;exterior-minor&quot;: 61, &quot;arena-major&quot;: 65, &quot;arena-minor&quot;: 38 }</SimpleData>
+		<SimpleData name="hypogeum">1</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/383694#this</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/383694/location-of-roman-amphitheater</SimpleData>
 	</SchemaData></ExtendedData>
@@ -507,9 +592,10 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="title">Amphitheater at Deva</SimpleData>
+		<SimpleData name="title">Amphitheater at Chester</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/79420#this</SimpleData>
+		<SimpleData name="latintoponym">Deva Victrix</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-2.886928,53.189079,23</coordinates></Point>
   </Placemark>
@@ -524,7 +610,7 @@
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Scythopolis/Nysa</SimpleData>
-		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="buildingtype">amphitheater-in-hippodrome</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/678378#this</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>35.501631,32.498395,-121</coordinates></Point>
@@ -630,6 +716,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Larinum</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 98, &quot;exterior-minor&quot;: 86, &quot;arena-major&quot;: 57, &quot;arena-minor&quot;: 40 }</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/442629#this</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/442629/location-of-roman-amphitheater</SimpleData>
 	</SchemaData></ExtendedData>
@@ -696,6 +783,7 @@
 		<SimpleData name="capacity">30000</SimpleData>
 		<SimpleData name="chronogroup">Julio-Claudian</SimpleData>
 		<SimpleData name="created">30</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 152.430000, &quot;exterior-minor&quot;: 123.420000, &quot;arena-major&quot;: 75.680000, &quot;arena-minor&quot;: 44.430000, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/383816#this</SimpleData>
 		<SimpleData name="wikipedia">https://en.wikipedia.org/wiki/Verona_Arena</SimpleData>
 		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=CJoS5abKuYc)</SimpleData>
@@ -737,6 +825,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Vesunna</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 131, &quot;exterior-minor&quot;: 113 }</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/138650#this</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/138650/location-of-roman-amphitheater</SimpleData>
 	</SchemaData></ExtendedData>
@@ -760,16 +849,6 @@
 		<SimpleData name="latintoponym">Grumentum</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>15.9115794,40.2876404,579</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="title">Amphitheater at Corduba</SimpleData>
-		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="location">http://pleiades.stoa.org/places/256128#this</SimpleData>
-		<SimpleData name="latingtoponym">Colonia Patricia</SimpleData>
-		<SimpleData name="wikimapia">http://wikimapia.org/1560328/Roman-amphitheater</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-4.788888,37.884183,125</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
@@ -1039,7 +1118,10 @@
 		<SimpleData name="capacity">26000</SimpleData>
 		<SimpleData name="chronogroup">Julio-Claudian</SimpleData>
 		<SimpleData name="created">1</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 132.450000, &quot;exterior-minor&quot;: 105.100000, &quot;arena-major&quot;: 67.950000, &quot;arena-minor&quot;: 41.650000, &quot;height&quot;: 32.450000 }</SimpleData>
+		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Pula_Arena</SimpleData>
 		<SimpleData name="youtube">(3:https://www.youtube.com/watch?v=hqTud5XxI_s,...)</SimpleData>
+		<SimpleData name="latintoponym">Colonia Pietas Iulia Pola Pollentia Herculanea</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>13.850243,44.873229,16</coordinates></Point>
   </Placemark>
@@ -1219,6 +1301,7 @@
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Castra Albana</SimpleData>
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1567.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">20000</SimpleData>
 		<SimpleData name="chronogroup">Severan</SimpleData>
@@ -1245,6 +1328,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Ptolemais</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 40, &quot;arena-minor&quot;: 25 }</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>20.945728,32.707953,12</coordinates></Point>
   </Placemark>
@@ -1260,6 +1344,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Caparra</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 30, &quot;arena-minor&quot;: 19 }</SimpleData>
 		<SimpleData name="latintoponym">Municipium Flavium Caparense</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-6.100049,40.164159,405</coordinates></Point>
@@ -1270,6 +1355,9 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">First Century</SimpleData>
 		<SimpleData name="comment">Discovered in 2003.</SimpleData>
+		<SimpleData name="location">http://pleiades.stoa.org/places/256128#this</SimpleData>
+		<SimpleData name="latingtoponym">Colonia Patricia</SimpleData>
+		<SimpleData name="wikimapia">http://wikimapia.org/1560328/Roman-amphitheater</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-4.788888,37.884183,125</coordinates></Point>
   </Placemark>
@@ -1306,6 +1394,7 @@
 		<SimpleData name="title">Amphitheater at Poitiers</SimpleData>
 		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1381.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 108, &quot;exterior-minor&quot;: 88 }</SimpleData>
 		<SimpleData name="latintoponym">Limonum Pictonum</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>0.339589,46.57815,119</coordinates></Point>
@@ -1420,6 +1509,7 @@
 		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1396.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Julio-Claudian</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 111, &quot;exterior-minor&quot;: 97, &quot;arena-major&quot;: 67, &quot;arena-minor&quot;: 53 }</SimpleData>
 		<SimpleData name="latintoponym">Ancona</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>13.511791,43.624604,54</coordinates></Point>
@@ -1450,7 +1540,6 @@
 		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1462.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">republican</SimpleData>
-		<SimpleData name="dimensions">{ &quot;structure_major&quot;: 110, &quot;structure_minor&quot;: 72, &quot;arena_major&quot;: 87.2 }</SimpleData>
 		<SimpleData name="latintoponym">Cales</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>14.137993,41.202429,89</coordinates></Point>
@@ -1489,7 +1578,7 @@
 		<SimpleData name="title">Amphitheater at Narbonne</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Flavian</SimpleData>
-		<SimpleData name="dimensions">{ &quot;arena-maximum&quot;: 75, &quot;arena-minimum&quot;: 46.6, &quot;outer-maximum&quot;: 121.6, &quot;outer-minimum&quot;: 93.2 }</SimpleData>
+		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 75, &quot;arena-minor&quot;: 46.600000, &quot;exterior-major&quot;: 121.600000, &quot;exterior-minor&quot;: 93.200000 }</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>3.010181,43.184873,14</coordinates></Point>
@@ -1582,7 +1671,10 @@
 		<SimpleData name="title">Imperial Amphitheater at Capua</SimpleData>
 		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/2082.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="capacity">47000</SimpleData>
 		<SimpleData name="chronogroup">Flavian</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 165, &quot;exterior-minor&quot;: 135, &quot;arena-major&quot;: 76.120000, &quot;arena-minor&quot;: 45.830000, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="hypogeum">1</SimpleData>
 		<SimpleData name="youtube">(2:https://www.youtube.com/watch?v=8q86tToFDwI,...)</SimpleData>
 		<SimpleData name="latintoponym">Capua</SimpleData>
 		<SimpleData name="visibility">partial</SimpleData>
@@ -1628,7 +1720,7 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="title">Amphitheater at Dorchester</SimpleData>
+		<SimpleData name="title">Amphitheater at Dorchester / Maumbury Henge</SimpleData>
 		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1491.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Second century</SimpleData>
@@ -1679,6 +1771,7 @@
 		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1450.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">10000</SimpleData>
+		<SimpleData name="see">https://3dwarehouse.sketchup.com/model.html?id=16596dabb2ebd0469b2513a62f433bae</SimpleData>
 		<SimpleData name="latintoponym">Colonia Ulpia Traiana</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1843,43 +1936,32 @@
 	</SchemaData></ExtendedData>
       <Point><coordinates>1.518328,46.601549,150</coordinates></Point>
   </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Metz</SimpleData>
+		<SimpleData name="amphi-theatrum">http://amphi-theatrum.de/1395.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="capacity">30000</SimpleData>
+		<SimpleData name="chronogroup">Late1stEarly2nd</SimpleData>
+		<SimpleData name="moderncountry">France</SimpleData>
+		<SimpleData name="see">http://www.inrap.fr/preventive-archaeology/Events/Last-discoveries/p-1355-lg1-Excavation-of-the-amphitheatre-quarter-in-Metz.htm</SimpleData>
+		<SimpleData name="last-use">300</SimpleData>
+		<SimpleData name="visibility">none</SimpleData>
+		<SimpleData name="certainty">uncertain</SimpleData>
+		<SimpleData name="certainty-qualifier">location</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>6.181932,49.107645,171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Half Amphitheater at Grand</SimpleData>
+		<SimpleData name="buildingtype">half-amphitheater</SimpleData>
+		<SimpleData name="capacity">17000</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 179, &quot;arena-major&quot;: 50, &quot;arena-minor&quot;: 41 }</SimpleData>
+		<SimpleData name="moderncountry">France</SimpleData>
+		<SimpleData name="visibility">good</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>5.49096,48.385217,371</coordinates></Point>
+  </Placemark>
 </Folder>
-<Schema name="OGRGeoJSON" id="OGRGeoJSON">
-	<SimpleField name="title" type="string"></SimpleField>
-	<SimpleField name="amphi-theatrum" type="string"></SimpleField>
-	<SimpleField name="buildingtype" type="string"></SimpleField>
-	<SimpleField name="capacity" type="int"></SimpleField>
-	<SimpleField name="chronogroup" type="string"></SimpleField>
-	<SimpleField name="comment" type="string"></SimpleField>
-	<SimpleField name="created" type="int"></SimpleField>
-	<SimpleArrayField name="dedication" type="string"></SimpleArrayField>
-	<SimpleField name="emperor" type="string"></SimpleField>
-	<SimpleField name="location" type="string"></SimpleField>
-	<SimpleField name="moderncountry" type="string"></SimpleField>
-	<SimpleField name="see" type="string"></SimpleField>
-	<SimpleField name="wikipedia" type="string"></SimpleField>
-	<SimpleArrayField name="youtube" type="string"></SimpleArrayField>
-	<SimpleField name="dimensions" type="string"></SimpleField>
-	<SimpleField name="golvinID" type="string"></SimpleField>
-	<SimpleField name="last-use" type="int"></SimpleField>
-	<SimpleField name="last use" type="int"></SimpleField>
-	<SimpleField name="welch-id" type="string"></SimpleField>
-	<SimpleField name="bibliography" type="string"></SimpleField>
-	<SimpleField name="period" type="string"></SimpleField>
-	<SimpleField name="source" type="string"></SimpleField>
-	<SimpleField name="latintoponym" type="string"></SimpleField>
-	<SimpleField name="latingtoponym" type="string"></SimpleField>
-	<SimpleField name="wikimapia" type="string"></SimpleField>
-	<SimpleField name="creation" type="int"></SimpleField>
-	<SimpleField name="latinName" type="string"></SimpleField>
-	<SimpleField name="latintoponyn" type="string"></SimpleField>
-	<SimpleField name="visibility" type="string"></SimpleField>
-	<SimpleField name="capactiy" type="int"></SimpleField>
-	<SimpleField name="golvin-id" type="string"></SimpleField>
-	<SimpleField name="webpage" type="string"></SimpleField>
-	<SimpleField name="website" type="string"></SimpleField>
-	<SimpleField name="primarymaterial" type="string"></SimpleField>
-	<SimpleField name="certainty" type="string"></SimpleField>
-	<SimpleField name="certainty-qualifier" type="string"></SimpleField>
-</Schema>
 </Document></kml>

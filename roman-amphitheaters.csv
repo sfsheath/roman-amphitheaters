@@ -22,10 +22,10 @@ id,title,type,capacity,wikipedia,youtube,extmajor,extminor,arenamajor,arenaminor
 "nijmegenAmphitheater","Amphitheater at Nijmegen","amphitheater",,,,,,,,51.838523,5.878859,46
 "carnuntumMilitaryAmphitheater","Military Amphitheater at Carnuntum","amphitheater",8000,,,99.5,81.5,71,43,48.126824,16.892619,164
 "carnuntumLudus","Ludus at Carnuntum","practice-arena",,,"https://www.youtube.com/watch?v=aJFH3TCVzTk",,,,,48.109807,16.848689,185
-"carnuntumCivilianAmphitheater","Civilian Amphitheater at Carnuntum","amphitheater",13000,,"https://www.youtube.com/watch?v=Z5TcbJdyEns",,,,,48.110019,16.850943,185
-"leptisMagnaAmphitheater","Amphitheater at Leptis Magna","amphitheater",16000,,,128,110,69,52,32.63234,14.309452,18
-"empuriesAmphitheater","Amphitheater at Empuries","amphitheater",3300,,,,,,,42.130042,3.117431,27
-"tarragonaAmphitheater","Amphitheater at Tarragona","amphitheater",15000,,"https://www.youtube.com/watch?v=Z-1Qrk5qLAE",,,,,41.114522,1.25878,13
+"carnuntumCivilianAmphitheater","Civilian Amphitheater at Carnuntum","amphitheater",13000,,"https://www.youtube.com/watch?v=Z5TcbJdyEns",129,113,66,50,48.110019,16.850943,185
+"leptisMagnaAmphitheater","Amphitheater at Leptis Magna","amphitheater",16000,,,94,88,56,46.5,32.63234,14.309452,18
+"empuriesAmphitheater","Amphitheater at Empuries","amphitheater",3300,,,86,54,71,42,42.130042,3.117431,27
+"tarragonaAmphitheater","Amphitheater at Tarragona","amphitheater",15000,,"https://www.youtube.com/watch?v=Z-1Qrk5qLAE",95,69.5,62,39,41.114522,1.25878,13
 "cagliariAmphitheater","Amphitheater at Cagliari","amphitheater",10000,"http://en.wikipedia.org/wiki/Roman_Amphitheatre_of_Cagliari",,,,,,39.223908,9.113228,60
 "italicaAmphitheater","Amphitheater at Italica","amphitheater",25000,,,,,,,37.443893,-6.046742,17
 "segobrigaAmphitheater","Amphitheater at Segobriga","amphitheater",7500,,,,,,,39.886018,-2.813944,817

@@ -650,13 +650,13 @@
         "buildingtype": "amphitheater",
         "created":100,
         "capacity":13000,
-        "chronogroup": "Second Century",,
+        "chronogroup": "Second Century",
         "dimensions": {
           "exterior-major": 129,
           "exterior-minor": 113,
           "arena-major": 66,
           "arena-minor": 50 
-         }
+         },
         "location":"http://pleiades.stoa.org/places/128376#this",
         "see": "https://www.academia.edu/3791286/The_amphitheatre_of_Carnuntum_Towards_a_complete_3D_model_using_airborne_Structure_from_Motion_and_dense_image_matching",
         "youtube": ["https://www.youtube.com/watch?v=Z5TcbJdyEns"]
