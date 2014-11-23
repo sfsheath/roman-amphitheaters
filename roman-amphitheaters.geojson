@@ -489,6 +489,7 @@
       "properties":{
         "title":"Amphitheater at Hadrian's Villa at Tivoli",
         "buildingtype": "amphitheater",
+        "private": true,
         "chronogroup": "Hadrianic",
         "created":120,
         "location":"http://pleiades.stoa.org/places/423127#this"
@@ -649,7 +650,13 @@
         "buildingtype": "amphitheater",
         "created":100,
         "capacity":13000,
-        "chronogroup": "Second Century",
+        "chronogroup": "Second Century",,
+        "dimensions": {
+          "exterior-major": 129,
+          "exterior-minor": 113,
+          "arena-major": 66,
+          "arena-minor": 50 
+         }
         "location":"http://pleiades.stoa.org/places/128376#this",
         "see": "https://www.academia.edu/3791286/The_amphitheatre_of_Carnuntum_Towards_a_complete_3D_model_using_airborne_Structure_from_Motion_and_dense_image_matching",
         "youtube": ["https://www.youtube.com/watch?v=Z5TcbJdyEns"]
@@ -673,10 +680,10 @@
         "created":56,
         "dedication": "http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD015590",
         "dimensions": {
-          "exterior-major": 128,
-          "exterior-minor": 110,
-          "arena-major": 69,
-          "arena-minor": 52
+          "exterior-major": 94,
+          "exterior-minor": 88,
+          "arena-major": 56,
+          "arena-minor": 46.5
          },
         "emperor": "Nero",
         "location":"http://pleiades.stoa.org/places/344448#this",
@@ -700,6 +707,12 @@
         "created":50,
         "capacity":3300,
         "chronogroup": "First Century",
+        "dimensions": {
+          "exterior-major": 86,
+          "exterior-minor": 54,
+          "arena-major": 71,
+          "arena-minor": 42
+         },
         "location":"http://pleiades.stoa.org/places/246382#this"
       },
       "geometry":{
@@ -720,6 +733,12 @@
         "created":100,
         "capacity":15000,
         "chronogroup": "Second Century",
+        "dimensions": {
+          "exterior-major": 95,
+          "exterior-minor": 69.5,
+          "arena-major": 62,
+          "arena-minor": 39
+         },
         "location":"http://pleiades.stoa.org/places/246349#this",
         "youtube": ["https://www.youtube.com/watch?v=Z-1Qrk5qLAE",
           "https://www.youtube.com/watch?v=puw8pLl9vJU"]
