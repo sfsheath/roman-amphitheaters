@@ -422,6 +422,8 @@
 		<SimpleData name="capacity">10000</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="created">100</SimpleData>
+		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 50, &quot;arena-minor&quot;: 30 }</SimpleData>
+		<SimpleData name="hypogeum">1</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/471899#this</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Roman_Amphitheatre_of_Cagliari</SimpleData>
 	</SchemaData></ExtendedData>
@@ -434,6 +436,7 @@
 		<SimpleData name="capacity">25000</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="created">140</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 160, &quot;exterior-minor&quot;: 69.500000, &quot;arena-major&quot;: 70, &quot;arena-minor&quot;: 44 }</SimpleData>
 		<SimpleData name="hypogeum">1</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/256231#this</SimpleData>
 		<SimpleData name="see">http://pleiades.stoa.org/places/256231/roman-amphitheater-of-italica</SimpleData>
@@ -447,6 +450,7 @@
 		<SimpleData name="capacity">7500</SimpleData>
 		<SimpleData name="chronogroup">Flavian</SimpleData>
 		<SimpleData name="created">90</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 75, &quot;exterior-minor&quot;: 64, &quot;arena-major&quot;: 47, &quot;arena-minor&quot;: 31 }</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/266036#this</SimpleData>
 		<SimpleData name="see">http://pleiades.stoa.org/places/266036/location-of-roman-amphitheater</SimpleData>
 	</SchemaData></ExtendedData>
@@ -457,6 +461,7 @@
 		<SimpleData name="title">Amphitheater at Katane/Catina</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">16000</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 90, &quot;exterior-minor&quot;: 70, &quot;arena-major&quot;: 52, &quot;arena-minor&quot;: 38, &quot;comment&quot;: &quot;Estimates from portion visible on Google Earth.&quot; }</SimpleData>
 		<SimpleData name="location">http://pleiades.stoa.org/places/462270#this</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>15.085323,37.507096,31</coordinates></Point>

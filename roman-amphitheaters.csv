@@ -26,10 +26,10 @@ id,title,type,capacity,wikipedia,youtube,extmajor,extminor,arenamajor,arenaminor
 "leptisMagnaAmphitheater","Amphitheater at Leptis Magna","amphitheater",16000,,,94,88,56,46.5,32.63234,14.309452,18
 "empuriesAmphitheater","Amphitheater at Empuries","amphitheater",3300,,,86,54,71,42,42.130042,3.117431,27
 "tarragonaAmphitheater","Amphitheater at Tarragona","amphitheater",15000,,"https://www.youtube.com/watch?v=Z-1Qrk5qLAE",95,69.5,62,39,41.114522,1.25878,13
-"cagliariAmphitheater","Amphitheater at Cagliari","amphitheater",10000,"http://en.wikipedia.org/wiki/Roman_Amphitheatre_of_Cagliari",,,,,,39.223908,9.113228,60
-"italicaAmphitheater","Amphitheater at Italica","amphitheater",25000,,,,,,,37.443893,-6.046742,17
-"segobrigaAmphitheater","Amphitheater at Segobriga","amphitheater",7500,,,,,,,39.886018,-2.813944,817
-"kataneCatinaAmphitheater","Amphitheater at Katane/Catina","amphitheater",16000,,,,,,,37.507096,15.085323,31
+"cagliariAmphitheater","Amphitheater at Cagliari","amphitheater",10000,"http://en.wikipedia.org/wiki/Roman_Amphitheatre_of_Cagliari",,,,50,30,39.223908,9.113228,60
+"italicaAmphitheater","Amphitheater at Italica","amphitheater",25000,,,160,69.5,70,44,37.443893,-6.046742,17
+"segobrigaAmphitheater","Amphitheater at Segobriga","amphitheater",7500,,,75,64,47,31,39.886018,-2.813944,817
+"kataneCatinaAmphitheater","Amphitheater at Katane/Catina","amphitheater",16000,,,90,70,52,38,37.507096,15.085323,31
 "paestumAmphitheater","Amphitheater at Paestum","amphitheater",4500,,,,,,,40.422354,15.006449,18
 "lunaAmphitheater","Amphitheater at Luna","amphitheater",,,,,,,,44.062656,10.022386,4
 "casinumAmphitheater","Amphitheater at Casinum","amphitheater",,,,,,,,41.482933,13.823575,73

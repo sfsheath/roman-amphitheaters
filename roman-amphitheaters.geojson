@@ -762,6 +762,11 @@
         "capacity": 10000,
         "chronogroup": "Second Century",
         "created": 100,
+        "dimensions": {
+          "arena-major": 50,
+          "arena-minor": 30
+        },
+        "hypogeum": true, 
         "location": "http://pleiades.stoa.org/places/471899#this",
         "wikipedia": "http://en.wikipedia.org/wiki/Roman_Amphitheatre_of_Cagliari"
       },
@@ -784,6 +789,12 @@
         "chronogroup": "Second Century",
         "created": 140,
         "capacity": 25000,
+        "dimensions": {
+          "exterior-major": 160,
+          "exterior-minor": 69.5,
+          "arena-major": 70,
+          "arena-minor": 44
+         },
         "hypogeum": true,
         "location":"http://pleiades.stoa.org/places/256231#this",
         "see":"http://pleiades.stoa.org/places/256231/roman-amphitheater-of-italica"
@@ -806,6 +817,12 @@
         "created":90,
         "capacity":7500,
         "chronogroup": "Flavian",
+        "dimensions": {
+          "exterior-major": 75,
+          "exterior-minor": 64,
+          "arena-major": 47,
+          "arena-minor": 31
+         },
         "location":"http://pleiades.stoa.org/places/266036#this",
         "see":"http://pleiades.stoa.org/places/266036/location-of-roman-amphitheater"
       },
@@ -824,6 +841,13 @@
       "properties":{
         "title":"Amphitheater at Katane/Catina",
         "buildingtype": "amphitheater",
+        "dimensions": {
+          "exterior-major": 90,
+          "exterior-minor": 70,
+          "arena-major": 52,
+          "arena-minor": 38,
+          "comment": "Estimates from portion visible on Google Earth."
+         },
         "location":"http://pleiades.stoa.org/places/462270#this",
         "capacity":16000
       },
