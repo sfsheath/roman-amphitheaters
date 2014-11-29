@@ -30,8 +30,8 @@ id,title,type,capacity,wikipedia,youtube,extmajor,extminor,arenamajor,arenaminor
 "italicaAmphitheater","Amphitheater at Italica","amphitheater",25000,,,160,69.5,70,44,37.443893,-6.046742,17
 "segobrigaAmphitheater","Amphitheater at Segobriga","amphitheater",7500,,,75,64,47,31,39.886018,-2.813944,817
 "kataneCatinaAmphitheater","Amphitheater at Katane/Catina","amphitheater",16000,,,90,70,52,38,37.507096,15.085323,31
-"paestumAmphitheater","Amphitheater at Paestum","amphitheater",4500,,,,,,,40.422354,15.006449,18
-"lunaAmphitheater","Amphitheater at Luna","amphitheater",,,,,,,,44.062656,10.022386,4
+"paestumAmphitheater","Amphitheater at Paestum","amphitheater",4500,,,79,59,35,56,40.422354,15.006449,18
+"lunaAmphitheater","Amphitheater at Luna","amphitheater",,,,87,71,52,34.5,44.062656,10.022386,4
 "casinumAmphitheater","Amphitheater at Casinum","amphitheater",,,,,,,,41.482933,13.823575,73
 "viminaciumAmphitheater","Amphitheater at Viminacium","amphitheater",,,,,,,,44.737985,21.220083,72
 "flaviaSolvaAmphitheater","Amphitheater at Flavia Solva","amphitheater",,,,,,,,46.7671535,15.5657773,266

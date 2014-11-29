@@ -160,6 +160,7 @@
            },
         "emperor": "Vespasian",
         "location":"http://pleiades.stoa.org/places/423025#this",
+        "moderncountry": "Italy",
         "see":"http://pleiades.stoa.org/places/285857974/centerpoint-of-amphitheatrum-flavium",
         "wikipedia":"http://en.wikipedia.org/wiki/Colosseum",
         "youtube": ["https://www.youtube.com/watch?v=kxwenPo1grc","https://www.youtube.com/watch?v=flXe8h3i5vc"]
@@ -249,6 +250,7 @@
          },
         "last-use":79,
         "location":"http://pleiades.stoa.org/places/433032#this",
+        "moderncountry": "Italy",
         "see":["https://3dwarehouse.sketchup.com/model.html?redirect=1&mid=6971b010096197d8dfd89dd71a555b12","http://pleiades.stoa.org/places/433032/amphitheater-of-pompeii"],
         "welch-id":"1",
         "wikipedia":"http://en.wikipedia.org/wiki/Amphitheatre_of_Pompeii",
@@ -870,6 +872,13 @@
         "chronogroup": "republican",
         "created": -75,
         "capacity": 4500,
+        "dimensions": {
+          "exterior-major": 79,
+          "exterior-minor": 59,
+          "arena-major": 35,
+          "arena-minor": 56,
+          "comment": "Estimates from portion visible on Google Earth."
+         },
         "location":"http://pleiades.stoa.org/places/442733#this",
         "welch-id": "10"
       },
@@ -889,6 +898,12 @@
       "properties":{
         "title":"Amphitheater at Luna",
         "buildingtype": "amphitheater",
+        "dimensions": {
+          "exterior-major": 87,
+          "exterior-minor": 71,
+          "arena-major": 52,
+          "arena-minor": 34.5
+         },
         "location":"http://pleiades.stoa.org/places/403235#this"
       },
       "geometry":{
@@ -1529,6 +1544,7 @@
           "source": "Bomgardner"
          },
         "location":"http://pleiades.stoa.org/places/383816#this",
+        "moderncountry": "Italy",
         "wikipedia":"https://en.wikipedia.org/wiki/Verona_Arena",
         "source":"http://pleiades.stoa.org/places/383816/location-of-amphitheater",
         "youtube": ["https://www.youtube.com/watch?v=CJoS5abKuYc"]
@@ -1671,6 +1687,7 @@
         "chronogroup": "Julio-Claudian",
         "latintoponym": "Alba Fucens",
         "location":"http://pleiades.stoa.org/places/413005#this",
+        "moderncountry": "Italy",
         "source":"http://pleiades.stoa.org/places/413005/amphitheater-of-alba-fucens"
       },
       "geometry":{
@@ -1714,6 +1731,7 @@
         "capacity":8500,
         "chronogroup": "republican",
         "created":-50,
+        "moderncountry": "Italy",
         "welch-id": "15",
         "youtube": ["https://www.youtube.com/watch?v=OgHl5MT95bg"]
       },
@@ -1770,6 +1788,7 @@
         "buildingtype": "amphitheater",
         "latintoponym": "Londinium",
         "location":"http://pleiades.stoa.org/places/79574#this",
+        "moderncountry": "United Kingdom",
         "youtube": ["https://www.youtube.com/watch?v=qvw9xA-hTz8"]
       },
       "geometry":{
@@ -1788,7 +1807,8 @@
       "properties":{
         "title":"Amphitheater at Tibur",
         "buildingtype": "amphitheater",
-        "location":"http://pleiades.stoa.org/places/423081#this"
+        "location":"http://pleiades.stoa.org/places/423081#this",
+        "moderncountry": "Italy"
       },
       "geometry":{
         "type":"Point",
@@ -1832,6 +1852,7 @@
         "capacity": 9000,
         "chronogroup": "republican",
         "location":"http://pleiades.stoa.org/places/433147#this",
+        "moderncountry": "Italy",
         "source":"http://pleiades.stoa.org/places/433147/location-of-roman-amphitheater",
         "welch-id":"9"
       },
@@ -1874,6 +1895,7 @@
         "title":"Amphitheater at Saintes",
         "buildingtype": "amphitheater",
         "location":"http://pleiades.stoa.org/places/138458#this",
+        "moderncountry": "France",
         "youtube": ["https://www.youtube.com/watch?v=2TCI21s-bxM"]
       },
       "geometry":{
@@ -1893,6 +1915,7 @@
         "title":"Amphitheater at Assisi",
         "buildingtype": "amphitheater",
         "latintoponym": "Asisium",
+        "moderncountry": "Italy",
         "location":"http://pleiades.stoa.org/places/413037#this",
         "youtube": ["https://www.youtube.com/watch?v=uLSmRRxtf4M"]
       },
@@ -1916,6 +1939,7 @@
         "chronogroup": "Second Century",
         "buildingtype": "amphitheater",
         "location":"http://pleiades.stoa.org/places/481818#this",
+        "moderncountry": "Albania",
         "wikipedia": "http://en.wikipedia.org/wiki/Durrës_Amphitheatre"
       },
       "geometry":{
@@ -1973,6 +1997,7 @@
         "latintoponym": "Corinium Dobunnorum",
         "buildingtype": "amphitheater",
         "location":"http://pleiades.stoa.org/places/197225#this",
+        "moderncountry": "United Kingdom",
         "youtube": [
             "https://www.youtube.com/watch?v=9RFDium7TYU",
             "https://www.youtube.com/watch?v=8Nfeu_GD8KM",
@@ -2019,6 +2044,7 @@
         "capacity": 9000,
         "chronogroup": "Second Century",
         "location":"http://pleiades.stoa.org/places/324835#this",
+        "moderncountry": "Tunisia",
         "youtube":["https://www.youtube.com/watch?v=bDDyEMg34Os",
                    "https://www.youtube.com/watch?v=HGjt7TVcbAY"]
       },
