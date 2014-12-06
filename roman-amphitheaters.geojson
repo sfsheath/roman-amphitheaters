@@ -250,8 +250,8 @@
           "arena-minor": 35 
          },
         "last-use":79,
-        "pleiades": "http://pleiades.stoa.org/places/433032",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/433032",
         "see":["https://3dwarehouse.sketchup.com/model.html?redirect=1&mid=6971b010096197d8dfd89dd71a555b12","http://pleiades.stoa.org/places/433032/amphitheater-of-pompeii"],
         "welch-id":"1",
         "wikipedia":"http://en.wikipedia.org/wiki/Amphitheatre_of_Pompeii",
@@ -395,10 +395,11 @@
           "arena-minor": 42,
           "source": "Bomgardner"
          },
-        "period": "Vespasian",
         "chronogroup": "Flavian",
-        "wikipedia":"http://en.wikipedia.org/wiki/Flavian_Amphitheater_(Pozzuoli)",
+        "moderncountry": "Italy",
+        "period": "Vespasian",
         "pleiades": "http://pleiades.stoa.org/places/432815",
+        "wikipedia":"http://en.wikipedia.org/wiki/Flavian_Amphitheater_(Pozzuoli)",
         "youtube": ["https://www.youtube.com/watch?v=VCCD-YeNQKk",
            "https://www.youtube.com/watch?v=lRV_NbfLgro",
            "https://www.youtube.com/watch?v=S4yHdPOzxck"
@@ -421,6 +422,7 @@
         "buildingtype": "amphitheater",
         "chronogroup":"republican",
         "created":-100,
+        "moderncounty": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/432815"
       },
       "geometry":{
@@ -447,6 +449,7 @@
           "arena-minor": 39,
            "source": "http://amphi-theatrum.de/1514.html"
           },
+        "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/462503",
         "wikipedia": "http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Siracusa",
         "youtube": ["https://www.youtube.com/watch?v=aUcjHzMZCeY"]
@@ -473,6 +476,7 @@
           "arena-major": 79,
           "arena-minor": 50
         },
+        "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/314921",
         "wikipedia": "http://en.wikipedia.org/wiki/Carthage_amphitheatre",
         "youtube": ["https://www.youtube.com/watch?v=oDiCqZCu06I"]
@@ -495,6 +499,7 @@
         "private": true,
         "chronogroup": "Hadrianic",
         "created":120,
+        "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/423127"
       },
       "geometry":{
@@ -930,6 +935,7 @@
       "properties":{
         "title":"Amphitheater at Casinum",
         "buildingtype": "amphitheater",
+        "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/432764"
       },
       "geometry":{
@@ -1088,6 +1094,7 @@
       "properties":{
         "title":"Amphitheater at Luceria/Noukeria (Apoulon)",
         "buildingtype": "amphitheater",
+        "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/442640"
       },
       "geometry":{
@@ -1109,6 +1116,7 @@
         "buildingtype": "amphitheater",
         "chronogroup": "republican",
         "latintoponym": "Abella",
+        "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/432617"
       },
       "geometry":{
@@ -1222,6 +1230,7 @@
       "properties":{
         "title":"Amphitheater at Scylletium/Scolacium",
         "buildingtype": "amphitheater",
+        "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/452439",
         "source":"http://pleiades.stoa.org/places/452439/location-of-roman-amphitheater"
       },
@@ -1265,6 +1274,7 @@
         "created":120,
         "capacity": 16000,
         "chronogroup": "Second Century",
+        "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/315247"
       },
       "geometry":{
@@ -1319,6 +1329,7 @@
       "properties":{
         "title":"Amphitheater at Carsulae",
         "buildingtype": "amphitheater",
+        "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/413065",
         "source":"http://pleiades.stoa.org/places/413065/location-of-roman-amphitheater"
       },
@@ -1357,6 +1368,7 @@
       "properties":{
         "title":"Amphitheater at Ocriculum",
         "buildingtype": "amphitheater",
+        "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/413231",
         "source":"http://pleiades.stoa.org/places/413231/location-of-roman-amphitheater"
       },
@@ -1422,6 +1434,7 @@
           "arena-major": 57,
           "arena-minor": 40 
          },
+        "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/442629",
         "source":"http://pleiades.stoa.org/places/442629/location-of-roman-amphitheater"
       },
@@ -1440,6 +1453,7 @@
       "properties":{
         "title":"Amphitheater at Lucus Feroniae",
         "buildingtype": "amphitheater",
+        "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/413184",
         "source":"http://pleiades.stoa.org/places/413184/location-of-lucus-feroniae-amphitheater"
       },
@@ -1459,6 +1473,7 @@
         "title":"Amphitheater at Allifae",
         "amphi-theatrum": "http://amphi-theatrum.de/2038.html",
         "buildingtype": "amphitheater",
+        "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/432658"
       },
       "geometry":{
@@ -2005,6 +2020,7 @@
       "properties":{
         "title":"Amphitheater at Mactaris",
         "buildingtype": "amphitheater",
+        "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/324774"
       },
       "geometry":{
@@ -2072,8 +2088,8 @@
         "created": 125,
         "capacity": 9000,
         "chronogroup": "Second Century",
-        "pleiades": "http://pleiades.stoa.org/places/324835",
         "moderncountry": "Tunisia",
+        "pleiades": "http://pleiades.stoa.org/places/324835",
         "youtube":["https://www.youtube.com/watch?v=bDDyEMg34Os",
                    "https://www.youtube.com/watch?v=HGjt7TVcbAY"]
       },
@@ -2097,6 +2113,7 @@
         "created": 238,
         "capacity": 35000,
         "chronogroup": "Post-Severan",
+        "moderncountry": "Tunisia",
         "period": "Gordion III",
         "youtube": ["https://www.youtube.com/watch?v=bDDyEMg34Os"]
       },
@@ -2155,6 +2172,7 @@
       "properties":{
         "title":"Amphitheater at Leptiminus",
         "buildingtype": "amphitheater",
+        "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/324767"
       },
       "geometry":{
@@ -2485,7 +2503,8 @@
         "buildingtype": "amphitheater",
         "created" : 160,
         "capacity" : 6600,
-        "chronogroup": "Second Century"
+        "chronogroup": "Second Century",
+        "moderncountry": "Tunisia"
       },
       "geometry":{
         "type":"Point",
@@ -2580,6 +2599,7 @@
         "created": 220,
         "buildingtype": "amphitheater",
         "comment": "Unfinished? Considered the last North African amphitheater.",
+        "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/324673"
       },
       "geometry":{
@@ -2603,7 +2623,8 @@
         "chronogroup": "Severan",
         "emperor": "Septimius Severus",
         "golvinID": "190",
-        "location": "http://pleiades.stoa.org/places/422885"
+        "location": "http://pleiades.stoa.org/places/422885",
+        "moderncountry": "Italy"
       },
       "geometry":{
         "type":"Point",
@@ -2900,6 +2921,7 @@
         "capacity": 25000,
         "chronogroup": "Imperial",
         "latintoponym": "Lupiae",
+        "moderncountry": "Italy",
         "wikipedia": "http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Lecce"
       },
       "geometry":{
@@ -2920,7 +2942,8 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Flavian",
         "comment": "Location approximate.",
-        "latintoponym": "Thermae Himerae"
+        "latintoponym": "Thermae Himerae",
+        "moderncountry": "Italy"
       },
       "geometry":{
         "type":"Point",
@@ -2939,7 +2962,8 @@
         "amphi-theatrum": "http://amphi-theatrum.de/1601.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
-        "latintoponym": "Marruvium"
+        "latintoponym": "Marruvium",
+        "moderncountry": "Italy"
       },
       "geometry":{
         "type":"Point",
@@ -2958,7 +2982,8 @@
         "amphi-theatrum": "http://amphi-theatrum.de/1504.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
-        "latintoponym": "Trebula Mutuesca"
+        "latintoponym": "Trebula Mutuesca",
+        "moderncountry": "Italy"
       },
       "geometry":{
         "type":"Point",
@@ -3043,7 +3068,8 @@
         "amphi-theatrum": "http://amphi-theatrum.de/1776.html",
         "buildingtype": "amphitheater",
         "chronogroup": "republican",
-        "latintoponym": "Beneventum"
+        "latintoponym": "Beneventum",
+        "moderncountry": "Italy"
       },
       "geometry":{
         "type":"Point",
@@ -3062,7 +3088,8 @@
         "amphi-theatrum": "http://amphi-theatrum.de/1462.html",
         "buildingtype": "amphitheater",
         "chronogroup": "republican",
-        "latintoponym": "Cales"
+        "latintoponym": "Cales",
+        "moderncountry": "Italy"
       },
       "geometry":{
         "type":"Point",
@@ -3082,7 +3109,8 @@
         "buildingtype": "amphitheater",
         "capacity": 20000,
         "chronogroup": "First Century",
-        "latintoponym": "Amiternum"
+        "latintoponym": "Amiternum",
+        "moderncountry": "Italy"
       },
       "geometry":{
         "type":"Point",
@@ -3282,6 +3310,7 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Republican",
         "latintoponym": "Capua",
+        "moderncountry": "Italy",
         "visibility": "partial",
         "welch-id": "2"
       },
@@ -3312,6 +3341,7 @@
          },
         "hypogeum": true,
         "latintoponym": "Capua",
+        "moderncountry": "Italy",
         "visibility": "partial",
         "youtube": ["https://www.youtube.com/watch?v=8q86tToFDwI","https://www.youtube.com/watch?v=93yf8t-lKGI"]
       },
@@ -3328,12 +3358,13 @@
       "type":"Feature",
       "id":"liternoAmphitheater",
       "properties": {
+        "title": "Amphitheater at Literno",
         "amphi-theatrum": "http://amphi-theatrum.de/1862.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Republican",
         "comment": "Location is incorrect. Said to be south of city wall.",
         "latintoponym": "Liternum",
-        "title": "Amphitheater at Literno",
+        "moderncountry": "Italy",
         "visibility": "none",
         "welch-id": "3"
       },
@@ -3350,11 +3381,12 @@
       "type":"Feature",
       "id":"noleAmphitheater",
       "properties": {
+        "title": "Amphitheater at Nole",
         "amphi-theatrum": "http://amphi-theatrum.de/1594.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Republican",
         "latintoponym": "Nola",
-        "title": "Amphitheater at Nole",
+        "moderncountry": "Italy",
         "visibility": "partial",
         "welch-id": "13"
       },
@@ -3565,10 +3597,11 @@
       "type":"Feature",
       "id":"noceraSuperioreAmphitheater",
       "properties": {
+        "title": "Amphitheater at Nocera Superiore",
         "amphi-theatrum": "http://amphi-theatrum.de/1515.html",
         "buildingtype": "amphitheater",
         "latintoponym": "Nuceria Alfaterna",
-        "title": "Amphitheater at Nocera Superiore",
+        "moderncountry": "Italy",
         "visibility": "none"
       },
       "geometry":{
