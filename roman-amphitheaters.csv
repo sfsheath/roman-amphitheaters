@@ -29,14 +29,14 @@ id,title,type,capacity,wikipedia,youtube,extmajor,extminor,arenamajor,arenaminor
 "cagliariAmphitheater","Amphitheater at Cagliari","amphitheater",10000,"http://en.wikipedia.org/wiki/Roman_Amphitheatre_of_Cagliari",,,,50,30,39.223908,9.113228,60
 "italicaAmphitheater","Amphitheater at Italica","amphitheater",25000,,,160,69.5,70,44,37.443893,-6.046742,17
 "segobrigaAmphitheater","Amphitheater at Segobriga","amphitheater",7500,,,75,64,47,31,39.886018,-2.813944,817
-"kataneCatinaAmphitheater","Amphitheater at Katane/Catina","amphitheater",16000,,,90,70,52,38,37.507096,15.085323,31
+"catiniaAmphitheater","Amphitheater at Catinia","amphitheater",16000,,,90,70,52,38,37.507096,15.085323,31
 "paestumAmphitheater","Amphitheater at Paestum","amphitheater",4500,,,79,59,35,56,40.422354,15.006449,18
 "lunaAmphitheater","Amphitheater at Luna","amphitheater",,,,87,71,52,34.5,44.062656,10.022386,4
 "casinumAmphitheater","Amphitheater at Casinum","amphitheater",,,,,,,,41.482933,13.823575,73
 "viminaciumAmphitheater","Amphitheater at Viminacium","amphitheater",,,,,,,,44.737985,21.220083,72
 "flaviaSolvaAmphitheater","Amphitheater at Flavia Solva","amphitheater",,,,,,,,46.7671535,15.5657773,266
 "rusellaeAmphitheater","Amphitheater at Rusellae","amphitheater",,,,,,,,42.828405,11.159132,165
-"lutetiaAmphitheater","Amphitheater at Lutetia","amphitheater",,,"https://www.youtube.com/watch?v=DStHFfxd_qo",,,,,48.845097,2.352855,46
+"parisAmphitheater","Amphitheater at Lutetia","gallo-roman-amphitheater",,,"https://www.youtube.com/watch?v=DStHFfxd_qo",,,,,48.845097,2.352855,46
 "octodurusForumClaudiiVallensiumAmphitheater","Amphitheater at Octodurus/Forum Claudii Vallensium","amphitheater",,,,,,,,46.094356,7.073493,480
 "cyreneAmphitheater","Amphitheater at Cyrene","amphitheater",,,,,,,,32.824526,21.850808,550
 "libarnaAmphitheater","Amphitheater at Libarna","amphitheater",,,,88,61,65,38,44.706013,8.867967,225
@@ -69,8 +69,8 @@ id,title,type,capacity,wikipedia,youtube,extmajor,extminor,arenamajor,arenaminor
 "aquincumMilitaryAmphitheater","Military Amphitheater at Aquincum","amphitheater",,"http://en.wikipedia.org/wiki/Aquincum_Military_Amphitheatre",,,,,,47.532947,19.039066,101
 "aldburoughAmphitheater","Amphitheater at Aldborough","amphitheater",,,,,,,,54.0881157,-1.3796296,41
 "vesunnaAmphitheatre","Amphitheater at Vesunna","amphitheater",,,,131,113,,,45.1831921,0.7133087,97
-"civitasCamunnorumAmphitheatre","Amphitheater at Civitas Camunnorum","amphitheater",,,,,,,,45.9438129,10.280644,283
-"grumentoAmphitheater","Amphitheater at Grumento","amphitheater",,,,,,,,40.2876404,15.9115794,579
+"cividateCamunoAmphitheater","Amphitheater at Cividate Camuno","amphitheater",,,,,,,,45.9438129,10.280644,283
+"grumentoAmphitheater","Amphitheater at Grumento","amphitheater",,,,90,70,60,40,40.2876404,15.9115794,579
 "albaFucensAmphitheater","Amphitheater at Alba Fucens","amphitheater",,,,,,,,42.0772,13.412289,977
 "colAugustaRauricaAmphitheatre","Amphitheater at Col. Augusta Raurica","amphitheater",6000,,,,,,,47.529294,7.72061,285
 "sutriumAmphitheatre","Amphitheater at Sutrium","amphitheater",8500,,"https://www.youtube.com/watch?v=OgHl5MT95bg",,,,,42.2393124,12.2293009,271
@@ -136,7 +136,7 @@ id,title,type,capacity,wikipedia,youtube,extmajor,extminor,arenamajor,arenaminor
 "sanBenedettoDeiMarsiAmphitheater","Amphitheater at San Benedetto dei Marsi","amphitheater",,,,,,,,42.006504,13.627505,683
 "monteleoneAmphitheater","Amphitheater at Monteleone","amphitheater",,,,,,,,42.228444,12.867528,495
 "bolsenaAmphitheater","Amphitheater at Bolsena","amphitheater",,,,,,,,42.650243,11.990158,417
-"anconaAmphitheater","Amphitheater at Anconca","amphitheater",,,,111,97,67,53,43.624604,13.511791,54
+"anconaAmphitheater","Amphitheater at Ancona","amphitheater",,,,111,97,67,53,43.624604,13.511791,54
 "ascoliPicenoAmphitheater","Amphitheater at Ascoli Picenum","amphitheater",,,,,,,,42.855655,13.570767,157
 "beneventoAmphitheater","Amphitheater at Benevento","amphitheater",,,,,,,,41.130009,14.781523,166
 "calviRisortaAmphitheater","Amphitheater at Calvi Risorta","amphitheater",,,,,,,,41.202429,14.137993,89
@@ -177,4 +177,4 @@ id,title,type,capacity,wikipedia,youtube,extmajor,extminor,arenamajor,arenaminor
 "palmyraAmphitheater","Possible Amphitheater at Palmyra","amphitheater",,,,,,,,34.553789,38.273763,408
 "stMarcelAmphitheater","Amphitheater at Saint Marcel","amphitheater",,,,,,,,46.601549,1.518328,150
 "metzAmphitheater","Amphitheater at Metz","amphitheater",30000,,,,,,,49.107645,6.181932,171
-"grandHalfAmphitheater","Half Amphitheater at Grand","half-amphitheater",17000,,,179,,50,41,48.385217,5.49096,371
+"grandHalfAmphitheater","Half Amphitheater at Grand","gallo-roman-amphitheater",17000,,,179,,50,41,48.385217,5.49096,371
