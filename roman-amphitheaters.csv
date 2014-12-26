@@ -8,7 +8,7 @@ id,title,type,capacity,wikipedia,youtube,extmajor,extminor,arenamajor,arenaminor
 "eleutheropolisAmphitheater","Amphitheater at Eleutheropolis","amphitheater",3500,,"https://www.youtube.com/watch?v=bA6YNf8ZwlI",71,56,47,38,31.608189,34.893845,253
 "pompeiiAmphitheater","Amphitheater at Pompeii","amphitheater",22000,"http://en.wikipedia.org/wiki/Amphitheatre_of_Pompeii","https://www.youtube.com/watch?v=bqf4bJyo3rU",135,104,66,35,40.751213,14.495262,21
 "meridaAmphitheater","Amphitheater at Mérida (Emerita Augusta)","amphitheater",15000,"http://en.wikipedia.org/wiki/Mérida_amphitheatre","https://www.youtube.com/watch?v=g4gNhPD2dV4",126,102,64,41,38.916168,-6.337952,231
-"newsteadAmphitheater","Amphitheater at Newstead (Trimontium)","amphitheater",2000,,,70,60,37,23,55.6026,-2.6919,83
+"newsteadAmphitheater","Amphitheater at Newstead","amphitheater",2000,,,70,60,37,23,55.6026,-2.6919,83
 "conimbrigaAmphitheater","Amphitheater at Conimbriga","amphitheater",4000,,,,,,,40.099444,-8.49333,100
 "cumaeAmphitheater","Amphitheater at Cumae","amphitheater",,,,114,84,,,40.841847,14.056,19
 "pozzuoliFlavianAmphitheater","Flavian Amphitheater at Pozzuoli","amphitheater",35700,"http://en.wikipedia.org/wiki/Flavian_Amphitheater_(Pozzuoli)","https://www.youtube.com/watch?v=VCCD-YeNQKk",149,116,74.8,42,40.825929,14.125315,41
@@ -65,8 +65,8 @@ id,title,type,capacity,wikipedia,youtube,extmajor,extminor,arenamajor,arenaminor
 "lucaAmphitheater","Amphitheater at Luca","amphitheater",,,,,,,,43.8455203,10.5057722,19
 "hispellumAmphitheatre","Amphitheater at Hispellum","amphitheater",,,,,,,,42.9957909,12.6662021,211
 "veronaAmphitheatre","Amphitheater at Verona","amphitheater",30000,"https://en.wikipedia.org/wiki/Verona_Arena","https://www.youtube.com/watch?v=CJoS5abKuYc",152.43,123.42,75.68,44.43,45.43904,10.99435,62
-"aquincumCivilAmphitheater","Civil Amphitheater at Aquincum","amphitheater",,"http://en.wikipedia.org/wiki/Aquincum_Civil_Amphitheatre",,,,,,47.567577,19.047985,105
-"aquincumMilitaryAmphitheater","Military Amphitheater at Aquincum","amphitheater",,"http://en.wikipedia.org/wiki/Aquincum_Military_Amphitheatre",,,,,,47.532947,19.039066,101
+"aquincumCivilAmphitheater","Civil Amphitheater at Budapest","amphitheater",,"http://en.wikipedia.org/wiki/Aquincum_Civil_Amphitheatre",,,,,,47.567577,19.047985,105
+"aquincumMilitaryAmphitheater","Military Amphitheater at Budapest","amphitheater",,"http://en.wikipedia.org/wiki/Aquincum_Military_Amphitheatre",,,,,,47.532947,19.039066,101
 "aldburoughAmphitheater","Amphitheater at Aldborough","amphitheater",,,,,,,,54.0881157,-1.3796296,41
 "vesunnaAmphitheatre","Amphitheater at Vesunna","amphitheater",,,,131,113,,,45.1831921,0.7133087,97
 "cividateCamunoAmphitheater","Amphitheater at Cividate Camuno","amphitheater",,,,,,,,45.9438129,10.280644,283
@@ -74,7 +74,7 @@ id,title,type,capacity,wikipedia,youtube,extmajor,extminor,arenamajor,arenaminor
 "albaFucensAmphitheater","Amphitheater at Alba Fucens","amphitheater",,,,,,,,42.0772,13.412289,977
 "colAugustaRauricaAmphitheatre","Amphitheater at Col. Augusta Raurica","amphitheater",6000,,,,,,,47.529294,7.72061,285
 "sutriumAmphitheatre","Amphitheater at Sutrium","amphitheater",8500,,"https://www.youtube.com/watch?v=OgHl5MT95bg",,,,,42.2393124,12.2293009,271
-"ulpiaTraianaSarmizegetusaAmphitheatre","Amphitheater at Ulpia Traiana Sarmizegetusa","amphitheater",,,,,,,,45.5166773,22.7853206,491
+"sarmizegetusaAmphitheatre","Amphitheater at Ulpia Traiana Sarmizegetusa","amphitheater",,,,,,,,45.5166773,22.7853206,491
 "salonaAmphitheatre","Amphitheater at Salona","amphitheater",,,,,,,,43.5381718,16.473893,8
 "londonAmphitheatre","Amphitheater at London","amphitheater",,,"https://www.youtube.com/watch?v=qvw9xA-hTz8",,,,,51.515522,-0.092136,29
 "tiburAmphitheater","Amphitheater at Tibur","amphitheater",,,,,,,,41.960571,12.798114,248
