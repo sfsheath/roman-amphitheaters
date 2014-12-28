@@ -428,7 +428,7 @@
         "buildingtype": "amphitheater",
         "chronogroup":"republican",
         "created":-100,
-        "moderncounty": "Italy",
+        "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/432815"
       },
       "geometry":{
@@ -631,6 +631,7 @@
           "arena-major": 71,
           "arena-minor": 43
          },
+        "moderncountry": "Austria",
         "pleiades": "http://pleiades.stoa.org/places/128376"
       },
       "geometry":{
@@ -647,6 +648,7 @@
       "properties":{
         "title":"Ludus at Carnuntum",
         "buildingtype": "practice-arena",
+        "moderncountry": "Austria",
         "see": "https://www.academia.edu/3791251/The_discovery_of_a_gladiatorial_school_at_Carnuntum",
         "youtube": ["https://www.youtube.com/watch?v=aJFH3TCVzTk"]
       },
@@ -674,6 +676,7 @@
           "arena-major": 66,
           "arena-minor": 50 
          },
+        "moderncountry": "Austria",
         "pleiades": "http://pleiades.stoa.org/places/128376",
         "see": "https://www.academia.edu/3791286/The_amphitheatre_of_Carnuntum_Towards_a_complete_3D_model_using_airborne_Structure_from_Motion_and_dense_image_matching",
         "youtube": ["https://www.youtube.com/watch?v=Z5TcbJdyEns"]
@@ -984,13 +987,14 @@
       "properties":{
         "title":"Amphitheater at Flavia Solva",
         "buildingtype": "amphitheater",
+        "moderncountry": "Austria",
         "pleiades": "http://pleiades.stoa.org/places/197273"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          15.565777300000001,
-          46.767153499999999,
+          15.5657773,
+          46.76715349,
           266
         ],
         "source":"http://pleiades.stoa.org/places/197273/location-of-roman-amphitheater"
@@ -1170,6 +1174,7 @@
       "properties":{
         "title":"Amphitheater at Charterhouse",
         "buildingtype": "amphitheater",
+        "moderncountry": "United Kingdom",
         "pleiades": "http://pleiades.stoa.org/places/79534",
         "source":"http://pleiades.stoa.org/places/79534/location-of-roman-amphitheater"
       },
@@ -1329,6 +1334,7 @@
       "properties":{
         "title":"Amphitheater at Virunum",
         "buildingtype": "amphitheater",
+        "moderncountry": "Austria",
         "pleiades": "http://pleiades.stoa.org/places/197583",
         "source":"http://pleiades.stoa.org/places/197583/location-of-roman-amphitheater"
       },
@@ -1511,7 +1517,7 @@
       "properties":{
         "title":"Amphitheater at Cemenelum",
         "buildingtype": "amphitheater",
-        "moderncontry": "France",
+        "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/157834",
         "source":"http://pleiades.stoa.org/places/157834/location-of-roman-amphitheater"
       },
@@ -1840,6 +1846,7 @@
       "properties":{
         "title":"Amphitheater at Salona",
         "buildingtype": "amphitheater",
+        "moderncountry": "Croatia",
         "pleiades": "http://pleiades.stoa.org/places/197488",
         "source":"http://pleiades.stoa.org/places/197488/location-of-roman-amphitheater"
       },
@@ -1859,8 +1866,8 @@
         "title":"Amphitheater at London",
         "buildingtype": "amphitheater",
         "latintoponym": "Londinium",
-        "pleiades": "http://pleiades.stoa.org/places/79574",
         "moderncountry": "United Kingdom",
+        "pleiades": "http://pleiades.stoa.org/places/79574",
         "youtube": ["https://www.youtube.com/watch?v=qvw9xA-hTz8"]
       },
       "geometry":{
@@ -2291,6 +2298,7 @@
           "height": 32.45
          },
         "latintoponym": "Colonia Pietas Iulia Pola Pollentia Herculanea",
+        "moderncountr": "Croatia",
         "wikipedia": "http://en.wikipedia.org/wiki/Pula_Arena",
         "youtube": ["https://www.youtube.com/watch?v=hqTud5XxI_s","https://www.youtube.com/watch?v=YZGAZ6HFUmA","https://www.youtube.com/watch?v=oF1jrFn-5mY"]
       },
@@ -2445,7 +2453,7 @@
       "properties":{
         "title":"Amphitheater at Salamis",
         "buildingtype": "amphitheater",
-        "moderncontry": "Northern Cyprus"
+        "moderncountry": "Northern Cyprus"
       },
       "geometry":{
         "type":"Point",
@@ -2479,7 +2487,7 @@
       "properties":{
         "title":"Amphitheater at Carmarthen",
         "buildingtype": "amphitheater",
-        "mdoerncountry": "United Kingdom"
+        "moderncountry": "United Kingdom"
       },
       "geometry":{
         "type":"Point",
@@ -2513,7 +2521,7 @@
       "properties":{
         "title":"Amphitheater at Tomen y Mur",
         "buildingtype": "amphitheater",
-        "modernkingdom": "United Kingdom"
+        "moderncountry": "United Kingdom"
       },
       "geometry":{
         "type":"Point",
@@ -3230,6 +3238,7 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Flavian",
         "dimensions":{"arena-major":75,"arena-minor":46.6,"exterior-major":121.6,"exterior-minor":93.2},
+        "moderncountry": "Narbonne",
         "visibility": "none"
       },
       "geometry":{
@@ -3719,6 +3728,7 @@
       "properties": {
         "amphitheatrum": "http://amphi-theatrum.de/1975.html",
         "buildingtype": "amphitheater",
+        "moderncountry": "Hungary",
         "latintoponym": "Scarabantia",
         "title": "Amphitheater at Sopron",
         "visibility": "good"
