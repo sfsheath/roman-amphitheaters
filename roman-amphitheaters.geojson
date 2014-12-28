@@ -191,8 +191,8 @@
         },
         "emperor": "Caracalla",
         "golvinID": "189",
-        "pleiades": "http://pleiades.stoa.org/places/423025",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/423025",
         "wikipedia":"http://en.wikipedia.org/wiki/Amphitheatrum_Castrense"
       },
       "geometry":{
@@ -280,7 +280,7 @@
       "type":"Feature",
       "id":"meridaAmphitheater",
       "properties":{
-        "title":"Amphitheater at Mérida (Emerita Augusta)",
+        "title":"Amphitheater at Mérida",
         "buildingtype": "amphitheater",
         "capacity":15000,
         "chronogroup": "Julio-Claudian",
@@ -291,9 +291,11 @@
           "arena-major": 64,
           "arena-minor": 41 
          },
-        "hypogeum": true,
-        "pleiades": "http://pleiades.stoa.org/places/256155",
         "emperor": "Augustus",
+        "hypogeum": true,
+        "latintoponym": "Emerita Augusta",
+        "moderncountry": "Spain",
+        "pleiades": "http://pleiades.stoa.org/places/256155",
         "wikipedia":"http://en.wikipedia.org/wiki/Mérida_amphitheatre",
         "youtube": ["https://www.youtube.com/watch?v=g4gNhPD2dV4","https://www.youtube.com/watch?v=T3QufLdGrU0"]
       },
@@ -346,6 +348,7 @@
         "capacity":4000,
         "chronogroup": "Julio-Claudian",
         "created":50,
+        "moderncountry": "Portugal",
         "pleiades": "http://pleiades.stoa.org/places/236443"
       },
       "geometry":{
@@ -369,6 +372,7 @@
           "exterior-major": 114,
           "exterior-minor": 84
         },
+        "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/432808",
         "see":"http://pleiades.stoa.org/places/432808/location-of-roman-amphitheater",
         "welch-id":"4"
@@ -727,6 +731,7 @@
           "arena-major": 71,
           "arena-minor": 42
          },
+        "moderncountry": "Spain",
         "pleiades": "http://pleiades.stoa.org/places/246382"
       },
       "geometry":{
@@ -753,6 +758,7 @@
           "arena-major": 62,
           "arena-minor": 39
          },
+        "moderncountry": "Spain",
         "pleiades": "http://pleiades.stoa.org/places/246349",
         "youtube": ["https://www.youtube.com/watch?v=Z-1Qrk5qLAE",
           "https://www.youtube.com/watch?v=puw8pLl9vJU"]
@@ -839,8 +845,8 @@
           "arena-major": 47,
           "arena-minor": 31
          },
-        "pleiades": "http://pleiades.stoa.org/places/266036",
         "moderncountry": "Spain",
+        "pleiades": "http://pleiades.stoa.org/places/266036",
         "see":"http://pleiades.stoa.org/places/266036/location-of-roman-amphitheater"
       },
       "geometry":{
@@ -1013,7 +1019,7 @@
       "type":"Feature",
       "id":"parisAmphitheater",
       "properties":{
-        "title":"Amphitheater at Lutetia",
+        "title":"Amphitheater at Paris",
         "buildingtype": "gallo-roman-amphitheater",
         "latintoponym": "Lutetia Parisiorum",
         "pleiades": "http://pleiades.stoa.org/places/109126",
@@ -1144,6 +1150,7 @@
         "created": 90,
         "capacity": 24000,
         "chronogroup": "Flavian",
+        "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/148142",
         "youtube": ["https://www.youtube.com/watch?v=c384XQlnINo"]
       },
@@ -1201,6 +1208,7 @@
       "properties":{
         "title":"Amphitheater at Gennes",
         "buildingtype": "amphitheater",
+        "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/138371"
       },
       "geometry":{
@@ -1261,6 +1269,7 @@
         "chronogroup": "Severan",
         "created":220,
         "golvinID": "188",
+        "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/138248"
       },
       "geometry":{
@@ -1345,8 +1354,8 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          12.559678999999999,
-          42.639424900000002,
+          12.5596789,
+          42.6394249,
           440
         ]
       }
@@ -1502,6 +1511,7 @@
       "properties":{
         "title":"Amphitheater at Cemenelum",
         "buildingtype": "amphitheater",
+        "moderncontry": "France",
         "pleiades": "http://pleiades.stoa.org/places/157834",
         "source":"http://pleiades.stoa.org/places/157834/location-of-roman-amphitheater"
       },
@@ -1520,6 +1530,7 @@
       "properties":{
         "title":"Amphitheater at Hydata Hypsitana/Forum Traiani",
         "buildingtype": "amphitheater",
+        "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/471947",
         "source":"http://pleiades.stoa.org/places/471947/location-of-roman-amphitheater"
       },
@@ -1534,9 +1545,9 @@
     },
     {
       "type":"Feature",
-      "id":"lucaAmphitheater",
+      "id":"luccaAmphitheater",
       "properties":{
-        "title":"Amphitheater at Luca",
+        "title":"Amphitheater at Lucca",
         "buildingtype": "amphitheater",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/403234",
@@ -1675,6 +1686,7 @@
          "exterior-major": 131,
          "exterior-minor": 113
         },
+        "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/138650",
         "source":"http://pleiades.stoa.org/places/138650/location-of-roman-amphitheater"
       },
@@ -1765,6 +1777,7 @@
         "created" : 200,
         "capacity" : 6000,
         "chronogroup": "Severan",
+        "moderncountry": "Switzerland",
         "pleiades": "http://pleiades.stoa.org/places/177494",
         "source":"http://pleiades.stoa.org/places/177494/location-of-roman-amphitheater"
       },
@@ -1866,8 +1879,8 @@
       "properties":{
         "title":"Amphitheater at Tibur",
         "buildingtype": "amphitheater",
-        "pleiades": "http://pleiades.stoa.org/places/423081",
-        "moderncountry": "Italy"
+        "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/423081"
       },
       "geometry":{
         "type":"Point",
@@ -2085,6 +2098,7 @@
         "created" : 50,
         "capacity" : 11000,
         "chronogroup": "Julio-Claudian",
+        "moderncountry": "Switzerland",
         "pleiades": "http://pleiades.stoa.org/places/177661"
       },
       "geometry":{
@@ -2156,6 +2170,7 @@
         "created": 100,
         "chronogroup": "Flavian",
         "latintoponym": "Forum Julii",
+        "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/157836"
       },
       "geometry":{
@@ -2596,9 +2611,9 @@
       "id":"susaAmphitheater",
       "properties":{
         "title":"Amphitheater at Susa",
-        "latinName": "Segusium",
         "created" : -20,
         "buildingtype": "amphitheater",
+        "latintoponym": "Segusium",
         "moderncountry": "Italy"
       },
       "geometry":{
@@ -2660,8 +2675,8 @@
         "chronogroup": "Severan",
         "emperor": "Septimius Severus",
         "golvinID": "190",
-        "pleiades": "http://pleiades.stoa.org/places/422885",
-        "moderncountry": "Italy"
+        "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/422885"
       },
       "geometry":{
         "type":"Point",
@@ -2721,7 +2736,8 @@
       "properties":{
         "title":"Amphitheater at Toulouse",
         "buildingtype": "amphitheater",
-        "created": 50
+        "created": 50,
+        "moderncountry": "France"
       },
       "geometry":{
         "type":"Point",
@@ -2742,7 +2758,8 @@
           "arena-major": 30,
           "arena-minor": 19
          },
-        "latintoponym": "Municipium Flavium Caparense"
+        "latintoponym": "Municipium Flavium Caparense",
+        "moderncountry": "Spain"
       },
       "geometry":{
         "type":"Point",
@@ -2781,7 +2798,8 @@
       "properties":{
         "title": "Amphitheater at Lillebonne",
         "buildingtype": "amphitheater",
-        "chronogroup": "First Century"
+        "chronogroup": "First Century",
+        "moderncountry": "France"
       },
       "geometry":{
         "type":"Point",
@@ -2797,10 +2815,11 @@
       "id":"besanconAmphitheater",
       "properties":{
         "title": "Amphitheater at Besançon",
+        "amphitheatrum": "http://amphi-theatrum.de/1551.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Second Century",
         "latintoponym": "Vesontio",
-        "amphitheatrum": "http://amphi-theatrum.de/1551.html"
+        "moderncountry": "France"
       },
       "geometry":{
         "type":"Point",
@@ -2816,10 +2835,11 @@
       "id":"limogesAmphitheater",
       "properties":{
         "title": "Amphitheater at Limoges",
+        "amphitheatrum": "http://amphi-theatrum.de/1549.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Second Century",
         "latintoponym": "Augustoritum",
-        "amphitheatrum": "http://amphi-theatrum.de/1549.html"
+        "moderncountry": "France"
       },
       "geometry":{
         "type":"Point",
@@ -2835,13 +2855,14 @@
       "id":"poitiersAmphitheater",
       "properties": {
         "title": "Amphitheater at Poitiers",
+        "amphitheatrum": "http://amphi-theatrum.de/1381.html",
         "buildingtype": "amphitheater",
         "dimensions":{
           "exterior-major": 108,
           "exterior-minor": 88
         },
         "latintoponym": "Limonum Pictonum",
-        "amphitheatrum": "http://amphi-theatrum.de/1381.html"
+        "moderncountry": "France"
       },
       "geometry":{
         "type":"Point",
@@ -2857,10 +2878,11 @@
       "id":"reimsAmphitheater",
       "properties": {
         "title": "Amphitheater at Reims",
+        "amphitheatrum": "http://amphi-theatrum.de/1394.html",
         "buildingtype": "amphitheater",
-        "latintoponym": "Durocortorum",
         "chronogroup": "unassigned",
-        "amphitheatrum": "http://amphi-theatrum.de/1394.html"
+        "latintoponym": "Durocortorum",
+        "moderncountry": "France"
       },
       "geometry":{
         "type":"Point",
@@ -2876,11 +2898,12 @@
       "id":"rodezAmphitheater",
       "properties": {
         "title": "Amphitheater at Rodez",
+        "amphitheatrum": "http://amphi-theatrum.de/1484.html",
         "buildingtype": "amphitheater",
         "capacity": 15000,
-        "latintoponym": "Segodonum",
         "chronogroup": "unassigned",
-        "amphitheatrum": "http://amphi-theatrum.de/1484.html"
+        "latintoponym": "Segodonum",
+        "moderncountry": "France"
       },
       "geometry":{
         "type":"Point",
@@ -3089,7 +3112,7 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "latintoponym": "Ascolum Picenum",
-        "moderncountry": "Picenum"
+        "moderncountry": "Italy"
       },
       "geometry":{
         "type":"Point",
@@ -3167,7 +3190,8 @@
       "properties": {
         "title": "Amphitheater at Béziers",
         "buildingtype": "amphitheater",
-        "latintoponym": "Baeterrae "
+        "latintoponym": "Baeterrae",
+        "moderncountry": "France"
       },
       "geometry":{
         "type":"Point",
@@ -3186,7 +3210,8 @@
         "amphitheatrum": "http://amphi-theatrum.de/1552.html",
         "buildingtype": "amphitheater",
         "capacity": 15000,
-        "created": 215
+        "created": 215,
+        "moderncountry": "France"
       },
       "geometry":{
         "type":"Point",
@@ -3226,6 +3251,7 @@
         "capactiy": 15000,
         "chronogroup": "Second century",
         "golvin-id": "102",
+        "moderncountry": "France",
         "visibility": "none"
       },
       "geometry":{
@@ -3246,6 +3272,7 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "latintoponym": "Iatinum Fixtinnum",
+        "moderncountry": "France",
         "visibility": "none"
       },
       "geometry":{
@@ -3265,6 +3292,7 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "latintoponym": "Autricum",
+        "moderncountry": "France",
         "visibility": "none"
       },
       "geometry":{
@@ -3285,6 +3313,7 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "latintoponym": "Augustomagus",
+        "moderncountry": "France",
         "visibility": "good",
         "wikipedia": "http://fr.wikipedia.org/wiki/Arènes_de_Senlis"
       },
@@ -3301,13 +3330,14 @@
       "type":"Feature",
       "id":"toursAmphitheater",
       "properties": {
+        "title": "Amphitheater at Tours",
         "amphitheatrum": "http://amphi-theatrum.de/1383.html",
         "buildingtype": "amphitheater",
         "capacity": 14000,
         "chronogroup": "Hadrianic",
         "golvinID": "54",
         "latintoponym": "Caesarodunum Turonum",
-        "title": "Amphitheater at Tours",
+        "moderncountry": "France",
         "visibility": "good",
         "wikipedia": "http://fr.wikipedia.org/wiki/Amphithéâtre_de_Tours"
       },
@@ -3489,9 +3519,10 @@
       "type":"Feature",
       "id":"bragaAmphitheater",
       "properties": {
+        "title": "Amphitheater at Braga",
         "buildingtype": "amphitheater",
         "latintoponym": "Bracara Augusta",
-        "title": "Amphitheater at Braga",
+        "moderncountry": "Portugal",
         "visibility": "none"
       },
       "geometry":{
@@ -3527,8 +3558,9 @@
       "type":"Feature",
       "id":"leonAmphitheater",
       "properties": {
-        "buildingtype": "amphitheater",
         "title": "Amphitheater at León",
+        "buildingtype": "amphitheater",
+        "moderncountry": "Spain",
         "visibility": "none"
       },
       "geometry":{
@@ -3545,9 +3577,10 @@
       "type":"Feature",
       "id":"autunAmphitheater",
       "properties": {
+        "title": "Amphitheater at Autun",
         "buildingtype": "amphitheater",
         "latintoponym": "Augustodunum",
-        "title": "Amphitheater at Autun",
+        "moderncountry": "France",
         "visibility": "none"
       },
       "geometry":{
@@ -3665,10 +3698,10 @@
       "type":"Feature",
       "id":"bobadelaAmphitheater",
       "properties": {
+        "title": "Amphitheater at Bobadela",
         "amphitheatrum": "http://amphi-theatrum.de/1975.html",
         "buildingtype": "amphitheater",
         "moderncountry": "Portugal",
-        "title": "Amphitheater at Bobadela",
         "visibility": "good"
       },
       "geometry":{
