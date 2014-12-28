@@ -96,7 +96,7 @@ id,title,type,capacity,modcountry,wikipedia,youtube,extmajor,extminor,arenamajor
 "miciaAmphitheater","Amphitheater at Micia","amphitheater",1500,"Romania",,,,,,,45.915008,22.81731,183
 "gemellaeAmphitheater","Amphitheater at Gemellae","amphitheater",3000,"Algeria",,,,,,,34.636598,5.522904,83
 "cherchellAmphitheater","Amphitheater at Cherchell","amphitheater",,"Algeria",,,,,,,36.60878,2.198958,29
-"pulaAmphitheater","Amphitheater at Pula","amphitheater",26000,,"http://en.wikipedia.org/wiki/Pula_Arena","https://www.youtube.com/watch?v=hqTud5XxI_s",132.45,105.1,67.95,41.65,44.873229,13.850243,16
+"pulaAmphitheater","Amphitheater at Pula","amphitheater",26000,"Croatia","http://en.wikipedia.org/wiki/Pula_Arena","https://www.youtube.com/watch?v=hqTud5XxI_s",132.45,105.1,67.95,41.65,44.873229,13.850243,16
 "carmonaAmphitheater","Amphitheater at Carmona","amphitheater",8000,"Spain",,,,,,,37.469674,-5.650907,223
 "caesareaAmphitheater","Amphitheater at Caesarea","amphitheater",,"Israel",,,,,,,32.506473,34.897451,11
 "pergamumAmphitheater","Amphitheater at Pergamum","amphitheater",25000,"Turkey",,,,,,,39.125751,27.174177,100
@@ -143,7 +143,7 @@ id,title,type,capacity,modcountry,wikipedia,youtube,extmajor,extminor,arenamajor
 "sanVittorinoAmphitheater","Amphitheater at San Vittorino","amphitheater",20000,"Italy",,,,,,,42.400531,13.306027,672
 "beziersAmphitheater","Amphitheater at Béziers","amphitheater",,"France",,,,,,,43.339589,3.214026,56
 "agenAmphitheater","Amphitheater at Agen","amphitheater",15000,"France",,,,,,,44.206545,0.622122,52
-"narbonneAmphitheater","Amphitheater at Narbonne","amphitheater",,"Narbonne",,,121.6,93.2,75,46.6,43.184873,3.010181,14
+"narbonneAmphitheater","Amphitheater at Narbonne","amphitheater",,"France",,,121.6,93.2,75,46.6,43.184873,3.010181,14
 "amiensAmphitheater","Amphitheater at Amiens","amphitheater",,"France",,,,,,,49.8944,2.293485,32
 "meauxAmphitheater","Amphitheater at Meaux","amphitheater",,"France",,,,,,,48.970006,2.883491,50
 "chartresAmphitheater","Amphitheater at Chartres","amphitheater",,"France",,,,,,,48.450069,1.48926,140

@@ -2298,7 +2298,7 @@
           "height": 32.45
          },
         "latintoponym": "Colonia Pietas Iulia Pola Pollentia Herculanea",
-        "moderncountr": "Croatia",
+        "moderncountry": "Croatia",
         "wikipedia": "http://en.wikipedia.org/wiki/Pula_Arena",
         "youtube": ["https://www.youtube.com/watch?v=hqTud5XxI_s","https://www.youtube.com/watch?v=YZGAZ6HFUmA","https://www.youtube.com/watch?v=oF1jrFn-5mY"]
       },
@@ -3238,7 +3238,7 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Flavian",
         "dimensions":{"arena-major":75,"arena-minor":46.6,"exterior-major":121.6,"exterior-minor":93.2},
-        "moderncountry": "Narbonne",
+        "moderncountry": "France",
         "visibility": "none"
       },
       "geometry":{
