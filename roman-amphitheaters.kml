@@ -29,7 +29,6 @@
 	<SimpleField name="visibility" type="string"></SimpleField>
 	<SimpleField name="source" type="string"></SimpleField>
 	<SimpleField name="creation" type="int"></SimpleField>
-	<SimpleField name="moderncountr" type="string"></SimpleField>
 	<SimpleField name="latinName" type="string"></SimpleField>
 	<SimpleField name="latintoponyn" type="string"></SimpleField>
 	<SimpleField name="latingtoponym" type="string"></SimpleField>
@@ -1223,10 +1222,10 @@
 		<SimpleData name="chronogroup">Julio-Claudian</SimpleData>
 		<SimpleData name="created">1</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 132.450000, &quot;exterior-minor&quot;: 105.100000, &quot;arena-major&quot;: 67.950000, &quot;arena-minor&quot;: 41.650000, &quot;height&quot;: 32.450000 }</SimpleData>
+		<SimpleData name="moderncountry">Croatia</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Pula_Arena</SimpleData>
 		<SimpleData name="youtube">(3:https://www.youtube.com/watch?v=hqTud5XxI_s,...)</SimpleData>
 		<SimpleData name="latintoponym">Colonia Pietas Iulia Pola Pollentia Herculanea</SimpleData>
-		<SimpleData name="moderncountr">Croatia</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>13.850243,44.873229,16</coordinates></Point>
   </Placemark>
@@ -1730,7 +1729,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Flavian</SimpleData>
 		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 75, &quot;arena-minor&quot;: 46.600000, &quot;exterior-major&quot;: 121.600000, &quot;exterior-minor&quot;: 93.200000 }</SimpleData>
-		<SimpleData name="moderncountry">Narbonne</SimpleData>
+		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>3.010181,43.184873,14</coordinates></Point>
@@ -2138,6 +2137,26 @@
 		<SimpleData name="visibility">good</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>5.49096,48.385217,371</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Albegna</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="moderncountry">Italy</SimpleData>
+		<SimpleData name="latintoponym">Albingaunum</SimpleData>
+		<SimpleData name="visibility">partial</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.21089894,44.043708,34</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Aquino</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="moderncountry">Italy</SimpleData>
+		<SimpleData name="latintoponym">Aquinum</SimpleData>
+		<SimpleData name="visibility">partial</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.691338,41.49469,111</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>

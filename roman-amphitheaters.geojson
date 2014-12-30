@@ -3973,6 +3973,45 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"albegnaAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Albegna",
+        "buildingtype": "amphitheater",
+        "latintoponym": "Albingaunum",
+        "moderncountry": "Italy",
+        "visibility": "partial"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+               8.21089894,
+               44.043708,
+               34
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"aquinoAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Aquino",
+        "buildingtype": "amphitheater",
+        "latintoponym": "Aquinum",
+        "moderncountry": "Italy",
+        "visibility": "partial"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+              13.691338,
+              41.494690,
+              111              
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ]
 }
+
