@@ -1720,6 +1720,7 @@
 		<SimpleData name="capacity">15000</SimpleData>
 		<SimpleData name="created">215</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
+		<SimpleData name="visibility">none</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>0.622122,44.206545,52</coordinates></Point>
   </Placemark>
@@ -2157,6 +2158,16 @@
 		<SimpleData name="visibility">partial</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>13.691338,41.49469,111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Bourges</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="moderncountry">France</SimpleData>
+		<SimpleData name="latintoponym">Avaricum</SimpleData>
+		<SimpleData name="visibility">street plan</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.390815,47.084496,133</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>

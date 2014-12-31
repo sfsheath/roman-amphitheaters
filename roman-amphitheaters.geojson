@@ -3219,7 +3219,8 @@
         "buildingtype": "amphitheater",
         "capacity": 15000,
         "created": 215,
-        "moderncountry": "France"
+        "moderncountry": "France",
+        "visibility": "none"
       },
       "geometry":{
         "type":"Point",
@@ -4011,7 +4012,25 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"bourgesAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Bourges",
+        "buildingtype": "amphitheater",
+        "latintoponym": "Avaricum",
+        "moderncountry": "France",
+        "visibility": "street plan"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+              2.390815,
+              47.084496,
+              133
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ]
 }
-
