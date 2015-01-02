@@ -49,7 +49,7 @@ id,title,type,capacity,modcountry,wikipedia,youtube,extmajor,extminor,arenamajor
 "scythopolisNysaAmphitheatre","Amphitheater at Scythopolis/Nysa","amphitheater-in-hippodrome",,"Israel",,,,,,,32.498395,35.501631,-121
 "scylletiumScolaciumAmphitheatre","Amphitheater at Scylletium/Scolacium","amphitheater",,"Italy",,,,,,,38.8068878,16.5923292,44
 "bordeauxAmphitheater","Amphitheater at Bordeaux","amphitheater",28700,"France",,,,,,,44.847382,-0.582476,17
-"uthinaAmphitheatre","Amphitheater at Uthina","amphitheater",16000,"Tunisia",,,,,,,36.608597,10.169215,112
+"uthinaAmphitheatre","Amphitheater at Uthina","amphitheater",15000,"Tunisia",,,,,,,36.608597,10.169215,112
 "carthagoNovaAmphitheatre","Amphitheater at Carthago Nova/Col. Urbs Iulia","amphitheater",,"Spain",,,,,,,37.6006455,-0.980161,23
 "virunumAmphitheatre","Amphitheater at Virunum","amphitheater",,"Austria",,,,,,,46.6978777,14.3669959,479
 "carsulaeAmphitheatre","Amphitheater at Carsulae","amphitheater",,"Italy",,,,,,,42.6394249,12.5596789,440
@@ -85,14 +85,14 @@ id,title,type,capacity,modcountry,wikipedia,youtube,extmajor,extminor,arenamajor
 "assisiAmphitheatre","Amphitheater at Assisi","amphitheater",,"Italy",,"https://www.youtube.com/watch?v=uLSmRRxtf4M",,,,,43.071077,12.620454,445
 "durresAmphitheatre","Amphitheater at Durrës","amphitheater",20000,"Albania","http://en.wikipedia.org/wiki/Durrës_Amphitheatre",,,,,,41.312241,19.445131,15
 "lambaesisAmphitheatre","Amphitheater at Lambaesis","amphitheater",,"Algeria",,,,,,,35.489247,6.259935,1170
-"mactarisAmphitheatre","Amphitheater at Mactaris","amphitheater",,"Tunisia",,,,,,,35.8556279,9.2066727,911
+"mactarisAmphitheatre","Amphitheater at Mactaris","amphitheater",5000,"Tunisia",,,,,,,35.8556279,9.2066727,911
 "cirencesterAmphitheater","Amphitheater at Cirencester","amphitheater",,"United Kingdom",,"https://www.youtube.com/watch?v=9RFDium7TYU",,,,,51.71151,-1.972188,119
 "vindonissaAmphitheater","Amphitheater at Vindonissa","amphitheater",11000,"Switzerland",,,,,,,47.47629,8.213605,361
 "thysdrusSmallAmphitheater","Small Amphitheater at Thysdrus","amphitheater",9000,"Tunisia",,"https://www.youtube.com/watch?v=bDDyEMg34Os",,,,,35.290106,10.707911,116
 "thysdrusAmphitheater","Amphitheater at Thysdrus","amphitheater",35000,"Tunisia",,"https://www.youtube.com/watch?v=bDDyEMg34Os",,,,,35.29639,10.706939,111
 "frejusAmphitheater","Amphitheater Fréjus","amphitheater",12000,"France",,,,,,,43.43446,6.72871,12
 "gortynAmphitheater","Amphitheater at Gortyn","amphitheater",,"Greece",,,,,,,35.056454,24.953076,150
-"leptiminusAmphitheater","Amphitheater at Leptiminus","amphitheater",,"Tunisia",,,,,,,35.678077,10.866282,9
+"leptiminusAmphitheater","Amphitheater at Leptiminus","amphitheater",9000,"Tunisia",,,,,,,35.678077,10.866282,9
 "miciaAmphitheater","Amphitheater at Micia","amphitheater",1500,"Romania",,,,,,,45.915008,22.81731,183
 "gemellaeAmphitheater","Amphitheater at Gemellae","amphitheater",3000,"Algeria",,,,,,,34.636598,5.522904,83
 "cherchellAmphitheater","Amphitheater at Cherchell","amphitheater",,"Algeria",,,,,,,36.60878,2.198958,29
@@ -184,3 +184,6 @@ id,title,type,capacity,modcountry,wikipedia,youtube,extmajor,extminor,arenamajor
 "chassenonAmphitheater","Amphitheater at Chassenon","gallo-roman-amphitheater",,"France",,,,,60,40,45.850749,0.768913,217
 "drevantAmphitheater","Amphitheater at Drevant","gallo-roman-amphitheater",,"France",,,56,,25,,46.693079,2.522625,164
 "fahsAmphitheater","Amphitheater at Fahs","amphitheater",,"Tunisia",,,68,52,44,32,36.16351,9.775766,471
+"chemtouAmphitheater","Amphitheater at Chemtou","amphitheater",6500,"Tunisia",,,61,52,30,21,36.490426,8.580552,171
+"bekaltaAmphitheater","Amphitheater at Bekalta","amphitheater",,"Tunisia",,,80,62,57,39,35.619149,11.042371,3
+"sidiBouArkoubAmphitheater","Amphitheater at Sidi bou Arkoub","amphitheater",,"Tunisia",,,56,38,38,22,36.310778,9.31926,277

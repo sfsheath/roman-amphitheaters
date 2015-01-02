@@ -694,7 +694,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Uthina</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="capacity">16000</SimpleData>
+		<SimpleData name="capacity">15000</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="created">120</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/315247</SimpleData>
@@ -1093,6 +1093,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Mactaris</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="capacity">5000</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/324774</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1177,6 +1178,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Leptiminus</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="capacity">9000</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/324767</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1365,6 +1367,7 @@
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="created">160</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
+		<SimpleData name="latintoponym">Sufetula</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>9.114582,35.243617,556</coordinates></Point>
   </Placemark>
@@ -1740,7 +1743,7 @@
 		<SimpleData name="title">Amphitheater at Amiens</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1384.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="chronogroup">Second century</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
 		<SimpleData name="capactiy">15000</SimpleData>
@@ -1873,7 +1876,7 @@
 		<SimpleData name="title">Amphitheater at Silchester</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1493.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="chronogroup">Second century</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=ScpzLOmZEXs)</SimpleData>
 		<SimpleData name="latintoponym">Calleva Atrebatum</SimpleData>
@@ -1886,7 +1889,7 @@
 		<SimpleData name="title">Amphitheater at Dorchester / Maumbury Henge</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1491.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="chronogroup">Second century</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=ScpzLOmZEXs)</SimpleData>
 		<SimpleData name="latintoponym">Durnovaria</SimpleData>
@@ -2207,6 +2210,43 @@
 		<SimpleData name="visibility">good</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>9.775766,36.16351,471</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Chemtou</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="capacity">6500</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 61, &quot;exterior-minor&quot;: 52, &quot;arena-major&quot;: 30, &quot;arena-minor&quot;: 21 }</SimpleData>
+		<SimpleData name="moderncountry">Tunisia</SimpleData>
+		<SimpleData name="latintoponym">Simmithu</SimpleData>
+		<SimpleData name="golvinID">67</SimpleData>
+		<SimpleData name="visibility">poor</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.580552,36.490426,171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Bekalta</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 80, &quot;exterior-minor&quot;: 62, &quot;arena-major&quot;: 57, &quot;arena-minor&quot;: 39 }</SimpleData>
+		<SimpleData name="moderncountry">Tunisia</SimpleData>
+		<SimpleData name="latintoponym">Thapsus</SimpleData>
+		<SimpleData name="golvinID">185</SimpleData>
+		<SimpleData name="visibility">good</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.042371,35.619149,3</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Sidi bou Arkoub</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 56, &quot;exterior-minor&quot;: 38, &quot;arena-major&quot;: 38, &quot;arena-minor&quot;: 22 }</SimpleData>
+		<SimpleData name="moderncountry">Tunisia</SimpleData>
+		<SimpleData name="latintoponym">Thimisua</SimpleData>
+		<SimpleData name="visibility">good</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.31926,36.310778,277</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>

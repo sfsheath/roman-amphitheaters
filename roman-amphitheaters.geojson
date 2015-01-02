@@ -1294,7 +1294,7 @@
         "title":"Amphitheater at Uthina",
         "buildingtype": "amphitheater",
         "created":120,
-        "capacity": 16000,
+        "capacity": 15000,
         "chronogroup": "Second Century",
         "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/315247"
@@ -2058,6 +2058,7 @@
       "properties":{
         "title":"Amphitheater at Mactaris",
         "buildingtype": "amphitheater",
+        "capacity": 5000,
         "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/324774"
       },
@@ -2213,6 +2214,7 @@
       "properties":{
         "title":"Amphitheater at Leptiminus",
         "buildingtype": "amphitheater",
+        "capacity": 9000,
         "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/324767"
       },
@@ -2567,6 +2569,7 @@
         "created" : 160,
         "capacity" : 6600,
         "chronogroup": "Second Century",
+        "latintoponym": "Sufetula",
         "moderncountry": "Tunisia"
       },
       "geometry":{
@@ -3264,7 +3267,7 @@
         "amphitheatrum": "http://amphi-theatrum.de/1384.html",
         "buildingtype": "amphitheater",
         "capactiy": 15000,
-        "chronogroup": "Second century",
+        "chronogroup": "Second Century",
         "golvin-id": "102",
         "moderncountry": "France",
         "visibility": "none"
@@ -3491,7 +3494,7 @@
       "properties": {
         "amphitheatrum": "http://amphi-theatrum.de/1493.html",
         "buildingtype": "amphitheater",
-        "chronogroup": "Second century",
+        "chronogroup": "Second Century",
         "latintoponym": "Calleva Atrebatum",
         "moderncountry": "United Kingdom",
         "title": "Amphitheater at Silchester",
@@ -3514,7 +3517,7 @@
         "title": "Amphitheater at Dorchester / Maumbury Henge",
         "amphitheatrum": "http://amphi-theatrum.de/1491.html",
         "buildingtype": "amphitheater",
-        "chronogroup": "Second century",
+        "chronogroup": "Second Century",
         "latintoponym": "Durnovaria",
         "moderncountry": "United Kingdom",
         "visibility": "partial",
@@ -4113,6 +4116,85 @@
                9.775766,
                36.163510,
                471
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"chemtouAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Chemtou",
+        "buildingtype": "amphitheater",
+        "capacity": 6500,
+        "chronogroup": "Second Century",
+        "dimensions": {
+          "exterior-major": 61,
+          "exterior-minor": 52,
+          "arena-major": 30,
+          "arena-minor": 21
+         },
+        "golvinid": "67",
+        "latintoponym": "Simmithu",
+        "moderncountry": "Tunisia",
+        "visibility": "poor"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+               8.580552,
+               36.490426,
+               171
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"bekaltaAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Bekalta",
+        "buildingtype": "amphitheater",
+        "dimensions": {
+          "exterior-major": 80,
+          "exterior-minor": 62,
+          "arena-major": 57,
+          "arena-minor": 39 
+         },
+        "golvinid": "185",
+        "latintoponym": "Thapsus",
+        "moderncountry": "Tunisia",
+        "visibility": "good"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+               11.042371,
+               35.619149,
+               3
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"sidiBouArkoubAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Sidi bou Arkoub",
+        "buildingtype": "amphitheater",
+        "dimensions": {
+          "exterior-major": 56,
+          "exterior-minor": 38,
+          "arena-major": 38,
+          "arena-minor": 22
+         },
+        "latintoponym": "Thimisua",
+        "moderncountry": "Tunisia",
+        "visibility": "good"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+               9.319260,
+               36.310778,
+               277
         ],
         "source":"http://maps.google.com/"
       }
