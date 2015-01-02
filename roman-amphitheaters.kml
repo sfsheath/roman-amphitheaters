@@ -1268,10 +1268,10 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Anazarbus</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="comment">Location not confirmed.</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 109, &quot;exterior-minor&quot;: 80, &quot;arena-major&quot;: 60, &quot;arena-minor&quot;: 43 }</SimpleData>
 		<SimpleData name="moderncountry">Turkey</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>35.900509,37.248241,50</coordinates></Point>
+      <Point><coordinates>35.894673,37.244094,42</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
@@ -2196,6 +2196,17 @@
 		<SimpleData name="visibility">poor</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>2.522625,46.693079,164</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Fahs</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 68, &quot;exterior-minor&quot;: 52, &quot;arena-major&quot;: 44, &quot;arena-minor&quot;: 32 }</SimpleData>
+		<SimpleData name="moderncountry">Tunisia</SimpleData>
+		<SimpleData name="latintoponym"></SimpleData>
+		<SimpleData name="visibility">good</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.775766,36.16351,471</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>

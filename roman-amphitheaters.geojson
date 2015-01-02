@@ -4091,6 +4091,31 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"fahsAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Fahs",
+        "buildingtype": "amphitheater",
+        "dimensions": {
+          "exterior-major": 68,
+          "exterior-minor": 52,
+          "arena-major": 44,
+          "arena-minor": 32 
+         },
+        "latintoponym": "",
+        "moderncountry": "Tunisia",
+        "visibility": "good"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+               9.775766,
+               36.163510,
+               471
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ]
 }
