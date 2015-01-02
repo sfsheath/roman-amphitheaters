@@ -2376,15 +2376,20 @@
       "properties":{
         "title":"Amphitheater at Anazarbus",
         "buildingtype": "amphitheater",
-        "comment": "Location not confirmed.",
+        "dimensions": {
+          "exterior-major": 109,
+          "exterior-minor": 80,
+          "arena-major": 60,
+          "arena-minor": 43 
+        },
         "moderncountry": "Turkey"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          35.900509,
-          37.248241,
-          50
+          35.894673,
+          37.244094,
+          42
         ],
         "source":"http://maps.google.com/"
       }

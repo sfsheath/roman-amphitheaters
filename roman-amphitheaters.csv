@@ -100,7 +100,7 @@ id,title,type,capacity,modcountry,wikipedia,youtube,extmajor,extminor,arenamajor
 "carmonaAmphitheater","Amphitheater at Carmona","amphitheater",8000,"Spain",,,,,,,37.469674,-5.650907,223
 "caesareaAmphitheater","Amphitheater at Caesarea","amphitheater",,"Israel",,,,,,,32.506473,34.897451,11
 "pergamumAmphitheater","Amphitheater at Pergamum","amphitheater",25000,"Turkey",,,,,,,39.125751,27.174177,100
-"anazarbusAmphitheater","Amphitheater at Anazarbus","amphitheater",,"Turkey",,,,,,,37.248241,35.900509,50
+"anazarbusAmphitheater","Amphitheater at Anazarbus","amphitheater",,"Turkey",,,109,80,60,43,37.244094,35.894673,42
 "antiochAmphitheater","Amphitheater at Antioch","amphitheater",,"Turkey",,,,,,,36.202624,36.160437,89
 "cyzicusAmphitheater","Amphitheater at Cyzicus","amphitheater",,"Turkey",,,,,,,40.398213,27.884552,54
 "sabrathaAmphitheater","Amphitheater at Sabratha","amphitheater",20700,"Libya",,,,,,,32.803879,12.49404,11
