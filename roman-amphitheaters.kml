@@ -2175,6 +2175,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Chassenon</SimpleData>
 		<SimpleData name="buildingtype">gallo-roman-amphitheater</SimpleData>
+		<SimpleData name="comment">No longer extant and structure may have been a theater. Dimensions from 1844 publication.</SimpleData>
 		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 60, &quot;arena-minor&quot;: 40 }</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="see">http://www.amis-chassenon.org/72+lamphitheatre-de-chassenon.html</SimpleData>
@@ -2182,6 +2183,19 @@
 		<SimpleData name="visibility">poor</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>0.768913,45.850749,217</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Drevant</SimpleData>
+		<SimpleData name="buildingtype">gallo-roman-amphitheater</SimpleData>
+		<SimpleData name="comment">Arena oval is almost complete so very a near a “full” amphitheater.</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 56, &quot;arena-major&quot;: 25 }</SimpleData>
+		<SimpleData name="moderncountry">France</SimpleData>
+		<SimpleData name="see">http://commons.wikimedia.org/wiki/File:Drevant_Amphitheatre_Gallo-Romain.JPG</SimpleData>
+		<SimpleData name="latintoponym">Derventum</SimpleData>
+		<SimpleData name="visibility">poor</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.522625,46.693079,164</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>
