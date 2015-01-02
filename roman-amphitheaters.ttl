@@ -480,7 +480,8 @@
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
         <http://purl.org/dc/terms/title> "Amphitheater at Bourges" ;
-        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
+        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment> "Dimensions very approximate on the basis of modern street plan."
     ] .
 
 <http://purl.org/roman-amphitheaters/id/bragaAmphitheater>
@@ -883,6 +884,22 @@
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
         <http://purl.org/dc/terms/title> "Amphitheater at Chartres" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
+    ] .
+
+<http://purl.org/roman-amphitheaters/id/chassenonAmphitheater>
+    <http://geovocab.org/geometry#geometry> [
+        a <http://geovocab.org/geometry#Point> ;
+        rdf:value (7.68913E-1
+            4.5850749E1
+            217
+        ) ;
+        <http://www.w3.org/ns/prov#wasDerivedFrom> <http://maps.google.com/>
+    ] ;
+    a <http://geovocab.org/spatial#Feature> ;
+    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://purl.org/dc/terms/title> "Amphitheater at Chassenon" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/gallo-roman-amphitheater> ;
+        <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.amis-chassenon.org/72+lamphitheatre-de-chassenon.html>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/cherchellAmphitheater>

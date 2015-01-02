@@ -4018,6 +4018,11 @@
       "properties": {
         "title": "Amphitheater at Bourges",
         "buildingtype": "amphitheater",
+        "comment": "Dimensions very approximate on the basis of modern street plan.",
+        "dimensions": {
+          "exterior-major": 108,
+          "exterior-minor": 70
+         },
         "latintoponym": "Avaricum",
         "moderncountry": "France",
         "visibility": "street plan"
@@ -4028,6 +4033,30 @@
               2.390815,
               47.084496,
               133
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"chassenonAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Chassenon",
+        "buildingtype": "gallo-roman-amphitheater",
+        "dimensions": {
+          "arena-major": 60,
+          "arena-minor": 40
+         },
+        "latintoponym": "Cassinomagus",
+        "moderncountry": "France",
+        "see": "http://www.amis-chassenon.org/72+lamphitheatre-de-chassenon.html", 
+        "visibility": "poor"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+               0.768913,
+               45.850749,
+               217
         ],
         "source":"http://maps.google.com/"
       }

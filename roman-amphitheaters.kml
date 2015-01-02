@@ -2163,11 +2163,25 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Bourges</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="comment">Dimensions very approximate on the basis of modern street plan.</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 108, &quot;exterior-minor&quot;: 70 }</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="latintoponym">Avaricum</SimpleData>
 		<SimpleData name="visibility">street plan</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>2.390815,47.084496,133</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Chassenon</SimpleData>
+		<SimpleData name="buildingtype">gallo-roman-amphitheater</SimpleData>
+		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 60, &quot;arena-minor&quot;: 40 }</SimpleData>
+		<SimpleData name="moderncountry">France</SimpleData>
+		<SimpleData name="see">http://www.amis-chassenon.org/72+lamphitheatre-de-chassenon.html</SimpleData>
+		<SimpleData name="latintoponym">Cassinomagus</SimpleData>
+		<SimpleData name="visibility">poor</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0.768913,45.850749,217</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>
