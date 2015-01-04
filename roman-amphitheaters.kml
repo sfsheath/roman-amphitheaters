@@ -100,6 +100,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Ludus Magnus Arena</SimpleData>
 		<SimpleData name="buildingtype">practice-arena</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="created">81</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/423025</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
@@ -161,7 +162,7 @@
 		<SimpleData name="title">Amphitheater at Pompeii</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">22000</SimpleData>
-		<SimpleData name="chronogroup">republican</SimpleData>
+		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="created">-80</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 135, &quot;exterior-minor&quot;: 104, &quot;arena-major&quot;: 66, &quot;arena-minor&quot;: 35 }</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/433032</SimpleData>
@@ -225,7 +226,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Cumae</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="chronogroup">republican</SimpleData>
+		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="created">-100</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 114, &quot;exterior-minor&quot;: 84 }</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/432808</SimpleData>
@@ -255,7 +256,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Early Amphitheater at Pozzuoli</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="chronogroup">republican</SimpleData>
+		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="created">-100</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/432815</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
@@ -375,6 +376,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Ludus at Carnuntum</SimpleData>
 		<SimpleData name="buildingtype">practice-arena</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">Austria</SimpleData>
 		<SimpleData name="see">https://www.academia.edu/3791251/The_discovery_of_a_gladiatorial_school_at_Carnuntum</SimpleData>
 		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=aJFH3TCVzTk)</SimpleData>
@@ -487,6 +489,7 @@
 		<SimpleData name="title">Amphitheater at Catinia</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">16000</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 90, &quot;exterior-minor&quot;: 70, &quot;arena-major&quot;: 52, &quot;arena-minor&quot;: 38, &quot;comment&quot;: &quot;Estimates from portion visible on Google Earth.&quot; }</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/462270</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
@@ -498,7 +501,7 @@
 		<SimpleData name="title">Amphitheater at Paestum</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">4500</SimpleData>
-		<SimpleData name="chronogroup">republican</SimpleData>
+		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="created">-75</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 79, &quot;exterior-minor&quot;: 59, &quot;arena-major&quot;: 35, &quot;arena-minor&quot;: 56, &quot;comment&quot;: &quot;Estimates from portion visible on Google Earth.&quot; }</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/442733</SimpleData>
@@ -511,6 +514,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Luna</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 87, &quot;exterior-minor&quot;: 71, &quot;arena-major&quot;: 52, &quot;arena-minor&quot;: 34.500000 }</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/403235</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
@@ -521,6 +525,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Casinum</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/432764</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 	</SchemaData></ExtendedData>
@@ -530,6 +535,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Viminacium</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/207549</SimpleData>
 		<SimpleData name="moderncountry">Serbia</SimpleData>
 	</SchemaData></ExtendedData>
@@ -539,6 +545,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Flavia Solva</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/197273</SimpleData>
 		<SimpleData name="moderncountry">Austria</SimpleData>
 	</SchemaData></ExtendedData>
@@ -548,6 +555,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Rusellae</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/413288</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/413288/location-of-roman-amphitheater</SimpleData>
@@ -558,6 +566,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Paris</SimpleData>
 		<SimpleData name="buildingtype">gallo-roman-amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/109126</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=DStHFfxd_qo)</SimpleData>
@@ -569,6 +578,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Octodurus/Forum Claudii Vallensium</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/167859</SimpleData>
 		<SimpleData name="moderncountry">Switzerland</SimpleData>
 	</SchemaData></ExtendedData>
@@ -578,6 +588,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Cyrene</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/373778</SimpleData>
 		<SimpleData name="moderncountry">Libya</SimpleData>
 	</SchemaData></ExtendedData>
@@ -587,6 +598,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Libarna</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 88, &quot;exterior-minor&quot;: 61, &quot;arena-major&quot;: 65, &quot;arena-minor&quot;: 38 }</SimpleData>
 		<SimpleData name="hypogeum">1</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/383694</SimpleData>
@@ -599,6 +611,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Luceria/Noukeria (Apoulon)</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/442640</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 	</SchemaData></ExtendedData>
@@ -609,7 +622,7 @@
 		<SimpleData name="title">Amphitheater at Abella</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1461.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="chronogroup">republican</SimpleData>
+		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/432617</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Abella</SimpleData>
@@ -633,6 +646,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Charterhouse</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/79534</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/79534/location-of-roman-amphitheater</SimpleData>
@@ -643,6 +657,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Chester</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/79420</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 		<SimpleData name="latintoponym">Deva Victrix</SimpleData>
@@ -653,6 +668,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Gennes</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/138371</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 	</SchemaData></ExtendedData>
@@ -662,6 +678,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Scythopolis/Nysa</SimpleData>
 		<SimpleData name="buildingtype">amphitheater-in-hippodrome</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/678378</SimpleData>
 		<SimpleData name="moderncountry">Israel</SimpleData>
 	</SchemaData></ExtendedData>
@@ -671,6 +688,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Scylletium/Scolacium</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/452439</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/452439/location-of-roman-amphitheater</SimpleData>
@@ -697,6 +715,7 @@
 		<SimpleData name="capacity">15000</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="created">120</SimpleData>
+		<SimpleData name="hypogeum">1</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/315247</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 	</SchemaData></ExtendedData>
@@ -706,6 +725,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Carthago Nova/Col. Urbs Iulia</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/265849</SimpleData>
 		<SimpleData name="moderncountry">Spain</SimpleData>
 	</SchemaData></ExtendedData>
@@ -715,6 +735,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Virunum</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/197583</SimpleData>
 		<SimpleData name="moderncountry">Austria</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/197583/location-of-roman-amphitheater</SimpleData>
@@ -725,6 +746,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Carsulae</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/413065</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/413065/location-of-roman-amphitheater</SimpleData>
@@ -735,6 +757,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Florence</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/413138</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Florentia</SimpleData>
@@ -745,6 +768,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Ocriculum</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/413231</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/413231/location-of-roman-amphitheater</SimpleData>
@@ -755,6 +779,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Lixus</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/275666</SimpleData>
 		<SimpleData name="moderncountry">Morocco</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/275666/location-of-roman-amphitheater</SimpleData>
@@ -778,6 +803,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Larinum</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 98, &quot;exterior-minor&quot;: 86, &quot;arena-major&quot;: 57, &quot;arena-minor&quot;: 40 }</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/442629</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
@@ -789,6 +815,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Lucus Feroniae</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/413184</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/413184/location-of-lucus-feroniae-amphitheater</SimpleData>
@@ -800,6 +827,7 @@
 		<SimpleData name="title">Amphitheater at Allifae</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/2038.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/432658</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 	</SchemaData></ExtendedData>
@@ -809,6 +837,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Cemenelum</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/157834</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/157834/location-of-roman-amphitheater</SimpleData>
@@ -819,6 +848,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Hydata Hypsitana/Forum Traiani</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/471947</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/471947/location-of-roman-amphitheater</SimpleData>
@@ -829,6 +859,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Lucca</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/403234</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/403234/location-of-roman-amphitheater</SimpleData>
@@ -839,6 +870,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Hispellum</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/413170</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/413170/location-of-roman-amphitheater</SimpleData>
@@ -865,6 +897,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Civil Amphitheater at Budapest</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="created">275</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/197130</SimpleData>
 		<SimpleData name="moderncountry">Hungary</SimpleData>
@@ -877,6 +910,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Military Amphitheater at Budapest</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="created">150</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/197130</SimpleData>
 		<SimpleData name="moderncountry">Hungary</SimpleData>
@@ -899,6 +933,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Vesunna</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 131, &quot;exterior-minor&quot;: 113 }</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/138650</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
@@ -910,6 +945,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Cividate Camuno</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/383617</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Civitas Camunnorum</SimpleData>
@@ -921,6 +957,7 @@
 		<SimpleData name="title">Amphitheater at Grumento</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1519.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 90, &quot;exterior-minor&quot;: 70, &quot;arena-major&quot;: 60, &quot;arena-minor&quot;: 40, &quot;source&quot;: &quot;http:\/\/amphi-theatrum.de\/1519.html&quot; }</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/442603</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
@@ -958,7 +995,7 @@
 		<SimpleData name="title">Amphitheater at Sutrium</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">8500</SimpleData>
-		<SimpleData name="chronogroup">republican</SimpleData>
+		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="created">-50</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/413328</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
@@ -972,6 +1009,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Ulpia Traiana Sarmizegetusa</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/207527</SimpleData>
 		<SimpleData name="moderncountry">Romania</SimpleData>
 		<SimpleData name="latintoponym">Ulpia Traiana Sarmizegetusa</SimpleData>
@@ -982,6 +1020,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Salona</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/197488</SimpleData>
 		<SimpleData name="moderncountry">Croatia</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/197488/location-of-roman-amphitheater</SimpleData>
@@ -992,6 +1031,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at London</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/79574</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=qvw9xA-hTz8)</SimpleData>
@@ -1003,6 +1043,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Tibur</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/423081</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1012,6 +1053,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Caerleon</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/79532</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 		<SimpleData name="youtube">(2:https://www.youtube.com/watch?v=VIT1JAOadho,...)</SimpleData>
@@ -1023,7 +1065,7 @@
 		<SimpleData name="title">Amphitheater at Telesia</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">9000</SimpleData>
-		<SimpleData name="chronogroup">republican</SimpleData>
+		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="created">-75</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/433147</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
@@ -1050,6 +1092,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Saintes</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/138458</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=2TCI21s-bxM)</SimpleData>
@@ -1060,6 +1103,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Assisi</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/413037</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=uLSmRRxtf4M)</SimpleData>
@@ -1084,6 +1128,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Lambaesis</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/334570</SimpleData>
 		<SimpleData name="moderncountry">Algeria</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1094,6 +1139,7 @@
 		<SimpleData name="title">Amphitheater at Mactaris</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">5000</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/324774</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1104,6 +1150,7 @@
 		<SimpleData name="title">Amphitheater at Cirencester</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1490.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/197225</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 		<SimpleData name="youtube">(3:https://www.youtube.com/watch?v=9RFDium7TYU,...)</SimpleData>
@@ -1168,6 +1215,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Gortyn</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="created">150</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/589796</SimpleData>
 		<SimpleData name="moderncountry">Greece</SimpleData>
@@ -1179,6 +1227,7 @@
 		<SimpleData name="title">Amphitheater at Leptiminus</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">9000</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/324767</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1189,6 +1238,7 @@
 		<SimpleData name="title">Amphitheater at Micia</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">1500</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/207286</SimpleData>
 		<SimpleData name="moderncountry">Romania</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1199,7 +1249,7 @@
 		<SimpleData name="title">Amphitheater at Gemellae</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">3000</SimpleData>
-		<SimpleData name="chronogroup">republican</SimpleData>
+		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="created">130</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/334553</SimpleData>
 		<SimpleData name="moderncountry">Algeria</SimpleData>
@@ -1211,6 +1261,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Cherchell</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/295279</SimpleData>
 		<SimpleData name="moderncountry">Algeria</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1236,7 +1287,7 @@
 		<SimpleData name="title">Amphitheater at Carmona</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">8000</SimpleData>
-		<SimpleData name="chronogroup">republican</SimpleData>
+		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="comment">Size is only estimate based Welch reporting a comparison with Sutrium.</SimpleData>
 		<SimpleData name="created">-50</SimpleData>
 		<SimpleData name="moderncountry">Spain</SimpleData>
@@ -1248,6 +1299,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Caesarea</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="comment">Date very approximate.</SimpleData>
 		<SimpleData name="created">150</SimpleData>
 		<SimpleData name="moderncountry">Israel</SimpleData>
@@ -1270,6 +1322,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Anazarbus</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 109, &quot;exterior-minor&quot;: 80, &quot;arena-major&quot;: 60, &quot;arena-minor&quot;: 43 }</SimpleData>
 		<SimpleData name="moderncountry">Turkey</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1279,7 +1332,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Antioch</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="chronogroup">republican</SimpleData>
+		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="comment">Location not specific.</SimpleData>
 		<SimpleData name="created">-50</SimpleData>
 		<SimpleData name="moderncountry">Turkey</SimpleData>
@@ -1291,6 +1344,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Cyzicus</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="comment">Location not specific.</SimpleData>
 		<SimpleData name="moderncountry">Turkey</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1311,6 +1365,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Salamis</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">Northern Cyprus</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>33.902435,35.185517,6</coordinates></Point>
@@ -1319,6 +1374,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Paphos</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">Cyprus</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>32.405344,34.754942,6</coordinates></Point>
@@ -1327,6 +1383,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Carmarthen</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-4.296651,51.862005,29</coordinates></Point>
@@ -1335,6 +1392,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Caerwent</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-2.766307,51.612173,25</coordinates></Point>
@@ -1343,6 +1401,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Tomen y Mur</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-3.9235,52.931893,295</coordinates></Point>
@@ -1352,7 +1411,7 @@
 		<SimpleData name="title">Amphitheater at Thaenae</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">8700</SimpleData>
-		<SimpleData name="chronogroup">republican</SimpleData>
+		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="created">125</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="golvinID">71</SimpleData>
@@ -1398,6 +1457,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Susa</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="created">-20</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Segusium</SimpleData>
@@ -1408,6 +1468,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Ivrea</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latinName">Eporedia</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1417,6 +1478,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Bararus</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="comment">Unfinished? Considered the last North African amphitheater.</SimpleData>
 		<SimpleData name="created">220</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/324673</SimpleData>
@@ -1456,6 +1518,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Ptolemais</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 40, &quot;arena-minor&quot;: 25 }</SimpleData>
 		<SimpleData name="moderncountry">Libya</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1465,6 +1528,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Toulouse</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="created">50</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1474,6 +1538,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Caparra</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 30, &quot;arena-minor&quot;: 19 }</SimpleData>
 		<SimpleData name="moderncountry">Spain</SimpleData>
 		<SimpleData name="latintoponym">Municipium Flavium Caparense</SimpleData>
@@ -1529,6 +1594,7 @@
 		<SimpleData name="title">Amphitheater at Poitiers</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1381.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 108, &quot;exterior-minor&quot;: 88 }</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="latintoponym">Limonum Pictonum</SimpleData>
@@ -1540,7 +1606,7 @@
 		<SimpleData name="title">Amphitheater at Reims</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1394.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="chronogroup">unassigned</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="latintoponym">Durocortorum</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1552,7 +1618,7 @@
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1484.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">15000</SimpleData>
-		<SimpleData name="chronogroup">unassigned</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="latintoponym">Segodonum</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1677,7 +1743,7 @@
 		<SimpleData name="title">Amphitheater at Benevento</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1776.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="chronogroup">republican</SimpleData>
+		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Beneventum</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1688,7 +1754,7 @@
 		<SimpleData name="title">Amphitheater at Calvi Risorta</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1462.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="chronogroup">republican</SimpleData>
+		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Cales</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1710,6 +1776,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Béziers</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="latintoponym">Baeterrae</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1721,6 +1788,7 @@
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1552.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">15000</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="created">215</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
@@ -1902,6 +1970,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Braga</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">Portugal</SimpleData>
 		<SimpleData name="latintoponym">Bracara Augusta</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
@@ -1912,6 +1981,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Sisapo</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">Spain</SimpleData>
 		<SimpleData name="visibility">partial</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1921,6 +1991,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at León</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">Spain</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1930,6 +2001,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Autun</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="latintoponym">Augustodunum</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
@@ -1942,6 +2014,7 @@
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1450.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">10000</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">Germany</SimpleData>
 		<SimpleData name="see">https://3dwarehouse.sketchup.com/model.html?id=16596dabb2ebd0469b2513a62f433bae</SimpleData>
 		<SimpleData name="latintoponym">Colonia Ulpia Traiana</SimpleData>
@@ -1954,6 +2027,7 @@
 		<SimpleData name="title">Amphitheater at Arnsburg</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1896.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">Germany</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1964,6 +2038,7 @@
 		<SimpleData name="title">Amphitheater at Ierapetra</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/2128.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">Greece</SimpleData>
 		<SimpleData name="see">https://www.academia.edu/1557389/Rediscovering_the_small_theatre_and_amphitheatre_of_ancient_Ierapytna_SE_Crete_</SimpleData>
 		<SimpleData name="visibility">partial</SimpleData>
@@ -1975,6 +2050,7 @@
 		<SimpleData name="title">Amphitheater at Künzing</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1876.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">Germany</SimpleData>
 		<SimpleData name="latintoponym">Quintana</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
@@ -1987,6 +2063,7 @@
 		<SimpleData name="title">Amphitheater at Nocera Superiore</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1515.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Nuceria Alfaterna</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
@@ -1998,6 +2075,7 @@
 		<SimpleData name="title">Amphitheater at Bobadela</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1975.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">Portugal</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 	</SchemaData></ExtendedData>
@@ -2008,6 +2086,7 @@
 		<SimpleData name="title">Amphitheater at Sopron</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1975.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">Hungary</SimpleData>
 		<SimpleData name="latintoponym">Scarabantia</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
@@ -2018,6 +2097,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Nyon</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">Switzerland</SimpleData>
 		<SimpleData name="latintoponym">Colonia Iulia Equestris</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
@@ -2028,6 +2108,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Bern</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">Switzerland</SimpleData>
 		<SimpleData name="latintoponym">Bremodorum</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
@@ -2039,6 +2120,7 @@
 		<SimpleData name="title">Amphitheater at “Dambach”</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1792.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">Germany</SimpleData>
 		<SimpleData name="see">http://www.deutsche-limeskommission.de/fileadmin/dlk/images/dlk/pdfs/Der_Limes_3_2009_2.pdf</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
@@ -2052,6 +2134,7 @@
 		<SimpleData name="title">Amphitheater at Burnum</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1878.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">Croatia</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 	</SchemaData></ExtendedData>
@@ -2062,6 +2145,7 @@
 		<SimpleData name="title">Amphitheater at Gleisdorf</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/2424.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">Austria</SimpleData>
 		<SimpleData name="see">https://www.academia.edu/804203/Amphitheater_in_Noricum</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
@@ -2073,6 +2157,7 @@
 		<SimpleData name="title">Amphitheater at Skikda</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1505.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">Algeria</SimpleData>
 		<SimpleData name="latintoponym">Rusicade</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
@@ -2084,6 +2169,7 @@
 		<SimpleData name="title">Amphitheater at Bosra</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/2002.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">Syria</SimpleData>
 		<SimpleData name="latintoponym">Nova Trajana Bostra</SimpleData>
 		<SimpleData name="visibility">partial</SimpleData>
@@ -2094,6 +2180,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Possible Amphitheater at Palmyra</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">Syria</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
 		<SimpleData name="certainty">uncertain</SimpleData>
@@ -2106,6 +2193,7 @@
 		<SimpleData name="title">Amphitheater at Saint Marcel</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1618.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="see">http://www.persee.fr/web/revues/home/prescript/article/galia_0016-4119_1968_num_26_2_2505</SimpleData>
 		<SimpleData name="latintoponym">Argentomagus</SimpleData>
@@ -2136,6 +2224,7 @@
 		<SimpleData name="title">Half Amphitheater at Grand</SimpleData>
 		<SimpleData name="buildingtype">gallo-roman-amphitheater</SimpleData>
 		<SimpleData name="capacity">17000</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 179, &quot;arena-major&quot;: 50, &quot;arena-minor&quot;: 41 }</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
@@ -2146,6 +2235,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Albegna</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Albingaunum</SimpleData>
 		<SimpleData name="visibility">partial</SimpleData>
@@ -2156,6 +2246,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Aquino</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Aquinum</SimpleData>
 		<SimpleData name="visibility">partial</SimpleData>
@@ -2166,6 +2257,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Bourges</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="comment">Dimensions very approximate on the basis of modern street plan.</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 108, &quot;exterior-minor&quot;: 70 }</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
@@ -2178,6 +2270,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Chassenon</SimpleData>
 		<SimpleData name="buildingtype">gallo-roman-amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="comment">No longer extant and structure may have been a theater. Dimensions from 1844 publication.</SimpleData>
 		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 60, &quot;arena-minor&quot;: 40 }</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
@@ -2191,6 +2284,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Drevant</SimpleData>
 		<SimpleData name="buildingtype">gallo-roman-amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="comment">Arena oval is almost complete so very a near a “full” amphitheater.</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 56, &quot;arena-major&quot;: 25 }</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
@@ -2204,6 +2298,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Fahs</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 68, &quot;exterior-minor&quot;: 52, &quot;arena-major&quot;: 44, &quot;arena-minor&quot;: 32 }</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="latintoponym"></SimpleData>
@@ -2229,6 +2324,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Bekalta</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 80, &quot;exterior-minor&quot;: 62, &quot;arena-major&quot;: 57, &quot;arena-minor&quot;: 39 }</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="latintoponym">Thapsus</SimpleData>
@@ -2241,6 +2337,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Sidi bou Arkoub</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 56, &quot;exterior-minor&quot;: 38, &quot;arena-major&quot;: 38, &quot;arena-minor&quot;: 22 }</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="latintoponym">Thimisua</SimpleData>
