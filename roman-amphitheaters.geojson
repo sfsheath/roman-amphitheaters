@@ -54,6 +54,7 @@
           },
         "emperor": "Septimius Severus",
         "hypogeum": false,
+        "label": "Dura",
         "pleiades": "http://pleiades.stoa.org/places/893989",
         "moderncountry": "Syria"
       },
@@ -83,6 +84,7 @@
           "arena-minor": 32
           },
         "hypogeum": true,
+        "label": "Arles",
         "pleiades": "http://pleiades.stoa.org/places/148217",
         "moderncountry": "France",
         "see":"http://pleiades.stoa.org/places/148217/location-of-roman-amphitheater",
@@ -111,6 +113,7 @@
         "created": 19,
         "dimensions": {"arena-major": 67.6, "arena-minor": 42},
         "emperor": "Tiberius",
+        "label": "Lyon",
         "latintoponym": "Lugdunum", 
         "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/167717",
@@ -132,6 +135,7 @@
         "buildingtype": "practice-arena",
         "chronogroup": "Imperial",
         "created":81,
+        "label": "Ludus Magnus",
         "pleiades": "http://pleiades.stoa.org/places/423025",
         "moderncountry": "Italy",
         "wikipedia":"http://en.wikipedia.org/wiki/Ludus_Magnus"
@@ -161,6 +165,7 @@
            "arena-minor": 48
            },
         "emperor": "Vespasian",
+        "label": "Colosseum",
         "pleiades": "http://pleiades.stoa.org/places/423025",
         "moderncountry": "Italy",
         "see":"http://pleiades.stoa.org/places/285857974/centerpoint-of-amphitheatrum-flavium",
@@ -192,6 +197,7 @@
         },
         "emperor": "Caracalla",
         "golvinID": "189",
+        "label": "Amph. Castrense",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/423025",
         "wikipedia":"http://en.wikipedia.org/wiki/Amphitheatrum_Castrense"
@@ -220,6 +226,7 @@
           "arena-major": 47,
           "arena-minor": 38 
          },
+        "label": "Eleutheropolis",
         "last-use": 363,
         "moderncountry": "Israel",
         "pleiades": "http://pleiades.stoa.org/places/687854",
@@ -250,6 +257,7 @@
           "arena-major": 66,
           "arena-minor": 35 
          },
+        "label": "Eleutheropolis",
         "last-use":79,
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/433032",
@@ -294,6 +302,7 @@
          },
         "emperor": "Augustus",
         "hypogeum": true,
+        "label": "Mérida",
         "latintoponym": "Emerita Augusta",
         "moderncountry": "Spain",
         "pleiades": "http://pleiades.stoa.org/places/256155",
@@ -327,6 +336,7 @@
           "arena-minor": 23,
           "source": "http://amphi-theatrum.de/1899.html"
          },
+        "label": "Newstead",
         "latintoponum": "Trimontium",
         "moderncountry": "United Kingdom",
         "pleiades": "http://pleiades.stoa.org/places/89304"
@@ -349,6 +359,7 @@
         "capacity":4000,
         "chronogroup": "Julio-Claudian",
         "created":50,
+        "label": "Conimbriga",
         "moderncountry": "Portugal",
         "pleiades": "http://pleiades.stoa.org/places/236443"
       },
@@ -373,6 +384,7 @@
           "exterior-major": 114,
           "exterior-minor": 84
         },
+        "label": "Cumae",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/432808",
         "see":"http://pleiades.stoa.org/places/432808/location-of-roman-amphitheater",
@@ -403,6 +415,7 @@
           "arena-minor": 42,
           "source": "Bomgardner"
          },
+        "label": "Pozzuoli (Flavian)",
         "moderncountry": "Italy",
         "period": "Vespasian",
         "pleiades": "http://pleiades.stoa.org/places/432815",
@@ -429,6 +442,7 @@
         "buildingtype": "amphitheater",
         "chronogroup":"Republican",
         "created":-100,
+        "label": "Pozzuoli (Early)",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/432815"
       },
@@ -2084,7 +2098,8 @@
       "properties":{
         "title":"Amphitheater at Lambaesis",
         "buildingtype": "amphitheater",
-        "chronogroup": "Imperial",
+        "capacity": 15000,
+        "chronogroup": "Second Century",
         "moderncountry": "Algeria",
         "pleiades": "http://pleiades.stoa.org/places/334570"
       },
@@ -2728,6 +2743,7 @@
       "properties":{
         "title":"Amphitheater at Bararus",
         "buildingtype": "amphitheater",
+        "capacity": 12000,
         "chronogroup": "Imperial",
         "comment": "Unfinished? Considered the last North African amphitheater.",
         "created": 220,
@@ -2795,6 +2811,7 @@
       "properties":{
         "title":"Amphitheater at Ptolemais",
         "buildingtype": "amphitheater",
+        "capacity": 16000,
         "chronogroup": "Imperial",
         "dimensions": {
           "arena-major": 40,
@@ -3943,6 +3960,7 @@
         "title": "Amphitheater at Skikda",
         "amphitheatrum": "http://amphi-theatrum.de/1505.html",
         "buildingtype": "amphitheater",
+        "capacity": 6000,
         "chronogroup": "Imperial",
         "latintoponym": "Rusicade",
         "moderncountry": "Algeria",
@@ -4277,6 +4295,7 @@
       "properties": {
         "title": "Amphitheater at Sidi bou Arkoub",
         "buildingtype": "amphitheater",
+        "capacity": 3200,
         "chronogroup": "Imperial",
         "dimensions": {
           "exterior-major": 56,

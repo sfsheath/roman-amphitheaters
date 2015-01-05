@@ -13,6 +13,7 @@
 	<SimpleField name="dimensions" type="string"></SimpleField>
 	<SimpleField name="emperor" type="string"></SimpleField>
 	<SimpleField name="hypogeum" type="int"></SimpleField>
+	<SimpleField name="label" type="string"></SimpleField>
 	<SimpleField name="pleiades" type="string"></SimpleField>
 	<SimpleField name="moderncountry" type="string"></SimpleField>
 	<SimpleField name="see" type="string"></SimpleField>
@@ -55,6 +56,7 @@
 		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 31, &quot;arena-minor&quot;: 25 }</SimpleData>
 		<SimpleData name="emperor">Septimius Severus</SimpleData>
 		<SimpleData name="hypogeum">0</SimpleData>
+		<SimpleData name="label">Dura</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/893989</SimpleData>
 		<SimpleData name="moderncountry">Syria</SimpleData>
 	</SchemaData></ExtendedData>
@@ -70,6 +72,7 @@
 		<SimpleData name="created">90</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 136, &quot;exterior-minor&quot;: 107, &quot;arena-major&quot;: 47, &quot;arena-minor&quot;: 32 }</SimpleData>
 		<SimpleData name="hypogeum">1</SimpleData>
+		<SimpleData name="label">Arles</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/148217</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="see">http://pleiades.stoa.org/places/148217/location-of-roman-amphitheater</SimpleData>
@@ -89,6 +92,7 @@
 		<SimpleData name="created">19</SimpleData>
 		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 67.600000, &quot;arena-minor&quot;: 42 }</SimpleData>
 		<SimpleData name="emperor">Tiberius</SimpleData>
+		<SimpleData name="label">Lyon</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/167717</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls</SimpleData>
@@ -102,6 +106,7 @@
 		<SimpleData name="buildingtype">practice-arena</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="created">81</SimpleData>
+		<SimpleData name="label">Ludus Magnus</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/423025</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Ludus_Magnus</SimpleData>
@@ -117,6 +122,7 @@
 		<SimpleData name="created">80</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 189, &quot;exterior-minor&quot;: 156, &quot;arena-major&quot;: 83, &quot;arena-minor&quot;: 48 }</SimpleData>
 		<SimpleData name="emperor">Vespasian</SimpleData>
+		<SimpleData name="label">Colosseum</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/423025</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="see">http://pleiades.stoa.org/places/285857974/centerpoint-of-amphitheatrum-flavium</SimpleData>
@@ -135,6 +141,7 @@
 		<SimpleData name="created">218</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 88, &quot;exterior-minor&quot;: 75.800000 }</SimpleData>
 		<SimpleData name="emperor">Caracalla</SimpleData>
+		<SimpleData name="label">Amph. Castrense</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/423025</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Amphitheatrum_Castrense</SimpleData>
@@ -150,6 +157,7 @@
 		<SimpleData name="capacity">3500</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 71, &quot;exterior-minor&quot;: 56, &quot;arena-major&quot;: 47, &quot;arena-minor&quot;: 38 }</SimpleData>
+		<SimpleData name="label">Eleutheropolis</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/687854</SimpleData>
 		<SimpleData name="moderncountry">Israel</SimpleData>
 		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=bA6YNf8ZwlI)</SimpleData>
@@ -165,6 +173,7 @@
 		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="created">-80</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 135, &quot;exterior-minor&quot;: 104, &quot;arena-major&quot;: 66, &quot;arena-minor&quot;: 35 }</SimpleData>
+		<SimpleData name="label">Eleutheropolis</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/433032</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="see">[ &quot;https:\/\/3dwarehouse.sketchup.com\/model.html?redirect=1&amp;mid=6971b010096197d8dfd89dd71a555b12&quot;, &quot;http:\/\/pleiades.stoa.org\/places\/433032\/amphitheater-of-pompeii&quot; ]</SimpleData>
@@ -186,6 +195,7 @@
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 126, &quot;exterior-minor&quot;: 102, &quot;arena-major&quot;: 64, &quot;arena-minor&quot;: 41 }</SimpleData>
 		<SimpleData name="emperor">Augustus</SimpleData>
 		<SimpleData name="hypogeum">1</SimpleData>
+		<SimpleData name="label">Mérida</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/256155</SimpleData>
 		<SimpleData name="moderncountry">Spain</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Mérida_amphitheatre</SimpleData>
@@ -204,6 +214,7 @@
 		<SimpleData name="comment">Date based on main period of military activity at the site.</SimpleData>
 		<SimpleData name="created">80</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 70, &quot;exterior-minor&quot;: 60, &quot;arena-major&quot;: 37, &quot;arena-minor&quot;: 23, &quot;source&quot;: &quot;http:\/\/amphi-theatrum.de\/1899.html&quot; }</SimpleData>
+		<SimpleData name="label">Newstead</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/89304</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 		<SimpleData name="latintoponum">Trimontium</SimpleData>
@@ -217,6 +228,7 @@
 		<SimpleData name="capacity">4000</SimpleData>
 		<SimpleData name="chronogroup">Julio-Claudian</SimpleData>
 		<SimpleData name="created">50</SimpleData>
+		<SimpleData name="label">Conimbriga</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/236443</SimpleData>
 		<SimpleData name="moderncountry">Portugal</SimpleData>
 	</SchemaData></ExtendedData>
@@ -229,6 +241,7 @@
 		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="created">-100</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 114, &quot;exterior-minor&quot;: 84 }</SimpleData>
+		<SimpleData name="label">Cumae</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/432808</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="see">http://pleiades.stoa.org/places/432808/location-of-roman-amphitheater</SimpleData>
@@ -244,6 +257,7 @@
 		<SimpleData name="chronogroup">Flavian</SimpleData>
 		<SimpleData name="created">70</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 149, &quot;exterior-minor&quot;: 116, &quot;arena-major&quot;: 74.800000, &quot;arena-minor&quot;: 42, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="label">Pozzuoli (Flavian)</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/432815</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Flavian_Amphitheater_(Pozzuoli)</SimpleData>
@@ -258,6 +272,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="created">-100</SimpleData>
+		<SimpleData name="label">Pozzuoli (Early)</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/432815</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1128,7 +1143,8 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Lambaesis</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="capacity">15000</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/334570</SimpleData>
 		<SimpleData name="moderncountry">Algeria</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1478,6 +1494,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Bararus</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="capacity">12000</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="comment">Unfinished? Considered the last North African amphitheater.</SimpleData>
 		<SimpleData name="created">220</SimpleData>
@@ -1518,6 +1535,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Ptolemais</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="capacity">16000</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 40, &quot;arena-minor&quot;: 25 }</SimpleData>
 		<SimpleData name="moderncountry">Libya</SimpleData>
@@ -2157,6 +2175,7 @@
 		<SimpleData name="title">Amphitheater at Skikda</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1505.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="capacity">6000</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="moderncountry">Algeria</SimpleData>
 		<SimpleData name="latintoponym">Rusicade</SimpleData>
@@ -2337,6 +2356,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Sidi bou Arkoub</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="capacity">3200</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 56, &quot;exterior-minor&quot;: 38, &quot;arena-major&quot;: 38, &quot;arena-minor&quot;: 22 }</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
