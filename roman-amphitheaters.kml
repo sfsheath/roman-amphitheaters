@@ -313,6 +313,7 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Hadrian's Villa at Tivoli</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="capacity">500</SimpleData>
 		<SimpleData name="chronogroup">Hadrianic</SimpleData>
 		<SimpleData name="created">120</SimpleData>
 		<SimpleData name="label">Tivoli Villa</SimpleData>
@@ -1029,6 +1030,7 @@
 		<SimpleData name="capacity">6000</SimpleData>
 		<SimpleData name="chronogroup">Severan</SimpleData>
 		<SimpleData name="created">200</SimpleData>
+		<SimpleData name="label">Aug. Raurica</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/177494</SimpleData>
 		<SimpleData name="moderncountry">Switzerland</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/177494/location-of-roman-amphitheater</SimpleData>
@@ -1042,6 +1044,7 @@
 		<SimpleData name="capacity">8500</SimpleData>
 		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="created">-50</SimpleData>
+		<SimpleData name="label">Sutrium</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/413328</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=OgHl5MT95bg)</SimpleData>
@@ -1113,6 +1116,7 @@
 		<SimpleData name="capacity">9000</SimpleData>
 		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="created">-75</SimpleData>
+		<SimpleData name="label">Telesia</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/433147</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="welch-id">9</SimpleData>
@@ -1127,6 +1131,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">5150</SimpleData>
 		<SimpleData name="chronogroup">Flavian</SimpleData>
+		<SimpleData name="label">Urbs Salvia</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/413364</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Urbs Saglia</SimpleData>
@@ -1259,6 +1264,7 @@
 		<SimpleData name="capacity">12000</SimpleData>
 		<SimpleData name="chronogroup">Flavian</SimpleData>
 		<SimpleData name="created">100</SimpleData>
+		<SimpleData name="label">Fréjus</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/157836</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="latintoponym">Forum Julii</SimpleData>
@@ -1282,6 +1288,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">9000</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="label">Leptiminus</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/324767</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1293,6 +1300,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">1500</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="label">Micia</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/207286</SimpleData>
 		<SimpleData name="moderncountry">Romania</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1346,6 +1354,7 @@
 		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="comment">Size is only estimate based Welch reporting a comparison with Sutrium.</SimpleData>
 		<SimpleData name="created">-50</SimpleData>
+		<SimpleData name="label">Carmona</SimpleData>
 		<SimpleData name="moderncountry">Spain</SimpleData>
 		<SimpleData name="welch-id">17</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1471,6 +1480,7 @@
 		<SimpleData name="capacity">8700</SimpleData>
 		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="created">125</SimpleData>
+		<SimpleData name="label">Thaenae</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="golvinID">71</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1544,6 +1554,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="comment">Unfinished? Considered the last North African amphitheater.</SimpleData>
 		<SimpleData name="created">220</SimpleData>
+		<SimpleData name="label">Bararus</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/324673</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1586,6 +1597,7 @@
 		<SimpleData name="capacity">16000</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 40, &quot;arena-minor&quot;: 25 }</SimpleData>
+		<SimpleData name="label">Ptolemais</SimpleData>
 		<SimpleData name="moderncountry">Libya</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>20.945728,32.707953,12</coordinates></Point>
@@ -1863,6 +1875,7 @@
 		<SimpleData name="capacity">15000</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="created">215</SimpleData>
+		<SimpleData name="label">Agen</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
 	</SchemaData></ExtendedData>
@@ -2048,6 +2061,7 @@
 		<SimpleData name="title">Amphitheater at Braga</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="label">Braga</SimpleData>
 		<SimpleData name="moderncountry">Portugal</SimpleData>
 		<SimpleData name="latintoponym">Bracara Augusta</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>

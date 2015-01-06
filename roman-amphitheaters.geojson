@@ -520,6 +520,7 @@
         "title":"Amphitheater at Hadrian's Villa at Tivoli",
         "buildingtype": "amphitheater",
         "private": true,
+        "capacity": 500,
         "chronogroup": "Hadrianic",
         "created":120,
         "label": "Tivoli Villa",
@@ -1864,6 +1865,7 @@
         "created" : 200,
         "capacity" : 6000,
         "chronogroup": "Severan",
+        "label": "Aug. Raurica",
         "moderncountry": "Switzerland",
         "pleiades": "http://pleiades.stoa.org/places/177494",
         "source":"http://pleiades.stoa.org/places/177494/location-of-roman-amphitheater"
@@ -1889,6 +1891,7 @@
         "capacity":8500,
         "chronogroup": "Republican",
         "created":-50,
+        "label": "Sutrium",
         "moderncountry": "Italy",
         "welch-id": "15",
         "youtube": ["https://www.youtube.com/watch?v=OgHl5MT95bg"]
@@ -2019,8 +2022,9 @@
         "created": -75,
         "capacity": 9000,
         "chronogroup": "Republican",
-        "pleiades": "http://pleiades.stoa.org/places/433147",
+        "label": "Telesia",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/433147",
         "source":"http://pleiades.stoa.org/places/433147/location-of-roman-amphitheater",
         "welch-id":"9"
       },
@@ -2043,6 +2047,7 @@
         "capacity": 5150,
         "chronogroup": "Flavian",
         "creation": 81,
+        "label": "Urbs Salvia",
         "latintoponym": "Urbs Saglia",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/413364"
@@ -2278,6 +2283,7 @@
         "capacity": 12000,
         "created": 100,
         "chronogroup": "Flavian",
+        "label": "Fréjus",
         "latintoponym": "Forum Julii",
         "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/157836"
@@ -2318,6 +2324,7 @@
         "buildingtype": "amphitheater",
         "capacity": 9000,
         "chronogroup": "Imperial",
+        "label": "Leptiminus",
         "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/324767"
       },
@@ -2337,6 +2344,7 @@
         "buildingtype": "amphitheater",
         "capacity": 1500,
         "chronogroup": "Imperial",
+        "label": "Micia",
         "moderncountry": "Romania",
         "pleiades": "http://pleiades.stoa.org/places/207286"
       },
@@ -2429,6 +2437,7 @@
         "capacity": 8000,
         "chronogroup":"Republican",
         "comment": "Size is only estimate based Welch reporting a comparison with Sutrium.",
+        "label": "Carmona",
         "moderncountry": "Spain",
         "welch-id": "17"
       },
@@ -2666,6 +2675,7 @@
         "capacity" : 8700,
         "chronogroup": "Republican",
         "golvinID": "71",
+        "label": "Thaenae",
         "moderncountry": "Tunisia"
       },
       "geometry":{
@@ -2793,6 +2803,7 @@
         "chronogroup": "Imperial",
         "comment": "Unfinished? Considered the last North African amphitheater.",
         "created": 220,
+        "label": "Bararus",
         "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/324673"
       },
@@ -2865,6 +2876,7 @@
           "arena-major": 40,
           "arena-minor": 25
         },
+        "label": "Ptolemais",
         "moderncountry": "Libya"
       },
       "geometry":{
@@ -3369,6 +3381,7 @@
         "capacity": 15000,
         "chronogroup": "Imperial",
         "created": 215,
+        "label": "Agen",
         "moderncountry": "France",
         "visibility": "none"
       },
@@ -3686,6 +3699,7 @@
         "title": "Amphitheater at Braga",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Braga",
         "latintoponym": "Bracara Augusta",
         "moderncountry": "Portugal",
         "visibility": "none"
