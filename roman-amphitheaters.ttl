@@ -68,7 +68,7 @@
         <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/89209>
     ] .
 
-<http://purl.org/roman-amphitheaters/id/allifaeAmphitheatre>
+<http://purl.org/roman-amphitheaters/id/allifaeAmphitheater>
     <http://geovocab.org/geometry#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.4334997E1
@@ -357,7 +357,8 @@
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
         <http://purl.org/dc/terms/title> "Amphitheater at Bekalta" ;
-        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
+        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
+        <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/324827>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/beneventoAmphitheater>
@@ -733,6 +734,7 @@
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
         <http://purl.org/dc/terms/title> "Ludus at Carnuntum" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/practice-arena> ;
+        <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/128376> ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.academia.edu/3791251/The_discovery_of_a_gladiatorial_school_at_Carnuntum>
     ] .
 
@@ -753,7 +755,7 @@
         <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/128376>
     ] .
 
-<http://purl.org/roman-amphitheaters/id/carsulaeAmphitheatre>
+<http://purl.org/roman-amphitheaters/id/carsulaeAmphitheater>
     <http://geovocab.org/geometry#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.25596789E1
@@ -787,7 +789,7 @@
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://en.wikipedia.org/wiki/Carthage_amphitheatre>
     ] .
 
-<http://purl.org/roman-amphitheaters/id/carthagoNovaAmphitheatre>
+<http://purl.org/roman-amphitheaters/id/carthagoNovaAmphitheater>
     <http://geovocab.org/geometry#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-9.801609999999999E-1
@@ -854,7 +856,7 @@
         <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/462270>
     ] .
 
-<http://purl.org/roman-amphitheaters/id/cemenelumAmphitheatre>
+<http://purl.org/roman-amphitheaters/id/cemenelumAmphitheater>
     <http://geovocab.org/geometry#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (7.2752435E0
@@ -870,7 +872,7 @@
         <http://www.w3.org/ns/prov#wasDerivedFrom> <http://pleiades.stoa.org/places/157834/location-of-roman-amphitheater>
     ] .
 
-<http://purl.org/roman-amphitheaters/id/charterhouseAmphitheatre>
+<http://purl.org/roman-amphitheaters/id/charterhouseAmphitheater>
     <http://geovocab.org/geometry#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-2.720301E0
@@ -949,7 +951,7 @@
         <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/295279>
     ] .
 
-<http://purl.org/roman-amphitheaters/id/chesterAmphitheatre>
+<http://purl.org/roman-amphitheaters/id/chesterAmphitheater>
     <http://geovocab.org/geometry#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-2.886928E0
@@ -1267,7 +1269,7 @@
         <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/197273>
     ] .
 
-<http://purl.org/roman-amphitheaters/id/florenceAmphitheatre>
+<http://purl.org/roman-amphitheaters/id/florenceAmphitheater>
     <http://geovocab.org/geometry#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.12595198E1
@@ -1319,7 +1321,7 @@
         <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/334553>
     ] .
 
-<http://purl.org/roman-amphitheaters/id/gennesAmphitheatre>
+<http://purl.org/roman-amphitheaters/id/gennesAmphitheater>
     <http://geovocab.org/geometry#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-2.386057E-1
@@ -1333,6 +1335,24 @@
         <http://purl.org/dc/terms/title> "Amphitheater at Gennes" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
         <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/138371>
+    ] .
+
+<http://purl.org/roman-amphitheaters/id/genzanoPrivateAmphitheater>
+    <http://geovocab.org/geometry#geometry> [
+        a <http://geovocab.org/geometry#Point> ;
+        rdf:value (1.2696433E1
+            4.169286E1
+            370
+        ) ;
+        <http://www.w3.org/ns/prov#wasDerivedFrom> <http://maps.google.com/>
+    ] ;
+    a <http://geovocab.org/spatial#Feature> ;
+    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://dbpedia.org/property/seatingCapacity> 1300 ;
+        <http://purl.org/dc/terms/title> "Private Amphitheater at Genzano" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
+        <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/422838> ;
+        <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.fastionline.org/record_view.php?fst_cd=AIAC_2694>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/gleisdorfAmphitheater>
@@ -1511,7 +1531,7 @@
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
     ] .
 
-<http://purl.org/roman-amphitheaters/id/lambaesisAmphitheatre>
+<http://purl.org/roman-amphitheaters/id/lambaesisAmphitheater>
     <http://geovocab.org/geometry#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (6.259935E0
@@ -1528,7 +1548,7 @@
         <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/334570>
     ] .
 
-<http://purl.org/roman-amphitheaters/id/larinumAmphitheatre>
+<http://purl.org/roman-amphitheaters/id/larinumAmphitheater>
     <http://geovocab.org/geometry#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.49159226E1
@@ -1672,7 +1692,7 @@
         <http://www.w3.org/2000/01/rdf-schema#comment> "Location is incorrect. Said to be south of city wall."
     ] .
 
-<http://purl.org/roman-amphitheaters/id/lixusAmphitheatre>
+<http://purl.org/roman-amphitheaters/id/lixusAmphitheater>
     <http://geovocab.org/geometry#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-6.1084683E0
@@ -1720,7 +1740,7 @@
         <http://www.w3.org/ns/prov#wasDerivedFrom> <http://pleiades.stoa.org/places/403234/location-of-roman-amphitheater>
     ] .
 
-<http://purl.org/roman-amphitheaters/id/luceriaNoukeriaAmphitheatre>
+<http://purl.org/roman-amphitheaters/id/luceriaNoukeriaAmphitheater>
     <http://geovocab.org/geometry#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.5344984E1
@@ -1736,7 +1756,7 @@
         <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/442640>
     ] .
 
-<http://purl.org/roman-amphitheaters/id/lucusFeroniaeAmphitheatre>
+<http://purl.org/roman-amphitheaters/id/lucusFeroniaeAmphitheater>
     <http://geovocab.org/geometry#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.2594868E1
@@ -1804,7 +1824,7 @@
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls>
     ] .
 
-<http://purl.org/roman-amphitheaters/id/mactarisAmphitheatre>
+<http://purl.org/roman-amphitheaters/id/mactarisAmphitheater>
     <http://geovocab.org/geometry#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (9.2066727E0
@@ -2045,7 +2065,7 @@
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
     ] .
 
-<http://purl.org/roman-amphitheaters/id/ocriculumAmphitheatre>
+<http://purl.org/roman-amphitheaters/id/ocriculumAmphitheater>
     <http://geovocab.org/geometry#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.24671905E1
@@ -2504,7 +2524,7 @@
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
     ] .
 
-<http://purl.org/roman-amphitheaters/id/scylletiumScolaciumAmphitheatre>
+<http://purl.org/roman-amphitheaters/id/scylletiumScolaciumAmphitheater>
     <http://geovocab.org/geometry#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.65923292E1
@@ -2520,7 +2540,7 @@
         <http://www.w3.org/ns/prov#wasDerivedFrom> <http://pleiades.stoa.org/places/452439/location-of-roman-amphitheater>
     ] .
 
-<http://purl.org/roman-amphitheaters/id/scythopolisNysaAmphitheatre>
+<http://purl.org/roman-amphitheaters/id/scythopolisNysaAmphitheater>
     <http://geovocab.org/geometry#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (3.5501631E1
@@ -2583,7 +2603,8 @@
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
         <http://dbpedia.org/property/seatingCapacity> 3200 ;
         <http://purl.org/dc/terms/title> "Amphitheater at Sidi bou Arkoub" ;
-        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
+        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
+        <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/315211>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/silchesterAmphitheater>
@@ -2951,7 +2972,7 @@
         <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/413364>
     ] .
 
-<http://purl.org/roman-amphitheaters/id/uthinaAmphitheatre>
+<http://purl.org/roman-amphitheaters/id/uthinaAmphitheater>
     <http://geovocab.org/geometry#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.0169215E1
@@ -3038,7 +3059,7 @@
         <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/177661>
     ] .
 
-<http://purl.org/roman-amphitheaters/id/virunumAmphitheatre>
+<http://purl.org/roman-amphitheaters/id/virunumAmphitheater>
     <http://geovocab.org/geometry#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.43669959E1
