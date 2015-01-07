@@ -1323,9 +1323,17 @@
       "id":"bordeauxAmphitheater",
       "properties":{
         "title":"Amphitheater at Bordeaux",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1388.html",
         "buildingtype": "amphitheater",
         "capacity":28700,
         "chronogroup": "Severan",
+        "dimensions": {
+           "exterior-major": 132.3,
+           "exterior-minor": 110.6,
+           "arena-major": 69.8,
+           "arena-minor": 46.7,
+           "source": "Bomgardner"
+          },
         "created":220,
         "golvinID": "188",
         "label": "Bordeaux",
@@ -1926,14 +1934,24 @@
         ],
         "source":"http://pleiades.stoa.org/places/207527/location-of-roman-amphitheater"
       }
-    },
-    {
+    },{
       "type":"Feature",
       "id":"salonaAmphitheatre",
       "properties":{
         "title":"Amphitheater at Salona",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1565.html",
         "buildingtype": "amphitheater",
-        "chronogroup": "Imperial",
+        "capacity": 13380,
+        "chronogroup": "Second Century",
+        "created": 170,
+        "dimensions": {
+          "exterior-major": 124.75,
+          "exterior-minor": 100.65,
+          "arena-major": 64.30,
+          "arena-minor": 40.20,
+          "source": "Bomgardner"
+        },
+        "golvinid": "181",
         "moderncountry": "Croatia",
         "pleiades": "http://pleiades.stoa.org/places/197488",
         "source":"http://pleiades.stoa.org/places/197488/location-of-roman-amphitheater"
@@ -2105,8 +2123,7 @@
         ],
         "source":["http://pleiades.stoa.org/places/413037/roman-amphitheater-of-asisium","http://maps.google.com"]
       }
-    },
-    {
+    },{
       "type":"Feature",
       "id":"durresAmphitheatre",
       "properties":{
@@ -2129,14 +2146,13 @@
         ],
         "source":"http://pleiades.stoa.org/places/481818/location-of-roman-amphitheater"
       }
-    },
-    {
+    },{
       "type":"Feature",
       "id":"lambaesisAmphitheater",
       "properties":{
         "title":"Amphitheater at Lambaesis",
         "buildingtype": "amphitheater",
-        "capacity": 15000,
+        "capacity": 15400,
         "chronogroup": "Second Century",
         "label": "Lambaesis",
         "moderncountry": "Algeria",
@@ -2323,7 +2339,14 @@
         "title":"Amphitheater at Leptiminus",
         "buildingtype": "amphitheater",
         "capacity": 9000,
-        "chronogroup": "Imperial",
+        "chronogroup": "Second Century",
+        "dimensions": {
+          "exterior-major": 85,
+          "exterior-minor": 63,
+          "arena-major": 57,
+          "arena-minor": 35,
+          "source": "https://www.academia.edu/4309219/Roman_Amphitheatres_and_Spectacula_a_21st_-Century_PerspectiveArchaeopress_Publishers_of_British_Archaeological_Reports15._The_Magerius_Mosaic_Revisited"
+        },
         "label": "Leptiminus",
         "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/324767"
@@ -4037,7 +4060,15 @@
         "title": "Amphitheater at Skikda",
         "amphitheatrum": "http://amphi-theatrum.de/1505.html",
         "buildingtype": "amphitheater",
-        "capacity": 6000,
+        "capacity": 8000,
+        "chronogroup": "Second Century",
+        "dimensions": {
+          "exterior-major": 77.3,
+          "exterior-minor": 58.8,
+          "arena-major": 57,
+          "arena-minor": 38.5,
+          "source": "Bomgardner"
+        },
         "chronogroup": "Imperial",
         "label": "Skikda",
         "latintoponym": "Rusicade",
@@ -4296,6 +4327,7 @@
       "properties": {
         "title": "Amphitheater at Fahs",
         "buildingtype": "amphitheater",
+        "capacity": 7200,
         "chronogroup": "Imperial",
         "dimensions": {
           "exterior-major": 68,
@@ -4304,7 +4336,7 @@
           "arena-minor": 32 
          },
         "label": "Fahs",
-        "latintoponym": "",
+        "latintoponym": "Seressi",
         "moderncountry": "Tunisia",
         "visibility": "good"
       },
@@ -4420,6 +4452,35 @@
         "pleiades": "http://pleiades.stoa.org/places/422838",
         "see": "http://www.fastionline.org/record_view.php?fst_cd=AIAC_2694",
         "visibility": "partial"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+               12.696433,
+               41.692860,
+               370
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"ainHedjahAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Ain Hedjah",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1312.html",
+        "buildingtype": "amphitheater",
+        "capacity": 3000,
+        "chronogroup": "Second Century",
+        "dimensions": {
+          "exterior-major": 53,
+          "exterior-minor": 35
+         },
+        "golvinid": "64",
+        "label": "Ain Hedjah",
+        "latintoponym": "Agbia",
+        "moderncountry": "Tunisia",
+        "pleiades": "http://pleiades.stoa.org/places/314857",
+        "visibility": "good"
       },
       "geometry":{
         "type":"Point",

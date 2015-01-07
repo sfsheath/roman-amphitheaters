@@ -48,7 +48,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "gennesAmphitheater","Amphitheater at Gennes",,"amphitheater",,"France","Imperial",,,,,,,47.3352194,-0.2386057,47
 "scythopolisNysaAmphitheater","Amphitheater at Scythopolis/Nysa",,"amphitheater-in-hippodrome",,"Israel","Imperial",,,,,,,32.498395,35.501631,-121
 "scylletiumScolaciumAmphitheater","Amphitheater at Scylletium/Scolacium",,"amphitheater",,"Italy","Imperial",,,,,,,38.8068878,16.5923292,44
-"bordeauxAmphitheater","Amphitheater at Bordeaux","Bordeaux","amphitheater",28700,"France","Severan",,,,,,,44.847382,-0.582476,17
+"bordeauxAmphitheater","Amphitheater at Bordeaux","Bordeaux","amphitheater",28700,"France","Severan",,,132.3,110.6,69.8,46.7,44.847382,-0.582476,17
 "uthinaAmphitheater","Amphitheater at Uthina","Uthina","amphitheater",15000,"Tunisia","Second Century",,,,,,,36.608597,10.169215,112
 "carthagoNovaAmphitheater","Amphitheater at Carthago Nova/Col. Urbs Iulia",,"amphitheater",,"Spain","Imperial",,,,,,,37.6006455,-0.980161,23
 "virunumAmphitheater","Amphitheater at Virunum","Virunum","amphitheater",,"Austria","Imperial",,,,,,,46.6978777,14.3669959,479
@@ -75,7 +75,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "colAugustaRauricaAmphitheatre","Amphitheater at Col. Augusta Raurica","Aug. Raurica","amphitheater",6000,"Switzerland","Severan",,,,,,,47.529294,7.72061,285
 "sutriumAmphitheatre","Amphitheater at Sutrium","Sutrium","amphitheater",8500,"Italy","Republican",,"https://www.youtube.com/watch?v=OgHl5MT95bg",,,,,42.2393124,12.2293009,271
 "sarmizegetusaAmphitheatre","Amphitheater at Ulpia Traiana Sarmizegetusa","Sarmizegetusa","amphitheater",,"Romania","Imperial",,,,,,,45.5166773,22.7853206,491
-"salonaAmphitheatre","Amphitheater at Salona",,"amphitheater",,"Croatia","Imperial",,,,,,,43.5381718,16.473893,8
+"salonaAmphitheatre","Amphitheater at Salona",,"amphitheater",13380,"Croatia","Second Century",,,124.75,100.65,64.3,40.2,43.5381718,16.473893,8
 "londonAmphitheatre","Amphitheater at London",,"amphitheater",,"United Kingdom","Imperial",,"https://www.youtube.com/watch?v=qvw9xA-hTz8",,,,,51.515522,-0.092136,29
 "tiburAmphitheater","Amphitheater at Tibur",,"amphitheater",,"Italy","Imperial",,,,,,,41.960571,12.798114,248
 "caerleonAmphitheater","Amphitheater at Caerleon",,"amphitheater",,"United Kingdom","Imperial",,"https://www.youtube.com/watch?v=VIT1JAOadho",,,,,51.608059,-2.956878,13
@@ -84,7 +84,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "saintesAmphitheatre","Amphitheater at Saintes",,"amphitheater",,"France","Imperial",,"https://www.youtube.com/watch?v=2TCI21s-bxM",,,,,45.7453926,-0.6433512,20
 "assisiAmphitheatre","Amphitheater at Assisi","Assisi","amphitheater",,"Italy","Imperial",,"https://www.youtube.com/watch?v=uLSmRRxtf4M",,,,,43.071077,12.620454,445
 "durresAmphitheatre","Amphitheater at Durrës","Durrës","amphitheater",20000,"Albania","Second Century","http://en.wikipedia.org/wiki/Durrës_Amphitheatre",,,,,,41.312241,19.445131,15
-"lambaesisAmphitheater","Amphitheater at Lambaesis","Lambaesis","amphitheater",15000,"Algeria","Second Century",,,,,,,35.489247,6.259935,1170
+"lambaesisAmphitheater","Amphitheater at Lambaesis","Lambaesis","amphitheater",15400,"Algeria","Second Century",,,,,,,35.489247,6.259935,1170
 "mactarisAmphitheater","Amphitheater at Mactaris","Mactaris","amphitheater",5000,"Tunisia","Imperial",,,,,,,35.8556279,9.2066727,911
 "cirencesterAmphitheater","Amphitheater at Cirencester",,"amphitheater",,"United Kingdom","Imperial",,"https://www.youtube.com/watch?v=9RFDium7TYU",,,,,51.71151,-1.972188,119
 "vindonissaAmphitheater","Amphitheater at Vindonissa","Vindonissa","amphitheater",11000,"Switzerland","Julio-Claudian",,,,,,,47.47629,8.213605,361
@@ -92,7 +92,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "thysdrusAmphitheater","Amphitheater at Thysdrus","Thysdrus (lg.)","amphitheater",35000,"Tunisia","Post-Severan",,"https://www.youtube.com/watch?v=bDDyEMg34Os",,,,,35.29639,10.706939,111
 "frejusAmphitheater","Amphitheater Fréjus","Fréjus","amphitheater",12000,"France","Flavian",,,,,,,43.43446,6.72871,12
 "gortynAmphitheater","Amphitheater at Gortyn",,"amphitheater",,"Greece","Imperial",,,,,,,35.056454,24.953076,150
-"leptiminusAmphitheater","Amphitheater at Leptiminus","Leptiminus","amphitheater",9000,"Tunisia","Imperial",,,,,,,35.678077,10.866282,9
+"leptiminusAmphitheater","Amphitheater at Leptiminus","Leptiminus","amphitheater",9000,"Tunisia","Second Century",,,85,63,57,35,35.678077,10.866282,9
 "miciaAmphitheater","Amphitheater at Micia","Micia","amphitheater",1500,"Romania","Imperial",,,,,,,45.915008,22.81731,183
 "gemellaeAmphitheater","Amphitheater at Gemellae","Gemellae","amphitheater",3000,"Algeria","Republican",,,,,,,34.636598,5.522904,83
 "cherchellAmphitheater","Amphitheater at Cherchell",,"amphitheater",,"Algeria","Imperial",,,,,,,36.60878,2.198958,29
@@ -172,7 +172,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "dambachAmphitheater","Amphitheater at “Dambach”","Dambach","amphitheater",,"Germany","Imperial",,,,,,,49.104033,10.58318,463
 "burnumAmphitheater","Amphitheater at Burnum",,"amphitheater",,"Croatia","Imperial",,,,,,,44.019098,16.018169,250
 "gleisdorfAmphitheater","Amphitheater at Gleisdorf",,"amphitheater",,"Austria","Imperial",,,,,,,47.111055,15.707727,365
-"skikdaAmphitheater","Amphitheater at Skikda","Skikda","amphitheater",6000,"Algeria","Imperial",,,,,,,36.876413,6.91383,38
+"skikdaAmphitheater","Amphitheater at Skikda","Skikda","amphitheater",8000,"Algeria","Imperial",,,77.3,58.8,57,38.5,36.876413,6.91383,38
 "bostraAmphitheater","Amphitheater at Bosra","Bosra","amphitheater",,"Syria","Imperial",,,,,,,32.517923,36.479844,845
 "palmyraAmphitheater","Possible Amphitheater at Palmyra","Palmyra","amphitheater",,"Syria","Imperial",,,,,,,34.553789,38.273763,408
 "stMarcelAmphitheater","Amphitheater at Saint Marcel",,"amphitheater",,"France","Imperial",,,,,,,46.601549,1.518328,150
@@ -183,8 +183,9 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "bourgesAmphitheater","Amphitheater at Bourges",,"amphitheater",,"France","Imperial",,,108,70,,,47.084496,2.390815,133
 "chassenonAmphitheater","Amphitheater at Chassenon",,"gallo-roman-amphitheater",,"France","Imperial",,,,,60,40,45.850749,0.768913,217
 "drevantAmphitheater","Amphitheater at Drevant",,"gallo-roman-amphitheater",,"France","Imperial",,,56,,25,,46.693079,2.522625,164
-"fahsAmphitheater","Amphitheater at Fahs","Fahs","amphitheater",,"Tunisia","Imperial",,,68,52,44,32,36.16351,9.775766,471
+"fahsAmphitheater","Amphitheater at Fahs","Fahs","amphitheater",7200,"Tunisia","Imperial",,,68,52,44,32,36.16351,9.775766,471
 "chemtouAmphitheater","Amphitheater at Chemtou","Chemtou","amphitheater",6500,"Tunisia","Second Century",,,61,52,30,21,36.490426,8.580552,171
 "bekaltaAmphitheater","Amphitheater at Bekalta",,"amphitheater",,"Tunisia","Imperial",,,80,62,57,39,35.619149,11.042371,3
 "sidiBouArkoubAmphitheater","Amphitheater at Sidi bou Arkoub","Sidi bou Arkoub","amphitheater",3200,"Tunisia","Imperial",,,56,38,38,22,36.310778,9.31926,277
 "genzanoPrivateAmphitheater","Private Amphitheater at Genzano","Genzano","amphitheater",1300,"Italy","Second Century",,,61,40,,,41.69286,12.696433,370
+"ainHedjahAmphitheater","Amphitheater at Ain Hedjah","Ain Hedjah","amphitheater",3000,"Tunisia","Second Century",,,53,35,,,41.69286,12.696433,370
