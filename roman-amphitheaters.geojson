@@ -1352,15 +1352,24 @@
     },
     {
       "type":"Feature",
-      "id":"uthinaAmphitheater",
+      "id":"oudnaAmphitheater",
       "properties":{
-        "title":"Amphitheater at Uthina",
+        "title":"Amphitheater at Oudna",
         "buildingtype": "amphitheater",
         "created":120,
         "capacity": 15000,
         "chronogroup": "Second Century",
+        "dimensions": {
+          "exterior-major": 96,
+          "exterior-minor": 81,
+          "arena-major": 52.5,
+          "arena-minor": 37.5,
+          "source": "Bomgardner"
+        },
+        "golvinid": "115",
         "hypogeum": true,
         "label": "Uthina",
+        "latintoponym": "Uthina",
         "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/315247"
       },
@@ -1769,18 +1778,18 @@
     },
     {
       "type":"Feature",
-      "id":"vesunnaAmphitheatre",
+      "id":"perigueuxAmphitheatre",
       "properties":{
-        "title":"Amphitheater at Vesunna",
+        "title":"Amphitheater at Perigueux",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "dimensions": {
          "exterior-major": 131,
          "exterior-minor": 113
         },
+        "latintoponym": "Vesuna Petrucorriorum",
         "moderncountry": "France",
-        "pleiades": "http://pleiades.stoa.org/places/138650",
-        "source":"http://pleiades.stoa.org/places/138650/location-of-roman-amphitheater"
+        "pleiades": "http://pleiades.stoa.org/places/138650"
       },
       "geometry":{
         "type":"Point",
@@ -1788,7 +1797,8 @@
           0.71330870000000002,
           45.183192099999999,
           97
-        ]
+        ],
+        "source":"http://pleiades.stoa.org/places/138650/location-of-roman-amphitheater"
       }
     },
     {
@@ -4488,6 +4498,38 @@
                12.696433,
                41.692860,
                370
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"uticaAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Utica",
+        "amphitheatrum": "http://www.amphi-theatrum.de/2503.html",
+        "buildingtype": "amphitheater",
+        "capacity": 17100,
+        "chronogroup": "Second Century",
+        "dimensions": {
+          "exterior-major": 118,
+          "exterior-minor": 98,
+          "arena-major": 80,
+          "arena-minor": 60,
+          "source": "Bomgardner" 
+         },
+        "golvinid": "61",
+        "label": "Utica",
+        "latintoponym": "Utica",
+        "moderncountry": "Tunisia",
+        "pleiades": "http://pleiades.stoa.org/places/315248",
+        "visibility": "good"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+               10.057188,
+               37.052472,
+               29
         ],
         "source":"http://maps.google.com/"
       }
