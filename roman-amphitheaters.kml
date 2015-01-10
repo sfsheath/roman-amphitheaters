@@ -14,6 +14,7 @@
 	<SimpleField name="emperor" type="string"></SimpleField>
 	<SimpleField name="hypogeum" type="int"></SimpleField>
 	<SimpleField name="label" type="string"></SimpleField>
+	<SimpleField name="military" type="int"></SimpleField>
 	<SimpleField name="pleiades" type="string"></SimpleField>
 	<SimpleField name="moderncountry" type="string"></SimpleField>
 	<SimpleField name="see" type="string"></SimpleField>
@@ -57,6 +58,7 @@
 		<SimpleData name="emperor">Septimius Severus</SimpleData>
 		<SimpleData name="hypogeum">0</SimpleData>
 		<SimpleData name="label">Dura</SimpleData>
+		<SimpleData name="military">1</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/893989</SimpleData>
 		<SimpleData name="moderncountry">Syria</SimpleData>
 	</SchemaData></ExtendedData>
@@ -390,6 +392,7 @@
 		<SimpleData name="created">80</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 99.500000, &quot;exterior-minor&quot;: 81.500000, &quot;arena-major&quot;: 71, &quot;arena-minor&quot;: 43 }</SimpleData>
 		<SimpleData name="label">Carnuntum (Mil.)</SimpleData>
+		<SimpleData name="military">1</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/128376</SimpleData>
 		<SimpleData name="moderncountry">Austria</SimpleData>
 	</SchemaData></ExtendedData>
@@ -961,6 +964,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="created">150</SimpleData>
+		<SimpleData name="military">1</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/197130</SimpleData>
 		<SimpleData name="moderncountry">Hungary</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Aquincum_Military_Amphitheatre</SimpleData>
@@ -1194,6 +1198,7 @@
 		<SimpleData name="capacity">15400</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="label">Lambaesis</SimpleData>
+		<SimpleData name="military">1</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/334570</SimpleData>
 		<SimpleData name="moderncountry">Algeria</SimpleData>
 	</SchemaData></ExtendedData>
@@ -2476,6 +2481,7 @@
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/422838</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="see">http://www.fastionline.org/record_view.php?fst_cd=AIAC_2694</SimpleData>
+		<SimpleData name="private">1</SimpleData>
 		<SimpleData name="visibility">partial</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>12.696433,41.69286,370</coordinates></Point>
@@ -2513,6 +2519,23 @@
 		<SimpleData name="visibility">good</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>10.057188,37.052472,29</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Henchir el Kasbat</SimpleData>
+		<SimpleData name="amphitheatrum">http://www.amphi-theatrum.de/1340.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="capacity">7500</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 74, &quot;exterior-minor&quot;: 61, &quot;arena-major&quot;: 46, &quot;arena-minor&quot;: 33, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="label">Thuburbo Maius</SimpleData>
+		<SimpleData name="pleiades">http://pleiades.stoa.org/places/315220</SimpleData>
+		<SimpleData name="moderncountry">Tunisia</SimpleData>
+		<SimpleData name="latintoponym">Thuburbo Maius</SimpleData>
+		<SimpleData name="golvinID">121</SimpleData>
+		<SimpleData name="visibility">good</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.398153,9.905668,201</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>

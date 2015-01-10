@@ -55,6 +55,7 @@
         "emperor": "Septimius Severus",
         "hypogeum": false,
         "label": "Dura",
+        "military": true,
         "pleiades": "http://pleiades.stoa.org/places/893989",
         "moderncountry": "Syria"
       },
@@ -654,6 +655,7 @@
           "arena-minor": 43
          },
         "label": "Carnuntum (Mil.)",
+        "military": true,
         "moderncountry": "Austria",
         "pleiades": "http://pleiades.stoa.org/places/128376"
       },
@@ -1741,6 +1743,7 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "created":150,
+        "military": true,
         "moderncountry": "Hungary",
         "pleiades": "http://pleiades.stoa.org/places/197130",
         "wikipedia": "http://en.wikipedia.org/wiki/Aquincum_Military_Amphitheatre"
@@ -2165,6 +2168,7 @@
         "capacity": 15400,
         "chronogroup": "Second Century",
         "label": "Lambaesis",
+        "military": true,
         "moderncountry": "Algeria",
         "pleiades": "http://pleiades.stoa.org/places/334570"
       },
@@ -4460,6 +4464,7 @@
         "label": "Genzano",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/422838",
+        "private": true,
         "see": "http://www.fastionline.org/record_view.php?fst_cd=AIAC_2694",
         "visibility": "partial"
       },
@@ -4530,6 +4535,38 @@
                10.057188,
                37.052472,
                29
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"hencherElKasbatAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Henchir el Kasbat",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1340.html",
+        "buildingtype": "amphitheater",
+        "capacity": 7500,
+        "chronogroup": "Second Century",
+        "dimensions": {
+          "exterior-major": 74,
+          "exterior-minor": 61,
+          "arena-major": 46,
+          "arena-minor": 33,
+          "source": "Bomgardner"
+         },
+        "golvinid": "121",
+        "label": "Thuburbo Maius",
+        "latintoponym": "Thuburbo Maius",
+        "moderncountry": "Tunisia",
+        "pleiades": "http://pleiades.stoa.org/places/315220",
+        "visibility": "good"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+               36.398153,
+               9.905668,
+               201 
         ],
         "source":"http://maps.google.com/"
       }
