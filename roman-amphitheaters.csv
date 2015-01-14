@@ -97,7 +97,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "gemellaeAmphitheater","Amphitheater at Gemellae","Gemellae","amphitheater",3000,"Algeria","Republican",,,,,,,34.636598,5.522904,83
 "cherchellAmphitheater","Amphitheater at Cherchell",,"amphitheater",,"Algeria","Imperial",,,,,,,36.60878,2.198958,29
 "pulaAmphitheater","Amphitheater at Pula","Pula","amphitheater",26000,"Croatia","Julio-Claudian","http://en.wikipedia.org/wiki/Pula_Arena","https://www.youtube.com/watch?v=hqTud5XxI_s",132.45,105.1,67.95,41.65,44.873229,13.850243,16
-"carmonaAmphitheater","Amphitheater at Carmona","Carmona","amphitheater",8000,"Spain","Republican",,,,,,,37.469674,-5.650907,223
+"carmonaAmphitheater","Amphitheater at Carmona","Carmona","amphitheater",8000,"Spain","Julius Caesar",,,,,,,37.469674,-5.650907,223
 "caesareaAmphitheater","Amphitheater at Caesarea",,"amphitheater",,"Israel","Imperial",,,,,,,32.506473,34.897451,11
 "pergamumAmphitheater","Amphitheater at Pergamum","Pergamum","amphitheater",25000,"Turkey","Second Century",,,,,,,39.125751,27.174177,100
 "anazarbusAmphitheater","Amphitheater at Anazarbus",,"amphitheater",,"Turkey","Imperial",,,109,80,60,43,37.244094,35.894673,42
@@ -191,3 +191,4 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "ainHedjahAmphitheater","Amphitheater at Ain Hedjah","Ain Hedjah","amphitheater",3000,"Tunisia","Second Century",,,53,35,,,41.69286,12.696433,370
 "uticaAmphitheater","Amphitheater at Utica","Utica","amphitheater",17100,"Tunisia","Second Century",,,118,98,80,60,37.052472,10.057188,29
 "hencherElKasbatAmphitheater","Amphitheater at Henchir el Kasbat","Thuburbo Maius","amphitheater",7500,"Tunisia","Second Century",,,74,61,46,33,9.905668,36.398153,201
+"espejoAmphitheater","Amphitheater at Espejo","Espejo","amphitheater",,"Spain","Julius Caesar",,,,,,,37.683989,-4.554198,352

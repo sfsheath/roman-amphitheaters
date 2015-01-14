@@ -339,6 +339,7 @@
          },
         "label": "Newstead",
         "latintoponum": "Trimontium",
+        "military": true,
         "moderncountry": "United Kingdom",
         "pleiades": "http://pleiades.stoa.org/places/89304"
       },
@@ -848,7 +849,7 @@
         "capacity": 25000,
         "dimensions": {
           "exterior-major": 160,
-          "exterior-minor": 69.5,
+          "exterior-minor": 136,
           "arena-major": 70,
           "arena-minor": 44
          },
@@ -937,8 +938,8 @@
         "dimensions": {
           "exterior-major": 79,
           "exterior-minor": 59,
-          "arena-major": 35,
-          "arena-minor": 56,
+          "arena-major": 56,
+          "arena-minor": 35,
           "comment": "Estimates from portion visible on Google Earth."
          },
         "label": "Paestum",
@@ -2472,9 +2473,11 @@
         "buildingtype": "amphitheater",
         "created": -50,
         "capacity": 8000,
-        "chronogroup":"Republican",
-        "comment": "Size is only estimate based Welch reporting a comparison with Sutrium.",
+        "chronogroup":"Julius Caesar",
+        "comment": "Size is only estimate based on Welch reporting a comparison with Sutrium.",
         "label": "Carmona",
+        "latintoponym": "Carmo",
+        "military": "yes",
         "moderncountry": "Spain",
         "welch-id": "17"
       },
@@ -4013,6 +4016,7 @@
         "certainty-qualifier": "function",
         "chronogroup": "Imperial",
         "label": "Dambach",
+        "military": true,
         "moderncountry": "Germany",
         "see": "http://www.deutsche-limeskommission.de/fileadmin/dlk/images/dlk/pdfs/Der_Limes_3_2009_2.pdf",
         "visibility": "none"
@@ -4569,6 +4573,27 @@
                201 
         ],
         "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"espejoAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Espejo",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Julius Caesar",
+        "label": "Espejo",
+        "latintoponym": "Ucubi",
+        "moderncountry": "Spain",
+        "visibility": "poor"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+               -4.554198,
+               37.683989,
+               352
+        ],
+        "source":"http://imperium.ahlfeldt.se/places/24373.html"
       }
     }
   ]
