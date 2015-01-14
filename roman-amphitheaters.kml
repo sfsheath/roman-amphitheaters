@@ -14,7 +14,7 @@
 	<SimpleField name="emperor" type="string"></SimpleField>
 	<SimpleField name="hypogeum" type="int"></SimpleField>
 	<SimpleField name="label" type="string"></SimpleField>
-	<SimpleField name="military" type="int"></SimpleField>
+	<SimpleField name="military" type="string"></SimpleField>
 	<SimpleField name="pleiades" type="string"></SimpleField>
 	<SimpleField name="moderncountry" type="string"></SimpleField>
 	<SimpleField name="see" type="string"></SimpleField>
@@ -58,7 +58,7 @@
 		<SimpleData name="emperor">Septimius Severus</SimpleData>
 		<SimpleData name="hypogeum">0</SimpleData>
 		<SimpleData name="label">Dura</SimpleData>
-		<SimpleData name="military">1</SimpleData>
+		<SimpleData name="military">true</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/893989</SimpleData>
 		<SimpleData name="moderncountry">Syria</SimpleData>
 	</SchemaData></ExtendedData>
@@ -217,6 +217,7 @@
 		<SimpleData name="created">80</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 70, &quot;exterior-minor&quot;: 60, &quot;arena-major&quot;: 37, &quot;arena-minor&quot;: 23, &quot;source&quot;: &quot;http:\/\/amphi-theatrum.de\/1899.html&quot; }</SimpleData>
 		<SimpleData name="label">Newstead</SimpleData>
+		<SimpleData name="military">true</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/89304</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 		<SimpleData name="latintoponum">Trimontium</SimpleData>
@@ -392,7 +393,7 @@
 		<SimpleData name="created">80</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 99.500000, &quot;exterior-minor&quot;: 81.500000, &quot;arena-major&quot;: 71, &quot;arena-minor&quot;: 43 }</SimpleData>
 		<SimpleData name="label">Carnuntum (Mil.)</SimpleData>
-		<SimpleData name="military">1</SimpleData>
+		<SimpleData name="military">true</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/128376</SimpleData>
 		<SimpleData name="moderncountry">Austria</SimpleData>
 	</SchemaData></ExtendedData>
@@ -495,7 +496,7 @@
 		<SimpleData name="capacity">25000</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="created">140</SimpleData>
-		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 160, &quot;exterior-minor&quot;: 69.500000, &quot;arena-major&quot;: 70, &quot;arena-minor&quot;: 44 }</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 160, &quot;exterior-minor&quot;: 136, &quot;arena-major&quot;: 70, &quot;arena-minor&quot;: 44 }</SimpleData>
 		<SimpleData name="hypogeum">1</SimpleData>
 		<SimpleData name="label">Italica</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/256231</SimpleData>
@@ -539,7 +540,7 @@
 		<SimpleData name="capacity">4500</SimpleData>
 		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="created">-75</SimpleData>
-		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 79, &quot;exterior-minor&quot;: 59, &quot;arena-major&quot;: 35, &quot;arena-minor&quot;: 56, &quot;comment&quot;: &quot;Estimates from portion visible on Google Earth.&quot; }</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 79, &quot;exterior-minor&quot;: 59, &quot;arena-major&quot;: 56, &quot;arena-minor&quot;: 35, &quot;comment&quot;: &quot;Estimates from portion visible on Google Earth.&quot; }</SimpleData>
 		<SimpleData name="label">Paestum</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/442733</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
@@ -964,7 +965,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="created">150</SimpleData>
-		<SimpleData name="military">1</SimpleData>
+		<SimpleData name="military">true</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/197130</SimpleData>
 		<SimpleData name="moderncountry">Hungary</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Aquincum_Military_Amphitheatre</SimpleData>
@@ -1198,7 +1199,7 @@
 		<SimpleData name="capacity">15400</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="label">Lambaesis</SimpleData>
-		<SimpleData name="military">1</SimpleData>
+		<SimpleData name="military">true</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/334570</SimpleData>
 		<SimpleData name="moderncountry">Algeria</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1367,11 +1368,13 @@
 		<SimpleData name="title">Amphitheater at Carmona</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">8000</SimpleData>
-		<SimpleData name="chronogroup">Republican</SimpleData>
-		<SimpleData name="comment">Size is only estimate based Welch reporting a comparison with Sutrium.</SimpleData>
+		<SimpleData name="chronogroup">Julius Caesar</SimpleData>
+		<SimpleData name="comment">Size is only estimate based on Welch reporting a comparison with Sutrium.</SimpleData>
 		<SimpleData name="created">-50</SimpleData>
 		<SimpleData name="label">Carmona</SimpleData>
+		<SimpleData name="military">yes</SimpleData>
 		<SimpleData name="moderncountry">Spain</SimpleData>
+		<SimpleData name="latintoponym">Carmo</SimpleData>
 		<SimpleData name="welch-id">17</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-5.650907,37.469674,223</coordinates></Point>
@@ -2232,6 +2235,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">Dambach</SimpleData>
+		<SimpleData name="military">true</SimpleData>
 		<SimpleData name="moderncountry">Germany</SimpleData>
 		<SimpleData name="see">http://www.deutsche-limeskommission.de/fileadmin/dlk/images/dlk/pdfs/Der_Limes_3_2009_2.pdf</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
@@ -2536,6 +2540,18 @@
 		<SimpleData name="visibility">good</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>36.398153,9.905668,201</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Espejo</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Julius Caesar</SimpleData>
+		<SimpleData name="label">Espejo</SimpleData>
+		<SimpleData name="moderncountry">Spain</SimpleData>
+		<SimpleData name="latintoponym">Ucubi</SimpleData>
+		<SimpleData name="visibility">poor</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-4.554198,37.683989,352</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>

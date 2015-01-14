@@ -27,10 +27,10 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "empuriesAmphitheater","Amphitheater at Empuries","Empuries","amphitheater",3300,"Spain","First Century",,,86,54,71,42,42.130042,3.117431,27
 "tarragonaAmphitheater","Amphitheater at Tarragona","Tarragona","amphitheater",15000,"Spain","Second Century",,"https://www.youtube.com/watch?v=Z-1Qrk5qLAE",95,69.5,62,39,41.114522,1.25878,13
 "cagliariAmphitheater","Amphitheater at Cagliari","Cagliari","amphitheater",10000,"Italy","Second Century","http://en.wikipedia.org/wiki/Roman_Amphitheatre_of_Cagliari",,,,50,30,39.223908,9.113228,60
-"italicaAmphitheater","Amphitheater at Italica","Italica","amphitheater",25000,"Spain","Second Century",,,160,69.5,70,44,37.443893,-6.046742,17
+"italicaAmphitheater","Amphitheater at Italica","Italica","amphitheater",25000,"Spain","Second Century",,,160,136,70,44,37.443893,-6.046742,17
 "segobrigaAmphitheater","Amphitheater at Segobriga","Segobria","amphitheater",7500,"Spain","Flavian",,,75,64,47,31,39.886018,-2.813944,817
 "catiniaAmphitheater","Amphitheater at Catinia","Catinia","amphitheater",16000,"Italy","Imperial",,,90,70,52,38,37.507096,15.085323,31
-"paestumAmphitheater","Amphitheater at Paestum","Paestum","amphitheater",4500,"Italy","Republican",,,79,59,35,56,40.422354,15.006449,18
+"paestumAmphitheater","Amphitheater at Paestum","Paestum","amphitheater",4500,"Italy","Republican",,,79,59,56,35,40.422354,15.006449,18
 "lunaAmphitheater","Amphitheater at Luna",,"amphitheater",,"Italy","Imperial",,,87,71,52,34.5,44.062656,10.022386,4
 "casinumAmphitheater","Amphitheater at Casinum",,"amphitheater",,"Italy","Imperial",,,,,,,41.482933,13.823575,73
 "viminaciumAmphitheater","Amphitheater at Viminacium",,"amphitheater",,"Serbia","Imperial",,,,,,,44.737985,21.220083,72
