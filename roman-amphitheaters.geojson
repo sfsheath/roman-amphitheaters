@@ -2168,6 +2168,7 @@
         "buildingtype": "amphitheater",
         "capacity": 15400,
         "chronogroup": "Second Century",
+        "hypogeum": true,
         "label": "Lambaesis",
         "military": true,
         "moderncountry": "Algeria",
@@ -2423,7 +2424,14 @@
       "properties":{
         "title":"Amphitheater at Cherchell",
         "buildingtype": "amphitheater",
-        "chronogroup": "Imperial",
+        "chronogroup": "Augustan",
+        "dimensions": {
+           "exterior-major": 145,
+           "exterior-minor": 78,
+           "arena-major": 98,
+           "arena-minor": 37
+        },
+        "label": "Cherchel",
         "moderncountry": "Algeria",
         "pleiades": "http://pleiades.stoa.org/places/295279"
       },
@@ -2876,6 +2884,7 @@
         "emperor": "Septimius Severus",
         "golvinID": "190",
         "label": "Albana",
+        "military": true,
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/422885"
       },
@@ -4631,6 +4640,38 @@
               10.441193,
               35.958583,
               21
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"botriaAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Botria",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1311.html",
+        "buildingtype": "amphitheater",
+        "capacity": 11600,
+        "chronogroup": "Second Century",
+        "dimensions": {
+          "exterior-major": 90,
+          "exterior-minor": 86,
+          "arena-major": 58,
+          "arena-minor": 54,
+          "source": "Bomgardner"
+         },
+        "golvinid": "118",
+        "label": "Acholla",
+        "latintoponym": "Acholla",
+        "moderncountry": "Tunisia",
+        "pleiades": "http://pleiades.stoa.org/places/324653",
+        "visibility": "good"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+             11.018944,
+             35.075962,
+             2 
         ],
         "source":"http://maps.google.com/"
       }
