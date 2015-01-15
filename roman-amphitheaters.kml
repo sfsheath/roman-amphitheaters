@@ -1198,6 +1198,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">15400</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
+		<SimpleData name="hypogeum">1</SimpleData>
 		<SimpleData name="label">Lambaesis</SimpleData>
 		<SimpleData name="military">true</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/334570</SimpleData>
@@ -1341,7 +1342,9 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Cherchell</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="chronogroup">Augustan</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 145, &quot;exterior-minor&quot;: 78, &quot;arena-major&quot;: 98, &quot;arena-minor&quot;: 37 }</SimpleData>
+		<SimpleData name="label">Cherchel</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/295279</SimpleData>
 		<SimpleData name="moderncountry">Algeria</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1570,9 +1573,10 @@
 		<SimpleData name="title">Amphitheater at Bararus</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">12000</SimpleData>
-		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="chronogroup">Severan</SimpleData>
 		<SimpleData name="comment">Unfinished? Considered the last North African amphitheater.</SimpleData>
 		<SimpleData name="created">220</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 98, &quot;exterior-minor&quot;: 73.500000, &quot;arena-major&quot;: 63.750000, &quot;arena-minor&quot;: 37.500000, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
 		<SimpleData name="label">Bararus</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/324673</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
@@ -1589,6 +1593,7 @@
 		<SimpleData name="created">212</SimpleData>
 		<SimpleData name="emperor">Septimius Severus</SimpleData>
 		<SimpleData name="label">Albana</SimpleData>
+		<SimpleData name="military">true</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/422885</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="golvinID">190</SimpleData>
@@ -2539,7 +2544,7 @@
 		<SimpleData name="golvinID">121</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>36.398153,9.905668,201</coordinates></Point>
+      <Point><coordinates>9.905668,36.398153,201</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
@@ -2552,6 +2557,40 @@
 		<SimpleData name="visibility">poor</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-4.554198,37.683989,352</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Henchir Zembra</SimpleData>
+		<SimpleData name="amphitheatrum">http://www.amphi-theatrum.de/1346.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="capacity">5400</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 69, &quot;exterior-minor&quot;: 53, &quot;arena-major&quot;: 48, &quot;arena-minor&quot;: 32, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="label">Ulissipara</SimpleData>
+		<SimpleData name="pleiades">http://pleiades.stoa.org/places/324839</SimpleData>
+		<SimpleData name="moderncountry">Tunisia</SimpleData>
+		<SimpleData name="latintoponym">Ulissipara</SimpleData>
+		<SimpleData name="golvinID">70</SimpleData>
+		<SimpleData name="visibility">good</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>10.441193,35.958583,21</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Botria</SimpleData>
+		<SimpleData name="amphitheatrum">http://www.amphi-theatrum.de/1311.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="capacity">11600</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 90, &quot;exterior-minor&quot;: 86, &quot;arena-major&quot;: 58, &quot;arena-minor&quot;: 54, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="label">Acholla</SimpleData>
+		<SimpleData name="pleiades">http://pleiades.stoa.org/places/324653</SimpleData>
+		<SimpleData name="moderncountry">Tunisia</SimpleData>
+		<SimpleData name="latintoponym">Acholla</SimpleData>
+		<SimpleData name="golvinID">118</SimpleData>
+		<SimpleData name="visibility">good</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.018944,35.075962,2</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>
