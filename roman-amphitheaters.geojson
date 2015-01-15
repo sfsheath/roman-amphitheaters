@@ -2840,9 +2840,16 @@
         "title":"Amphitheater at Bararus",
         "buildingtype": "amphitheater",
         "capacity": 12000,
-        "chronogroup": "Imperial",
+        "chronogroup": "Severan",
         "comment": "Unfinished? Considered the last North African amphitheater.",
         "created": 220,
+        "dimensions": {
+           "exterior-major": 98,
+           "exterior-minor": 73.5,
+           "arena-major": 63.75,
+           "arena-minor": 37.5,
+           "source": "Bomgardner"
+           },
         "label": "Bararus",
         "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/324673"
@@ -4594,6 +4601,38 @@
                352
         ],
         "source":"http://imperium.ahlfeldt.se/places/24373.html"
+      }
+    },{
+      "type":"Feature",
+      "id":"hencherElKasbatAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Henchir Zembra",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1346.html",
+        "buildingtype": "amphitheater",
+        "capacity": 5400,
+        "chronogroup": "Second Century",
+        "dimensions": {
+          "exterior-major": 69,
+          "exterior-minor": 53,
+          "arena-major": 48,
+          "arena-minor": 32,
+          "source": "Bomgardner"
+         },
+        "golvinid": "70",
+        "label": "Ulissipara",
+        "latintoponym": "Ulissipara",
+        "moderncountry": "Tunisia",
+        "pleiades": "http://pleiades.stoa.org/places/324839",
+        "visibility": "good"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+              10.441193,
+              35.958583,
+              21
+        ],
+        "source":"http://maps.google.com/"
       }
     }
   ]
