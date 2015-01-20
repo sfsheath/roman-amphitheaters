@@ -736,10 +736,10 @@
           "arena-minor": 46.5
          },
         "emperor": "Nero",
+        "golvinid": "174",
         "label": "Leptis Magna",
         "moderncountry": "Libya",
-        "pleiades": "http://pleiades.stoa.org/places/344448",
-        "emperor": "Nero"
+        "pleiades": "http://pleiades.stoa.org/places/344448"
       },
       "geometry":{
         "type":"Point",
@@ -2192,6 +2192,14 @@
         "buildingtype": "amphitheater",
         "capacity": 5000,
         "chronogroup": "Imperial",
+        "dimensions": {
+           "exterior-major": 63.2,
+           "exterior-minor": 49.6,
+           "arena-major": 38.4,
+           "arena-minor": 24.8,
+           "source": "Bomgardner"
+        },
+        "golvinid": "119",
         "label": "Mactaris",
         "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/324774"
@@ -2199,8 +2207,8 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          9.2066727000000004,
-          35.855627900000002,
+          9.2066727,
+          35.8556279,
           911
         ],
         "source":"http://pleiades.stoa.org/places/324774/location-of-roman-amphitheater"
@@ -2611,6 +2619,14 @@
         "capacity" : 20700,
         "created" : 125,
         "chronogroup": "Second Century",
+        "dimensions": {
+           "exterior-major": 115,
+           "exterior-minor": 99,
+           "arena-major": 65,
+           "arena-minor": 49,
+           "source": "Bomgardner"
+           },
+        "golvinid": "120",
         "label": "Sabratha",
         "moderncountry": "Libya"
       },
@@ -2719,8 +2735,16 @@
       "properties":{
         "title":"Amphitheater at Thaenae",
         "buildingtype": "amphitheater",
+        "chronogroup": "Second Century",
         "created" : 125,
         "capacity" : 8700,
+        "dimensions": {
+            "exterior-major": 90,
+            "exterior-minor": 61,
+            "arena-major": 62,
+            "arena-minor": 33,
+            "source": "Bomgardner"
+        },
         "chronogroup": "Republican",
         "golvinID": "71",
         "label": "Thaenae",
@@ -4357,19 +4381,20 @@
       }
     },{
       "type":"Feature",
-      "id":"fahsAmphitheater",
+      "id":"seressiAmphitheater",
       "properties": {
-        "title": "Amphitheater at Fahs",
+        "title": "Amphitheater at Seressi",
         "buildingtype": "amphitheater",
         "capacity": 7200,
-        "chronogroup": "Imperial",
+        "chronogroup": "Second Century",
         "dimensions": {
-          "exterior-major": 68,
-          "exterior-minor": 52,
-          "arena-major": 44,
-          "arena-minor": 32 
+          "exterior-major": 76,
+          "exterior-minor": 65.2,
+          "arena-major": 51.5,
+          "arena-minor": 40.7,
+          "source": "Bomgardner"
          },
-        "label": "Fahs",
+        "label": "Seressi",
         "latintoponym": "Seressi",
         "moderncountry": "Tunisia",
         "visibility": "good"
@@ -4418,12 +4443,14 @@
       "properties": {
         "title": "Amphitheater at Bekalta",
         "buildingtype": "amphitheater",
+        "capacity": 4400,
         "chronogroup": "Imperial",
         "dimensions": {
           "exterior-major": 80,
-          "exterior-minor": 62,
-          "arena-major": 57,
-          "arena-minor": 39 
+          "exterior-minor": 58,
+          "arena-major": 67,
+          "arena-minor": 43,
+          "source": "Bomgardner"
          },
         "golvinid": "185",
         "latintoponym": "Thapsus",
@@ -4507,8 +4534,11 @@
         "capacity": 3000,
         "chronogroup": "Second Century",
         "dimensions": {
-          "exterior-major": 53,
-          "exterior-minor": 35
+          "exterior-major": 57,
+          "exterior-minor": 42,
+          "arena-major": 43,
+          "arena-minor": 28,
+          "source": "Bomgardner"
          },
         "golvinid": "64",
         "label": "Ain Hedjah",
@@ -4672,6 +4702,185 @@
              11.018944,
              35.075962,
              2 
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"tipasaAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Tipasa",
+        "buildingtype": "amphitheater",
+        "capacity": 8300,
+        "chronogroup": "Late Second Century",
+        "dimensions": {
+          "exterior-major": 85,
+          "arena-major": 60,
+          "arena-minor": 35
+         },
+        "golvinid": "130",
+        "label": "Tipasa",
+        "lastuse": 400,
+        "latintoponym": "Tipasa",
+        "moderncountry": "Algeria",
+        "pleiades": "http://pleiades.stoa.org/places/295363",
+        "visibility": "good"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+             2.445456,
+             36.593152,
+             16
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"bullaRegiaAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Bulla Regia",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1314.html",
+        "buildingtype": "amphitheater",
+        "capacity": 8300,
+        "chronogroup": "Late Second Century",
+        "comment": "Location approximate.",
+        "dimensions": {
+          "exterior-major": 75,
+          "exterior-minor": 66,
+          "arena-major": 34,
+          "arena-minor": 30,
+          "source": "Bomgardner"
+         },
+        "golvinid": "117",
+        "label": "Bulla Regia",
+        "latintoponym": "Bulla Regia",
+        "moderncountry": "Tunisia",
+        "pleiades": "http://pleiades.stoa.org/places/314912",
+        "visibility": "poor"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+             8.762598,
+             36.564169,
+             227
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"pupputAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Pupput",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1326.html",
+        "buildingtype": "amphitheater",
+        "comment": "So far, available information is incomplete. Site as proxy for location.",
+        "dimensions": {
+          "arena-major": 45,
+          "arena-minor": 36,
+          "source": "Bomgardner"
+         },
+        "label": "Pupput",
+        "latintoponym": "Pupput",
+        "moderncountry": "Tunisia",
+        "pleiades": "http://pleiades.stoa.org/places/315121",
+        "visibility": "poor"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+             10.5626,
+             36.3929,
+             4
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"siccaVeneriaAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Sicca Veneria",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1329.html",
+        "buildingtype": "amphitheater",
+        "capacity": 11300,
+        "comment": "Not located. Near casbah.",
+        "dimensions": {
+          "exterior-major": 100,
+          "exterior-minor": 80,
+          "arena-major": 70,
+          "arena-minor": 50,
+          "source": "Bomgardner"
+         },
+        "label": "Sicca Veneria",
+        "latintoponym": "Sicca Veneria",
+        "moderncountry": "Tunisia",
+        "pleiades": "http://pleiades.stoa.org/places/315152",
+        "visibility": "none"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+            8.715302,
+            36.18536115302,
+            748 
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"thibariAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Thibari",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1337.html",
+        "buildingtype": "amphitheater",
+        "capacity": 6300,
+        "comment": "Not located.",
+        "dimensions": {
+          "exterior-major": 61.2,
+          "exterior-minor": 51.5,
+          "arena-major": 30.8,
+          "arena-minor": 21,
+          "source": "Bomgardner"
+         },
+        "golvinid": "62",
+        "label": "Thibari",
+        "latintoponym": "Thibari",
+        "moderncountry": "Tunisia",
+        "pleiades": "http://pleiades.stoa.org/places/315201",
+        "visibility": "none"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          9.083712,
+          36.504836,
+          282
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"portusOvalStructure",
+      "properties": {
+        "title": "Oval Structure at Portus",
+        "buildingtype": "oval-structure",
+        "capacity": 2000,
+        "comment": "Not certainly an Amphitheater.",
+        "label": "Portus Oval Structure",
+        "latintoponym": "Portus",
+        "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/423012",
+        "private": true,
+        "see": ["http://www.sciencedaily.com/releases/2009/09/090930194337.htm","http://timesonline.typepad.com/dons_life/2009/10/the-luxury-amphitheatre-at-portus.html"],
+        "visibility": "none"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+             12.258090,
+             41.781816,
+             2
         ],
         "source":"http://maps.google.com/"
       }

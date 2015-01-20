@@ -85,7 +85,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "assisiAmphitheatre","Amphitheater at Assisi","Assisi","amphitheater",,"Italy","Imperial",,"https://www.youtube.com/watch?v=uLSmRRxtf4M",,,,,43.071077,12.620454,445
 "durresAmphitheatre","Amphitheater at Durrës","Durrës","amphitheater",20000,"Albania","Second Century","http://en.wikipedia.org/wiki/Durrës_Amphitheatre",,,,,,41.312241,19.445131,15
 "lambaesisAmphitheater","Amphitheater at Lambaesis","Lambaesis","amphitheater",15400,"Algeria","Second Century",,,,,,,35.489247,6.259935,1170
-"mactarisAmphitheater","Amphitheater at Mactaris","Mactaris","amphitheater",5000,"Tunisia","Imperial",,,,,,,35.8556279,9.2066727,911
+"mactarisAmphitheater","Amphitheater at Mactaris","Mactaris","amphitheater",5000,"Tunisia","Imperial",,,63.2,49.6,38.4,24.8,35.8556279,9.2066727,911
 "cirencesterAmphitheater","Amphitheater at Cirencester",,"amphitheater",,"United Kingdom","Imperial",,"https://www.youtube.com/watch?v=9RFDium7TYU",,,,,51.71151,-1.972188,119
 "vindonissaAmphitheater","Amphitheater at Vindonissa","Vindonissa","amphitheater",11000,"Switzerland","Julio-Claudian",,,,,,,47.47629,8.213605,361
 "thysdrusSmallAmphitheater","Small Amphitheater at Thysdrus","Thysdrus (Sm.)","amphitheater",9000,"Tunisia","Second Century",,"https://www.youtube.com/watch?v=bDDyEMg34Os",,,,,35.290106,10.707911,116
@@ -103,13 +103,13 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "anazarbusAmphitheater","Amphitheater at Anazarbus",,"amphitheater",,"Turkey","Imperial",,,109,80,60,43,37.244094,35.894673,42
 "antiochAmphitheater","Amphitheater at Antioch",,"amphitheater",,"Turkey","Republican",,,,,,,36.202624,36.160437,89
 "cyzicusAmphitheater","Amphitheater at Cyzicus",,"amphitheater",,"Turkey","Imperial",,,,,,,40.398213,27.884552,54
-"sabrathaAmphitheater","Amphitheater at Sabratha","Sabratha","amphitheater",20700,"Libya","Second Century",,,,,,,32.803879,12.49404,11
+"sabrathaAmphitheater","Amphitheater at Sabratha","Sabratha","amphitheater",20700,"Libya","Second Century",,,115,99,65,49,32.803879,12.49404,11
 "salamisAmphitheater","Amphitheater at Salamis",,"amphitheater",,"Northern Cyprus","Imperial",,,,,,,35.185517,33.902435,6
 "paphosAmphitheater","Amphitheater at Paphos",,"amphitheater",,"Cyprus","Imperial",,,,,,,34.754942,32.405344,6
 "carmarthenAmphitheater","Amphitheater at Carmarthen",,"amphitheater",,"United Kingdom","Imperial",,,,,,,51.862005,-4.296651,29
 "caerwentAmphitheater","Amphitheater at Caerwent",,"amphitheater",,"United Kingdom","Imperial",,,,,,,51.612173,-2.766307,25
 "tomen-y-murAmphitheater","Amphitheater at Tomen y Mur",,"amphitheater",,"United Kingdom","Imperial",,,,,,,52.931893,-3.9235,295
-"thaenaeAmphitheater","Amphitheater at Thaenae","Thaenae","amphitheater",8700,"Tunisia","Republican",,,,,,,34.655481,10.673126,7
+"thaenaeAmphitheater","Amphitheater at Thaenae","Thaenae","amphitheater",8700,"Tunisia","Republican",,,90,61,62,33,34.655481,10.673126,7
 "sbeitlaAmphitheater","Amphitheater at Sbeitla","Sbeitla","amphitheater",6600,"Tunisia","Second Century",,,,,,,35.243617,9.114582,556
 "thevesteAmphitheater","Amphitheater at Theveste","Theveste","amphitheater",14200,"Algeria","Second Century",,,,,,,35.401171,8.123809,877
 "trierAmphitheater","Amphitheater at Trier","Trier","amphitheater",20000,"Germany","Second Century",,"https://www.youtube.com/watch?v=WYOvPyCntiY",,,,,49.748052,6.649088,168
@@ -183,14 +183,20 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "bourgesAmphitheater","Amphitheater at Bourges",,"amphitheater",,"France","Imperial",,,108,70,,,47.084496,2.390815,133
 "chassenonAmphitheater","Amphitheater at Chassenon",,"gallo-roman-amphitheater",,"France","Imperial",,,,,60,40,45.850749,0.768913,217
 "drevantAmphitheater","Amphitheater at Drevant",,"gallo-roman-amphitheater",,"France","Imperial",,,56,,25,,46.693079,2.522625,164
-"fahsAmphitheater","Amphitheater at Fahs","Fahs","amphitheater",7200,"Tunisia","Imperial",,,68,52,44,32,36.16351,9.775766,471
+"seressiAmphitheater","Amphitheater at Seressi","Seressi","amphitheater",7200,"Tunisia","Second Century",,,76,65.2,51.5,40.7,36.16351,9.775766,471
 "chemtouAmphitheater","Amphitheater at Chemtou","Chemtou","amphitheater",6500,"Tunisia","Second Century",,,61,52,30,21,36.490426,8.580552,171
-"bekaltaAmphitheater","Amphitheater at Bekalta",,"amphitheater",,"Tunisia","Imperial",,,80,62,57,39,35.619149,11.042371,3
+"bekaltaAmphitheater","Amphitheater at Bekalta",,"amphitheater",4400,"Tunisia","Imperial",,,80,58,67,43,35.619149,11.042371,3
 "sidiBouArkoubAmphitheater","Amphitheater at Sidi bou Arkoub","Sidi bou Arkoub","amphitheater",3200,"Tunisia","Imperial",,,56,38,38,22,36.310778,9.31926,277
 "genzanoPrivateAmphitheater","Private Amphitheater at Genzano","Genzano","amphitheater",1300,"Italy","Second Century",,,61,40,,,41.69286,12.696433,370
-"ainHedjahAmphitheater","Amphitheater at Ain Hedjah","Ain Hedjah","amphitheater",3000,"Tunisia","Second Century",,,53,35,,,41.69286,12.696433,370
+"ainHedjahAmphitheater","Amphitheater at Ain Hedjah","Ain Hedjah","amphitheater",3000,"Tunisia","Second Century",,,57,42,43,28,41.69286,12.696433,370
 "uticaAmphitheater","Amphitheater at Utica","Utica","amphitheater",17100,"Tunisia","Second Century",,,118,98,80,60,37.052472,10.057188,29
 "hencherElKasbatAmphitheater","Amphitheater at Henchir el Kasbat","Thuburbo Maius","amphitheater",7500,"Tunisia","Second Century",,,74,61,46,33,36.398153,9.905668,201
 "espejoAmphitheater","Amphitheater at Espejo","Espejo","amphitheater",,"Spain","Julius Caesar",,,,,,,37.683989,-4.554198,352
 "hencherElKasbatAmphitheater","Amphitheater at Henchir Zembra","Ulissipara","amphitheater",5400,"Tunisia","Second Century",,,69,53,48,32,35.958583,10.441193,21
 "botriaAmphitheater","Amphitheater at Botria","Acholla","amphitheater",11600,"Tunisia","Second Century",,,90,86,58,54,35.075962,11.018944,2
+"tipasaAmphitheater","Amphitheater at Tipasa","Tipasa","amphitheater",8300,"Algeria","Late Second Century",,,85,,60,35,36.593152,2.445456,16
+"bullaRegiaAmphitheater","Amphitheater at Bulla Regia","Bulla Regia","amphitheater",8300,"Tunisia","Late Second Century",,,75,66,34,30,36.564169,8.762598,227
+"pupputAmphitheater","Amphitheater at Pupput","Pupput","amphitheater",,"Tunisia",,,,,,45,36,36.3929,10.5626,4
+"siccaVeneriaAmphitheater","Amphitheater at Sicca Veneria","Sicca Veneria","amphitheater",11300,"Tunisia",,,,100,80,70,50,36.18536115302,8.715302,748
+"thibariAmphitheater","Amphitheater at Thibari","Thibari","amphitheater",6300,"Tunisia",,,,61.2,51.5,30.8,21,36.504836,9.083712,282
+"portusOvalStructure","Oval Structure at Portus","Portus Oval Structure","oval-structure",2000,"Italy",,,,,,,,41.781816,12.25809,2
