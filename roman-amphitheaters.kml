@@ -42,6 +42,7 @@
 	<SimpleField name="primarymaterial" type="string"></SimpleField>
 	<SimpleField name="certainty" type="string"></SimpleField>
 	<SimpleField name="certainty-qualifier" type="string"></SimpleField>
+	<SimpleField name="lastuse" type="int"></SimpleField>
 </Schema>
 <Folder><name>OGRGeoJSON</name>
   <Placemark>
@@ -441,6 +442,7 @@
 		<SimpleData name="label">Leptis Magna</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/344448</SimpleData>
 		<SimpleData name="moderncountry">Libya</SimpleData>
+		<SimpleData name="golvinID">174</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>14.309452,32.63234,18</coordinates></Point>
   </Placemark>
@@ -1212,9 +1214,11 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">5000</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 63.200000, &quot;exterior-minor&quot;: 49.600000, &quot;arena-major&quot;: 38.400000, &quot;arena-minor&quot;: 24.800000, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
 		<SimpleData name="label">Mactaris</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/324774</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
+		<SimpleData name="golvinID">119</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>9.2066727,35.8556279,911</coordinates></Point>
   </Placemark>
@@ -1445,8 +1449,10 @@
 		<SimpleData name="capacity">20700</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="created">125</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 115, &quot;exterior-minor&quot;: 99, &quot;arena-major&quot;: 65, &quot;arena-minor&quot;: 49, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
 		<SimpleData name="label">Sabratha</SimpleData>
 		<SimpleData name="moderncountry">Libya</SimpleData>
+		<SimpleData name="golvinID">120</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>12.49404,32.803879,11</coordinates></Point>
   </Placemark>
@@ -1502,6 +1508,7 @@
 		<SimpleData name="capacity">8700</SimpleData>
 		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="created">125</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 90, &quot;exterior-minor&quot;: 61, &quot;arena-major&quot;: 62, &quot;arena-minor&quot;: 33, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
 		<SimpleData name="label">Thaenae</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="golvinID">71</SimpleData>
@@ -1886,8 +1893,10 @@
 		<SimpleData name="title">Amphitheater at Béziers</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="label">Béziers</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="latintoponym">Baeterrae</SimpleData>
+		<SimpleData name="visibility">street-plan</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>3.214026,43.339589,56</coordinates></Point>
   </Placemark>
@@ -2389,7 +2398,7 @@
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 108, &quot;exterior-minor&quot;: 70 }</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="latintoponym">Avaricum</SimpleData>
-		<SimpleData name="visibility">street plan</SimpleData>
+		<SimpleData name="visibility">street-plan</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>2.390815,47.084496,133</coordinates></Point>
   </Placemark>
@@ -2423,12 +2432,12 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="title">Amphitheater at Fahs</SimpleData>
+		<SimpleData name="title">Amphitheater at Seressi</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">7200</SimpleData>
-		<SimpleData name="chronogroup">Imperial</SimpleData>
-		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 68, &quot;exterior-minor&quot;: 52, &quot;arena-major&quot;: 44, &quot;arena-minor&quot;: 32 }</SimpleData>
-		<SimpleData name="label">Fahs</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 76, &quot;exterior-minor&quot;: 65.200000, &quot;arena-major&quot;: 51.500000, &quot;arena-minor&quot;: 40.700000, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="label">Seressi</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="latintoponym">Seressi</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
@@ -2454,8 +2463,9 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Bekalta</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="capacity">4400</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
-		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 80, &quot;exterior-minor&quot;: 62, &quot;arena-major&quot;: 57, &quot;arena-minor&quot;: 39 }</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 80, &quot;exterior-minor&quot;: 58, &quot;arena-major&quot;: 67, &quot;arena-minor&quot;: 43, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/324827</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="latintoponym">Thapsus</SimpleData>
@@ -2502,7 +2512,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">3000</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
-		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 53, &quot;exterior-minor&quot;: 35 }</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 57, &quot;exterior-minor&quot;: 42, &quot;arena-major&quot;: 43, &quot;arena-minor&quot;: 28, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
 		<SimpleData name="label">Ain Hedjah</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/314857</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
@@ -2591,6 +2601,118 @@
 		<SimpleData name="visibility">good</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>11.018944,35.075962,2</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Tipasa</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="capacity">8300</SimpleData>
+		<SimpleData name="chronogroup">Late Second Century</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 85, &quot;arena-major&quot;: 60, &quot;arena-minor&quot;: 35 }</SimpleData>
+		<SimpleData name="label">Tipasa</SimpleData>
+		<SimpleData name="pleiades">http://pleiades.stoa.org/places/295363</SimpleData>
+		<SimpleData name="moderncountry">Algeria</SimpleData>
+		<SimpleData name="latintoponym">Tipasa</SimpleData>
+		<SimpleData name="golvinID">130</SimpleData>
+		<SimpleData name="visibility">good</SimpleData>
+		<SimpleData name="lastuse">400</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.445456,36.593152,16</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Bulla Regia</SimpleData>
+		<SimpleData name="amphitheatrum">http://www.amphi-theatrum.de/1314.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="capacity">8300</SimpleData>
+		<SimpleData name="chronogroup">Late Second Century</SimpleData>
+		<SimpleData name="comment">Location approximate.</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 75, &quot;exterior-minor&quot;: 66, &quot;arena-major&quot;: 34, &quot;arena-minor&quot;: 30, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="label">Bulla Regia</SimpleData>
+		<SimpleData name="pleiades">http://pleiades.stoa.org/places/314912</SimpleData>
+		<SimpleData name="moderncountry">Tunisia</SimpleData>
+		<SimpleData name="latintoponym">Bulla Regia</SimpleData>
+		<SimpleData name="golvinID">117</SimpleData>
+		<SimpleData name="visibility">poor</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.762598,36.564169,227</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Pupput</SimpleData>
+		<SimpleData name="amphitheatrum">http://www.amphi-theatrum.de/1326.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="comment">So far, available information is incomplete. Site as proxy for location.</SimpleData>
+		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 45, &quot;arena-minor&quot;: 36, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="label">Pupput</SimpleData>
+		<SimpleData name="pleiades">http://pleiades.stoa.org/places/315121</SimpleData>
+		<SimpleData name="moderncountry">Tunisia</SimpleData>
+		<SimpleData name="latintoponym">Pupput</SimpleData>
+		<SimpleData name="visibility">poor</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>10.5626,36.3929,4</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Sicca Veneria</SimpleData>
+		<SimpleData name="amphitheatrum">http://www.amphi-theatrum.de/1329.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="capacity">11300</SimpleData>
+		<SimpleData name="comment">Not located. Near casbah.</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 100, &quot;exterior-minor&quot;: 80, &quot;arena-major&quot;: 70, &quot;arena-minor&quot;: 50, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="label">Sicca Veneria</SimpleData>
+		<SimpleData name="pleiades">http://pleiades.stoa.org/places/315152</SimpleData>
+		<SimpleData name="moderncountry">Tunisia</SimpleData>
+		<SimpleData name="latintoponym">Sicca Veneria</SimpleData>
+		<SimpleData name="visibility">none</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.715302,36.185361153019997,748</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Thibari</SimpleData>
+		<SimpleData name="amphitheatrum">http://www.amphi-theatrum.de/1337.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="capacity">6300</SimpleData>
+		<SimpleData name="comment">Not located.</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 61.200000, &quot;exterior-minor&quot;: 51.500000, &quot;arena-major&quot;: 30.800000, &quot;arena-minor&quot;: 21, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="label">Thibari</SimpleData>
+		<SimpleData name="pleiades">http://pleiades.stoa.org/places/315201</SimpleData>
+		<SimpleData name="moderncountry">Tunisia</SimpleData>
+		<SimpleData name="latintoponym">Thibari</SimpleData>
+		<SimpleData name="golvinID">62</SimpleData>
+		<SimpleData name="visibility">none</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>9.083712,36.504836,282</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Oval Structure at Portus</SimpleData>
+		<SimpleData name="buildingtype">oval-structure</SimpleData>
+		<SimpleData name="capacity">2000</SimpleData>
+		<SimpleData name="comment">Not certainly an Amphitheater.</SimpleData>
+		<SimpleData name="label">Portus Oval Structure</SimpleData>
+		<SimpleData name="pleiades">http://pleiades.stoa.org/places/423012</SimpleData>
+		<SimpleData name="moderncountry">Italy</SimpleData>
+		<SimpleData name="see">[ &quot;http:\/\/www.sciencedaily.com\/releases\/2009\/09\/090930194337.htm&quot;, &quot;http:\/\/timesonline.typepad.com\/dons_life\/2009\/10\/the-luxury-amphitheatre-at-portus.html&quot; ]</SimpleData>
+		<SimpleData name="latintoponym">Portus</SimpleData>
+		<SimpleData name="private">1</SimpleData>
+		<SimpleData name="visibility">none</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>12.25809,41.781816,2</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Gallo-Roman Amphitheater at Montbouy</SimpleData>
+		<SimpleData name="buildingtype">gallo-roman-amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 48, &quot;arena-minor&quot;: 31 }</SimpleData>
+		<SimpleData name="label">Montbouy</SimpleData>
+		<SimpleData name="pleiades">http://pleiades.stoa.org/places/138468</SimpleData>
+		<SimpleData name="moderncountry">France</SimpleData>
+		<SimpleData name="visibility">good</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.819017,47.87286,122</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>

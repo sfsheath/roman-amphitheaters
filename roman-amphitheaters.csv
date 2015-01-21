@@ -141,7 +141,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "beneventoAmphitheater","Amphitheater at Benevento",,"amphitheater",,"Italy","Republican",,,,,,,41.130009,14.781523,166
 "calviRisortaAmphitheater","Amphitheater at Calvi Risorta",,"amphitheater",,"Italy","Republican",,,,,,,41.202429,14.137993,89
 "sanVittorinoAmphitheater","Amphitheater at San Vittorino","San Vittorino","amphitheater",20000,"Italy","First Century",,,,,,,42.400531,13.306027,672
-"beziersAmphitheater","Amphitheater at Béziers",,"amphitheater",,"France","Imperial",,,,,,,43.339589,3.214026,56
+"beziersAmphitheater","Amphitheater at Béziers","Béziers","amphitheater",,"France","Imperial",,,,,,,43.339589,3.214026,56
 "agenAmphitheater","Amphitheater at Agen","Agen","amphitheater",15000,"France","Imperial",,,,,,,44.206545,0.622122,52
 "narbonneAmphitheater","Amphitheater at Narbonne",,"amphitheater",,"France","Flavian",,,121.6,93.2,75,46.6,43.184873,3.010181,14
 "amiensAmphitheater","Amphitheater at Amiens",,"amphitheater",,"France","Second Century",,,,,,,49.8944,2.293485,32
@@ -200,3 +200,4 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "siccaVeneriaAmphitheater","Amphitheater at Sicca Veneria","Sicca Veneria","amphitheater",11300,"Tunisia",,,,100,80,70,50,36.18536115302,8.715302,748
 "thibariAmphitheater","Amphitheater at Thibari","Thibari","amphitheater",6300,"Tunisia",,,,61.2,51.5,30.8,21,36.504836,9.083712,282
 "portusOvalStructure","Oval Structure at Portus","Portus Oval Structure","oval-structure",2000,"Italy",,,,,,,,41.781816,12.25809,2
+"montbouyGallRomanAmphitheater","Gallo-Roman Amphitheater at Montbouy","Montbouy","gallo-roman-amphitheater",,"France","Imperial",,,,,48,31,47.87286,2.819017,122

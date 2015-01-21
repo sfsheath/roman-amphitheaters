@@ -3439,8 +3439,10 @@
         "title": "Amphitheater at Béziers",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Béziers",
         "latintoponym": "Baeterrae",
-        "moderncountry": "France"
+        "moderncountry": "France",
+        "visibility": "street-plan"
       },
       "geometry":{
         "type":"Point",
@@ -4316,7 +4318,7 @@
          },
         "latintoponym": "Avaricum",
         "moderncountry": "France",
-        "visibility": "street plan"
+        "visibility": "street-plan"
       },
       "geometry":{
         "type":"Point",
@@ -4881,6 +4883,31 @@
              12.258090,
              41.781816,
              2
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"montbouyGallRomanAmphitheater",
+      "properties": {
+        "title": "Gallo-Roman Amphitheater at Montbouy",
+        "buildingtype": "gallo-roman-amphitheater",
+        "chronogroup": "Imperial",
+        "dimensions": {
+           "arena-major": 48,
+           "arena-minor": 31
+        },
+        "label": "Montbouy",
+        "moderncountry": "France",
+        "pleiades": "http://pleiades.stoa.org/places/138468",
+        "visibility": "good"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+             2.819017,
+             47.872860,
+             122
         ],
         "source":"http://maps.google.com/"
       }
