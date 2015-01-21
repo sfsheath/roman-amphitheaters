@@ -201,3 +201,5 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "thibariAmphitheater","Amphitheater at Thibari","Thibari","amphitheater",6300,"Tunisia",,,,61.2,51.5,30.8,21,36.504836,9.083712,282
 "portusOvalStructure","Oval Structure at Portus","Portus Oval Structure","oval-structure",2000,"Italy",,,,,,,,41.781816,12.25809,2
 "montbouyGallRomanAmphitheater","Gallo-Roman Amphitheater at Montbouy","Montbouy","gallo-roman-amphitheater",,"France","Imperial",,,,,48,31,47.87286,2.819017,122
+"statiliusTaurusAmphitheater","Amphitheater of Statilius Taurus","Statilius Taurus","amphitheater",,"Italy","Augustan",,,,,,,41.899614,12.469869,22
+"hisaryaAmphitheater","Amphitheater Hisarya","Hisarya","amphitheater",,"Bulgaria","Imperial",,,,,,,42.500071,24.703104,362

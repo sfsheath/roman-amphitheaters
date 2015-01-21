@@ -21,8 +21,8 @@
 	<SimpleField name="wikipedia" type="string"></SimpleField>
 	<SimpleArrayField name="youtube" type="string"></SimpleArrayField>
 	<SimpleField name="latintoponym" type="string"></SimpleField>
-	<SimpleField name="golvinID" type="string"></SimpleField>
 	<SimpleField name="last-use" type="int"></SimpleField>
+	<SimpleField name="golvinID" type="string"></SimpleField>
 	<SimpleField name="welch-id" type="string"></SimpleField>
 	<SimpleField name="bibliography" type="string"></SimpleField>
 	<SimpleField name="latintoponum" type="string"></SimpleField>
@@ -131,6 +131,7 @@
 		<SimpleData name="see">http://pleiades.stoa.org/places/285857974/centerpoint-of-amphitheatrum-flavium</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Colosseum</SimpleData>
 		<SimpleData name="youtube">(2:https://www.youtube.com/watch?v=kxwenPo1grc,...)</SimpleData>
+		<SimpleData name="last-use">523</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>12.492269,41.890169,22</coordinates></Point>
   </Placemark>
@@ -2713,6 +2714,32 @@
 		<SimpleData name="visibility">good</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>2.819017,47.87286,122</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater of Statilius Taurus</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Augustan</SimpleData>
+		<SimpleData name="label">Statilius Taurus</SimpleData>
+		<SimpleData name="moderncountry">Italy</SimpleData>
+		<SimpleData name="last-use">64</SimpleData>
+		<SimpleData name="visibility">none</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>12.469869,41.899614,22</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater Hisarya</SimpleData>
+		<SimpleData name="amphitheatrum">http://www.amphi-theatrum.de/2003.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="label">Hisarya</SimpleData>
+		<SimpleData name="pleiades">http://pleiades.stoa.org/places/216792</SimpleData>
+		<SimpleData name="moderncountry">Bulgaria</SimpleData>
+		<SimpleData name="latintoponym">Diocletianopolis</SimpleData>
+		<SimpleData name="visibility">good</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>24.703104,42.500071,362</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>

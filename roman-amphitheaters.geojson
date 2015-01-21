@@ -167,6 +167,7 @@
            },
         "emperor": "Vespasian",
         "label": "Colosseum",
+        "last-use": 523,
         "pleiades": "http://pleiades.stoa.org/places/423025",
         "moderncountry": "Italy",
         "see":"http://pleiades.stoa.org/places/285857974/centerpoint-of-amphitheatrum-flavium",
@@ -578,8 +579,7 @@
         "created":200,
         "label": "Marcianopolis",
         "moderncountry": "Bulgaria",
-        "pleiades": "http://pleiades.stoa.org/places/216878",
-        "moderncountry": "Bulgaria"
+        "pleiades": "http://pleiades.stoa.org/places/216878"
       },
       "geometry":{
         "type":"Point",
@@ -4908,6 +4908,50 @@
              2.819017,
              47.872860,
              122
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"statiliusTaurusAmphitheater",
+      "properties": {
+        "title": "Amphitheater of Statilius Taurus",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Augustan",
+        "label": "Statilius Taurus",
+        "last-use": 64,
+        "moderncountry": "Italy",
+        "visibility": "none"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+              12.469869,
+              41.899614,
+              22
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"hisaryaAmphitheater",
+      "properties": {
+        "title": "Amphitheater Hisarya",
+        "amphitheatrum": "http://www.amphi-theatrum.de/2003.html",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
+        "label": "Hisarya",
+        "latintoponym": "Diocletianopolis",
+        "moderncountry": "Bulgaria",
+        "pleiades": "http://pleiades.stoa.org/places/216792",
+        "visibility": "good"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+              24.703104,
+              42.500071,
+              362
         ],
         "source":"http://maps.google.com/"
       }
