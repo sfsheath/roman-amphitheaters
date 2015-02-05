@@ -627,6 +627,7 @@
         "amphitheatrum": "http://amphi-theatrum.de/1453.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Nijmegen",
         "moderncountry": "Netherlands",
         "pleiades": "http://pleiades.stoa.org/places/98921",
         "visibility": "none"
@@ -970,6 +971,7 @@
           "arena-major": 52,
           "arena-minor": 34.5
          },
+        "label": "Luna",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/403235"
       },
@@ -990,6 +992,7 @@
         "title":"Amphitheater at Casinum",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Casinum",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/432764"
       },
@@ -1010,6 +1013,7 @@
         "title":"Amphitheater at Viminacium",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Viminacium",
         "moderncountry": "Serbia",
         "pleiades": "http://pleiades.stoa.org/places/207549"
       },
@@ -1030,6 +1034,7 @@
         "title":"Amphitheater at Flavia Solva",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Flavia Solva", 
         "moderncountry": "Austria",
         "pleiades": "http://pleiades.stoa.org/places/197273"
       },
@@ -1050,6 +1055,7 @@
         "title":"Amphitheater at Rusellae",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Rusellae",
         "moderncountry": "Italy", 
         "pleiades": "http://pleiades.stoa.org/places/413288",
         "source":"http://pleiades.stoa.org/places/413288/location-of-roman-amphitheater"
@@ -1114,6 +1120,7 @@
         "title":"Amphitheater at Cyrene",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Cyrene",
         "moderncountry": "Libya",
         "pleiades": "http://pleiades.stoa.org/places/373778"
       },
@@ -1141,6 +1148,7 @@
           "arena-minor": 38
          },
         "hypogeum": true,
+        "label": "Libarna",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/383694",
         "source":"http://pleiades.stoa.org/places/383694/location-of-roman-amphitheater"
@@ -1161,6 +1169,7 @@
         "title":"Amphitheater at Luceria/Noukeria (Apoulon)",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Luceria",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/442640"
       },
@@ -1182,6 +1191,7 @@
         "amphitheatrum": "http://amphi-theatrum.de/1461.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Republican",
+        "label": "Abella",
         "latintoponym": "Abella",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/432617"
@@ -1227,6 +1237,7 @@
         "title":"Amphitheater at Charterhouse",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Charterhouse",
         "moderncountry": "United Kingdom",
         "pleiades": "http://pleiades.stoa.org/places/79534",
         "source":"http://pleiades.stoa.org/places/79534/location-of-roman-amphitheater"
@@ -1247,6 +1258,7 @@
         "title":"Amphitheater at Chester",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Chester",
         "latintoponym": "Deva Victrix",
         "moderncountry": "United Kingdom",
         "pleiades": "http://pleiades.stoa.org/places/79420"
@@ -1268,6 +1280,7 @@
         "title":"Amphitheater at Gennes",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Gennes",
         "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/138371"
       },
@@ -1288,6 +1301,7 @@
         "title":"Amphitheater at Scythopolis/Nysa",
         "buildingtype": "amphitheater-in-hippodrome",
         "chronogroup": "Imperial",
+        "label": "Scythopolis",
         "moderncountry": "Israel",
         "pleiades": "http://pleiades.stoa.org/places/678378"
       },
@@ -1308,6 +1322,7 @@
         "title":"Amphitheater at Scylletium/Scolacium",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Scylletium",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/452439",
         "source":"http://pleiades.stoa.org/places/452439/location-of-roman-amphitheater"
@@ -1393,6 +1408,7 @@
         "title":"Amphitheater at Carthago Nova/Col. Urbs Iulia",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Carthago Nova",
         "moderncountry": "Spain",
         "pleiades": "http://pleiades.stoa.org/places/265849"
       },
@@ -1455,6 +1471,7 @@
         "title":"Amphitheater at Florence",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Florence",
         "latintoponym": "Florentia",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/413138"
@@ -1476,6 +1493,7 @@
         "title":"Amphitheater at Ocriculum",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Ocriculcum",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/413231",
         "source":"http://pleiades.stoa.org/places/413231/location-of-roman-amphitheater"
@@ -1496,8 +1514,9 @@
         "title":"Amphitheater at Lixus",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
-        "pleiades": "http://pleiades.stoa.org/places/275666",
+        "label": "Lixus",
         "moderncountry": "Morocco",
+        "pleiades": "http://pleiades.stoa.org/places/275666",
         "source":"http://pleiades.stoa.org/places/275666/location-of-roman-amphitheater"
       },
       "geometry":{
@@ -1567,6 +1586,7 @@
         "title":"Amphitheater at Lucus Feroniae",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Lucus Feroniae",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/413184",
         "source":"http://pleiades.stoa.org/places/413184/location-of-lucus-feroniae-amphitheater"
@@ -1588,6 +1608,7 @@
         "amphitheatrum": "http://amphi-theatrum.de/2038.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Allifae",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/432658"
       },
@@ -1608,6 +1629,7 @@
         "title":"Amphitheater at Cemenelum",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Cemenelum",
         "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/157834",
         "source":"http://pleiades.stoa.org/places/157834/location-of-roman-amphitheater"
@@ -1628,6 +1650,7 @@
         "title":"Amphitheater at Hydata Hypsitana/Forum Traiani",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Forum Traiani",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/471947",
         "source":"http://pleiades.stoa.org/places/471947/location-of-roman-amphitheater"
@@ -1648,6 +1671,8 @@
         "title":"Amphitheater at Lucca",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Lucca",
+        "latintoponym": "Luca",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/403234",
         "source":"http://pleiades.stoa.org/places/403234/location-of-roman-amphitheater"
@@ -1668,6 +1693,7 @@
         "title":"Amphitheater at Hispellum",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Hispellum",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/413170",
         "source":"http://pleiades.stoa.org/places/413170/location-of-roman-amphitheater"
@@ -1720,6 +1746,7 @@
         "title":"Civil Amphitheater at Budapest",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Aquincum (Civilian)",
         "latintoponym": "Aquincum",
         "moderncountry": "Hungary",
         "pleiades": "http://pleiades.stoa.org/places/197130",
@@ -1744,6 +1771,7 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "created":150,
+        "label": "Aquincum (Military)",
         "military": true,
         "moderncountry": "Hungary",
         "pleiades": "http://pleiades.stoa.org/places/197130",
@@ -1766,6 +1794,7 @@
         "title":"Amphitheater at Aldborough",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Aldburough",
         "latintoponym": "Isurium Brigantium",
         "moderncountry": "United Kingdom",
         "pleiades": "http://pleiades.stoa.org/places/89209"
@@ -1791,6 +1820,7 @@
          "exterior-major": 131,
          "exterior-minor": 113
         },
+        "label": "Perigeux",
         "latintoponym": "Vesuna Petrucorriorum",
         "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/138650"
@@ -1812,6 +1842,7 @@
         "title":"Amphitheater at Cividate Camuno",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Cividate Camuno",
         "latintoponym": "Civitas Camunnorum",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/383617"
@@ -1966,6 +1997,7 @@
           "source": "Bomgardner"
         },
         "golvinid": "181",
+        "label": "Salona",
         "moderncountry": "Croatia",
         "pleiades": "http://pleiades.stoa.org/places/197488",
         "source":"http://pleiades.stoa.org/places/197488/location-of-roman-amphitheater"
@@ -1986,6 +2018,7 @@
         "title":"Amphitheater at London",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "London",
         "latintoponym": "Londinium",
         "moderncountry": "United Kingdom",
         "pleiades": "http://pleiades.stoa.org/places/79574",
@@ -2008,6 +2041,7 @@
         "title":"Amphitheater at Tibur",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Tibur",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/423081"
       },
@@ -2028,6 +2062,7 @@
         "title":"Amphitheater at Caerleon",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Caerleon",
         "moderncountry": "United Kingdom",
         "pleiades": "http://pleiades.stoa.org/places/79532",
         "youtube": [
@@ -2101,8 +2136,9 @@
         "title":"Amphitheater at Saintes",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
-        "pleiades": "http://pleiades.stoa.org/places/138458",
+        "label": "Saintes",
         "moderncountry": "France",
+        "pleiades": "http://pleiades.stoa.org/places/138458",
         "youtube": ["https://www.youtube.com/watch?v=2TCI21s-bxM"]
       },
       "geometry":{
@@ -2222,9 +2258,10 @@
         "amphitheatrum": "http://amphi-theatrum.de/1490.html",
         "latintoponym": "Corinium Dobunnorum",
         "buildingtype": "amphitheater",
+        "label": "Cirencester",
         "chronogroup": "Imperial",
-        "pleiades": "http://pleiades.stoa.org/places/197225",
         "moderncountry": "United Kingdom",
+        "pleiades": "http://pleiades.stoa.org/places/197225",
         "youtube": [
             "https://www.youtube.com/watch?v=9RFDium7TYU",
             "https://www.youtube.com/watch?v=8Nfeu_GD8KM",
@@ -2345,6 +2382,7 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "created":150,
+        "label": "Gortyn",
         "moderncountry": "Greece",
         "pleiades": "http://pleiades.stoa.org/places/589796"
       },
@@ -2409,9 +2447,16 @@
       "properties":{
         "title":"Amphitheater at Gemellae",
         "buildingtype": "amphitheater",
-        "capacity": 3000,
-        "chronogroup": "Republican",
+        "capacity": 2000,
+        "chronogroup": "Second Century",
         "created": 130,
+        "dimensions": {
+           "extior-major": 72,
+           "exterior-minor": 52,
+           "arena-major": 52,
+           "arena-minor": 32,
+           "source": "Bomgardner"
+         },
         "golvinID": "44",
         "label": "Gemellae",
         "moderncountry": "Algeria",
@@ -2514,6 +2559,7 @@
         "chronogroup": "Imperial",
         "created": 150,
         "comment": "Date very approximate.",
+        "label": "Caesarea",
         "moderncountry": "Israel"
       },
       "geometry":{
@@ -2559,6 +2605,7 @@
           "arena-major": 60,
           "arena-minor": 43 
         },
+        "label": "Anazarbus",
         "moderncountry": "Turkey"
       },
       "geometry":{
@@ -2579,6 +2626,7 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Republican",
         "comment": "Location not specific.",
+        "label": "Antioch",
         "moderncountry": "Turkey",
         "welch-id": "19"
       },
@@ -2599,6 +2647,7 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "comment": "Location not specific.",
+        "label": "Cyzicus",
         "moderncountry": "Turkey"
       },
       "geometry":{
@@ -2646,6 +2695,7 @@
         "title":"Amphitheater at Salamis",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Salamis",
         "moderncountry": "Northern Cyprus"
       },
       "geometry":{
@@ -2664,6 +2714,7 @@
         "title":"Amphitheater at Paphos",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Paphos",
         "moderncountry": "Cyprus"
       },
       "geometry":{
@@ -2682,6 +2733,7 @@
         "title":"Amphitheater at Carmarthen",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Carmarthen",
         "moderncountry": "United Kingdom"
       },
       "geometry":{
@@ -2700,6 +2752,7 @@
         "title":"Amphitheater at Caerwent",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Caerwent",
         "moderncountry": "United Kingdom"
       },
       "geometry":{
@@ -2718,6 +2771,7 @@
         "title":"Amphitheater at Tomen y Mur",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Tomen y Mur",
         "moderncountry": "United Kingdom"
       },
       "geometry":{
@@ -2854,6 +2908,7 @@
         "latinName": "Eporedia",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Ivrea",
         "moderncountry": "Italy" 
       },
       "geometry":{
@@ -2976,6 +3031,7 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "created": 50,
+        "label": "Toulouse",
         "moderncountry": "France"
       },
       "geometry":{
@@ -3019,6 +3075,7 @@
         "buildingtype": "amphitheater",
         "chronogroup": "First Century",
         "comment": "Discovered in 2003.",
+        "label": "Cordoba",
         "latingtoponym": "Colonia Patricia",
         "moderncountry": "Spain",
         "pleiades": "http://pleiades.stoa.org/places/256128",
@@ -3040,6 +3097,7 @@
         "title": "Amphitheater at Lillebonne",
         "buildingtype": "amphitheater",
         "chronogroup": "First Century",
+        "label": "Lillebonne",
         "moderncountry": "France"
       },
       "geometry":{
@@ -3059,6 +3117,7 @@
         "amphitheatrum": "http://amphi-theatrum.de/1551.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Second Century",
+        "label": "Besançon",
         "latintoponym": "Vesontio",
         "moderncountry": "France"
       },
@@ -3079,6 +3138,7 @@
         "amphitheatrum": "http://amphi-theatrum.de/1549.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Second Century",
+        "label": "Limoges",
         "latintoponym": "Augustoritum",
         "moderncountry": "France"
       },
@@ -3103,6 +3163,7 @@
           "exterior-major": 108,
           "exterior-minor": 88
         },
+        "label": "Poitiers",
         "latintoponym": "Limonum Pictonum",
         "moderncountry": "France"
       },
@@ -3123,6 +3184,7 @@
         "amphitheatrum": "http://amphi-theatrum.de/1394.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Reims",
         "latintoponym": "Durocortorum",
         "moderncountry": "France"
       },
@@ -3165,6 +3227,7 @@
         "amphitheatrum": "http://amphi-theatrum.de/1523.html",
         "buildingtype": "amphitheater",
         "chronogroup": "First Century",
+        "label": "Milan",
         "latintoponym": "Mediolanum",
         "moderncountry": "Italy"
       },
@@ -3185,6 +3248,7 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "comment": "Location approximate",
+        "label": "Aquileia",
         "latintoponym": "Aquileia",
         "moderncountry": "Italy"
       },
@@ -3205,6 +3269,7 @@
         "amphitheatrum": "http://amphi-theatrum.de/1399.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Julio-Claudian",
+        "label": "Padua",
         "latintoponym": "Patavia",
         "moderncountry": "Italy"
       },
@@ -3249,6 +3314,7 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Flavian",
         "comment": "Location approximate.",
+        "label": "Termini",
         "latintoponym": "Thermae Himerae",
         "moderncountry": "Italy"
       },
@@ -3338,6 +3404,7 @@
           "arena-major": 67,
           "arena-minor": 53
          },
+        "label": "Ancona",
         "latintoponym": "Ancona",
         "moderncountry": "Italy"
       },
@@ -3358,6 +3425,7 @@
         "amphitheatrum": "http://amphi-theatrum.de/1518.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Ascoli",
         "latintoponym": "Ascolum Picenum",
         "moderncountry": "Italy"
       },
@@ -3378,6 +3446,7 @@
         "amphitheatrum": "http://amphi-theatrum.de/1776.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Republican",
+        "label": "Benevento",
         "latintoponym": "Beneventum",
         "moderncountry": "Italy"
       },
@@ -3398,6 +3467,7 @@
         "amphitheatrum": "http://amphi-theatrum.de/1462.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Republican",
+        "label": "Calvi Risorto",
         "latintoponym": "Cales",
         "moderncountry": "Italy"
       },
@@ -3484,6 +3554,7 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Flavian",
         "dimensions":{"arena-major":75,"arena-minor":46.6,"exterior-major":121.6,"exterior-minor":93.2},
+        "label": "Narbonne",
         "moderncountry": "France",
         "visibility": "none"
       },
@@ -3506,6 +3577,7 @@
         "capactiy": 15000,
         "chronogroup": "Second Century",
         "golvin-id": "102",
+        "label": "Amiens",
         "moderncountry": "France",
         "visibility": "none"
       },
@@ -3526,6 +3598,7 @@
         "amphitheatrum": "http://amphi-theatrum.de/2416.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Meaux",
         "latintoponym": "Iatinum Fixtinnum",
         "moderncountry": "France",
         "visibility": "none"
@@ -3546,6 +3619,7 @@
         "title": "Amphitheater at Chartres",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Chartres",
         "latintoponym": "Autricum",
         "moderncountry": "France",
         "visibility": "none"
@@ -3567,6 +3641,7 @@
         "amphitheatrum": "http://amphi-theatrum.de/1483.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Senlis",
         "latintoponym": "Augustomagus",
         "moderncountry": "France",
         "visibility": "good",
@@ -3613,6 +3688,7 @@
         "amphitheatrum": "http://amphi-theatrum.de/1986.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Caistor St. Edmund",
         "latintoponym": "Venta Icenorum",
         "moderncountry": "United Kingdom",
         "title": "Amphitheater at Caistor Saint Edmund",
@@ -3692,6 +3768,7 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Republican",
         "comment": "Location is incorrect. Said to be south of city wall.",
+        "label": "Literno",
         "latintoponym": "Liternum",
         "moderncountry": "Italy",
         "visibility": "none",
@@ -3714,6 +3791,7 @@
         "amphitheatrum": "http://amphi-theatrum.de/1594.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Republican",
+        "label": "Nole",
         "latintoponym": "Nola",
         "moderncountry": "Italy",
         "visibility": "partial",
@@ -3735,6 +3813,7 @@
         "amphitheatrum": "http://amphi-theatrum.de/1493.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Second Century",
+        "label": "Silchester",
         "latintoponym": "Calleva Atrebatum",
         "moderncountry": "United Kingdom",
         "title": "Amphitheater at Silchester",
@@ -3845,6 +3924,7 @@
         "title": "Amphitheater at Autun",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Autun",
         "latintoponym": "Augustodunum",
         "moderncountry": "France",
         "visibility": "none"
@@ -3889,6 +3969,7 @@
         "amphitheatrum": "http://amphi-theatrum.de/1896.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Arnsburg",
         "moderncountry": "Germany",
         "title": "Amphitheater at Arnsburg",
         "visibility": "none"
@@ -3910,8 +3991,9 @@
         "amphitheatrum": "http://amphi-theatrum.de/2128.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
-        "see": "https://www.academia.edu/1557389/Rediscovering_the_small_theatre_and_amphitheatre_of_ancient_Ierapytna_SE_Crete_",
+        "label": "Ierapetra",
         "moderncountry": "Greece",
+        "see": "https://www.academia.edu/1557389/Rediscovering_the_small_theatre_and_amphitheatre_of_ancient_Ierapytna_SE_Crete_",
         "visibility": "partial"
       },
       "geometry":{
@@ -3927,13 +4009,14 @@
       "type":"Feature",
       "id":"kunzingAmphitheater",
       "properties": {
+        "title": "Amphitheater at Künzing",
         "amphitheatrum": "http://amphi-theatrum.de/1876.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Künzing",
+        "latintoponym": "Quintana",
         "moderncountry": "Germany",
         "primarymaterial": "wood",
-        "latintoponym": "Quintana",
-        "title": "Amphitheater at Künzing",
         "visibility": "none"
       },
       "geometry":{
@@ -3953,6 +4036,7 @@
         "amphitheatrum": "http://amphi-theatrum.de/1515.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Nocera",
         "latintoponym": "Nuceria Alfaterna",
         "moderncountry": "Italy",
         "visibility": "none"
@@ -3974,6 +4058,7 @@
         "amphitheatrum": "http://amphi-theatrum.de/1975.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Bobadela",
         "moderncountry": "Portugal",
         "visibility": "good"
       },
@@ -3994,6 +4079,7 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "moderncountry": "Hungary",
+        "label": "Sopron",
         "latintoponym": "Scarabantia",
         "title": "Amphitheater at Sopron",
         "visibility": "good"
@@ -4013,6 +4099,7 @@
       "properties": {
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Nyon",
         "latintoponym": "Colonia Iulia Equestris",
         "moderncountry": "Switzerland",
         "title": "Amphitheater at Nyon",
@@ -4033,6 +4120,7 @@
       "properties": {
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Bern",
         "latintoponym": "Bremodorum",
         "moderncountry": "Switzerland",
         "title": "Amphitheater at Bern",
@@ -4079,6 +4167,7 @@
         "amphitheatrum": "http://amphi-theatrum.de/1878.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Burnum",
         "moderncountry": "Croatia",
         "title": "Amphitheater at Burnum",
         "visibility": "good"
@@ -4099,6 +4188,7 @@
         "amphitheatrum": "http://amphi-theatrum.de/2424.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Gleisdorf",
         "moderncountry": "Austria",
         "see": "https://www.academia.edu/804203/Amphitheater_in_Noricum",
         "title": "Amphitheater at Gleisdorf",
@@ -4198,6 +4288,7 @@
         "certainty": "uncertain",
         "certainty-qualifier": "location",
         "chronogroup": "Imperial",
+        "label": "St. Marcel",
         "latintoponym": "Argentomagus",
         "moderncountry": "France",
         "see": "http://www.persee.fr/web/revues/home/prescript/article/galia_0016-4119_1968_num_26_2_2505",
@@ -4271,6 +4362,7 @@
         "title": "Amphitheater at Albegna",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Albegna",
         "latintoponym": "Albingaunum",
         "moderncountry": "Italy",
         "visibility": "partial"
@@ -4291,6 +4383,7 @@
         "title": "Amphitheater at Aquino",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "label": "Aquino",
         "latintoponym": "Aquinum",
         "moderncountry": "Italy",
         "visibility": "partial"
@@ -4316,6 +4409,7 @@
           "exterior-major": 108,
           "exterior-minor": 70
          },
+        "label": "Bourges",
         "latintoponym": "Avaricum",
         "moderncountry": "France",
         "visibility": "street-plan"
@@ -4341,6 +4435,7 @@
           "arena-major": 60,
           "arena-minor": 40
          },
+        "label": "Chassenon",
         "latintoponym": "Cassinomagus",
         "moderncountry": "France",
         "see": "http://www.amis-chassenon.org/72+lamphitheatre-de-chassenon.html", 
@@ -4367,6 +4462,7 @@
           "exterior-major": 56,
           "arena-major": 25
          },
+        "label": "Drevant",
         "latintoponym": "Derventum",
         "moderncountry": "France",
         "see": "http://commons.wikimedia.org/wiki/File:Drevant_Amphitheatre_Gallo-Romain.JPG",
@@ -4455,6 +4551,7 @@
           "source": "Bomgardner"
          },
         "golvinid": "185",
+        "label": "Bekalta",
         "latintoponym": "Thapsus",
         "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/324827",
@@ -4552,9 +4649,9 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-               12.696433,
-               41.692860,
-               370
+               9.230632,
+               36.391031,
+               412
         ],
         "source":"http://maps.google.com/"
       }
@@ -4645,7 +4742,7 @@
       }
     },{
       "type":"Feature",
-      "id":"hencherElKasbatAmphitheater",
+      "id":"hencherZembraAmphitheater",
       "properties": {
         "title": "Amphitheater at Henchir Zembra",
         "amphitheatrum": "http://www.amphi-theatrum.de/1346.html",
@@ -4918,9 +5015,11 @@
         "title": "Amphitheater of Statilius Taurus",
         "buildingtype": "amphitheater",
         "chronogroup": "Augustan",
+        "created": -24,
         "label": "Statilius Taurus",
         "last-use": 64,
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/423025",
         "visibility": "none"
       },
       "geometry":{
@@ -4936,7 +5035,7 @@
       "type":"Feature",
       "id":"hisaryaAmphitheater",
       "properties": {
-        "title": "Amphitheater Hisarya",
+        "title": "Amphitheater at Hisarya",
         "amphitheatrum": "http://www.amphi-theatrum.de/2003.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
@@ -4952,6 +5051,62 @@
               24.703104,
               42.500071,
               362
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"mesarafeltaAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Mesarfelta",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1446.html",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Second Century",
+        "comment": "Specific location not known.",
+        "label": "Mesarfelta",
+        "latintoponym": "Mesareflta",
+        "moderncountry": "Algeria",
+        "pleiades": "http://pleiades.stoa.org/places/334592",
+        "visibility": "none"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+              5.592835,
+              35.036203,
+              271
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"tigavaCastraAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Tigava Castra",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1498.html",
+        "buildingtype": "amphitheater",
+        "capacity": 2300,
+        "chronogroup": "Second Century",
+        "comment": "Specific location not known.",
+        "dimensions": {
+          "extmajor": 56,
+          "extminor": 37,
+          "arenamajor": 44,
+          "arenaminor": 26,
+          "source": "Bomgardner"
+        },
+        "label": "Tigava Castra",
+        "latintoponym": "Tigava Castra",
+        "moderncountry": "Algeria",
+        "pleiades": "http://pleiades.stoa.org/places/295357",
+        "visibility": "none"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+              1.651389,
+              36.23195,
+              151
         ],
         "source":"http://maps.google.com/"
       }
