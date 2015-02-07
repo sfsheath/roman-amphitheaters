@@ -5095,6 +5095,7 @@
           "arenaminor": 26,
           "source": "Bomgardner"
         },
+        "golvinid": "46",
         "label": "Tigava Castra",
         "latintoponym": "Tigava Castra",
         "moderncountry": "Algeria",
@@ -5107,6 +5108,58 @@
               1.651389,
               36.23195,
               151
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"carpisAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Carpis",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1316.html",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
+        "comment": "Specific location not known.",
+        "golvinid": "65",
+        "label": "Carpis",
+        "latintoponym": "Carpis",
+        "moderncountry": "Tunisia",
+        "pleiades": "http://pleiades.stoa.org/places/314920",
+        "visibility": "none"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+             10.557673,
+             36.760727,
+             29
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"altinumAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Altinum",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
+        "dimension": {
+           "exterior-major": 143,
+           "exterior-minor": 103,
+           "arena-major": 80,
+           "arena-minor": 58
+        },
+        "label": "Altinum",
+        "latintoponym": "Altinum",
+        "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/314920",
+        "visibility": "none" },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+             12.399911,
+             45.548996,
+             1
         ],
         "source":"http://maps.google.com/"
       }
