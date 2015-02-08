@@ -226,7 +226,7 @@
           "exterior-major": 71,
           "exterior-minor": 56,
           "arena-major": 47,
-          "arena-minor": 38 
+          "arena-minor": 38
          },
         "label": "Eleutheropolis",
         "last-use": 363,
@@ -257,7 +257,7 @@
           "exterior-major": 135,
           "exterior-minor": 104,
           "arena-major": 66,
-          "arena-minor": 35 
+          "arena-minor": 35
          },
         "label": "Pompeii",
         "last-use":79,
@@ -300,7 +300,7 @@
           "exterior-major": 126,
           "exterior-minor": 102,
           "arena-major": 64,
-          "arena-minor": 41 
+          "arena-minor": 41
          },
         "emperor": "Augustus",
         "hypogeum": true,
@@ -704,7 +704,7 @@
           "exterior-major": 129,
           "exterior-minor": 113,
           "arena-major": 66,
-          "arena-minor": 50 
+          "arena-minor": 50
          },
         "label": "Carnuntum (Civ.)",
         "moderncountry": "Austria",
@@ -1563,7 +1563,7 @@
           "exterior-major": 98,
           "exterior-minor": 86,
           "arena-major": 57,
-          "arena-minor": 40 
+          "arena-minor": 40
          },
         "label": "Larinum",
         "moderncountry": "Italy",
@@ -2980,7 +2980,7 @@
         "created": 212,
         "chronogroup": "Severan",
         "dimensions": {
-           "exterior-major": "116.5",
+           "exterior-major": 116.5,
            "exterior-minor": "94",
            "arena-major": 67.5,
            "arena-minor": 45
@@ -5249,7 +5249,7 @@
           "coordinates":[
                7.323481,
                45.740914,
-               595 
+               595
         ],  
         "source":"http://maps.google.com/"
       }
