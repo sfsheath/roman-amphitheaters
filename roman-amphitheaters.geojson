@@ -1608,6 +1608,13 @@
         "amphitheatrum": "http://amphi-theatrum.de/2038.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "dimensions": {
+            "exterior-major": 107,
+            "exterior-minor": 84,
+            "arena-major": 72,
+            "arena-minor": 48
+        },
+        "hypogeum": true,
         "label": "Allifae",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/432658"
@@ -2114,6 +2121,12 @@
         "capacity": 5150,
         "chronogroup": "Flavian",
         "creation": 81,
+        "dimensions": {
+          "exterior-major": 98,
+          "exterior-minor": 71,
+          "arena-major": 59,
+          "arena-minor": 35
+        },
         "label": "Urbs Salvia",
         "latintoponym": "Urbs Saglia",
         "moderncountry": "Italy",
@@ -2841,10 +2854,16 @@
       "properties":{
         "title":"Amphitheater at Theveste",
         "buildingtype": "amphitheater",
-        "capacity" : 14200,
-        "chronogroup": "Imperial",
-        "created" : 120,
-        "chronogroup":"Second Century",
+        "capacity" : 9400,
+        "chronogroup": "Flavian",
+        "comment": "Enlarged in late 3rd century.",
+        "dimensions": {
+           "exterior-major": 83,
+           "exterior-minor": 70,
+           "arena-major": 52.8,
+           "arena-minor": 39.5,
+           "source": "Bomgardner"
+        },
         "label": "Theveste",
         "moderncountry": "Algeria"
       },
@@ -2960,6 +2979,12 @@
         "capacity": 20000,
         "created": 212,
         "chronogroup": "Severan",
+        "dimensions": {
+           "exterior-major": "116.5",
+           "exterior-minor": "94",
+           "arena-major": 67.5,
+           "arena-minor": 45
+        },
         "emperor": "Septimius Severus",
         "golvinID": "190",
         "label": "Albana",
@@ -3269,6 +3294,13 @@
         "amphitheatrum": "http://amphi-theatrum.de/1399.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Julio-Claudian",
+        "dimensions": {
+           "exterior-major": 102.5,
+           "exterior-minor": 65.5,
+           "arena-major": 76.4,
+           "arena-minor": 39.5
+        },
+        "golvinid": "90",
         "label": "Padua",
         "latintoponym": "Patavia",
         "moderncountry": "Italy"
@@ -3397,6 +3429,7 @@
         "title": "Amphitheater at Ancona",
         "amphitheatrum": "http://amphi-theatrum.de/1396.html",
         "buildingtype": "amphitheater",
+        "capacity": 10000,
         "chronogroup": "Julio-Claudian",
         "dimensions": {
           "exterior-major": 111,
@@ -3406,7 +3439,8 @@
          },
         "label": "Ancona",
         "latintoponym": "Ancona",
-        "moderncountry": "Italy"
+        "moderncountry": "Italy",
+        "wiki": "http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Ancona"
       },
       "geometry":{
         "type":"Point",
@@ -5143,7 +5177,7 @@
         "title": "Amphitheater at Altinum",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
-        "dimension": {
+        "dimensions": {
            "exterior-major": 143,
            "exterior-minor": 103,
            "arena-major": 80,
@@ -5153,6 +5187,7 @@
         "latintoponym": "Altinum",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/314920",
+        "see": "http://hdl.handle.net/10.1126/science.1174206",
         "visibility": "none" },
         "geometry":{
           "type":"Point",
@@ -5163,6 +5198,61 @@
         ],
         "source":"http://maps.google.com/"
       }
-    }
+    },{
+      "type":"Feature",
+      "id":"augustaBagiennorumAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Augusta Benniorum",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Julio-Claudian",
+        "dimensions": {
+           "exterior-major": 120,
+           "exterior-minor": 90
+        },
+        "label": "Augusta Bagiennorum",
+        "latintoponym": "Augusta Bagiennorum",
+        "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/383578",
+        "see": ["http://www.piemonte.beniculturali.it/index.php/en/i-luoghi-della-cultura/aree-archeologiche/augusta-bagiennorum",
+           "http://cipa.icomos.org/fileadmin/template/doc/ATHENS/FP025.pdf"],
+        "vici": "http://vici.org/vici/4208",
+        "visibility": "partial" },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+                7.850310,
+                44.556438,
+                340
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"aostaAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Aosta",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Julio-Claudian",
+        "dimensions": {
+           "exterior-major": 150,
+           "exterior-minor": 115,
+           "source": "http://maps.google.com/"
+        },
+        "label": "Aosta",
+        "latintoponym": "Augusta Praetoria",
+        "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/383579",
+        "vici": "http://vici.org/vici/4209",
+        "visibility": "street plan" },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+               7.323481,
+               45.740914,
+               595 
+        ],  
+        "source":"http://maps.google.com/"
+      }
+    } 
   ]
 }
