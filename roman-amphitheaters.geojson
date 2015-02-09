@@ -77,6 +77,7 @@
         "buildingtype": "amphitheater",
         "capacity":20000,
         "chronogroup": "Flavian",
+        "citywall": "inside",
         "created":90,
         "dimensions":{
           "exterior-major": 136,
@@ -158,6 +159,7 @@
         "buildingtype": "amphitheater",
         "capacity":50000,
         "chronogroup": "Flavian",
+        "citywall": "inside",
         "created":80,
         "dimensions":{
            "exterior-major": 189,
@@ -1215,6 +1217,7 @@
         "created": 90,
         "capacity": 24000,
         "chronogroup": "Flavian",
+        "citywall": "inside",
         "label": "Nimes",
         "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/148142",
@@ -2981,7 +2984,7 @@
         "chronogroup": "Severan",
         "dimensions": {
            "exterior-major": 116.5,
-           "exterior-minor": "94",
+           "exterior-minor": 94,
            "arena-major": 67.5,
            "arena-minor": 45
         },
@@ -5253,6 +5256,40 @@
         ],  
         "source":"http://maps.google.com/"
       }
-    } 
+    },{
+      "type":"Feature",
+      "id":"faleriiNoviAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Falerii Novi",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1545.html",
+        "bibliography": "http://dx.doi.org/10.1017/S0068246200000799",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Augustan",
+        "citywall": "outside",
+        "dimensions": {
+           "exterior-major": 88,
+           "exterior-minor": 66.4,
+           "arena-major": 54.3,
+           "arena-minor": 32.7
+        },
+        "golvinid": "146",
+        "label": "Falerii Novi",
+        "latintoponym": "Falerii Novi",
+        "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/413125",
+        "rockcut": true,
+        "visibility": "good"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+               12.361043,
+               42.302681,
+               198
+        ],
+        "source":"http://maps.google.com/"
+      }
+    }
+
   ]
 }

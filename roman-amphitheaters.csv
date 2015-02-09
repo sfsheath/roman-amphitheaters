@@ -116,7 +116,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "susaAmphitheater","Amphitheater at Susa","Susa","amphitheater",,"Italy","Imperial",,,,,,,45.133185,7.04497,546
 "ivreaAmphitheater","Amphitheater at Ivrea","Ivrea","amphitheater",,"Italy","Imperial",,,,,,,45.467767,7.887734,240
 "bararusAmphitheater","Amphitheater at Bararus","Bararus","amphitheater",12000,"Tunisia","Severan",,,98,73.5,63.75,37.5,35.211828,10.791226,68
-"castraAlbanaAmphitheater","Amphitheater at Castra Albana","Albana","amphitheater",20000,"Italy","Severan",,,"116.5","94",67.5,45,41.732637,12.66501,454
+"castraAlbanaAmphitheater","Amphitheater at Castra Albana","Albana","amphitheater",20000,"Italy","Severan",,,116.5,94,67.5,45,41.732637,12.66501,454
 "sophiaAmphitheater","Amphitheater at Sophia","Sophia","amphitheater",20000,"Bulgaria","Post-Severan",,,,,,,42.697178,23.32865,554
 "ptolemaisAmphitheater","Amphitheater at Ptolemais","Ptolemais","amphitheater",16000,"Libya","Imperial",,,,,40,25,32.707953,20.945728,12
 "toulouseAmphitheater","Amphitheater at Toulouse","Toulouse","amphitheater",,"France","Imperial",,,,,,,43.614808,1.397664,149
@@ -209,3 +209,4 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "altinumAmphitheater","Amphitheater at Altinum","Altinum","amphitheater",,"Italy","Imperial",,,143,103,80,58,45.548996,12.399911,1
 "augustaBagiennorumAmphitheater","Amphitheater at Augusta Benniorum","Augusta Bagiennorum","amphitheater",,"Italy","Julio-Claudian",,,120,90,,,44.556438,7.85031,340
 "aostaAmphitheater","Amphitheater at Aosta","Aosta","amphitheater",,"Italy","Julio-Claudian",,,150,115,,,45.740914,7.323481,595
+"faleriiNoviAmphitheater","Amphitheater at Falerii Novi","Falerii Novi","amphitheater",,"Italy","Augustan",,,88,66.4,54.3,32.7,42.302681,12.361043,198
