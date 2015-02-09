@@ -5289,6 +5289,40 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"riminiAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Rimini",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1404.html",
+        "buildingtype": "amphitheater",
+        "capacity": 20000,
+        "chronogroup": "Hadrianic",
+        "citywalls": "inside",
+        "comment": "Date on the basis of coins of Hadrian found in foundations.",
+        "dimensions": {
+           "exterior-major": 117.72,
+           "exterior-minor": 88.08,
+           "arena-major": 73.76,
+           "arena-minor": 42.52
+        },
+        "golvinid": "172",
+        "label": "Rimini",
+        "latintoponym": "Ariminum",
+        "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/393379",
+        "vici": "http://vici.org/vici/4205",
+        "visibility": "good"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+               12.575144,
+               44.060057,
+               5
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
 
   ]
