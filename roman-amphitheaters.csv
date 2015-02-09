@@ -212,3 +212,5 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "faleriiNoviAmphitheater","Amphitheater at Falerii Novi","Falerii Novi","amphitheater",,"Italy","Augustan",,,88,66.4,54.3,32.7,42.302681,12.361043,198
 "riminiAmphitheater","Amphitheater at Rimini","Rimini","amphitheater",20000,"Italy","Hadrianic",,,117.72,88.08,73.76,42.52,44.060057,12.575144,5
 "imolaAmphitheater","Amphitheater at Imola","Imola","amphitheater",,"Italy","Imperial",,,108,81,,,44.353673,11.711992,53
+"venosaAmphitheater","Amphitheater at Venosa","Venosa","amphitheater",,"Italy","Imperial",,,90,66,46,37,40.969693,15.826303,402
+"teramoAmphitheater","Amphitheater at Teramo","Teramo","amphitheater",,"Italy","Imperial",,,73.93,56.16,,,42.658183,13.703278,273

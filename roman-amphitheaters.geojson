@@ -5351,8 +5351,62 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"venosaAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Venosa",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1517.html",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
+        "dimensions": {
+           "exterior-major": 90,
+           "exterior-minor": 66,
+           "arena-major": 46,
+           "arena-minor": 37
+        },
+        "label": "Venosa",
+        "latintoponym": "Venusia",
+        "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/393424",
+        "visibility": "none"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+               15.826303,
+               40.969693,
+               402
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"teramoAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Teramo",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1406.html",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
+        "dimensions": {
+           "exterior-major": 73.93,
+           "exterior-minor": 56.16
+        },
+        "label": "Teramo",
+        "latintoponym": "Interamnia Praetuttiorum",
+        "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/413179",
+        "visibility": "partial"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+              13.703278,    
+              42.658183,
+              273
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
-
-
   ]
 }
