@@ -5323,7 +5323,36 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"imolaAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Imola",
+        "bibliography": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0006%3Aalphabetic+letter%3DF%3Aentry+group%3D2%3Aentry%3Dforum-cornelii",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
+        "comment": "Briefly mentioned in PECS via Perseus, with dimensions. Said to have been covered.",
+        "dimensions": {
+           "exterior-major": 108,
+           "exterior-minor": 81
+        },
+        "label": "Imola",
+        "latintoponym": "Forum Cornelii",
+        "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/393424",
+        "visibility": "none"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+                 11.711992,
+                 44.353673,
+                 53
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
+
 
   ]
 }
