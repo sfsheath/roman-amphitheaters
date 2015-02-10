@@ -91,6 +91,7 @@
         "moderncountry": "France",
         "see":"http://pleiades.stoa.org/places/148217/location-of-roman-amphitheater",
         "wikipedia":"http://en.wikipedia.org/wiki/Arles_Amphitheatre",
+        "wilsonpopulation": 10000,
         "youtube": ["https://www.youtube.com/watch?v=oCz-76hb1LU"]
       },
       "geometry":{
@@ -119,7 +120,8 @@
         "latintoponym": "Lugdunum", 
         "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/167717",
-        "wikipedia": "http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls"
+        "wikipedia": "http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls",
+        "wilsonpopulation": 25000
       },
       "geometry":{
         "type":"Point",
@@ -174,6 +176,7 @@
         "moderncountry": "Italy",
         "see":"http://pleiades.stoa.org/places/285857974/centerpoint-of-amphitheatrum-flavium",
         "wikipedia":"http://en.wikipedia.org/wiki/Colosseum",
+        "wilsonpopulation": 1000000,
         "youtube": ["https://www.youtube.com/watch?v=kxwenPo1grc","https://www.youtube.com/watch?v=flXe8h3i5vc"]
       },
       "geometry":{
@@ -268,6 +271,7 @@
         "see":["https://3dwarehouse.sketchup.com/model.html?redirect=1&mid=6971b010096197d8dfd89dd71a555b12","http://pleiades.stoa.org/places/433032/amphitheater-of-pompeii"],
         "welch-id":"1",
         "wikipedia":"http://en.wikipedia.org/wiki/Amphitheatre_of_Pompeii",
+        "wilsonpopulation": 11000,
         "youtube": ["https://www.youtube.com/watch?v=bqf4bJyo3rU"],
         "bibliography": [
                     {
@@ -479,6 +483,7 @@
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/462503",
         "wikipedia": "http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Siracusa",
+        "wilsonpopulation": 90000,
         "youtube": ["https://www.youtube.com/watch?v=aUcjHzMZCeY"]
       },
       "geometry":{
@@ -507,6 +512,7 @@
         "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/314921",
         "wikipedia": "http://en.wikipedia.org/wiki/Carthage_amphitheatre",
+        "wilsonpopulation": 300000,
         "youtube": ["https://www.youtube.com/watch?v=oDiCqZCu06I"]
       },
       "geometry":{
@@ -558,7 +564,8 @@
         "label": "Corinth",
         "moderncountry": "Greece",
         "pleiades": "http://pleiades.stoa.org/places/570182",
-        "see":"http://corinth.sas.upenn.edu/gisamphitheater.html"
+        "see":"http://corinth.sas.upenn.edu/gisamphitheater.html",
+        "wilsonpopulation": 80000
       },
       "geometry":{
         "type":"Point",
@@ -712,6 +719,7 @@
         "moderncountry": "Austria",
         "pleiades": "http://pleiades.stoa.org/places/128376",
         "see": "https://www.academia.edu/3791286/The_amphitheatre_of_Carnuntum_Towards_a_complete_3D_model_using_airborne_Structure_from_Motion_and_dense_image_matching",
+        "wilsonpopulation": 12000,
         "youtube": ["https://www.youtube.com/watch?v=Z5TcbJdyEns"]
       },
       "geometry":{
@@ -742,7 +750,8 @@
         "golvinid": "174",
         "label": "Leptis Magna",
         "moderncountry": "Libya",
-        "pleiades": "http://pleiades.stoa.org/places/344448"
+        "pleiades": "http://pleiades.stoa.org/places/344448",
+        "wilsonpopulation": 90000
       },
       "geometry":{
         "type":"Point",
@@ -1013,11 +1022,14 @@
       "id":"viminaciumAmphitheater",
       "properties":{
         "title":"Amphitheater at Viminacium",
+        "bibliography": "https://www.academia.edu/5679643/Roman_stone_and_clay_shot_from_the_Viminacium_amphitheatre",
         "buildingtype": "amphitheater",
-        "chronogroup": "Imperial",
+        "capacity": 12000,
+        "chronogroup": "Second Century",
         "label": "Viminacium",
         "moderncountry": "Serbia",
-        "pleiades": "http://pleiades.stoa.org/places/207549"
+        "pleiades": "http://pleiades.stoa.org/places/207549",
+        "wilsonpopulation": 12500
       },
       "geometry":{
         "type":"Point",
@@ -1038,7 +1050,8 @@
         "chronogroup": "Imperial",
         "label": "Flavia Solva", 
         "moderncountry": "Austria",
-        "pleiades": "http://pleiades.stoa.org/places/197273"
+        "pleiades": "http://pleiades.stoa.org/places/197273",
+        "wilsonpopulation": 7000
       },
       "geometry":{
         "type":"Point",
@@ -1056,7 +1069,14 @@
       "properties":{
         "title":"Amphitheater at Rusellae",
         "buildingtype": "amphitheater",
-        "chronogroup": "Imperial",
+        "chronogroup": "Probably Julio-Claudian",
+"dimensions": {
+          "exterior-major": 38,
+          "exterior-minor": 27,
+          "arena-major": 30,
+          "arena-minor": 20,
+          "source": "Golvin"
+         },
         "label": "Rusellae",
         "moderncountry": "Italy", 
         "pleiades": "http://pleiades.stoa.org/places/413288",
@@ -1082,6 +1102,7 @@
         "latintoponym": "Lutetia Parisiorum",
         "pleiades": "http://pleiades.stoa.org/places/109126",
         "moderncountry": "France",
+        "wilsonpopulation": 8000,
         "youtube": ["https://www.youtube.com/watch?v=DStHFfxd_qo"]
       },
       "geometry":{
@@ -1124,7 +1145,8 @@
         "chronogroup": "Imperial",
         "label": "Cyrene",
         "moderncountry": "Libya",
-        "pleiades": "http://pleiades.stoa.org/places/373778"
+        "pleiades": "http://pleiades.stoa.org/places/373778",
+        "wilsonpopulation": 25000
       },
       "geometry":{
         "type":"Point",
@@ -1170,7 +1192,14 @@
       "properties":{
         "title":"Amphitheater at Luceria/Noukeria (Apoulon)",
         "buildingtype": "amphitheater",
-        "chronogroup": "Imperial",
+        "chronogroup": "Augustan",
+"dimensions": {
+          "exterior-major": 126.8,
+          "exterior-minor": 94.5,
+          "arena-major": 72.2,
+          "arena-minor": 43.2,
+          "source": "Golvin"
+         },
         "label": "Luceria",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/442640"
@@ -1221,7 +1250,8 @@
         "label": "Nimes",
         "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/148142",
-        "youtube": ["https://www.youtube.com/watch?v=c384XQlnINo"]
+        "youtube": ["https://www.youtube.com/watch?v=c384XQlnINo"],
+        "wilsonpopulation": 12000
       },
       "geometry":{
         "type":"Point",
@@ -1358,8 +1388,10 @@
         "created":220,
         "golvinID": "188",
         "label": "Bordeaux",
+        "latintoponym": "Burdigala",
         "moderncountry": "France",
-        "pleiades": "http://pleiades.stoa.org/places/138248"
+        "pleiades": "http://pleiades.stoa.org/places/138248",
+        "wilsonpopulation": 15000
       },
       "geometry":{
         "type":"Point",
@@ -1634,15 +1666,20 @@
     },
     {
       "type":"Feature",
-      "id":"cemenelumAmphitheater",
+      "id":"cimiezAmphitheater",
       "properties":{
-        "title":"Amphitheater at Cemenelum",
+        "title":"Amphitheater at Cimiéz",
         "buildingtype": "amphitheater",
-        "chronogroup": "Imperial",
-        "label": "Cemenelum",
-        "moderncountry": "France",
-        "pleiades": "http://pleiades.stoa.org/places/157834",
-        "source":"http://pleiades.stoa.org/places/157834/location-of-roman-amphitheater"
+        "chronogroup": "Julio-CLaudian",
+        "dimensions": {
+          "exterior-major": 55,
+          "exterior-minor": 44,
+          "source": "Golvin"
+         },
+        "golvinid": "16",
+        "label": "Cimiez",
+        "latintoponym": "Cemenelum",
+        "moderncountry": "France"
       },
       "geometry":{
         "type":"Point",
@@ -1650,7 +1687,8 @@
           7.2752435000000002,
           43.719672799999998,
           112
-        ]
+        ],
+        "source":["http://maps.google.com","http://pleiades.stoa.org/places/157834/location-of-roman-amphitheater"]
       }
     },
     {
@@ -1761,7 +1799,8 @@
         "moderncountry": "Hungary",
         "pleiades": "http://pleiades.stoa.org/places/197130",
         "created":275,
-        "wikipedia": "http://en.wikipedia.org/wiki/Aquincum_Civil_Amphitheatre"
+        "wikipedia": "http://en.wikipedia.org/wiki/Aquincum_Civil_Amphitheatre",
+        "wilsonpopulation": 10000
       },
       "geometry":{
         "type":"Point",
@@ -1931,7 +1970,8 @@
         "label": "Aug. Raurica",
         "moderncountry": "Switzerland",
         "pleiades": "http://pleiades.stoa.org/places/177494",
-        "source":"http://pleiades.stoa.org/places/177494/location-of-roman-amphitheater"
+        "source":"http://pleiades.stoa.org/places/177494/location-of-roman-amphitheater",
+        "wilsonpopulation": 8000
       },
       "geometry":{
         "type":"Point",
@@ -1978,7 +2018,8 @@
         "label": "Sarmizegetusa",
         "latintoponym": "Ulpia Traiana Sarmizegetusa",
         "moderncountry": "Romania",
-        "pleiades": "http://pleiades.stoa.org/places/207527"
+        "pleiades": "http://pleiades.stoa.org/places/207527",
+        "wilsonpopulation": 15000
       },
       "geometry":{
         "type":"Point",
@@ -2301,7 +2342,14 @@
         "buildingtype": "amphitheater",
         "created" : 50,
         "capacity" : 11000,
-        "chronogroup": "Julio-Claudian",
+        "chronogroup": ["Julio-Claudian", "Vespasianic"],
+        "dimensions": {
+          "exterior-major": 112,
+          "exterior-minor": 98,
+          "arena-major": 64,
+          "arena-minor": 51
+         },
+        "golvinid": "17",
         "label": "Vindonissa",
         "moderncountry": "Switzerland",
         "pleiades": "http://pleiades.stoa.org/places/177661"
@@ -2329,7 +2377,8 @@
         "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/324835",
         "youtube":["https://www.youtube.com/watch?v=bDDyEMg34Os",
-                   "https://www.youtube.com/watch?v=HGjt7TVcbAY"]
+                   "https://www.youtube.com/watch?v=HGjt7TVcbAY"],
+        "wilsonpopulation": 45000
       },
       "geometry":{
         "type":"Point",
@@ -2354,7 +2403,8 @@
         "label": "Thysdrus (lg.)",
         "moderncountry": "Tunisia",
         "period": "Gordion III",
-        "youtube": ["https://www.youtube.com/watch?v=bDDyEMg34Os"]
+        "youtube": ["https://www.youtube.com/watch?v=bDDyEMg34Os"],
+        "wilsonpopulation": 45000
       },
       "geometry":{
         "type":"Point",
@@ -2379,7 +2429,8 @@
         "label": "Fréjus",
         "latintoponym": "Forum Julii",
         "moderncountry": "France",
-        "pleiades": "http://pleiades.stoa.org/places/157836"
+        "pleiades": "http://pleiades.stoa.org/places/157836",
+        "wilsonpopulation": 10000
       },
       "geometry":{
         "type":"Point",
@@ -2502,7 +2553,8 @@
         },
         "label": "Cherchel",
         "moderncountry": "Algeria",
-        "pleiades": "http://pleiades.stoa.org/places/295279"
+        "pleiades": "http://pleiades.stoa.org/places/295279",
+        "wilsonpopulation": 63000
       },
       "geometry":{
         "type":"Point",
@@ -2576,7 +2628,8 @@
         "created": 150,
         "comment": "Date very approximate.",
         "label": "Caesarea",
-        "moderncountry": "Israel"
+        "moderncountry": "Israel",
+        "wilsonpopulation": 75000
       },
       "geometry":{
         "type":"Point",
@@ -2597,7 +2650,8 @@
         "chronogroup": "Second Century",
         "comment": "Date very approximate.",
         "label": "Pergamum",
-        "moderncountry": "Turkey"
+        "moderncountry": "Turkey",
+        "wilsonpopulation": 32850
       },
       "geometry":{
         "type":"Point",
@@ -2644,7 +2698,8 @@
         "comment": "Location not specific.",
         "label": "Antioch",
         "moderncountry": "Turkey",
-        "welch-id": "19"
+        "welch-id": "19",
+        "wilsonpopulation": 250000
       },
       "geometry":{
         "type":"Point",
@@ -2664,7 +2719,8 @@
         "chronogroup": "Imperial",
         "comment": "Location not specific.",
         "label": "Cyzicus",
-        "moderncountry": "Turkey"
+        "moderncountry": "Turkey",
+        "wilsonpopulation": 25200
       },
       "geometry":{
         "type":"Point",
@@ -2712,7 +2768,8 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "label": "Salamis",
-        "moderncountry": "Northern Cyprus"
+        "moderncountry": "Northern Cyprus",
+        "wilsonpopulation": 20000
       },
       "geometry":{
         "type":"Point",
@@ -2731,7 +2788,8 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "label": "Paphos",
-        "moderncountry": "Cyprus"
+        "moderncountry": "Cyprus",
+        "wilsonpopulation": 15000
       },
       "geometry":{
         "type":"Point",
@@ -2890,7 +2948,8 @@
         "chronogroup":"Second Century",
         "label": "Trier",
         "moderncountry": "Germany",
-        "youtube": ["https://www.youtube.com/watch?v=WYOvPyCntiY","https://www.youtube.com/watch?v=kOv5vx9S0z8","https://www.youtube.com/watch?v=dl9PAgQuSNs"]
+        "youtube": ["https://www.youtube.com/watch?v=WYOvPyCntiY","https://www.youtube.com/watch?v=kOv5vx9S0z8","https://www.youtube.com/watch?v=dl9PAgQuSNs"],
+        "wisonpopulation": 10000
       },
       "geometry":{
         "type":"Point",
@@ -2909,6 +2968,15 @@
         "chronogroup": "Imperial",
         "created" : -20,
         "buildingtype": "amphitheater",
+        "dimensions": {
+          "exterior-major": 60,
+          "exterior-minor": 52,
+          "arena-major": 44,
+          "arena-minor": 36,
+          "source": "Golvin"
+         },
+        "golvinid": "15",
+        "hypogeum": false,
         "label": "Susa",
         "latintoponym": "Segusium",
         "moderncountry": "Italy"
@@ -3040,7 +3108,8 @@
           "arena-minor": 25
         },
         "label": "Ptolemais",
-        "moderncountry": "Libya"
+        "moderncountry": "Libya",
+        "wilsonpopulation": 30000
       },
       "geometry":{
         "type":"Point",
@@ -3125,7 +3194,16 @@
         "title": "Amphitheater at Lillebonne",
         "buildingtype": "amphitheater",
         "chronogroup": "First Century",
+        "dimensions": {
+          "exterior-major": 78,
+          "exterior-minor": 75,
+          "arena-major": 48,
+          "arena-minor": 45,
+          "source": "Golvin"
+         },
+        "golvinid": 19,
         "label": "Lillebonne",
+        "latintoponym": "Iuliobona",
         "moderncountry": "France"
       },
       "geometry":{
@@ -3147,7 +3225,8 @@
         "chronogroup": "Second Century",
         "label": "Besançon",
         "latintoponym": "Vesontio",
-        "moderncountry": "France"
+        "moderncountry": "France",
+        "wilsonpopulation": 8000
       },
       "geometry":{
         "type":"Point",
@@ -3351,7 +3430,8 @@
         "comment": "Location approximate.",
         "label": "Termini",
         "latintoponym": "Thermae Himerae",
-        "moderncountry": "Italy"
+        "moderncountry": "Italy",
+        "wilsonpopulation": 8000
       },
       "geometry":{
         "type":"Point",
@@ -3549,7 +3629,8 @@
         "label": "Béziers",
         "latintoponym": "Baeterrae",
         "moderncountry": "France",
-        "visibility": "street-plan"
+        "visibility": "street-plan",
+        "wilsonpopulation": 8000
       },
       "geometry":{
         "type":"Point",
@@ -3593,7 +3674,8 @@
         "dimensions":{"arena-major":75,"arena-minor":46.6,"exterior-major":121.6,"exterior-minor":93.2},
         "label": "Narbonne",
         "moderncountry": "France",
-        "visibility": "none"
+        "visibility": "none",
+        "wilsonpopulation": 20000
       },
       "geometry":{
         "type":"Point",
@@ -3988,7 +4070,8 @@
         "latintoponym": "Colonia Ulpia Traiana",
         "moderncountry": "Germany",
         "see": "https://3dwarehouse.sketchup.com/model.html?id=16596dabb2ebd0469b2513a62f433bae",
-        "visibility": "good"
+        "visibility": "good",
+        "wilsonpopulation": 10000
       },
       "geometry":{
         "type":"Point",
@@ -4282,7 +4365,8 @@
         "label": "Bosra",
         "latintoponym": "Nova Trajana Bostra",
         "moderncountry": "Syria",
-        "visibility": "partial"
+        "visibility": "partial",
+        "wilsonpopulation": 10000
       },
       "geometry":{
         "type":"Point",
@@ -5404,6 +5488,37 @@
               13.703278,    
               42.658183,
               273
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"velleiaAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Velleia",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Julio-Claudian",
+        "chronocertainty": "possible",
+        "dimensions": {
+           "exterior-major": 54.85,
+           "exterior-minor": 44.1,
+           "arena-major": 37,
+           "arena-minor": 25.5,
+           "source": "Golvin"
+        },
+        "golvinid": "14",
+        "hypogeum": true,
+        "label": "Velleia",
+        "latintoponym": "Veleia",
+        "moderncountry": "Italy",
+        "visibility": "good"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+             9.723475,              
+             44.785084,
+             476
         ],
         "source":"http://maps.google.com/"
       }
