@@ -118,8 +118,14 @@
         "chronogroup": "Second Century",
         "comment": "The capacity refers to number of seats after the early 2nd AD century expansion. In AD 19 the capacity was under 2000.",
         "created": 19,
-        "dimensions": {"arena-major": 67.6, "arena-minor": 42},
+        "dimensions": {
+                "exterior-major": 105,
+                "arena-major": 67.6,
+                "arena-minor": 42,
+                "source": "http://maps.google.com"
+            },
         "emperor": "Tiberius",
+        "hypogeum": true,
         "label": "Lyon",
         "latintoponym": "Lugdunum", 
         "moderncountry": "France",
@@ -517,8 +523,11 @@
         "capacity":30000,
         "chronogroup": "Second Century",
         "dimensions": {
-          "arena-major": 79,
-          "arena-minor": 50
+          "exterior-major": 120,
+          "exterior-minor": 93,
+          "arena-major": 64,
+          "arena-minor": 36,
+          "source": "Golvin"
         },
         "label": "Carthage",
         "moderncountry": "Tunisia",
@@ -543,7 +552,6 @@
         "title":"Amphitheater at Hadrian's Villa at Tivoli",
         "buildingtype": "amphitheater",
         "private": true,
-        "capacity": 500,
         "chronogroup": "Hadrianic",
         "created":120,
         "label": "Tivoli Villa",
@@ -937,6 +945,7 @@
       "properties":{
         "title":"Amphitheater at Catinia",
         "buildingtype": "amphitheater",
+        "capacity":16000,
         "chronogroup": "Imperial",
         "dimensions": {
           "exterior-major": 90,
@@ -947,7 +956,6 @@
          },
         "label": "Catinia",
         "pleiades": "http://pleiades.stoa.org/places/462270",
-        "capacity":16000,
         "moderncountry": "Italy"
       },
       "geometry":{
@@ -1048,6 +1056,10 @@
         "buildingtype": "amphitheater",
         "capacity": 12000,
         "chronogroup": "Second Century",
+        "dimensions": {
+            "exterior-length": 85,
+            "source": "http://maps.google.com"
+        },
         "label": "Viminacium",
         "moderncountry": "Serbia",
         "pleiades": "http://pleiades.stoa.org/places/207549",
@@ -1281,6 +1293,13 @@
         "capacity": 24000,
         "chronogroup": "Flavian",
         "citywall": "inside",
+        "dimensions": {
+           "exterior-major": 133.4,
+           "exterior-minor": 101.4,
+           "arena-major": 69.1,
+           "arena-minor": 38.4,
+           "source": "Golvin"
+        },
         "label": "Nimes",
         "latintoponym": "Nemausus",
         "moderncountry": "France",
@@ -1435,6 +1454,7 @@
            "source": "Bomgardner"
           },
         "created":220,
+        "exclude": true,
         "golvinID": "188",
         "label": "Bordeaux",
         "latintoponym": "Burdigala",
@@ -1626,6 +1646,13 @@
         "created": 80,
         "capacity": 8000,
         "chronogroup": "Flavian",
+        "dimensions": {
+           "exterior-major": 109.4,
+           "exterior-minor": 80,
+           "arena-major": 71.9,
+           "arena-minor": 42.7,
+           "source": "Golvin"
+        },
         "label": "Arezzo",
         "latintoponym": "Arretium",
         "moderncountry": "Italy",
@@ -2097,7 +2124,7 @@
       "properties":{
         "title":"Amphitheater at Ulpia Traiana Sarmizegetusa",
         "buildingtype": "amphitheater",
-        "chronogroup": "Imperial",
+        "chronogroup": "Second Century",
         "dimensions": {
           "exterior-major": 88,
           "exterior-minor": 69,
@@ -2230,6 +2257,10 @@
         "created": -75,
         "capacity": 9000,
         "chronogroup": "Republican",
+        "dimensions": {
+          "exterior-major": 112,
+          "source": "http://maps.google.com"
+        },
         "label": "Telesia",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/433147",
@@ -2336,6 +2367,13 @@
         "capacity" : 20000,
         "chronogroup": "Second Century",
         "buildingtype": "amphitheater",
+        "dimensions": {
+            "exterior-major": 132.4,
+            "exterior-minor": 113.2,
+            "arena-major": 61.4,
+            "arena-minor": 42.2,
+            "source": "http://en.wikipedia.org/wiki/Durrës_Amphitheatre"
+        },
         "label": "Durrës",
         "pleiades": "http://pleiades.stoa.org/places/481818",
         "moderncountry": "Albania",
@@ -2358,6 +2396,13 @@
         "buildingtype": "amphitheater",
         "capacity": 15400,
         "chronogroup": "Second Century",
+        "dimensions": {
+          "exterior-major": 104.6,
+          "exterior-minor": 94,
+          "arena-major": 68,
+          "arena-minor": 55,
+          "source": "Golvin"
+        },
         "hypogeum": true,
         "label": "Lambaesis",
         "military": true,
@@ -2473,6 +2518,13 @@
         "created": 125,
         "capacity": 9000,
         "chronogroup": "Second Century",
+        "dimensions": {
+            "exterior-major": 92,
+            "exterior-minor": 72,
+            "arena-major": 60,
+            "arena-minor": 40,
+            "source": "Golvin"
+         },
         "label": "Thysdrus (Sm.)",
         "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/324835",
@@ -2500,6 +2552,13 @@
         "created": 238,
         "capacity": 35000,
         "chronogroup": "Post-Severan",
+        "dimensions": {
+           "exterior-major": 148,
+           "exterior-minor": 122,
+           "arena-major": 65,
+           "arena-minor": 39,
+           "source": "http://fr.wikipedia.org/wiki/Amphith%C3%A9%C3%A2tre_d%27El_Jem"
+          },
         "exclude": true,
         "label": "Thysdrus (lg.)",
         "moderncountry": "Tunisia",
@@ -2527,6 +2586,13 @@
         "capacity": 12000,
         "created": 100,
         "chronogroup": "Flavian",
+"dimensions": {
+           "exterior-major": 113.7,
+           "exterior-minor": 85.7,
+           "arena-major": 67.7,
+           "arena-minor": 39.7,
+           "source": "Golvin"
+          },
         "label": "Fréjus",
         "latintoponym": "Forum Julii",
         "moderncountry": "France",
@@ -3035,8 +3101,16 @@
         "title":"Amphitheater at Sbeitla",
         "buildingtype": "amphitheater",
         "created" : 160,
-        "capacity" : 6600,
+        "capacity" : 6500,
         "chronogroup": "Second Century",
+        "dimensions": {
+           "exterior-major": 72,
+           "exterior-minor": 60,
+           "arena-major": 47,
+           "arena-minor": 37,
+           "source": "Bomgardner"
+        },
+        "golvinid": "113",
         "label": "Sbeitla",
         "latintoponym": "Sufetula",
         "moderncountry": "Tunisia"
@@ -3205,6 +3279,7 @@
            "arena-minor": 45
         },
         "emperor": "Septimius Severus",
+        "exclude": true,
         "golvinID": "190",
         "label": "Albana",
         "military": true,
@@ -3229,8 +3304,14 @@
         "capacity": 20000,
         "created": 284,
         "chronogroup": "Post-Severan",
+        "dimensions": {
+           "arena-major": 60.5,
+           "arena-minor": 43,
+           "source": "http://en.wikipedia.org/wiki/Amphitheatre_of_Serdica"
+        },
         "emperor": "Diocletian",
         "label": "Sophia",
+        "lastuse": 425,
         "latintoponyn": "Ulpia Serdica",
         "moderncountry": "Bulgaria"
       },
@@ -3472,6 +3553,7 @@
         "buildingtype": "amphitheater",
         "capacity": 15000,
         "chronogroup": "Imperial",
+        "golvinid": "22",
         "label": "Rodez",
         "latintoponym": "Segodonum",
         "moderncountry": "France"
@@ -3571,6 +3653,13 @@
         "buildingtype": "amphitheater",
         "capacity": 25000,
         "chronogroup": "Imperial",
+        "dimensions" {
+           "exterior-major": 101.9,
+           "exterior-minor": 83,
+           "arena-major": 53.1,
+           "arena-minor": 34.2,
+           "source": "Golvin"
+        },
         "label": "Lecce",
         "latintoponym": "Lupiae",
         "moderncountry": "Italy",
@@ -3772,6 +3861,13 @@
         "buildingtype": "amphitheater",
         "capacity": 20000,
         "chronogroup": "First Century",
+        "dimensions": {
+          "exterior-major": 90,
+          "exterior-minor": 68,
+          "arena-major": 64,
+          "arena-minor": 42,
+          "source": "Golvin"
+        },
         "label": "San Vittorino",
         "latintoponym": "Amiternum",
         "moderncountry": "Italy"
@@ -3955,10 +4051,19 @@
         "title": "Amphitheater at Tours",
         "amphitheatrum": "http://amphi-theatrum.de/1383.html",
         "buildingtype": "amphitheater",
-        "capacity": 14000,
+        "capacity": 34000,
         "chronogroup": "Hadrianic",
+        "comment": "Large capacity based on recent work as well described in Wikipedia.",
+        "dimensions": {
+            "exterior-major": 156,
+            "exterior-minor": 134,
+            "arena-major": 68,
+            "arena-minor": 50,
+            "source": "http://fr.wikipedia.org/wiki/Amphithéâtre_de_Tours"
+        },
         "golvinID": "54",
         "label": "Tours",
+        "lastuse": 350,
         "latintoponym": "Caesarodunum Turonum",
         "moderncountry": "France",
         "visibility": "good",
@@ -4253,6 +4358,14 @@
         "buildingtype": "amphitheater",
         "capacity": 10000,
         "chronogroup": "Imperial",
+        "dimensions": {
+           "exterior-major": 96.5,
+           "exterior-minor": 87,
+           "arena-major": 58.5,
+           "arena-minor": 49,
+           "source": "Golvin"
+        },
+        "golvinid": "167",
         "label": "Xanten",
         "latintoponym": "Colonia Ulpia Traiana",
         "moderncountry": "Germany",
@@ -4629,6 +4742,11 @@
         "certainty": "uncertain",
         "certainty-qualifier": "location",
         "chronogroup": "Late1stEarly2nd",
+        "dimensions": {
+           "exterior-major": 148,
+           "exterior-minor": 125,
+           "source": "http://www.inrap.fr/preventive-archaeology/Events/Last-discoveries/p-1355-lg1-Excavation-of-the-amphitheatre-quarter-in-Metz.htm"
+        },
         "label": "Metz",
         "last-use": 300,
         "moderncountry": "France",

@@ -1,7 +1,7 @@
 id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,extminor,arenamajor,arenaminor,latitude,longitude,elevation
 "duraEuroposAmphitheater","Amphitheater at Dura Europos","Dura","amphitheater",1000,"Syria","Severan",,,50,44,31,25,34.749855,40.728926,223
 "arlesAmphitheater","Amphitheater at Arles","Arles","amphitheater",20000,"France","Flavian","http://en.wikipedia.org/wiki/Arles_Amphitheatre","https://www.youtube.com/watch?v=oCz-76hb1LU",136,107,47,32,43.677778,4.631111,21
-"lyonAmphitheater","Amphitheater at Lyon","Lyon","amphitheater",20000,"France","Second Century","http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls",,,,67.6,42,45.770556,4.830556,206
+"lyonAmphitheater","Amphitheater at Lyon","Lyon","amphitheater",20000,"France","Second Century","http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls",,105,,67.6,42,45.770556,4.830556,206
 "ludusMagnusArena","Ludus Magnus Arena","Ludus Magnus","practice-arena",,"Italy","Imperial","http://en.wikipedia.org/wiki/Ludus_Magnus",,,,,,41.88995,12.494913,22
 "romeFlavianAmphitheater","Flavian Amphitheater at Rome","Colosseum","amphitheater",50000,"Italy","Flavian","http://en.wikipedia.org/wiki/Colosseum","https://www.youtube.com/watch?v=kxwenPo1grc",189,156,83,48,41.890169,12.492269,22
 "romeAmphitheatrumCastrense","Amphitheatrum Castrense (Rome)","Amph. Castrense","amphitheater",7000,"Italy","Severan","http://en.wikipedia.org/wiki/Amphitheatrum_Castrense",,88,75.8,,,41.887715,12.515144,48
@@ -14,8 +14,8 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "pozzuoliFlavianAmphitheater","Flavian Amphitheater at Pozzuoli","Pozzuoli (Flavian)","amphitheater",35700,"Italy","Flavian","http://en.wikipedia.org/wiki/Flavian_Amphitheater_(Pozzuoli)","https://www.youtube.com/watch?v=VCCD-YeNQKk",149,116,74.8,42,40.825929,14.125315,41
 "pozzuoliEarlyAmphitheater","Early Amphitheater at Pozzuoli","Pozzuoli (Early)","amphitheater",,"Italy","Republican",,,,,,,40.826239,14.127615,58
 "syracuseAmphitheater","Amphitheater at Syracuse","Syracuse","amphitheater",,"Italy","Julio-Claudian","http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Siracusa","https://www.youtube.com/watch?v=aUcjHzMZCeY",146.8,118.7,69.8,39.7,37.074132,15.278934,23
-"carthageAmphitheater","Amphitheater at Carthage","Carthage","amphitheater",30000,"Tunisia","Second Century","http://en.wikipedia.org/wiki/Carthage_amphitheatre","https://www.youtube.com/watch?v=oDiCqZCu06I",,,79,50,36.856078,10.314924,14
-"hadrianVillaAmphitheater","Amphitheater at Hadrian's Villa at Tivoli","Tivoli Villa","amphitheater",500,"Italy","Hadrianic",,,,,,,41.941708,12.778929,99
+"carthageAmphitheater","Amphitheater at Carthage","Carthage","amphitheater",30000,"Tunisia","Second Century","http://en.wikipedia.org/wiki/Carthage_amphitheatre","https://www.youtube.com/watch?v=oDiCqZCu06I",120,93,64,36,36.856078,10.314924,14
+"hadrianVillaAmphitheater","Amphitheater at Hadrian's Villa at Tivoli","Tivoli Villa","amphitheater",,"Italy","Hadrianic",,,,,,,41.941708,12.778929,99
 "corinthAmphitheater","Amphitheater at Corinth","Corinth","amphitheater",14000,"Greece","Julius Caesar",,,98,,58,30,37.909629,22.892126,98
 "marcianopolisAmphitheater","Amphitheater at Marcianopolis (Devnya)","Marcianopolis","amphitheater",4000,"Bulgaria","Severan",,,70,60,50,40,43.218689,27.556674,120
 "porolissumAmphitheater","Amphitheater at Porolissum","Porolissum","amphitheater",,"Romania","Second Century",,,84,75,64,52,47.177552,23.154052,441
@@ -42,7 +42,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "libarnaAmphitheater","Amphitheater at Libarna","Libarna","amphitheater",,"Italy","Imperial",,,88,58.7,66,36.6,44.706013,8.867967,225
 "luceriaNoukeriaAmphitheater","Amphitheater at Luceria/Noukeria (Apoulon)","Luceria","amphitheater",,"Italy","Augustan",,,126.8,94.5,72.2,43.2,41.508249,15.344984,196
 "avellaAmphitheater","Amphitheater at Abella","Abella","amphitheater",,"Italy","Republican",,,,,,,40.961526,14.608415,224
-"nimesAmphitheater","Amphitheater at Nimes","Nimes","amphitheater",24000,"France","Flavian",,"https://www.youtube.com/watch?v=c384XQlnINo",,,,,43.834876,4.359599,50
+"nimesAmphitheater","Amphitheater at Nimes","Nimes","amphitheater",24000,"France","Flavian",,"https://www.youtube.com/watch?v=c384XQlnINo",133.4,101.4,69.1,38.4,43.834876,4.359599,50
 "charterhouseAmphitheater","Amphitheater at Charterhouse","Charterhouse","amphitheater",,"United Kingdom","Imperial",,,50,39,35,24,51.305437,-2.720301,296
 "chesterAmphitheater","Amphitheater at Chester","Chester","amphitheater",,"United Kingdom","Imperial",,,95.5,86.6,56.7,48.3,53.189079,-2.886928,23
 "gennesAmphitheater","Amphitheater at Gennes","Gennes","amphitheater",,"France","Imperial",,,,,,,47.3352194,-0.2386057,47
@@ -56,7 +56,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "florenceAmphitheater","Amphitheater at Florence","Florence","amphitheater",,"Italy","Imperial",,,,,,,43.7687303,11.2595198,47
 "ocriculumAmphitheater","Amphitheater at Ocriculum","Ocriculcum","amphitheater",,"Italy","Imperial",,,,,,,42.4115648,12.4671905,86
 "lixusAmphitheater","Amphitheater at Lixus","Lixus","amphitheater",,"Morocco","Imperial",,,,,,,35.1999004,-6.1084683,52
-"arezzoAmphitheater","Amphitheater at Arezzo","Arezzo","amphitheater",8000,"Italy","Flavian",,,,,,,43.460491,11.88037,263
+"arezzoAmphitheater","Amphitheater at Arezzo","Arezzo","amphitheater",8000,"Italy","Flavian",,,109.4,80,71.9,42.7,43.460491,11.88037,263
 "larinumAmphitheater","Amphitheater at Larinum","Larinum","amphitheater",,"Italy","Imperial",,,98,86,57,40,41.8058428,14.9159226,406
 "lucusFeroniaeAmphitheater","Amphitheater at Lucus Feroniae","Lucus Feroniae","amphitheater",,"Italy","Imperial",,,,,,,42.129831,12.594868,52
 "allifaeAmphitheater","Amphitheater at Allifae","Allifae","amphitheater",,"Italy","Imperial",,,107,84,72,48,41.325601,14.334997,106
@@ -74,16 +74,16 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "albaFucensAmphitheater","Amphitheater at Alba Fucens","Alba Fucens","amphitheater",,"Italy","Julio-Claudian",,,103,76,64,37,42.0772,13.412289,977
 "colAugustaRauricaAmphitheatre","Amphitheater at Col. Augusta Raurica","Aug. Raurica","amphitheater",6000,"Switzerland","Severan",,,102,87,48,33,47.529294,7.72061,285
 "sutriumAmphitheatre","Amphitheater at Sutrium","Sutrium","amphitheater",8500,"Italy","Republican",,"https://www.youtube.com/watch?v=OgHl5MT95bg",,,,,42.2393124,12.2293009,271
-"sarmizegetusaAmphitheatre","Amphitheater at Ulpia Traiana Sarmizegetusa","Sarmizegetusa","amphitheater",,"Romania","Imperial",,,88,69,66,47,45.5166773,22.7853206,491
+"sarmizegetusaAmphitheatre","Amphitheater at Ulpia Traiana Sarmizegetusa","Sarmizegetusa","amphitheater",,"Romania","Second Century",,,88,69,66,47,45.5166773,22.7853206,491
 "salonaAmphitheatre","Amphitheater at Salona","Salona","amphitheater",13380,"Croatia","Second Century",,,124.75,100.65,64.3,40.2,43.5381718,16.473893,8
 "londonAmphitheatre","Amphitheater at London","London","amphitheater",,"United Kingdom","Imperial",,"https://www.youtube.com/watch?v=qvw9xA-hTz8",,,,,51.515522,-0.092136,29
 "tiburAmphitheater","Amphitheater at Tibur","Tibur","amphitheater",,"Italy","Imperial",,,,,,,41.960571,12.798114,248
 "caerleonAmphitheater","Amphitheater at Caerleon","Caerleon","amphitheater",,"United Kingdom","Imperial",,"https://www.youtube.com/watch?v=VIT1JAOadho",,,,,51.608059,-2.956878,13
-"telesiaAmphitheatre","Amphitheater at Telesia","Telesia","amphitheater",9000,"Italy","Republican",,,,,,,41.223911,14.500496,68
+"telesiaAmphitheatre","Amphitheater at Telesia","Telesia","amphitheater",9000,"Italy","Republican",,,112,,,,41.223911,14.500496,68
 "urbisagliaAmphitheater","Amphitheater at Urbs Salvia","Urbs Salvia","amphitheater",5150,"Italy","Flavian",,,98,71,59,35,43.200877,13.387224,219
 "saintesAmphitheatre","Amphitheater at Saintes","Saintes","amphitheater",,"France","Imperial",,"https://www.youtube.com/watch?v=2TCI21s-bxM",126.4,101.6,65.2,39.2,45.7453926,-0.6433512,20
 "assisiAmphitheatre","Amphitheater at Assisi","Assisi","amphitheater",,"Italy","Imperial",,"https://www.youtube.com/watch?v=uLSmRRxtf4M",,,,,43.071077,12.620454,445
-"durresAmphitheatre","Amphitheater at Durrës","Durrës","amphitheater",20000,"Albania","Second Century","http://en.wikipedia.org/wiki/Durrës_Amphitheatre",,,,,,41.312241,19.445131,15
+"durresAmphitheatre","Amphitheater at Durrës","Durrës","amphitheater",20000,"Albania","Second Century","http://en.wikipedia.org/wiki/Durrës_Amphitheatre",,132.4,113.2,61.4,42.2,41.312241,19.445131,15
 "lambaesisAmphitheater","Amphitheater at Lambaesis","Lambaesis","amphitheater",15400,"Algeria","Second Century",,,,,,,35.489247,6.259935,1170
 "mactarisAmphitheater","Amphitheater at Mactaris","Mactaris","amphitheater",5000,"Tunisia","Imperial",,,63.2,49.6,38.4,24.8,35.8556279,9.2066727,911
 "cirencesterAmphitheater","Amphitheater at Cirencester","Cirencester","amphitheater",,"United Kingdom","Imperial",,"https://www.youtube.com/watch?v=9RFDium7TYU",,,,,51.71151,-1.972188,119
