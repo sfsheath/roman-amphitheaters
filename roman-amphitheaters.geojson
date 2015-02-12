@@ -49,8 +49,11 @@
         "created": 216,
         "dedication":["http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD023604"],
         "dimensions":{
+          "exterior-major": 50,
+          "exterior-minor": 44,
           "arena-major": 31,
-          "arena-minor": 25
+          "arena-minor": 25,
+          "source": "Golvin"
           },
         "emperor": "Septimius Severus",
         "hypogeum": false,
@@ -87,6 +90,7 @@
           },
         "hypogeum": true,
         "label": "Arles",
+        "latintoponym": "Arelate",
         "pleiades": "http://pleiades.stoa.org/places/148217",
         "moderncountry": "France",
         "see":"http://pleiades.stoa.org/places/148217/location-of-roman-amphitheater",
@@ -264,6 +268,7 @@
           "arena-major": 66,
           "arena-minor": 35
          },
+        "exclude": true,
         "label": "Pompeii",
         "last-use":79,
         "moderncountry": "Italy",
@@ -367,6 +372,13 @@
         "buildingtype": "amphitheater",
         "capacity":4000,
         "chronogroup": "Julio-Claudian",
+        "dimensions": {
+          "exterior-major": 94,
+          "exterior-minor": 80,
+          "arena-major": 54,
+          "arena-minor": 40,
+          "source": "Golvin"
+         },
         "created":50,
         "label": "Conimbriga",
         "moderncountry": "Portugal",
@@ -473,10 +485,10 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Julio-Claudian",
         "dimensions": {
-          "exterior-major": 141,
-          "exterior-minor": 118,
-          "arena-major": 69,
-          "arena-minor": 39,
+          "exterior-major": 146.8,
+          "exterior-minor": 118.7,
+          "arena-major": 69.8,
+          "arena-minor": 39.7,
            "source": "http://amphi-theatrum.de/1514.html"
           },
         "label": "Syracuse",
@@ -558,8 +570,11 @@
         "chronogroup": "Julius Caesar",
         "created":-44,
         "dimensions": {
-          "arena-major":  73,
-          "arena-minor": 44
+          "exterior-major": 98,
+          "exterior": 70,
+          "arena-major":  58,
+          "arena-minor": 30,
+          "source": "Golvin"
          },
         "label": "Corinth",
         "moderncountry": "Greece",
@@ -586,6 +601,13 @@
         "chronogroup": "Severan",
         "capacity":4000,
         "created":200,
+        "dimensions": {
+          "exterior-major": 70,
+          "exterior-minor": 60,
+          "arena-major": 50,
+          "arena-minor": 40,
+          "source": "Golvin"
+         },
         "label": "Marcianopolis",
         "moderncountry": "Bulgaria",
         "pleiades": "http://pleiades.stoa.org/places/216878"
@@ -1149,6 +1171,11 @@
         "title":"Amphitheater at Cyrene",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "dimensions": {
+          "arena-major": 32.7,
+          "arena-minor": 28.8,
+          "source": "Golvin"
+         },
         "label": "Cyrene",
         "moderncountry": "Libya",
         "pleiades": "http://pleiades.stoa.org/places/373778",
@@ -1173,9 +1200,10 @@
         "chronogroup": "Imperial",
         "dimensions": {
           "exterior-major": 88,
-          "exterior-minor": 61,
-          "arena-major": 65,
-          "arena-minor": 38
+          "exterior-minor": 58.7,
+          "arena-major": 66,
+          "arena-minor": 36.6,
+          "source": "Golvin"
          },
         "hypogeum": true,
         "label": "Libarna",
@@ -1254,6 +1282,7 @@
         "chronogroup": "Flavian",
         "citywall": "inside",
         "label": "Nimes",
+        "latintoponym": "Nemausus",
         "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/148142",
         "youtube": ["https://www.youtube.com/watch?v=c384XQlnINo"],
@@ -1276,6 +1305,13 @@
         "title":"Amphitheater at Charterhouse",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "dimensions": {
+          "exterior-major": 50,
+          "exterior-minor": 39,
+          "arena-major": 35,
+          "arena-minor": 24,
+          "source": "Golvin"
+         },
         "label": "Charterhouse",
         "moderncountry": "United Kingdom",
         "pleiades": "http://pleiades.stoa.org/places/79534",
@@ -1298,6 +1334,13 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "label": "Chester",
+        "dimensions": {
+          "exterior-major": 95.5,
+          "exterior-minor": 86.6,
+          "arena-major": 56.7,
+          "arena-minor": 48.3,
+          "source": "Golvin"
+         },
         "latintoponym": "Deva Victrix",
         "moderncountry": "United Kingdom",
         "pleiades": "http://pleiades.stoa.org/places/79420"
@@ -1470,6 +1513,11 @@
         "title":"Amphitheater at Virunum",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "dimensions": {
+          "exterior-major": 96,
+          "exterior-minor": 42,
+          "source": "Golvin"
+         },
         "label": "Virunum",
         "moderncountry": "Austria",
         "pleiades": "http://pleiades.stoa.org/places/197583",
@@ -1725,6 +1773,7 @@
         "title":"Amphitheater at Lucca",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        
         "label": "Lucca",
         "latintoponym": "Luca",
         "moderncountry": "Italy",
@@ -1744,10 +1793,11 @@
       "type":"Feature",
       "id":"hispellumAmphitheatre",
       "properties":{
-        "title":"Amphitheater at Hispellum",
+        "title":"Amphitheater at Spello",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
-        "label": "Hispellum",
+        "label": "Spello",
+        "latintoponym": "Hispellum",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/413170",
         "source":"http://pleiades.stoa.org/places/413170/location-of-roman-amphitheater"
@@ -1800,6 +1850,13 @@
         "title":"Civil Amphitheater at Budapest",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "dimensions": {
+          "exterior-major": 86.5,
+          "exterior-minor": 75.5,
+          "arena-major": 51,
+          "arena-minor": 42,
+          "source": "Golvin"
+         },
         "label": "Aquincum (Civilian)",
         "latintoponym": "Aquincum",
         "moderncountry": "Hungary",
@@ -1826,6 +1883,13 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "created":150,
+        "dimensions": {
+          "exterior-major": 131,
+          "exterior-minor": 107,
+          "arena-major": 88,
+          "arena-minor": 42,
+          "source": "Golvin"
+         },
         "label": "Aquincum (Military)",
         "military": true,
         "moderncountry": "Hungary",
@@ -1979,6 +2043,13 @@
         "created" : 200,
         "capacity" : 6000,
         "chronogroup": "Severan",
+        "dimensions": {
+          "exterior-major": 102,
+          "exterior-minor": 87,
+          "arena-major": 48,
+          "arena-minor": 33,
+          "source": "Golvin"
+         },
         "label": "Aug. Raurica",
         "moderncountry": "Switzerland",
         "pleiades": "http://pleiades.stoa.org/places/177494",
@@ -2027,6 +2098,13 @@
         "title":"Amphitheater at Ulpia Traiana Sarmizegetusa",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "dimensions": {
+          "exterior-major": 88,
+          "exterior-minor": 69,
+          "arena-major": 66,
+          "arena-minor": 47,
+          "source": "Golvin"
+         },
         "label": "Sarmizegetusa",
         "latintoponym": "Ulpia Traiana Sarmizegetusa",
         "moderncountry": "Romania",
@@ -2205,6 +2283,13 @@
         "title":"Amphitheater at Saintes",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "dimensions": {
+          "exterior-major": 126.4,
+          "exterior-minor": 101.6,
+          "arena-major": 65.2,
+          "arena-minor": 39.2,
+          "source": "Golvin"
+         },
         "label": "Saintes",
         "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/138458",
@@ -2351,10 +2436,13 @@
       "id":"vindonissaAmphitheater",
       "properties":{
         "title":"Amphitheater at Vindonissa",
+        "firstphase": {
+          "chronogroup": "Julio-Claudian",
+          "created": 50
+        },
         "buildingtype": "amphitheater",
-        "created" : 50,
         "capacity" : 11000,
-        "chronogroup": ["Julio-Claudian", "Vespasianic"],
+        "chronogroup": "Vespasianic",
         "dimensions": {
           "exterior-major": 112,
           "exterior-minor": 98,
@@ -2412,6 +2500,7 @@
         "created": 238,
         "capacity": 35000,
         "chronogroup": "Post-Severan",
+        "exclude": true,
         "label": "Thysdrus (lg.)",
         "moderncountry": "Tunisia",
         "period": "Gordion III",
@@ -2482,11 +2571,11 @@
         "capacity": 9000,
         "chronogroup": "Second Century",
         "dimensions": {
-          "exterior-major": 85,
-          "exterior-minor": 63,
-          "arena-major": 57,
-          "arena-minor": 35,
-          "source": "https://www.academia.edu/4309219/Roman_Amphitheatres_and_Spectacula_a_21st_-Century_PerspectiveArchaeopress_Publishers_of_British_Archaeological_Reports15._The_Magerius_Mosaic_Revisited"
+          "exterior-major": 81,
+          "exterior-minor": 62,
+          "arena-major": 45,
+          "arena-minor": 26,
+          "source": ["Golvin","https://www.academia.edu/4309219/Roman_Amphitheatres_and_Spectacula_a_21st_-Century_PerspectiveArchaeopress_Publishers_of_British_Archaeological_Reports15._The_Magerius_Mosaic_Revisited"]
         },
         "label": "Leptiminus",
         "moderncountry": "Tunisia",
@@ -2508,6 +2597,13 @@
         "buildingtype": "amphitheater",
         "capacity": 1500,
         "chronogroup": "Imperial",
+        "dimensions": {
+          "exterior-major": 56,
+          "exterior-minor": 37,
+          "arena-major": 44,
+          "arena-minor": 26,
+          "source": "Golvin"
+         },
         "label": "Micia",
         "moderncountry": "Romania",
         "pleiades": "http://pleiades.stoa.org/places/207286"
@@ -2530,7 +2626,7 @@
         "chronogroup": "Second Century",
         "created": 130,
         "dimensions": {
-           "extior-major": 72,
+           "exterior-major": 72,
            "exterior-minor": 52,
            "arena-major": 52,
            "arena-minor": 32,
@@ -2636,9 +2732,16 @@
       "properties":{
         "title":"Amphitheater at Caesarea",
         "buildingtype": "amphitheater",
-        "chronogroup": "Imperial",
+        "chronogroup": "Second Century",
         "created": 150,
         "comment": "Date very approximate.",
+        "dimensions": {
+          "exterior-major": 134,
+          "exterior-minor": 77,
+          "arena-major": 101,
+          "arena-minor": 44,
+          "source": "Golvin"
+         },
         "label": "Caesarea",
         "moderncountry": "Israel",
         "wilsonpopulation": 75000
@@ -2661,6 +2764,12 @@
         "capacity": 25000,
         "chronogroup": "Second Century",
         "comment": "Date very approximate.",
+        "dimensions": {
+           "exterior-major": 136.2,
+           "exterior-minor": 107.4,
+           "arena-major": 53,
+           "arena-minor": 37
+        },
         "label": "Pergamum",
         "moderncountry": "Turkey",
         "wilsonpopulation": 32850
@@ -2730,6 +2839,10 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "comment": "Location not specific.",
+        "dimensions": {
+          "exterior-major": 150,
+          "exterior-minor": 100
+        },
         "label": "Cyzicus",
         "moderncountry": "Turkey",
         "wilsonpopulation": 25200
@@ -2818,7 +2931,7 @@
       "properties":{
         "title":"Amphitheater at Carmarthen",
         "buildingtype": "amphitheater",
-        "chronogroup": "Imperial",
+        "chronogroup": "Flavian",
         "label": "Carmarthen",
         "moderncountry": "United Kingdom"
       },
@@ -2838,7 +2951,16 @@
         "title":"Amphitheater at Caerwent",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "dimensions": {
+          "exterior-major": 63,
+          "exterior-minor": 53,
+          "arena-major": 44,
+          "arena-minor": 35,
+          "source": "Golvin"
+         },
+        "golvinid": "128",
         "label": "Caerwent",
+        "latintoponym": "Venta Silirum",
         "moderncountry": "United Kingdom"
       },
       "geometry":{
@@ -2857,6 +2979,13 @@
         "title":"Amphitheater at Tomen y Mur",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "dimensions": {
+          "exterior-major": 52,
+          "exterior-minor": 46,
+          "arena-major": 35,
+          "arena-minor": 28,
+          "source": "Golvin"
+         },
         "label": "Tomen y Mur",
         "moderncountry": "United Kingdom"
       },
@@ -2958,6 +3087,13 @@
         "created" : 100,
         "capacity" : 20000,
         "chronogroup":"Second Century",
+        "dimensions": {
+          "exterior-major": 100,
+          "exterior-minor": 79,
+          "arena-major": 70.54,
+          "arena-minor": 48.92,
+          "source": "Golvin"
+         },
         "label": "Trier",
         "moderncountry": "Germany",
         "youtube": ["https://www.youtube.com/watch?v=WYOvPyCntiY","https://www.youtube.com/watch?v=kOv5vx9S0z8","https://www.youtube.com/watch?v=dl9PAgQuSNs"],
@@ -3116,8 +3252,11 @@
         "capacity": 16000,
         "chronogroup": "Imperial",
         "dimensions": {
-          "arena-major": 40,
-          "arena-minor": 25
+          "exterior-major": 89,
+          "exterior-minor": 86,
+          "arena-major": 47.5,
+          "arena-minor": 44.5,
+          "source": "Golvin"
         },
         "label": "Ptolemais",
         "moderncountry": "Libya",
@@ -3140,6 +3279,13 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "created": 50,
+        "dimensions": {
+          "exterior-major": 111,
+          "exterior-minor": 101,
+          "arena-major": 59,
+          "arena-minor": 49,
+          "source": "Golvin"
+         },
         "label": "Toulouse",
         "moderncountry": "France"
       },
@@ -3206,6 +3352,7 @@
         "title": "Amphitheater at Lillebonne",
         "buildingtype": "amphitheater",
         "chronogroup": "First Century",
+        "capacity": 7245,
         "dimensions": {
           "exterior-major": 78,
           "exterior-minor": 75,
@@ -3346,6 +3493,13 @@
         "amphitheatrum": "http://amphi-theatrum.de/1523.html",
         "buildingtype": "amphitheater",
         "chronogroup": "First Century",
+        "dimensions": {
+          "exterior-major": 155,
+          "exterior-minor": 125,
+          "arena-major": 74,
+          "arena-minor": 44,
+          "source": "Golvin"
+         },
         "label": "Milan",
         "latintoponym": "Mediolanum",
         "moderncountry": "Italy"
@@ -3951,6 +4105,13 @@
         "amphitheatrum": "http://amphi-theatrum.de/1493.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Second Century",
+        "dimensions": {
+          "exterior-major": 80,
+          "exterior-minor": 70,
+          "arena-major": 49,
+          "arena-minor": 40,
+          "source": "Golvin"
+         },
         "label": "Silchester",
         "latintoponym": "Calleva Atrebatum",
         "moderncountry": "United Kingdom",
@@ -3975,6 +4136,13 @@
         "amphitheatrum": "http://amphi-theatrum.de/1491.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Second Century",
+        "dimensions": {
+          "exterior-major": 80,
+          "exterior-minor": 77,
+          "arena-major": 58,
+          "arena-minor": 47,
+          "source": "Golvin"
+         },
         "label": "Maumbury",
         "latintoponym": "Durnovaria",
         "moderncountry": "United Kingdom",
@@ -4175,6 +4343,13 @@
         "amphitheatrum": "http://amphi-theatrum.de/1515.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "dimensions": {
+          "exterior-major": 125,
+          "exterior-minor": 102,
+          "arena-major": 58,
+          "arena-minor": 34,
+          "source": "Golvin"
+         },
         "label": "Nocera",
         "latintoponym": "Nuceria Alfaterna",
         "moderncountry": "Italy",
@@ -4953,16 +5128,18 @@
         "capacity": 8300,
         "chronogroup": "Late Second Century",
         "dimensions": {
-          "exterior-major": 85,
-          "arena-major": 60,
+          "exterior-major": 77,
+          "exterior-minor":55 ,
+          "arena-major": 57,
           "arena-minor": 35
          },
         "golvinid": "130",
         "label": "Tipasa",
         "lastuse": 400,
-        "latintoponym": "Tipasa",
+        "latintoponym": "Tipasentium",
         "moderncountry": "Algeria",
         "pleiades": "http://pleiades.stoa.org/places/295363",
+        "romansites": "http://www.romansites.com/anfiteatri/tipasa_tipasentium.htm",
         "visibility": "good"
       },
       "geometry":{
@@ -5312,8 +5489,9 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Julio-Claudian",
         "dimensions": {
-           "exterior-major": 120,
-           "exterior-minor": 90
+           "exterior-major": 104,
+           "exterior-minor": 78,
+           "source": "Golvin"
         },
         "label": "Augusta Bagiennorum",
         "latintoponym": "Augusta Bagiennorum",
@@ -5437,7 +5615,9 @@
         "comment": "Briefly mentioned in PECS via Perseus, with dimensions. Said to have been covered.",
         "dimensions": {
            "exterior-major": 108,
-           "exterior-minor": 81
+           "exterior-minor": 81,
+           "arena-major": 67,
+           "arena-minor": 40
         },
         "label": "Imola",
         "latintoponym": "Forum Cornelii",
@@ -5570,6 +5750,36 @@
              15.6231,
              41.3105,
              127
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"bevanaAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Bevagna",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
+        "dimensions": {
+           "exterior-major": 80,
+           "exterior-minor": 53,
+           "arena-major": 44,
+           "arena-minor": 24,
+           "source": "Golvin"
+        },
+        "golvinid": "282",
+        "label": "Bevagna",
+        "latintoponym": "Mevania",
+        "moderncountry": "Italy",
+        "see": "http://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Europe/Italy/Umbria/Perugia/Bevagna/Bevagna/Roman/amphitheatre.html",
+        "visibility": "poor"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+             12.615587,
+             42.936903,
+             215
         ],
         "source":"http://maps.google.com/"
       }
