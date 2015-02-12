@@ -3653,7 +3653,7 @@
         "buildingtype": "amphitheater",
         "capacity": 25000,
         "chronogroup": "Imperial",
-        "dimensions" {
+        "dimensions": {
            "exterior-major": 101.9,
            "exterior-minor": 83,
            "arena-major": 53.1,
