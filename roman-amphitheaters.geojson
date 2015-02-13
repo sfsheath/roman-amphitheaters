@@ -3168,6 +3168,7 @@
           "arena-minor": 48.92,
           "source": "Golvin"
          },
+        "hypogeum": true,
         "label": "Trier",
         "moderncountry": "Germany",
         "youtube": ["https://www.youtube.com/watch?v=WYOvPyCntiY","https://www.youtube.com/watch?v=kOv5vx9S0z8","https://www.youtube.com/watch?v=dl9PAgQuSNs"],
@@ -5898,6 +5899,58 @@
              12.615587,
              42.936903,
              215
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"minturnaeAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Minturno",
+        "buildingtype": "amphitheater",
+        "chronogroup": "First Century",
+        "dimensions": {
+           "exterior-major": 130
+        },
+        "label": "Minturno",
+        "latintoponym": "Minturnae",
+        "moderncountry": "Italy",
+        "visibility": "poor"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+             13.763859,
+             41.241734,
+             10
+        ],
+        "source":"http://maps.google.com/"
+       }
+      },{
+      "type":"Feature",
+      "id":"sinuessaAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Sinuessa",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
+        "comment": "Probably not precisely located.",
+        "dimensions": {
+           "exterior-major": 80,
+           "exterior-minor": 45,
+           "source": "Golvin"
+        },
+        "label": "Sinuessa",
+        "latintoponym": "Sinuessa",
+        "moderncountry": "Italy",
+        "see": "http://www.signaromanorum.org/archives/8236",
+        "visibility": "none"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+             13.846372, 
+             41.153584,
+             5
         ],
         "source":"http://maps.google.com/"
       }
