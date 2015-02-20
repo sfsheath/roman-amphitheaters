@@ -5956,6 +5956,35 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"aphrodisiasAmphitheater",
+      "properties": {
+        "title": "Late Roman Amphitheater at Aphrodisas",
+       "bibliography": "http://jstor.org/stable/506401",
+        "buildingtype": "amphitheater-in-stadium",
+        "chronogroup": "Fourth Century",
+        "comment": "Inserted into east end of pre-existing stadium.",
+        "dimensions": {
+           "arena-major": 59,
+           "arena-minor": 30,
+           "source": "http://maps.google.com",
+           "comment": "Arena not regular oval. Measurements a useful approximation."
+        },
+        "label": "Aphrodisias",
+        "latintoponym": "Aphrodisias",
+        "moderncountry": "Turkey",
+        "visibility": "good"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+             28.723061,
+             37.712553,
+             526
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ]
 }
