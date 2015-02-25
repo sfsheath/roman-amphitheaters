@@ -21,11 +21,11 @@
 
     "buildingtype" : { "@id": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", "@type": "@id" },
     "capacity":{"@id":"http://dbpedia.org/property/seatingCapacity" },
+    "chronogrp": {"@id":"dcterms:coverage"},
     "comment":{"@id":"rdfs:comment" },
     "created":{ "@id":"dcterms:created", "@type":"xsd:gDate" },
     "dedication": {"@id":"http://purl.org/roman-amphitheaters/ontology#dedication"},
     "pleiades":{"@id":"gn:locatedIn","@type":"@id"},
-    "period": {"@id":"dcterms:coverage"},
     "see":{"@id":"rdfs:seeAlso","@type":"@id" },
     "source":{"@id":"prov:wasDerivedFrom","@type":"@id" },
     "title":{"@id":"dcterms:title"},
@@ -343,8 +343,9 @@
       "properties":{
         "title":"Amphitheater at Newstead",
         "amphitheatrum": "http://amphi-theatrum.de/1899.html",
+        "bibliography": "http://archaeologydataservice.ac.uk/archiveDS/archiveDownload?t=arch-352-1/dissemination/pdf/vol_129/129_373_391.pdf",
         "buildingtype": "amphitheater",
-        "capacity":2000,
+        "capacity":1500,
         "chronogroup": "Flavian",
         "comment": "Date based on main period of military activity at the site.",
         "created" : 80,
@@ -1103,8 +1104,8 @@
       "properties":{
         "title":"Amphitheater at Rusellae",
         "buildingtype": "amphitheater",
-        "chronogroup": "Probably Julio-Claudian",
-"dimensions": {
+        "chronogroup": "Julio-Claudian",
+        "dimensions": {
           "exterior-major": 38,
           "exterior-minor": 27,
           "arena-major": 30,
@@ -1402,6 +1403,7 @@
         "title":"Amphitheater at Scythopolis/Nysa",
         "buildingtype": "amphitheater-in-hippodrome",
         "chronogroup": "Imperial",
+        "exclude": true,
         "label": "Scythopolis",
         "moderncountry": "Israel",
         "pleiades": "http://pleiades.stoa.org/places/678378"
@@ -1751,7 +1753,7 @@
       "properties":{
         "title":"Amphitheater at Cimiéz",
         "buildingtype": "amphitheater",
-        "chronogroup": "Julio-CLaudian",
+        "chronogroup": "Julio-Claudian",
         "dimensions": {
           "exterior-major": 55,
           "exterior-minor": 44,
@@ -2364,6 +2366,7 @@
       "id":"durresAmphitheatre",
       "properties":{
         "title":"Amphitheater at Durrës",
+        "bibliography": "http://dx.doi.org/10.1017/S1047759400013209",
         "created" : 100,
         "capacity" : 20000,
         "chronogroup": "Second Century",
@@ -2560,10 +2563,10 @@
            "arena-minor": 39,
            "source": "http://fr.wikipedia.org/wiki/Amphith%C3%A9%C3%A2tre_d%27El_Jem"
           },
+        "emperor": "Gordian III",
         "exclude": true,
         "label": "Thysdrus (lg.)",
         "moderncountry": "Tunisia",
-        "period": "Gordion III",
         "youtube": ["https://www.youtube.com/watch?v=bDDyEMg34Os"],
         "wilsonpopulation": 45000
       },
@@ -2615,7 +2618,7 @@
       "properties":{
         "title":"Amphitheater at Gortyn",
         "buildingtype": "amphitheater",
-        "chronogroup": "Imperial",
+        "chronogroup": "Second Century",
         "created":150,
         "label": "Gortyn",
         "moderncountry": "Greece",
@@ -3312,6 +3315,7 @@
            "source": "http://en.wikipedia.org/wiki/Amphitheatre_of_Serdica"
         },
         "emperor": "Diocletian",
+        "exclude": true,
         "label": "Sophia",
         "lastuse": 425,
         "latintoponyn": "Ulpia Serdica",
@@ -5311,6 +5315,7 @@
         "title": "Amphitheater at Pupput",
         "amphitheatrum": "http://www.amphi-theatrum.de/1326.html",
         "buildingtype": "amphitheater",
+        "chronogrp": "Imperial",
         "comment": "So far, available information is incomplete. Site as proxy for location.",
         "dimensions": {
           "arena-major": 45,
@@ -5340,6 +5345,7 @@
         "amphitheatrum": "http://www.amphi-theatrum.de/1329.html",
         "buildingtype": "amphitheater",
         "capacity": 11300,
+        "chronogrp": "Imperial",
         "comment": "Not located. Near casbah.",
         "dimensions": {
           "exterior-major": 100,
@@ -5371,6 +5377,7 @@
         "amphitheatrum": "http://www.amphi-theatrum.de/1337.html",
         "buildingtype": "amphitheater",
         "capacity": 6300,
+        "chronogrp": "Imperial",
         "comment": "Not located.",
         "dimensions": {
           "exterior-major": 61.2,
@@ -5969,8 +5976,9 @@
            "arena-major": 59,
            "arena-minor": 30,
            "source": "http://maps.google.com",
-           "comment": "Arena not regular oval. Measurements a useful approximation."
+           "comment": "Arena not regular oval. Measurements intended as a useful approximation."
         },
+        "exclude": true,
         "label": "Aphrodisias",
         "latintoponym": "Aphrodisias",
         "moderncountry": "Turkey",

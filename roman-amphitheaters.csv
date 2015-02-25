@@ -8,7 +8,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "eleutheropolisAmphitheater","Amphitheater at Eleutheropolis","Eleutheropolis","amphitheater",3500,"Israel","Second Century",,"https://www.youtube.com/watch?v=bA6YNf8ZwlI",71,56,47,38,31.608189,34.893845,253
 "pompeiiAmphitheater","Amphitheater at Pompeii","Pompeii","amphitheater",22000,"Italy","Republican","http://en.wikipedia.org/wiki/Amphitheatre_of_Pompeii","https://www.youtube.com/watch?v=bqf4bJyo3rU",135,104,66,35,40.751213,14.495262,21
 "meridaAmphitheater","Amphitheater at Mérida","Mérida","amphitheater",15000,"Spain","Julio-Claudian","http://en.wikipedia.org/wiki/Mérida_amphitheatre","https://www.youtube.com/watch?v=g4gNhPD2dV4",126,102,64,41,38.916168,-6.337952,231
-"newsteadAmphitheater","Amphitheater at Newstead","Newstead","amphitheater",2000,"United Kingdom","Flavian",,,70,60,37,23,55.6026,-2.6919,83
+"newsteadAmphitheater","Amphitheater at Newstead","Newstead","amphitheater",1500,"United Kingdom","Flavian",,,70,60,37,23,55.6026,-2.6919,83
 "conimbrigaAmphitheater","Amphitheater at Conimbriga","Conimbriga","amphitheater",4000,"Portugal","Julio-Claudian",,,94,80,54,40,40.099444,-8.49333,100
 "cumaeAmphitheater","Amphitheater at Cumae","Cumae","amphitheater",,"Italy","Republican",,,114,84,,,40.841847,14.056,19
 "pozzuoliFlavianAmphitheater","Flavian Amphitheater at Pozzuoli","Pozzuoli (Flavian)","amphitheater",35700,"Italy","Flavian","http://en.wikipedia.org/wiki/Flavian_Amphitheater_(Pozzuoli)","https://www.youtube.com/watch?v=VCCD-YeNQKk",149,116,74.8,42,40.825929,14.125315,41
@@ -35,7 +35,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "casinumAmphitheater","Amphitheater at Casinum","Casinum","amphitheater",,"Italy","Imperial",,,,,,,41.482933,13.823575,73
 "viminaciumAmphitheater","Amphitheater at Viminacium","Viminacium","amphitheater",12000,"Serbia","Second Century",,,,,,,44.737985,21.220083,72
 "flaviaSolvaAmphitheater","Amphitheater at Flavia Solva","Flavia Solva","amphitheater",,"Austria","Imperial",,,,,,,46.76715349,15.5657773,266
-"rusellaeAmphitheater","Amphitheater at Rusellae","Rusellae","amphitheater",,"Italy","Probably Julio-Claudian",,,38,27,30,20,42.828405,11.159132,165
+"rusellaeAmphitheater","Amphitheater at Rusellae","Rusellae","amphitheater",,"Italy","Julio-Claudian",,,38,27,30,20,42.828405,11.159132,165
 "parisAmphitheater","Amphitheater at Paris","Paris","gallo-roman-amphitheater",,"France","Imperial",,"https://www.youtube.com/watch?v=DStHFfxd_qo",,,,,48.845097,2.352855,46
 "octodurusForumClaudiiVallensiumAmphitheater","Amphitheater at Octodurus/Forum Claudii Vallensium","Octodorus","amphitheater",,"Switzerland","Imperial",,,118,106,74,62,46.094356,7.073493,480
 "cyreneAmphitheater","Amphitheater at Cyrene","Cyrene","amphitheater",,"Libya","Imperial",,,,,32.7,28.8,32.824526,21.850808,550
@@ -60,7 +60,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "larinumAmphitheater","Amphitheater at Larinum","Larinum","amphitheater",,"Italy","Imperial",,,98,86,57,40,41.8058428,14.9159226,406
 "lucusFeroniaeAmphitheater","Amphitheater at Lucus Feroniae","Lucus Feroniae","amphitheater",,"Italy","Imperial",,,,,,,42.129831,12.594868,52
 "allifaeAmphitheater","Amphitheater at Allifae","Allifae","amphitheater",,"Italy","Imperial",,,107,84,72,48,41.325601,14.334997,106
-"cimiezAmphitheater","Amphitheater at Cimiéz","Cimiez","amphitheater",,"France","Julio-CLaudian",,,55,44,,,43.7196728,7.2752435,112
+"cimiezAmphitheater","Amphitheater at Cimiéz","Cimiez","amphitheater",,"France","Julio-Claudian",,,55,44,,,43.7196728,7.2752435,112
 "hydataHypsitanaForumTraianiAmphitheatre","Amphitheater at Hydata Hypsitana/Forum Traiani","Forum Traiani","amphitheater",,"Italy","Imperial",,,,,,,39.9931239,8.8044188,49
 "luccaAmphitheater","Amphitheater at Lucca","Lucca","amphitheater",,"Italy","Imperial",,,,,,,43.8455203,10.5057722,19
 "hispellumAmphitheatre","Amphitheater at Spello","Spello","amphitheater",,"Italy","Imperial",,,,,,,42.9957909,12.6662021,211
@@ -91,7 +91,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "thysdrusSmallAmphitheater","Small Amphitheater at Thysdrus","Thysdrus (Sm.)","amphitheater",9000,"Tunisia","Second Century",,"https://www.youtube.com/watch?v=bDDyEMg34Os",92,72,60,40,35.290106,10.707911,116
 "thysdrusAmphitheater","Amphitheater at Thysdrus","Thysdrus (lg.)","amphitheater",35000,"Tunisia","Post-Severan",,"https://www.youtube.com/watch?v=bDDyEMg34Os",148,122,65,39,35.29639,10.706939,111
 "frejusAmphitheater","Amphitheater Fréjus","Fréjus","amphitheater",12000,"France","Flavian",,,113.7,85.7,67.7,39.7,43.43446,6.72871,12
-"gortynAmphitheater","Amphitheater at Gortyn","Gortyn","amphitheater",,"Greece","Imperial",,,,,,,35.056454,24.953076,150
+"gortynAmphitheater","Amphitheater at Gortyn","Gortyn","amphitheater",,"Greece","Second Century",,,,,,,35.056454,24.953076,150
 "leptiminusAmphitheater","Amphitheater at Leptiminus","Leptiminus","amphitheater",9000,"Tunisia","Second Century",,,81,62,45,26,35.678077,10.866282,9
 "miciaAmphitheater","Amphitheater at Micia","Micia","amphitheater",1500,"Romania","Imperial",,,56,37,44,26,45.915008,22.81731,183
 "gemellaeAmphitheater","Amphitheater at Gemellae","Gemellae","amphitheater",2000,"Algeria","Second Century",,,72,52,52,32,34.636598,5.522904,83
