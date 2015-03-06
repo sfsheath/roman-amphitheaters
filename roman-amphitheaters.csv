@@ -87,7 +87,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "lambaesisAmphitheater","Amphitheater at Lambaesis","Lambaesis","amphitheater",15400,"Algeria","Second Century",,,104.6,94,68,55,35.489247,6.259935,1170
 "mactarisAmphitheater","Amphitheater at Mactaris","Mactaris","amphitheater",5000,"Tunisia","Imperial",,,63.2,49.6,38.4,24.8,35.8556279,9.2066727,911
 "cirencesterAmphitheater","Amphitheater at Cirencester","Cirencester","amphitheater",,"United Kingdom","Imperial",,"https://www.youtube.com/watch?v=9RFDium7TYU",,,,,51.71151,-1.972188,119
-"vindonissaAmphitheater","Amphitheater at Vindonissa","Vindonissa","amphitheater",11000,"Switzerland","Vespasianic",,,112,98,64,51,47.47629,8.213605,361
+"vindonissaAmphitheater","Amphitheater at Vindonissa","Vindonissa","amphitheater",11000,"Switzerland","Flavian",,,112,98,64,51,47.47629,8.213605,361
 "thysdrusSmallAmphitheater","Small Amphitheater at Thysdrus","Thysdrus (Sm.)","amphitheater",9000,"Tunisia","Second Century",,"https://www.youtube.com/watch?v=bDDyEMg34Os",92,72,60,40,35.290106,10.707911,116
 "thysdrusAmphitheater","Amphitheater at Thysdrus","Thysdrus (lg.)","amphitheater",35000,"Tunisia","Post-Severan",,"https://www.youtube.com/watch?v=bDDyEMg34Os",148,122,65,39,35.29639,10.706939,111
 "frejusAmphitheater","Amphitheater Fréjus","Fréjus","amphitheater",12000,"France","Flavian",,,113.7,85.7,67.7,39.7,43.43446,6.72871,12
@@ -196,10 +196,10 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "botriaAmphitheater","Amphitheater at Botria","Acholla","amphitheater",11600,"Tunisia","Second Century",,,90,86,58,54,35.075962,11.018944,2
 "tipasaAmphitheater","Amphitheater at Tipasa","Tipasa","amphitheater",8300,"Algeria","Late Second Century",,,77,55,57,35,36.593152,2.445456,16
 "bullaRegiaAmphitheater","Amphitheater at Bulla Regia","Bulla Regia","amphitheater",8300,"Tunisia","Late Second Century",,,75,66,34,30,36.564169,8.762598,227
-"pupputAmphitheater","Amphitheater at Pupput","Pupput","amphitheater",,"Tunisia",,,,,,45,36,36.3929,10.5626,4
-"siccaVeneriaAmphitheater","Amphitheater at Sicca Veneria","Sicca Veneria","amphitheater",11300,"Tunisia",,,,100,80,70,50,36.18536115302,8.715302,748
-"thibariAmphitheater","Amphitheater at Thibari","Thibari","amphitheater",6300,"Tunisia",,,,61.2,51.5,30.8,21,36.504836,9.083712,282
-"portusOvalStructure","Oval Structure at Portus","Portus Oval Structure","oval-structure",2000,"Italy",,,,,,,,41.781816,12.25809,2
+"pupputAmphitheater","Amphitheater at Pupput","Pupput","amphitheater",,"Tunisia","Imperial",,,,,45,36,36.3929,10.5626,4
+"siccaVeneriaAmphitheater","Amphitheater at Sicca Veneria","Sicca Veneria","amphitheater",11300,"Tunisia","Imperial",,,100,80,70,50,36.18536115302,8.715302,748
+"thibariAmphitheater","Amphitheater at Thibari","Thibari","amphitheater",6300,"Tunisia","Imperial",,,61.2,51.5,30.8,21,36.504836,9.083712,282
+"portusOvalStructure","Oval Structure at Portus","Portus Oval Structure","oval-structure",2000,"Italy","Second Century",,,,,,,41.781816,12.25809,2
 "montbouyGallRomanAmphitheater","Gallo-Roman Amphitheater at Montbouy","Montbouy","gallo-roman-amphitheater",,"France","Imperial",,,,,48,31,47.87286,2.819017,122
 "statiliusTaurusAmphitheater","Amphitheater of Statilius Taurus","Statilius Taurus","amphitheater",,"Italy","Augustan",,,,,,,41.899614,12.469869,22
 "hisaryaAmphitheater","Amphitheater at Hisarya","Hisarya","amphitheater",,"Bulgaria","Imperial",,,,,,,42.500071,24.703104,362

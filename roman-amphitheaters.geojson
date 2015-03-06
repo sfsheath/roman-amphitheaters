@@ -21,7 +21,7 @@
 
     "buildingtype" : { "@id": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", "@type": "@id" },
     "capacity":{"@id":"http://dbpedia.org/property/seatingCapacity" },
-    "chronogrp": {"@id":"dcterms:coverage"},
+    "chronogroup": {"@id":"dcterms:coverage"},
     "comment":{"@id":"rdfs:comment" },
     "created":{ "@id":"dcterms:created", "@type":"xsd:gDate" },
     "dedication": {"@id":"http://purl.org/roman-amphitheaters/ontology#dedication"},
@@ -2491,7 +2491,7 @@
         },
         "buildingtype": "amphitheater",
         "capacity" : 11000,
-        "chronogroup": "Vespasianic",
+        "chronogroup": "Flavian",
         "dimensions": {
           "exterior-major": 112,
           "exterior-minor": 98,
@@ -5315,7 +5315,7 @@
         "title": "Amphitheater at Pupput",
         "amphitheatrum": "http://www.amphi-theatrum.de/1326.html",
         "buildingtype": "amphitheater",
-        "chronogrp": "Imperial",
+        "chronogroup": "Imperial",
         "comment": "So far, available information is incomplete. Site as proxy for location.",
         "dimensions": {
           "arena-major": 45,
@@ -5345,7 +5345,7 @@
         "amphitheatrum": "http://www.amphi-theatrum.de/1329.html",
         "buildingtype": "amphitheater",
         "capacity": 11300,
-        "chronogrp": "Imperial",
+        "chronogroup": "Imperial",
         "comment": "Not located. Near casbah.",
         "dimensions": {
           "exterior-major": 100,
@@ -5377,7 +5377,7 @@
         "amphitheatrum": "http://www.amphi-theatrum.de/1337.html",
         "buildingtype": "amphitheater",
         "capacity": 6300,
-        "chronogrp": "Imperial",
+        "chronogroup": "Imperial",
         "comment": "Not located.",
         "dimensions": {
           "exterior-major": 61.2,
@@ -5409,7 +5409,7 @@
         "title": "Oval Structure at Portus",
         "buildingtype": "oval-structure",
         "capacity": 2000,
-        "chronogrp": "Second Century",
+        "chronogroup": "Second Century",
         "comment": "Not certainly an Amphitheater.",
         "label": "Portus Oval Structure",
         "latintoponym": "Portus",
