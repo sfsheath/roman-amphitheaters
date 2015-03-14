@@ -1423,20 +1423,29 @@
       "id":"scylletiumScolaciumAmphitheater",
       "properties":{
         "title":"Amphitheater at Scylletium/Scolacium",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1598.html",
         "buildingtype": "amphitheater",
-        "chronogroup": "Imperial",
+        "chronogroup": "First Century",
+        "created": 98,
+        "dimensions":{
+          "exterior-major": 88,
+          "exterior-minor": 64,
+          "source": "http://maps.google.com"
+        },
+        "emperor": "Nerva",
+        "italianregion": "region ii",
         "label": "Scylletium",
         "moderncountry": "Italy",
-        "pleiades": "http://pleiades.stoa.org/places/452439",
-        "source":"http://pleiades.stoa.org/places/452439/location-of-roman-amphitheater"
+        "pleiades": "http://pleiades.stoa.org/places/452439"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          16.592329199999998,
-          38.806887799999998,
+          16.59232919,
+          38.80688779,
           44
-        ]
+        ],
+       "source":["http://pleiades.stoa.org/places/452439/location-of-roman-amphitheater","http://maps.google.com"]
       }
     },
     {
@@ -1521,8 +1530,8 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          -0.98016099999999995,
-          37.600645499999999,
+          -0.9801609,
+          37.600645499,
           23
         ],
         "source":"http://pleiades.stoa.org/places/265849/location-of-roman-amphitheater"
@@ -1548,8 +1557,8 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          14.366995899999999,
-          46.697877699999999,
+          14.366995899,
+          46.697877699,
           479
         ]
       }
@@ -1591,7 +1600,7 @@
         "type":"Point",
         "coordinates":[
           11.2595198,
-          43.768730300000001,
+          43.7687303,
           47
         ],
         "source":"http://pleiades.stoa.org/places/413138/location-of-roman-amphitheater"
@@ -1612,8 +1621,8 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          12.467190499999999,
-          42.411564800000001,
+          12.467190499,
+          42.4115648,
           86
         ]
       }
@@ -1633,8 +1642,8 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          -6.1084683000000002,
-          35.199900399999997,
+          -6.1084683,
+          35.19990039,
           52
         ]
       }
@@ -1692,7 +1701,7 @@
         "type":"Point",
         "coordinates":[
           14.9159226,
-          41.805842800000001,
+          41.8058428,
           406
         ]
       }
@@ -1713,7 +1722,7 @@
         "type":"Point",
         "coordinates":[
           12.594868,
-          42.129831000000003,
+          42.129831,
           52
         ]
       }
@@ -1767,8 +1776,8 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          7.2752435000000002,
-          43.719672799999998,
+          7.2752435,
+          43.71967279,
           112
         ],
         "source":["http://maps.google.com","http://pleiades.stoa.org/places/157834/location-of-roman-amphitheater"]
@@ -1789,8 +1798,8 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          8.8044188000000005,
-          39.993123900000001,
+          8.8044188,
+          39.9931239,
           49
         ]
       }
@@ -1812,8 +1821,8 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          10.505772199999999,
-          43.845520299999997,
+          10.505772199,
+          43.8455202,
           19
         ]
       }
@@ -1835,7 +1844,7 @@
         "type":"Point",
         "coordinates":[
           12.6662021,
-          42.995790900000003,
+          42.9957909,
           211
         ]
       }
@@ -1897,7 +1906,7 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          19.047985000000001,
+          19.047985,
           47.567577,
           105
         ],
@@ -1928,7 +1937,7 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          19.039065999999998,
+          19.03906599,
           47.532947,
           101
         ],
@@ -1950,8 +1959,8 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          -1.3796295999999999,
-          54.088115700000003,
+          -1.3796295999,
+          54.0881157,
           41
         ],
         "source":"http://pleiades.stoa.org/places/89209/possible-location-of-roman-amphitheater"
@@ -1976,8 +1985,8 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          0.71330870000000002,
-          45.183192099999999,
+          0.7133087,
+          45.183192099,
           97
         ],
         "source":"http://pleiades.stoa.org/places/138650/location-of-roman-amphitheater"
@@ -1998,8 +2007,8 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          10.280644000000001,
-          45.943812899999998,
+          10.280644,
+          45.94381289,
           283
         ],
         "source":"http://pleiades.stoa.org/places/383617/location-of-roman-amphitheater"
@@ -2028,8 +2037,8 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          15.911579400000001,
-          40.287640400000001,
+          15.9115794,
+          40.2876404,
           579
         ],
         "source":"http://pleiades.stoa.org/places/442603/location-of-roman-amphitheater"
@@ -2115,7 +2124,7 @@
         "type":"Point",
         "coordinates":[
           12.2293009,
-          42.239312400000003,
+          42.2393124,
           271
         ]
       }
@@ -2144,8 +2153,8 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          22.785320599999999,
-          45.516677299999998,
+          22.785320599,
+          45.51667729,
           491
         ],
         "source":"http://pleiades.stoa.org/places/207527/location-of-roman-amphitheater"
@@ -2244,8 +2253,8 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          -2.9568780000000001,
-          51.608058999999997,
+          -2.956878,
+          51.6080589,
           13
         ],
         "source": ["http://maps.google.com/","http://pleiades.stoa.org/places/79532/roman-amphitheatre"]
@@ -2332,8 +2341,8 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          -0.64335120000000001,
-          45.745392600000002,
+          -0.6433512,
+          45.7453926,
           20
         ],
         "source":"http://pleiades.stoa.org/places/138458/location-of-gallo-roman-amphitheater"
@@ -2416,8 +2425,8 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          6.2599349999999996,
-          35.489246999999999,
+          6.2599349,
+          35.4892469,
           1170
         ],
         "source":"http://pleiades.stoa.org/places/334570/location-of-roman-amphitheater"
@@ -2574,7 +2583,7 @@
         "type":"Point",
         "coordinates":[
           10.706939,
-          35.296390000000002,
+          35.29639,
           111
         ],
         "source":"http://pleiades.stoa.org/places/324835/amphitheatre-of-el-jem"
@@ -3689,6 +3698,12 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Flavian",
         "comment": "Location approximate.",
+        "dimensions": {
+          "exterior-major": 98,
+          "exterior-minor": 75,
+          "arena-major": 53,
+          "arena-minor": 30
+        },
         "label": "Termini",
         "latintoponym": "Thermae Himerae",
         "moderncountry": "Italy",
@@ -5123,6 +5138,30 @@
                10.057188,
                37.052472,
                29
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"tebourbaAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Thuburbo Minus",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1341.html",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Second Century",
+        "golvinid": "69",
+        "label": "Thuburbo Minus",
+        "latintoponym": "Thuburbo Minus",
+        "moderncountry": "Tunisia",
+        "pleiades": "http://pleiades.stoa.org/places/315219",
+        "visibility": "poor"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+               9.835436,
+               36.827708,
+               43
         ],
         "source":"http://maps.google.com/"
       }
