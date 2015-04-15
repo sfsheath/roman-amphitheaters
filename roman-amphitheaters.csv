@@ -76,7 +76,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "sutriumAmphitheatre","Amphitheater at Sutrium","Sutrium","amphitheater",8500,"Italy","Republican",,"https://www.youtube.com/watch?v=OgHl5MT95bg",,,,,42.2393124,12.2293009,271
 "sarmizegetusaAmphitheatre","Amphitheater at Ulpia Traiana Sarmizegetusa","Sarmizegetusa","amphitheater",,"Romania","Second Century",,,88,69,66,47,45.51667729,22.785320599,491
 "salonaAmphitheatre","Amphitheater at Salona","Salona","amphitheater",13380,"Croatia","Second Century",,,124.75,100.65,64.3,40.2,43.5381718,16.473893,8
-"londonAmphitheatre","Amphitheater at London","London","amphitheater",,"United Kingdom","Imperial",,"https://www.youtube.com/watch?v=qvw9xA-hTz8",,,,,51.515522,-0.092136,29
+"londonAmphitheatre","Amphitheater at London","London","amphitheater",6500,"United Kingdom","Flavian",,"https://www.youtube.com/watch?v=qvw9xA-hTz8",100,85,60,40,51.515522,-0.092136,29
 "tiburAmphitheater","Amphitheater at Tibur","Tibur","amphitheater",,"Italy","Imperial",,,,,,,41.960571,12.798114,248
 "caerleonAmphitheater","Amphitheater at Caerleon","Caerleon","amphitheater",,"United Kingdom","Imperial",,"https://www.youtube.com/watch?v=VIT1JAOadho",,,,,51.6080589,-2.956878,13
 "telesiaAmphitheatre","Amphitheater at Telesia","Telesia","amphitheater",9000,"Italy","Republican",,,112,,,,41.223911,14.500496,68
@@ -154,7 +154,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "capuaImperialAmphitheater","Imperial Amphitheater at Capua","Capua II","amphitheater",47000,"Italy","Flavian",,"https://www.youtube.com/watch?v=8q86tToFDwI",165,135,76.12,45.83,41.085935,14.250089,34
 "liternoAmphitheater","Amphitheater at Literno","Literno","amphitheater",,"Italy","Republican",,,,,,,40.920949,14.0304,9
 "noleAmphitheater","Amphitheater at Nole","Nole","amphitheater",,"Italy","Republican",,,,,,,40.927702,14.52054,35
-"silchesterAmphitheater","Amphitheater at Silchester","Silchester","amphitheater",,"United Kingdom","Second Century",,"https://www.youtube.com/watch?v=ScpzLOmZEXs",80,70,49,40,51.358881,-1.07547,91
+"silchesterAmphitheater","Amphitheater at Silchester","Silchester","amphitheater",6000,"United Kingdom","Second Century",,"https://www.youtube.com/watch?v=ScpzLOmZEXs",80,70,49,40,51.358881,-1.07547,91
 "dorchesterAmphitheater","Amphitheater at Dorchester / Maumbury Henge","Maumbury","amphitheater",,"United Kingdom","Second Century",,"https://www.youtube.com/watch?v=ScpzLOmZEXs",80,77,58,47,50.708044,-2.440246,78
 "bragaAmphitheater","Amphitheater at Braga","Braga","amphitheater",,"Portugal","Imperial",,,,,,,41.546669,-8.430075,175
 "sisapoAmphitheater","Amphitheater at Sisapo","Sisapo","amphitheater",,"Spain","Imperial",,,,,,,38.645833,-4.516667,659
