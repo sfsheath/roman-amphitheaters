@@ -149,6 +149,7 @@
         "buildingtype": "practice-arena",
         "chronogroup": "Imperial",
         "created":81,
+        "exclude": true,
         "label": "Ludus Magnus",
         "pleiades": "http://pleiades.stoa.org/places/423025",
         "moderncountry": "Italy",
@@ -213,6 +214,7 @@
           "exterior-minor": 75.8
         },
         "emperor": "Caracalla",
+        "exclude": true,
         "golvinID": "189",
         "label": "Amph. Castrense",
         "moderncountry": "Italy",
@@ -716,6 +718,7 @@
         "title":"Ludus at Carnuntum",
         "buildingtype": "practice-arena",
         "chronogroup": "Imperial",
+        "exclude": true,
         "label": "Carnuntum Ludus",
         "moderncountry": "Austria",
         "pleiades": "http://pleiades.stoa.org/places/128376",
@@ -1132,12 +1135,14 @@
       "properties":{
         "title":"Amphitheater at Paris",
         "buildingtype": "gallo-roman-amphitheater",
-        "chronogroup": "Imperial",
+        "capacity": 15000,
+        "chronogroup": "Flavian",
         "label": "Paris",
         "latintoponym": "Lutetia Parisiorum",
         "pleiades": "http://pleiades.stoa.org/places/109126",
         "moderncountry": "France",
         "wilsonpopulation": 8000,
+        "wikipedia": "http://en.wikipedia.org/wiki/Arènes_de_Lutèce",
         "youtube": ["https://www.youtube.com/watch?v=DStHFfxd_qo"]
       },
       "geometry":{
@@ -1269,6 +1274,13 @@
         "amphitheatrum": "http://amphi-theatrum.de/1461.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Republican",
+        "dimensions": {
+          "exterior-major": 108,
+          "exterior-minor": 70,
+          "arena-major": 62.5,
+          "arena-minor": 35,
+          "source": "http:maps.google.com"
+        },
         "label": "Abella",
         "latintoponym": "Abella",
         "moderncountry": "Italy",
@@ -1380,8 +1392,9 @@
       "id":"gennesAmphitheater",
       "properties":{
         "title":"Amphitheater at Gennes",
-        "buildingtype": "amphitheater",
-        "chronogroup": "Imperial",
+        "buildingtype": "gallo-roman-amphitheater",
+        "capacity": 5000,
+        "chronogroup": "Second Century",
         "label": "Gennes",
         "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/138371"
@@ -1525,7 +1538,8 @@
         "chronogroup": "Imperial",
         "label": "Carthago Nova",
         "moderncountry": "Spain",
-        "pleiades": "http://pleiades.stoa.org/places/265849"
+        "pleiades": "http://pleiades.stoa.org/places/265849",
+        "visibility": "none"
       },
       "geometry":{
         "type":"Point",
@@ -1570,6 +1584,13 @@
         "title":"Amphitheater at Carsulae",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "dimensions": {
+          "exterior-major": 84,
+          "exterior-minor": 62,
+          "arena-major": 55,
+          "arena-minor": 41,
+          "source": "http://maps.google.com"
+        },
         "label": "Carsulae",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/413065",
@@ -1578,9 +1599,9 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          12.5596789,
-          42.6394249,
-          440
+          12.559681,
+          42.639432,
+          438
         ]
       }
     },
@@ -2364,6 +2385,11 @@
         "title":"Amphitheater at Assisi",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "dimensions":{
+          "arena-major": 65,
+          "arena-minor": 38,
+          "source": "http://maps.google.com" 
+        },
         "label": "Assisi",
         "latintoponym": "Asisium",
         "moderncountry": "Italy",
@@ -3272,6 +3298,7 @@
            "arena-minor": 37.5,
            "source": "Bomgardner"
            },
+        "exclude": true,
         "label": "Bararus",
         "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/324673"
@@ -4626,6 +4653,13 @@
         "amphitheatrum": "http://amphi-theatrum.de/1878.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "dimensions": {
+           "exterior-major": 80,
+           "exterior-minor": 65,
+           "arena-major": 43,
+           "arena-minor": 32,
+           "source": "http://maps.google.com"
+        },
         "label": "Burnum",
         "moderncountry": "Croatia",
         "title": "Amphitheater at Burnum",
@@ -5461,6 +5495,7 @@
         "capacity": 2000,
         "chronogroup": "Second Century",
         "comment": "Not certainly an Amphitheater.",
+        "exclude": true,
         "label": "Portus Oval Structure",
         "latintoponym": "Portus",
         "moderncountry": "Italy",
@@ -6043,6 +6078,86 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"djerbaAmphitheater",
+      "properties": {
+        "title": "Djerba Amphitheater",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
+        "comment": "As confirmed by A. Rabinowitz. Pending bibliography check, ext. major approximate.",
+        "dimensions": {
+           "exterior-major": 68,
+           "source":"http://maps.google.com"
+        },
+        "dare": "http://dare.ht.lu.se/places/24704",
+        "label": "Djerba",
+        "latintoponym": "Meninge",
+        "moderncountry": "Tunisia",
+        "visibility": "fair"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+              10.913907,
+              33.685822,
+              1
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"zagaroloLudus",
+      "properties": {
+        "title": "Zagarolo Ludus",
+        "buildingtype": "ludus",
+        "chronogroup": "Imperial",
+        "dare": "http://dare.ht.lu.se/places/24338",
+        "dimensions": {
+           "exterior-major": 40,
+           "source": "http://maps.google.com"
+        },
+        "exclude": true,
+        "label": "Zagarolo",
+        "moderncountry": "Italy",
+        "visibility": "good"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+              12.819255,
+              41.858402,
+              1
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"tusculumAmphitheater",
+      "properties": {
+        "title": "Tusculum Amphitheater",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Second Century",
+        "dare": "http://dare.ht.lu.se/places/24338",
+        "dimensions": {
+           "exterior-major": 80,
+           "exterior-minor": 53,
+           "source": "https://books.google.com/books?id=pu4hAwAAQBAJ&pg=PA515&lpg=PA515&dq=tusculum+amphitheater&source=bl&ots=Ocg0iNNaB0&sig=hoFrW1XvAeJ7kP0xH4xVHbAI3GM&hl=en&sa=X&ei=9Fs4VePJLomJsQTNw4CoBw&ved=0CDUQ6AEwBQ#v=onepage&q=tusculum%20amphitheater&f=false"
+        },
+        "label": "Tusculum",
+        "moderncountry": "Italy",
+        "visibility": "none"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+              12.702103,
+              41.798372,
+              582
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
+
   ]
 }
