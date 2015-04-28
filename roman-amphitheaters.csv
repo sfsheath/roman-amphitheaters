@@ -155,7 +155,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "liternoAmphitheater","Amphitheater at Literno","Literno","amphitheater",,"Italy","Republican",,,,,,,40.920949,14.0304,9
 "noleAmphitheater","Amphitheater at Nole","Nole","amphitheater",,"Italy","Republican",,,,,,,40.927702,14.52054,35
 "silchesterAmphitheater","Amphitheater at Silchester","Silchester","amphitheater",6000,"United Kingdom","Second Century",,"https://www.youtube.com/watch?v=ScpzLOmZEXs",80,70,49,40,51.358881,-1.07547,91
-"dorchesterAmphitheater","Amphitheater at Dorchester / Maumbury Henge","Maumbury","amphitheater",,"United Kingdom","Second Century",,"https://www.youtube.com/watch?v=ScpzLOmZEXs",80,77,58,47,50.708044,-2.440246,78
+"dorchesterAmphitheater","Amphitheater at Dorchester / Maumbury Henge","Maumbury","amphitheater",,"United Kingdom","First Century",,"https://www.youtube.com/watch?v=ScpzLOmZEXs",80,77,58,47,50.708044,-2.440246,78
 "bragaAmphitheater","Amphitheater at Braga","Braga","amphitheater",,"Portugal","Imperial",,,,,,,41.546669,-8.430075,175
 "sisapoAmphitheater","Amphitheater at Sisapo","Sisapo","amphitheater",,"Spain","Imperial",,,,,,,38.645833,-4.516667,659
 "leonAmphitheater","Amphitheater at León","León","amphitheater",,"Spain","Imperial",,,,,,,42.598889,-5.566944,846
@@ -224,3 +224,5 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "djerbaAmphitheater","Djerba Amphitheater","Djerba","amphitheater",,"Tunisia","Imperial",,,68,,,,33.685822,10.913907,1
 "zagaroloLudus","Zagarolo Ludus","Zagarolo","ludus",,"Italy","Imperial",,,40,,,,41.858402,12.819255,1
 "tusculumAmphitheater","Tusculum Amphitheater","Tusculum","amphitheater",,"Italy","Second Century",,,80,53,,,41.798372,12.702103,582
+"forumNovumAmphitheater","Forum Novum Amphitheater","Forum Novum","amphitheater",,"Italy","First Century",,,,,45,25,42.329875,12.603363,137
+"todiAmphitheater","Todi Amphitheater","Todi","amphitheater",,"Italy","Imperial",,,,,,,42.778653,12.413528,330
