@@ -274,7 +274,7 @@
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/433032",
         "see":["https://3dwarehouse.sketchup.com/model.html?redirect=1&mid=6971b010096197d8dfd89dd71a555b12","http://pleiades.stoa.org/places/433032/amphitheater-of-pompeii"],
-        "welch-id":"1",
+        "welchid":"1",
         "wikipedia":"http://en.wikipedia.org/wiki/Amphitheatre_of_Pompeii",
         "youtube": ["https://www.youtube.com/watch?v=bqf4bJyo3rU"],
         "bibliography": [
@@ -409,7 +409,7 @@
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/432808",
         "see":"http://pleiades.stoa.org/places/432808/location-of-roman-amphitheater",
-        "welch-id":"4"
+        "welchid":"4"
       },
       "geometry":{
         "type":"Point",
@@ -977,7 +977,7 @@
         "label": "Paestum",
         "pleiades": "http://pleiades.stoa.org/places/442733",
         "moderncountry": "Italy",
-        "welch-id": "10"
+        "welchid": "10"
       },
       "geometry":{
         "type":"Point",
@@ -2116,7 +2116,7 @@
         "created":-50,
         "label": "Sutrium",
         "moderncountry": "Italy",
-        "welch-id": "15",
+        "welchid": "15",
         "youtube": ["https://www.youtube.com/watch?v=OgHl5MT95bg"]
       },
       "geometry":{
@@ -2284,7 +2284,7 @@
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/433147",
         "source":"http://pleiades.stoa.org/places/433147/location-of-roman-amphitheater",
-        "welch-id":"9"
+        "welchid":"9"
       },
       "geometry":{
         "type":"Point",
@@ -2803,7 +2803,7 @@
         "latintoponym": "Carmo",
         "military": "yes",
         "moderncountry": "Spain",
-        "welch-id": "17"
+        "welchid": "17"
       },
       "geometry":{
         "type":"Point",
@@ -2904,7 +2904,7 @@
         "comment": "Location not specific.",
         "label": "Antioch",
         "moderncountry": "Turkey",
-        "welch-id": "19"
+        "welchid": "19"
       },
       "geometry":{
         "type":"Point",
@@ -4132,7 +4132,7 @@
         "latintoponym": "Capua",
         "moderncountry": "Italy",
         "visibility": "partial",
-        "welch-id": "2"
+        "welchid": "2"
       },
       "geometry":{
         "type":"Point",
@@ -4188,7 +4188,7 @@
         "latintoponym": "Liternum",
         "moderncountry": "Italy",
         "visibility": "none",
-        "welch-id": "3"
+        "welchid": "3"
       },
       "geometry":{
         "type":"Point",
@@ -4211,7 +4211,7 @@
         "latintoponym": "Nola",
         "moderncountry": "Italy",
         "visibility": "partial",
-        "welch-id": "13"
+        "welchid": "13"
       },
       "geometry":{
         "type":"Point",
@@ -4430,11 +4430,11 @@
       "properties": {
         "title": "Amphitheater at Ierapetra",
         "amphitheatrum": "http://amphi-theatrum.de/2128.html",
+        "bibliography": "https://www.academia.edu/1557389/Rediscovering_the_small_theatre_and_amphitheatre_of_ancient_Ierapytna_SE_Crete_",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "label": "Ierapetra",
         "moderncountry": "Greece",
-        "see": "https://www.academia.edu/1557389/Rediscovering_the_small_theatre_and_amphitheatre_of_ancient_Ierapytna_SE_Crete_",
         "visibility": "partial"
       },
       "geometry":{
@@ -4589,6 +4589,7 @@
       "properties": {
         "title": "Amphitheater at “Dambach”",
         "amphitheatrum": "http://amphi-theatrum.de/1792.html",
+        "bibliography": "http://www.deutsche-limeskommission.de/fileadmin/dlk/images/dlk/pdfs/Der_Limes_3_2009_2.pdf",
         "buildingtype": "amphitheater",
         "certainty": "uncertain",
         "certainty-qualifier": "function",
@@ -4596,7 +4597,6 @@
         "label": "Dambach",
         "military": true,
         "moderncountry": "Germany",
-        "see": "http://www.deutsche-limeskommission.de/fileadmin/dlk/images/dlk/pdfs/Der_Limes_3_2009_2.pdf",
         "visibility": "none"
       },
       "geometry":{
@@ -4641,11 +4641,11 @@
       "id":"gleisdorfAmphitheater",
       "properties": {
         "amphitheatrum": "http://amphi-theatrum.de/2424.html",
+        "bibliography": "https://www.academia.edu/804203/Amphitheater_in_Noricum",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "label": "Gleisdorf",
         "moderncountry": "Austria",
-        "see": "https://www.academia.edu/804203/Amphitheater_in_Noricum",
         "title": "Amphitheater at Gleisdorf",
         "visibility": "none"
       },
@@ -4739,6 +4739,7 @@
       "properties": {
         "title": "Amphitheater at Saint Marcel",
         "amphitheatrum": "http://amphi-theatrum.de/1618.html",
+        "bibliography": "http://www.persee.fr/web/revues/home/prescript/article/galia_0016-4119_1968_num_26_2_2505",
         "buildingtype": "amphitheater",
         "certainty": "uncertain",
         "certainty-qualifier": "location",
@@ -4746,7 +4747,6 @@
         "label": "St. Marcel",
         "latintoponym": "Argentomagus",
         "moderncountry": "France",
-        "see": "http://www.persee.fr/web/revues/home/prescript/article/galia_0016-4119_1968_num_26_2_2505",
         "visibility": "none"
       },
       "geometry":{
@@ -4764,6 +4764,7 @@
       "properties": {
         "title": "Amphitheater at Metz",
         "amphitheatrum": "http://amphi-theatrum.de/1395.html",
+        "bibliography": "http://www.inrap.fr/preventive-archaeology/Events/Last-discoveries/p-1355-lg1-Excavation-of-the-amphitheatre-quarter-in-Metz.htm",
         "buildingtype": "amphitheater",
         "capacity": 30000,
         "certainty": "uncertain",
@@ -4775,9 +4776,8 @@
            "source": "http://www.inrap.fr/preventive-archaeology/Events/Last-discoveries/p-1355-lg1-Excavation-of-the-amphitheatre-quarter-in-Metz.htm"
         },
         "label": "Metz",
-        "lastuse": {"date":300, "comment": "See cited online article."},
+        "lastuse": {"date":300, "comment": "See bibliography."},
         "moderncountry": "France",
-        "see": "http://www.inrap.fr/preventive-archaeology/Events/Last-discoveries/p-1355-lg1-Excavation-of-the-amphitheatre-quarter-in-Metz.htm",
         "visibility": "none"
       },
       "geometry":{
@@ -4864,10 +4864,10 @@
         "title": "Amphitheater at Bourges",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
-        "comment": "Dimensions very approximate on the basis of modern street plan.",
         "dimensions": {
           "exterior-major": 108,
-          "exterior-minor": 70
+          "exterior-minor": 70,
+          "comment": "Dimensions very approximate on the basis of modern street plan."
          },
         "label": "Bourges",
         "latintoponym": "Avaricum",
@@ -4890,10 +4890,11 @@
         "title": "Amphitheater at Chassenon",
         "buildingtype": "gallo-roman-amphitheater",
         "chronogroup": "Imperial",
-        "comment": "No longer extant and structure may have been a theater. Dimensions from 1844 publication.",
+        "comment": "No longer extant and structure may have been a theater.",
         "dimensions": {
           "arena-major": 60,
-          "arena-minor": 40
+          "arena-minor": 40,
+          "comment": "Dimensions from 1844 publication."
          },
         "label": "Chassenon",
         "latintoponym": "Cassinomagus",
@@ -4974,6 +4975,7 @@
         "buildingtype": "amphitheater",
         "capacity": 6500,
         "chronogroup": "Second Century",
+        "comment": "The amphitheater is often said to have been built to provide entertainment for prisoners working inthe local quarries. Reference needed.",
         "dimensions": {
           "exterior-major": 61,
           "exterior-minor": 52,
@@ -5060,6 +5062,7 @@
       "id":"genzanoPrivateAmphitheater",
       "properties": {
         "title": "Private Amphitheater at Genzano",
+        "bibliography": "http://www.fastionline.org/record_view.php?fst_cd=AIAC_2694",
         "buildingtype": "amphitheater",
         "capacity": 1300,
         "chronogroup": "Second Century",
@@ -5071,7 +5074,6 @@
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/422838",
         "private": true,
-        "see": "http://www.fastionline.org/record_view.php?fst_cd=AIAC_2694",
         "visibility": "partial"
       },
       "geometry":{
@@ -5452,6 +5454,7 @@
       "id":"portusOvalStructure",
       "properties": {
         "title": "Oval Structure at Portus",
+        "bibliography": ["http://www.sciencedaily.com/releases/2009/09/090930194337.htm","http://timesonline.typepad.com/dons_life/2009/10/the-luxury-amphitheatre-at-portus.html"],
         "buildingtype": "oval-structure",
         "capacity": 2000,
         "chronogroup": "Second Century",
@@ -5462,7 +5465,6 @@
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/423012",
         "private": true,
-        "see": ["http://www.sciencedaily.com/releases/2009/09/090930194337.htm","http://timesonline.typepad.com/dons_life/2009/10/the-luxury-amphitheatre-at-portus.html"],
         "visibility": "none"
       },
       "geometry":{
@@ -5632,6 +5634,7 @@
       "id":"altinumAmphitheater",
       "properties": {
         "title": "Amphitheater at Altinum",
+        "bibliography": "http://hdl.handle.net/10.1126/science.1174206",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "dimensions": {
@@ -5644,7 +5647,6 @@
         "latintoponym": "Altinum",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/314920",
-        "see": "http://hdl.handle.net/10.1126/science.1174206",
         "visibility": "none" },
         "geometry":{
           "type":"Point",
@@ -5660,6 +5662,8 @@
       "id":"augustaBagiennorumAmphitheater",
       "properties": {
         "title": "Amphitheater at Augusta Benniorum",
+        "bibliography": ["http://www.piemonte.beniculturali.it/index.php/en/i-luoghi-della-cultura/aree-archeologiche/augusta-bagiennorum",
+           "http://cipa.icomos.org/fileadmin/template/doc/ATHENS/FP025.pdf"],
         "buildingtype": "amphitheater",
         "chronogroup": "Julio-Claudian",
         "dimensions": {
@@ -5671,8 +5675,6 @@
         "latintoponym": "Augusta Bagiennorum",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/383578",
-        "see": ["http://www.piemonte.beniculturali.it/index.php/en/i-luoghi-della-cultura/aree-archeologiche/augusta-bagiennorum",
-           "http://cipa.icomos.org/fileadmin/template/doc/ATHENS/FP025.pdf"],
         "vici": "http://vici.org/vici/4208",
         "visibility": "partial" },
         "geometry":{
@@ -5932,6 +5934,7 @@
       "id":"bevanaAmphitheater",
       "properties": {
         "title": "Amphitheater at Bevagna",
+        "bibliography": "http://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Europe/Italy/Umbria/Perugia/Bevagna/Bevagna/Roman/amphitheatre.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "dimensions": {
@@ -5945,7 +5948,6 @@
         "label": "Bevagna",
         "latintoponym": "Mevania",
         "moderncountry": "Italy",
-        "see": "http://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Europe/Italy/Umbria/Perugia/Bevagna/Bevagna/Roman/amphitheatre.html",
         "visibility": "poor"
          },
         "geometry":{
