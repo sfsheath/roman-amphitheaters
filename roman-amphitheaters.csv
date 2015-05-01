@@ -16,7 +16,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "syracuseAmphitheater","Amphitheater at Syracuse","Syracuse","amphitheater",,"Italy","Julio-Claudian","http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Siracusa","https://www.youtube.com/watch?v=aUcjHzMZCeY",146.8,118.7,69.8,39.7,37.074132,15.278934,23
 "carthageAmphitheater","Amphitheater at Carthage","Carthage","amphitheater",30000,"Tunisia","Second Century","http://en.wikipedia.org/wiki/Carthage_amphitheatre","https://www.youtube.com/watch?v=oDiCqZCu06I",120,93,64,36,36.856078,10.314924,14
 "hadrianVillaAmphitheater","Amphitheater at Hadrian's Villa at Tivoli","Tivoli Villa","amphitheater",,"Italy","Hadrianic",,,,,,,41.941708,12.778929,99
-"corinthAmphitheater","Amphitheater at Corinth","Corinth","amphitheater",14000,"Greece","Julius Caesar",,,98,,58,30,37.909629,22.892126,98
+"corinthAmphitheater","Amphitheater at Corinth","Corinth","amphitheater",14000,"Greece","Julius Caesar",,,98,70,58,30,37.909629,22.892126,98
 "marcianopolisAmphitheater","Amphitheater at Marcianopolis (Devnya)","Marcianopolis","amphitheater",4000,"Bulgaria","Severan",,,70,60,50,40,43.218689,27.556674,120
 "porolissumAmphitheater","Amphitheater at Porolissum","Porolissum","amphitheater",,"Romania","Second Century",,,84,75,64,52,47.177552,23.154052,441
 "nijmegenAmphitheater","Amphitheater at Nijmegen","Nijmegen","amphitheater",,"Netherlands","Imperial",,,,,,,51.838523,5.878859,46
@@ -33,7 +33,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "paestumAmphitheater","Amphitheater at Paestum","Paestum","amphitheater",4500,"Italy","Republican",,,79,59,56,35,40.422354,15.006449,18
 "lunaAmphitheater","Amphitheater at Luna","Luna","amphitheater",,"Italy","Imperial",,,87,71,52,34.5,44.062656,10.022386,4
 "casinumAmphitheater","Amphitheater at Casinum","Casinum","amphitheater",,"Italy","Imperial",,,,,,,41.482933,13.823575,73
-"viminaciumAmphitheater","Amphitheater at Viminacium","Viminacium","amphitheater",12000,"Serbia","Second Century",,,,,,,44.737985,21.220083,72
+"viminaciumAmphitheater","Amphitheater at Viminacium","Viminacium","amphitheater",12000,"Serbia","Second Century",,,85,,,,44.737985,21.220083,72
 "flaviaSolvaAmphitheater","Amphitheater at Flavia Solva","Flavia Solva","amphitheater",,"Austria","Imperial",,,,,,,46.76715349,15.5657773,266
 "rusellaeAmphitheater","Amphitheater at Rusellae","Rusellae","amphitheater",,"Italy","Julio-Claudian",,,38,27,30,20,42.828405,11.159132,165
 "parisAmphitheater","Amphitheater at Paris","Paris","gallo-roman-amphitheater",15000,"France","Flavian","http://en.wikipedia.org/wiki/Arènes_de_Lutèce","https://www.youtube.com/watch?v=DStHFfxd_qo",,,,,48.845097,2.352855,46
@@ -169,7 +169,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "sopronAmphitheater","Amphitheater at Sopron","Sopron","amphitheater",,"Hungary","Imperial",,,,,,,47.692813,16.589397,283
 "nyonAmphitheater","Amphitheater at Nyon","Nyon","amphitheater",,"Switzerland","Imperial",,,,,,,46.383464,6.241301,391
 "bernAmphitheater","Amphitheater at Bern","Bern","amphitheater",,"Switzerland","Imperial",,,,,,,46.975715,7.451179,547
-"dambachAmphitheater","Amphitheater at “Dambach”","Dambach","amphitheater",,"Germany","Imperial",,,,,,,49.104033,10.58318,463
+"dambachAmphitheater","Amphitheater at “Dambach”","Dambach","oval-structure",,"Germany","Imperial",,,,,,,49.104033,10.58318,463
 "burnumAmphitheater","Amphitheater at Burnum","Burnum","amphitheater",,"Croatia","Imperial",,,80,65,43,32,44.019098,16.018169,250
 "gleisdorfAmphitheater","Amphitheater at Gleisdorf","Gleisdorf","amphitheater",,"Austria","Imperial",,,,,,,47.111055,15.707727,365
 "skikdaAmphitheater","Amphitheater at Skikda","Skikda","amphitheater",8000,"Algeria","Imperial",,,77.3,58.8,57,38.5,36.876413,6.91383,38
@@ -205,7 +205,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "statiliusTaurusAmphitheater","Amphitheater of Statilius Taurus","Statilius Taurus","amphitheater",,"Italy","Augustan",,,,,,,41.899614,12.469869,22
 "hisaryaAmphitheater","Amphitheater at Hisarya","Hisarya","amphitheater",,"Bulgaria","Imperial",,,,,,,42.500071,24.703104,362
 "mesarafeltaAmphitheater","Amphitheater at Mesarfelta","Mesarfelta","amphitheater",,"Algeria","Second Century",,,,,,,35.036203,5.592835,271
-"tigavaCastraAmphitheater","Amphitheater at Tigava Castra","Tigava Castra","amphitheater",2300,"Algeria","Second Century",,,,,,,36.23195,1.651389,151
+"tigavaCastraAmphitheater","Amphitheater at Tigava Castra","Tigava Castra","amphitheater",2300,"Algeria","Second Century",,,56,37,44,26,36.23195,1.651389,151
 "carpisAmphitheater","Amphitheater at Carpis","Carpis","amphitheater",,"Tunisia","Imperial",,,,,,,36.760727,10.557673,29
 "altinumAmphitheater","Amphitheater at Altinum","Altinum","amphitheater",,"Italy","Imperial",,,143,103,80,58,45.548996,12.399911,1
 "augustaBagiennorumAmphitheater","Amphitheater at Augusta Benniorum","Augusta Bagiennorum","amphitheater",,"Italy","Julio-Claudian",,,104,78,,,44.556438,7.85031,340
@@ -222,7 +222,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "sinuessaAmphitheater","Amphitheater at Sinuessa","Sinuessa","amphitheater",,"Italy","Imperial",,,80,45,,,41.153584,13.846372,5
 "aphrodisiasAmphitheater","Late Roman Amphitheater at Aphrodisas","Aphrodisias","amphitheater-in-stadium",,"Turkey","Fourth Century",,,,,59,30,37.712553,28.723061,526
 "djerbaAmphitheater","Djerba Amphitheater","Djerba","amphitheater",,"Tunisia","Imperial",,,68,,,,33.685822,10.913907,1
-"zagaroloLudus","Zagarolo Ludus","Zagarolo","ludus",,"Italy","Imperial",,,40,,,,41.858402,12.819255,1
+"zagaroloLudus","Zagarolo Ludus","Zagarolo","practice-arena",,"Italy","Imperial",,,40,,,,41.858402,12.819255,1
 "tusculumAmphitheater","Tusculum Amphitheater","Tusculum","amphitheater",,"Italy","Second Century",,,80,53,,,41.798372,12.702103,582
 "forumNovumAmphitheater","Forum Novum Amphitheater","Forum Novum","amphitheater",,"Italy","First Century",,,,,45,25,42.329875,12.603363,137
 "todiAmphitheater","Todi Amphitheater","Todi","amphitheater",,"Italy","Imperial",,,,,,,42.778653,12.413528,330
