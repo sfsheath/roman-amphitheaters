@@ -55,6 +55,7 @@
           "source": "Golvin"
           },
         "emperor": "Septimius Severus",
+        "exclude": true,
         "hypogeum": false,
         "label": "Dura",
         "military": true,
@@ -1549,10 +1550,11 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          12.559681,
-          42.639432,
+          12.559172,
+          42.639468,
           438
-        ]
+        ],
+        "source": "http://maps.google.com"
       }
     },{
       "type":"Feature",
@@ -6106,6 +6108,59 @@
               12.413528,
               42.778653,
               330
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"terniAmphitheater",
+      "properties": {
+        "title": "Terni Amphitheater",
+        "buildingtype": "amphitheater",
+        "chronogroup": "First Century",
+        "dare": "http://dare.ht.lu.se/places/23987",
+        "dimensions": {
+          "exterior-major": 95,
+          "exterior-minor": 73,
+          "arena-major": 65,
+          "arena-minor": 36,
+          "source": "http://maps.google.com" 
+        },
+        "label": "Terni",
+        "moderncountry": "Italy",
+        "visibility": "good"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+              12.643360,
+              42.559785,
+              240
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"spoletoAmphitheater",
+      "properties": {
+        "title": "Spoleto Amphitheater",
+        "buildingtype": "amphitheater",
+        "dare": "http://dare.ht.lu.se/places/24631",
+        "dimensions": {
+          "exterior-major": 115,
+          "exterior-minor": 85,
+          "source": "Golvin"
+        },
+        "label": "Spoleto",
+        "moderncountry": "Italy",
+        "visibility": "good"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+              12.738992,
+              42.738427,
+              327
         ],
         "source":"http://maps.google.com/"
       }

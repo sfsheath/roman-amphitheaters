@@ -52,7 +52,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "oudnaAmphitheater","Amphitheater at Oudna","Uthina","amphitheater",15000,"Tunisia","Second Century",,,96,81,52.5,37.5,36.608597,10.169215,112
 "carthagoNovaAmphitheater","Amphitheater at Carthago Nova/Col. Urbs Iulia","Carthago Nova","amphitheater",,"Spain","Imperial",,,,,,,37.600645499,-0.9801609,23
 "virunumAmphitheater","Amphitheater at Virunum","Virunum","amphitheater",,"Austria","Imperial",,,96,42,,,46.697877699,14.366995899,479
-"carsulaeAmphitheater","Amphitheater at Carsulae","Carsulae","amphitheater",,"Italy","Imperial",,,84,62,55,41,42.639432,12.559681,438
+"carsulaeAmphitheater","Amphitheater at Carsulae","Carsulae","amphitheater",,"Italy","Imperial",,,84,62,55,41,42.639468,12.559172,438
 "florenceAmphitheater","Amphitheater at Florence","Florence","amphitheater",,"Italy","Imperial",,,,,,,43.7687303,11.2595198,47
 "ocriculumAmphitheater","Amphitheater at Ocriculum","Ocriculcum","amphitheater",,"Italy","Imperial",,,,,,,42.4115648,12.467190499,86
 "lixusAmphitheater","Amphitheater at Lixus","Lixus","amphitheater",,"Morocco","Imperial",,,,,,,35.19990039,-6.1084683,52
@@ -226,3 +226,5 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "tusculumAmphitheater","Tusculum Amphitheater","Tusculum","amphitheater",,"Italy","Second Century",,,80,53,,,41.798372,12.702103,582
 "forumNovumAmphitheater","Forum Novum Amphitheater","Forum Novum","amphitheater",,"Italy","First Century",,,,,45,25,42.329875,12.603363,137
 "todiAmphitheater","Todi Amphitheater","Todi","amphitheater",,"Italy","Imperial",,,,,,,42.778653,12.413528,330
+"terniAmphitheater","Terni Amphitheater","Terni","amphitheater",,"Italy","First Century",,,95,73,65,36,42.559785,12.64336,240
+"spoletoAmphitheater","Spoleto Amphitheater","Spoleto","amphitheater",,"Italy",,,,115,85,,,42.738427,12.738992,327
