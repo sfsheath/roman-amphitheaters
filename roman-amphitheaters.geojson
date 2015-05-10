@@ -1058,6 +1058,7 @@
       "properties":{
         "title":"Amphitheater at Flavia Solva",
         "buildingtype": "amphitheater",
+        "capacity": {"quantity": 2729, "source": "Golvin"},
         "chronogroup": "Imperial",
         "label": "Flavia Solva", 
         "moderncountry": "Austria",
@@ -1299,6 +1300,7 @@
       "properties":{
         "title":"Amphitheater at Charterhouse",
         "buildingtype": "amphitheater",
+        "capacity": {"quantity": 2179, "source": "Golvin"},
         "chronogroup": "Imperial",
         "dimensions": {
           "exterior-major": 50,
@@ -1435,7 +1437,6 @@
            "arena-minor": 46.7,
            "source": "Bomgardner"
           },
-        "exclude": true,
         "golvinid": "188",
         "label": "Bordeaux",
         "latintoponym": "Burdigala",
@@ -1459,7 +1460,7 @@
         "title":"Amphitheater at Oudna",
         "buildingtype": "amphitheater",
         "created":120,
-        "capacity": {"quantity": 15000},
+        "capacity": {"quantity": 11832, "source": "Golvin"},
         "chronogroup": "Second Century",
         "dimensions": {
           "exterior-major": 96,
@@ -1545,6 +1546,7 @@
           "arena-minor": 37.6,
           "source": "Golvin"
         },
+        "golvinid": "80",
         "label": "Carsulae",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/413065",
@@ -1586,7 +1588,15 @@
       "properties":{
         "title":"Amphitheater at Ocriculum",
         "buildingtype": "amphitheater",
+        "capacity": {"quantity": 17812, "source": "Golvin"},
         "chronogroup": "Imperial",
+        "dimensions": {
+           "exterior-major": 120,
+           "exterior-minor": 98,
+           "arena-major": 64,
+           "arena-minor": 42,
+           "source": "Golvin"
+        },
         "label": "Ocriculcum",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/413231",
@@ -1979,14 +1989,16 @@
         "title":"Amphitheater at Grumento",
         "amphitheatrum": "http://amphi-theatrum.de/1519.html",
         "buildingtype": "amphitheater",
+        "capacity": {"quantity": 7657, "source": "Golvin"},
         "chronogroup": "Imperial",
         "dimensions": {
            "exterior-major": 90,
            "exterior-minor": 70,
            "arena-major": 60,
            "arena-minor": 40,
-           "source": "http://amphi-theatrum.de/1519.html"
+           "source": "Golvin"
            },
+        "golvinid": "92",
         "label": "Grumento",
         "latintoponym": "Grumentum",
         "moderncountry": "Italy",
@@ -2007,6 +2019,7 @@
       "properties":{
         "title":"Amphitheater at Alba Fucens",
         "buildingtype": "amphitheater",
+        "capacity": {"quantity": 10720, "source": "Golvin"},
         "chronogroup": "Julio-Claudian",
         "dimensions": {
           "exterior-major": 103,
@@ -2035,7 +2048,7 @@
         "title":"Amphitheater at Col. Augusta Raurica",
         "buildingtype": "amphitheater",
         "created" : 200,
-        "capacity": {"quantity": 6000},
+        "capacity": {"quantity": 14313, "source": "Golvin"},
         "chronogroup": "Severan",
         "dimensions": {
           "exterior-major": 102,
@@ -2660,7 +2673,7 @@
       "properties":{
         "title":"Amphitheater at Gemellae",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 2000},
+        "capacity": {"quantity": 3204, "source": "Golvin"},
         "chronogroup": "Second Century",
         "created": 130,
         "dimensions": {
@@ -3300,7 +3313,7 @@
       "properties":{
         "title":"Amphitheater at Ptolemais",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 16000},
+        "capacity": {"quantity": 10878},
         "chronogroup": "Imperial",
         "dimensions": {
           "exterior-major": 89,
@@ -4180,7 +4193,7 @@
       "properties": {
         "amphitheatrum": "http://amphi-theatrum.de/1493.html",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 6000},
+        "capacity": {"quantity": 7147, "source": "Golvin"},
         "chronogroup": "Second Century",
         "comment": "See http://www.heritagedaily.com/2014/02/8-roman-ampitheatres-in-britain/101973",
         "dimensions": {
@@ -5248,13 +5261,14 @@
       "properties": {
         "title": "Amphitheater at Tipasa",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 8300},
+        "capacity": {"quantity": 4398, "source": "Golvin"},
         "chronogroup": "Late Second Century",
         "dimensions": {
           "exterior-major": 77,
           "exterior-minor":55 ,
           "arena-major": 57,
-          "arena-minor": 35
+          "arena-minor": 35,
+          "source": "Golvin"
          },
         "golvinid": "130",
         "label": "Tipasa",
@@ -5319,8 +5333,9 @@
         "dimensions": {
           "arena-major": 45,
           "arena-minor": 36,
-          "source": "Bomgardner"
+          "source": "Golvin"
          },
+        "golvinid": "298",
         "label": "Pupput",
         "latintoponym": "Pupput",
         "moderncountry": "Tunisia",
@@ -5673,13 +5688,15 @@
         "amphitheatrum": "http://www.amphi-theatrum.de/1545.html",
         "bibliography": "http://dx.doi.org/10.1017/S0068246200000799",
         "buildingtype": "amphitheater",
+        "capacity": {"quantity": 7986, "source": "Golvin"},
         "chronogroup": "Augustan",
         "citywall": "outside",
         "dimensions": {
            "exterior-major": 88,
            "exterior-minor": 66.4,
            "arena-major": 54.3,
-           "arena-minor": 32.7
+           "arena-minor": 32.7,
+           "source": "Golvin"
         },
         "golvinid": "146",
         "label": "Falerii Novi",
@@ -5705,7 +5722,7 @@
         "title": "Amphitheater at Rimini",
         "amphitheatrum": "http://www.amphi-theatrum.de/1404.html",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 20000},
+        "capacity": {"quantity": 13967, "source": "Golvin"},
         "chronogroup": "Hadrianic",
         "citywalls": "inside",
         "comment": "Date on the basis of coins of Hadrian found in foundations.",
@@ -5739,14 +5756,17 @@
         "title": "Amphitheater at Imola",
         "bibliography": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0006%3Aalphabetic+letter%3DF%3Aentry+group%3D2%3Aentry%3Dforum-cornelii",
         "buildingtype": "amphitheater",
+        "capacity": {"quantity": 11914, "source": "Golvin"},
         "chronogroup": "Imperial",
         "comment": "Briefly mentioned in PECS via Perseus, with dimensions. Said to have been covered.",
         "dimensions": {
            "exterior-major": 108,
            "exterior-minor": 81,
            "arena-major": 67,
-           "arena-minor": 40
+           "arena-minor": 40,
+           "source": "Golvin"
         },
+        "golvinid": "56",
         "label": "Imola",
         "latintoponym": "Forum Cornelii",
         "moderncountry": "Italy",
@@ -5890,6 +5910,7 @@
         "title": "Amphitheater at Bevagna",
         "bibliography": "http://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Europe/Italy/Umbria/Perugia/Bevagna/Bevagna/Roman/amphitheatre.html",
         "buildingtype": "amphitheater",
+        "capacity": {"quantity": 2561, "source": "Golvin"},
         "chronogroup": "Imperial",
         "dimensions": {
            "exterior-major": 80,
