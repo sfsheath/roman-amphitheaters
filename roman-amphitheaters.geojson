@@ -6227,6 +6227,54 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"Amphitheater",
+      "properties": {
+        "title": "Aurelium Commodianum Amphitheater",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1356.html",
+        "buildingtype": "amphitheater",
+        "chronogrp": "Second Century",
+        "dare": "http://dare.ht.lu.se/places/24707",
+        "dimensions": {
+          "exterior-major": 65,
+          "exterior-minor": 55,
+          "source": "http://maps.google.com",
+          "comment": "Very approximate"
+        },
+        "label": "Aurelium Commodianum",
+        "moderncountry": "Tunisia",
+        "visibility": "good"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+              9.889218,
+              36.527797,
+              205
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"Amphitheater",
+      "properties": {
+        "title": "Jebel Moraba Amphitheater",
+        "buildingtype": "amphitheater",
+        "dare": "http://dare.ht.lu.se/places/24708",
+        "label": "Jebel Moraba",
+        "moderncountry": "Tunisia",
+        "visibility": "good"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+              9.860836,
+              36.597655,
+              311
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ],
   "roman-amphitheater-chronogroups":[
