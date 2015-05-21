@@ -483,6 +483,7 @@
         "title":"Amphitheater at Syracuse",
         "amphitheatrum": "http://amphi-theatrum.de/1514.html",
         "buildingtype": "amphitheater",
+        "capacity": {"quantity": 28773, "source": "Golvin"},
         "chronogroup": "Julio-Claudian",
         "dimensions": {
           "exterior-major": 146.8,
@@ -491,6 +492,7 @@
           "arena-minor": 39.7,
           "source": "http://amphi-theatrum.de/1514.html"
           },
+        "hypogeum": true,
         "label": "Syracuse",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/462503",
@@ -787,7 +789,7 @@
         "title":"Amphitheater at Empuries",
         "buildingtype": "amphitheater",
         "created":50,
-        "capacity": {"quantity": 3300},
+        "capacity": {"quantity": 3343, "source": "Golvin"},
         "chronogroup": "First Century",
         "dimensions": {
           "exterior-major": 86,
@@ -1078,6 +1080,7 @@
       "id":"rusellaeAmphitheater",
       "properties":{
         "title":"Amphitheater at Rusellae",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1478.html",
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 2309, "source": "Golvin"},
         "chronogroup": "Julio-Claudian",
@@ -1091,7 +1094,8 @@
         "label": "Rusellae",
         "moderncountry": "Italy", 
         "pleiades": "http://pleiades.stoa.org/places/413288",
-        "source":"http://pleiades.stoa.org/places/413288/location-of-roman-amphitheater"
+        "pleiadesspecific":"http://pleiades.stoa.org/places/413288/location-of-roman-amphitheater",
+        "wikipedia": "http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Roselle"
       },
       "geometry":{
         "type":"Point",
@@ -1513,6 +1517,7 @@
         "title":"Amphitheater at Virunum",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "date": "http://dare.ht.lu.se/places/23865",
         "dimensions": {
           "exterior-major": 96,
           "exterior-minor": 42,
@@ -1521,7 +1526,7 @@
         "label": "Virunum",
         "moderncountry": "Austria",
         "pleiades": "http://pleiades.stoa.org/places/197583",
-        "source":"http://pleiades.stoa.org/places/197583/location-of-roman-amphitheater"
+        "pleiadesspecific":"http://pleiades.stoa.org/places/197583/location-of-roman-amphitheater"
       },
       "geometry":{
         "type":"Point",
@@ -1950,16 +1955,17 @@
         "label": "Perigeux",
         "latintoponym": "Vesuna Petrucorriorum",
         "moderncountry": "France",
-        "pleiades": "http://pleiades.stoa.org/places/138650"
+        "pleiades": "http://pleiades.stoa.org/places/138650",
+        "pleiades-specific":"http://pleiades.stoa.org/places/138650/location-of-roman-amphitheater"
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
-          0.7133087,
-          45.183192099,
+          0.713249,
+          45.182740,
           97
         ],
-        "source":"http://pleiades.stoa.org/places/138650/location-of-roman-amphitheater"
+        "source": "http://maps.google.com"
       }
     },{
       "type":"Feature",
@@ -2085,7 +2091,7 @@
         "label": "Sutrium",
         "moderncountry": "Italy",
         "welchid": "15",
-        "youtube": ["https://www.youtube.com/watch?v=OgHl5MT95bg"]
+        "youtube": ["https://www.youtube.com/watch?v=OgHl5MT95bg","https://www.youtube.com/watch?v=Qh4YPqq_DfE"]
       },
       "geometry":{
         "type":"Point",
@@ -3555,6 +3561,7 @@
         "title": "Amphitheater at Milan",
         "amphitheatrum": "http://amphi-theatrum.de/1523.html",
         "buildingtype": "amphitheater",
+        "capacity": {"quantity": 31649, "source": "Golvin"},
         "chronogroup": "First Century",
         "dimensions": {
           "exterior-major": 155,
@@ -4761,12 +4768,13 @@
         "title": "Half Amphitheater at Grand",
         "buildingtype": "gallo-roman-amphitheater",
         "capacity": {"quantity": 17000},
-        "chronogroup": "Imperial",
+        "chronogroup": "Third Century",
         "dimensions": {
           "exterior-major": 179,
           "arena-major": 50,
           "arena-minor": 41
          },
+        "exclude": true,
         "label": "Grand",
         "moderncountry": "France",
         "visibility": "good"
@@ -5789,12 +5797,14 @@
         "title": "Amphitheater at Venosa",
         "amphitheatrum": "http://www.amphi-theatrum.de/1517.html",
         "buildingtype": "amphitheater",
+        "capacity": {"quantity": 10602, "source": "Golvin"},
         "chronogroup": "Imperial",
         "dimensions": {
-           "exterior-major": 90,
-           "exterior-minor": 66,
-           "arena-major": 46,
-           "arena-minor": 37
+           "exterior-major": 98,
+           "exterior-minor": 77,
+           "arena-major": 58,
+           "arena-minor": 37,
+           "source": "Golvin"
         },
         "label": "Venosa",
         "latintoponym": "Venusia",
@@ -5910,7 +5920,7 @@
         "title": "Amphitheater at Bevagna",
         "bibliography": "http://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Europe/Italy/Umbria/Perugia/Bevagna/Bevagna/Roman/amphitheatre.html",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 2561, "source": "Golvin"},
+        "capacity": {"quantity": 6251, "source": "Golvin"},
         "chronogroup": "Imperial",
         "dimensions": {
            "exterior-major": 80,
@@ -6272,6 +6282,83 @@
               9.860836,
               36.597655,
               311
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"faleroneAmphitheater",
+      "properties": {
+        "title": "Falerone Amphitheater",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1525.html",
+        "buildingtype": "amphitheater",
+        "chronogrp": "Julio-Claudian",
+        "dare": "http:// dare.ht.lu.se/places/24593",
+        "dimensions": {
+           "exterior-major": 88.8,
+           "exterior-minor": 80
+        },
+        "golvinid": "99",
+        "label": "Falerone",
+        "latintoponym": "Falerio",
+        "moderncountry": "Italy",
+        "visibility": "poor"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+              13.495903,
+              43.101106,
+              222
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"fermoAmphitheater",
+      "properties": {
+        "title": "Fermo Amphitheater",
+        "buildingtype": "amphitheater",
+        "chronogrp": "Imperial",
+        "label": "Fermo",
+        "latintoponym": "Firmum Picenum",
+        "moderncountry": "Italy",
+        "visibility": "none"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+              13.718231,
+              43.161433,
+              290
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"frosinoneAmphitheater",
+      "properties": {
+        "title": "Frosinone Amphitheater",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1531.html",
+        "buildingtype": "amphitheater",
+        "chronogrp": "Imperial",
+        "dare": "http://dare.ht.lu.se/places/23945",
+        "dimensions": {
+           "exterior-major": 78,
+           "exterior-minor": 57
+        },
+        "golvinid": "106",
+        "label": "Frosinone",
+        "latintoponym": "Frusino",
+        "moderncountry": "Italy",
+        "visibility": "none"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+              13.353417,
+              41.645070,
+              213
         ],
         "source":"http://maps.google.com/"
       }
