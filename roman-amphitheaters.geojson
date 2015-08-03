@@ -25,15 +25,19 @@
     "comment":{"@id":"rdfs:comment" },
     "created":{ "@id":"dcterms:created", "@type":"xsd:gDate" },
     "dedication": {"@id":"http://purl.org/roman-amphitheaters/ontology#dedication"},
+    "label": {"@id":"rdfs:label"},
+    "periodo": {"@id": "dcterms:coverage", "@type": "@id" },
     "pleiades":{"@id":"gn:locatedIn","@type":"@id"},
     "see":{"@id":"rdfs:seeAlso","@type":"@id" },
     "source":{"@id":"prov:wasDerivedFrom","@type":"@id" },
+    "source-note":{"@id":"rdfs:comment" },
     "title":{"@id":"dcterms:title"},
     "wikipedia":{"@id":"rdfs:seeAlso","@type":"@id"}
   },
   "type":"FeatureCollection",
   "@id":"http://purl.org/roman-amphitheaters/",
   "see": ["http://en.wikipedia.org/wiki/Roman_amphitheatre","http://en.wikipedia.org/wiki/List_of_Roman_amphitheatres"],
+  "periodo": "http://n2t.net/ark:/99152/p03wskdcctk",
   "features":[
     {
       "type":"Feature",
@@ -42,7 +46,7 @@
         "title": "Amphitheater at Dura Europos",
         "amphitheatrum": "http://amphi-theatrum.de/1449.html",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 1000, "source": "N. Pollard's “Soldiers, Cities, and Civilians in Roman Syria”, p. 52" },
+        "capacity": {"quantity": 1000, "source-note": "N. Pollard's “Soldiers, Cities, and Civilians in Roman Syria”, p. 52" },
         "chronogroup": "Severan",
         "created": 216,
         "dedication":["http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD023604"],
@@ -55,6 +59,7 @@
           },
         "emperor": "Septimius Severus",
         "exclude": true,
+        "golvinid": "129",
         "hypogeum": false,
         "label": "Dura",
         "military": true,
@@ -86,6 +91,7 @@
           "arena-major": 47,
           "arena-minor": 32
           },
+        "golvinid": "154",
         "hypogeum": true,
         "label": "Arles",
         "latintoponym": "Arelate",
@@ -175,6 +181,7 @@
            "arena-minor": 48
            },
         "emperor": "Vespasian",
+        "golvinid": "152",
         "label": "Colosseum",
         "lastuse": {"date": 523, "source": "Letter of Theoderic to Flavius Anicius Maximus (Cassiordorus, Variae V.42)"},
         "pleiades": "http://pleiades.stoa.org/places/423025",
@@ -313,6 +320,7 @@
           "arena-minor": 41
          },
         "emperor": "Augustus",
+        "golvinid": "77",
         "hypogeum": true,
         "label": "Mérida",
         "latintoponym": "Emerita Augusta",
@@ -372,6 +380,7 @@
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 4000},
         "chronogroup": "Julio-Claudian",
+        "created":50,
         "dimensions": {
           "exterior-major": 94,
           "exterior-minor": 80,
@@ -379,7 +388,7 @@
           "arena-minor": 40,
           "source": "Golvin"
          },
-        "created":50,
+        "golvinid": "101",
         "label": "Conimbriga",
         "moderncountry": "Portugal",
         "pleiades": "http://pleiades.stoa.org/places/236443"
@@ -436,7 +445,9 @@
           "arena-minor": 42,
           "source": "Bomgardner"
          },
+         "golvinid": "153",
         "label": "Pozzuoli (Flavian)",
+        "latintoponym": "Puteoli",
         "moderncountry": "Italy",
         "period": "Vespasian",
         "pleiades": "http://pleiades.stoa.org/places/432815",
@@ -492,8 +503,10 @@
           "arena-minor": 39.7,
           "source": "http://amphi-theatrum.de/1514.html"
           },
+        "golvinid": "83",
         "hypogeum": true,
         "label": "Syracuse",
+        "latintoponym": "Syracusae",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/462503",
         "wikipedia": "http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Siracusa",
@@ -580,6 +593,7 @@
           "arena-minor": 30,
           "source": "Golvin"
          },
+         "golvinid": "126",
         "label": "Corinth",
         "moderncountry": "Greece",
         "pleiades": "http://pleiades.stoa.org/places/570182",
@@ -610,6 +624,7 @@
           "arena-minor": 40,
           "source": "Golvin"
          },
+        "golvinid": "127",
         "label": "Marcianopolis",
         "moderncountry": "Bulgaria",
         "pleiades": "http://pleiades.stoa.org/places/216878"
@@ -638,6 +653,7 @@
           "arena-major": 64,
           "arena-minor": 52
          },
+        "golvinid": "39",
         "label": "Porolissum",
         "moderncountry": "Romania",
         "pleiades": "http://pleiades.stoa.org/places/207361"
@@ -687,6 +703,7 @@
           "arena-major": 71,
           "arena-minor": 43
          },
+         "golvinid": "122",
         "label": "Carnuntum (Mil.)",
         "military": true,
         "moderncountry": "Austria",
@@ -738,6 +755,7 @@
           "arena-major": 66,
           "arena-minor": 50
          },
+         "golvinid": "123",
         "label": "Carnuntum (Civ.)",
         "moderncountry": "Austria",
         "pleiades": "http://pleiades.stoa.org/places/128376",
@@ -797,7 +815,9 @@
           "arena-major": 71,
           "arena-minor": 42
          },
+         "golvinid": "93",
         "label": "Empuries",
+        "latintoponym": "Emporiae",
         "moderncountry": "Spain",
         "pleiades": "http://pleiades.stoa.org/places/246382"
       },
@@ -845,15 +865,21 @@
       "properties":{
         "title":"Amphitheater at Cagliari",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 10000},
+        "capacity": {"quantity": 12283, "source": "Golvin"},
         "chronogroup": "Second Century",
         "created": 100,
         "dimensions": {
-          "arena-major": 50,
-          "arena-minor": 30
-        },
+          "exterior-major": 92.8,
+          "exterior-minor": 79.2,
+          "arena-major": 46.8,
+          "arena-minor": 33.2,
+          "source": "Golvin"
+         },
+        "golvinid": "182",
         "hypogeum": true, 
         "label": "Cagliari",
+        "latintoponym": "Carales",
+        "periodo": "http://n2t.net/ark:/99152/p0wf3wdp4xt",
         "pleiades": "http://pleiades.stoa.org/places/471899",
         "moderncountry": "Italy",
         "wikipedia": "http://en.wikipedia.org/wiki/Roman_Amphitheatre_of_Cagliari"
@@ -1224,6 +1250,7 @@
           "arena-minor": 43.2,
           "source": "Golvin"
          },
+        "golvinid": "12",
         "label": "Luceria",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/442640"
@@ -1775,6 +1802,7 @@
         "chronogroup": "Imperial",
         "label": "Forum Traiani",
         "moderncountry": "Italy",
+        "periodo": "http://n2t.net/ark:/99152/p0wf3wdp4xt",
         "pleiades": "http://pleiades.stoa.org/places/471947",
         "source":"http://pleiades.stoa.org/places/471947/location-of-roman-amphitheater"
       },
@@ -3037,6 +3065,7 @@
           "arena-minor": 28,
           "source": "Golvin"
          },
+         "golvinid": "31",
         "label": "Tomen y Mur",
         "moderncountry": "United Kingdom"
       },
@@ -3203,11 +3232,21 @@
       "type":"Feature",
       "id":"ivreaAmphitheater",
       "properties":{
-        "title":"Amphitheater at Ivrea",
-        "latintoponym": "Eporedia",
+        "title": "Amphitheater at Ivrea",
         "buildingtype": "amphitheater",
+        "capacity": {"quantity": 8046, "source": "Golvin"},
         "chronogroup": "Imperial",
+        "dimensions": {
+          "exterior-major": 96,
+          "exterior-minor": 72,
+          "arena-major": 67,
+          "arena-minor": 42,
+          "source": "Golvin"
+         },
+        "golvinid": "55",
+        "hypogeum": true,
         "label": "Ivrea",
+        "latintoponym": "Eporedia",
         "moderncountry": "Italy" 
       },
       "geometry":{
@@ -3760,7 +3799,7 @@
         "title": "Amphitheater at Ancona",
         "amphitheatrum": "http://amphi-theatrum.de/1396.html",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 10000},
+        "capacity": {"quantity": 14168, "source": "Golvin"},
         "chronogroup": "Julio-Claudian",
         "dimensions": {
           "exterior-major": 111,
@@ -4540,11 +4579,21 @@
       "properties": {
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "capacity": {"quantity": 1946, "source": "Golvin"},
+        "dimensions": {
+          "exterior-major": 42.6,
+          "exterior-minor": 38.5,
+          "arena-major": 27.6,
+          "arena-minor": 23.5,
+          "source": "Golvin"
+         },
+        "golvinid": "42",
         "label": "Bern",
         "latintoponym": "Bremodorum",
         "moderncountry": "Switzerland",
         "title": "Amphitheater at Bern",
-        "visibility": "good"
+        "visibility": "good",
+        "wikipedia": ["https://commons.wikimedia.org/wiki/File:Engehalbinsel_Römertheater_von_oben.jpg"]
       },
       "geometry":{
         "type":"Point",
@@ -6370,7 +6419,8 @@
         "earliest_start_date": -80,
         "start_date": -70,
         "end_date": -31,
-        "latest_end_date": -27
+        "latest_end_date": -27,
+        "periodo": "http://n2t.net/ark:/99152/p077pzf85fk"
     },
     {
         "chronogroup": "Julius Caesar",
@@ -6381,7 +6431,8 @@
         "chronogroup": "Augustan",
         "earliest_start_date": -31,
         "start_date": -27,
-        "end_date": 14
+        "end_date": 14,
+        "periodo": "http://n2t.net/ark:/99152/p077pzfw3mb"
     },
     {
         "chronogroup": "Julio-Claudian",
@@ -6397,7 +6448,8 @@
     {
         "chronogroup": "Flavian",
         "start_date": 69,
-        "end_date": 96
+        "end_date": 96,
+        "periodo": "http://n2t.net/ark:/99152/p077pzfw49m"
     },
     {
         "chronogroup": "First Century",
@@ -6429,7 +6481,8 @@
     {
         "chronogroup": "Severan",
         "start_date": 193,
-        "end_date": 235
+        "end_date": 235,
+        "periodo": "http://n2t.net/ark:/99152/p077pzfr5f7"
     },{
         "chronogroup": "Third Century",
         "start_date": 200,
@@ -6451,7 +6504,8 @@
         "start_date": 50,
         "end_date": 280,
         "latest_end_date": 325,
-        "comment": "End is time by which amphitheaters are no longer being built."
+        "comment": "End is time by which amphitheaters are no longer being built.",
+        "periodo": "http://n2t.net/ark:/99152/p077pzf9m52"
     }
   ]
 }

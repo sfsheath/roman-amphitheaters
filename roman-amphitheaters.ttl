@@ -1,8 +1,34 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 <http://purl.org/roman-amphitheaters/>
+    <http://purl.org/dc/terms/coverage> <http://n2t.net/ark:/99152/p03wskdcctk> ;
     a <http://example.org/vocab#FeatureCollection> ;
     <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://en.wikipedia.org/wiki/List_of_Roman_amphitheatres>, <http://en.wikipedia.org/wiki/Roman_amphitheatre> .
+
+<http://purl.org/roman-amphitheaters/id/Amphitheater>
+    <http://geovocab.org/geometry#geometry> [
+        a <http://geovocab.org/geometry#Point> ;
+        rdf:value (9.860836000000001E0
+            3.6597655E1
+            311
+        ) ;
+        <http://www.w3.org/ns/prov#wasDerivedFrom> <http://maps.google.com/>
+    ], [
+        a <http://geovocab.org/geometry#Point> ;
+        rdf:value (9.889218E0
+            3.6527797E1
+            205
+        ) ;
+        <http://www.w3.org/ns/prov#wasDerivedFrom> <http://maps.google.com/>
+    ] ;
+    a <http://geovocab.org/spatial#Feature> ;
+    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://purl.org/dc/terms/title> "Aurelium Commodianum Amphitheater" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
+    ], [
+        <http://purl.org/dc/terms/title> "Jebel Moraba Amphitheater" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
+    ] .
 
 <http://purl.org/roman-amphitheaters/id/agenAmphitheater>
     <http://geovocab.org/geometry#geometry> [
@@ -15,7 +41,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 15000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1133 ;
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/created> "215"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Agen" ;
@@ -33,7 +59,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 3000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1117 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Ain Hedjah" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -50,6 +76,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Julio-Claudian" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Alba Fucens" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -121,8 +150,7 @@
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Altinum" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
-        <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/314920> ;
-        <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://hdl.handle.net/10.1126/science.1174206>
+        <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/314920>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/amiensAmphitheater>
@@ -136,6 +164,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1169 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Amiens" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
@@ -168,7 +197,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 10000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1099 ;
         <http://purl.org/dc/terms/coverage> "Julio-Claudian" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Ancona" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
@@ -224,6 +253,24 @@
         <http://purl.org/dc/terms/title> "Late Roman Amphitheater at Aphrodisas" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater-in-stadium> ;
         <http://www.w3.org/2000/01/rdf-schema#comment> "Inserted into east end of pre-existing stadium."
+    ] .
+
+<http://purl.org/roman-amphitheaters/id/aquaeNeriAmphitheater>
+    <http://geovocab.org/geometry#geometry> [
+        a <http://geovocab.org/geometry#Point> ;
+        rdf:value (2.658224E0
+            4.6289891E1
+            489
+        ) ;
+        <http://www.w3.org/ns/prov#wasDerivedFrom> <http://maps.google.com/>
+    ] ;
+    a <http://geovocab.org/spatial#Feature> ;
+    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
+        <http://purl.org/dc/terms/title> "Aquae Neri Amphitheater" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/aquileiaAmphitheater>
@@ -308,7 +355,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 8000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1140 ;
         <http://purl.org/dc/terms/coverage> "Flavian" ;
         <http://purl.org/dc/terms/created> "80"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Arezzo" ;
@@ -326,7 +373,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 20000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1101 ;
         <http://purl.org/dc/terms/coverage> "Flavian" ;
         <http://purl.org/dc/terms/created> "90"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Arles" ;
@@ -398,8 +445,7 @@
         <http://purl.org/dc/terms/coverage> "Julio-Claudian" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Augusta Benniorum" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
-        <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/383578> ;
-        <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://cipa.icomos.org/fileadmin/template/doc/ATHENS/FP025.pdf>, <http://www.piemonte.beniculturali.it/index.php/en/i-luoghi-della-cultura/aree-archeologiche/augusta-bagiennorum>
+        <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/383578>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/autunAmphitheater>
@@ -446,7 +492,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 12000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1156 ;
         <http://purl.org/dc/terms/coverage> "Severan" ;
         <http://purl.org/dc/terms/created> "220"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Bararus" ;
@@ -466,7 +512,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 4400 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1139 ;
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Bekalta" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -532,10 +578,12 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Bevagna" ;
-        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
-        <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Europe/Italy/Umbria/Perugia/Bevagna/Bevagna/Roman/amphitheatre.html>
+        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/beziersAmphitheater>
@@ -597,12 +645,14 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 28700 ;
-        <http://purl.org/dc/terms/coverage> "Severan" ;
-        <http://purl.org/dc/terms/created> "220"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
+        <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Bordeaux" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
-        <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/138248>
+        <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/138248> ;
+        <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www-ausonius.u-bordeaux3.fr/index.php/axes-de-recherche/espaces-fabrique-usages-representations/9-axes/97-le-palais-gallien-de-bordeaux-etude-restitution-valorisation>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/bostraAmphitheater>
@@ -632,7 +682,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 11600 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1160 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Botria" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -652,8 +702,7 @@
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Bourges" ;
-        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
-        <http://www.w3.org/2000/01/rdf-schema#comment> "Dimensions very approximate on the basis of modern street plan."
+        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/bragaAmphitheater>
@@ -683,7 +732,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 8300 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1137 ;
         <http://purl.org/dc/terms/coverage> "Late Second Century" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Bulla Regia" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -768,8 +817,8 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 10000 ;
-        <http://purl.org/dc/terms/coverage> "Second Century" ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1173 ;
+        <http://purl.org/dc/terms/coverage> <http://n2t.net/ark:/99152/p0wf3wdp4xt>, "Second Century" ;
         <http://purl.org/dc/terms/created> "100"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Cagliari" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -836,7 +885,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 47000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1143 ;
         <http://purl.org/dc/terms/coverage> "Flavian" ;
         <http://purl.org/dc/terms/title> "Imperial Amphitheater at Capua" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
@@ -884,7 +933,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 8000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1144 ;
         <http://purl.org/dc/terms/coverage> "Julius Caesar" ;
         <http://purl.org/dc/terms/created> "-50"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Carmona" ;
@@ -902,7 +951,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 13000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1172 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/created> "100"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Civilian Amphitheater at Carnuntum" ;
@@ -938,7 +987,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 8000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1100 ;
         <http://purl.org/dc/terms/coverage> "First Century" ;
         <http://purl.org/dc/terms/created> "80"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Military Amphitheater at Carnuntum" ;
@@ -967,13 +1016,17 @@
 <http://purl.org/roman-amphitheaters/id/carsulaeAmphitheater>
     <http://geovocab.org/geometry#geometry> [
         a <http://geovocab.org/geometry#Point> ;
-        rdf:value (1.2559681E1
-            4.2639432E1
+        rdf:value (1.2559172E1
+            4.2639468E1
             438
-        )
+        ) ;
+        <http://www.w3.org/ns/prov#wasDerivedFrom> <http://maps.google.com>
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Carsulae" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -991,7 +1044,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 30000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1163 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/created> "100"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Carthage" ;
@@ -1045,7 +1098,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 20000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1168 ;
         <http://purl.org/dc/terms/coverage> "Severan" ;
         <http://purl.org/dc/terms/created> "212"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Castra Albana" ;
@@ -1064,7 +1117,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 16000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1109 ;
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Catinia" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -1081,6 +1134,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Charterhouse" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -1118,7 +1174,7 @@
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Chassenon" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/gallo-roman-amphitheater> ;
-        <http://www.w3.org/2000/01/rdf-schema#comment> "No longer extant and structure may have been a theater. Dimensions from 1844 publication." ;
+        <http://www.w3.org/2000/01/rdf-schema#comment> "No longer extant and structure may have been a theater." ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.amis-chassenon.org/72+lamphitheatre-de-chassenon.html>
     ] .
 
@@ -1133,10 +1189,11 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 6500 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1111 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Chemtou" ;
-        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
+        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment> "The amphitheater is often said to have been built to provide entertainment for prisoners working inthe local quarries. Reference needed."
     ] .
 
 <http://purl.org/roman-amphitheaters/id/cherchellAmphitheater>
@@ -1183,6 +1240,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Julio-Claudian" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Cimiéz" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
@@ -1232,7 +1292,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 6000 ;
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Severan" ;
         <http://purl.org/dc/terms/created> "200"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Col. Augusta Raurica" ;
@@ -1251,7 +1313,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 4000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1152 ;
         <http://purl.org/dc/terms/coverage> "Julio-Claudian" ;
         <http://purl.org/dc/terms/created> "50"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Conimbriga" ;
@@ -1287,7 +1349,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 14000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1135 ;
         <http://purl.org/dc/terms/coverage> "Julius Caesar" ;
         <http://purl.org/dc/terms/created> "-44"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Corinth" ;
@@ -1361,8 +1423,7 @@
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at “Dambach”" ;
-        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
-        <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.deutsche-limeskommission.de/fileadmin/dlk/images/dlk/pdfs/Der_Limes_3_2009_2.pdf>
+        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/oval-structure>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/djerbaAmphitheater>
@@ -1426,14 +1487,15 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 1000 ;
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/2000/01/rdf-schema#comment> "N. Pollard's “Soldiers, Cities, and Civilians in Roman Syria”, p. 52"
+        ] ;
         <http://purl.org/dc/terms/coverage> "Severan" ;
         <http://purl.org/dc/terms/created> "216"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Dura Europos" ;
         <http://purl.org/roman-amphitheaters/ontology#dedication> "http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD023604" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
-        <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/893989> ;
-        <http://www.w3.org/2000/01/rdf-schema#comment> "Capacity and date drawn from N. Pollard's “Soldiers, Cities, and Civilians in Roman Syria”, p. 52"
+        <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/893989>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/durresAmphitheatre>
@@ -1447,7 +1509,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 20000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1129 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/created> "100"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Durrës" ;
@@ -1467,7 +1529,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 3500 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1158 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Eleutheropolis" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -1484,7 +1546,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 3300 ;
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "First Century" ;
         <http://purl.org/dc/terms/created> "50"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Empuries" ;
@@ -1519,10 +1583,43 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Augustan" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Falerii Novi" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
         <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/413125>
+    ] .
+
+<http://purl.org/roman-amphitheaters/id/faleroneAmphitheater>
+    <http://geovocab.org/geometry#geometry> [
+        a <http://geovocab.org/geometry#Point> ;
+        rdf:value (1.3495903E1
+            4.3101106E1
+            222
+        ) ;
+        <http://www.w3.org/ns/prov#wasDerivedFrom> <http://maps.google.com/>
+    ] ;
+    a <http://geovocab.org/spatial#Feature> ;
+    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://purl.org/dc/terms/title> "Falerone Amphitheater" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
+    ] .
+
+<http://purl.org/roman-amphitheaters/id/fermoAmphitheater>
+    <http://geovocab.org/geometry#geometry> [
+        a <http://geovocab.org/geometry#Point> ;
+        rdf:value (1.3718231E1
+            4.3161433E1
+            290
+        ) ;
+        <http://www.w3.org/ns/prov#wasDerivedFrom> <http://maps.google.com/>
+    ] ;
+    a <http://geovocab.org/spatial#Feature> ;
+    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://purl.org/dc/terms/title> "Fermo Amphitheater" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/flaviaSolvaAmphitheater>
@@ -1536,6 +1633,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Flavia Solva" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -1586,12 +1686,27 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 12000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1113 ;
         <http://purl.org/dc/terms/coverage> "Flavian" ;
         <http://purl.org/dc/terms/created> "100"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater Fréjus" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
         <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/157836>
+    ] .
+
+<http://purl.org/roman-amphitheaters/id/frosinoneAmphitheater>
+    <http://geovocab.org/geometry#geometry> [
+        a <http://geovocab.org/geometry#Point> ;
+        rdf:value (1.3353417E1
+            4.164507E1
+            213
+        ) ;
+        <http://www.w3.org/ns/prov#wasDerivedFrom> <http://maps.google.com/>
+    ] ;
+    a <http://geovocab.org/spatial#Feature> ;
+    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://purl.org/dc/terms/title> "Frosinone Amphitheater" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/gemellaeAmphitheater>
@@ -1605,7 +1720,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 2000 ;
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/created> "130"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Gemellae" ;
@@ -1624,7 +1741,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 5000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1165 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Gennes" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/gallo-roman-amphitheater> ;
@@ -1642,12 +1759,11 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 1300 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1124 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/title> "Private Amphitheater at Genzano" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
-        <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/422838> ;
-        <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.fastionline.org/record_view.php?fst_cd=AIAC_2694>
+        <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/422838>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/gleisdorfAmphitheater>
@@ -1663,8 +1779,7 @@
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Gleisdorf" ;
-        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
-        <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.academia.edu/804203/Amphitheater_in_Noricum>
+        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/gortynAmphitheater>
@@ -1695,8 +1810,8 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 17000 ;
-        <http://purl.org/dc/terms/coverage> "Imperial" ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1167 ;
+        <http://purl.org/dc/terms/coverage> "Third Century" ;
         <http://purl.org/dc/terms/title> "Half Amphitheater at Grand" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/gallo-roman-amphitheater>
     ] .
@@ -1712,6 +1827,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Grumento" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -1746,7 +1864,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 7500 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1114 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Henchir el Kasbat" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -1764,7 +1882,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 5400 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1116 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Henchir Zembra" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -1815,7 +1933,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://purl.org/dc/terms/coverage> "Imperial" ;
+        <http://purl.org/dc/terms/coverage> <http://n2t.net/ark:/99152/p0wf3wdp4xt>, "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Hydata Hypsitana/Forum Traiani" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
         <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/471947> ;
@@ -1835,8 +1953,7 @@
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Ierapetra" ;
-        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
-        <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.academia.edu/1557389/Rediscovering_the_small_theatre_and_amphitheatre_of_ancient_Ierapytna_SE_Crete_>
+        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/imolaAmphitheater>
@@ -1850,6 +1967,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Imola" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -1867,7 +1987,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 25000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1176 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/created> "140"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Italica" ;
@@ -1919,7 +2039,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 15400 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1103 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Lambaesis" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -1954,7 +2074,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 25000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1155 ;
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Lecce" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -1987,7 +2107,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 9000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1159 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Leptiminus" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -2004,7 +2124,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 16000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1112 ;
         <http://purl.org/dc/terms/coverage> "Neronian" ;
         <http://purl.org/dc/terms/created> "56"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Leptis Magna" ;
@@ -2041,7 +2161,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 7245 ;
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "First Century" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Lillebonne" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
@@ -2108,7 +2230,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 6500 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1105 ;
         <http://purl.org/dc/terms/coverage> "Flavian" ;
         <http://purl.org/dc/terms/created> "70"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at London" ;
@@ -2144,6 +2266,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Augustan" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Luceria/Noukeria (Apoulon)" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -2212,7 +2337,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 20000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1125 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/created> "19"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Lyon" ;
@@ -2233,7 +2358,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 5000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1164 ;
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Mactaris" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -2250,7 +2375,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 4000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1120 ;
         <http://purl.org/dc/terms/coverage> "Severan" ;
         <http://purl.org/dc/terms/created> "200"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Marcianopolis (Devnya)" ;
@@ -2284,7 +2409,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 15000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1142 ;
         <http://purl.org/dc/terms/coverage> "Julio-Claudian" ;
         <http://purl.org/dc/terms/created> "-8"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Mérida" ;
@@ -2322,11 +2447,10 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 30000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1175 ;
         <http://purl.org/dc/terms/coverage> "Late1stEarly2nd" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Metz" ;
-        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
-        <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.inrap.fr/preventive-archaeology/Events/Last-discoveries/p-1355-lg1-Excavation-of-the-amphitheatre-quarter-in-Metz.htm>
+        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/miciaAmphitheater>
@@ -2339,7 +2463,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 1500 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1174 ;
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Micia" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -2357,6 +2481,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "First Century" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Milan" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
@@ -2437,7 +2564,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 1500 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1134 ;
         <http://purl.org/dc/terms/coverage> "Flavian" ;
         <http://purl.org/dc/terms/created> "80"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Newstead" ;
@@ -2473,7 +2600,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 24000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1121 ;
         <http://purl.org/dc/terms/coverage> "Flavian" ;
         <http://purl.org/dc/terms/created> "90"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Nimes" ;
@@ -2539,6 +2666,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Ocriculum" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -2557,6 +2687,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Octodurus/Forum Claudii Vallensium" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -2574,6 +2707,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "First Century" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Ordona" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
@@ -2590,7 +2726,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 15000 ;
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/created> "120"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Oudna" ;
@@ -2625,7 +2763,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 4500 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1171 ;
         <http://purl.org/dc/terms/coverage> "Republican" ;
         <http://purl.org/dc/terms/created> "-75"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Paestum" ;
@@ -2676,7 +2814,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 15000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1130 ;
         <http://purl.org/dc/terms/coverage> "Flavian" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Paris" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/gallo-roman-amphitheater> ;
@@ -2695,7 +2833,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 25000 ;
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/created> "100"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Pergamum" ;
@@ -2706,11 +2846,11 @@
 <http://purl.org/roman-amphitheaters/id/perigueuxAmphitheatre>
     <http://geovocab.org/geometry#geometry> [
         a <http://geovocab.org/geometry#Point> ;
-        rdf:value (7.133087E-1
-            4.5183192099E1
+        rdf:value (7.13249E-1
+            4.518274E1
             97
         ) ;
-        <http://www.w3.org/ns/prov#wasDerivedFrom> <http://pleiades.stoa.org/places/138650/location-of-roman-amphitheater>
+        <http://www.w3.org/ns/prov#wasDerivedFrom> <http://maps.google.com>
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
@@ -2746,7 +2886,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 22000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1106 ;
         <http://purl.org/dc/terms/coverage> "Republican" ;
         <http://purl.org/dc/terms/created> "-80"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Pompeii" ;
@@ -2784,13 +2924,12 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 2000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1170 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/title> "Oval Structure at Portus" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/oval-structure> ;
         <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/423012> ;
-        <http://www.w3.org/2000/01/rdf-schema#comment> "Not certainly an Amphitheater." ;
-        <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://timesonline.typepad.com/dons_life/2009/10/the-luxury-amphitheatre-at-portus.html>, <http://www.sciencedaily.com/releases/2009/09/090930194337.htm>
+        <http://www.w3.org/2000/01/rdf-schema#comment> "Not certainly an Amphitheater."
     ] .
 
 <http://purl.org/roman-amphitheaters/id/pozzuoliEarlyAmphitheater>
@@ -2820,7 +2959,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 35700 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1153 ;
         <http://purl.org/dc/terms/coverage> "Flavian" ;
         <http://purl.org/dc/terms/created> "70"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Flavian Amphitheater at Pozzuoli" ;
@@ -2840,7 +2979,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 16000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1108 ;
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Ptolemais" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
@@ -2856,7 +2995,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 26000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1146 ;
         <http://purl.org/dc/terms/coverage> "Julio-Claudian" ;
         <http://purl.org/dc/terms/created> "1"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Pula" ;
@@ -2909,7 +3048,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 20000 ;
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Hadrianic" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Rimini" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -2928,7 +3069,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 15000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1102 ;
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Rodez" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
@@ -2944,7 +3085,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 7000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1149 ;
         <http://purl.org/dc/terms/coverage> "Severan" ;
         <http://purl.org/dc/terms/created> "218"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheatrum Castrense (Rome)" ;
@@ -2964,7 +3105,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 50000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1136 ;
         <http://purl.org/dc/terms/coverage> "Flavian" ;
         <http://purl.org/dc/terms/created> "80"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Flavian Amphitheater at Rome" ;
@@ -2983,11 +3124,14 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Julio-Claudian" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Rusellae" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
         <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/413288> ;
-        <http://www.w3.org/ns/prov#wasDerivedFrom> <http://pleiades.stoa.org/places/413288/location-of-roman-amphitheater>
+        <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Roselle>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/sabrathaAmphitheater>
@@ -3001,7 +3145,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 20700 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1166 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/created> "125"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Sabratha" ;
@@ -3019,6 +3163,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Saintes" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -3051,7 +3198,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 13380 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1127 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/created> "170"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Salona" ;
@@ -3087,7 +3234,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 20000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1157 ;
         <http://purl.org/dc/terms/coverage> "First Century" ;
         <http://purl.org/dc/terms/title> "Amphitheater at San Vittorino" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
@@ -3121,7 +3268,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 6500 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1151 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/created> "160"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Sbeitla" ;
@@ -3173,7 +3320,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 7500 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1154 ;
         <http://purl.org/dc/terms/coverage> "Flavian" ;
         <http://purl.org/dc/terms/created> "90"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Segobriga" ;
@@ -3210,7 +3357,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 7200 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1138 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Seressi" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
@@ -3227,7 +3374,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 11300 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1098 ;
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Sicca Veneria" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -3246,7 +3393,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 3200 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1162 ;
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Sidi bou Arkoub" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -3264,7 +3411,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 6000 ;
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Silchester" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -3316,7 +3465,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 8000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1119 ;
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Skikda" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
@@ -3333,7 +3482,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 20000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1104 ;
         <http://purl.org/dc/terms/coverage> "Post-Severan" ;
         <http://purl.org/dc/terms/created> "284"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Sophia" ;
@@ -3356,6 +3505,21 @@
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
     ] .
 
+<http://purl.org/roman-amphitheaters/id/spoletoAmphitheater>
+    <http://geovocab.org/geometry#geometry> [
+        a <http://geovocab.org/geometry#Point> ;
+        rdf:value (1.2738992E1
+            4.2738427E1
+            327
+        ) ;
+        <http://www.w3.org/ns/prov#wasDerivedFrom> <http://maps.google.com/>
+    ] ;
+    a <http://geovocab.org/spatial#Feature> ;
+    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://purl.org/dc/terms/title> "Spoleto Amphitheater" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
+    ] .
+
 <http://purl.org/roman-amphitheaters/id/stMarcelAmphitheater>
     <http://geovocab.org/geometry#geometry> [
         a <http://geovocab.org/geometry#Point> ;
@@ -3369,8 +3533,7 @@
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Saint Marcel" ;
-        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
-        <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.persee.fr/web/revues/home/prescript/article/galia_0016-4119_1968_num_26_2_2505>
+        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/statiliusTaurusAmphitheater>
@@ -3402,6 +3565,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/created> "-20"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Susa" ;
@@ -3418,7 +3584,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 8500 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1147 ;
         <http://purl.org/dc/terms/coverage> "Republican" ;
         <http://purl.org/dc/terms/created> "-50"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Sutrium" ;
@@ -3437,6 +3603,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Julio-Claudian" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Syracuse" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -3455,7 +3624,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 15000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1150 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/created> "100"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Tarragona" ;
@@ -3490,7 +3659,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 9000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1141 ;
         <http://purl.org/dc/terms/coverage> "Republican" ;
         <http://purl.org/dc/terms/created> "-75"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Telesia" ;
@@ -3533,6 +3702,22 @@
         <http://www.w3.org/2000/01/rdf-schema#comment> "Location approximate."
     ] .
 
+<http://purl.org/roman-amphitheaters/id/terniAmphitheater>
+    <http://geovocab.org/geometry#geometry> [
+        a <http://geovocab.org/geometry#Point> ;
+        rdf:value (1.264336E1
+            4.2559785E1
+            240
+        ) ;
+        <http://www.w3.org/ns/prov#wasDerivedFrom> <http://maps.google.com/>
+    ] ;
+    a <http://geovocab.org/spatial#Feature> ;
+    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://purl.org/dc/terms/coverage> "First Century" ;
+        <http://purl.org/dc/terms/title> "Terni Amphitheater" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
+    ] .
+
 <http://purl.org/roman-amphitheaters/id/thaenaeAmphitheater>
     <http://geovocab.org/geometry#geometry> [
         a <http://geovocab.org/geometry#Point> ;
@@ -3544,7 +3729,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 8700 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1123 ;
         <http://purl.org/dc/terms/coverage> "Republican" ;
         <http://purl.org/dc/terms/created> "125"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Thaenae" ;
@@ -3562,7 +3747,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 9400 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1107 ;
         <http://purl.org/dc/terms/coverage> "Flavian" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Theveste" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -3580,7 +3765,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 6300 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1126 ;
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Thibari" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -3599,7 +3784,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 35000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1145 ;
         <http://purl.org/dc/terms/coverage> "Post-Severan" ;
         <http://purl.org/dc/terms/created> "238"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Thysdrus" ;
@@ -3618,7 +3803,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 9000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1115 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/created> "125"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Small Amphitheater at Thysdrus" ;
@@ -3654,7 +3839,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 2300 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1131 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Tigava Castra" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -3673,7 +3858,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 8300 ;
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Late Second Century" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Tipasa" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -3707,6 +3894,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Tomen y Mur" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
@@ -3740,7 +3930,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 34000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1148 ;
         <http://purl.org/dc/terms/coverage> "Hadrianic" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Tours" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -3759,11 +3949,12 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 20000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1132 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/created> "100"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Trier" ;
-        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
+        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
+        <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/108894>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/tusculumAmphitheater>
@@ -3777,6 +3968,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/title> "Tusculum Amphitheater" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
@@ -3793,7 +3987,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 5150 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1161 ;
         <http://purl.org/dc/terms/coverage> "Flavian" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Urbs Salvia" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -3811,7 +4005,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 17100 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1110 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Utica" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -3829,6 +4023,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Julio-Claudian" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Velleia" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater>
@@ -3845,6 +4042,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Venosa" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -3861,7 +4061,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 30000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1122 ;
         <http://purl.org/dc/terms/coverage> "Julio-Claudian" ;
         <http://purl.org/dc/terms/created> "30"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Verona" ;
@@ -3882,7 +4082,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 12000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1118 ;
         <http://purl.org/dc/terms/coverage> "Second Century" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Viminacium" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -3900,7 +4100,9 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 11000 ;
+        <http://dbpedia.org/property/seatingCapacity> [
+            <http://www.w3.org/ns/prov#wasDerivedFrom> <http://purl.org/roman-amphitheaters/id/Golvin>
+        ] ;
         <http://purl.org/dc/terms/coverage> "Flavian" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Vindonissa" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -3920,8 +4122,7 @@
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Virunum" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
-        <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/197583> ;
-        <http://www.w3.org/ns/prov#wasDerivedFrom> <http://pleiades.stoa.org/places/197583/location-of-roman-amphitheater>
+        <http://www.geonames.org/ontology#locatedIn> <http://pleiades.stoa.org/places/197583>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/xantenAmphitheater>
@@ -3935,7 +4136,7 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://dbpedia.org/property/seatingCapacity> 10000 ;
+        <http://dbpedia.org/property/seatingCapacity> _:c14n1128 ;
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Amphitheater at Xanten" ;
         <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/amphitheater> ;
@@ -3955,6 +4156,6 @@
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
         <http://purl.org/dc/terms/coverage> "Imperial" ;
         <http://purl.org/dc/terms/title> "Zagarolo Ludus" ;
-        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/ludus>
+        <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://purl.org/roman-amphitheaters/id/practice-arena>
     ] .
 

@@ -26,7 +26,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "leptisMagnaAmphitheater","Amphitheater at Leptis Magna","Leptis Magna","amphitheater",16000,"Libya","Neronian",,,121,111,57,47,32.63234,14.309452,18
 "empuriesAmphitheater","Amphitheater at Empuries","Empuries","amphitheater",3343,"Spain","First Century",,,86,54,71,42,42.130042,3.117431,27
 "tarragonaAmphitheater","Amphitheater at Tarragona","Tarragona","amphitheater",15000,"Spain","Second Century",,"https://www.youtube.com/watch?v=Z-1Qrk5qLAE",95,69.5,62,39,41.114522,1.25878,13
-"cagliariAmphitheater","Amphitheater at Cagliari","Cagliari","amphitheater",10000,"Italy","Second Century","http://en.wikipedia.org/wiki/Roman_Amphitheatre_of_Cagliari",,,,50,30,39.223908,9.113228,60
+"cagliariAmphitheater","Amphitheater at Cagliari","Cagliari","amphitheater",12283,"Italy","Second Century","http://en.wikipedia.org/wiki/Roman_Amphitheatre_of_Cagliari",,92.8,79.2,46.8,33.2,39.223908,9.113228,60
 "italicaAmphitheater","Amphitheater at Italica","Italica","amphitheater",25000,"Spain","Second Century",,,160,136,70,44,37.443893,-6.046742,17
 "segobrigaAmphitheater","Amphitheater at Segobriga","Segobria","amphitheater",7500,"Spain","Flavian",,,75,64,47,31,39.886018,-2.813944,817
 "catiniaAmphitheater","Amphitheater at Catinia","Catinia","amphitheater",16000,"Italy","Imperial",,,90,70,52,38,37.507096,15.085323,31
@@ -114,7 +114,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "thevesteAmphitheater","Amphitheater at Theveste","Theveste","amphitheater",9400,"Algeria","Flavian",,,83,70,52.8,39.5,35.401171,8.123809,877
 "trierAmphitheater","Amphitheater at Trier","Trier","amphitheater",20000,"Germany","Second Century",,"https://www.youtube.com/watch?v=WYOvPyCntiY",100,79,70.54,48.92,49.748052,6.649088,168
 "susaAmphitheater","Amphitheater at Susa","Susa","amphitheater",3015,"Italy","Imperial",,,60,52,44,36,45.133185,7.04497,546
-"ivreaAmphitheater","Amphitheater at Ivrea","Ivrea","amphitheater",,"Italy","Imperial",,,,,,,45.467767,7.887734,240
+"ivreaAmphitheater","Amphitheater at Ivrea","Ivrea","amphitheater",8046,"Italy","Imperial",,,96,72,67,42,45.467767,7.887734,240
 "bararusAmphitheater","Amphitheater at Bararus","Bararus","amphitheater",12000,"Tunisia","Severan",,,98,73.5,63.75,37.5,35.211828,10.791226,68
 "castraAlbanaAmphitheater","Amphitheater at Castra Albana","Albana","amphitheater",20000,"Italy","Severan",,,116.5,94,67.5,45,41.732637,12.66501,454
 "sophiaAmphitheater","Amphitheater at Sophia","Sophia","amphitheater",20000,"Bulgaria","Post-Severan",,,,,60.5,43,42.697178,23.32865,554
@@ -136,7 +136,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "sanBenedettoDeiMarsiAmphitheater","Amphitheater at San Benedetto dei Marsi","San Benedetto","amphitheater",,"Italy","Imperial",,,,,,,42.006504,13.627505,683
 "monteleoneAmphitheater","Amphitheater at Monteleone","Monteleone","amphitheater",,"Italy","Imperial",,,,,,,42.228444,12.867528,495
 "bolsenaAmphitheater","Amphitheater at Bolsena","Bolsena","amphitheater",,"Italy","Flavian",,,,,,,42.650243,11.990158,417
-"anconaAmphitheater","Amphitheater at Ancona","Ancona","amphitheater",10000,"Italy","Julio-Claudian",,,111,97,67,53,43.624604,13.511791,54
+"anconaAmphitheater","Amphitheater at Ancona","Ancona","amphitheater",14168,"Italy","Julio-Claudian",,,111,97,67,53,43.624604,13.511791,54
 "ascoliPicenoAmphitheater","Amphitheater at Ascoli Picenum","Ascoli","amphitheater",,"Italy","Imperial",,,,,,,42.855655,13.570767,157
 "beneventoAmphitheater","Amphitheater at Benevento","Benevento","amphitheater",,"Italy","Republican",,,,,,,41.130009,14.781523,166
 "calviRisortaAmphitheater","Amphitheater at Calvi Risorta","Calvi Risorto","amphitheater",,"Italy","Republican",,,,,,,41.202429,14.137993,89
@@ -168,7 +168,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "bobadelaAmphitheater","Amphitheater at Bobadela","Bobadela","amphitheater",,"Portugal","Imperial",,,,,,,40.361088,-7.893572,383
 "sopronAmphitheater","Amphitheater at Sopron","Sopron","amphitheater",,"Hungary","Imperial",,,,,,,47.692813,16.589397,283
 "nyonAmphitheater","Amphitheater at Nyon","Nyon","amphitheater",,"Switzerland","Imperial",,,,,,,46.383464,6.241301,391
-"bernAmphitheater","Amphitheater at Bern","Bern","amphitheater",,"Switzerland","Imperial",,,,,,,46.975715,7.451179,547
+"bernAmphitheater","Amphitheater at Bern","Bern","amphitheater",1946,"Switzerland","Imperial",["https://commons.wikimedia.org/wiki/File:Engehalbinsel_Römertheater_von_oben.jpg"],,42.6,38.5,27.6,23.5,46.975715,7.451179,547
 "dambachAmphitheater","Amphitheater at “Dambach”","Dambach","oval-structure",,"Germany","Imperial",,,,,,,49.104033,10.58318,463
 "burnumAmphitheater","Amphitheater at Burnum","Burnum","amphitheater",,"Croatia","Imperial",,,80,65,43,32,44.019098,16.018169,250
 "gleisdorfAmphitheater","Amphitheater at Gleisdorf","Gleisdorf","amphitheater",,"Austria","Imperial",,,,,,,47.111055,15.707727,365
