@@ -12,9 +12,11 @@
 	<SimpleField name="dimensions" type="string"></SimpleField>
 	<SimpleField name="emperor" type="string"></SimpleField>
 	<SimpleField name="exclude" type="int"></SimpleField>
+	<SimpleField name="golvinid" type="string"></SimpleField>
 	<SimpleField name="hypogeum" type="int"></SimpleField>
 	<SimpleField name="label" type="string"></SimpleField>
 	<SimpleField name="military" type="string"></SimpleField>
+	<SimpleField name="orientation" type="int"></SimpleField>
 	<SimpleField name="pleiades" type="string"></SimpleField>
 	<SimpleField name="moderncountry" type="string"></SimpleField>
 	<SimpleField name="citywall" type="string"></SimpleField>
@@ -24,7 +26,6 @@
 	<SimpleArrayField name="youtube" type="string"></SimpleArrayField>
 	<SimpleField name="comment" type="string"></SimpleField>
 	<SimpleField name="lastuse" type="string"></SimpleField>
-	<SimpleField name="golvinid" type="string"></SimpleField>
 	<SimpleField name="welchid" type="string"></SimpleField>
 	<SimpleField name="bibliography" type="string"></SimpleField>
 	<SimpleField name="period" type="string"></SimpleField>
@@ -68,9 +69,11 @@
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 50, &quot;exterior-minor&quot;: 44, &quot;arena-major&quot;: 31, &quot;arena-minor&quot;: 25, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="emperor">Septimius Severus</SimpleData>
 		<SimpleData name="exclude">1</SimpleData>
+		<SimpleData name="golvinid">129</SimpleData>
 		<SimpleData name="hypogeum">0</SimpleData>
 		<SimpleData name="label">Dura</SimpleData>
 		<SimpleData name="military">true</SimpleData>
+		<SimpleData name="orientation">245</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/893989</SimpleData>
 		<SimpleData name="moderncountry">Syria</SimpleData>
 	</SchemaData></ExtendedData>
@@ -85,8 +88,10 @@
 		<SimpleData name="chronogroup">Flavian</SimpleData>
 		<SimpleData name="created">90</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 136, &quot;exterior-minor&quot;: 107, &quot;arena-major&quot;: 47, &quot;arena-minor&quot;: 32 }</SimpleData>
+		<SimpleData name="golvinid">154</SimpleData>
 		<SimpleData name="hypogeum">1</SimpleData>
 		<SimpleData name="label">Arles</SimpleData>
+		<SimpleData name="orientation">245</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/148217</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="citywall">inside</SimpleData>
@@ -109,6 +114,7 @@
 		<SimpleData name="emperor">Tiberius</SimpleData>
 		<SimpleData name="hypogeum">1</SimpleData>
 		<SimpleData name="label">Lyon</SimpleData>
+		<SimpleData name="orientation">145</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/167717</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="latintoponym">Lugdunum</SimpleData>
@@ -125,6 +131,7 @@
 		<SimpleData name="created">81</SimpleData>
 		<SimpleData name="exclude">1</SimpleData>
 		<SimpleData name="label">Ludus Magnus</SimpleData>
+		<SimpleData name="orientation">105</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/423025</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Ludus_Magnus</SimpleData>
@@ -140,7 +147,9 @@
 		<SimpleData name="created">80</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 189, &quot;exterior-minor&quot;: 156, &quot;arena-major&quot;: 83, &quot;arena-minor&quot;: 48 }</SimpleData>
 		<SimpleData name="emperor">Vespasian</SimpleData>
+		<SimpleData name="golvinid">152</SimpleData>
 		<SimpleData name="label">Colosseum</SimpleData>
+		<SimpleData name="orientation">110</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/423025</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="citywall">inside</SimpleData>
@@ -161,12 +170,13 @@
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 88, &quot;exterior-minor&quot;: 75.800000 }</SimpleData>
 		<SimpleData name="emperor">Caracalla</SimpleData>
 		<SimpleData name="exclude">1</SimpleData>
+		<SimpleData name="golvinid">189</SimpleData>
 		<SimpleData name="label">Amph. Castrense</SimpleData>
+		<SimpleData name="orientation">188</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/423025</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Amphitheatrum_Castrense</SimpleData>
 		<SimpleData name="comment">Brick construction.</SimpleData>
-		<SimpleData name="golvinid">189</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>12.515144,41.887715,48</coordinates></Point>
   </Placemark>
@@ -179,6 +189,7 @@
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 71, &quot;exterior-minor&quot;: 56, &quot;arena-major&quot;: 47, &quot;arena-minor&quot;: 38 }</SimpleData>
 		<SimpleData name="label">Eleutheropolis</SimpleData>
+		<SimpleData name="orientation">187</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/687854</SimpleData>
 		<SimpleData name="moderncountry">Israel</SimpleData>
 		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=bA6YNf8ZwlI)</SimpleData>
@@ -196,6 +207,7 @@
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 135, &quot;exterior-minor&quot;: 104, &quot;arena-major&quot;: 66, &quot;arena-minor&quot;: 35 }</SimpleData>
 		<SimpleData name="exclude">1</SimpleData>
 		<SimpleData name="label">Pompeii</SimpleData>
+		<SimpleData name="orientation">150</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/433032</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="see">[ &quot;https:\/\/3dwarehouse.sketchup.com\/model.html?redirect=1&amp;mid=6971b010096197d8dfd89dd71a555b12&quot;, &quot;http:\/\/pleiades.stoa.org\/places\/433032\/amphitheater-of-pompeii&quot; ]</SimpleData>
@@ -216,8 +228,10 @@
 		<SimpleData name="created">-8</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 126, &quot;exterior-minor&quot;: 102, &quot;arena-major&quot;: 64, &quot;arena-minor&quot;: 41 }</SimpleData>
 		<SimpleData name="emperor">Augustus</SimpleData>
+		<SimpleData name="golvinid">77</SimpleData>
 		<SimpleData name="hypogeum">1</SimpleData>
 		<SimpleData name="label">Mérida</SimpleData>
+		<SimpleData name="orientation">135</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/256155</SimpleData>
 		<SimpleData name="moderncountry">Spain</SimpleData>
 		<SimpleData name="latintoponym">Emerita Augusta</SimpleData>
@@ -237,6 +251,7 @@
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 70, &quot;exterior-minor&quot;: 60, &quot;arena-major&quot;: 37, &quot;arena-minor&quot;: 23, &quot;source&quot;: &quot;http:\/\/amphi-theatrum.de\/1899.html&quot; }</SimpleData>
 		<SimpleData name="label">Newstead</SimpleData>
 		<SimpleData name="military">true</SimpleData>
+		<SimpleData name="orientation">126</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/89304</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 		<SimpleData name="latintoponym">Trimontium</SimpleData>
@@ -253,6 +268,7 @@
 		<SimpleData name="chronogroup">Julio-Claudian</SimpleData>
 		<SimpleData name="created">50</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 94, &quot;exterior-minor&quot;: 80, &quot;arena-major&quot;: 54, &quot;arena-minor&quot;: 40, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
+		<SimpleData name="golvinid">101</SimpleData>
 		<SimpleData name="label">Conimbriga</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/236443</SimpleData>
 		<SimpleData name="moderncountry">Portugal</SimpleData>
@@ -267,6 +283,7 @@
 		<SimpleData name="created">-100</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 114, &quot;exterior-minor&quot;: 84 }</SimpleData>
 		<SimpleData name="label">Cumae</SimpleData>
+		<SimpleData name="orientation">202</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/432808</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="see">http://pleiades.stoa.org/places/432808/location-of-roman-amphitheater</SimpleData>
@@ -282,9 +299,12 @@
 		<SimpleData name="chronogroup">Flavian</SimpleData>
 		<SimpleData name="created">70</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 149, &quot;exterior-minor&quot;: 116, &quot;arena-major&quot;: 74.800000, &quot;arena-minor&quot;: 42, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="golvinid">153</SimpleData>
 		<SimpleData name="label">Pozzuoli (Flavian)</SimpleData>
+		<SimpleData name="orientation">126</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/432815</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
+		<SimpleData name="latintoponym">Puteoli</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Flavian_Amphitheater_(Pozzuoli)</SimpleData>
 		<SimpleData name="youtube">(3:https://www.youtube.com/watch?v=VCCD-YeNQKk,...)</SimpleData>
 		<SimpleData name="period">Vespasian</SimpleData>
@@ -298,6 +318,7 @@
 		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="created">-100</SimpleData>
 		<SimpleData name="label">Pozzuoli (Early)</SimpleData>
+		<SimpleData name="orientation">218</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/432815</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 	</SchemaData></ExtendedData>
@@ -311,10 +332,13 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 28773, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="chronogroup">Julio-Claudian</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 146.800000, &quot;exterior-minor&quot;: 118.700000, &quot;arena-major&quot;: 69.800000, &quot;arena-minor&quot;: 39.700000, &quot;source&quot;: &quot;http:\/\/amphi-theatrum.de\/1514.html&quot; }</SimpleData>
+		<SimpleData name="golvinid">83</SimpleData>
 		<SimpleData name="hypogeum">1</SimpleData>
 		<SimpleData name="label">Syracuse</SimpleData>
+		<SimpleData name="orientation">144</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/462503</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
+		<SimpleData name="latintoponym">Syracusae</SimpleData>
 		<SimpleData name="wikipedia">http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Siracusa</SimpleData>
 		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=aUcjHzMZCeY)</SimpleData>
 	</SchemaData></ExtendedData>
@@ -329,6 +353,7 @@
 		<SimpleData name="created">100</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 120, &quot;exterior-minor&quot;: 93, &quot;arena-major&quot;: 64, &quot;arena-minor&quot;: 36, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Carthage</SimpleData>
+		<SimpleData name="orientation">212</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/314921</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Carthage_amphitheatre</SimpleData>
@@ -360,7 +385,9 @@
 		<SimpleData name="chronogroup">Julius Caesar</SimpleData>
 		<SimpleData name="created">-44</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 98, &quot;exterior-minor&quot;: 70, &quot;arena-major&quot;: 58, &quot;arena-minor&quot;: 30, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
+		<SimpleData name="golvinid">126</SimpleData>
 		<SimpleData name="label">Corinth</SimpleData>
+		<SimpleData name="orientation">180</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/570182</SimpleData>
 		<SimpleData name="moderncountry">Greece</SimpleData>
 		<SimpleData name="see">http://corinth.sas.upenn.edu/gisamphitheater.html</SimpleData>
@@ -376,6 +403,7 @@
 		<SimpleData name="chronogroup">Severan</SimpleData>
 		<SimpleData name="created">200</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 70, &quot;exterior-minor&quot;: 60, &quot;arena-major&quot;: 50, &quot;arena-minor&quot;: 40, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
+		<SimpleData name="golvinid">127</SimpleData>
 		<SimpleData name="label">Marcianopolis</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/216878</SimpleData>
 		<SimpleData name="moderncountry">Bulgaria</SimpleData>
@@ -390,7 +418,9 @@
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="created">157</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 84, &quot;exterior-minor&quot;: 75, &quot;arena-major&quot;: 64, &quot;arena-minor&quot;: 52 }</SimpleData>
+		<SimpleData name="golvinid">39</SimpleData>
 		<SimpleData name="label">Porolissum</SimpleData>
+		<SimpleData name="orientation">122</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/207361</SimpleData>
 		<SimpleData name="moderncountry">Romania</SimpleData>
 		<SimpleData name="comment">There was a wooden predecessor.</SimpleData>
@@ -419,8 +449,10 @@
 		<SimpleData name="chronogroup">First Century</SimpleData>
 		<SimpleData name="created">80</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 99.500000, &quot;exterior-minor&quot;: 81.500000, &quot;arena-major&quot;: 71, &quot;arena-minor&quot;: 43 }</SimpleData>
+		<SimpleData name="golvinid">122</SimpleData>
 		<SimpleData name="label">Carnuntum (Mil.)</SimpleData>
 		<SimpleData name="military">true</SimpleData>
+		<SimpleData name="orientation">231</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/128376</SimpleData>
 		<SimpleData name="moderncountry">Austria</SimpleData>
 	</SchemaData></ExtendedData>
@@ -449,7 +481,9 @@
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="created">100</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 129, &quot;exterior-minor&quot;: 113, &quot;arena-major&quot;: 66, &quot;arena-minor&quot;: 50 }</SimpleData>
+		<SimpleData name="golvinid">123</SimpleData>
 		<SimpleData name="label">Carnuntum (Civ.)</SimpleData>
+		<SimpleData name="orientation">193</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/128376</SimpleData>
 		<SimpleData name="moderncountry">Austria</SimpleData>
 		<SimpleData name="see">https://www.academia.edu/3791286/The_amphitheatre_of_Carnuntum_Towards_a_complete_3D_model_using_airborne_Structure_from_Motion_and_dense_image_matching</SimpleData>
@@ -466,10 +500,11 @@
 		<SimpleData name="created">56</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 121, &quot;exterior-minor&quot;: 111, &quot;arena-major&quot;: 57, &quot;arena-minor&quot;: 47 }</SimpleData>
 		<SimpleData name="emperor">Nero</SimpleData>
+		<SimpleData name="golvinid">174</SimpleData>
 		<SimpleData name="label">Leptis Magna</SimpleData>
+		<SimpleData name="orientation">117</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/344448</SimpleData>
 		<SimpleData name="moderncountry">Libya</SimpleData>
-		<SimpleData name="golvinid">174</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>14.309452,32.63234,18</coordinates></Point>
   </Placemark>
@@ -481,9 +516,12 @@
 		<SimpleData name="chronogroup">First Century</SimpleData>
 		<SimpleData name="created">50</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 86, &quot;exterior-minor&quot;: 54, &quot;arena-major&quot;: 71, &quot;arena-minor&quot;: 42 }</SimpleData>
+		<SimpleData name="golvinid">93</SimpleData>
 		<SimpleData name="label">Empuries</SimpleData>
+		<SimpleData name="orientation">248</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/246382</SimpleData>
 		<SimpleData name="moderncountry">Spain</SimpleData>
+		<SimpleData name="latintoponym">Emporiae</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>3.117431,42.130042,27</coordinates></Point>
   </Placemark>
@@ -496,6 +534,7 @@
 		<SimpleData name="created">100</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 95, &quot;exterior-minor&quot;: 69.500000, &quot;arena-major&quot;: 62, &quot;arena-minor&quot;: 39 }</SimpleData>
 		<SimpleData name="label">Tarragona</SimpleData>
+		<SimpleData name="orientation">237</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/246349</SimpleData>
 		<SimpleData name="moderncountry">Spain</SimpleData>
 		<SimpleData name="youtube">(2:https://www.youtube.com/watch?v=Z-1Qrk5qLAE,...)</SimpleData>
@@ -506,14 +545,17 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Cagliari</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="capacity">{ &quot;quantity&quot;: 10000 }</SimpleData>
+		<SimpleData name="capacity">{ &quot;quantity&quot;: 12283, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="created">100</SimpleData>
-		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 50, &quot;arena-minor&quot;: 30 }</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 92.800000, &quot;exterior-minor&quot;: 79.200000, &quot;arena-major&quot;: 46.800000, &quot;arena-minor&quot;: 33.200000, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
+		<SimpleData name="golvinid">182</SimpleData>
 		<SimpleData name="hypogeum">1</SimpleData>
 		<SimpleData name="label">Cagliari</SimpleData>
+		<SimpleData name="orientation">235</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/471899</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
+		<SimpleData name="latintoponym">Carales</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Roman_Amphitheatre_of_Cagliari</SimpleData>
 		<SimpleData name="periodo">http://n2t.net/ark:/99152/p0wf3wdp4xt</SimpleData>
 	</SchemaData></ExtendedData>
@@ -529,6 +571,7 @@
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 160, &quot;exterior-minor&quot;: 136, &quot;arena-major&quot;: 70, &quot;arena-minor&quot;: 44 }</SimpleData>
 		<SimpleData name="hypogeum">1</SimpleData>
 		<SimpleData name="label">Italica</SimpleData>
+		<SimpleData name="orientation">264</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/256231</SimpleData>
 		<SimpleData name="moderncountry">Spain</SimpleData>
 		<SimpleData name="see">http://pleiades.stoa.org/places/256231/roman-amphitheater-of-italica</SimpleData>
@@ -544,6 +587,7 @@
 		<SimpleData name="created">90</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 75, &quot;exterior-minor&quot;: 64, &quot;arena-major&quot;: 47, &quot;arena-minor&quot;: 31 }</SimpleData>
 		<SimpleData name="label">Segobria</SimpleData>
+		<SimpleData name="orientation">235</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/266036</SimpleData>
 		<SimpleData name="moderncountry">Spain</SimpleData>
 		<SimpleData name="see">http://pleiades.stoa.org/places/266036/location-of-roman-amphitheater</SimpleData>
@@ -558,6 +602,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 90, &quot;exterior-minor&quot;: 70, &quot;arena-major&quot;: 52, &quot;arena-minor&quot;: 38, &quot;comment&quot;: &quot;Estimates from portion visible on Google Earth.&quot; }</SimpleData>
 		<SimpleData name="label">Catinia</SimpleData>
+		<SimpleData name="orientation">159</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/462270</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 	</SchemaData></ExtendedData>
@@ -572,6 +617,7 @@
 		<SimpleData name="created">-75</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 79, &quot;exterior-minor&quot;: 59, &quot;arena-major&quot;: 56, &quot;arena-minor&quot;: 35, &quot;comment&quot;: &quot;Estimates from portion visible on Google Earth.&quot; }</SimpleData>
 		<SimpleData name="label">Paestum</SimpleData>
+		<SimpleData name="orientation">270</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/442733</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="welchid">10</SimpleData>
@@ -585,6 +631,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 87, &quot;exterior-minor&quot;: 71, &quot;arena-major&quot;: 52, &quot;arena-minor&quot;: 34.500000 }</SimpleData>
 		<SimpleData name="label">Luna</SimpleData>
+		<SimpleData name="orientation">216</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/403235</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 	</SchemaData></ExtendedData>
@@ -596,6 +643,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">Casinum</SimpleData>
+		<SimpleData name="orientation">215</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/432764</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 	</SchemaData></ExtendedData>
@@ -609,6 +657,7 @@
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 85, &quot;source&quot;: &quot;http:\/\/maps.google.com&quot; }</SimpleData>
 		<SimpleData name="label">Viminacium</SimpleData>
+		<SimpleData name="orientation">108</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/207549</SimpleData>
 		<SimpleData name="moderncountry">Serbia</SimpleData>
 		<SimpleData name="bibliography">https://www.academia.edu/5679643/Roman_stone_and_clay_shot_from_the_Viminacium_amphitheatre</SimpleData>
@@ -622,6 +671,7 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 2729, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">Flavia Solva</SimpleData>
+		<SimpleData name="orientation">189</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/197273</SimpleData>
 		<SimpleData name="moderncountry">Austria</SimpleData>
 	</SchemaData></ExtendedData>
@@ -636,6 +686,7 @@
 		<SimpleData name="chronogroup">Julio-Claudian</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 38, &quot;exterior-minor&quot;: 27, &quot;arena-major&quot;: 30, &quot;arena-minor&quot;: 20, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Rusellae</SimpleData>
+		<SimpleData name="orientation">261</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/413288</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="wikipedia">http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Roselle</SimpleData>
@@ -650,6 +701,7 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 15000 }</SimpleData>
 		<SimpleData name="chronogroup">Flavian</SimpleData>
 		<SimpleData name="label">Paris</SimpleData>
+		<SimpleData name="orientation">160</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/109126</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="latintoponym">Lutetia Parisiorum</SimpleData>
@@ -666,6 +718,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 118, &quot;exterior-minor&quot;: 106, &quot;arena-major&quot;: 74, &quot;arena-minor&quot;: 62 }</SimpleData>
 		<SimpleData name="label">Octodorus</SimpleData>
+		<SimpleData name="orientation">230</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/167859</SimpleData>
 		<SimpleData name="moderncountry">Switzerland</SimpleData>
 	</SchemaData></ExtendedData>
@@ -678,6 +731,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 32.700000, &quot;arena-minor&quot;: 28.800000, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Cyrene</SimpleData>
+		<SimpleData name="orientation">109</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/373778</SimpleData>
 		<SimpleData name="moderncountry">Libya</SimpleData>
 	</SchemaData></ExtendedData>
@@ -691,6 +745,7 @@
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 88, &quot;exterior-minor&quot;: 58.700000, &quot;arena-major&quot;: 66, &quot;arena-minor&quot;: 36.600000, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="hypogeum">1</SimpleData>
 		<SimpleData name="label">Libarna</SimpleData>
+		<SimpleData name="orientation">140</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/383694</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/383694/location-of-roman-amphitheater</SimpleData>
@@ -704,7 +759,9 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 17149, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="chronogroup">Augustan</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 126.800000, &quot;exterior-minor&quot;: 94.500000, &quot;arena-major&quot;: 72.200000, &quot;arena-minor&quot;: 43.200000, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
+		<SimpleData name="golvinid">12</SimpleData>
 		<SimpleData name="label">Luceria</SimpleData>
+		<SimpleData name="orientation">109</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/442640</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 	</SchemaData></ExtendedData>
@@ -718,6 +775,7 @@
 		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 108, &quot;exterior-minor&quot;: 70, &quot;arena-major&quot;: 62.500000, &quot;arena-minor&quot;: 35, &quot;source&quot;: &quot;http:maps.google.com&quot; }</SimpleData>
 		<SimpleData name="label">Abella</SimpleData>
+		<SimpleData name="orientation">216</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/432617</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Abella</SimpleData>
@@ -733,6 +791,7 @@
 		<SimpleData name="created">90</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 133.400000, &quot;exterior-minor&quot;: 101.400000, &quot;arena-major&quot;: 69.100000, &quot;arena-minor&quot;: 38.400000, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Nimes</SimpleData>
+		<SimpleData name="orientation">241</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/148142</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="citywall">inside</SimpleData>
@@ -749,6 +808,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 50, &quot;exterior-minor&quot;: 39, &quot;arena-major&quot;: 35, &quot;arena-minor&quot;: 24, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Charterhouse</SimpleData>
+		<SimpleData name="orientation">270</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/79534</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/79534/location-of-roman-amphitheater</SimpleData>
@@ -762,6 +822,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 95.500000, &quot;exterior-minor&quot;: 86.600000, &quot;arena-major&quot;: 56.700000, &quot;arena-minor&quot;: 48.300000, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Chester</SimpleData>
+		<SimpleData name="orientation">156</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/79420</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 		<SimpleData name="latintoponym">Deva Victrix</SimpleData>
@@ -775,6 +836,7 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 5000 }</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="label">Gennes</SimpleData>
+		<SimpleData name="orientation">239</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/138371</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 	</SchemaData></ExtendedData>
@@ -787,6 +849,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="exclude">1</SimpleData>
 		<SimpleData name="label">Scythopolis</SimpleData>
+		<SimpleData name="orientation">98</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/678378</SimpleData>
 		<SimpleData name="moderncountry">Israel</SimpleData>
 	</SchemaData></ExtendedData>
@@ -802,6 +865,7 @@
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 88, &quot;exterior-minor&quot;: 64, &quot;source&quot;: &quot;http:\/\/maps.google.com&quot; }</SimpleData>
 		<SimpleData name="emperor">Nerva</SimpleData>
 		<SimpleData name="label">Scylletium</SimpleData>
+		<SimpleData name="orientation">204</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/452439</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="italianregion">region ii</SimpleData>
@@ -816,12 +880,13 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 22130, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 132.300000, &quot;exterior-minor&quot;: 110.600000, &quot;arena-major&quot;: 69.800000, &quot;arena-minor&quot;: 46.700000, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="golvinid">188</SimpleData>
 		<SimpleData name="label">Bordeaux</SimpleData>
+		<SimpleData name="orientation">139</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/138248</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="latintoponym">Burdigala</SimpleData>
 		<SimpleData name="see">http://www-ausonius.u-bordeaux3.fr/index.php/axes-de-recherche/espaces-fabrique-usages-representations/9-axes/97-le-palais-gallien-de-bordeaux-etude-restitution-valorisation</SimpleData>
-		<SimpleData name="golvinid">188</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-0.582476,44.847382,17</coordinates></Point>
   </Placemark>
@@ -833,12 +898,13 @@
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="created">120</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 96, &quot;exterior-minor&quot;: 81, &quot;arena-major&quot;: 52.500000, &quot;arena-minor&quot;: 37.500000, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="golvinid">115</SimpleData>
 		<SimpleData name="hypogeum">1</SimpleData>
 		<SimpleData name="label">Uthina</SimpleData>
+		<SimpleData name="orientation">238</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/315247</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="latintoponym">Uthina</SimpleData>
-		<SimpleData name="golvinid">115</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>10.169215,36.608597,112</coordinates></Point>
   </Placemark>
@@ -848,6 +914,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">Carthago Nova</SimpleData>
+		<SimpleData name="orientation">166</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/265849</SimpleData>
 		<SimpleData name="moderncountry">Spain</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
@@ -861,6 +928,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 96, &quot;exterior-minor&quot;: 42, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Virunum</SimpleData>
+		<SimpleData name="orientation">194</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/197583</SimpleData>
 		<SimpleData name="moderncountry">Austria</SimpleData>
 		<SimpleData name="pleiadesspecific">http://pleiades.stoa.org/places/197583/location-of-roman-amphitheater</SimpleData>
@@ -875,10 +943,11 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 5945, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 86.500000, &quot;exterior-minor&quot;: 62, &quot;arena-major&quot;: 62.100000, &quot;arena-minor&quot;: 37.600000, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
+		<SimpleData name="golvinid">80</SimpleData>
 		<SimpleData name="label">Carsulae</SimpleData>
+		<SimpleData name="orientation">100</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/413065</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
-		<SimpleData name="golvinid">80</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/413065/location-of-roman-amphitheater</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>12.559172,42.639468,438</coordinates></Point>
@@ -889,6 +958,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">Florence</SimpleData>
+		<SimpleData name="orientation">205</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/413138</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Florentia</SimpleData>
@@ -903,6 +973,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 120, &quot;exterior-minor&quot;: 98, &quot;arena-major&quot;: 64, &quot;arena-minor&quot;: 42, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Ocriculcum</SimpleData>
+		<SimpleData name="orientation">173</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/413231</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/413231/location-of-roman-amphitheater</SimpleData>
@@ -915,6 +986,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">Lixus</SimpleData>
+		<SimpleData name="orientation">76</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/275666</SimpleData>
 		<SimpleData name="moderncountry">Morocco</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/275666/location-of-roman-amphitheater</SimpleData>
@@ -930,6 +1002,7 @@
 		<SimpleData name="created">80</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 109.400000, &quot;exterior-minor&quot;: 80, &quot;arena-major&quot;: 71.900000, &quot;arena-minor&quot;: 42.700000, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Arezzo</SimpleData>
+		<SimpleData name="orientation">264</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/413032</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Arretium</SimpleData>
@@ -943,6 +1016,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 98, &quot;exterior-minor&quot;: 86, &quot;arena-major&quot;: 57, &quot;arena-minor&quot;: 40 }</SimpleData>
 		<SimpleData name="label">Larinum</SimpleData>
+		<SimpleData name="orientation">148</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/442629</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/442629/location-of-roman-amphitheater</SimpleData>
@@ -955,6 +1029,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">Lucus Feroniae</SimpleData>
+		<SimpleData name="orientation">157</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/413184</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/413184/location-of-lucus-feroniae-amphitheater</SimpleData>
@@ -970,6 +1045,7 @@
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 107, &quot;exterior-minor&quot;: 84, &quot;arena-major&quot;: 72, &quot;arena-minor&quot;: 48 }</SimpleData>
 		<SimpleData name="hypogeum">1</SimpleData>
 		<SimpleData name="label">Allifae</SimpleData>
+		<SimpleData name="orientation">213</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/432658</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 	</SchemaData></ExtendedData>
@@ -982,10 +1058,11 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 4245, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="chronogroup">Julio-Claudian</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 55, &quot;exterior-minor&quot;: 44, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
+		<SimpleData name="golvinid">16</SimpleData>
 		<SimpleData name="label">Cimiez</SimpleData>
+		<SimpleData name="orientation">181</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="latintoponym">Cemenelum</SimpleData>
-		<SimpleData name="golvinid">16</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>7.2752435,43.71967279,112</coordinates></Point>
   </Placemark>
@@ -995,6 +1072,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">Forum Traiani</SimpleData>
+		<SimpleData name="orientation">209</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/471947</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="periodo">http://n2t.net/ark:/99152/p0wf3wdp4xt</SimpleData>
@@ -1008,6 +1086,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">Lucca</SimpleData>
+		<SimpleData name="orientation">98</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/403234</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Luca</SimpleData>
@@ -1021,6 +1100,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">Spello</SimpleData>
+		<SimpleData name="orientation">124</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/413170</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Hispellum</SimpleData>
@@ -1037,6 +1117,7 @@
 		<SimpleData name="created">30</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 152.430000, &quot;exterior-minor&quot;: 123.420000, &quot;arena-major&quot;: 75.680000, &quot;arena-minor&quot;: 44.430000, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
 		<SimpleData name="label">Verona</SimpleData>
+		<SimpleData name="orientation">144</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/383816</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="wikipedia">https://en.wikipedia.org/wiki/Verona_Arena</SimpleData>
@@ -1053,6 +1134,7 @@
 		<SimpleData name="created">275</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 86.500000, &quot;exterior-minor&quot;: 75.500000, &quot;arena-major&quot;: 51, &quot;arena-minor&quot;: 42, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Aquincum (Civilian)</SimpleData>
+		<SimpleData name="orientation">253</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/197130</SimpleData>
 		<SimpleData name="moderncountry">Hungary</SimpleData>
 		<SimpleData name="latintoponym">Aquincum</SimpleData>
@@ -1069,6 +1151,7 @@
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 131, &quot;exterior-minor&quot;: 107, &quot;arena-major&quot;: 88, &quot;arena-minor&quot;: 42, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Aquincum (Military)</SimpleData>
 		<SimpleData name="military">true</SimpleData>
+		<SimpleData name="orientation">195</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/197130</SimpleData>
 		<SimpleData name="moderncountry">Hungary</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Aquincum_Military_Amphitheatre</SimpleData>
@@ -1094,6 +1177,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 131, &quot;exterior-minor&quot;: 113 }</SimpleData>
 		<SimpleData name="label">Perigeux</SimpleData>
+		<SimpleData name="orientation">175</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/138650</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="latintoponym">Vesuna Petrucorriorum</SimpleData>
@@ -1107,6 +1191,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">Cividate Camuno</SimpleData>
+		<SimpleData name="orientation">152</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/383617</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Civitas Camunnorum</SimpleData>
@@ -1121,11 +1206,12 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 7657, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 90, &quot;exterior-minor&quot;: 70, &quot;arena-major&quot;: 60, &quot;arena-minor&quot;: 40, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
+		<SimpleData name="golvinid">92</SimpleData>
 		<SimpleData name="label">Grumento</SimpleData>
+		<SimpleData name="orientation">220</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/442603</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Grumentum</SimpleData>
-		<SimpleData name="golvinid">92</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>15.9115794,40.2876404,579</coordinates></Point>
   </Placemark>
@@ -1137,6 +1223,7 @@
 		<SimpleData name="chronogroup">Julio-Claudian</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 103, &quot;exterior-minor&quot;: 76, &quot;arena-major&quot;: 64, &quot;arena-minor&quot;: 37 }</SimpleData>
 		<SimpleData name="label">Alba Fucens</SimpleData>
+		<SimpleData name="orientation">144</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/413005</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Alba Fucens</SimpleData>
@@ -1153,6 +1240,7 @@
 		<SimpleData name="created">200</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 102, &quot;exterior-minor&quot;: 87, &quot;arena-major&quot;: 48, &quot;arena-minor&quot;: 33, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Aug. Raurica</SimpleData>
+		<SimpleData name="orientation">121</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/177494</SimpleData>
 		<SimpleData name="moderncountry">Switzerland</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/177494/location-of-roman-amphitheater</SimpleData>
@@ -1167,6 +1255,7 @@
 		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="created">-50</SimpleData>
 		<SimpleData name="label">Sutrium</SimpleData>
+		<SimpleData name="orientation">230</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/413328</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="youtube">(2:https://www.youtube.com/watch?v=OgHl5MT95bg,...)</SimpleData>
@@ -1182,6 +1271,7 @@
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 88, &quot;exterior-minor&quot;: 69, &quot;arena-major&quot;: 66, &quot;arena-minor&quot;: 47, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Sarmizegetusa</SimpleData>
+		<SimpleData name="orientation">262</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/207527</SimpleData>
 		<SimpleData name="moderncountry">Romania</SimpleData>
 		<SimpleData name="latintoponym">Ulpia Traiana Sarmizegetusa</SimpleData>
@@ -1198,10 +1288,11 @@
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="created">170</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 124.750000, &quot;exterior-minor&quot;: 100.650000, &quot;arena-major&quot;: 64.300000, &quot;arena-minor&quot;: 40.200000, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="golvinid">181</SimpleData>
 		<SimpleData name="label">Salona</SimpleData>
+		<SimpleData name="orientation">93</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/197488</SimpleData>
 		<SimpleData name="moderncountry">Croatia</SimpleData>
-		<SimpleData name="golvinid">181</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/197488/location-of-roman-amphitheater</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>16.473893,43.5381718,8</coordinates></Point>
@@ -1215,6 +1306,7 @@
 		<SimpleData name="created">70</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 100, &quot;exterior-minor&quot;: 85, &quot;arena-major&quot;: 60, &quot;arena-minor&quot;: 40, &quot;source&quot;: &quot;http:\/\/archive.museumoflondon.org.uk\/Londinium\/Today\/vizrom\/06+amphitheatre.htm&quot; }</SimpleData>
 		<SimpleData name="label">London</SimpleData>
+		<SimpleData name="orientation">90</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/79574</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 		<SimpleData name="latintoponym">Londinium</SimpleData>
@@ -1228,6 +1320,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">Tibur</SimpleData>
+		<SimpleData name="orientation">197</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/423081</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1239,6 +1332,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">Caerleon</SimpleData>
+		<SimpleData name="orientation">151</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/79532</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 		<SimpleData name="youtube">(2:https://www.youtube.com/watch?v=VIT1JAOadho,...)</SimpleData>
@@ -1254,6 +1348,7 @@
 		<SimpleData name="created">-75</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 112, &quot;source&quot;: &quot;http:\/\/maps.google.com&quot; }</SimpleData>
 		<SimpleData name="label">Telesia</SimpleData>
+		<SimpleData name="orientation">198</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/433147</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="welchid">9</SimpleData>
@@ -1270,6 +1365,7 @@
 		<SimpleData name="chronogroup">Flavian</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 98, &quot;exterior-minor&quot;: 71, &quot;arena-major&quot;: 59, &quot;arena-minor&quot;: 35 }</SimpleData>
 		<SimpleData name="label">Urbs Salvia</SimpleData>
+		<SimpleData name="orientation">221</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/413364</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Urbs Saglia</SimpleData>
@@ -1284,12 +1380,13 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 20197, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 126.400000, &quot;exterior-minor&quot;: 101.600000, &quot;arena-major&quot;: 65.200000, &quot;arena-minor&quot;: 39.200000, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
+		<SimpleData name="golvinid">100</SimpleData>
 		<SimpleData name="label">Saintes</SimpleData>
+		<SimpleData name="orientation">119</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/138458</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="latintoponym">Mediolanum Santonum</SimpleData>
 		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=2TCI21s-bxM)</SimpleData>
-		<SimpleData name="golvinid">100</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-0.6433512,45.7453926,20</coordinates></Point>
   </Placemark>
@@ -1300,6 +1397,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 65, &quot;arena-minor&quot;: 38, &quot;source&quot;: &quot;http:\/\/maps.google.com&quot; }</SimpleData>
 		<SimpleData name="label">Assisi</SimpleData>
+		<SimpleData name="orientation">225</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/413037</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Asisium</SimpleData>
@@ -1316,6 +1414,7 @@
 		<SimpleData name="created">100</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 132.400000, &quot;exterior-minor&quot;: 113.200000, &quot;arena-major&quot;: 61.400000, &quot;arena-minor&quot;: 42.200000, &quot;source&quot;: &quot;http:\/\/en.wikipedia.org\/wiki\/Durrës_Amphitheatre&quot; }</SimpleData>
 		<SimpleData name="label">Durrës</SimpleData>
+		<SimpleData name="orientation">179</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/481818</SimpleData>
 		<SimpleData name="moderncountry">Albania</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Durrës_Amphitheatre</SimpleData>
@@ -1333,6 +1432,7 @@
 		<SimpleData name="hypogeum">1</SimpleData>
 		<SimpleData name="label">Lambaesis</SimpleData>
 		<SimpleData name="military">true</SimpleData>
+		<SimpleData name="orientation">127</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/334570</SimpleData>
 		<SimpleData name="moderncountry">Algeria</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1345,10 +1445,11 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 5000 }</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 63.200000, &quot;exterior-minor&quot;: 49.600000, &quot;arena-major&quot;: 38.400000, &quot;arena-minor&quot;: 24.800000, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="golvinid">119</SimpleData>
 		<SimpleData name="label">Mactaris</SimpleData>
+		<SimpleData name="orientation">250</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/324774</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
-		<SimpleData name="golvinid">119</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>9.2066727,35.8556279,911</coordinates></Point>
   </Placemark>
@@ -1359,6 +1460,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">Cirencester</SimpleData>
+		<SimpleData name="orientation">150</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/197225</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 		<SimpleData name="latintoponym">Corinium Dobunnorum</SimpleData>
@@ -1373,10 +1475,11 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 15142, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="chronogroup">Flavian</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 112, &quot;exterior-minor&quot;: 98, &quot;arena-major&quot;: 64, &quot;arena-minor&quot;: 51 }</SimpleData>
+		<SimpleData name="golvinid">17</SimpleData>
 		<SimpleData name="label">Vindonissa</SimpleData>
+		<SimpleData name="orientation">241</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/177661</SimpleData>
 		<SimpleData name="moderncountry">Switzerland</SimpleData>
-		<SimpleData name="golvinid">17</SimpleData>
 		<SimpleData name="firstphase">{ &quot;chronogroup&quot;: &quot;Julio-Claudian&quot;, &quot;created&quot;: 50 }</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>8.213605,47.47629,361</coordinates></Point>
@@ -1390,6 +1493,7 @@
 		<SimpleData name="created">125</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 92, &quot;exterior-minor&quot;: 72, &quot;arena-major&quot;: 60, &quot;arena-minor&quot;: 40, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Thysdrus (Sm.)</SimpleData>
+		<SimpleData name="orientation">222</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/324835</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="youtube">(2:https://www.youtube.com/watch?v=bDDyEMg34Os,...)</SimpleData>
@@ -1407,6 +1511,7 @@
 		<SimpleData name="emperor">Gordian III</SimpleData>
 		<SimpleData name="exclude">1</SimpleData>
 		<SimpleData name="label">Thysdrus (lg.)</SimpleData>
+		<SimpleData name="orientation">257</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/324835</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=bDDyEMg34Os)</SimpleData>
@@ -1423,6 +1528,7 @@
 		<SimpleData name="created">100</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 113.700000, &quot;exterior-minor&quot;: 85.700000, &quot;arena-major&quot;: 67.700000, &quot;arena-minor&quot;: 39.700000, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Fréjus</SimpleData>
+		<SimpleData name="orientation">131</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/157836</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="latintoponym">Forum Julii</SimpleData>
@@ -1436,6 +1542,7 @@
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="created">150</SimpleData>
 		<SimpleData name="label">Gortyn</SimpleData>
+		<SimpleData name="orientation">218</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/589796</SimpleData>
 		<SimpleData name="moderncountry">Greece</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1449,6 +1556,7 @@
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 81, &quot;exterior-minor&quot;: 62, &quot;arena-major&quot;: 45, &quot;arena-minor&quot;: 26, &quot;source&quot;: [ &quot;Golvin&quot;, &quot;https:\/\/www.academia.edu\/4309219\/Roman_Amphitheatres_and_Spectacula_a_21st_-Century_PerspectiveArchaeopress_Publishers_of_British_Archaeological_Reports15._The_Magerius_Mosaic_Revisited&quot; ] }</SimpleData>
 		<SimpleData name="label">Leptiminus</SimpleData>
+		<SimpleData name="orientation">133</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/324767</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1462,6 +1570,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 56, &quot;exterior-minor&quot;: 37, &quot;arena-major&quot;: 44, &quot;arena-minor&quot;: 26, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Micia</SimpleData>
+		<SimpleData name="orientation">252</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/207286</SimpleData>
 		<SimpleData name="moderncountry">Romania</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1475,10 +1584,11 @@
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="created">130</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 72, &quot;exterior-minor&quot;: 52, &quot;arena-major&quot;: 52, &quot;arena-minor&quot;: 32, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="golvinid">44</SimpleData>
 		<SimpleData name="label">Gemellae</SimpleData>
+		<SimpleData name="orientation">264</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/334553</SimpleData>
 		<SimpleData name="moderncountry">Algeria</SimpleData>
-		<SimpleData name="golvinid">44</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>5.522904,34.636598,83</coordinates></Point>
   </Placemark>
@@ -1489,6 +1599,7 @@
 		<SimpleData name="chronogroup">Augustan</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 145, &quot;exterior-minor&quot;: 78, &quot;arena-major&quot;: 98, &quot;arena-minor&quot;: 37 }</SimpleData>
 		<SimpleData name="label">Cherchel</SimpleData>
+		<SimpleData name="orientation">256</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/295279</SimpleData>
 		<SimpleData name="moderncountry">Algeria</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1503,6 +1614,7 @@
 		<SimpleData name="created">1</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 132.450000, &quot;exterior-minor&quot;: 105.100000, &quot;exterior-height&quot;: 32.450000, &quot;arena-major&quot;: 67.950000, &quot;arena-minor&quot;: 41.650000 }</SimpleData>
 		<SimpleData name="label">Pula</SimpleData>
+		<SimpleData name="orientation">197</SimpleData>
 		<SimpleData name="moderncountry">Croatia</SimpleData>
 		<SimpleData name="latintoponym">Colonia Pietas Iulia Pola Pollentia Herculanea</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Pula_Arena</SimpleData>
@@ -1519,6 +1631,7 @@
 		<SimpleData name="created">-50</SimpleData>
 		<SimpleData name="label">Carmona</SimpleData>
 		<SimpleData name="military">yes</SimpleData>
+		<SimpleData name="orientation">258</SimpleData>
 		<SimpleData name="moderncountry">Spain</SimpleData>
 		<SimpleData name="latintoponym">Carmo</SimpleData>
 		<SimpleData name="comment">Size is only estimate based on Welch reporting a comparison with Sutrium.</SimpleData>
@@ -1548,6 +1661,7 @@
 		<SimpleData name="created">100</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 136.200000, &quot;exterior-minor&quot;: 107.400000, &quot;arena-major&quot;: 53, &quot;arena-minor&quot;: 37 }</SimpleData>
 		<SimpleData name="label">Pergamum</SimpleData>
+		<SimpleData name="orientation">194</SimpleData>
 		<SimpleData name="moderncountry">Turkey</SimpleData>
 		<SimpleData name="comment">Date very approximate.</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1560,6 +1674,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 109, &quot;exterior-minor&quot;: 80, &quot;arena-major&quot;: 60, &quot;arena-minor&quot;: 43 }</SimpleData>
 		<SimpleData name="label">Anazarbus</SimpleData>
+		<SimpleData name="orientation">178</SimpleData>
 		<SimpleData name="moderncountry">Turkey</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>35.894673,37.244094,42</coordinates></Point>
@@ -1584,6 +1699,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 150, &quot;exterior-minor&quot;: 100 }</SimpleData>
 		<SimpleData name="label">Cyzicus</SimpleData>
+		<SimpleData name="orientation">184</SimpleData>
 		<SimpleData name="moderncountry">Turkey</SimpleData>
 		<SimpleData name="comment">Location not specific.</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1597,9 +1713,10 @@
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="created">125</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 115, &quot;exterior-minor&quot;: 99, &quot;arena-major&quot;: 65, &quot;arena-minor&quot;: 49, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
-		<SimpleData name="label">Sabratha</SimpleData>
-		<SimpleData name="moderncountry">Libya</SimpleData>
 		<SimpleData name="golvinid">120</SimpleData>
+		<SimpleData name="label">Sabratha</SimpleData>
+		<SimpleData name="orientation">105</SimpleData>
+		<SimpleData name="moderncountry">Libya</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>12.49404,32.803879,11</coordinates></Point>
   </Placemark>
@@ -1619,6 +1736,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">Paphos</SimpleData>
+		<SimpleData name="orientation">105</SimpleData>
 		<SimpleData name="moderncountry">Cyprus</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>32.405344,34.754942,6</coordinates></Point>
@@ -1629,6 +1747,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Flavian</SimpleData>
 		<SimpleData name="label">Carmarthen</SimpleData>
+		<SimpleData name="orientation">253</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-4.296651,51.862005,29</coordinates></Point>
@@ -1639,10 +1758,10 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 63, &quot;exterior-minor&quot;: 53, &quot;arena-major&quot;: 44, &quot;arena-minor&quot;: 35, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
+		<SimpleData name="golvinid">128</SimpleData>
 		<SimpleData name="label">Caerwent</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 		<SimpleData name="latintoponym">Venta Silirum</SimpleData>
-		<SimpleData name="golvinid">128</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-2.766307,51.612173,25</coordinates></Point>
   </Placemark>
@@ -1653,7 +1772,9 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 2772, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 52, &quot;exterior-minor&quot;: 46, &quot;arena-major&quot;: 35, &quot;arena-minor&quot;: 28, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
+		<SimpleData name="golvinid">31</SimpleData>
 		<SimpleData name="label">Tomen y Mur</SimpleData>
+		<SimpleData name="orientation">192</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-3.9235,52.931893,295</coordinates></Point>
@@ -1666,9 +1787,10 @@
 		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="created">125</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 90, &quot;exterior-minor&quot;: 61, &quot;arena-major&quot;: 62, &quot;arena-minor&quot;: 33, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
-		<SimpleData name="label">Thaenae</SimpleData>
-		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="golvinid">71</SimpleData>
+		<SimpleData name="label">Thaenae</SimpleData>
+		<SimpleData name="orientation">143</SimpleData>
+		<SimpleData name="moderncountry">Tunisia</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>10.673126,34.655481,7</coordinates></Point>
   </Placemark>
@@ -1680,10 +1802,11 @@
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="created">160</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 72, &quot;exterior-minor&quot;: 60, &quot;arena-major&quot;: 47, &quot;arena-minor&quot;: 37, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="golvinid">113</SimpleData>
 		<SimpleData name="label">Sbeitla</SimpleData>
+		<SimpleData name="orientation">112</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="latintoponym">Sufetula</SimpleData>
-		<SimpleData name="golvinid">113</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>9.114582,35.243617,556</coordinates></Point>
   </Placemark>
@@ -1695,6 +1818,7 @@
 		<SimpleData name="chronogroup">Flavian</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 83, &quot;exterior-minor&quot;: 70, &quot;arena-major&quot;: 52.800000, &quot;arena-minor&quot;: 39.500000, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
 		<SimpleData name="label">Theveste</SimpleData>
+		<SimpleData name="orientation">156</SimpleData>
 		<SimpleData name="moderncountry">Algeria</SimpleData>
 		<SimpleData name="comment">Enlarged in late 3rd century.</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1710,6 +1834,7 @@
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 100, &quot;exterior-minor&quot;: 79, &quot;arena-major&quot;: 70.540000, &quot;arena-minor&quot;: 48.920000, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="hypogeum">1</SimpleData>
 		<SimpleData name="label">Trier</SimpleData>
+		<SimpleData name="orientation">181</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/108894</SimpleData>
 		<SimpleData name="moderncountry">Germany</SimpleData>
 		<SimpleData name="youtube">(3:https://www.youtube.com/watch?v=WYOvPyCntiY,...)</SimpleData>
@@ -1724,11 +1849,12 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="created">-20</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 60, &quot;exterior-minor&quot;: 52, &quot;arena-major&quot;: 44, &quot;arena-minor&quot;: 36, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
+		<SimpleData name="golvinid">15</SimpleData>
 		<SimpleData name="hypogeum">0</SimpleData>
 		<SimpleData name="label">Susa</SimpleData>
+		<SimpleData name="orientation">264</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Segusium</SimpleData>
-		<SimpleData name="golvinid">15</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>7.04497,45.133185,546</coordinates></Point>
   </Placemark>
@@ -1736,8 +1862,13 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Ivrea</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="capacity">{ &quot;quantity&quot;: 8046, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 96, &quot;exterior-minor&quot;: 72, &quot;arena-major&quot;: 67, &quot;arena-minor&quot;: 42, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
+		<SimpleData name="golvinid">55</SimpleData>
+		<SimpleData name="hypogeum">1</SimpleData>
 		<SimpleData name="label">Ivrea</SimpleData>
+		<SimpleData name="orientation">264</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Eporedia</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1753,6 +1884,7 @@
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 98, &quot;exterior-minor&quot;: 73.500000, &quot;arena-major&quot;: 63.750000, &quot;arena-minor&quot;: 37.500000, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
 		<SimpleData name="exclude">1</SimpleData>
 		<SimpleData name="label">Bararus</SimpleData>
+		<SimpleData name="orientation">244</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/324673</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="comment">Unfinished? Considered the last North African amphitheater.</SimpleData>
@@ -1770,11 +1902,12 @@
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 116.500000, &quot;exterior-minor&quot;: 94, &quot;arena-major&quot;: 67.500000, &quot;arena-minor&quot;: 45 }</SimpleData>
 		<SimpleData name="emperor">Septimius Severus</SimpleData>
 		<SimpleData name="exclude">1</SimpleData>
+		<SimpleData name="golvinid">190</SimpleData>
 		<SimpleData name="label">Albana</SimpleData>
 		<SimpleData name="military">true</SimpleData>
+		<SimpleData name="orientation">93</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/422885</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
-		<SimpleData name="golvinid">190</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>12.66501,41.732637,454</coordinates></Point>
   </Placemark>
@@ -1803,6 +1936,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 89, &quot;exterior-minor&quot;: 86, &quot;arena-major&quot;: 47.500000, &quot;arena-minor&quot;: 44.500000, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Ptolemais</SimpleData>
+		<SimpleData name="orientation">241</SimpleData>
 		<SimpleData name="moderncountry">Libya</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>20.945728,32.707953,12</coordinates></Point>
@@ -1815,6 +1949,7 @@
 		<SimpleData name="created">50</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 111, &quot;exterior-minor&quot;: 101, &quot;arena-major&quot;: 59, &quot;arena-minor&quot;: 49, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Toulouse</SimpleData>
+		<SimpleData name="orientation">167</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>1.397664,43.614808,149</coordinates></Point>
@@ -1826,6 +1961,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 30, &quot;arena-minor&quot;: 19 }</SimpleData>
 		<SimpleData name="label">Caparra</SimpleData>
+		<SimpleData name="orientation">163</SimpleData>
 		<SimpleData name="moderncountry">Spain</SimpleData>
 		<SimpleData name="latintoponym">Municipium Flavium Caparense</SimpleData>
 	</SchemaData></ExtendedData>
@@ -1852,10 +1988,10 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 7245, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="chronogroup">First Century</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 78, &quot;exterior-minor&quot;: 75, &quot;arena-major&quot;: 48, &quot;arena-minor&quot;: 45, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
+		<SimpleData name="golvinid">19</SimpleData>
 		<SimpleData name="label">Lillebonne</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="latintoponym">Iuliobona</SimpleData>
-		<SimpleData name="golvinid">19</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>0.536724,49.517759,19</coordinates></Point>
   </Placemark>
@@ -1915,10 +2051,10 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 15000 }</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="golvinid">22</SimpleData>
 		<SimpleData name="label">Rodez</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="latintoponym">Segodonum</SimpleData>
-		<SimpleData name="golvinid">22</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>2.571162,44.353698,611</coordinates></Point>
   </Placemark>
@@ -1955,10 +2091,11 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Julio-Claudian</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 102.500000, &quot;exterior-minor&quot;: 65.500000, &quot;arena-major&quot;: 76.400000, &quot;arena-minor&quot;: 39.500000 }</SimpleData>
+		<SimpleData name="golvinid">90</SimpleData>
 		<SimpleData name="label">Padua</SimpleData>
+		<SimpleData name="orientation">188</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Patavia</SimpleData>
-		<SimpleData name="golvinid">90</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>11.879039,45.411483,17</coordinates></Point>
   </Placemark>
@@ -1971,6 +2108,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 101.900000, &quot;exterior-minor&quot;: 83, &quot;arena-major&quot;: 53.100000, &quot;arena-minor&quot;: 34.200000, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Lecce</SimpleData>
+		<SimpleData name="orientation">267</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Lupiae</SimpleData>
 		<SimpleData name="wikipedia">http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Lecce</SimpleData>
@@ -1998,6 +2136,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">San Benedetto</SimpleData>
+		<SimpleData name="orientation">139</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Marruvium</SimpleData>
 	</SchemaData></ExtendedData>
@@ -2010,6 +2149,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">Monteleone</SimpleData>
+		<SimpleData name="orientation">267</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Trebula Mutuesca</SimpleData>
 	</SchemaData></ExtendedData>
@@ -2022,6 +2162,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Flavian</SimpleData>
 		<SimpleData name="label">Bolsena</SimpleData>
+		<SimpleData name="orientation">130</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Volsinii Novi</SimpleData>
 	</SchemaData></ExtendedData>
@@ -2032,10 +2173,11 @@
 		<SimpleData name="title">Amphitheater at Ancona</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1396.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="capacity">{ &quot;quantity&quot;: 10000 }</SimpleData>
+		<SimpleData name="capacity">{ &quot;quantity&quot;: 14168, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="chronogroup">Julio-Claudian</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 111, &quot;exterior-minor&quot;: 97, &quot;arena-major&quot;: 67, &quot;arena-minor&quot;: 53 }</SimpleData>
 		<SimpleData name="label">Ancona</SimpleData>
+		<SimpleData name="orientation">167</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Ancona</SimpleData>
 		<SimpleData name="wiki">http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Ancona</SimpleData>
@@ -2087,6 +2229,7 @@
 		<SimpleData name="chronogroup">First Century</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 90, &quot;exterior-minor&quot;: 68, &quot;arena-major&quot;: 64, &quot;arena-minor&quot;: 42, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">San Vittorino</SimpleData>
+		<SimpleData name="orientation">110</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Amiternum</SimpleData>
 	</SchemaData></ExtendedData>
@@ -2137,9 +2280,9 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 15000 }</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
+		<SimpleData name="golvinid">102</SimpleData>
 		<SimpleData name="label">Amiens</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
-		<SimpleData name="golvinid">102</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>2.293485,49.8944,32</coordinates></Point>
@@ -2177,6 +2320,7 @@
 		<SimpleData name="chronogroup">First Century</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 90, &quot;exterior-minor&quot;: 83, &quot;arena-major&quot;: 41.500000, &quot;arena-minor&quot;: 34.450000, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Senlis</SimpleData>
+		<SimpleData name="orientation">267</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="latintoponym">Augustomagus</SimpleData>
 		<SimpleData name="wikipedia">http://fr.wikipedia.org/wiki/Arènes_de_Senlis</SimpleData>
@@ -2192,13 +2336,13 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 34000 }</SimpleData>
 		<SimpleData name="chronogroup">Hadrianic</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 156, &quot;exterior-minor&quot;: 134, &quot;arena-major&quot;: 68, &quot;arena-minor&quot;: 50, &quot;source&quot;: &quot;http:\/\/fr.wikipedia.org\/wiki\/Amphithéâtre_de_Tours&quot; }</SimpleData>
+		<SimpleData name="golvinid">54</SimpleData>
 		<SimpleData name="label">Tours</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="latintoponym">Caesarodunum Turonum</SimpleData>
 		<SimpleData name="wikipedia">http://fr.wikipedia.org/wiki/Amphithéâtre_de_Tours</SimpleData>
 		<SimpleData name="comment">Large capacity based on recent work as well described in Wikipedia.</SimpleData>
 		<SimpleData name="lastuse">{ &quot;date&quot;: 350, &quot;comment&quot;: &quot;The wikipedia article is of high quality so is currently the source for this date.&quot; }</SimpleData>
-		<SimpleData name="golvinid">54</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>0.696233,47.395342,59</coordinates></Point>
@@ -2224,6 +2368,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="label">Capua I</SimpleData>
+		<SimpleData name="orientation">179</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Capua</SimpleData>
 		<SimpleData name="welchid">2</SimpleData>
@@ -2241,6 +2386,7 @@
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 165, &quot;exterior-minor&quot;: 135, &quot;arena-major&quot;: 76.120000, &quot;arena-minor&quot;: 45.830000, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
 		<SimpleData name="hypogeum">1</SimpleData>
 		<SimpleData name="label">Capua II</SimpleData>
+		<SimpleData name="orientation">179</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Capua</SimpleData>
 		<SimpleData name="youtube">(2:https://www.youtube.com/watch?v=8q86tToFDwI,...)</SimpleData>
@@ -2270,6 +2416,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Republican</SimpleData>
 		<SimpleData name="label">Nole</SimpleData>
+		<SimpleData name="orientation">258</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Nola</SimpleData>
 		<SimpleData name="welchid">13</SimpleData>
@@ -2286,6 +2433,7 @@
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 80, &quot;exterior-minor&quot;: 70, &quot;arena-major&quot;: 49, &quot;arena-minor&quot;: 40, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Silchester</SimpleData>
+		<SimpleData name="orientation">200</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 		<SimpleData name="latintoponym">Calleva Atrebatum</SimpleData>
 		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=ScpzLOmZEXs)</SimpleData>
@@ -2302,6 +2450,7 @@
 		<SimpleData name="chronogroup">First Century</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 80, &quot;exterior-minor&quot;: 77, &quot;arena-major&quot;: 58, &quot;arena-minor&quot;: 47, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Maumbury</SimpleData>
+		<SimpleData name="orientation">210</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 		<SimpleData name="latintoponym">Durnovaria</SimpleData>
 		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=ScpzLOmZEXs)</SimpleData>
@@ -2317,6 +2466,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">Braga</SimpleData>
+		<SimpleData name="orientation">181</SimpleData>
 		<SimpleData name="moderncountry">Portugal</SimpleData>
 		<SimpleData name="latintoponym">Bracara Augusta</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
@@ -2365,11 +2515,12 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 10000 }</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 96.500000, &quot;exterior-minor&quot;: 87, &quot;arena-major&quot;: 58.500000, &quot;arena-minor&quot;: 49, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
+		<SimpleData name="golvinid">167</SimpleData>
 		<SimpleData name="label">Xanten</SimpleData>
+		<SimpleData name="orientation">224</SimpleData>
 		<SimpleData name="moderncountry">Germany</SimpleData>
 		<SimpleData name="latintoponym">Colonia Ulpia Traiana</SimpleData>
 		<SimpleData name="see">https://3dwarehouse.sketchup.com/model.html?id=16596dabb2ebd0469b2513a62f433bae</SimpleData>
-		<SimpleData name="golvinid">167</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>6.451386,51.667172,21</coordinates></Point>
@@ -2393,6 +2544,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">Ierapetra</SimpleData>
+		<SimpleData name="orientation">211</SimpleData>
 		<SimpleData name="moderncountry">Greece</SimpleData>
 		<SimpleData name="bibliography">https://www.academia.edu/1557389/Rediscovering_the_small_theatre_and_amphitheatre_of_ancient_Ierapytna_SE_Crete_</SimpleData>
 		<SimpleData name="visibility">partial</SimpleData>
@@ -2406,6 +2558,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">Künzing</SimpleData>
+		<SimpleData name="orientation">107</SimpleData>
 		<SimpleData name="moderncountry">Germany</SimpleData>
 		<SimpleData name="latintoponym">Quintana</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
@@ -2434,6 +2587,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">Bobadela</SimpleData>
+		<SimpleData name="orientation">189</SimpleData>
 		<SimpleData name="moderncountry">Portugal</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 	</SchemaData></ExtendedData>
@@ -2446,6 +2600,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">Sopron</SimpleData>
+		<SimpleData name="orientation">162</SimpleData>
 		<SimpleData name="moderncountry">Hungary</SimpleData>
 		<SimpleData name="latintoponym">Scarabantia</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
@@ -2458,6 +2613,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">Nyon</SimpleData>
+		<SimpleData name="orientation">232</SimpleData>
 		<SimpleData name="moderncountry">Switzerland</SimpleData>
 		<SimpleData name="latintoponym">Colonia Iulia Equestris</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
@@ -2468,10 +2624,15 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Bern</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="capacity">{ &quot;quantity&quot;: 1946, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 42.600000, &quot;exterior-minor&quot;: 38.500000, &quot;arena-major&quot;: 27.600000, &quot;arena-minor&quot;: 23.500000, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
+		<SimpleData name="golvinid">42</SimpleData>
 		<SimpleData name="label">Bern</SimpleData>
+		<SimpleData name="orientation">210</SimpleData>
 		<SimpleData name="moderncountry">Switzerland</SimpleData>
 		<SimpleData name="latintoponym">Bremodorum</SimpleData>
+		<SimpleData name="wikipedia">[ &quot;https:\/\/commons.wikimedia.org\/wiki\/File:Engehalbinsel_Römertheater_von_oben.jpg&quot; ]</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>7.451179,46.975715,547</coordinates></Point>
@@ -2500,6 +2661,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 80, &quot;exterior-minor&quot;: 65, &quot;arena-major&quot;: 43, &quot;arena-minor&quot;: 32, &quot;source&quot;: &quot;http:\/\/maps.google.com&quot; }</SimpleData>
 		<SimpleData name="label">Burnum</SimpleData>
+		<SimpleData name="orientation">201</SimpleData>
 		<SimpleData name="moderncountry">Croatia</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 	</SchemaData></ExtendedData>
@@ -2540,6 +2702,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">Bosra</SimpleData>
+		<SimpleData name="orientation">199</SimpleData>
 		<SimpleData name="moderncountry">Syria</SimpleData>
 		<SimpleData name="latintoponym">Nova Trajana Bostra</SimpleData>
 		<SimpleData name="visibility">partial</SimpleData>
@@ -2602,6 +2765,7 @@
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 179, &quot;arena-major&quot;: 50, &quot;arena-minor&quot;: 41 }</SimpleData>
 		<SimpleData name="exclude">1</SimpleData>
 		<SimpleData name="label">Grand</SimpleData>
+		<SimpleData name="orientation">245</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 	</SchemaData></ExtendedData>
@@ -2666,6 +2830,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 56, &quot;arena-major&quot;: 25 }</SimpleData>
 		<SimpleData name="label">Drevant</SimpleData>
+		<SimpleData name="orientation">203</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="latintoponym">Derventum</SimpleData>
 		<SimpleData name="see">http://commons.wikimedia.org/wiki/File:Drevant_Amphitheatre_Gallo-Romain.JPG</SimpleData>
@@ -2682,6 +2847,7 @@
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 76, &quot;exterior-minor&quot;: 65.200000, &quot;arena-major&quot;: 51.500000, &quot;arena-minor&quot;: 40.700000, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
 		<SimpleData name="label">Seressi</SimpleData>
+		<SimpleData name="orientation">159</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="latintoponym">Seressi</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
@@ -2695,11 +2861,12 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 6500 }</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 61, &quot;exterior-minor&quot;: 52, &quot;arena-major&quot;: 30, &quot;arena-minor&quot;: 21 }</SimpleData>
+		<SimpleData name="golvinid">67</SimpleData>
 		<SimpleData name="label">Chemtou</SimpleData>
+		<SimpleData name="orientation">176</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="latintoponym">Simmithu</SimpleData>
 		<SimpleData name="comment">The amphitheater is often said to have been built to provide entertainment for prisoners working inthe local quarries. Reference needed.</SimpleData>
-		<SimpleData name="golvinid">67</SimpleData>
 		<SimpleData name="visibility">poor</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>8.580552,36.490426,171</coordinates></Point>
@@ -2711,11 +2878,12 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 4400 }</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 80, &quot;exterior-minor&quot;: 58, &quot;arena-major&quot;: 67, &quot;arena-minor&quot;: 43, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="golvinid">185</SimpleData>
 		<SimpleData name="label">Bekalta</SimpleData>
+		<SimpleData name="orientation">210</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/324827</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="latintoponym">Thapsus</SimpleData>
-		<SimpleData name="golvinid">185</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>11.042371,35.619149,3</coordinates></Point>
@@ -2728,6 +2896,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 56, &quot;exterior-minor&quot;: 38, &quot;arena-major&quot;: 38, &quot;arena-minor&quot;: 22 }</SimpleData>
 		<SimpleData name="label">Sidi bou Arkoub</SimpleData>
+		<SimpleData name="orientation">224</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/315211</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="latintoponym">Thimisua</SimpleData>
@@ -2743,6 +2912,7 @@
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 61, &quot;exterior-minor&quot;: 40 }</SimpleData>
 		<SimpleData name="label">Genzano</SimpleData>
+		<SimpleData name="orientation">218</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/422838</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="bibliography">http://www.fastionline.org/record_view.php?fst_cd=AIAC_2694</SimpleData>
@@ -2759,11 +2929,12 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 3000 }</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 57, &quot;exterior-minor&quot;: 42, &quot;arena-major&quot;: 43, &quot;arena-minor&quot;: 28, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="golvinid">64</SimpleData>
 		<SimpleData name="label">Ain Hedjah</SimpleData>
+		<SimpleData name="orientation">98</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/314857</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="latintoponym">Agbia</SimpleData>
-		<SimpleData name="golvinid">64</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>9.230632,36.391031,412</coordinates></Point>
@@ -2776,11 +2947,12 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 17100 }</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 118, &quot;exterior-minor&quot;: 98, &quot;arena-major&quot;: 80, &quot;arena-minor&quot;: 60, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="golvinid">61</SimpleData>
 		<SimpleData name="label">Utica</SimpleData>
+		<SimpleData name="orientation">137</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/315248</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="latintoponym">Utica</SimpleData>
-		<SimpleData name="golvinid">61</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>10.057188,37.052472,29</coordinates></Point>
@@ -2791,11 +2963,11 @@
 		<SimpleData name="amphitheatrum">http://www.amphi-theatrum.de/1341.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
+		<SimpleData name="golvinid">69</SimpleData>
 		<SimpleData name="label">Thuburbo Minus</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/315219</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="latintoponym">Thuburbo Minus</SimpleData>
-		<SimpleData name="golvinid">69</SimpleData>
 		<SimpleData name="visibility">poor</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>9.835436,36.827708,43</coordinates></Point>
@@ -2808,11 +2980,12 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 7500 }</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 74, &quot;exterior-minor&quot;: 61, &quot;arena-major&quot;: 46, &quot;arena-minor&quot;: 33, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="golvinid">121</SimpleData>
 		<SimpleData name="label">Thuburbo Maius</SimpleData>
+		<SimpleData name="orientation">213</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/315220</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="latintoponym">Thuburbo Maius</SimpleData>
-		<SimpleData name="golvinid">121</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>9.905668,36.398153,201</coordinates></Point>
@@ -2837,11 +3010,12 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 5400 }</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 69, &quot;exterior-minor&quot;: 53, &quot;arena-major&quot;: 48, &quot;arena-minor&quot;: 32, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="golvinid">70</SimpleData>
 		<SimpleData name="label">Ulissipara</SimpleData>
+		<SimpleData name="orientation">228</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/324839</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="latintoponym">Ulissipara</SimpleData>
-		<SimpleData name="golvinid">70</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>10.441193,35.958583,21</coordinates></Point>
@@ -2854,11 +3028,12 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 11600 }</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 90, &quot;exterior-minor&quot;: 86, &quot;arena-major&quot;: 58, &quot;arena-minor&quot;: 54, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="golvinid">118</SimpleData>
 		<SimpleData name="label">Acholla</SimpleData>
+		<SimpleData name="orientation">176</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/324653</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="latintoponym">Acholla</SimpleData>
-		<SimpleData name="golvinid">118</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>11.018944,35.075962,2</coordinates></Point>
@@ -2870,12 +3045,13 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 4398, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="chronogroup">Late Second Century</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 77, &quot;exterior-minor&quot;: 55, &quot;arena-major&quot;: 57, &quot;arena-minor&quot;: 35, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
+		<SimpleData name="golvinid">130</SimpleData>
 		<SimpleData name="label">Tipasa</SimpleData>
+		<SimpleData name="orientation">254</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/295363</SimpleData>
 		<SimpleData name="moderncountry">Algeria</SimpleData>
 		<SimpleData name="latintoponym">Tipasentium</SimpleData>
 		<SimpleData name="lastuse">{ &quot;date&quot;: 400, &quot;source&quot;: &quot;Bomgardner: 156&quot; }</SimpleData>
-		<SimpleData name="golvinid">130</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 		<SimpleData name="romansites">http://www.romansites.com/anfiteatri/tipasa_tipasentium.htm</SimpleData>
 	</SchemaData></ExtendedData>
@@ -2889,12 +3065,12 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 8300 }</SimpleData>
 		<SimpleData name="chronogroup">Late Second Century</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 75, &quot;exterior-minor&quot;: 66, &quot;arena-major&quot;: 34, &quot;arena-minor&quot;: 30, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="golvinid">117</SimpleData>
 		<SimpleData name="label">Bulla Regia</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/314912</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="latintoponym">Bulla Regia</SimpleData>
 		<SimpleData name="comment">Location approximate.</SimpleData>
-		<SimpleData name="golvinid">117</SimpleData>
 		<SimpleData name="visibility">poor</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>8.762598,36.564169,227</coordinates></Point>
@@ -2906,12 +3082,12 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 45, &quot;arena-minor&quot;: 36, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
+		<SimpleData name="golvinid">298</SimpleData>
 		<SimpleData name="label">Pupput</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/315121</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="latintoponym">Pupput</SimpleData>
 		<SimpleData name="comment">So far, available information is incomplete. Site as proxy for location.</SimpleData>
-		<SimpleData name="golvinid">298</SimpleData>
 		<SimpleData name="visibility">poor</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>10.5626,36.3929,4</coordinates></Point>
@@ -2925,6 +3101,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 100, &quot;exterior-minor&quot;: 80, &quot;arena-major&quot;: 70, &quot;arena-minor&quot;: 50, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
 		<SimpleData name="label">Sicca Veneria</SimpleData>
+		<SimpleData name="orientation">210</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/315152</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="latintoponym">Sicca Veneria</SimpleData>
@@ -2941,12 +3118,13 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 6300 }</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 61.200000, &quot;exterior-minor&quot;: 51.500000, &quot;arena-major&quot;: 30.800000, &quot;arena-minor&quot;: 21, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="golvinid">62</SimpleData>
 		<SimpleData name="label">Thibari</SimpleData>
+		<SimpleData name="orientation">152</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/315201</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="latintoponym">Thibari</SimpleData>
 		<SimpleData name="comment">Not located.</SimpleData>
-		<SimpleData name="golvinid">62</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>9.083712,36.504836,282</coordinates></Point>
@@ -2959,6 +3137,7 @@
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="exclude">1</SimpleData>
 		<SimpleData name="label">Portus Oval Structure</SimpleData>
+		<SimpleData name="orientation">219</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/423012</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Portus</SimpleData>
@@ -2976,6 +3155,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 48, &quot;arena-minor&quot;: 31 }</SimpleData>
 		<SimpleData name="label">Montbouy</SimpleData>
+		<SimpleData name="orientation">164</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/138468</SimpleData>
 		<SimpleData name="moderncountry">France</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
@@ -3003,6 +3183,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">Hisarya</SimpleData>
+		<SimpleData name="orientation">174</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/216792</SimpleData>
 		<SimpleData name="moderncountry">Bulgaria</SimpleData>
 		<SimpleData name="latintoponym">Diocletianopolis</SimpleData>
@@ -3033,12 +3214,12 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 2300 }</SimpleData>
 		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 56, &quot;exterior-minor&quot;: 37, &quot;arena-major&quot;: 44, &quot;arena-minor&quot;: 26, &quot;source&quot;: &quot;Bomgardner&quot; }</SimpleData>
+		<SimpleData name="golvinid">46</SimpleData>
 		<SimpleData name="label">Tigava Castra</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/295357</SimpleData>
 		<SimpleData name="moderncountry">Algeria</SimpleData>
 		<SimpleData name="latintoponym">Tigava Castra</SimpleData>
 		<SimpleData name="comment">Specific location not known.</SimpleData>
-		<SimpleData name="golvinid">46</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>1.651389,36.23195,151</coordinates></Point>
@@ -3049,12 +3230,12 @@
 		<SimpleData name="amphitheatrum">http://www.amphi-theatrum.de/1316.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="golvinid">65</SimpleData>
 		<SimpleData name="label">Carpis</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/314920</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="latintoponym">Carpis</SimpleData>
 		<SimpleData name="comment">Specific location not known.</SimpleData>
-		<SimpleData name="golvinid">65</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>10.557673,36.760727,29</coordinates></Point>
@@ -3081,6 +3262,7 @@
 		<SimpleData name="chronogroup">Julio-Claudian</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 104, &quot;exterior-minor&quot;: 78, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Augusta Bagiennorum</SimpleData>
+		<SimpleData name="orientation">237</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/383578</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Augusta Bagiennorum</SimpleData>
@@ -3097,6 +3279,7 @@
 		<SimpleData name="chronogroup">Julio-Claudian</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 150, &quot;exterior-minor&quot;: 115, &quot;source&quot;: &quot;http:\/\/maps.google.com\/&quot; }</SimpleData>
 		<SimpleData name="label">Aosta</SimpleData>
+		<SimpleData name="orientation">193</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/383579</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Augusta Praetoria</SimpleData>
@@ -3113,12 +3296,13 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 7986, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="chronogroup">Augustan</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 88, &quot;exterior-minor&quot;: 66.400000, &quot;arena-major&quot;: 54.300000, &quot;arena-minor&quot;: 32.700000, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
+		<SimpleData name="golvinid">146</SimpleData>
 		<SimpleData name="label">Falerii Novi</SimpleData>
+		<SimpleData name="orientation">268</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/413125</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="citywall">outside</SimpleData>
 		<SimpleData name="latintoponym">Falerii Novi</SimpleData>
-		<SimpleData name="golvinid">146</SimpleData>
 		<SimpleData name="bibliography">http://dx.doi.org/10.1017/S0068246200000799</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 		<SimpleData name="rockcut">1</SimpleData>
@@ -3133,12 +3317,13 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 13967, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="chronogroup">Hadrianic</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 117.720000, &quot;exterior-minor&quot;: 88.080000, &quot;arena-major&quot;: 73.760000, &quot;arena-minor&quot;: 42.520000 }</SimpleData>
+		<SimpleData name="golvinid">172</SimpleData>
 		<SimpleData name="label">Rimini</SimpleData>
+		<SimpleData name="orientation">230</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/393379</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Ariminum</SimpleData>
 		<SimpleData name="comment">Date on the basis of coins of Hadrian found in foundations.</SimpleData>
-		<SimpleData name="golvinid">172</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 		<SimpleData name="vici">http://vici.org/vici/4205</SimpleData>
 		<SimpleData name="citywalls">inside</SimpleData>
@@ -3152,12 +3337,12 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 11914, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 108, &quot;exterior-minor&quot;: 81, &quot;arena-major&quot;: 67, &quot;arena-minor&quot;: 40, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
+		<SimpleData name="golvinid">56</SimpleData>
 		<SimpleData name="label">Imola</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/393424</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Forum Cornelii</SimpleData>
 		<SimpleData name="comment">Briefly mentioned in PECS via Perseus, with dimensions. Said to have been covered.</SimpleData>
-		<SimpleData name="golvinid">56</SimpleData>
 		<SimpleData name="bibliography">http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0006%3Aalphabetic+letter%3DF%3Aentry+group%3D2%3Aentry%3Dforum-cornelii</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
 	</SchemaData></ExtendedData>
@@ -3172,6 +3357,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 98, &quot;exterior-minor&quot;: 77, &quot;arena-major&quot;: 58, &quot;arena-minor&quot;: 37, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Venosa</SimpleData>
+		<SimpleData name="orientation">138</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/393424</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Venusia</SimpleData>
@@ -3187,6 +3373,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 73.930000, &quot;exterior-minor&quot;: 56.160000 }</SimpleData>
 		<SimpleData name="label">Teramo</SimpleData>
+		<SimpleData name="orientation">197</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/413179</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Interamnia Praetuttiorum</SimpleData>
@@ -3201,11 +3388,12 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 2901, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="chronogroup">Julio-Claudian</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 54.850000, &quot;exterior-minor&quot;: 44.100000, &quot;arena-major&quot;: 37, &quot;arena-minor&quot;: 25.500000, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
+		<SimpleData name="golvinid">14</SimpleData>
 		<SimpleData name="hypogeum">1</SimpleData>
 		<SimpleData name="label">Velleia</SimpleData>
+		<SimpleData name="orientation">205</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Veleia</SimpleData>
-		<SimpleData name="golvinid">14</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 		<SimpleData name="chronocertainty">possible</SimpleData>
 	</SchemaData></ExtendedData>
@@ -3218,10 +3406,11 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 6318, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="chronogroup">First Century</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 74.500000, &quot;exterior-minor&quot;: 59.400000, &quot;arena-major&quot;: 44.600000, &quot;arena-minor&quot;: 28.400000, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
+		<SimpleData name="golvinid">26</SimpleData>
 		<SimpleData name="label">Ordona</SimpleData>
+		<SimpleData name="orientation">171</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Herdoniae</SimpleData>
-		<SimpleData name="golvinid">26</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 		<SimpleData name="chronocertainty">possible</SimpleData>
 		<SimpleData name="province">Apulia</SimpleData>
@@ -3236,10 +3425,11 @@
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 6251, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 80, &quot;exterior-minor&quot;: 53, &quot;arena-major&quot;: 44, &quot;arena-minor&quot;: 24, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
+		<SimpleData name="golvinid">282</SimpleData>
 		<SimpleData name="label">Bevagna</SimpleData>
+		<SimpleData name="orientation">248</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Mevania</SimpleData>
-		<SimpleData name="golvinid">282</SimpleData>
 		<SimpleData name="bibliography">http://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Europe/Italy/Umbria/Perugia/Bevagna/Bevagna/Roman/amphitheatre.html</SimpleData>
 		<SimpleData name="visibility">poor</SimpleData>
 	</SchemaData></ExtendedData>
@@ -3281,6 +3471,7 @@
 		<SimpleData name="dimensions">{ &quot;arena-major&quot;: 59, &quot;arena-minor&quot;: 30, &quot;source&quot;: &quot;http:\/\/maps.google.com&quot;, &quot;comment&quot;: &quot;Arena not regular oval. Measurements intended as a useful approximation.&quot; }</SimpleData>
 		<SimpleData name="exclude">1</SimpleData>
 		<SimpleData name="label">Aphrodisias</SimpleData>
+		<SimpleData name="orientation">269</SimpleData>
 		<SimpleData name="moderncountry">Turkey</SimpleData>
 		<SimpleData name="latintoponym">Aphrodisias</SimpleData>
 		<SimpleData name="comment">Inserted into east end of pre-existing stadium.</SimpleData>
@@ -3296,6 +3487,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 68, &quot;source&quot;: &quot;http:\/\/maps.google.com&quot; }</SimpleData>
 		<SimpleData name="label">Djerba</SimpleData>
+		<SimpleData name="orientation">219</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="latintoponym">Meninge</SimpleData>
 		<SimpleData name="comment">As confirmed by A. Rabinowitz. Pending bibliography check, ext. major approximate.</SimpleData>
@@ -3312,6 +3504,7 @@
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 40, &quot;source&quot;: &quot;http:\/\/maps.google.com&quot; }</SimpleData>
 		<SimpleData name="exclude">1</SimpleData>
 		<SimpleData name="label">Zagarolo</SimpleData>
+		<SimpleData name="orientation">152</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 		<SimpleData name="dare">http://dare.ht.lu.se/places/24338</SimpleData>
@@ -3366,6 +3559,7 @@
 		<SimpleData name="chronogroup">First Century</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 95, &quot;exterior-minor&quot;: 73, &quot;arena-major&quot;: 65, &quot;arena-minor&quot;: 36, &quot;source&quot;: &quot;http:\/\/maps.google.com&quot; }</SimpleData>
 		<SimpleData name="label">Terni</SimpleData>
+		<SimpleData name="orientation">120</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 		<SimpleData name="dare">http://dare.ht.lu.se/places/23987</SimpleData>
@@ -3378,6 +3572,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 115, &quot;exterior-minor&quot;: 85, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Spoleto</SimpleData>
+		<SimpleData name="orientation">188</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 		<SimpleData name="dare">http://dare.ht.lu.se/places/24631</SimpleData>
@@ -3390,9 +3585,10 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 3926, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 70, &quot;exterior-minor&quot;: 50, &quot;arena-major&quot;: 50, &quot;arena-minor&quot;: 30, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
-		<SimpleData name="label">Aquae Neri</SimpleData>
-		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="golvinid">20</SimpleData>
+		<SimpleData name="label">Aquae Neri</SimpleData>
+		<SimpleData name="orientation">124</SimpleData>
+		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>2.658224,46.289891,489</coordinates></Point>
@@ -3404,6 +3600,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 65, &quot;exterior-minor&quot;: 55, &quot;source&quot;: &quot;http:\/\/maps.google.com&quot;, &quot;comment&quot;: &quot;Very approximate&quot; }</SimpleData>
 		<SimpleData name="label">Aurelium Commodianum</SimpleData>
+		<SimpleData name="orientation">249</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 		<SimpleData name="dare">http://dare.ht.lu.se/places/24707</SimpleData>
@@ -3416,6 +3613,7 @@
 		<SimpleData name="title">Jebel Moraba Amphitheater</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="label">Jebel Moraba</SimpleData>
+		<SimpleData name="orientation">144</SimpleData>
 		<SimpleData name="moderncountry">Tunisia</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
 		<SimpleData name="dare">http://dare.ht.lu.se/places/24708</SimpleData>
@@ -3428,10 +3626,10 @@
 		<SimpleData name="amphitheatrum">http://www.amphi-theatrum.de/1525.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 88.800000, &quot;exterior-minor&quot;: 80 }</SimpleData>
+		<SimpleData name="golvinid">99</SimpleData>
 		<SimpleData name="label">Falerone</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Falerio</SimpleData>
-		<SimpleData name="golvinid">99</SimpleData>
 		<SimpleData name="visibility">poor</SimpleData>
 		<SimpleData name="dare">http:// dare.ht.lu.se/places/24593</SimpleData>
 		<SimpleData name="chronogrp">Julio-Claudian</SimpleData>
@@ -3456,10 +3654,10 @@
 		<SimpleData name="amphitheatrum">http://www.amphi-theatrum.de/1531.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 78, &quot;exterior-minor&quot;: 57 }</SimpleData>
+		<SimpleData name="golvinid">106</SimpleData>
 		<SimpleData name="label">Frosinone</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Frusino</SimpleData>
-		<SimpleData name="golvinid">106</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
 		<SimpleData name="dare">http://dare.ht.lu.se/places/23945</SimpleData>
 		<SimpleData name="chronogrp">Imperial</SimpleData>

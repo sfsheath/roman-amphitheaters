@@ -63,6 +63,7 @@
         "hypogeum": false,
         "label": "Dura",
         "military": true,
+        "orientation": 245,
         "pleiades": "http://pleiades.stoa.org/places/893989",
         "moderncountry": "Syria"
       },
@@ -95,6 +96,7 @@
         "hypogeum": true,
         "label": "Arles",
         "latintoponym": "Arelate",
+        "orientation": 245,
         "pleiades": "http://pleiades.stoa.org/places/148217",
         "moderncountry": "France",
         "see":"http://pleiades.stoa.org/places/148217/location-of-roman-amphitheater",
@@ -131,6 +133,7 @@
         "label": "Lyon",
         "latintoponym": "Lugdunum", 
         "moderncountry": "France",
+        "orientation": 145,
         "pleiades": "http://pleiades.stoa.org/places/167717",
         "wikipedia": "http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls"
       },
@@ -152,6 +155,7 @@
         "created":81,
         "exclude": true,
         "label": "Ludus Magnus",
+        "orientation": 105,
         "pleiades": "http://pleiades.stoa.org/places/423025",
         "moderncountry": "Italy",
         "wikipedia":"http://en.wikipedia.org/wiki/Ludus_Magnus"
@@ -184,6 +188,7 @@
         "golvinid": "152",
         "label": "Colosseum",
         "lastuse": {"date": 523, "source": "Letter of Theoderic to Flavius Anicius Maximus (Cassiordorus, Variae V.42)"},
+        "orientation": 110,
         "pleiades": "http://pleiades.stoa.org/places/423025",
         "moderncountry": "Italy",
         "see":"http://pleiades.stoa.org/places/285857974/centerpoint-of-amphitheatrum-flavium",
@@ -217,6 +222,7 @@
         "golvinid": "189",
         "label": "Amph. Castrense",
         "moderncountry": "Italy",
+        "orientation": 188,
         "pleiades": "http://pleiades.stoa.org/places/423025",
         "wikipedia":"http://en.wikipedia.org/wiki/Amphitheatrum_Castrense"
       },
@@ -247,6 +253,7 @@
         "label": "Eleutheropolis",
         "lastuse": {"date": 363, "comment": "Need a reference but end of use attributed to 363 earthquake."},
         "moderncountry": "Israel",
+        "orientation": 187,
         "pleiades": "http://pleiades.stoa.org/places/687854",
         "youtube": ["https://www.youtube.com/watch?v=bA6YNf8ZwlI"]
       },
@@ -279,6 +286,7 @@
         "label": "Pompeii",
         "lastuse":{"date":79, "comment": "Last use dated to eruption of Vesuvius that covered the town."},
         "moderncountry": "Italy",
+        "orientation": 150,
         "pleiades": "http://pleiades.stoa.org/places/433032",
         "see":["https://3dwarehouse.sketchup.com/model.html?redirect=1&mid=6971b010096197d8dfd89dd71a555b12","http://pleiades.stoa.org/places/433032/amphitheater-of-pompeii"],
         "welchid":"1",
@@ -325,6 +333,7 @@
         "label": "Mérida",
         "latintoponym": "Emerita Augusta",
         "moderncountry": "Spain",
+        "orientation": 135,
         "pleiades": "http://pleiades.stoa.org/places/256155",
         "wikipedia":"http://en.wikipedia.org/wiki/Mérida_amphitheatre",
         "youtube": ["https://www.youtube.com/watch?v=g4gNhPD2dV4","https://www.youtube.com/watch?v=T3QufLdGrU0"]
@@ -361,6 +370,7 @@
         "latintoponym": "Trimontium",
         "military": true,
         "moderncountry": "United Kingdom",
+        "orientation": 126,
         "pleiades": "http://pleiades.stoa.org/places/89304"
       },
       "geometry":{
@@ -416,6 +426,7 @@
         },
         "label": "Cumae",
         "moderncountry": "Italy",
+        "orientation": 202,
         "pleiades": "http://pleiades.stoa.org/places/432808",
         "see":"http://pleiades.stoa.org/places/432808/location-of-roman-amphitheater",
         "welchid":"4"
@@ -449,6 +460,7 @@
         "label": "Pozzuoli (Flavian)",
         "latintoponym": "Puteoli",
         "moderncountry": "Italy",
+        "orientation": 126,
         "period": "Vespasian",
         "pleiades": "http://pleiades.stoa.org/places/432815",
         "wikipedia":"http://en.wikipedia.org/wiki/Flavian_Amphitheater_(Pozzuoli)",
@@ -476,6 +488,7 @@
         "created":-100,
         "label": "Pozzuoli (Early)",
         "moderncountry": "Italy",
+        "orientation": 218,
         "pleiades": "http://pleiades.stoa.org/places/432815"
       },
       "geometry":{
@@ -508,6 +521,7 @@
         "label": "Syracuse",
         "latintoponym": "Syracusae",
         "moderncountry": "Italy",
+        "orientation": 144,
         "pleiades": "http://pleiades.stoa.org/places/462503",
         "wikipedia": "http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Siracusa",
         "youtube": ["https://www.youtube.com/watch?v=aUcjHzMZCeY"]
@@ -539,6 +553,7 @@
         },
         "label": "Carthage",
         "moderncountry": "Tunisia",
+        "orientation": 212,
         "pleiades": "http://pleiades.stoa.org/places/314921",
         "wikipedia": "http://en.wikipedia.org/wiki/Carthage_amphitheatre",
         "youtube": ["https://www.youtube.com/watch?v=oDiCqZCu06I"]
@@ -596,6 +611,7 @@
          "golvinid": "126",
         "label": "Corinth",
         "moderncountry": "Greece",
+        "orientation": 180,
         "pleiades": "http://pleiades.stoa.org/places/570182",
         "see":"http://corinth.sas.upenn.edu/gisamphitheater.html"
       },
@@ -656,6 +672,7 @@
         "golvinid": "39",
         "label": "Porolissum",
         "moderncountry": "Romania",
+        "orientation": 122,
         "pleiades": "http://pleiades.stoa.org/places/207361"
       },
       "geometry":{
@@ -707,6 +724,7 @@
         "label": "Carnuntum (Mil.)",
         "military": true,
         "moderncountry": "Austria",
+        "orientation": 231,
         "pleiades": "http://pleiades.stoa.org/places/128376"
       },
       "geometry":{
@@ -758,6 +776,7 @@
          "golvinid": "123",
         "label": "Carnuntum (Civ.)",
         "moderncountry": "Austria",
+        "orientation": 193,
         "pleiades": "http://pleiades.stoa.org/places/128376",
         "see": "https://www.academia.edu/3791286/The_amphitheatre_of_Carnuntum_Towards_a_complete_3D_model_using_airborne_Structure_from_Motion_and_dense_image_matching",
         "youtube": ["https://www.youtube.com/watch?v=Z5TcbJdyEns"]
@@ -790,6 +809,7 @@
         "golvinid": "174",
         "label": "Leptis Magna",
         "moderncountry": "Libya",
+        "orientation": 117,
         "pleiades": "http://pleiades.stoa.org/places/344448"
       },
       "geometry":{
@@ -819,6 +839,7 @@
         "label": "Empuries",
         "latintoponym": "Emporiae",
         "moderncountry": "Spain",
+        "orientation": 248,
         "pleiades": "http://pleiades.stoa.org/places/246382"
       },
       "geometry":{
@@ -846,6 +867,7 @@
          },
         "label": "Tarragona",
         "moderncountry": "Spain",
+        "orientation": 237,
         "pleiades": "http://pleiades.stoa.org/places/246349",
         "youtube": ["https://www.youtube.com/watch?v=Z-1Qrk5qLAE",
           "https://www.youtube.com/watch?v=puw8pLl9vJU"]
@@ -879,6 +901,7 @@
         "hypogeum": true, 
         "label": "Cagliari",
         "latintoponym": "Carales",
+        "orientation": 235,
         "periodo": "http://n2t.net/ark:/99152/p0wf3wdp4xt",
         "pleiades": "http://pleiades.stoa.org/places/471899",
         "moderncountry": "Italy",
@@ -910,6 +933,7 @@
          },
         "hypogeum": true,
         "label": "Italica",
+        "orientation": 264,
         "pleiades": "http://pleiades.stoa.org/places/256231",
         "moderncountry": "Spain",
         "see":"http://pleiades.stoa.org/places/256231/roman-amphitheater-of-italica"
@@ -939,6 +963,7 @@
          },
         "label": "Segobria",
         "moderncountry": "Spain",
+        "orientation": 235,
         "pleiades": "http://pleiades.stoa.org/places/266036",
         "see":"http://pleiades.stoa.org/places/266036/location-of-roman-amphitheater"
       },
@@ -966,6 +991,7 @@
           "comment": "Estimates from portion visible on Google Earth."
          },
         "label": "Catinia",
+        "orientation": 159,
         "pleiades": "http://pleiades.stoa.org/places/462270",
         "moderncountry": "Italy"
       },
@@ -995,6 +1021,7 @@
           "comment": "Estimates from portion visible on Google Earth."
          },
         "label": "Paestum",
+        "orientation": 270,
         "pleiades": "http://pleiades.stoa.org/places/442733",
         "moderncountry": "Italy",
         "welchid": "10"
@@ -1023,6 +1050,7 @@
          },
         "label": "Luna",
         "moderncountry": "Italy",
+        "orientation": 216,
         "pleiades": "http://pleiades.stoa.org/places/403235"
       },
       "geometry":{
@@ -1043,6 +1071,7 @@
         "chronogroup": "Imperial",
         "label": "Casinum",
         "moderncountry": "Italy",
+        "orientation": 215,
         "pleiades": "http://pleiades.stoa.org/places/432764"
       },
       "geometry":{
@@ -1069,6 +1098,7 @@
         },
         "label": "Viminacium",
         "moderncountry": "Serbia",
+        "orientation": 108,
         "pleiades": "http://pleiades.stoa.org/places/207549"
       },
       "geometry":{
@@ -1090,6 +1120,7 @@
         "chronogroup": "Imperial",
         "label": "Flavia Solva", 
         "moderncountry": "Austria",
+        "orientation": 189,
         "pleiades": "http://pleiades.stoa.org/places/197273"
       },
       "geometry":{
@@ -1119,6 +1150,7 @@
          },
         "label": "Rusellae",
         "moderncountry": "Italy", 
+        "orientation": 261,
         "pleiades": "http://pleiades.stoa.org/places/413288",
         "pleiadesspecific":"http://pleiades.stoa.org/places/413288/location-of-roman-amphitheater",
         "wikipedia": "http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Roselle"
@@ -1141,6 +1173,7 @@
         "chronogroup": "Flavian",
         "label": "Paris",
         "latintoponym": "Lutetia Parisiorum",
+        "orientation": 160,
         "pleiades": "http://pleiades.stoa.org/places/109126",
         "moderncountry": "France",
         "wikipedia": "http://en.wikipedia.org/wiki/Arènes_de_Lutèce",
@@ -1171,6 +1204,7 @@
          },
         "label": "Octodorus",
         "moderncountry": "Switzerland",
+        "orientation": 230,
         "pleiades": "http://pleiades.stoa.org/places/167859"
       },
       "geometry":{
@@ -1196,6 +1230,7 @@
          },
         "label": "Cyrene",
         "moderncountry": "Libya",
+        "orientation": 109,
         "pleiades": "http://pleiades.stoa.org/places/373778"
       },
       "geometry":{
@@ -1224,6 +1259,7 @@
         "hypogeum": true,
         "label": "Libarna",
         "moderncountry": "Italy",
+        "orientation": 140,
         "pleiades": "http://pleiades.stoa.org/places/383694",
         "source":"http://pleiades.stoa.org/places/383694/location-of-roman-amphitheater"
       },
@@ -1253,6 +1289,7 @@
         "golvinid": "12",
         "label": "Luceria",
         "moderncountry": "Italy",
+        "orientation": 109,
         "pleiades": "http://pleiades.stoa.org/places/442640"
       },
       "geometry":{
@@ -1282,6 +1319,7 @@
         "label": "Abella",
         "latintoponym": "Abella",
         "moderncountry": "Italy",
+        "orientation": 216,
         "pleiades": "http://pleiades.stoa.org/places/432617"
       },
       "geometry":{
@@ -1313,6 +1351,7 @@
         "label": "Nimes",
         "latintoponym": "Nemausus",
         "moderncountry": "France",
+        "orientation": 241,
         "pleiades": "http://pleiades.stoa.org/places/148142",
         "youtube": ["https://www.youtube.com/watch?v=c384XQlnINo"]
       },
@@ -1342,6 +1381,7 @@
          },
         "label": "Charterhouse",
         "moderncountry": "United Kingdom",
+        "orientation": 270,
         "pleiades": "http://pleiades.stoa.org/places/79534",
         "source":"http://pleiades.stoa.org/places/79534/location-of-roman-amphitheater"
       },
@@ -1370,6 +1410,7 @@
          },
         "latintoponym": "Deva Victrix",
         "moderncountry": "United Kingdom",
+        "orientation": 156,
         "pleiades": "http://pleiades.stoa.org/places/79420"
       },
       "geometry":{
@@ -1391,6 +1432,7 @@
         "chronogroup": "Second Century",
         "label": "Gennes",
         "moderncountry": "France",
+        "orientation": 239,
         "pleiades": "http://pleiades.stoa.org/places/138371"
       },
       "geometry":{
@@ -1412,6 +1454,7 @@
         "exclude": true,
         "label": "Scythopolis",
         "moderncountry": "Israel",
+        "orientation": 98,
         "pleiades": "http://pleiades.stoa.org/places/678378"
       },
       "geometry":{
@@ -1441,6 +1484,7 @@
         "italianregion": "region ii",
         "label": "Scylletium",
         "moderncountry": "Italy",
+        "orientation": 204,
         "pleiades": "http://pleiades.stoa.org/places/452439"
       },
       "geometry":{
@@ -1472,6 +1516,7 @@
         "label": "Bordeaux",
         "latintoponym": "Burdigala",
         "moderncountry": "France",
+        "orientation": 139,
         "pleiades": "http://pleiades.stoa.org/places/138248",
         "see": "http://www-ausonius.u-bordeaux3.fr/index.php/axes-de-recherche/espaces-fabrique-usages-representations/9-axes/97-le-palais-gallien-de-bordeaux-etude-restitution-valorisation"
       },
@@ -1505,6 +1550,7 @@
         "label": "Uthina",
         "latintoponym": "Uthina",
         "moderncountry": "Tunisia",
+        "orientation": 238,
         "pleiades": "http://pleiades.stoa.org/places/315247"
       },
       "geometry":{
@@ -1525,6 +1571,7 @@
         "chronogroup": "Imperial",
         "label": "Carthago Nova",
         "moderncountry": "Spain",
+        "orientation": 166,
         "pleiades": "http://pleiades.stoa.org/places/265849",
         "visibility": "none"
       },
@@ -1552,6 +1599,7 @@
          },
         "label": "Virunum",
         "moderncountry": "Austria",
+        "orientation": 194,
         "pleiades": "http://pleiades.stoa.org/places/197583",
         "pleiadesspecific":"http://pleiades.stoa.org/places/197583/location-of-roman-amphitheater"
       },
@@ -1581,6 +1629,7 @@
         "golvinid": "80",
         "label": "Carsulae",
         "moderncountry": "Italy",
+        "orientation": 100,
         "pleiades": "http://pleiades.stoa.org/places/413065",
         "source":"http://pleiades.stoa.org/places/413065/location-of-roman-amphitheater"
       },
@@ -1603,6 +1652,7 @@
         "label": "Florence",
         "latintoponym": "Florentia",
         "moderncountry": "Italy",
+        "orientation": 205,
         "pleiades": "http://pleiades.stoa.org/places/413138"
       },
       "geometry":{
@@ -1631,6 +1681,7 @@
         },
         "label": "Ocriculcum",
         "moderncountry": "Italy",
+        "orientation": 173,
         "pleiades": "http://pleiades.stoa.org/places/413231",
         "source":"http://pleiades.stoa.org/places/413231/location-of-roman-amphitheater"
       },
@@ -1651,6 +1702,7 @@
         "chronogroup": "Imperial",
         "label": "Lixus",
         "moderncountry": "Morocco",
+        "orientation": 76,
         "pleiades": "http://pleiades.stoa.org/places/275666",
         "source":"http://pleiades.stoa.org/places/275666/location-of-roman-amphitheater"
       },
@@ -1681,6 +1733,7 @@
         "label": "Arezzo",
         "latintoponym": "Arretium",
         "moderncountry": "Italy",
+        "orientation": 264,
         "pleiades": "http://pleiades.stoa.org/places/413032"
       },
       "geometry":{
@@ -1707,6 +1760,7 @@
          },
         "label": "Larinum",
         "moderncountry": "Italy",
+        "orientation": 148,
         "pleiades": "http://pleiades.stoa.org/places/442629",
         "source":"http://pleiades.stoa.org/places/442629/location-of-roman-amphitheater"
       },
@@ -1727,6 +1781,7 @@
         "chronogroup": "Imperial",
         "label": "Lucus Feroniae",
         "moderncountry": "Italy",
+        "orientation": 157,
         "pleiades": "http://pleiades.stoa.org/places/413184",
         "source":"http://pleiades.stoa.org/places/413184/location-of-lucus-feroniae-amphitheater"
       },
@@ -1755,6 +1810,7 @@
         "hypogeum": true,
         "label": "Allifae",
         "moderncountry": "Italy",
+        "orientation": 213,
         "pleiades": "http://pleiades.stoa.org/places/432658"
       },
       "geometry":{
@@ -1782,6 +1838,7 @@
         "golvinid": "16",
         "label": "Cimiez",
         "latintoponym": "Cemenelum",
+        "orientation": 181,
         "moderncountry": "France"
       },
       "geometry":{
@@ -1802,6 +1859,7 @@
         "chronogroup": "Imperial",
         "label": "Forum Traiani",
         "moderncountry": "Italy",
+        "orientation": 209,
         "periodo": "http://n2t.net/ark:/99152/p0wf3wdp4xt",
         "pleiades": "http://pleiades.stoa.org/places/471947",
         "source":"http://pleiades.stoa.org/places/471947/location-of-roman-amphitheater"
@@ -1825,6 +1883,7 @@
         "label": "Lucca",
         "latintoponym": "Luca",
         "moderncountry": "Italy",
+        "orientation": 98,
         "pleiades": "http://pleiades.stoa.org/places/403234",
         "source":"http://pleiades.stoa.org/places/403234/location-of-roman-amphitheater"
       },
@@ -1846,6 +1905,7 @@
         "label": "Spello",
         "latintoponym": "Hispellum",
         "moderncountry": "Italy",
+        "orientation": 124,
         "pleiades": "http://pleiades.stoa.org/places/413170",
         "source":"http://pleiades.stoa.org/places/413170/location-of-roman-amphitheater"
       },
@@ -1874,6 +1934,7 @@
           "source": "Bomgardner"
          },
         "label": "Verona",
+        "orientation": 144,
         "pleiades": "http://pleiades.stoa.org/places/383816",
         "moderncountry": "Italy",
         "wikipedia":"https://en.wikipedia.org/wiki/Verona_Arena",
@@ -1905,6 +1966,7 @@
         "label": "Aquincum (Civilian)",
         "latintoponym": "Aquincum",
         "moderncountry": "Hungary",
+        "orientation": 253,
         "pleiades": "http://pleiades.stoa.org/places/197130",
         "created":275,
         "wikipedia": "http://en.wikipedia.org/wiki/Aquincum_Civil_Amphitheatre"
@@ -1936,6 +1998,7 @@
         "label": "Aquincum (Military)",
         "military": true,
         "moderncountry": "Hungary",
+        "orientation": 195,
         "pleiades": "http://pleiades.stoa.org/places/197130",
         "wikipedia": "http://en.wikipedia.org/wiki/Aquincum_Military_Amphitheatre"
       },
@@ -1983,6 +2046,7 @@
         "label": "Perigeux",
         "latintoponym": "Vesuna Petrucorriorum",
         "moderncountry": "France",
+        "orientation": 175,
         "pleiades": "http://pleiades.stoa.org/places/138650",
         "pleiades-specific":"http://pleiades.stoa.org/places/138650/location-of-roman-amphitheater"
       },
@@ -2005,6 +2069,7 @@
         "label": "Cividate Camuno",
         "latintoponym": "Civitas Camunnorum",
         "moderncountry": "Italy",
+        "orientation": 152,
         "pleiades": "http://pleiades.stoa.org/places/383617"
       },
       "geometry":{
@@ -2036,6 +2101,7 @@
         "label": "Grumento",
         "latintoponym": "Grumentum",
         "moderncountry": "Italy",
+        "orientation": 220,
         "pleiades": "http://pleiades.stoa.org/places/442603"
       },
       "geometry":{
@@ -2063,6 +2129,7 @@
          },
         "label": "Alba Fucens",
         "latintoponym": "Alba Fucens",
+        "orientation": 144,
         "pleiades": "http://pleiades.stoa.org/places/413005",
         "moderncountry": "Italy",
         "source":"http://pleiades.stoa.org/places/413005/amphitheater-of-alba-fucens"
@@ -2093,6 +2160,7 @@
          },
         "label": "Aug. Raurica",
         "moderncountry": "Switzerland",
+        "orientation": 121,
         "pleiades": "http://pleiades.stoa.org/places/177494",
         "source":"http://pleiades.stoa.org/places/177494/location-of-roman-amphitheater"
       },
@@ -2118,6 +2186,7 @@
         "created":-50,
         "label": "Sutrium",
         "moderncountry": "Italy",
+        "orientation": 230,
         "welchid": "15",
         "youtube": ["https://www.youtube.com/watch?v=OgHl5MT95bg","https://www.youtube.com/watch?v=Qh4YPqq_DfE"]
       },
@@ -2147,6 +2216,7 @@
         "lastuse":{"date": 350, "source": "https://www.academia.edu/4276122/35917843_Dacia_Land_of_Transylvania"},
         "latintoponym": "Ulpia Traiana Sarmizegetusa",
         "moderncountry": "Romania",
+        "orientation": 262,
         "pleiades": "http://pleiades.stoa.org/places/207527"
       },
       "geometry":{
@@ -2178,6 +2248,7 @@
         "golvinid": "181",
         "label": "Salona",
         "moderncountry": "Croatia",
+        "orientation": 93,
         "pleiades": "http://pleiades.stoa.org/places/197488",
         "source":"http://pleiades.stoa.org/places/197488/location-of-roman-amphitheater"
       },
@@ -2208,6 +2279,7 @@
         "label": "London",
         "latintoponym": "Londinium",
         "moderncountry": "United Kingdom",
+        "orientation": 90,
         "pleiades": "http://pleiades.stoa.org/places/79574",
         "youtube": ["https://www.youtube.com/watch?v=qvw9xA-hTz8"]
       },
@@ -2229,6 +2301,7 @@
         "chronogroup": "Imperial",
         "label": "Tibur",
         "moderncountry": "Italy",
+        "orientation": 197,
         "pleiades": "http://pleiades.stoa.org/places/423081"
       },
       "geometry":{
@@ -2249,6 +2322,7 @@
         "chronogroup": "Imperial",
         "label": "Caerleon",
         "moderncountry": "United Kingdom",
+        "orientation": 151,
         "pleiades": "http://pleiades.stoa.org/places/79532",
         "youtube": [
            "https://www.youtube.com/watch?v=VIT1JAOadho",
@@ -2279,6 +2353,7 @@
         },
         "label": "Telesia",
         "moderncountry": "Italy",
+        "orientation": 198,
         "pleiades": "http://pleiades.stoa.org/places/433147",
         "source":"http://pleiades.stoa.org/places/433147/location-of-roman-amphitheater",
         "welchid":"9"
@@ -2310,6 +2385,7 @@
         "label": "Urbs Salvia",
         "latintoponym": "Urbs Saglia",
         "moderncountry": "Italy",
+        "orientation": 221,
         "pleiades": "http://pleiades.stoa.org/places/413364"
       },
       "geometry":{
@@ -2340,6 +2416,7 @@
         "label": "Saintes",
         "latintoponym": "Mediolanum Santonum",
         "moderncountry": "France",
+        "orientation": 119,
         "pleiades": "http://pleiades.stoa.org/places/138458",
         "youtube": ["https://www.youtube.com/watch?v=2TCI21s-bxM"]
       },
@@ -2367,6 +2444,7 @@
         "label": "Assisi",
         "latintoponym": "Asisium",
         "moderncountry": "Italy",
+        "orientation": 225,
         "pleiades": "http://pleiades.stoa.org/places/413037",
         "youtube": ["https://www.youtube.com/watch?v=uLSmRRxtf4M"]
       },
@@ -2397,6 +2475,7 @@
             "source": "http://en.wikipedia.org/wiki/Durrës_Amphitheatre"
         },
         "label": "Durrës",
+        "orientation": 179,
         "pleiades": "http://pleiades.stoa.org/places/481818",
         "moderncountry": "Albania",
         "wikipedia": "http://en.wikipedia.org/wiki/Durrës_Amphitheatre"
@@ -2429,6 +2508,7 @@
         "label": "Lambaesis",
         "military": true,
         "moderncountry": "Algeria",
+        "orientation": 127,
         "pleiades": "http://pleiades.stoa.org/places/334570"
       },
       "geometry":{
@@ -2459,6 +2539,7 @@
         "golvinid": "119",
         "label": "Mactaris",
         "moderncountry": "Tunisia",
+        "orientation": 250,
         "pleiades": "http://pleiades.stoa.org/places/324774"
       },
       "geometry":{
@@ -2482,6 +2563,7 @@
         "label": "Cirencester",
         "chronogroup": "Imperial",
         "moderncountry": "United Kingdom",
+        "orientation": 150,
         "pleiades": "http://pleiades.stoa.org/places/197225",
         "youtube": [
             "https://www.youtube.com/watch?v=9RFDium7TYU",
@@ -2519,6 +2601,7 @@
         "golvinid": "17",
         "label": "Vindonissa",
         "moderncountry": "Switzerland",
+        "orientation": 241,
         "pleiades": "http://pleiades.stoa.org/places/177661"
       },
       "geometry":{
@@ -2549,6 +2632,7 @@
          },
         "label": "Thysdrus (Sm.)",
         "moderncountry": "Tunisia",
+        "orientation": 222,
         "pleiades": "http://pleiades.stoa.org/places/324835",
         "youtube":["https://www.youtube.com/watch?v=bDDyEMg34Os",
                    "https://www.youtube.com/watch?v=HGjt7TVcbAY"]
@@ -2584,6 +2668,7 @@
         "exclude": true,
         "label": "Thysdrus (lg.)",
         "moderncountry": "Tunisia",
+        "orientation": 257,
         "youtube": ["https://www.youtube.com/watch?v=bDDyEMg34Os"]
       },
       "geometry":{
@@ -2616,6 +2701,7 @@
         "label": "Fréjus",
         "latintoponym": "Forum Julii",
         "moderncountry": "France",
+        "orientation": 131,
         "pleiades": "http://pleiades.stoa.org/places/157836"
       },
       "geometry":{
@@ -2637,6 +2723,7 @@
         "created":150,
         "label": "Gortyn",
         "moderncountry": "Greece",
+        "orientation": 218,
         "pleiades": "http://pleiades.stoa.org/places/589796"
       },
       "geometry":{
@@ -2664,6 +2751,7 @@
         },
         "label": "Leptiminus",
         "moderncountry": "Tunisia",
+        "orientation": 133,
         "pleiades": "http://pleiades.stoa.org/places/324767"
       },
       "geometry":{
@@ -2691,6 +2779,7 @@
          },
         "label": "Micia",
         "moderncountry": "Romania",
+        "orientation": 252,
         "pleiades": "http://pleiades.stoa.org/places/207286"
       },
       "geometry":{
@@ -2720,6 +2809,7 @@
         "golvinid": "44",
         "label": "Gemellae",
         "moderncountry": "Algeria",
+        "orientation": 264,
         "pleiades": "http://pleiades.stoa.org/places/334553"
       },
       "geometry":{
@@ -2746,6 +2836,7 @@
         },
         "label": "Cherchel",
         "moderncountry": "Algeria",
+        "orientation": 256,
         "pleiades": "http://pleiades.stoa.org/places/295279"
       },
       "geometry":{
@@ -2775,6 +2866,7 @@
         "label": "Pula",
         "latintoponym": "Colonia Pietas Iulia Pola Pollentia Herculanea",
         "moderncountry": "Croatia",
+        "orientation": 197,
         "wikipedia": "http://en.wikipedia.org/wiki/Pula_Arena",
         "youtube": ["https://www.youtube.com/watch?v=hqTud5XxI_s","https://www.youtube.com/watch?v=YZGAZ6HFUmA","https://www.youtube.com/watch?v=oF1jrFn-5mY"]
       },
@@ -2800,6 +2892,7 @@
         "latintoponym": "Carmo",
         "military": "yes",
         "moderncountry": "Spain",
+        "orientation": 258,
         "welchid": "17"
       },
       "geometry":{
@@ -2854,7 +2947,8 @@
            "arena-minor": 37
         },
         "label": "Pergamum",
-        "moderncountry": "Turkey"
+        "moderncountry": "Turkey",
+        "orientation": 194
       },
       "geometry":{
         "type":"Point",
@@ -2879,7 +2973,8 @@
           "arena-minor": 43 
         },
         "label": "Anazarbus",
-        "moderncountry": "Turkey"
+        "moderncountry": "Turkey",
+        "orientation": 178
       },
       "geometry":{
         "type":"Point",
@@ -2925,7 +3020,8 @@
           "exterior-minor": 100
         },
         "label": "Cyzicus",
-        "moderncountry": "Turkey"
+        "moderncountry": "Turkey",
+        "orientation": 184
       },
       "geometry":{
         "type":"Point",
@@ -2954,7 +3050,8 @@
            },
         "golvinid": "120",
         "label": "Sabratha",
-        "moderncountry": "Libya"
+        "moderncountry": "Libya",
+        "orientation": 105
       },
       "geometry":{
         "type":"Point",
@@ -2992,7 +3089,8 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "label": "Paphos",
-        "moderncountry": "Cyprus"
+        "moderncountry": "Cyprus",
+        "orientation": 105
       },
       "geometry":{
         "type":"Point",
@@ -3011,7 +3109,8 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Flavian",
         "label": "Carmarthen",
-        "moderncountry": "United Kingdom"
+        "moderncountry": "United Kingdom",
+        "orientation": 253
       },
       "geometry":{
         "type":"Point",
@@ -3067,7 +3166,8 @@
          },
          "golvinid": "31",
         "label": "Tomen y Mur",
-        "moderncountry": "United Kingdom"
+        "moderncountry": "United Kingdom",
+        "orientation": 192
       },
       "geometry":{
         "type":"Point",
@@ -3097,7 +3197,8 @@
         "chronogroup": "Republican",
         "golvinid": "71",
         "label": "Thaenae",
-        "moderncountry": "Tunisia"
+        "moderncountry": "Tunisia",
+        "orientation": 143
       },
       "geometry":{
         "type":"Point",
@@ -3127,7 +3228,8 @@
         "golvinid": "113",
         "label": "Sbeitla",
         "latintoponym": "Sufetula",
-        "moderncountry": "Tunisia"
+        "moderncountry": "Tunisia",
+        "orientation": 112
       },
       "geometry":{
         "type":"Point",
@@ -3155,7 +3257,8 @@
            "source": "Bomgardner"
         },
         "label": "Theveste",
-        "moderncountry": "Algeria"
+        "moderncountry": "Algeria",
+        "orientation": 156
       },
       "geometry":{
         "type":"Point",
@@ -3185,6 +3288,7 @@
         "hypogeum": true,
         "label": "Trier",
         "moderncountry": "Germany",
+        "orientation": 181,
         "pleiades": "http://pleiades.stoa.org/places/108894",
         "youtube": ["https://www.youtube.com/watch?v=WYOvPyCntiY","https://www.youtube.com/watch?v=kOv5vx9S0z8","https://www.youtube.com/watch?v=dl9PAgQuSNs"]
       },
@@ -3217,7 +3321,8 @@
         "hypogeum": false,
         "label": "Susa",
         "latintoponym": "Segusium",
-        "moderncountry": "Italy"
+        "moderncountry": "Italy",
+        "orientation": 264
       },
       "geometry":{
         "type":"Point",
@@ -3247,7 +3352,8 @@
         "hypogeum": true,
         "label": "Ivrea",
         "latintoponym": "Eporedia",
-        "moderncountry": "Italy" 
+        "moderncountry": "Italy", 
+        "orientation": 264
       },
       "geometry":{
         "type":"Point",
@@ -3278,6 +3384,7 @@
         "exclude": true,
         "label": "Bararus",
         "moderncountry": "Tunisia",
+        "orientation": 244,
         "pleiades": "http://pleiades.stoa.org/places/324673"
       },
       "geometry":{
@@ -3311,6 +3418,7 @@
         "label": "Albana",
         "military": true,
         "moderncountry": "Italy",
+        "orientation": 93,
         "pleiades": "http://pleiades.stoa.org/places/422885"
       },
       "geometry":{
@@ -3368,7 +3476,8 @@
           "source": "Golvin"
         },
         "label": "Ptolemais",
-        "moderncountry": "Libya"
+        "moderncountry": "Libya",
+        "orientation": 241
       },
       "geometry":{
         "type":"Point",
@@ -3395,7 +3504,8 @@
           "source": "Golvin"
          },
         "label": "Toulouse",
-        "moderncountry": "France"
+        "moderncountry": "France",
+        "orientation": 167
       },
       "geometry":{
         "type":"Point",
@@ -3419,7 +3529,8 @@
          },
         "label": "Caparra",
         "latintoponym": "Municipium Flavium Caparense",
-        "moderncountry": "Spain"
+        "moderncountry": "Spain",
+        "orientation": 163
       },
       "geometry":{
         "type":"Point",
@@ -3660,7 +3771,8 @@
         "golvinid": "90",
         "label": "Padua",
         "latintoponym": "Patavia",
-        "moderncountry": "Italy"
+        "moderncountry": "Italy",
+        "orientation": 188
       },
       "geometry":{
         "type":"Point",
@@ -3690,6 +3802,7 @@
         "label": "Lecce",
         "latintoponym": "Lupiae",
         "moderncountry": "Italy",
+        "orientation": 267,
         "wikipedia": "http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Lecce"
       },
       "geometry":{
@@ -3739,7 +3852,8 @@
         "chronogroup": "Imperial",
         "label": "San Benedetto",
         "latintoponym": "Marruvium",
-        "moderncountry": "Italy"
+        "moderncountry": "Italy",
+        "orientation": 139
       },
       "geometry":{
         "type":"Point",
@@ -3760,7 +3874,8 @@
         "chronogroup": "Imperial",
         "label": "Monteleone",
         "latintoponym": "Trebula Mutuesca",
-        "moderncountry": "Italy"
+        "moderncountry": "Italy",
+        "orientation": 267
       },
       "geometry":{
         "type":"Point",
@@ -3781,7 +3896,8 @@
         "chronogroup": "Flavian",
         "label": "Bolsena",
         "latintoponym": "Volsinii Novi",
-        "moderncountry": "Italy"
+        "moderncountry": "Italy",
+        "orientation": 130
       },
       "geometry":{
         "type":"Point",
@@ -3810,6 +3926,7 @@
         "label": "Ancona",
         "latintoponym": "Ancona",
         "moderncountry": "Italy",
+        "orientation": 167,
         "wiki": "http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Ancona"
       },
       "geometry":{
@@ -3902,7 +4019,8 @@
         },
         "label": "San Vittorino",
         "latintoponym": "Amiternum",
-        "moderncountry": "Italy"
+        "moderncountry": "Italy",
+        "orientation": 110
       },
       "geometry":{
         "type":"Point",
@@ -4062,6 +4180,7 @@
         "label": "Senlis",
         "latintoponym": "Augustomagus",
         "moderncountry": "France",
+        "orientation": 267,
         "visibility": "good",
         "wikipedia": "http://fr.wikipedia.org/wiki/Arènes_de_Senlis"
       },
@@ -4142,6 +4261,7 @@
         "label": "Capua I",
         "latintoponym": "Capua",
         "moderncountry": "Italy",
+        "orientation": 179,
         "visibility": "partial",
         "welchid": "2"
       },
@@ -4174,6 +4294,7 @@
         "label": "Capua II",
         "latintoponym": "Capua",
         "moderncountry": "Italy",
+        "orientation": 179,
         "visibility": "partial",
         "youtube": ["https://www.youtube.com/watch?v=8q86tToFDwI","https://www.youtube.com/watch?v=93yf8t-lKGI"]
       },
@@ -4221,6 +4342,7 @@
         "label": "Nole",
         "latintoponym": "Nola",
         "moderncountry": "Italy",
+        "orientation": 258,
         "visibility": "partial",
         "welchid": "13"
       },
@@ -4252,6 +4374,7 @@
         "label": "Silchester",
         "latintoponym": "Calleva Atrebatum",
         "moderncountry": "United Kingdom",
+        "orientation": 200,
         "title": "Amphitheater at Silchester",
         "visibility": "partial",
         "youtube": ["https://www.youtube.com/watch?v=ScpzLOmZEXs"]
@@ -4284,6 +4407,7 @@
         "lastuse": {"date":150, "comment": "See the website but a better reference needed."},
         "latintoponym": "Durnovaria",
         "moderncountry": "United Kingdom",
+        "orientation": 210,
         "visibility": "partial",
         "website": "http://www.maumburyrings.co.uk",
         "youtube": ["https://www.youtube.com/watch?v=ScpzLOmZEXs"]
@@ -4307,6 +4431,7 @@
         "label": "Braga",
         "latintoponym": "Bracara Augusta",
         "moderncountry": "Portugal",
+        "orientation": 181,
         "visibility": "none"
       },
       "geometry":{
@@ -4402,6 +4527,7 @@
         "label": "Xanten",
         "latintoponym": "Colonia Ulpia Traiana",
         "moderncountry": "Germany",
+        "orientation": 224,
         "see": "https://3dwarehouse.sketchup.com/model.html?id=16596dabb2ebd0469b2513a62f433bae",
         "visibility": "good"
       },
@@ -4446,6 +4572,7 @@
         "chronogroup": "Imperial",
         "label": "Ierapetra",
         "moderncountry": "Greece",
+        "orientation": 211,
         "visibility": "partial"
       },
       "geometry":{
@@ -4468,6 +4595,7 @@
         "label": "Künzing",
         "latintoponym": "Quintana",
         "moderncountry": "Germany",
+        "orientation": 107,
         "primarymaterial": "wood",
         "visibility": "none"
       },
@@ -4519,6 +4647,7 @@
         "chronogroup": "Imperial",
         "label": "Bobadela",
         "moderncountry": "Portugal",
+        "orientation": 189,
         "visibility": "good"
       },
       "geometry":{
@@ -4540,6 +4669,7 @@
         "moderncountry": "Hungary",
         "label": "Sopron",
         "latintoponym": "Scarabantia",
+        "orientation": 162,
         "title": "Amphitheater at Sopron",
         "visibility": "good"
       },
@@ -4561,6 +4691,7 @@
         "label": "Nyon",
         "latintoponym": "Colonia Iulia Equestris",
         "moderncountry": "Switzerland",
+        "orientation": 232,
         "title": "Amphitheater at Nyon",
         "visibility": "good"
       },
@@ -4591,6 +4722,7 @@
         "label": "Bern",
         "latintoponym": "Bremodorum",
         "moderncountry": "Switzerland",
+        "orientation": 210,
         "title": "Amphitheater at Bern",
         "visibility": "good",
         "wikipedia": ["https://commons.wikimedia.org/wiki/File:Engehalbinsel_Römertheater_von_oben.jpg"]
@@ -4645,6 +4777,7 @@
         },
         "label": "Burnum",
         "moderncountry": "Croatia",
+        "orientation": 201,
         "title": "Amphitheater at Burnum",
         "visibility": "good"
       },
@@ -4721,6 +4854,7 @@
         "label": "Bosra",
         "latintoponym": "Nova Trajana Bostra",
         "moderncountry": "Syria",
+        "orientation": 199,
         "visibility": "partial"
       },
       "geometry":{
@@ -4826,6 +4960,7 @@
         "exclude": true,
         "label": "Grand",
         "moderncountry": "France",
+        "orientation": 245,
         "visibility": "good"
       },
       "geometry":{
@@ -4948,6 +5083,7 @@
         "label": "Drevant",
         "latintoponym": "Derventum",
         "moderncountry": "France",
+        "orientation": 203,
         "see": "http://commons.wikimedia.org/wiki/File:Drevant_Amphitheatre_Gallo-Romain.JPG",
         "visibility": "poor"
       },
@@ -4978,6 +5114,7 @@
         "label": "Seressi",
         "latintoponym": "Seressi",
         "moderncountry": "Tunisia",
+        "orientation": 159,
         "visibility": "good"
       },
       "geometry":{
@@ -5008,6 +5145,7 @@
         "label": "Chemtou",
         "latintoponym": "Simmithu",
         "moderncountry": "Tunisia",
+        "orientation": 176,
         "visibility": "poor"
       },
       "geometry":{
@@ -5038,6 +5176,7 @@
         "label": "Bekalta",
         "latintoponym": "Thapsus",
         "moderncountry": "Tunisia",
+        "orientation": 210,
         "pleiades": "http://pleiades.stoa.org/places/324827",
         "visibility": "good"
       },
@@ -5067,6 +5206,7 @@
         "label": "Sidi bou Arkoub",
         "latintoponym": "Thimisua",
         "moderncountry": "Tunisia",
+        "orientation": 224,
         "pleiades": "http://pleiades.stoa.org/places/315211",
         "visibility": "good"
       },
@@ -5094,6 +5234,7 @@
          },
         "label": "Genzano",
         "moderncountry": "Italy",
+        "orientation": 218,
         "pleiades": "http://pleiades.stoa.org/places/422838",
         "private": true,
         "visibility": "partial"
@@ -5127,6 +5268,7 @@
         "label": "Ain Hedjah",
         "latintoponym": "Agbia",
         "moderncountry": "Tunisia",
+        "orientation": 98,
         "pleiades": "http://pleiades.stoa.org/places/314857",
         "visibility": "good"
       },
@@ -5159,6 +5301,7 @@
         "label": "Utica",
         "latintoponym": "Utica",
         "moderncountry": "Tunisia",
+        "orientation": 137,
         "pleiades": "http://pleiades.stoa.org/places/315248",
         "visibility": "good"
       },
@@ -5215,6 +5358,7 @@
         "label": "Thuburbo Maius",
         "latintoponym": "Thuburbo Maius",
         "moderncountry": "Tunisia",
+        "orientation": 213,
         "pleiades": "http://pleiades.stoa.org/places/315220",
         "visibility": "good"
       },
@@ -5268,6 +5412,7 @@
         "label": "Ulissipara",
         "latintoponym": "Ulissipara",
         "moderncountry": "Tunisia",
+        "orientation": 228,
         "pleiades": "http://pleiades.stoa.org/places/324839",
         "visibility": "good"
       },
@@ -5300,6 +5445,7 @@
         "label": "Acholla",
         "latintoponym": "Acholla",
         "moderncountry": "Tunisia",
+        "orientation": 176,
         "pleiades": "http://pleiades.stoa.org/places/324653",
         "visibility": "good"
       },
@@ -5332,6 +5478,7 @@
         "lastuse": {"date":400,"source": "Bomgardner: 156"},
         "latintoponym": "Tipasentium",
         "moderncountry": "Algeria",
+        "orientation": 254,
         "pleiades": "http://pleiades.stoa.org/places/295363",
         "romansites": "http://www.romansites.com/anfiteatri/tipasa_tipasentium.htm",
         "visibility": "good"
@@ -5428,6 +5575,7 @@
         "label": "Sicca Veneria",
         "latintoponym": "Sicca Veneria",
         "moderncountry": "Tunisia",
+        "orientation": 210,
         "pleiades": "http://pleiades.stoa.org/places/315152",
         "visibility": "none"
       },
@@ -5461,6 +5609,7 @@
         "label": "Thibari",
         "latintoponym": "Thibari",
         "moderncountry": "Tunisia",
+        "orientation": 152,
         "pleiades": "http://pleiades.stoa.org/places/315201",
         "visibility": "none"
       },
@@ -5487,6 +5636,7 @@
         "label": "Portus Oval Structure",
         "latintoponym": "Portus",
         "moderncountry": "Italy",
+        "orientation": 219,
         "pleiades": "http://pleiades.stoa.org/places/423012",
         "private": true,
         "visibility": "none"
@@ -5513,6 +5663,7 @@
         },
         "label": "Montbouy",
         "moderncountry": "France",
+        "orientation": 164,
         "pleiades": "http://pleiades.stoa.org/places/138468",
         "visibility": "good"
       },
@@ -5559,6 +5710,7 @@
         "label": "Hisarya",
         "latintoponym": "Diocletianopolis",
         "moderncountry": "Bulgaria",
+        "orientation": 174,
         "pleiades": "http://pleiades.stoa.org/places/216792",
         "visibility": "good"
       },
@@ -5698,6 +5850,7 @@
         "label": "Augusta Bagiennorum",
         "latintoponym": "Augusta Bagiennorum",
         "moderncountry": "Italy",
+        "orientation": 237,
         "pleiades": "http://pleiades.stoa.org/places/383578",
         "vici": "http://vici.org/vici/4208",
         "visibility": "partial" },
@@ -5725,6 +5878,7 @@
         "label": "Aosta",
         "latintoponym": "Augusta Praetoria",
         "moderncountry": "Italy",
+        "orientation": 193,
         "pleiades": "http://pleiades.stoa.org/places/383579",
         "vici": "http://vici.org/vici/4209",
         "visibility": "street plan" },
@@ -5759,6 +5913,7 @@
         "label": "Falerii Novi",
         "latintoponym": "Falerii Novi",
         "moderncountry": "Italy",
+        "orientation": 268,
         "pleiades": "http://pleiades.stoa.org/places/413125",
         "rockcut": true,
         "visibility": "good"
@@ -5793,6 +5948,7 @@
         "label": "Rimini",
         "latintoponym": "Ariminum",
         "moderncountry": "Italy",
+        "orientation": 230,
         "pleiades": "http://pleiades.stoa.org/places/393379",
         "vici": "http://vici.org/vici/4205",
         "visibility": "good"
@@ -5858,6 +6014,7 @@
         "label": "Venosa",
         "latintoponym": "Venusia",
         "moderncountry": "Italy",
+        "orientation": 138,
         "pleiades": "http://pleiades.stoa.org/places/393424",
         "visibility": "none"
          },
@@ -5885,6 +6042,7 @@
         "label": "Teramo",
         "latintoponym": "Interamnia Praetuttiorum",
         "moderncountry": "Italy",
+        "orientation": 197,
         "pleiades": "http://pleiades.stoa.org/places/413179",
         "visibility": "partial"
          },
@@ -5918,6 +6076,7 @@
         "label": "Velleia",
         "latintoponym": "Veleia",
         "moderncountry": "Italy",
+        "orientation": 205,
         "visibility": "good"
          },
         "geometry":{
@@ -5949,6 +6108,7 @@
         "label": "Ordona",
         "latintoponym": "Herdoniae",
         "moderncountry": "Italy",
+        "orientation": 171,
         "province": "Apulia",
         "regio": "II",
         "visibility": "good"
@@ -5982,6 +6142,7 @@
         "label": "Bevagna",
         "latintoponym": "Mevania",
         "moderncountry": "Italy",
+        "orientation": 248,
         "visibility": "poor"
          },
         "geometry":{
@@ -6064,6 +6225,7 @@
         "label": "Aphrodisias",
         "latintoponym": "Aphrodisias",
         "moderncountry": "Turkey",
+        "orientation": 269,
         "visibility": "good"
          },
         "geometry":{
@@ -6091,6 +6253,7 @@
         "label": "Djerba",
         "latintoponym": "Meninge",
         "moderncountry": "Tunisia",
+        "orientation": 219,
         "visibility": "fair"
          },
         "geometry":{
@@ -6117,6 +6280,7 @@
         "exclude": true,
         "label": "Zagarolo",
         "moderncountry": "Italy",
+        "orientation": 152,
         "visibility": "good"
          },
         "geometry":{
@@ -6222,6 +6386,7 @@
         },
         "label": "Terni",
         "moderncountry": "Italy",
+        "orientation": 120,
         "visibility": "good"
          },
         "geometry":{
@@ -6247,6 +6412,7 @@
         },
         "label": "Spoleto",
         "moderncountry": "Italy",
+        "orientation": 188,
         "visibility": "good"
          },
         "geometry":{
@@ -6275,6 +6441,7 @@
         "golvinid": "20",
         "label": "Aquae Neri",
         "moderncountry": "Italy",
+        "orientation": 124,
         "visibility": "good"
          },
         "geometry":{
@@ -6303,6 +6470,7 @@
         },
         "label": "Aurelium Commodianum",
         "moderncountry": "Tunisia",
+        "orientation": 249,
         "visibility": "good"
          },
         "geometry":{
@@ -6323,6 +6491,7 @@
         "dare": "http://dare.ht.lu.se/places/24708",
         "label": "Jebel Moraba",
         "moderncountry": "Tunisia",
+        "orientation": 144,
         "visibility": "good"
          },
         "geometry":{
