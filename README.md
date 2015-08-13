@@ -5,7 +5,7 @@ A re-usable list of Roman Amphitheaters. The primary version is the geojson file
 
 The data is very incomplete as, depending on how you define the term, there are some 200+ amphitheaters known from the Roman world.
 
-Some of this information comes from Wikipedia's list of Roman amphitheaters at http://en.wikipedia.org/wiki/List_of_Roman_amphitheatres . I used that as a starting point but have made corrections. Tom Elliot added data from the Pleiades Project. See roman-amphitheaters.geojson for other contributors.
+Some of this information comes from Wikipedia's list of Roman amphitheaters at http://en.wikipedia.org/wiki/List_of_Roman_amphitheatres . I used that as a starting point but have made corrections. Tom Elliot added data from the Pleiades Project. In summer 2015, D. Bennett added orientation and other data. See roman-amphitheaters.geojson for the history of contributions that have come in via git forks.
 
 The basic json object for a "record" is similar to:
 
