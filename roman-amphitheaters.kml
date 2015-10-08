@@ -39,6 +39,7 @@
 	<SimpleField name="date" type="string"></SimpleField>
 	<SimpleField name="pleiades-specific" type="string"></SimpleField>
 	<SimpleField name="creation" type="int"></SimpleField>
+	<SimpleField name="identified" type="string"></SimpleField>
 	<SimpleField name="firstphase" type="string"></SimpleField>
 	<SimpleField name="wikimapia" type="string"></SimpleField>
 	<SimpleField name="wiki" type="string"></SimpleField>
@@ -1419,6 +1420,7 @@
 		<SimpleData name="moderncountry">Albania</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Durrës_Amphitheatre</SimpleData>
 		<SimpleData name="bibliography">http://dx.doi.org/10.1017/S1047759400013209</SimpleData>
+		<SimpleData name="identified">1966</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>19.445131,41.312241,15</coordinates></Point>
   </Placemark>
@@ -2716,6 +2718,7 @@
 		<SimpleData name="chronogroup">Imperial</SimpleData>
 		<SimpleData name="label">Palmyra</SimpleData>
 		<SimpleData name="moderncountry">Syria</SimpleData>
+		<SimpleData name="bibliography">https://www.academia.edu/2063340/Un_Amphithéâtre_à_Tadmor-Palmyre</SimpleData>
 		<SimpleData name="visibility">none</SimpleData>
 		<SimpleData name="certainty">uncertain</SimpleData>
 		<SimpleData name="certainty-qualifier">presence</SimpleData>

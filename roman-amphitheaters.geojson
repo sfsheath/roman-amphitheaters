@@ -2466,6 +2466,7 @@
         "created" : 100,
         "capacity": {"quantity": 20000},
         "chronogroup": "Second Century",
+        "identified": "1966",
         "buildingtype": "amphitheater",
         "dimensions": {
             "exterior-major": 132.4,
@@ -2478,7 +2479,8 @@
         "orientation": 179,
         "pleiades": "http://pleiades.stoa.org/places/481818",
         "moderncountry": "Albania",
-        "wikipedia": "http://en.wikipedia.org/wiki/Durrës_Amphitheatre"
+        "wikipedia": "http://en.wikipedia.org/wiki/Durrës_Amphitheatre",
+        "youtube": "https://www.youtube.com/watch?v=Ot-KIRo5puc"
       },
       "geometry":{
         "type":"Point",
@@ -4871,6 +4873,7 @@
       "id":"palmyraAmphitheater",
       "properties": {
         "title": "Possible Amphitheater at Palmyra",
+        "bibliography": "https://www.academia.edu/2063340/Un_Amphithéâtre_à_Tadmor-Palmyre",
         "buildingtype": "amphitheater",
         "certainty": "uncertain",
         "certainty-qualifier": "presence",
