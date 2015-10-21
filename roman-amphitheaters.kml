@@ -36,7 +36,7 @@
 	<SimpleField name="pleiadesspecific" type="string"></SimpleField>
 	<SimpleField name="source" type="string"></SimpleField>
 	<SimpleField name="italianregion" type="string"></SimpleField>
-	<SimpleField name="date" type="string"></SimpleField>
+	<SimpleField name="dare" type="string"></SimpleField>
 	<SimpleField name="pleiades-specific" type="string"></SimpleField>
 	<SimpleField name="creation" type="int"></SimpleField>
 	<SimpleField name="identified" type="string"></SimpleField>
@@ -54,7 +54,6 @@
 	<SimpleField name="chronocertainty" type="string"></SimpleField>
 	<SimpleField name="province" type="string"></SimpleField>
 	<SimpleField name="regio" type="string"></SimpleField>
-	<SimpleField name="dare" type="string"></SimpleField>
 	<SimpleField name="chronogrp" type="string"></SimpleField>
 </Schema>
 <Folder><name>OGRGeoJSON</name>
@@ -827,6 +826,7 @@
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/79420</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 		<SimpleData name="latintoponym">Deva Victrix</SimpleData>
+		<SimpleData name="bibliography">https://www.academia.edu/4403653/Chester_amphitheatre_excavations_in_2000</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-2.886928,53.189079,23</coordinates></Point>
   </Placemark>
@@ -933,7 +933,7 @@
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/197583</SimpleData>
 		<SimpleData name="moderncountry">Austria</SimpleData>
 		<SimpleData name="pleiadesspecific">http://pleiades.stoa.org/places/197583/location-of-roman-amphitheater</SimpleData>
-		<SimpleData name="date">http://dare.ht.lu.se/places/23865</SimpleData>
+		<SimpleData name="dare">http://dare.ht.lu.se/places/23865</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>14.366995899,46.697877699,479</coordinates></Point>
   </Placemark>
@@ -2219,6 +2219,7 @@
 		<SimpleData name="label">Calvi Risorto</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Cales</SimpleData>
+		<SimpleData name="welchid">6</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>14.137993,41.202429,89</coordinates></Point>
   </Placemark>
@@ -3666,6 +3667,37 @@
 		<SimpleData name="chronogrp">Imperial</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>13.353417,41.64507,213</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Rugge Amphitheater</SimpleData>
+		<SimpleData name="amphitheatrum">http://www.amphi-theatrum.de/2217.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 83, &quot;exterior-minor&quot;: 66 }</SimpleData>
+		<SimpleData name="label">Rugge</SimpleData>
+		<SimpleData name="moderncountry">Italy</SimpleData>
+		<SimpleData name="latintoponym">Rudiae</SimpleData>
+		<SimpleData name="visibility">good</SimpleData>
+		<SimpleData name="dare">http://dare.ht.lu.se/places/24311</SimpleData>
+		<SimpleData name="chronogrp">Imperial</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>18.146729,40.334316,38</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Egnazia Amphitheater</SimpleData>
+		<SimpleData name="amphitheatrum">http://www.amphi-theatrum.de/1610.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="dimensions">{ &quot;interior-major&quot;: 37, &quot;interior-minor&quot;: 25 }</SimpleData>
+		<SimpleData name="exclude">1</SimpleData>
+		<SimpleData name="label">Rugge</SimpleData>
+		<SimpleData name="moderncountry">Italy</SimpleData>
+		<SimpleData name="latintoponym">Egnatia</SimpleData>
+		<SimpleData name="visibility">good</SimpleData>
+		<SimpleData name="dare">http://dare.ht.lu.se/places/24251</SimpleData>
+		<SimpleData name="chronogrp">Third Century</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>17.391188,40.887891,2</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>

@@ -83,7 +83,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "urbisagliaAmphitheater","Amphitheater at Urbs Salvia","Urbs Salvia","amphitheater",5150,"Italy","Flavian",,,98,71,59,35,43.200877,13.387224,219
 "saintesAmphitheatre","Amphitheater at Saintes","Saintes","amphitheater",20197,"France","Imperial",,"https://www.youtube.com/watch?v=2TCI21s-bxM",126.4,101.6,65.2,39.2,45.7453926,-0.6433512,20
 "assisiAmphitheatre","Amphitheater at Assisi","Assisi","amphitheater",,"Italy","Imperial",,"https://www.youtube.com/watch?v=uLSmRRxtf4M",,,65,38,43.071077,12.620454,445
-"durresAmphitheatre","Amphitheater at Durrës","Durrës","amphitheater",20000,"Albania","Second Century","http://en.wikipedia.org/wiki/Durrës_Amphitheatre",132.4,113.2,61.4,42.2,41.312241,19.445131,15
+"durresAmphitheatre","Amphitheater at Durrës","Durrës","amphitheater",20000,"Albania","Second Century","http://en.wikipedia.org/wiki/Durrës_Amphitheatre","https://www.youtube.com/watch?v=Ot-KIRo5puc",132.4,113.2,61.4,42.2,41.312241,19.445131,15
 "lambaesisAmphitheater","Amphitheater at Lambaesis","Lambaesis","amphitheater",15400,"Algeria","Second Century",,,104.6,94,68,55,35.4892469,6.2599349,1170
 "mactarisAmphitheater","Amphitheater at Mactaris","Mactaris","amphitheater",5000,"Tunisia","Imperial",,,63.2,49.6,38.4,24.8,35.8556279,9.2066727,911
 "cirencesterAmphitheater","Amphitheater at Cirencester","Cirencester","amphitheater",,"United Kingdom","Imperial",,"https://www.youtube.com/watch?v=9RFDium7TYU",,,,,51.71151,-1.972188,119
@@ -234,3 +234,5 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "faleroneAmphitheater","Falerone Amphitheater","Falerone","amphitheater",,"Italy",,,,88.8,80,,,43.101106,13.495903,222
 "fermoAmphitheater","Fermo Amphitheater","Fermo","amphitheater",,"Italy",,,,,,,,43.161433,13.718231,290
 "frosinoneAmphitheater","Frosinone Amphitheater","Frosinone","amphitheater",,"Italy",,,,78,57,,,41.64507,13.353417,213
+"ruggeAmphitheater","Rugge Amphitheater","Rugge","amphitheater",,"Italy",,,,83,66,,,40.334316,18.146729,38
+"egnaziaAmphitheater","Egnazia Amphitheater","Rugge","amphitheater",,"Italy",,,,,,,,40.887891,17.391188,2

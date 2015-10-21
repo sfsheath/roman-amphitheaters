@@ -1398,6 +1398,7 @@
       "id":"chesterAmphitheater",
       "properties":{
         "title":"Amphitheater at Chester",
+        "bibliography": "https://www.academia.edu/4403653/Chester_amphitheatre_excavations_in_2000",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "label": "Chester",
@@ -1591,7 +1592,7 @@
         "title":"Amphitheater at Virunum",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
-        "date": "http://dare.ht.lu.se/places/23865",
+        "dare": "http://dare.ht.lu.se/places/23865",
         "dimensions": {
           "exterior-major": 96,
           "exterior-minor": 42,
@@ -2480,7 +2481,7 @@
         "pleiades": "http://pleiades.stoa.org/places/481818",
         "moderncountry": "Albania",
         "wikipedia": "http://en.wikipedia.org/wiki/Durrës_Amphitheatre",
-        "youtube": "https://www.youtube.com/watch?v=Ot-KIRo5puc"
+        "youtube": ["https://www.youtube.com/watch?v=Ot-KIRo5puc"]
       },
       "geometry":{
         "type":"Point",
@@ -3992,7 +3993,8 @@
         "chronogroup": "Republican",
         "label": "Calvi Risorto",
         "latintoponym": "Cales",
-        "moderncountry": "Italy"
+        "moderncountry": "Italy",
+        "welchid": "6"
       },
       "geometry":{
         "type":"Point",
@@ -6580,6 +6582,61 @@
               13.353417,
               41.645070,
               213
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"ruggeAmphitheater",
+      "properties": {
+        "title": "Rugge Amphitheater",
+        "amphitheatrum": "http://www.amphi-theatrum.de/2217.html",
+        "buildingtype": "amphitheater",
+        "chronogrp": "Imperial",
+        "dare": "http://dare.ht.lu.se/places/24311",
+        "dimensions": {
+           "exterior-major": 83,
+           "exterior-minor": 66
+        },
+        "label": "Rugge",
+        "latintoponym": "Rudiae",
+        "moderncountry": "Italy",
+        "visibility": "good"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+               18.146729,
+               40.334316,
+               38
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"egnaziaAmphitheater",
+      "properties": {
+        "title": "Egnazia Amphitheater",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1610.html",
+        "buildingtype": "amphitheater",
+        "chronogrp": "Third Century",
+        "dare": "http://dare.ht.lu.se/places/24251",
+        "dimensions": {
+           "interior-major": 37,
+           "interior-minor": 25
+        },
+        "exclude": true,
+        "label": "Rugge",
+        "latintoponym": "Egnatia",
+        "moderncountry": "Italy",
+        "visibility": "good"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+               17.391188,
+               40.887891,
+               2
         ],
         "source":"http://maps.google.com/"
       }
