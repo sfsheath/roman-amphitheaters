@@ -1320,7 +1320,8 @@
         "latintoponym": "Abella",
         "moderncountry": "Italy",
         "orientation": 216,
-        "pleiades": "http://pleiades.stoa.org/places/432617"
+        "pleiades": "http://pleiades.stoa.org/places/432617",
+        "welchid": "12"
       },
       "geometry":{
         "type":"Point",
@@ -6637,6 +6638,34 @@
                17.391188,
                40.887891,
                2
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"canosaAmphitheater",
+      "properties": {
+        "title": "Canosa Amphitheater",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1607.html",
+        "buildingtype": "amphitheater",
+        "chronogrp": "Imperial",
+        "dare": "http://dare.ht.lu.se/places/24826",
+        "dimensions": {
+           "exterior-major": 37,
+           "exterior-minor": 25
+        },
+        "exclude": true,
+        "label": "Canosa",
+        "latintoponym": "Canusium",
+        "moderncountry": "Italy",
+        "visibility": "none"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+                16.056030,
+                41.221739,
+                81
         ],
         "source":"http://maps.google.com/"
       }
