@@ -6651,8 +6651,9 @@
         "chronogrp": "Imperial",
         "dare": "http://dare.ht.lu.se/places/24826",
         "dimensions": {
-           "exterior-major": 37,
-           "exterior-minor": 25
+           "exterior-major": 138,
+           "exterior-minor": 106,
+           "source": "http://www.amphi-theatrum.de/1607.html"
         },
         "exclude": true,
         "label": "Canosa",
