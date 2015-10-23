@@ -6670,6 +6670,57 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"sipontoAmphitheater",
+      "properties": {
+        "title": "Siponto Amphitheater",
+        "amphitheatrum": "http://www.amphi-theatrum.de/2222.html",
+        "buildingtype": "amphitheater",
+        "chronogrp": "Imperial",
+        "dare": "http://dare.ht.lu.se/places/24627",
+        "label": "Siponto",
+        "latintoponym": "Sepius",
+        "moderncountry": "Italy",
+        "visibility": "none"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+                15.888896,
+                41.611536,
+                18
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"chietiAmphitheater",
+      "properties": {
+        "title": "Chieti Amphitheater",
+        "amphitheatrum": "http://www.amphi-theatrum.de/23938.html",
+        "buildingtype": "amphitheater",
+        "chronogrp": "Imperial",
+        "dare": "http://dare.ht.lu.se/places/24627",
+        "dimensions": {
+           "interior-major": 59,
+           "interior-minor": 40.7,
+           "source": "http://www.amphi-theatrum.de/2047.html"
+        },
+        "label": "Chieti",
+        "latintoponym": "Teate Marrucinorum",
+        "moderncountry": "Italy",
+        "visibility": "none"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+                14.162550,
+                42.345021,
+                343
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ],
   "roman-amphitheater-chronogroups":[

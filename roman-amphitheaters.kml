@@ -779,6 +779,7 @@
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/432617</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Abella</SimpleData>
+		<SimpleData name="welchid">12</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>14.608415,40.961526,224</coordinates></Point>
   </Placemark>
@@ -1419,6 +1420,7 @@
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/481818</SimpleData>
 		<SimpleData name="moderncountry">Albania</SimpleData>
 		<SimpleData name="wikipedia">http://en.wikipedia.org/wiki/Durrës_Amphitheatre</SimpleData>
+		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=Ot-KIRo5puc)</SimpleData>
 		<SimpleData name="bibliography">http://dx.doi.org/10.1017/S1047759400013209</SimpleData>
 		<SimpleData name="identified">1966</SimpleData>
 	</SchemaData></ExtendedData>
@@ -3690,7 +3692,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="dimensions">{ &quot;interior-major&quot;: 37, &quot;interior-minor&quot;: 25 }</SimpleData>
 		<SimpleData name="exclude">1</SimpleData>
-		<SimpleData name="label">Rugge</SimpleData>
+		<SimpleData name="label">Egnazia</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Egnatia</SimpleData>
 		<SimpleData name="visibility">good</SimpleData>
@@ -3698,6 +3700,51 @@
 		<SimpleData name="chronogrp">Third Century</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>17.391188,40.887891,2</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Canosa Amphitheater</SimpleData>
+		<SimpleData name="amphitheatrum">http://www.amphi-theatrum.de/1607.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 138, &quot;exterior-minor&quot;: 106, &quot;source&quot;: &quot;http:\/\/www.amphi-theatrum.de\/1607.html&quot; }</SimpleData>
+		<SimpleData name="exclude">1</SimpleData>
+		<SimpleData name="label">Canosa</SimpleData>
+		<SimpleData name="moderncountry">Italy</SimpleData>
+		<SimpleData name="latintoponym">Canusium</SimpleData>
+		<SimpleData name="visibility">none</SimpleData>
+		<SimpleData name="dare">http://dare.ht.lu.se/places/24826</SimpleData>
+		<SimpleData name="chronogrp">Imperial</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>16.05603,41.221739,81</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Siponto Amphitheater</SimpleData>
+		<SimpleData name="amphitheatrum">http://www.amphi-theatrum.de/2222.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="label">Siponto</SimpleData>
+		<SimpleData name="moderncountry">Italy</SimpleData>
+		<SimpleData name="latintoponym">Sepius</SimpleData>
+		<SimpleData name="visibility">none</SimpleData>
+		<SimpleData name="dare">http://dare.ht.lu.se/places/24627</SimpleData>
+		<SimpleData name="chronogrp">Imperial</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>15.888896,41.611536,18</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Chieti Amphitheater</SimpleData>
+		<SimpleData name="amphitheatrum">http://www.amphi-theatrum.de/23938.html</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="dimensions">{ &quot;interior-major&quot;: 59, &quot;interior-minor&quot;: 40.700000, &quot;source&quot;: &quot;http:\/\/www.amphi-theatrum.de\/2047.html&quot; }</SimpleData>
+		<SimpleData name="label">Chieti</SimpleData>
+		<SimpleData name="moderncountry">Italy</SimpleData>
+		<SimpleData name="latintoponym">Teate Marrucinorum</SimpleData>
+		<SimpleData name="visibility">none</SimpleData>
+		<SimpleData name="dare">http://dare.ht.lu.se/places/24627</SimpleData>
+		<SimpleData name="chronogrp">Imperial</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>14.16255,42.345021,343</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>
