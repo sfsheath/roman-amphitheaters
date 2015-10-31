@@ -1776,12 +1776,19 @@
       }
     },{
       "type":"Feature",
-      "id":"lucusFeroniaeAmphitheater",
+      "id":"ferentoAmphitheater",
       "properties":{
-        "title":"Amphitheater at Lucus Feroniae",
+        "title":"Amphitheater at Ferento",
+        "amphitheatrum": "http://amphi-theatrum.de/1470.html",
         "buildingtype": "amphitheater",
-        "chronogroup": "Imperial",
-        "label": "Lucus Feroniae",
+        "chronogroup": "Republican",
+        "dimensions": {
+          "exterior-major": 68,
+          "exterior-minor": 40,
+          "source": "http://www.amphi-theatrum.de/1470.html"
+        },
+        "label": "Ferento",
+        "latintoponym": "Ferentium",
         "moderncountry": "Italy",
         "orientation": 157,
         "pleiades": "http://pleiades.stoa.org/places/413184",
@@ -4300,7 +4307,7 @@
         "latintoponym": "Capua",
         "moderncountry": "Italy",
         "orientation": 179,
-        "visibility": "partial",
+        "visibility": "good",
         "youtube": ["https://www.youtube.com/watch?v=8q86tToFDwI","https://www.youtube.com/watch?v=93yf8t-lKGI"]
       },
       "geometry":{
@@ -4730,7 +4737,7 @@
         "orientation": 210,
         "title": "Amphitheater at Bern",
         "visibility": "good",
-        "wikipedia": ["https://commons.wikimedia.org/wiki/File:Engehalbinsel_Römertheater_von_oben.jpg"]
+        "wikipedia": "https://commons.wikimedia.org/wiki/File:Engehalbinsel_Römertheater_von_oben.jpg"
       },
       "geometry":{
         "type":"Point",
@@ -6718,6 +6725,52 @@
                 14.162550,
                 42.345021,
                 343
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"teanoAmphitheater",
+      "properties": {
+        "title": "Teano Amphitheater",
+        "buildingtype": "amphitheater",
+        "chronogrp": "Republican",
+        "comment": "Actual locatioin not known.",
+        "label": "Teano",
+        "latintoponym": "Teanum",
+        "moderncountry": "Italy",
+        "visibility": "none",
+        "welchid": "7"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+                14.065098,
+                41.251661, 
+                191
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"henchirDuomaAmphitheater",
+      "properties": {
+        "title": "Henchir Douama Amphitheater",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1345.html",
+        "buildingtype": "amphitheater",
+        "chronogrp": "Imperial",
+        "dare": "http://dare.ht.lu.se/places/24393",
+        "label": "Henchir Douama",
+        "latintoponym": "Uchi Maius",
+        "moderncountry": "Italy",
+        "visibility": "good"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+                9.085182,
+                36.412511, 
+                418
         ],
         "source":"http://maps.google.com/"
       }

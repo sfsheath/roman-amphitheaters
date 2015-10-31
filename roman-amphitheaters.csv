@@ -58,7 +58,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "lixusAmphitheater","Amphitheater at Lixus","Lixus","amphitheater",,"Morocco","Imperial",,,,,,,35.19990039,-6.1084683,52
 "arezzoAmphitheater","Amphitheater at Arezzo","Arezzo","amphitheater",8000,"Italy","Flavian",,,109.4,80,71.9,42.7,43.460491,11.88037,263
 "larinumAmphitheater","Amphitheater at Larinum","Larinum","amphitheater",,"Italy","Imperial",,,98,86,57,40,41.8058428,14.9159226,406
-"lucusFeroniaeAmphitheater","Amphitheater at Lucus Feroniae","Lucus Feroniae","amphitheater",,"Italy","Imperial",,,,,,,42.129831,12.594868,52
+"ferentoAmphitheater","Amphitheater at Ferento","Ferento","amphitheater",,"Italy","Republican",,,68,40,,,42.129831,12.594868,52
 "allifaeAmphitheater","Amphitheater at Allifae","Allifae","amphitheater",,"Italy","Imperial",,,107,84,72,48,41.325601,14.334997,106
 "cimiezAmphitheater","Amphitheater at Cimiéz","Cimiez","amphitheater",4245,"France","Julio-Claudian",,,55,44,,,43.71967279,7.2752435,112
 "hydataHypsitanaForumTraianiAmphitheatre","Amphitheater at Hydata Hypsitana/Forum Traiani","Forum Traiani","amphitheater",,"Italy","Imperial",,,,,,,39.9931239,8.8044188,49
@@ -168,7 +168,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "bobadelaAmphitheater","Amphitheater at Bobadela","Bobadela","amphitheater",,"Portugal","Imperial",,,,,,,40.361088,-7.893572,383
 "sopronAmphitheater","Amphitheater at Sopron","Sopron","amphitheater",,"Hungary","Imperial",,,,,,,47.692813,16.589397,283
 "nyonAmphitheater","Amphitheater at Nyon","Nyon","amphitheater",,"Switzerland","Imperial",,,,,,,46.383464,6.241301,391
-"bernAmphitheater","Amphitheater at Bern","Bern","amphitheater",1946,"Switzerland","Imperial",["https://commons.wikimedia.org/wiki/File:Engehalbinsel_Römertheater_von_oben.jpg"],,42.6,38.5,27.6,23.5,46.975715,7.451179,547
+"bernAmphitheater","Amphitheater at Bern","Bern","amphitheater",1946,"Switzerland","Imperial","https://commons.wikimedia.org/wiki/File:Engehalbinsel_Römertheater_von_oben.jpg",,42.6,38.5,27.6,23.5,46.975715,7.451179,547
 "dambachAmphitheater","Amphitheater at “Dambach”","Dambach","oval-structure",,"Germany","Imperial",,,,,,,49.104033,10.58318,463
 "burnumAmphitheater","Amphitheater at Burnum","Burnum","amphitheater",,"Croatia","Imperial",,,80,65,43,32,44.019098,16.018169,250
 "gleisdorfAmphitheater","Amphitheater at Gleisdorf","Gleisdorf","amphitheater",,"Austria","Imperial",,,,,,,47.111055,15.707727,365
@@ -239,3 +239,5 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "canosaAmphitheater","Canosa Amphitheater","Canosa","amphitheater",,"Italy",,,,138,106,,,41.221739,16.05603,81
 "sipontoAmphitheater","Siponto Amphitheater","Siponto","amphitheater",,"Italy",,,,,,,,41.611536,15.888896,18
 "chietiAmphitheater","Chieti Amphitheater","Chieti","amphitheater",,"Italy",,,,,,,,42.345021,14.16255,343
+"teanoAmphitheater","Teano Amphitheater","Teano","amphitheater",,"Italy",,,,,,,,41.251661,14.065098,191
+"henchirDuomaAmphitheater","Henchir Douama Amphitheater","Henchir Douama","amphitheater",,"Italy",,,,,,,,36.412511,9.085182,418
