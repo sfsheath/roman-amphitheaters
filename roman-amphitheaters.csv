@@ -16,7 +16,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "syracuseAmphitheater","Amphitheater at Syracuse","Syracuse","amphitheater",28773,"Italy","Julio-Claudian","http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Siracusa","https://www.youtube.com/watch?v=aUcjHzMZCeY",146.8,118.7,69.8,39.7,37.074132,15.278934,23
 "carthageAmphitheater","Amphitheater at Carthage","Carthage","amphitheater",30000,"Tunisia","Second Century","http://en.wikipedia.org/wiki/Carthage_amphitheatre","https://www.youtube.com/watch?v=oDiCqZCu06I",120,93,64,36,36.856078,10.314924,14
 "hadrianVillaAmphitheater","Amphitheater at Hadrian's Villa at Tivoli","Tivoli Villa","amphitheater",,"Italy","Hadrianic",,,,,,,41.941708,12.778929,99
-"corinthAmphitheater","Amphitheater at Corinth","Corinth","amphitheater",14000,"Greece","Julius Caesar",,,98,70,58,30,37.909629,22.892126,98
+"corinthAmphitheater","Amphitheater at Corinth","Corinth","amphitheater",14000,"Greece","Caesarean",,,98,70,58,30,37.909629,22.892126,98
 "marcianopolisAmphitheater","Amphitheater at Marcianopolis (Devnya)","Marcianopolis","amphitheater",4000,"Bulgaria","Severan",,,70,60,50,40,43.218689,27.556674,120
 "porolissumAmphitheater","Amphitheater at Porolissum","Porolissum","amphitheater",,"Romania","Second Century",,,84,75,64,52,47.177552,23.154052,441
 "nijmegenAmphitheater","Amphitheater at Nijmegen","Nijmegen","amphitheater",,"Netherlands","Imperial",,,,,,,51.838523,5.878859,46
@@ -192,7 +192,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "uticaAmphitheater","Amphitheater at Utica","Utica","amphitheater",17100,"Tunisia","Second Century",,,118,98,80,60,37.052472,10.057188,29
 "tebourbaAmphitheater","Amphitheater at Thuburbo Minus","Thuburbo Minus","amphitheater",,"Tunisia","Second Century",,,,,,,36.827708,9.835436,43
 "hencherElKasbatAmphitheater","Amphitheater at Henchir el Kasbat","Thuburbo Maius","amphitheater",7500,"Tunisia","Second Century",,,74,61,46,33,36.398153,9.905668,201
-"espejoAmphitheater","Amphitheater at Espejo","Espejo","amphitheater",,"Spain","Julius Caesar",,,,,,,37.683989,-4.554198,352
+"espejoAmphitheater","Amphitheater at Espejo","Espejo","amphitheater",,"Spain","Caesarean",,,,,,,37.683989,-4.554198,352
 "hencherZembraAmphitheater","Amphitheater at Henchir Zembra","Ulissipara","amphitheater",5400,"Tunisia","Second Century",,,69,53,48,32,35.958583,10.441193,21
 "botriaAmphitheater","Amphitheater at Botria","Acholla","amphitheater",11600,"Tunisia","Second Century",,,90,86,58,54,35.075962,11.018944,2
 "tipasaAmphitheater","Amphitheater at Tipasa","Tipasa","amphitheater",4398,"Algeria","Late Second Century",,,77,55,57,35,36.593152,2.445456,16
@@ -240,4 +240,6 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "sipontoAmphitheater","Siponto Amphitheater","Siponto","amphitheater",,"Italy",,,,,,,,41.611536,15.888896,18
 "chietiAmphitheater","Chieti Amphitheater","Chieti","amphitheater",,"Italy",,,,,,,,42.345021,14.16255,343
 "teanoAmphitheater","Teano Amphitheater","Teano","amphitheater",,"Italy",,,,,,,,41.251661,14.065098,191
-"henchirDuomaAmphitheater","Henchir Douama Amphitheater","Henchir Douama","amphitheater",,"Italy",,,,,,,,36.412511,9.085182,418
+"henchirDuomaAmphitheater","Henchir Douama Amphitheater","Henchir Douama","amphitheater",,"Tunisia",,,,,,,,36.412511,9.085182,418
+"ainToungaAmphitheater","Ain Tounga Amphitheater","Ain Tounga","amphitheater",3000,"Tunisia",,,,56,46,,,36.52782,9.361924,226
+"alerioaAmphitheater","Aleria Amphitheater","Ain Tounga","amphitheater",1200,"France",,,,39.6,34,,,36.52782,9.361924,226

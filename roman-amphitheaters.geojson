@@ -599,7 +599,7 @@
         "amphitheatrum": "http://amphi-theatrum.de/1361.html",
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 14000},
-        "chronogroup": "Julius Caesar",
+        "chronogroup": "Caesarean",
         "created":-44,
         "dimensions": {
           "exterior-major": 98,
@@ -3148,7 +3148,7 @@
          },
         "golvinid": "128",
         "label": "Caerwent",
-        "latintoponym": "Venta Silirum",
+        "latintoponym": "Venta Silurum",
         "moderncountry": "United Kingdom"
       },
       "geometry":{
@@ -5390,7 +5390,7 @@
       "properties": {
         "title": "Amphitheater at Espejo",
         "buildingtype": "amphitheater",
-        "chronogroup": "Julius Caesar",
+        "chronogroup": "Caesarean",
         "label": "Espejo",
         "latintoponym": "Ucubi",
         "moderncountry": "Spain",
@@ -6762,7 +6762,7 @@
         "dare": "http://dare.ht.lu.se/places/24393",
         "label": "Henchir Douama",
         "latintoponym": "Uchi Maius",
-        "moderncountry": "Italy",
+        "moderncountry": "Tunisia",
         "visibility": "good"
          },
         "geometry":{
@@ -6771,6 +6771,69 @@
                 9.085182,
                 36.412511, 
                 418
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"ainToungaAmphitheater",
+      "properties": {
+        "title": "Ain Tounga Amphitheater",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1532.html",
+        "buildingtype": "amphitheater",
+        "capacity": {"quantity": 3000, "source": "Golvin"},
+        "chronogrp": "Imperial",
+        "dare": "http://dare.ht.lu.se/places/24386",
+        "dimensions": {
+           "exterior-major": 56,
+           "exterior-minor": 46,
+           "interior-major": 39,
+           "interior-minor": 26.5,
+           "source": "http://www.amphi-theatrum.de/2047.html"
+        },
+        "golvinid": "116",
+        "label": "Ain Tounga",
+        "latintoponym": "Thignica",
+        "moderncountry": "Tunisia",
+        "visibility": "good"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+               9.361924,
+               36.527820, 
+               226
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"alerioaAmphitheater",
+      "properties": {
+        "title": "Aleria Amphitheater",
+        "buildingtype": "amphitheater",
+        "capacity": {"quantity": 1200, "source": "Golvin"},
+        "chronogrp": "Imperial",
+        "dare": "http://dare.ht.lu.se/places/24133",
+        "dimensions": {
+           "exterior-major": 39.6,
+           "exterior-minor": 34,
+           "interior-major": 29.6,
+           "interior-minor": 24,
+           "source": "Golvin"
+        },
+        "golvinid": "131",
+        "label": "Ain Tounga",
+        "latintoponym": "Alalia",
+        "moderncountry": "France",
+        "visibility": "good"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+               9.361924,
+               36.527820, 
+               226
         ],
         "source":"http://maps.google.com/"
       }
@@ -6786,7 +6849,7 @@
         "periodo": "http://n2t.net/ark:/99152/p077pzf85fk"
     },
     {
-        "chronogroup": "Julius Caesar",
+        "chronogroup": "Caesarean",
         "start_date": -49,
         "end_date": -44
     },
@@ -6867,7 +6930,7 @@
         "start_date": 50,
         "end_date": 280,
         "latest_end_date": 325,
-        "comment": "End is time by which amphitheaters are no longer being built.",
+        "comment": "End Date is approximate year by which amphitheaters are no longer being built.",
         "periodo": "http://n2t.net/ark:/99152/p077pzf9m52"
     }
   ]
