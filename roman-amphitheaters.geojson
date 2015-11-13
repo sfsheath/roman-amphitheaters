@@ -182,7 +182,8 @@
            "exterior-major": 189,
            "exterior-minor": 156,
            "arena-major": 83,
-           "arena-minor": 48
+           "arena-minor": 48,
+           "height": 52
            },
         "emperor": "Vespasian",
         "golvinid": "152",
@@ -1876,8 +1877,8 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          8.8044188,
-          39.9931239,
+          8.804698,
+          39.993171,
           49
         ]
       }
@@ -1888,7 +1889,6 @@
         "title":"Amphitheater at Lucca",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
-        
         "label": "Lucca",
         "latintoponym": "Luca",
         "moderncountry": "Italy",
@@ -2328,8 +2328,18 @@
       "properties":{
         "title":"Amphitheater at Caerleon",
         "buildingtype": "amphitheater",
+        "capacity": {"quantity": 6000, "source": "Golvin"},
         "chronogroup": "Imperial",
+        "dimensions": {
+          "exterior-major": 80,
+          "exterior-minor": 66,
+          "arena-major": 55,
+          "arena-minor": 41,
+          "source": "Golvin"
+        },
+        "golvinid": "108",
         "label": "Caerleon",
+        "latintoponym": "Isca Augusta",
         "moderncountry": "United Kingdom",
         "orientation": 151,
         "pleiades": "http://pleiades.stoa.org/places/79532",
@@ -3861,6 +3871,10 @@
         "amphitheatrum": "http://amphi-theatrum.de/1601.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "dimensions": {
+            "exterior-major": 101,
+            "source": "http://maps.google.com/"
+          },
         "label": "San Benedetto",
         "latintoponym": "Marruvium",
         "moderncountry": "Italy",
@@ -4293,7 +4307,7 @@
         "title": "Imperial Amphitheater at Capua",
         "amphitheatrum": "http://amphi-theatrum.de/2082.html",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 47000},
+        "capacity": {"quantity": 37000, "source": "Golvin"},
         "chronogroup": "Flavian",
         "dimensions": {
           "exterior-major": 165,
@@ -5013,6 +5027,14 @@
         "title": "Amphitheater at Aquino",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "dimensions": {
+          "exterior-major": 115,
+          "exterior-minor": 96,
+          "arena-major": 55,
+          "arena-minor": 36,
+          "source": "Golvin"
+         },
+        "golvinid": 147,
         "label": "Aquino",
         "latintoponym": "Aquinum",
         "moderncountry": "Italy",
@@ -6369,7 +6391,14 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "dare": "http://dare.ht.lu.se/places/24329",
+        "dimensions": {
+           "exterior-major": 90,
+           "exterior-minor": 60,
+           "source": "Golvin"
+        },
+        "golvinid": "283",
         "label": "Todi",
+        "latintoponym": "Tuder",
         "moderncountry": "Italy",
         "visibility": "street plan"
          },
@@ -6417,6 +6446,7 @@
       "properties": {
         "title": "Spoleto Amphitheater",
         "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
         "dare": "http://dare.ht.lu.se/places/24631",
         "dimensions": {
           "exterior-major": 115,
@@ -6468,12 +6498,12 @@
       }
     },{
       "type":"Feature",
-      "id":"Amphitheater",
+      "id":"aurelumCommodianumAmphitheater",
       "properties": {
         "title": "Aurelium Commodianum Amphitheater",
         "amphitheatrum": "http://www.amphi-theatrum.de/1356.html",
         "buildingtype": "amphitheater",
-        "chronogrp": "Second Century",
+        "chronogroup": "Second Century",
         "dare": "http://dare.ht.lu.se/places/24707",
         "dimensions": {
           "exterior-major": 65,
@@ -6497,7 +6527,7 @@
       }
     },{
       "type":"Feature",
-      "id":"Amphitheater",
+      "id":"jebelMorabaAmphitheater",
       "properties": {
         "title": "Jebel Moraba Amphitheater",
         "buildingtype": "amphitheater",
@@ -6523,7 +6553,7 @@
         "title": "Falerone Amphitheater",
         "amphitheatrum": "http://www.amphi-theatrum.de/1525.html",
         "buildingtype": "amphitheater",
-        "chronogrp": "Julio-Claudian",
+        "chronogroup": "Julio-Claudian",
         "dare": "http:// dare.ht.lu.se/places/24593",
         "dimensions": {
            "exterior-major": 88.8,
@@ -6550,7 +6580,7 @@
       "properties": {
         "title": "Fermo Amphitheater",
         "buildingtype": "amphitheater",
-        "chronogrp": "Imperial",
+        "chronogroup": "Imperial",
         "label": "Fermo",
         "latintoponym": "Firmum Picenum",
         "moderncountry": "Italy",
@@ -6572,7 +6602,7 @@
         "title": "Frosinone Amphitheater",
         "amphitheatrum": "http://www.amphi-theatrum.de/1531.html",
         "buildingtype": "amphitheater",
-        "chronogrp": "Imperial",
+        "chronogroup": "Imperial",
         "dare": "http://dare.ht.lu.se/places/23945",
         "dimensions": {
            "exterior-major": 78,
@@ -6600,7 +6630,7 @@
         "title": "Rugge Amphitheater",
         "amphitheatrum": "http://www.amphi-theatrum.de/2217.html",
         "buildingtype": "amphitheater",
-        "chronogrp": "Imperial",
+        "chronogroup": "Imperial",
         "dare": "http://dare.ht.lu.se/places/24311",
         "dimensions": {
            "exterior-major": 83,
@@ -6627,7 +6657,7 @@
         "title": "Egnazia Amphitheater",
         "amphitheatrum": "http://www.amphi-theatrum.de/1610.html",
         "buildingtype": "amphitheater",
-        "chronogrp": "Third Century",
+        "chronogroup": "Third Century",
         "dare": "http://dare.ht.lu.se/places/24251",
         "dimensions": {
            "interior-major": 37,
@@ -6655,7 +6685,7 @@
         "title": "Canosa Amphitheater",
         "amphitheatrum": "http://www.amphi-theatrum.de/1607.html",
         "buildingtype": "amphitheater",
-        "chronogrp": "Imperial",
+        "chronogroup": "Imperial",
         "dare": "http://dare.ht.lu.se/places/24826",
         "dimensions": {
            "exterior-major": 138,
@@ -6684,7 +6714,7 @@
         "title": "Siponto Amphitheater",
         "amphitheatrum": "http://www.amphi-theatrum.de/2222.html",
         "buildingtype": "amphitheater",
-        "chronogrp": "Imperial",
+        "chronogroup": "Imperial",
         "dare": "http://dare.ht.lu.se/places/24627",
         "label": "Siponto",
         "latintoponym": "Sepius",
@@ -6707,7 +6737,7 @@
         "title": "Chieti Amphitheater",
         "amphitheatrum": "http://www.amphi-theatrum.de/23938.html",
         "buildingtype": "amphitheater",
-        "chronogrp": "Imperial",
+        "chronogroup": "Imperial",
         "dare": "http://dare.ht.lu.se/places/24627",
         "dimensions": {
            "interior-major": 59,
@@ -6732,10 +6762,10 @@
       "type":"Feature",
       "id":"teanoAmphitheater",
       "properties": {
-        "title": "Teano Amphitheater",
+        "title": "Amphitheater at Teano",
         "buildingtype": "amphitheater",
-        "chronogrp": "Republican",
-        "comment": "Actual locatioin not known.",
+        "chronogroup": "Republican",
+        "comment": "Actual location not known.",
         "label": "Teano",
         "latintoponym": "Teanum",
         "moderncountry": "Italy",
@@ -6758,7 +6788,12 @@
         "title": "Henchir Douama Amphitheater",
         "amphitheatrum": "http://www.amphi-theatrum.de/1345.html",
         "buildingtype": "amphitheater",
-        "chronogrp": "Imperial",
+        "chronogroup": "Imperial",
+        "dimensions": {
+           "exterior-major": 55,
+           "exterior-minor": 43,
+           "source": "Golvin"
+            },
         "dare": "http://dare.ht.lu.se/places/24393",
         "label": "Henchir Douama",
         "latintoponym": "Uchi Maius",
@@ -6782,14 +6817,14 @@
         "amphitheatrum": "http://www.amphi-theatrum.de/1532.html",
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 3000, "source": "Golvin"},
-        "chronogrp": "Imperial",
+        "chronogroup": "Imperial",
         "dare": "http://dare.ht.lu.se/places/24386",
         "dimensions": {
            "exterior-major": 56,
            "exterior-minor": 46,
            "interior-major": 39,
            "interior-minor": 26.5,
-           "source": "http://www.amphi-theatrum.de/2047.html"
+           "source": "Golvin"
         },
         "golvinid": "116",
         "label": "Ain Tounga",
@@ -6813,7 +6848,7 @@
         "title": "Aleria Amphitheater",
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 1200, "source": "Golvin"},
-        "chronogrp": "Imperial",
+        "chronogroup": "Imperial",
         "dare": "http://dare.ht.lu.se/places/24133",
         "dimensions": {
            "exterior-major": 39.6,
@@ -6823,7 +6858,7 @@
            "source": "Golvin"
         },
         "golvinid": "131",
-        "label": "Ain Tounga",
+        "label": "Aleria",
         "latintoponym": "Alalia",
         "moderncountry": "France",
         "visibility": "good"
@@ -6834,6 +6869,35 @@
                9.510200,
                42.100889, 
                41
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"volterraAmphitheater",
+      "properties": {
+        "title": "Volterra Amphitheater",
+        "bibliography": "http://news.discovery.com/history/archaeology/gladiator-colosseum-found-in-tuscany-151111.htm",
+        "buildingtype": "amphitheater",
+        "capacity": {"quantity": 10000, "source": "Golvin"},
+        "chronogroup": "First Century",
+        "comment": "Newly discovered in 2015. Location approximate.",
+        "dimensions": {
+           "exterior-major": 80,
+           "exterior-minor": 60,
+           "source": "http://news.discovery.com/history/archaeology/gladiator-colosseum-found-in-tuscany-151111.htm"
+        },
+        "label": "Volterra",
+        "latintoponym": "Volaterrae",
+        "moderncountry": "Italy",
+        "visibility": "none"
+         },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+               10.862152,
+               43.407162,
+               456            
         ],
         "source":"http://maps.google.com/"
       }
