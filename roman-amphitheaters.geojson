@@ -6901,6 +6901,28 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"vastoAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Vasto",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
+        "comment": "Location approximate, near to DARE marker.",
+        "dare": "http://dare.ht.lu.se/places/24333",
+        "label": "Vasto",
+        "latintoponym": "Histonum",
+        "moderncountry": "Italy",
+        "visibility": "none" },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+               14.708095,
+               42.111291,
+               150
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ],
   "roman-amphitheater-chronogroups":[

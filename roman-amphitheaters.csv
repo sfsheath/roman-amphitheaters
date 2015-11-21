@@ -244,3 +244,4 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "ainToungaAmphitheater","Ain Tounga Amphitheater","Ain Tounga","amphitheater",3000,"Tunisia","Imperial",,,56,46,,,36.52782,9.361924,226
 "aleriaAmphitheater","Aleria Amphitheater","Aleria","amphitheater",1200,"France","Imperial",,,39.6,34,,,42.100889,9.5102,41
 "volterraAmphitheater","Volterra Amphitheater","Volterra","amphitheater",10000,"Italy","First Century",,,80,60,,,43.407162,10.862152,456
+"vastoAmphitheater","Amphitheater at Vasto","Vasto","amphitheater",,"Italy","Imperial",,,,,,,42.111291,14.708095,150
