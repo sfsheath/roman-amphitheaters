@@ -6923,6 +6923,34 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"suasaAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Suasa",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
+        "dare": "http://dare.ht.lu.se/places/24272",
+        "dimensions": {
+           "exterior-major": 99,
+           "exterior-minor": 75,
+           "interior-major": 58,
+           "interior-minor": 36,
+           "source": "http://maps.google.com"
+        },
+        "label": "Suasa",
+        "latintoponym": "Suasa",
+        "moderncountry": "Italy",
+        "visibility": "good" },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+               12.986831,
+               43.624682,
+               139
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
   ],
   "roman-amphitheater-chronogroups":[
