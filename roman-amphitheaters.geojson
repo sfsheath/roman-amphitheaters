@@ -1249,6 +1249,7 @@
       "properties":{
         "title":"Amphitheater at Libarna",
         "buildingtype": "amphitheater",
+        "capacity": {"quantity": 5380, "source": "Golvin"},
         "chronogroup": "Imperial",
         "dimensions": {
           "exterior-major": 88,
@@ -1257,6 +1258,7 @@
           "arena-minor": 36.6,
           "source": "Golvin"
          },
+        "golvinid": "105",
         "hypogeum": true,
         "label": "Libarna",
         "moderncountry": "Italy",
@@ -3971,6 +3973,12 @@
         "amphitheatrum": "http://amphi-theatrum.de/1518.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
+        "dimensions": {
+          "exterior-major": 148,
+          "exterior-minor": 125,
+          "source": "Golvin"
+        },
+        "golvinid": "91",
         "label": "Ascoli",
         "latintoponym": "Ascolum Picenum",
         "moderncountry": "Italy"
@@ -6948,6 +6956,48 @@
                12.986831,
                43.624682,
                139
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"pollenzoAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Pollenzo",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
+        "dare": "http://dare.ht.lu.se/places/24620",
+        "label": "Pollenzo",
+        "latintoponym": "Pollentia",
+        "moderncountry": "Italy",
+        "visibility": "street plan" },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+               7.895993,
+               44.684698,
+               200
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"vercelliAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Vercelli",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
+        "dare": "http://dare.ht.lu.se/places/25751",
+        "label": "Vercelli",
+        "latintoponym": "Vercellae",
+        "moderncountry": "Italy",
+        "visibility": "partial" },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+               8.426863,
+               45.319277,
+               126
         ],
         "source":"http://maps.google.com/"
       }
