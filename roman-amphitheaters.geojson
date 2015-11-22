@@ -7001,7 +7001,30 @@
         ],
         "source":"http://maps.google.com/"
       }
+    },{
+      "type":"Feature",
+      "id":"sanGiovanniAmphitheater",
+      "properties": {
+        "title": "Amphitheater at San Giovanni in Carico",
+        "amphitheatrum": "http://www.amphi-theatrum.de/2084.html",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
+        "dare": "http://dare.ht.lu.se/places/24623",
+        "label": "San Giovanni in Carico",
+        "latintoponym": "Fabrateria Nova",
+        "moderncountry": "Italy",
+        "visibility": "poor" },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+               13.552957,
+               41.518993,
+               87
+        ],
+        "source":"http://maps.google.com/"
+      }
     }
+
   ],
   "roman-amphitheater-chronogroups":[
     {
