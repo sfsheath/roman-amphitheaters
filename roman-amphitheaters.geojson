@@ -19,12 +19,14 @@
     "properties":{ "@id":"rdfs:isDefinedBy" },
     "type":"@type",
 
+    "amphitheatrum": {"@id":"rdfs:seeAlso","@type","@id"},
     "buildingtype" : { "@id": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", "@type": "@id" },
     "capacity": {"@id":"http://dbpedia.org/property/seatingCapacity" },
     "chronogroup": {"@id":"dcterms:coverage"},
     "comment":{"@id":"rdfs:comment" },
     "created":{ "@id":"dcterms:created", "@type":"xsd:gDate" },
     "dedication": {"@id":"http://purl.org/roman-amphitheaters/ontology#dedication"},
+    "emperor": "ramphs:hasEmperor",
     "label": {"@id":"rdfs:label"},
     "periodo": {"@id": "dcterms:coverage", "@type": "@id" },
     "pleiades":{"@id":"gn:locatedIn","@type":"@id"},
@@ -33,6 +35,7 @@
     "source-note":{"@id":"rdfs:comment" },
     "title":{"@id":"dcterms:title"},
     "wikipedia":{"@id":"rdfs:seeAlso","@type":"@id"}
+
   },
   "type":"FeatureCollection",
   "@id":"http://purl.org/roman-amphitheaters/",
