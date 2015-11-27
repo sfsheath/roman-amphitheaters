@@ -19,7 +19,7 @@
     "properties":{ "@id":"rdfs:isDefinedBy" },
     "type":"@type",
 
-    "amphitheatrum": {"@id":"rdfs:seeAlso","@type","@id"},
+    "amphitheatrum": {"@id":"rdfs:seeAlso","@type":"@id"},
     "buildingtype" : { "@id": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", "@type": "@id" },
     "capacity": {"@id":"http://dbpedia.org/property/seatingCapacity" },
     "chronogroup": {"@id":"dcterms:coverage"},
