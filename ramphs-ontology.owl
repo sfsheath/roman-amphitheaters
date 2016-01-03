@@ -20,8 +20,11 @@
 
 <http://purl.org/roman-amphitheaters/ontology#hasBuildingType> rdf:type owl:ObjectProperty ;
                                                                
-                                                               rdfs:domain <http://purl.org/roman-amphitheaters/ontology#Building> ,
-                                                                           <http://purl.org/roman-amphitheaters/ontology#Phase> .
+                                                               rdfs:domain <http://purl.org/roman-amphitheaters/ontology#Building> ;
+                                                               
+                                                               rdfs:range <http://purl.org/roman-amphitheaters/ontology#BuildingType> ;
+                                                               
+                                                               rdfs:domain <http://purl.org/roman-amphitheaters/ontology#Phase> .
 
 
 
@@ -43,15 +46,27 @@
 #################################################################
 
 
+###  http://purl.org/roman-amphitheaters/ontology#exclude
+
+<http://purl.org/roman-amphitheaters/ontology#exclude> rdf:type owl:DatatypeProperty ;
+                                                       
+                                                       rdfs:comment "Should this building be included in the set of buildings in quantifications and other processing that is exploring aspects of the distributio of amphitheaters in approximately the 2nd century AD." .
+
+
+
 ###  http://purl.org/roman-amphitheaters/ontology#hasAmphitheatrumUrl
 
-<http://purl.org/roman-amphitheaters/ontology#hasAmphitheatrumUrl> rdf:type owl:DatatypeProperty .
+<http://purl.org/roman-amphitheaters/ontology#hasAmphitheatrumUrl> rdf:type owl:DatatypeProperty ;
+                                                                   
+                                                                   rdfs:comment "URL for page on http://amphi-theatrum.de describing an amphitheater." .
 
 
 
 ###  http://purl.org/roman-amphitheaters/ontology#hasArenaMajor
 
 <http://purl.org/roman-amphitheaters/ontology#hasArenaMajor> rdf:type owl:DatatypeProperty ;
+                                                             
+                                                             rdfs:comment "The length along the major axis of an amphitheater's arena in meters." ;
                                                              
                                                              rdfs:range xsd:double .
 
@@ -77,15 +92,29 @@
 
 
 
+###  http://purl.org/roman-amphitheaters/ontology#hasCreationYear
+
+<http://purl.org/roman-amphitheaters/ontology#hasCreationYear> rdf:type owl:DatatypeProperty .
+
+
+
 ###  http://purl.org/roman-amphitheaters/ontology#hasDAREUrl
 
 <http://purl.org/roman-amphitheaters/ontology#hasDAREUrl> rdf:type owl:DatatypeProperty .
 
 
 
+###  http://purl.org/roman-amphitheaters/ontology#hasElevation
+
+<http://purl.org/roman-amphitheaters/ontology#hasElevation> rdf:type owl:DatatypeProperty .
+
+
+
 ###  http://purl.org/roman-amphitheaters/ontology#hasEmperor
 
 <http://purl.org/roman-amphitheaters/ontology#hasEmperor> rdf:type owl:DatatypeProperty ;
+                                                          
+                                                          rdfs:comment "Indicates that there is good evidence for the construction of an amphitheater having taken place in during the rule of the indicated emperor." ;
                                                           
                                                           rdfs:domain <http://purl.org/roman-amphitheaters/ontology#Building> ,
                                                                       <http://purl.org/roman-amphitheaters/ontology#Phase> .
@@ -104,13 +133,42 @@
 
 <http://purl.org/roman-amphitheaters/ontology#hasExteriorMinor> rdf:type owl:DatatypeProperty ;
                                                                 
+                                                                rdfs:domain <http://purl.org/roman-amphitheaters/ontology#Building> ,
+                                                                            <http://purl.org/roman-amphitheaters/ontology#Phase> ;
+                                                                
                                                                 rdfs:range xsd:double .
+
+
+
+###  http://purl.org/roman-amphitheaters/ontology#hasHeight
+
+<http://purl.org/roman-amphitheaters/ontology#hasHeight> rdf:type owl:DatatypeProperty ;
+                                                         
+                                                         rdfs:domain <http://purl.org/roman-amphitheaters/ontology#Building> ,
+                                                                     <http://purl.org/roman-amphitheaters/ontology#Phase> ;
+                                                         
+                                                         rdfs:range xsd:double .
 
 
 
 ###  http://purl.org/roman-amphitheaters/ontology#hasLatinToponym
 
-<http://purl.org/roman-amphitheaters/ontology#hasLatinToponym> rdf:type owl:DatatypeProperty .
+<http://purl.org/roman-amphitheaters/ontology#hasLatinToponym> rdf:type owl:DatatypeProperty ;
+                                                               
+                                                               rdfs:domain <http://purl.org/roman-amphitheaters/ontology#Building> ,
+                                                                           <http://purl.org/roman-amphitheaters/ontology#Phase> .
+
+
+
+###  http://purl.org/roman-amphitheaters/ontology#hasLatitude
+
+<http://purl.org/roman-amphitheaters/ontology#hasLatitude> rdf:type owl:DatatypeProperty .
+
+
+
+###  http://purl.org/roman-amphitheaters/ontology#hasLongitude
+
+<http://purl.org/roman-amphitheaters/ontology#hasLongitude> rdf:type owl:DatatypeProperty .
 
 
 
@@ -120,37 +178,67 @@
 
 
 
+###  http://purl.org/roman-amphitheaters/ontology#hasPeriodoUrl
+
+<http://purl.org/roman-amphitheaters/ontology#hasPeriodoUrl> rdf:type owl:DatatypeProperty ;
+                                                             
+                                                             rdfs:range xsd:anyURI .
+
+
+
 ###  http://purl.org/roman-amphitheaters/ontology#hasPleiadesUriForBuilding
 
-<http://purl.org/roman-amphitheaters/ontology#hasPleiadesUriForBuilding> rdf:type owl:DatatypeProperty .
+<http://purl.org/roman-amphitheaters/ontology#hasPleiadesUriForBuilding> rdf:type owl:DatatypeProperty ;
+                                                                         
+                                                                         rdfs:range xsd:anyURI .
 
 
 
 ###  http://purl.org/roman-amphitheaters/ontology#hasPleiadesUriForPlace
 
-<http://purl.org/roman-amphitheaters/ontology#hasPleiadesUriForPlace> rdf:type owl:DatatypeProperty .
+<http://purl.org/roman-amphitheaters/ontology#hasPleiadesUriForPlace> rdf:type owl:DatatypeProperty ;
+                                                                      
+                                                                      rdfs:range xsd:anyURI .
 
 
 
-###  http://purl.org/roman-amphitheaters/ontology#hasWikipeidaUrl
+###  http://purl.org/roman-amphitheaters/ontology#hasQuantity
 
-<http://purl.org/roman-amphitheaters/ontology#hasWikipeidaUrl> rdf:type owl:DatatypeProperty .
-
-
-
-###  http://purl.org/roman-amphitheaters/ontology#quantity
-
-<http://purl.org/roman-amphitheaters/ontology#quantity> rdf:type owl:DatatypeProperty ;
-                                                        
-                                                        rdfs:domain <http://purl.org/roman-amphitheaters/ontology#Capacity> .
+<http://purl.org/roman-amphitheaters/ontology#hasQuantity> rdf:type owl:DatatypeProperty ;
+                                                           
+                                                           rdfs:domain <http://purl.org/roman-amphitheaters/ontology#Capacity> ;
+                                                           
+                                                           rdfs:range xsd:double .
 
 
 
-###  http://purl.org/roman-amphitheaters/ontology#sourceNote
+###  http://purl.org/roman-amphitheaters/ontology#hasRelationToCityWall
 
-<http://purl.org/roman-amphitheaters/ontology#sourceNote> rdf:type owl:DatatypeProperty ;
-                                                          
-                                                          rdfs:range xsd:string .
+<http://purl.org/roman-amphitheaters/ontology#hasRelationToCityWall> rdf:type owl:DatatypeProperty .
+
+
+
+###  http://purl.org/roman-amphitheaters/ontology#hasSource
+
+<http://purl.org/roman-amphitheaters/ontology#hasSource> rdf:type owl:DatatypeProperty ;
+                                                         
+                                                         rdfs:range xsd:string .
+
+
+
+###  http://purl.org/roman-amphitheaters/ontology#hasWikipediaUrl
+
+<http://purl.org/roman-amphitheaters/ontology#hasWikipediaUrl> rdf:type owl:DatatypeProperty ;
+                                                               
+                                                               rdfs:range xsd:anyURI .
+
+
+
+###  http://purl.org/roman-amphitheaters/ontology#hasYouTubeUrl
+
+<http://purl.org/roman-amphitheaters/ontology#hasYouTubeUrl> rdf:type owl:DatatypeProperty ;
+                                                             
+                                                             rdfs:range xsd:anyURI .
 
 
 
@@ -167,7 +255,11 @@
 
 <http://purl.org/roman-amphitheaters/ontology#Amphitheater> rdf:type owl:Class ;
                                                             
-                                                            rdfs:subClassOf <http://purl.org/roman-amphitheaters/ontology#BuildingType> .
+                                                            rdfs:label "Amphitheater" ;
+                                                            
+                                                            rdfs:subClassOf <http://purl.org/roman-amphitheaters/ontology#BuildingType> ;
+                                                            
+                                                            rdfs:comment "An amphitheater." .
 
 
 
@@ -193,6 +285,12 @@
 
 
 
+###  http://purl.org/roman-amphitheaters/ontology#Chronogroup
+
+<http://purl.org/roman-amphitheaters/ontology#Chronogroup> rdf:type owl:Class .
+
+
+
 ###  http://purl.org/roman-amphitheaters/ontology#Dimensions
 
 <http://purl.org/roman-amphitheaters/ontology#Dimensions> rdf:type owl:Class ;
@@ -205,7 +303,15 @@
 
 <http://purl.org/roman-amphitheaters/ontology#GalloRomanAmpthitheater> rdf:type owl:Class ;
                                                                        
+                                                                       rdfs:label "Gallo-Roman Amphitheater" ;
+                                                                       
                                                                        rdfs:subClassOf <http://purl.org/roman-amphitheaters/ontology#BuildingType> .
+
+
+
+###  http://purl.org/roman-amphitheaters/ontology#ModernCountry
+
+<http://purl.org/roman-amphitheaters/ontology#ModernCountry> rdf:type owl:Class .
 
 
 
@@ -229,7 +335,34 @@
 
 <http://purl.org/roman-amphitheaters/ontology#TrainingArena> rdf:type owl:Class ;
                                                              
+                                                             rdfs:label "Training Arena" ;
+                                                             
                                                              rdfs:subClassOf <http://purl.org/roman-amphitheaters/ontology#BuildingType> .
+
+
+
+
+
+#################################################################
+#
+#    Individuals
+#
+#################################################################
+
+
+###  http://purl.org/roman-amphitheaters/ontology#Imperial
+
+<http://purl.org/roman-amphitheaters/ontology#Imperial> rdf:type <http://purl.org/roman-amphitheaters/ontology#Chronogroup> ,
+                                                                 owl:NamedIndividual .
+
+
+
+###  http://purl.org/roman-amphitheaters/ontology#Italy
+
+<http://purl.org/roman-amphitheaters/ontology#Italy> rdf:type <http://purl.org/roman-amphitheaters/ontology#ModernCountry> ,
+                                                              owl:NamedIndividual ;
+                                                     
+                                                     rdfs:label "Italy" .
 
 
 

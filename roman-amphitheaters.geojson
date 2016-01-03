@@ -3,6 +3,7 @@
     "dcterms":"http://purl.org/dc/terms/",
     "gn":"http://www.geonames.org/ontology#",
     "prov":"http://www.w3.org/ns/prov#",
+    "ramphsont":"http://purl.org/roman-amphitheaters/ontology#",
     "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
     "xsd":"http://www.w3.org/2001/XMLSchema#",
 
@@ -26,7 +27,8 @@
     "comment":{"@id":"rdfs:comment" },
     "created":{ "@id":"dcterms:created", "@type":"xsd:gDate" },
     "dedication": {"@id":"http://purl.org/roman-amphitheaters/ontology#dedication"},
-    "emperor": "ramphs:hasEmperor",
+    "emperor": "ramphsont:hasEmperor",
+    "exclude": "ramphsont:exclude",
     "label": {"@id":"rdfs:label"},
     "periodo": {"@id": "dcterms:coverage", "@type": "@id" },
     "pleiades":{"@id":"gn:locatedIn","@type":"@id"},
@@ -2176,7 +2178,8 @@
         "moderncountry": "Switzerland",
         "orientation": 121,
         "pleiades": "http://pleiades.stoa.org/places/177494",
-        "source":"http://pleiades.stoa.org/places/177494/location-of-roman-amphitheater"
+        "source":"http://pleiades.stoa.org/places/177494/location-of-roman-amphitheater",
+        "see": "http://www.augustaraurica.ch/en/visit/sights/amphitheatre/"
       },
       "geometry":{
         "type":"Point",
