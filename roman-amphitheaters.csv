@@ -72,7 +72,7 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "cividateCamunoAmphitheater","Amphitheater at Cividate Camuno","Cividate Camuno","amphitheater",,"Italy","Imperial",,,,,,,45.94381289,10.280644,283
 "grumentoAmphitheater","Amphitheater at Grumento","Grumento","amphitheater",7657,"Italy","Imperial",,,90,70,60,40,40.2876404,15.9115794,579
 "albaFucensAmphitheater","Amphitheater at Alba Fucens","Alba Fucens","amphitheater",10720,"Italy","Julio-Claudian",,,103,76,64,37,42.0772,13.412289,977
-"colAugustaRauricaAmphitheatre","Amphitheater at Col. Augusta Raurica","Aug. Raurica","amphitheater",14313,"Switzerland","Severan",,,102,87,48,33,47.529294,7.72061,285
+"colAugustaRauricaAmphitheatre","Amphitheater at Col. Augusta Raurica","Aug. Raurica","amphitheater",14313,"Switzerland","Late Second Century",,,102,87,48,33,47.529294,7.72061,285
 "sutriumAmphitheatre","Amphitheater at Sutrium","Sutrium","amphitheater",8500,"Italy","Republican",,"https://www.youtube.com/watch?v=OgHl5MT95bg",,,,,42.2393124,12.2293009,271
 "sarmizegetusaAmphitheatre","Amphitheater at Ulpia Traiana Sarmizegetusa","Sarmizegetusa","amphitheater",,"Romania","Second Century",,,88,69,66,47,45.51667729,22.785320599,491
 "salonaAmphitheatre","Amphitheater at Salona","Salona","amphitheater",13380,"Croatia","Second Century",,,124.75,100.65,64.3,40.2,43.5381718,16.473893,8
@@ -249,3 +249,4 @@ id,title,label,type,capacity,modcountry,chronogrp,wikipedia,youtube,extmajor,ext
 "pollenzoAmphitheater","Amphitheater at Pollenzo","Pollenzo","amphitheater",,"Italy","Imperial",,,,,,,44.684698,7.895993,200
 "vercelliAmphitheater","Amphitheater at Vercelli","Vercelli","amphitheater",,"Italy","Imperial",,,,,,,45.319277,8.426863,126
 "sanGiovanniAmphitheater","Amphitheater at San Giovanni in Carico","San Giovanni in Carico","amphitheater",,"Italy","Imperial",,,,,,,41.518993,13.552957,87
+"megiddoAmphitheater","Amphitheater at Megiddo","Megiddo","amphitheater",,"Israel","Imperial",,,70,50,,,32.58102,35.183968,141

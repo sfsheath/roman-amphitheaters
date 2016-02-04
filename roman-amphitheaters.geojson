@@ -1148,8 +1148,8 @@
         "capacity": {"quantity": 2309, "source": "Golvin"},
         "chronogroup": "Julio-Claudian",
         "dimensions": {
-          "exterior-major": 38,
-          "exterior-minor": 27,
+          "exterior-major": 48,
+          "exterior-minor": 37,
           "arena-major": 30,
           "arena-minor": 20,
           "source": "Golvin"
@@ -2164,9 +2164,9 @@
       "properties":{
         "title":"Amphitheater at Col. Augusta Raurica",
         "buildingtype": "amphitheater",
-        "created" : 200,
+        "created" : 170,
         "capacity": {"quantity": 14313, "source": "Golvin"},
-        "chronogroup": "Severan",
+        "chronogroup": "Late Second Century",
         "dimensions": {
           "exterior-major": 102,
           "exterior-minor": 87,
@@ -7026,6 +7026,33 @@
                13.552957,
                41.518993,
                87
+        ],
+        "source":"http://maps.google.com/"
+      }
+    },{
+      "type":"Feature",
+      "id":"megiddoAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Megiddo",
+        "buildingtype": "amphitheater",
+        "bibliography": "http://www.hadashot-esi.org.il/Report_Detail_Eng.aspx?id=5390",
+        "chronogroup": "Imperial",
+        "dimensions": {
+           "exterior-major": 70,
+           "exterior-minor": 50,
+           "source": "http://www.hadashot-esi.org.il/Report_Detail_Eng.aspx?id=5390"
+        },
+        "label": "Megiddo",
+        "latintoponym": "Legio",
+        "moderncountry": "Israel",
+        "vici": "http://vici.org/vici/18746",
+        "visibility": "good" },
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+               35.183968,
+               32.581020,
+               141
         ],
         "source":"http://maps.google.com/"
       }
