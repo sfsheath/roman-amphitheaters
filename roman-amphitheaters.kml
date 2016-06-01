@@ -320,6 +320,7 @@
 		<SimpleData name="orientation">218</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/432815</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
+		<SimpleData name="welchid">8</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>14.127615,40.826239,58</coordinates></Point>
   </Placemark>
@@ -390,6 +391,7 @@
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/570182</SimpleData>
 		<SimpleData name="moderncountry">Greece</SimpleData>
 		<SimpleData name="see">http://corinth.sas.upenn.edu/gisamphitheater.html</SimpleData>
+		<SimpleData name="welchid">18</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>22.892126,37.909629,98</coordinates></Point>
   </Placemark>
@@ -683,7 +685,7 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 2309, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="chronogroup">Julio-Claudian</SimpleData>
-		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 38, &quot;exterior-minor&quot;: 27, &quot;arena-major&quot;: 30, &quot;arena-minor&quot;: 20, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 48, &quot;exterior-minor&quot;: 37, &quot;arena-major&quot;: 30, &quot;arena-minor&quot;: 20, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Rusellae</SimpleData>
 		<SimpleData name="orientation">261</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/413288</SimpleData>
@@ -780,7 +782,7 @@
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/432617</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Abella</SimpleData>
-		<SimpleData name="welchid">12</SimpleData>
+		<SimpleData name="welchid">5</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>14.608415,40.961526,224</coordinates></Point>
   </Placemark>
@@ -1038,6 +1040,7 @@
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/413184</SimpleData>
 		<SimpleData name="moderncountry">Italy</SimpleData>
 		<SimpleData name="latintoponym">Ferentium</SimpleData>
+		<SimpleData name="welchid">16</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/413184/location-of-lucus-feroniae-amphitheater</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>12.594868,42.129831,52</coordinates></Point>
@@ -1242,13 +1245,14 @@
 		<SimpleData name="title">Amphitheater at Col. Augusta Raurica</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 14313, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
-		<SimpleData name="chronogroup">Severan</SimpleData>
-		<SimpleData name="created">200</SimpleData>
+		<SimpleData name="chronogroup">Late Second Century</SimpleData>
+		<SimpleData name="created">170</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 102, &quot;exterior-minor&quot;: 87, &quot;arena-major&quot;: 48, &quot;arena-minor&quot;: 33, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Aug. Raurica</SimpleData>
 		<SimpleData name="orientation">121</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/177494</SimpleData>
 		<SimpleData name="moderncountry">Switzerland</SimpleData>
+		<SimpleData name="see">http://www.augustaraurica.ch/en/visit/sights/amphitheatre/</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/177494/location-of-roman-amphitheater</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>7.72061,47.529294,285</coordinates></Point>
@@ -3908,6 +3912,21 @@
 		<SimpleData name="dare">http://dare.ht.lu.se/places/24623</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>13.552957,41.518993,87</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Megiddo</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 70, &quot;exterior-minor&quot;: 50, &quot;source&quot;: &quot;http:\/\/www.hadashot-esi.org.il\/Report_Detail_Eng.aspx?id=5390&quot; }</SimpleData>
+		<SimpleData name="label">Megiddo</SimpleData>
+		<SimpleData name="moderncountry">Israel</SimpleData>
+		<SimpleData name="latintoponym">Legio</SimpleData>
+		<SimpleData name="bibliography">http://www.hadashot-esi.org.il/Report_Detail_Eng.aspx?id=5390</SimpleData>
+		<SimpleData name="visibility">good</SimpleData>
+		<SimpleData name="vici">http://vici.org/vici/18746</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>35.183968,32.58102,141</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>
