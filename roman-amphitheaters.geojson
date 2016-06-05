@@ -7059,6 +7059,50 @@
         ],
         "source": "http://maps.google.com/"
       }
+    },{
+      "type": "Feature",
+      "id": "suessaAruncaAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Suessa Arunca",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Republican",
+        "dare": "http://dare.ht.lu.se/places/16715",
+        "label": "Suessa Arunca",
+        "latintoponym": "Suessa",
+        "moderncountry": "Italy",
+        "visibility": "poor" },
+        "welchid": "11",
+        "geometry": {
+          "type": "Point",
+          "coordinates":[
+               13.933458,
+               41.230843,
+               128
+        ],
+        "source": "http://maps.google.com/"
+      }
+    } ,{
+      "type": "Feature",
+      "id": "altripaldaAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Altripalda",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Republican",
+        "dare": "http://dare.ht.lu.se/places/21758",
+        "label": "Altripalda",
+        "latintoponym": "Abellinum",
+        "moderncountry": "Italy",
+        "visibility": "none" },
+        "welchid": "12",
+        "geometry": {
+          "type": "Point",
+          "coordinates":[
+               14.825649,
+               40.917353,
+               303
+        ],
+        "source": "http://maps.google.com/"
+      }
     }
 
   ],
