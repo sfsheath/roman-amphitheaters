@@ -7081,7 +7081,7 @@
         ],
         "source": "http://maps.google.com/"
       }
-    } ,{
+    },{
       "type": "Feature",
       "id": "altripaldaAmphitheater",
       "properties": {
@@ -7103,6 +7103,30 @@
         ],
         "source": "http://maps.google.com/"
       }
+    },{
+      "type": "Feature",
+      "id": "compsaAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Compsa",
+        "bibliography": "Welch, p. 83" ,
+        "buildingtype": "amphitheater",
+        "chronogroup": "Republican",
+        "dare": "http://dare.ht.lu.se/places/21758",
+        "label": "Compsa",
+        "latintoponym": "Compsa",
+        "moderncountry": "Italy",
+        "uncertainty": "uncertain",
+        "visibility": "none" ,
+        "geometry": {
+          "type": "Point",
+          "coordinates":[
+               15.330556,
+               40.870278,
+               572
+        ],
+        "source": "http://maps.google.com/"
+      }
+    }
     }
 
   ],
