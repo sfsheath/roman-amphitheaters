@@ -7070,8 +7070,8 @@
         "label": "Suessa Arunca",
         "latintoponym": "Suessa",
         "moderncountry": "Italy",
-        "visibility": "poor" },
-        "welchid": "11",
+        "visibility": "poor" ,
+        "welchid": "11"},
         "geometry": {
           "type": "Point",
           "coordinates":[
@@ -7092,8 +7092,8 @@
         "label": "Altripalda",
         "latintoponym": "Abellinum",
         "moderncountry": "Italy",
-        "visibility": "none" },
-        "welchid": "12",
+        "visibility": "none" ,
+        "welchid": "12"},
         "geometry": {
           "type": "Point",
           "coordinates":[
@@ -7111,12 +7111,11 @@
         "bibliography": "Welch, p. 83" ,
         "buildingtype": "amphitheater",
         "chronogroup": "Republican",
-        "dare": "http://dare.ht.lu.se/places/21758",
         "label": "Compsa",
         "latintoponym": "Compsa",
         "moderncountry": "Italy",
         "uncertainty": "uncertain",
-        "visibility": "none" ,
+        "visibility": "none" },
         "geometry": {
           "type": "Point",
           "coordinates":[
@@ -7126,9 +7125,70 @@
         ],
         "source": "http://maps.google.com/"
       }
+    },{
+      "type": "Feature",
+      "id": "yorkAmphitheater",
+      "properties": {
+        "title": "Amphitheater at York",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
+        "label": "York",
+        "latintoponym": "Eboracum",
+        "moderncountry": "United Kingdom",
+        "uncertainty": "uncertain",
+        "visibility": "none" },
+        "geometry": {
+          "type": "Point",
+          "coordinates":[
+               -1.080278,
+               53.958333,
+               21
+        ],
+        "source": "http://en.wikipedia.com/"
+      }
+      },{
+      "type": "Feature",
+      "id": "barcelonaAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Barcelona",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
+        "label": "York",
+        "latintoponym": "Eboracum",
+        "moderncountry": "United Kingdom",
+        "uncertainty": "uncertain",
+        "visibility": "none" },
+        "geometry": {
+          "type": "Point",
+          "coordinates":[
+               -1.080278,
+               53.958333,
+               21
+        ],
+        "source": "http://en.wikipedia.com/"
+      }
+    },{
+      "type": "Feature",
+      "id": "istanbulAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Istanbul",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Imperial",
+        "label": "Istanbul",
+        "latintoponym": "Byzantium",
+        "moderncountry": "Turkey",
+        "uncertainty": "uncertain",
+        "visibility": "none" },
+        "geometry": {
+          "type": "Point",
+          "coordinates":[
+               28.985442,
+               41.014686,
+               32
+        ],
+        "source": "http://maps.google.com"
+      }
     }
-    }
-
   ],
   "roman-amphitheater-chronogroups":[
     {
