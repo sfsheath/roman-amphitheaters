@@ -54,6 +54,7 @@
 	<SimpleField name="chronocertainty" type="string"></SimpleField>
 	<SimpleField name="province" type="string"></SimpleField>
 	<SimpleField name="regio" type="string"></SimpleField>
+	<SimpleField name="historicengland" type="string"></SimpleField>
 </Schema>
 <Folder><name>OGRGeoJSON</name>
   <Placemark>
@@ -810,11 +811,12 @@
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
 		<SimpleData name="capacity">{ &quot;quantity&quot;: 2179, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="chronogroup">Imperial</SimpleData>
-		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 50, &quot;exterior-minor&quot;: 39, &quot;arena-major&quot;: 35, &quot;arena-minor&quot;: 24, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 50, &quot;exterior-minor&quot;: 39, &quot;arena-major&quot;: 32, &quot;arena-minor&quot;: 24, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Charterhouse</SimpleData>
 		<SimpleData name="orientation">270</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/79534</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
+		<SimpleData name="wikipedia">https://en.wikipedia.org/wiki/Charterhouse_Roman_Town</SimpleData>
 		<SimpleData name="source">http://pleiades.stoa.org/places/79534/location-of-roman-amphitheater</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-2.720301,51.305437,296</coordinates></Point>
@@ -823,14 +825,16 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Chester</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="chronogroup">Flavian</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 95.500000, &quot;exterior-minor&quot;: 86.600000, &quot;arena-major&quot;: 56.700000, &quot;arena-minor&quot;: 48.300000, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Chester</SimpleData>
 		<SimpleData name="orientation">156</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/79420</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 		<SimpleData name="latintoponym">Deva Victrix</SimpleData>
-		<SimpleData name="bibliography">https://www.academia.edu/4403653/Chester_amphitheatre_excavations_in_2000</SimpleData>
+		<SimpleData name="wikipedia">https://en.wikipedia.org/wiki/Chester_Roman_Amphitheatre</SimpleData>
+		<SimpleData name="lastuse">{ &quot;date&quot;: &quot;325&quot;, &quot;comment&quot;: &quot;Via Heritage England&quot; }</SimpleData>
+		<SimpleData name="bibliography">[ &quot;https:\/\/www.academia.edu\/4403653\/Chester_amphitheatre_excavations_in_2000&quot;, &quot;https:\/\/content.historicengland.org.uk\/images-books\/publications\/iha-roman-amphitheatres-theatres-circuses\/amphitheatres.pdf\/&quot; ]</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-2.886928,53.189079,23</coordinates></Point>
   </Placemark>
@@ -1321,6 +1325,7 @@
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 		<SimpleData name="latintoponym">Londinium</SimpleData>
 		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=qvw9xA-hTz8)</SimpleData>
+		<SimpleData name="bibliography">https://content.historicengland.org.uk/images-books/publications/iha-roman-amphitheatres-theatres-circuses/amphitheatres.pdf/</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-0.092136,51.515522,29</coordinates></Point>
   </Placemark>
@@ -1350,6 +1355,7 @@
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 		<SimpleData name="latintoponym">Isca Augusta</SimpleData>
 		<SimpleData name="youtube">(2:https://www.youtube.com/watch?v=VIT1JAOadho,...)</SimpleData>
+		<SimpleData name="bibliography">https://content.historicengland.org.uk/images-books/publications/iha-roman-amphitheatres-theatres-circuses/amphitheatres.pdf/</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-2.956878,51.6080589,13</coordinates></Point>
   </Placemark>
@@ -1474,13 +1480,14 @@
 		<SimpleData name="title">Amphitheater at Cirencester</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1490.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
 		<SimpleData name="label">Cirencester</SimpleData>
 		<SimpleData name="orientation">150</SimpleData>
 		<SimpleData name="pleiades">http://pleiades.stoa.org/places/197225</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
 		<SimpleData name="latintoponym">Corinium Dobunnorum</SimpleData>
 		<SimpleData name="youtube">(3:https://www.youtube.com/watch?v=9RFDium7TYU,...)</SimpleData>
+		<SimpleData name="bibliography">https://content.historicengland.org.uk/images-books/publications/iha-roman-amphitheatres-theatres-circuses/amphitheatres.pdf/</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-1.972188,51.71151,119</coordinates></Point>
   </Placemark>
@@ -1761,10 +1768,12 @@
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="title">Amphitheater at Carmarthen</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="chronogroup">Flavian</SimpleData>
+		<SimpleData name="chronogroup">Second Century</SimpleData>
+		<SimpleData name="created">125</SimpleData>
 		<SimpleData name="label">Carmarthen</SimpleData>
 		<SimpleData name="orientation">253</SimpleData>
 		<SimpleData name="moderncountry">United Kingdom</SimpleData>
+		<SimpleData name="bibliography">https://content.historicengland.org.uk/images-books/publications/iha-roman-amphitheatres-theatres-circuses/amphitheatres.pdf/</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-4.296651,51.862005,29</coordinates></Point>
   </Placemark>
@@ -2458,6 +2467,7 @@
 		<SimpleData name="latintoponym">Calleva Atrebatum</SimpleData>
 		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=ScpzLOmZEXs)</SimpleData>
 		<SimpleData name="comment">See http://www.heritagedaily.com/2014/02/8-roman-ampitheatres-in-britain/101973</SimpleData>
+		<SimpleData name="bibliography">https://content.historicengland.org.uk/images-books/publications/iha-roman-amphitheatres-theatres-circuses/amphitheatres.pdf/</SimpleData>
 		<SimpleData name="visibility">partial</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-1.07547,51.358881,91</coordinates></Point>
@@ -2467,7 +2477,7 @@
 		<SimpleData name="title">Amphitheater at Dorchester / Maumbury Henge</SimpleData>
 		<SimpleData name="amphitheatrum">http://amphi-theatrum.de/1491.html</SimpleData>
 		<SimpleData name="buildingtype">amphitheater</SimpleData>
-		<SimpleData name="chronogroup">First Century</SimpleData>
+		<SimpleData name="chronogroup">Flavian</SimpleData>
 		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 80, &quot;exterior-minor&quot;: 77, &quot;arena-major&quot;: 58, &quot;arena-minor&quot;: 47, &quot;source&quot;: &quot;Golvin&quot; }</SimpleData>
 		<SimpleData name="label">Maumbury</SimpleData>
 		<SimpleData name="orientation">210</SimpleData>
@@ -2475,6 +2485,7 @@
 		<SimpleData name="latintoponym">Durnovaria</SimpleData>
 		<SimpleData name="youtube">(1:https://www.youtube.com/watch?v=ScpzLOmZEXs)</SimpleData>
 		<SimpleData name="lastuse">{ &quot;date&quot;: 150, &quot;comment&quot;: &quot;See the website but a better reference needed.&quot; }</SimpleData>
+		<SimpleData name="bibliography">https://content.historicengland.org.uk/images-books/publications/iha-roman-amphitheatres-theatres-circuses/amphitheatres.pdf/</SimpleData>
 		<SimpleData name="visibility">partial</SimpleData>
 		<SimpleData name="website">http://www.maumburyrings.co.uk</SimpleData>
 	</SchemaData></ExtendedData>
@@ -3927,6 +3938,102 @@
 		<SimpleData name="vici">http://vici.org/vici/18746</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>35.183968,32.58102,141</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Suessa Arunca</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Republican</SimpleData>
+		<SimpleData name="label">Suessa Arunca</SimpleData>
+		<SimpleData name="moderncountry">Italy</SimpleData>
+		<SimpleData name="latintoponym">Suessa</SimpleData>
+		<SimpleData name="welchid">11</SimpleData>
+		<SimpleData name="visibility">poor</SimpleData>
+		<SimpleData name="dare">http://dare.ht.lu.se/places/16715</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.933458,41.230843,128</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Altripalda</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Republican</SimpleData>
+		<SimpleData name="label">Altripalda</SimpleData>
+		<SimpleData name="moderncountry">Italy</SimpleData>
+		<SimpleData name="latintoponym">Abellinum</SimpleData>
+		<SimpleData name="welchid">12</SimpleData>
+		<SimpleData name="visibility">none</SimpleData>
+		<SimpleData name="dare">http://dare.ht.lu.se/places/21758</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>14.825649,40.917353,303</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Compsa</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Republican</SimpleData>
+		<SimpleData name="label">Compsa</SimpleData>
+		<SimpleData name="moderncountry">Italy</SimpleData>
+		<SimpleData name="latintoponym">Compsa</SimpleData>
+		<SimpleData name="bibliography">Welch, p. 83</SimpleData>
+		<SimpleData name="visibility">none</SimpleData>
+		<SimpleData name="certainty">uncertain</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>15.330556,40.870278,572</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at York</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="label">York</SimpleData>
+		<SimpleData name="moderncountry">United Kingdom</SimpleData>
+		<SimpleData name="latintoponym">Eboracum</SimpleData>
+		<SimpleData name="visibility">none</SimpleData>
+		<SimpleData name="certainty">uncertain</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.080278,53.958333,21</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Barcelona</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="label">Barcelona</SimpleData>
+		<SimpleData name="moderncountry">Spain</SimpleData>
+		<SimpleData name="latintoponym">Barcino</SimpleData>
+		<SimpleData name="visibility">none</SimpleData>
+		<SimpleData name="certainty">uncertain</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.182077,41.383003,3</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Istanbul</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Imperial</SimpleData>
+		<SimpleData name="label">Istanbul</SimpleData>
+		<SimpleData name="moderncountry">Turkey</SimpleData>
+		<SimpleData name="latintoponym">Byzantium</SimpleData>
+		<SimpleData name="visibility">none</SimpleData>
+		<SimpleData name="certainty">uncertain</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>28.985442,41.014686,32</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="title">Amphitheater at Chichester</SimpleData>
+		<SimpleData name="buildingtype">amphitheater</SimpleData>
+		<SimpleData name="chronogroup">Flavian</SimpleData>
+		<SimpleData name="dimensions">{ &quot;exterior-major&quot;: 70, &quot;exterior-minor&quot;: 60, &quot;source&quot;: &quot;https:\/\/historicengland.org.uk\/listing\/the-list\/list-entry\/1002984&quot; }</SimpleData>
+		<SimpleData name="label">Chichester</SimpleData>
+		<SimpleData name="pleiades">http://pleiades.stoa.org/places/79622</SimpleData>
+		<SimpleData name="moderncountry">United Kingdom</SimpleData>
+		<SimpleData name="latintoponym">Noviomagus Reginorum</SimpleData>
+		<SimpleData name="visibility">poor</SimpleData>
+		<SimpleData name="historicengland">https://historicengland.org.uk/listing/the-list/list-entry/1002984</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-0.771186,50.835394,14</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>

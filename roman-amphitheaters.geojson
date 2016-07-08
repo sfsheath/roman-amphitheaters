@@ -1386,7 +1386,7 @@
         "dimensions": {
           "exterior-major": 50,
           "exterior-minor": 39,
-          "arena-major": 35,
+          "arena-major": 32,
           "arena-minor": 24,
           "source": "Golvin"
          },
@@ -1394,7 +1394,8 @@
         "moderncountry": "United Kingdom",
         "orientation": 270,
         "pleiades": "http://pleiades.stoa.org/places/79534",
-        "source": "http://pleiades.stoa.org/places/79534/location-of-roman-amphitheater"
+        "source": "http://pleiades.stoa.org/places/79534/location-of-roman-amphitheater",
+        "wikipedia": "https://en.wikipedia.org/wiki/Charterhouse_Roman_Town"
       },
       "geometry": {
         "type": "Point",
@@ -1409,10 +1410,11 @@
       "id": "chesterAmphitheater",
       "properties": {
         "title": "Amphitheater at Chester",
-        "bibliography": "https://www.academia.edu/4403653/Chester_amphitheatre_excavations_in_2000",
+        "bibliography": ["https://www.academia.edu/4403653/Chester_amphitheatre_excavations_in_2000", "https://content.historicengland.org.uk/images-books/publications/iha-roman-amphitheatres-theatres-circuses/amphitheatres.pdf/"],
         "buildingtype": "amphitheater",
-        "chronogroup": "Imperial",
+        "chronogroup": "Flavian",
         "label": "Chester",
+        "lastuse": {"date": "325", "comment": "Via Heritage England"},
         "dimensions": {
           "exterior-major": 95.5,
           "exterior-minor": 86.6,
@@ -1423,7 +1425,8 @@
         "latintoponym": "Deva Victrix",
         "moderncountry": "United Kingdom",
         "orientation": 156,
-        "pleiades": "http://pleiades.stoa.org/places/79420"
+        "pleiades": "http://pleiades.stoa.org/places/79420",
+        "wikipedia": "https://en.wikipedia.org/wiki/Chester_Roman_Amphitheatre"
       },
       "geometry": {
         "type": "Point",
@@ -2285,6 +2288,7 @@
       "id": "londonAmphitheatre",
       "properties": {
         "title": "Amphitheater at London",
+        "bibliography": "https://content.historicengland.org.uk/images-books/publications/iha-roman-amphitheatres-theatres-circuses/amphitheatres.pdf/",
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 6500},
         "created": 70,
@@ -2338,6 +2342,7 @@
       "id": "caerleonAmphitheater",
       "properties": {
         "title": "Amphitheater at Caerleon",
+        "bibliography": "https://content.historicengland.org.uk/images-books/publications/iha-roman-amphitheatres-theatres-circuses/amphitheatres.pdf/",
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 6000, "source": "Golvin"},
         "chronogroup": "Imperial",
@@ -2590,10 +2595,11 @@
       "properties": {
         "title": "Amphitheater at Cirencester",
         "amphitheatrum": "http://amphi-theatrum.de/1490.html",
+        "bibliography": "https://content.historicengland.org.uk/images-books/publications/iha-roman-amphitheatres-theatres-circuses/amphitheatres.pdf/",
         "latintoponym": "Corinium Dobunnorum",
         "buildingtype": "amphitheater",
         "label": "Cirencester",
-        "chronogroup": "Imperial",
+        "chronogroup": "Second Century",
         "moderncountry": "United Kingdom",
         "orientation": 150,
         "pleiades": "http://pleiades.stoa.org/places/197225",
@@ -3138,8 +3144,10 @@
       "id": "carmarthenAmphitheater",
       "properties": {
         "title": "Amphitheater at Carmarthen",
+        "bibliography": "https://content.historicengland.org.uk/images-books/publications/iha-roman-amphitheatres-theatres-circuses/amphitheatres.pdf/",
         "buildingtype": "amphitheater",
-        "chronogroup": "Flavian",
+        "chronogroup": "Second Century",
+        "created": 125,
         "label": "Carmarthen",
         "moderncountry": "United Kingdom",
         "orientation": 253
@@ -4403,6 +4411,7 @@
       "id": "silchesterAmphitheater",
       "properties": {
         "amphitheatrum": "http://amphi-theatrum.de/1493.html",
+        "bibliography": "https://content.historicengland.org.uk/images-books/publications/iha-roman-amphitheatres-theatres-circuses/amphitheatres.pdf/",
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 7147, "source": "Golvin"},
         "chronogroup": "Second Century",
@@ -4437,8 +4446,9 @@
       "properties": {
         "title": "Amphitheater at Dorchester / Maumbury Henge",
         "amphitheatrum": "http://amphi-theatrum.de/1491.html",
+        "bibliography": "https://content.historicengland.org.uk/images-books/publications/iha-roman-amphitheatres-theatres-circuses/amphitheatres.pdf/",
         "buildingtype": "amphitheater",
-        "chronogroup": "First Century",
+        "chronogroup": "Flavian",
         "dimensions": {
           "exterior-major": 80,
           "exterior-minor": 77,
@@ -7114,7 +7124,7 @@
         "label": "Compsa",
         "latintoponym": "Compsa",
         "moderncountry": "Italy",
-        "uncertainty": "uncertain",
+        "certainty": "uncertain",
         "visibility": "none" },
         "geometry": {
           "type": "Point",
@@ -7135,7 +7145,7 @@
         "label": "York",
         "latintoponym": "Eboracum",
         "moderncountry": "United Kingdom",
-        "uncertainty": "uncertain",
+        "certainty": "uncertain",
         "visibility": "none" },
         "geometry": {
           "type": "Point",
@@ -7146,17 +7156,17 @@
         ],
         "source": "http://en.wikipedia.com/"
       }
-      },{
+    },{
       "type": "Feature",
       "id": "barcelonaAmphitheater",
       "properties": {
         "title": "Amphitheater at Barcelona",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
-        "label": "York",
-        "latintoponym": "Eboracum",
-        "moderncountry": "United Kingdom",
-        "uncertainty": "uncertain",
+        "label": "Barcelona",
+        "latintoponym": "Barcino",
+        "moderncountry": "Spain",
+        "certainty": "uncertain",
         "visibility": "none" },
         "geometry": {
           "type": "Point",
@@ -7177,7 +7187,7 @@
         "label": "Istanbul",
         "latintoponym": "Byzantium",
         "moderncountry": "Turkey",
-        "uncertainty": "uncertain",
+        "certainty": "uncertain",
         "visibility": "none" },
         "geometry": {
           "type": "Point",
@@ -7185,6 +7195,33 @@
                28.985442,
                41.014686,
                32
+        ],
+        "source": "http://maps.google.com"
+      }
+    },{
+      "type": "Feature",
+      "id": "chichesterAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Chichester",
+        "buildingtype": "amphitheater",
+        "chronogroup": "Flavian",
+        "dimensions": {
+           "exterior-major": 70,
+           "exterior-minor": 60,
+           "source": "https://historicengland.org.uk/listing/the-list/list-entry/1002984"
+        },
+        "historicengland": "https://historicengland.org.uk/listing/the-list/list-entry/1002984",
+        "label": "Chichester",
+        "latintoponym": "Noviomagus Reginorum",
+        "moderncountry": "United Kingdom",
+        "pleiades": "http://pleiades.stoa.org/places/79622",
+        "visibility": "poor" },
+        "geometry": {
+          "type": "Point",
+          "coordinates":[
+               -0.771186,
+               50.835394,
+               14
         ],
         "source": "http://maps.google.com"
       }
