@@ -7225,6 +7225,28 @@
         ],
         "source": "http://maps.google.com"
       }
+    },{
+      "type": "Feature",
+      "id": "reggioEmiliaAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Reggio Emilia",
+        "buildingtype": "amphitheater",
+        "certainty": "uncertain",
+        "chronogroup": "Imperial",
+        "label": "Reggio Emilia",
+        "latintoponym": "Regium Lepidi",
+        "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/383755",
+        "visibility": "none" },
+        "geometry": {
+          "type": "Point",
+          "coordinates":[
+               10.629951,
+               44.702888,
+               59
+        ],
+        "source": "http://maps.google.com"
+      }
     }
   ],
   "roman-amphitheater-chronogroups":[
