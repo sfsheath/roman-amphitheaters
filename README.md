@@ -18,5 +18,5 @@ Wikipedia's list of Roman amphitheaters at http://en.wikipedia.org/wiki/List_of_
 
 # Two Distribution Maps
 <img src="figures/simple_distribution_map.svg"/>
-![Figure 1: All Possible Amphitheaters](figures/simple_distribution_map.svg)
+![Figure 1: All Possible Amphitheaters](figures/simple_distribution_map.svg?raw=true)
 ![Figure 1: All Possible Amphitheaters](figures/all_simple_distribution_map.png?raw=true)
