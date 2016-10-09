@@ -20,3 +20,6 @@ Wikipedia's list of Roman amphitheaters at http://en.wikipedia.org/wiki/List_of_
 <img src="figures/simple_distribution_map.svg"/>
 ![Figure 1: All Possible Amphitheaters](figures/simple_distribution_map.svg?raw=true)
 ![Figure 1: All Possible Amphitheaters](figures/all_simple_distribution_map.png?raw=true)
+
+# Citation
+Citation practices for datasets are still being discussed and developed by the academic community. In order to facilitate such best practices, *roman-amphitheaters* is periodically released as 
