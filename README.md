@@ -14,8 +14,8 @@ Edited by Sebastian Heath.
 
 Like much information related to the Roman Empire, and to antiquity more generally, it is unlikely that any single listing of structures can achieve universal recognition as being either complete or finished. While there are over 200 structures that are uncontroversially recognized as within the category, others are not so easily included or rejected. In this dataset, so-called 'Gall-Roman' amphitheaters that combine features of theaters and amphitheaters are, or will be, included. Theaters that were later converted for display of gladiatorial combat are not.
 
-Wikipedia's list of Roman amphitheaters at http://en.wikipedia.org/wiki/List_of_Roman_amphitheatres was an early source for the early versions of this list. I used that as a starting point but have made many corrections. Tom Elliot added data from the Pleiades Project. In summer 2015, D. Bennett added orientation and other data. The full history of edits and contributions are available in the history of this github repository.
+Wikipedia's list of Roman amphitheaters at http://en.wikipedia.org/wiki/List_of_Roman_amphitheatres was an early source for the initial versions of this list.  Tom Elliot added data from the Pleiades Project. In summer 2015, D. Bennett added orientation and other data. The full history of edits and contributions are available in the history of this github repository.
 
 # Two Distribution Maps
-![All possible amphitheaters](figures/simple_distribution_map.svg)
-
+<img src="figures/simple_distribution_map.svg"/>
+![Figure 1: All Possible Amphitheaters](figures/simple_distribution_map.svg)
