@@ -21,8 +21,9 @@ For users interested in acquiring just the current version of this resource, it 
 # Two Distribution Maps
 One goal of publishing this data is to facilitate a quantitatively informed discussion of the role of amphitheaters in the Roman Empire. The two maps included one starting point of that discussion.
 
-![Map of All Known Amphitheaters](figures/all_simple_distribution_map.png?raw=true)
+![](figures/all_simple_distribution_map.png?raw=true)
 
+> Map of All Known Amphitheaters
 
 The figure "Map of All Known Amphitheaters" places dots that represent the location of all amphitheaters currently represented in this dataset on an outline map of the Roman Empire and on a schematic map of rivers and modern country boundaries. The outline map of the Roman empire is a product of the Ancient World Mapping Center (AWMC) based at the University of North Carolina Chapel Hill. The AWMC makes an ESRI Shapefile available under an open license.
 
