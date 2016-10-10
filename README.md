@@ -30,7 +30,9 @@ Such a map is useful and immediately makes clear that amphitheaters are not even
 
 The next figure 'Amphitheaters likely to have been in-use during the Second Century AD' highlights one particular difficulty in making a single map that purports to represent the phenomenon of amphitheaters during the imperial period. That is the fact - a word used advisedly - that there is no one point in time when all known amphitheaters is simultaneously in use. This observation is most easily highlighted by noting that the destruction of the amphitheater at Pompeii in AD 79 came before the formal opening of the Flavian Amphitheater in Rome. Accordingly, the amphitheaters that have a claim to being the most famous by way of modern estimation were not in use at the same time. The following map, then, is a working attempt to show only those amphitheaters that would have been in use during the Second Century. Note that well-known later examples, including the second amphitheater at El Djem in Tunisia, are excluded.
 
-![Amphitheaters likely to have been in-use during the Second Century AD](figures/simple_distribution_map.png?raw=true)
+![](figures/simple_distribution_map.png?raw=true)
+
+> Amphitheaters likely to have been in use during the Second Century AD
 
 # Citation
 Citation practices for datasets are still being discussed and developed by the academic community. In order to facilitate such best practices, *roman-amphitheaters* is periodically compiled as a distinct release with that version being made available via the archiving service zenodo.org. Upon such release, that version of the data and related material receives a DOI, which can be found near the top of this document. If the material being cited is in a released version, the DOI can be used to find an appropriate citation format. If citation is being made to a version committed to github.com, then citation can be of the form:
