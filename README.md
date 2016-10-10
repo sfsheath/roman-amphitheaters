@@ -41,10 +41,10 @@ The two maps above use identical markers for all amphitheaters. This obscures va
 > Index plot of all amphitheater sizes
 
 # Citation
-Citation practices for datasets are still being discussed and developed by the academic community. In order to facilitate best practices, *roman-amphitheaters* is periodically compiled as a distinct release with that version being made available via the archiving service zenodo.org. Upon these releases, that version of the data and related material receives a Document Object Identifiers (DOI), which can be found near the top of this document. If the material being cited is in a released version, the DOI can be used to find an appropriate citation format. If citation is being made to a version committed to github.com, then citation can be of the form:
+Citation practices for datasets are still being discussed and developed by the academic community. In order to facilitate best practices, *roman-amphitheaters* is periodically compiled as a distinct release with that version being made available via the archiving service zenodo.org. Upon these releases, that version of the data and related material receives a Document Object Identifiers (DOI), which can be found near the top of this document. If the material being cited is in a released version, the DOI can be used to find an appropriate citation format. If citation is being made to a version committed to github.com, the following template may be useful:
 
  * Sebastian Heath, ed. (2016). *roman-amphitheaters* [Github repository]. &lt;http://github.com/sfsheath/roman-amphitheaters&gt;, accessed: 2016-10-9.
  
-If considered useful, citation can include reference to a specific git commit id.
+If appropriate, citation can include reference to a specific git commit id.
  
 
