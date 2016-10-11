@@ -6,6 +6,11 @@ roman-amphitheaters
 
 Edited by Sebastian Heath
 
+# Table of Contents
+ * Introduction
+ * [Diversity within the set](diversity-within-set.md)
+ * [A Network Approach to Density](network-density.md)
+
 # Introduction
 *roman-amphitheaters* is a dataset published in conjunction with figures and discussion that has the goal of facilitating the study of amphitheaters in the Roman world. For the purposes of this project the category 'Roman amphitheater' comprises relatively large and public Roman-period oval buildings with rows of seating arrayed around a similarly oval surface, or arena, on which a variety of entertainments - such as animal hunts, executions, and gladiatorial combat - took place. The most famous example of this building type, and also the largest, is the Flavian Amphitheater, or Colosseum, in Rome. Construction of that edifice began under the emperor Vespasian (d. AD 79) and entered full and regular use during the reign of his son Domitian (d. AD 96). It is important to note that of the three broad categories of activity that took place in amphitheaters, none of them took place only in amphitheaters. Therefore this dataset is not a complete map of any single Roman behavior. While it is the case that amphitheaters are distinctly 'Roman' given that they do not appear outside the territory of the Empire, they cannot be said to be a necessary component of Roman culture given that their distribution is very unequal in the territory that was firmly under imperial control. The publication of this dataset, and of the figures that use it, is intended to explore this tension between amphitheaters as a regular but not necessary or universal feature of Roman presence in the regions that Rome conquered.
 
