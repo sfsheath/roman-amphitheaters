@@ -1,4 +1,4 @@
-roman-amphitheaters: a network approach to density
+roman-amphitheaters: a network approach to density (draft)
 ===================
 
 ![](figures/simple_distribution_map.png?raw=true)
