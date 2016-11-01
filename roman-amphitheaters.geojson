@@ -188,7 +188,7 @@
            "exterior-minor": 156,
            "arena-major": 83,
            "arena-minor": 48,
-           "height": 52
+           "exterior-height": 52
            },
         "emperor": "Vespasian",
         "golvinid": "152",
@@ -2698,6 +2698,7 @@
         "dimensions": {
            "exterior-major": 148,
            "exterior-minor": 122,
+           "exterior-height": 40,
            "arena-major": 65,
            "arena-minor": 39,
            "source": "http://fr.wikipedia.org/wiki/Amphith%C3%A9%C3%A2tre_d%27El_Jem"
@@ -2707,6 +2708,7 @@
         "label": "Thysdrus (lg.)",
         "moderncountry": "Tunisia",
         "orientation": 257,
+        "wikipedia": ["http://fr.wikipedia.org/wiki/Amphith%C3%A9%C3%A2tre_d%27El_Jem","https://en.wikipedia.org/wiki/Amphitheatre_of_El_Jem"],
         "youtube": ["https://www.youtube.com/watch?v=bDDyEMg34Os"]
       },
       "geometry": {
@@ -2924,7 +2926,7 @@
         "buildingtype": "amphitheater",
         "created": -50,
         "capacity": {"quantity": 8000},
-        "chronogroup": "Julius Caesar",
+        "chronogroup": "Caesarean",
         "comment": "Size is only estimate based on Welch reporting a comparison with Sutrium.",
         "label": "Carmona",
         "latintoponym": "Carmo",
@@ -6501,6 +6503,7 @@
         "title": "Aquae Neri Amphitheater",
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 3926, "source": "Golvin"},
+        "chronogrp": "First Century" ,
         "dimensions": {
           "exterior-major": 70,
           "exterior-minor": 50,
@@ -6510,7 +6513,7 @@
         },
         "golvinid": "20",
         "label": "Aquae Neri",
-        "moderncountry": "Italy",
+        "moderncountry": "France",
         "orientation": 124,
         "visibility": "good"
          },
@@ -6558,6 +6561,7 @@
       "properties": {
         "title": "Jebel Moraba Amphitheater",
         "buildingtype": "amphitheater",
+        "chronogrp": "Imperial" ,
         "dare": "http://dare.ht.lu.se/places/24708",
         "label": "Jebel Moraba",
         "moderncountry": "Tunisia",
@@ -7249,7 +7253,7 @@
       }
     }
   ],
-  "roman-amphitheater-chronogroups":[
+  "roman_amphitheater_chronogroups":[
     {
         "chronogroup": "Republican",
         "earliest_start_date": -80,
