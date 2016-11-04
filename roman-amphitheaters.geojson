@@ -4086,6 +4086,7 @@
         "label": "Calvi Risorto",
         "latintoponym": "Cales",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/432739",
         "welchid": "6"
       },
       "geometry": {
@@ -5488,6 +5489,7 @@
         "label": "Espejo",
         "latintoponym": "Ucubi",
         "moderncountry": "Spain",
+        "pleiades": "http://pleiades.stoa.org/places/266081",
         "visibility": "poor"
       },
       "geometry": {
@@ -5930,7 +5932,7 @@
         "label": "Altinum",
         "latintoponym": "Altinum",
         "moderncountry": "Italy",
-        "pleiades": "http://pleiades.stoa.org/places/314920",
+        "pleiades": "http://pleiades.stoa.org/places/393374",
         "visibility": "none" },
         "geometry": {
           "type": "Point",

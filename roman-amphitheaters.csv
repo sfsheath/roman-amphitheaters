@@ -139,7 +139,7 @@ id,title,label,pleiades,type,capacity,modcountry,chronogrp,certainty,youtube,ext
 "anconaAmphitheater","Amphitheater at Ancona","Ancona","http://pleiades.stoa.org/places/413014","amphitheater",14168,"Italy","Julio-Claudian",,,111,97,67,53,43.624604,13.511791,54
 "ascoliPicenoAmphitheater","Amphitheater at Ascoli Picenum","Ascoli","http://pleiades.stoa.org/places/413036","amphitheater",,"Italy","Imperial",,,148,125,,,42.855655,13.570767,157
 "beneventoAmphitheater","Amphitheater at Benevento","Benevento","http://pleiades.stoa.org/places/432721","amphitheater",,"Italy","Republican",,,,,,,41.130009,14.781523,166
-"calviRisortaAmphitheater","Amphitheater at Calvi Risorta","Calvi Risorto",,"amphitheater",,"Italy","Republican",,,,,,,41.202429,14.137993,89
+"calviRisortaAmphitheater","Amphitheater at Calvi Risorta","Calvi Risorto","http://pleiades.stoa.org/places/432739","amphitheater",,"Italy","Republican",,,,,,,41.202429,14.137993,89
 "sanVittorinoAmphitheater","Amphitheater at San Vittorino","San Vittorino",,"amphitheater",20000,"Italy","First Century",,,90,68,64,42,42.400531,13.306027,672
 "beziersAmphitheater","Amphitheater at Béziers","Béziers",,"amphitheater",,"France","Imperial",,,,,,,43.339589,3.214026,56
 "agenAmphitheater","Amphitheater at Agen","Agen",,"amphitheater",15000,"France","Imperial",,,,,,,44.206545,0.622122,52
@@ -192,7 +192,7 @@ id,title,label,pleiades,type,capacity,modcountry,chronogrp,certainty,youtube,ext
 "uticaAmphitheater","Amphitheater at Utica","Utica","http://pleiades.stoa.org/places/315248","amphitheater",17100,"Tunisia","Second Century",,,118,98,80,60,37.052472,10.057188,29
 "tebourbaAmphitheater","Amphitheater at Thuburbo Minus","Thuburbo Minus","http://pleiades.stoa.org/places/315219","amphitheater",,"Tunisia","Second Century",,,,,,,36.827708,9.835436,43
 "hencherElKasbatAmphitheater","Amphitheater at Henchir el Kasbat","Thuburbo Maius","http://pleiades.stoa.org/places/315220","amphitheater",7500,"Tunisia","Second Century",,,74,61,46,33,36.398153,9.905668,201
-"espejoAmphitheater","Amphitheater at Espejo","Espejo",,"amphitheater",,"Spain","Caesarean",,,,,,,37.683989,-4.554198,352
+"espejoAmphitheater","Amphitheater at Espejo","Espejo","http://pleiades.stoa.org/places/266081","amphitheater",,"Spain","Caesarean",,,,,,,37.683989,-4.554198,352
 "hencherZembraAmphitheater","Amphitheater at Henchir Zembra","Ulissipara","http://pleiades.stoa.org/places/324839","amphitheater",5400,"Tunisia","Second Century",,,69,53,48,32,35.958583,10.441193,21
 "botriaAmphitheater","Amphitheater at Botria","Acholla","http://pleiades.stoa.org/places/324653","amphitheater",11600,"Tunisia","Second Century",,,90,86,58,54,35.075962,11.018944,2
 "tipasaAmphitheater","Amphitheater at Tipasa","Tipasa","http://pleiades.stoa.org/places/295363","amphitheater",4398,"Algeria","Late Second Century",,,77,55,57,35,36.593152,2.445456,16
@@ -207,7 +207,7 @@ id,title,label,pleiades,type,capacity,modcountry,chronogrp,certainty,youtube,ext
 "mesarafeltaAmphitheater","Amphitheater at Mesarfelta","Mesarfelta","http://pleiades.stoa.org/places/334592","amphitheater",,"Algeria","Second Century",,,,,,,35.036203,5.592835,271
 "tigavaCastraAmphitheater","Amphitheater at Tigava Castra","Tigava Castra","http://pleiades.stoa.org/places/295357","amphitheater",2300,"Algeria","Second Century",,,56,37,44,26,36.23195,1.651389,151
 "carpisAmphitheater","Amphitheater at Carpis","Carpis","http://pleiades.stoa.org/places/314920","amphitheater",,"Tunisia","Imperial",,,,,,,36.760727,10.557673,29
-"altinumAmphitheater","Amphitheater at Altinum","Altinum","http://pleiades.stoa.org/places/314920","amphitheater",,"Italy","Imperial",,,143,103,80,58,45.548996,12.399911,1
+"altinumAmphitheater","Amphitheater at Altinum","Altinum","http://pleiades.stoa.org/places/393374","amphitheater",,"Italy","Imperial",,,143,103,80,58,45.548996,12.399911,1
 "augustaBagiennorumAmphitheater","Amphitheater at Augusta Benniorum","Augusta Bagiennorum","http://pleiades.stoa.org/places/383578","amphitheater",,"Italy","Julio-Claudian",,,104,78,,,44.556438,7.85031,340
 "aostaAmphitheater","Amphitheater at Aosta","Aosta","http://pleiades.stoa.org/places/383579","amphitheater",,"Italy","Julio-Claudian",,,150,115,,,45.740914,7.323481,595
 "faleriiNoviAmphitheater","Amphitheater at Falerii Novi","Falerii Novi","http://pleiades.stoa.org/places/413125","amphitheater",7986,"Italy","Augustan",,,88,66.4,54.3,32.7,42.302681,12.361043,198
