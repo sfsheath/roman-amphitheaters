@@ -5222,6 +5222,7 @@
         "label": "Seressi",
         "latintoponym": "Seressi",
         "moderncountry": "Tunisia",
+        "pleiades": "http://pleiades.stoa.org/places/315150",
         "orientation": 159,
         "visibility": "good"
       },
@@ -5254,6 +5255,7 @@
         "latintoponym": "Simmithu",
         "moderncountry": "Tunisia",
         "orientation": 176,
+        "pleiades": "http://pleiades.stoa.org/places/315174",
         "visibility": "poor"
       },
       "geometry": {
@@ -6125,7 +6127,7 @@
         "latintoponym": "Venusia",
         "moderncountry": "Italy",
         "orientation": 138,
-        "pleiades": "http://pleiades.stoa.org/places/393424",
+        "pleiades": "https://pleiades.stoa.org/places/442847",
         "visibility": "none"
          },
         "geometry": {
@@ -6549,7 +6551,7 @@
         "title": "Aquae Neri Amphitheater",
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 3926, "source": "Golvin"},
-        "chronogrp": "First Century" ,
+        "chronogroup": "First Century" ,
         "dimensions": {
           "exterior-major": 70,
           "exterior-minor": 50,
@@ -6607,7 +6609,7 @@
       "properties": {
         "title": "Jebel Moraba Amphitheater",
         "buildingtype": "amphitheater",
-        "chronogrp": "Imperial" ,
+        "chronogroup": "Imperial" ,
         "dare": "http://dare.ht.lu.se/places/24708",
         "label": "Jebel Moraba",
         "moderncountry": "Tunisia",
@@ -7212,11 +7214,12 @@
       "properties": {
         "title": "Amphitheater at Barcelona",
         "buildingtype": "amphitheater",
+        "certainty": "uncertain",
         "chronogroup": "Imperial",
         "label": "Barcelona",
         "latintoponym": "Barcino",
         "moderncountry": "Spain",
-        "certainty": "uncertain",
+        "pleiades": "http://pleiades.stoa.org/places/246343",
         "visibility": "none" },
         "geometry": {
           "type": "Point",
@@ -7233,11 +7236,12 @@
       "properties": {
         "title": "Amphitheater at Istanbul",
         "buildingtype": "amphitheater",
+        "certainty": "uncertain",
         "chronogroup": "Imperial",
         "label": "Istanbul",
         "latintoponym": "Byzantium",
         "moderncountry": "Turkey",
-        "certainty": "uncertain",
+        "pleiades": "http://pleiades.stoa.org/places/520985",
         "visibility": "none" },
         "geometry": {
           "type": "Point",
