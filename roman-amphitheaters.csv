@@ -1,4 +1,4 @@
-id,title,label,pleiades,type,capacity,modcountry,chronogrp,certainty,youtube,extmajor,extminor,arenamajor,arenaminor,latitude,longitude,elevation,pleiades
+id,title,label,pleiades,type,capacity,modcountry,chronogrp,certainty,youtube,extmajor,extminor,arenamajor,arenaminor,latitude,longitude,elevation
 "duraEuroposAmphitheater","Amphitheater at Dura Europos","Dura","http://pleiades.stoa.org/places/893989","amphitheater",1000,"Syria","Severan",,,50,44,31,25,34.749855,40.728926,223
 "arlesAmphitheater","Amphitheater at Arles","Arles","http://pleiades.stoa.org/places/148217","amphitheater",20000,"France","Flavian",,"https://www.youtube.com/watch?v=oCz-76hb1LU",136,107,47,32,43.677778,4.631111,21
 "lyonAmphitheater","Amphitheater at Lyon","Lyon","http://pleiades.stoa.org/places/167717","amphitheater",20000,"France","Second Century",,,105,,67.6,42,45.770556,4.830556,206
