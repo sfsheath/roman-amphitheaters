@@ -125,7 +125,7 @@ id,title,label,pleiades,type,capacity,modcountry,chronogrp,certainty,youtube,ext
 "lillebonnAmphitheater","Amphitheater at Lillebonne","Lillebonne","http://pleiades.stoa.org/places/109069","amphitheater",7245,"France","First Century",,,78,75,48,45,49.517759,0.536724,19
 "besanconAmphitheater","Amphitheater at Besançon","Besançon","http://pleiades.stoa.org/places/177657","amphitheater",,"France","Second Century",,,,,,,47.239027,6.015942,246
 "limogesAmphitheater","Amphitheater at Limoges","Limoges","http://pleiades.stoa.org/places/138203","amphitheater",,"France","Second Century",,,,,,,45.830474,1.251841,304
-"poitiersAmphitheater","Amphitheater at Poitiers","Poitiers",,"amphitheater",,"France","Imperial",,,108,88,,,46.57815,0.339589,119
+"poitiersAmphitheater","Amphitheater at Poitiers","Poitiers","http://pleiades.stoa.org/places/138422","amphitheater",,"France","Imperial",,,108,88,,,46.57815,0.339589,119
 "reimsAmphitheater","Amphitheater at Reims","Reims","http://pleiades.stoa.org/places/138422","amphitheater",,"France","Imperial",,,,,,,49.261265,4.018775,80
 "rodezAmphitheater","Amphitheater at Rodez","Rodez","http://pleiades.stoa.org/places/138579","amphitheater",15000,"France","Imperial",,,,,,,44.353698,2.571162,611
 "milanAmphitheater","Amphitheater at Milan","Milan","http://pleiades.stoa.org/places/383706","amphitheater",31649,"Italy","First Century",,,155,125,74,44,45.456898,9.178518,116
@@ -133,12 +133,12 @@ id,title,label,pleiades,type,capacity,modcountry,chronogrp,certainty,youtube,ext
 "paduaAmphitheater","Amphitheater at Padua","Padua","http://pleiades.stoa.org/places/393473","amphitheater",,"Italy","Julio-Claudian",,,102.5,65.5,76.4,39.5,45.411483,11.879039,17
 "lecceAmphitheater","Amphitheater at Lecce","Lecce","http://pleiades.stoa.org/places/442642","amphitheater",25000,"Italy","Imperial",,,101.9,83,53.1,34.2,40.352463,18.172733,51
 "terminiImereseAmphitheater","Amphitheater at Termini Imerese","Termini","http://pleiades.stoa.org/places/462513","amphitheater",,"Italy","Flavian",,,98,75,53,30,37.983696,13.695186,76
-"sanBenedettoDeiMarsiAmphitheater","Amphitheater at San Benedetto dei Marsi","San Benedetto",,"amphitheater",,"Italy","Imperial",,,101,,,,42.006504,13.627505,683
-"monteleoneAmphitheater","Amphitheater at Monteleone","Monteleone",,"amphitheater",,"Italy","Imperial",,,,,,,42.228444,12.867528,495
-"bolsenaAmphitheater","Amphitheater at Bolsena","Bolsena",,"amphitheater",,"Italy","Flavian",,,,,,,42.650243,11.990158,417
-"anconaAmphitheater","Amphitheater at Ancona","Ancona",,"amphitheater",14168,"Italy","Julio-Claudian",,,111,97,67,53,43.624604,13.511791,54
-"ascoliPicenoAmphitheater","Amphitheater at Ascoli Picenum","Ascoli",,"amphitheater",,"Italy","Imperial",,,148,125,,,42.855655,13.570767,157
-"beneventoAmphitheater","Amphitheater at Benevento","Benevento",,"amphitheater",,"Italy","Republican",,,,,,,41.130009,14.781523,166
+"sanBenedettoDeiMarsiAmphitheater","Amphitheater at San Benedetto dei Marsi","San Benedetto","http://pleiades.stoa.org/places/432927","amphitheater",,"Italy","Imperial",,,101,,,,42.006504,13.627505,683
+"monteleoneAmphitheater","Amphitheater at Monteleone","Monteleone","http://pleiades.stoa.org/places/413350","amphitheater",,"Italy","Imperial",,,,,,,42.228444,12.867528,495
+"bolsenaAmphitheater","Amphitheater at Bolsena","Bolsena","http://pleiades.stoa.org/places/413389","amphitheater",,"Italy","Flavian",,,,,,,42.650243,11.990158,417
+"anconaAmphitheater","Amphitheater at Ancona","Ancona","http://pleiades.stoa.org/places/413014","amphitheater",14168,"Italy","Julio-Claudian",,,111,97,67,53,43.624604,13.511791,54
+"ascoliPicenoAmphitheater","Amphitheater at Ascoli Picenum","Ascoli","http://pleiades.stoa.org/places/413036","amphitheater",,"Italy","Imperial",,,148,125,,,42.855655,13.570767,157
+"beneventoAmphitheater","Amphitheater at Benevento","Benevento","http://pleiades.stoa.org/places/432721","amphitheater",,"Italy","Republican",,,,,,,41.130009,14.781523,166
 "calviRisortaAmphitheater","Amphitheater at Calvi Risorta","Calvi Risorto",,"amphitheater",,"Italy","Republican",,,,,,,41.202429,14.137993,89
 "sanVittorinoAmphitheater","Amphitheater at San Vittorino","San Vittorino",,"amphitheater",20000,"Italy","First Century",,,90,68,64,42,42.400531,13.306027,672
 "beziersAmphitheater","Amphitheater at Béziers","Béziers",,"amphitheater",,"France","Imperial",,,,,,,43.339589,3.214026,56

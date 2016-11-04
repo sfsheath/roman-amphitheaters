@@ -3718,7 +3718,8 @@
         },
         "label": "Poitiers",
         "latintoponym": "Limonum Pictonum",
-        "moderncountry": "France"
+        "moderncountry": "France",
+        "pleiades": "http://pleiades.stoa.org/places/138422"
       },
       "geometry": {
         "type": "Point",
@@ -3935,7 +3936,8 @@
         "label": "San Benedetto",
         "latintoponym": "Marruvium",
         "moderncountry": "Italy",
-        "orientation": 139
+        "orientation": 139,
+        "pleiades": "http://pleiades.stoa.org/places/432927"
       },
       "geometry": {
         "type": "Point",
@@ -3957,7 +3959,8 @@
         "label": "Monteleone",
         "latintoponym": "Trebula Mutuesca",
         "moderncountry": "Italy",
-        "orientation": 267
+        "orientation": 267,
+        "pleiades": "http://pleiades.stoa.org/places/413350"
       },
       "geometry": {
         "type": "Point",
@@ -3979,7 +3982,8 @@
         "label": "Bolsena",
         "latintoponym": "Volsinii Novi",
         "moderncountry": "Italy",
-        "orientation": 130
+        "orientation": 130,
+        "pleiades": "http://pleiades.stoa.org/places/413389"
       },
       "geometry": {
         "type": "Point",
@@ -4009,6 +4013,7 @@
         "latintoponym": "Ancona",
         "moderncountry": "Italy",
         "orientation": 167,
+        "pleiades": "http://pleiades.stoa.org/places/413014",
         "wiki": "http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Ancona"
       },
       "geometry": {
@@ -4036,7 +4041,8 @@
         "golvinid": "91",
         "label": "Ascoli",
         "latintoponym": "Ascolum Picenum",
-        "moderncountry": "Italy"
+        "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/413036"
       },
       "geometry": {
         "type": "Point",
@@ -4057,7 +4063,8 @@
         "chronogroup": "Republican",
         "label": "Benevento",
         "latintoponym": "Beneventum",
-        "moderncountry": "Italy"
+        "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/432721"
       },
       "geometry": {
         "type": "Point",
