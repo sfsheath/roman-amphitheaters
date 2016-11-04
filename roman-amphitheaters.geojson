@@ -1863,7 +1863,7 @@
         "latintoponym": "Cemenelum",
         "orientation": 181,
         "moderncountry": "France",
-        "pleiades": "https://pleiades.stoa.org/places/157834"
+        "pleiades": "http://pleiades.stoa.org/places/157834"
       },
       "geometry": {
         "type": "Point",
@@ -2908,7 +2908,7 @@
         "latintoponym": "Colonia Pietas Iulia Pola Pollentia Herculanea",
         "moderncountry": "Croatia",
         "orientation": 197,
-        "pleiades": "https://pleiades.stoa.org/places/197448",
+        "pleiades": "http://pleiades.stoa.org/places/197448",
         "wikipedia": "http://en.wikipedia.org/wiki/Pula_Arena",
         "youtube": ["https://www.youtube.com/watch?v=hqTud5XxI_s","https://www.youtube.com/watch?v=YZGAZ6HFUmA","https://www.youtube.com/watch?v=oF1jrFn-5mY"]
       },
@@ -2935,7 +2935,7 @@
         "military": "yes",
         "moderncountry": "Spain",
         "orientation": 258,
-        "pleiades": "https://pleiades.stoa.org/places/256058",
+        "pleiades": "http://pleiades.stoa.org/places/256058",
         "welchid": "17"
       },
       "geometry": {
@@ -2964,7 +2964,7 @@
          },
         "label": "Caesarea",
         "moderncountry": "Israel",
-        "pleiades": "https://pleiades.stoa.org/places/678401"
+        "pleiades": "http://pleiades.stoa.org/places/678401"
       },
       "geometry": {
         "type": "Point",
@@ -2992,7 +2992,8 @@
         },
         "label": "Pergamum",
         "moderncountry": "Turkey",
-        "orientation": 194
+        "orientation": 194,
+        "pleiades": "http://pleiades.stoa.org/places/550812"
       },
       "geometry": {
         "type": "Point",
@@ -3018,7 +3019,8 @@
         },
         "label": "Anazarbus",
         "moderncountry": "Turkey",
-        "orientation": 178
+        "orientation": 178,
+        "pleiades": "http://pleiades.stoa.org/places/658378"
       },
       "geometry": {
         "type": "Point",
@@ -3040,6 +3042,7 @@
         "comment": "Location not specific.",
         "label": "Antioch",
         "moderncountry": "Turkey",
+        "pleiades": "http://pleiades.stoa.org/places/658381",
         "welchid": "19"
       },
       "geometry": {
@@ -3065,7 +3068,8 @@
         },
         "label": "Cyzicus",
         "moderncountry": "Turkey",
-        "orientation": 184
+        "orientation": 184,
+        "pleiades": "http://pleiades.stoa.org/places/511218"
       },
       "geometry": {
         "type": "Point",
@@ -3095,7 +3099,8 @@
         "golvinid": "120",
         "label": "Sabratha",
         "moderncountry": "Libya",
-        "orientation": 105
+        "orientation": 105,
+        "pleiades": "http://pleiades.stoa.org/places/344282"
       },
       "geometry": {
         "type": "Point",

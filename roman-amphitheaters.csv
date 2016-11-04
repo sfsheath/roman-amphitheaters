@@ -99,9 +99,9 @@ id,title,label,pleiades,type,capacity,modcountry,chronogrp,certainty,youtube,ext
 "pulaAmphitheater","Amphitheater at Pula","Pula","https://pleiades.stoa.org/places/197448","amphitheater",26000,"Croatia","Julio-Claudian",,"https://www.youtube.com/watch?v=hqTud5XxI_s",132.45,105.1,67.95,41.65,44.873229,13.850243,16
 "carmonaAmphitheater","Amphitheater at Carmona","Carmona","https://pleiades.stoa.org/places/256058","amphitheater",8000,"Spain","Caesarean",,,,,,,37.469674,-5.650907,223
 "caesareaAmphitheater","Amphitheater at Caesarea","Caesarea","https://pleiades.stoa.org/places/678401","amphitheater",,"Israel","Second Century",,,134,77,101,44,32.506473,34.897451,11
-"pergamumAmphitheater","Amphitheater at Pergamum","Pergamum",,"amphitheater",23016,"Turkey","Second Century",,,136.2,107.4,53,37,39.125751,27.174177,100
-"anazarbusAmphitheater","Amphitheater at Anazarbus","Anazarbus",,"amphitheater",,"Turkey","Imperial",,,109,80,60,43,37.244094,35.894673,42
-"antiochAmphitheater","Amphitheater at Antioch","Antioch",,"amphitheater",,"Turkey","Republican",,,,,,,36.202624,36.160437,89
+"pergamumAmphitheater","Amphitheater at Pergamum","Pergamum","https://pleiades.stoa.org/places/550812","amphitheater",23016,"Turkey","Second Century",,,136.2,107.4,53,37,39.125751,27.174177,100
+"anazarbusAmphitheater","Amphitheater at Anazarbus","Anazarbus","https://pleiades.stoa.org/places/658378","amphitheater",,"Turkey","Imperial",,,109,80,60,43,37.244094,35.894673,42
+"antiochAmphitheater","Amphitheater at Antioch","Antioch","https://pleiades.stoa.org/places/658381","amphitheater",,"Turkey","Republican",,,,,,,36.202624,36.160437,89
 "cyzicusAmphitheater","Amphitheater at Cyzicus","Cyzicus",,"amphitheater",,"Turkey","Imperial",,,150,100,,,40.398213,27.884552,54
 "sabrathaAmphitheater","Amphitheater at Sabratha","Sabratha",,"amphitheater",20700,"Libya","Second Century",,,115,99,65,49,32.803879,12.49404,11
 "salamisAmphitheater","Amphitheater at Salamis","Salamis",,"amphitheater",,"Northern Cyprus","Imperial",,,,,,,35.185517,33.902435,6
