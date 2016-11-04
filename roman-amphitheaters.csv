@@ -60,7 +60,7 @@ id,title,label,pleiades,type,capacity,modcountry,chronogrp,certainty,youtube,ext
 "larinumAmphitheater","Amphitheater at Larinum","Larinum","http://pleiades.stoa.org/places/442629","amphitheater",,"Italy","Imperial",,,98,86,57,40,41.8058428,14.9159226,406
 "ferentoAmphitheater","Amphitheater at Ferento","Ferento","http://pleiades.stoa.org/places/413184","amphitheater",,"Italy","Republican",,,68,40,,,42.129831,12.594868,52
 "allifaeAmphitheater","Amphitheater at Allifae","Allifae","http://pleiades.stoa.org/places/432658","amphitheater",,"Italy","Imperial",,,107,84,72,48,41.325601,14.334997,106
-"cimiezAmphitheater","Amphitheater at Cimiéz","Cimiez","https://pleiades.stoa.org/places/157834","amphitheater",4245,"France","Julio-Claudian",,,55,44,,,43.71967279,7.2752435,112
+"cimiezAmphitheater","Amphitheater at Cimiéz","Cimiez","http://pleiades.stoa.org/places/157834","amphitheater",4245,"France","Julio-Claudian",,,55,44,,,43.71967279,7.2752435,112
 "hydataHypsitanaForumTraianiAmphitheatre","Amphitheater at Hydata Hypsitana/Forum Traiani","Forum Traiani","http://pleiades.stoa.org/places/471947","amphitheater",,"Italy","Imperial",,,,,,,39.993171,8.804698,49
 "luccaAmphitheater","Amphitheater at Lucca","Lucca","http://pleiades.stoa.org/places/403234","amphitheater",,"Italy","Imperial",,,,,,,43.8455202,10.505772199,19
 "hispellumAmphitheatre","Amphitheater at Spello","Spello","http://pleiades.stoa.org/places/413170","amphitheater",,"Italy","Imperial",,,,,,,42.9957909,12.6662021,211
@@ -96,19 +96,19 @@ id,title,label,pleiades,type,capacity,modcountry,chronogrp,certainty,youtube,ext
 "miciaAmphitheater","Amphitheater at Micia","Micia","http://pleiades.stoa.org/places/207286","amphitheater",1500,"Romania","Imperial",,,56,37,44,26,45.915008,22.81731,183
 "gemellaeAmphitheater","Amphitheater at Gemellae","Gemellae","http://pleiades.stoa.org/places/334553","amphitheater",3204,"Algeria","Second Century",,,72,52,52,32,34.636598,5.522904,83
 "cherchellAmphitheater","Amphitheater at Cherchell","Cherchel","http://pleiades.stoa.org/places/295279","amphitheater",,"Algeria","Augustan",,,145,78,98,37,36.60878,2.198958,29
-"pulaAmphitheater","Amphitheater at Pula","Pula","https://pleiades.stoa.org/places/197448","amphitheater",26000,"Croatia","Julio-Claudian",,"https://www.youtube.com/watch?v=hqTud5XxI_s",132.45,105.1,67.95,41.65,44.873229,13.850243,16
-"carmonaAmphitheater","Amphitheater at Carmona","Carmona","https://pleiades.stoa.org/places/256058","amphitheater",8000,"Spain","Caesarean",,,,,,,37.469674,-5.650907,223
-"caesareaAmphitheater","Amphitheater at Caesarea","Caesarea","https://pleiades.stoa.org/places/678401","amphitheater",,"Israel","Second Century",,,134,77,101,44,32.506473,34.897451,11
-"pergamumAmphitheater","Amphitheater at Pergamum","Pergamum","https://pleiades.stoa.org/places/550812","amphitheater",23016,"Turkey","Second Century",,,136.2,107.4,53,37,39.125751,27.174177,100
-"anazarbusAmphitheater","Amphitheater at Anazarbus","Anazarbus","https://pleiades.stoa.org/places/658378","amphitheater",,"Turkey","Imperial",,,109,80,60,43,37.244094,35.894673,42
-"antiochAmphitheater","Amphitheater at Antioch","Antioch","https://pleiades.stoa.org/places/658381","amphitheater",,"Turkey","Republican",,,,,,,36.202624,36.160437,89
-"cyzicusAmphitheater","Amphitheater at Cyzicus","Cyzicus",,"amphitheater",,"Turkey","Imperial",,,150,100,,,40.398213,27.884552,54
-"sabrathaAmphitheater","Amphitheater at Sabratha","Sabratha",,"amphitheater",20700,"Libya","Second Century",,,115,99,65,49,32.803879,12.49404,11
-"salamisAmphitheater","Amphitheater at Salamis","Salamis",,"amphitheater",,"Northern Cyprus","Imperial",,,,,,,35.185517,33.902435,6
-"paphosAmphitheater","Amphitheater at Paphos","Paphos",,"amphitheater",,"Cyprus","Imperial",,,,,,,34.754942,32.405344,6
-"carmarthenAmphitheater","Amphitheater at Carmarthen","Carmarthen",,"amphitheater",,"United Kingdom","Second Century",,,,,,,51.862005,-4.296651,29
-"caerwentAmphitheater","Amphitheater at Caerwent","Caerwent",,"amphitheater",,"United Kingdom","Imperial",,,63,53,44,35,51.612173,-2.766307,25
-"tomen-y-murAmphitheater","Amphitheater at Tomen y Mur","Tomen y Mur",,"amphitheater",2772,"United Kingdom","Imperial",,,52,46,35,28,52.931893,-3.9235,295
+"pulaAmphitheater","Amphitheater at Pula","Pula","http://pleiades.stoa.org/places/197448","amphitheater",26000,"Croatia","Julio-Claudian",,"https://www.youtube.com/watch?v=hqTud5XxI_s",132.45,105.1,67.95,41.65,44.873229,13.850243,16
+"carmonaAmphitheater","Amphitheater at Carmona","Carmona","http://pleiades.stoa.org/places/256058","amphitheater",8000,"Spain","Caesarean",,,,,,,37.469674,-5.650907,223
+"caesareaAmphitheater","Amphitheater at Caesarea","Caesarea","http://pleiades.stoa.org/places/678401","amphitheater",,"Israel","Second Century",,,134,77,101,44,32.506473,34.897451,11
+"pergamumAmphitheater","Amphitheater at Pergamum","Pergamum","http://pleiades.stoa.org/places/550812","amphitheater",23016,"Turkey","Second Century",,,136.2,107.4,53,37,39.125751,27.174177,100
+"anazarbusAmphitheater","Amphitheater at Anazarbus","Anazarbus","http://pleiades.stoa.org/places/658378","amphitheater",,"Turkey","Imperial",,,109,80,60,43,37.244094,35.894673,42
+"antiochAmphitheater","Amphitheater at Antioch","Antioch","http://pleiades.stoa.org/places/658381","amphitheater",,"Turkey","Republican",,,,,,,36.202624,36.160437,89
+"cyzicusAmphitheater","Amphitheater at Cyzicus","Cyzicus","http://pleiades.stoa.org/places/511218","amphitheater",,"Turkey","Imperial",,,150,100,,,40.398213,27.884552,54
+"sabrathaAmphitheater","Amphitheater at Sabratha","Sabratha","http://pleiades.stoa.org/places/344282","amphitheater",20700,"Libya","Second Century",,,115,99,65,49,32.803879,12.49404,11
+"salamisAmphitheater","Amphitheater at Salamis","Salamis","http://pleiades.stoa.org/places/707617","amphitheater",,"Northern Cyprus","Imperial",,,,,,,35.185517,33.902435,6
+"paphosAmphitheater","Amphitheater at Paphos","Paphos","http://pleiades.stoa.org/places/707586","amphitheater",,"Cyprus","Imperial",,,,,,,34.754942,32.405344,6
+"carmarthenAmphitheater","Amphitheater at Carmarthen","Carmarthen","http://pleiades.stoa.org/places/79602","amphitheater",,"United Kingdom","Second Century",,,,,,,51.862005,-4.296651,29
+"caerwentAmphitheater","Amphitheater at Caerwent","Caerwent","http://pleiades.stoa.org/places/79733","amphitheater",,"United Kingdom","Imperial",,,63,53,44,35,51.612173,-2.766307,25
+"tomen-y-murAmphitheater","Amphitheater at Tomen y Mur","Tomen y Mur","http://pleiades.stoa.org/places/142376597","amphitheater",2772,"United Kingdom","Imperial",,,52,46,35,28,52.931893,-3.9235,295
 "thaenaeAmphitheater","Amphitheater at Thaenae","Thaenae",,"amphitheater",8700,"Tunisia","Republican",,,90,61,62,33,34.655481,10.673126,7
 "sbeitlaAmphitheater","Amphitheater at Sbeitla","Sbeitla",,"amphitheater",6500,"Tunisia","Second Century",,,72,60,47,37,35.243617,9.114582,556
 "thevesteAmphitheater","Amphitheater at Theveste","Theveste",,"amphitheater",9400,"Algeria","Flavian",,,83,70,52.8,39.5,35.401171,8.123809,877
