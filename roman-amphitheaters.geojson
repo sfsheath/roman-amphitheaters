@@ -3119,7 +3119,8 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "label": "Salamis",
-        "moderncountry": "Northern Cyprus"
+        "moderncountry": "Northern Cyprus",
+        "pleiades": "http://pleiades.stoa.org/places/707617"
       },
       "geometry": {
         "type": "Point",
@@ -3139,7 +3140,8 @@
         "chronogroup": "Imperial",
         "label": "Paphos",
         "moderncountry": "Cyprus",
-        "orientation": 105
+        "orientation": 105,
+        "pleiades": "http://pleiades.stoa.org/places/707586"
       },
       "geometry": {
         "type": "Point",
@@ -3155,13 +3157,15 @@
       "id": "carmarthenAmphitheater",
       "properties": {
         "title": "Amphitheater at Carmarthen",
-        "bibliography": "https://content.historicengland.org.uk/images-books/publications/iha-roman-amphitheatres-theatres-circuses/amphitheatres.pdf/",
+        "bibliography": "https://content.historicengland.org.uk/images-books/publications/iha-roman-amphitheatres-theatres-circuses/amphitheatres.pdf",
         "buildingtype": "amphitheater",
         "chronogroup": "Second Century",
         "created": 125,
         "label": "Carmarthen",
+        "latintoponym": "Moridunum",
         "moderncountry": "United Kingdom",
-        "orientation": 253
+        "orientation": 253,
+        "pleiades": "http://pleiades.stoa.org/places/79602"
       },
       "geometry": {
         "type": "Point",
@@ -3189,7 +3193,8 @@
         "golvinid": "128",
         "label": "Caerwent",
         "latintoponym": "Venta Silurum",
-        "moderncountry": "United Kingdom"
+        "moderncountry": "United Kingdom",
+        "pleiades": "http://pleiades.stoa.org/places/79733"
       },
       "geometry": {
         "type": "Point",
@@ -3218,7 +3223,8 @@
          "golvinid": "31",
         "label": "Tomen y Mur",
         "moderncountry": "United Kingdom",
-        "orientation": 192
+        "orientation": 192,
+        "pleiades": "http://pleiades.stoa.org/places/142376597"
       },
       "geometry": {
         "type": "Point",
