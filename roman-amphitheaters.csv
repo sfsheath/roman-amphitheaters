@@ -94,7 +94,7 @@ id,title,label,pleiades,type,capacity,modcountry,chronogrp,certainty,youtube,ext
 "gortynAmphitheater","Amphitheater at Gortyn","Gortyn","http://pleiades.stoa.org/places/589796","amphitheater",,"Greece","Second Century",,,,,,,35.056454,24.953076,150
 "leptiminusAmphitheater","Amphitheater at Leptiminus","Leptiminus","http://pleiades.stoa.org/places/324767","amphitheater",9000,"Tunisia","Second Century",,,81,62,45,26,35.678077,10.866282,9
 "miciaAmphitheater","Amphitheater at Micia","Micia","http://pleiades.stoa.org/places/207286","amphitheater",1500,"Romania","Imperial",,,56,37,44,26,45.915008,22.81731,183
-"gemellaeAmphitheater","Amphitheater at Gemellae","Gemellae","http://pleiades.stoa.org/places/334553","amphitheater",3204,"Algeria","Second Century",,,72,52,52,32,34.636598,5.522904,83
+"gemellaeAmphitheater","Amphitheater at Gemellae","Gemellae","http://pleiades.stoa.org/places/334553","amphitheater",3204,"Algeria","Hadrianic",,,72,52,52,32,34.636598,5.522904,83
 "cherchellAmphitheater","Amphitheater at Cherchell","Cherchel","http://pleiades.stoa.org/places/295279","amphitheater",,"Algeria","Augustan",,,145,78,98,37,36.60878,2.198958,29
 "pulaAmphitheater","Amphitheater at Pula","Pula","http://pleiades.stoa.org/places/197448","amphitheater",26000,"Croatia","Julio-Claudian",,"https://www.youtube.com/watch?v=hqTud5XxI_s",132.45,105.1,67.95,41.65,44.873229,13.850243,16
 "carmonaAmphitheater","Amphitheater at Carmona","Carmona","http://pleiades.stoa.org/places/256058","amphitheater",8000,"Spain","Caesarean",,,,,,,37.469674,-5.650907,223
@@ -109,7 +109,7 @@ id,title,label,pleiades,type,capacity,modcountry,chronogrp,certainty,youtube,ext
 "carmarthenAmphitheater","Amphitheater at Carmarthen","Carmarthen","http://pleiades.stoa.org/places/79602","amphitheater",,"United Kingdom","Second Century",,,,,,,51.862005,-4.296651,29
 "caerwentAmphitheater","Amphitheater at Caerwent","Caerwent","http://pleiades.stoa.org/places/79733","amphitheater",,"United Kingdom","Imperial",,,63,53,44,35,51.612173,-2.766307,25
 "tomen-y-murAmphitheater","Amphitheater at Tomen y Mur","Tomen y Mur","http://pleiades.stoa.org/places/142376597","amphitheater",2772,"United Kingdom","Imperial",,,52,46,35,28,52.931893,-3.9235,295
-"thaenaeAmphitheater","Amphitheater at Thaenae","Thaenae",,"amphitheater",8700,"Tunisia","Republican",,,90,61,62,33,34.655481,10.673126,7
+"thaenaeAmphitheater","Amphitheater at Thaenae","Thaenae","http://pleiades.stoa.org/places/324825","amphitheater",8700,"Tunisia","Imperial",,,90,61,62,33,34.655481,10.673126,7
 "sbeitlaAmphitheater","Amphitheater at Sbeitla","Sbeitla",,"amphitheater",6500,"Tunisia","Second Century",,,72,60,47,37,35.243617,9.114582,556
 "thevesteAmphitheater","Amphitheater at Theveste","Theveste",,"amphitheater",9400,"Algeria","Flavian",,,83,70,52.8,39.5,35.401171,8.123809,877
 "trierAmphitheater","Amphitheater at Trier","Trier","http://pleiades.stoa.org/places/108894","amphitheater",20000,"Germany","Second Century",,"https://www.youtube.com/watch?v=WYOvPyCntiY",100,79,70.54,48.92,49.748052,6.649088,168

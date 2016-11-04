@@ -2838,8 +2838,8 @@
         "title": "Amphitheater at Gemellae",
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 3204, "source": "Golvin"},
-        "chronogroup": "Second Century",
-        "created": 130,
+        "chronogroup": "Hadrianic",
+        "created": 132,
         "dimensions": {
            "exterior-major": 72,
            "exterior-minor": 52,
@@ -3251,11 +3251,12 @@
             "arena-minor": 33,
             "source": "Bomgardner"
         },
-        "chronogroup": "Republican",
+        "chronogroup": "Imperial",
         "golvinid": "71",
         "label": "Thaenae",
         "moderncountry": "Tunisia",
-        "orientation": 143
+        "orientation": 143,
+        "pleiades": "http://pleiades.stoa.org/places/324825"
       },
       "geometry": {
         "type": "Point",
@@ -5811,6 +5812,7 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Second Century",
         "comment": "Specific location not known.",
+        "golvinid": "45",
         "label": "Mesarfelta",
         "latintoponym": "Mesareflta",
         "moderncountry": "Algeria",
