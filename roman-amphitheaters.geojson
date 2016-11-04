@@ -3288,7 +3288,7 @@
         "latintoponym": "Sufetula",
         "moderncountry": "Tunisia",
         "orientation": 112,
-        "pleiades": "https://pleiades.stoa.org/places/324816"
+        "pleiades": "http://pleiades.stoa.org/places/324816"
       },
       "geometry": {
         "type": "Point",
@@ -3318,7 +3318,7 @@
         "label": "Theveste",
         "moderncountry": "Algeria",
         "orientation": 156,
-        "pleiades": "https://pleiades.stoa.org/places/324831"
+        "pleiades": "http://pleiades.stoa.org/places/324831"
       },
       "geometry": {
         "type": "Point",
@@ -3383,7 +3383,7 @@
         "latintoponym": "Segusio",
         "moderncountry": "Italy",
         "orientation": 264,
-        "pleiades": "https://pleiades.stoa.org/places/167919"
+        "pleiades": "http://pleiades.stoa.org/places/167919"
       },
       "geometry": {
         "type": "Point",
@@ -3415,7 +3415,7 @@
         "latintoponym": "Eporedia",
         "moderncountry": "Italy", 
         "orientation": 264,
-        "pleiades": "https://pleiades.stoa.org/places/383642"
+        "pleiades": "http://pleiades.stoa.org/places/383642"
       },
       "geometry": {
         "type": "Point",

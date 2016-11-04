@@ -110,11 +110,11 @@ id,title,label,pleiades,type,capacity,modcountry,chronogrp,certainty,youtube,ext
 "caerwentAmphitheater","Amphitheater at Caerwent","Caerwent","http://pleiades.stoa.org/places/79733","amphitheater",,"United Kingdom","Imperial",,,63,53,44,35,51.612173,-2.766307,25
 "tomen-y-murAmphitheater","Amphitheater at Tomen y Mur","Tomen y Mur","http://pleiades.stoa.org/places/142376597","amphitheater",2772,"United Kingdom","Imperial",,,52,46,35,28,52.931893,-3.9235,295
 "thaenaeAmphitheater","Amphitheater at Thaenae","Thaenae","http://pleiades.stoa.org/places/324825","amphitheater",8700,"Tunisia","Imperial",,,90,61,62,33,34.655481,10.673126,7
-"sbeitlaAmphitheater","Amphitheater at Sbeitla","Sbeitla","https://pleiades.stoa.org/places/324816","amphitheater",6500,"Tunisia","Second Century",,,72,60,47,37,35.243617,9.114582,556
-"thevesteAmphitheater","Amphitheater at Theveste","Theveste","https://pleiades.stoa.org/places/324831","amphitheater",9400,"Algeria","Flavian",,,83,70,52.8,39.5,35.401171,8.123809,877
+"sbeitlaAmphitheater","Amphitheater at Sbeitla","Sbeitla","http://pleiades.stoa.org/places/324816","amphitheater",6500,"Tunisia","Second Century",,,72,60,47,37,35.243617,9.114582,556
+"thevesteAmphitheater","Amphitheater at Theveste","Theveste","http://pleiades.stoa.org/places/324831","amphitheater",9400,"Algeria","Flavian",,,83,70,52.8,39.5,35.401171,8.123809,877
 "trierAmphitheater","Amphitheater at Trier","Trier","http://pleiades.stoa.org/places/108894","amphitheater",20000,"Germany","Second Century",,"https://www.youtube.com/watch?v=WYOvPyCntiY",100,79,70.54,48.92,49.748052,6.649088,168
-"susaAmphitheater","Amphitheater at Susa","Susa","https://pleiades.stoa.org/places/167919","amphitheater",3015,"Italy","Imperial",,,60,52,44,36,45.133185,7.04497,546
-"ivreaAmphitheater","Amphitheater at Ivrea","Ivrea","https://pleiades.stoa.org/places/383642","amphitheater",8046,"Italy","Imperial",,,96,72,67,42,45.467767,7.887734,240
+"susaAmphitheater","Amphitheater at Susa","Susa","http://pleiades.stoa.org/places/167919","amphitheater",3015,"Italy","Imperial",,,60,52,44,36,45.133185,7.04497,546
+"ivreaAmphitheater","Amphitheater at Ivrea","Ivrea","http://pleiades.stoa.org/places/383642","amphitheater",8046,"Italy","Imperial",,,96,72,67,42,45.467767,7.887734,240
 "bararusAmphitheater","Amphitheater at Bararus","Bararus","http://pleiades.stoa.org/places/324673","amphitheater",12000,"Tunisia","Severan",,,98,73.5,63.75,37.5,35.211828,10.791226,68
 "castraAlbanaAmphitheater","Amphitheater at Castra Albana","Albana","http://pleiades.stoa.org/places/422885","amphitheater",20000,"Italy","Severan",,,116.5,94,67.5,45,41.732637,12.66501,454
 "sophiaAmphitheater","Amphitheater at Sophia","Sophia","http://pleiades.stoa.org/places/207439","amphitheater",20000,"Bulgaria","Post-Severan",,,,,60.5,43,42.697178,23.32865,554
