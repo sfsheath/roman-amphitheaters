@@ -3540,7 +3540,8 @@
         },
         "label": "Ptolemais",
         "moderncountry": "Libya",
-        "orientation": 241
+        "orientation": 241,
+        "pleiades": "http://pleiades.stoa.org/places/373879"
       },
       "geometry": {
         "type": "Point",
@@ -3568,7 +3569,8 @@
          },
         "label": "Toulouse",
         "moderncountry": "France",
-        "orientation": 167
+        "orientation": 167,
+        "pleiades": "http://pleiades.stoa.org/places/246694"
       },
       "geometry": {
         "type": "Point",
@@ -3593,7 +3595,8 @@
         "label": "Caparra",
         "latintoponym": "Municipium Flavium Caparense",
         "moderncountry": "Spain",
-        "orientation": 163
+        "orientation": 163,
+        "pleiades": "http://pleiades.stoa.org/places/236405"
       },
       "geometry": {
         "type": "Point",
@@ -3645,7 +3648,8 @@
         "golvinid": "19",
         "label": "Lillebonne",
         "latintoponym": "Iuliobona",
-        "moderncountry": "France"
+        "moderncountry": "France",
+        "pleiades": "http://pleiades.stoa.org/places/109069"
       },
       "geometry": {
         "type": "Point",
@@ -3666,7 +3670,8 @@
         "chronogroup": "Second Century",
         "label": "Besançon",
         "latintoponym": "Vesontio",
-        "moderncountry": "France"
+        "moderncountry": "France",
+        "pleiades": "http://pleiades.stoa.org/places/177657"
       },
       "geometry": {
         "type": "Point",
@@ -3687,7 +3692,8 @@
         "chronogroup": "Second Century",
         "label": "Limoges",
         "latintoponym": "Augustoritum",
-        "moderncountry": "France"
+        "moderncountry": "France",
+        "pleiades": "http://pleiades.stoa.org/places/138203"
       },
       "geometry": {
         "type": "Point",
@@ -3733,7 +3739,8 @@
         "chronogroup": "Imperial",
         "label": "Reims",
         "latintoponym": "Durocortorum",
-        "moderncountry": "France"
+        "moderncountry": "France",
+        "pleiades": "http://pleiades.stoa.org/places/138422"
       },
       "geometry": {
         "type": "Point",
@@ -3755,8 +3762,9 @@
         "chronogroup": "Imperial",
         "golvinid": "22",
         "label": "Rodez",
-        "latintoponym": "Segodonum",
-        "moderncountry": "France"
+        "latintoponym": "Segodunum",
+        "moderncountry": "France",
+        "pleiades": "http://pleiades.stoa.org/places/138579"
       },
       "geometry": {
         "type": "Point",
@@ -3785,7 +3793,8 @@
          },
         "label": "Milan",
         "latintoponym": "Mediolanum",
-        "moderncountry": "Italy"
+        "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/383706"
       },
       "geometry": {
         "type": "Point",
@@ -3806,7 +3815,8 @@
         "comment": "Location approximate",
         "label": "Aquileia",
         "latintoponym": "Aquileia",
-        "moderncountry": "Italy"
+        "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/187290"
       },
       "geometry": {
         "type": "Point",
@@ -3835,7 +3845,8 @@
         "label": "Padua",
         "latintoponym": "Patavia",
         "moderncountry": "Italy",
-        "orientation": 188
+        "orientation": 188,
+        "pleiades": "http://pleiades.stoa.org/places/393473"
       },
       "geometry": {
         "type": "Point",
@@ -3866,6 +3877,7 @@
         "latintoponym": "Lupiae",
         "moderncountry": "Italy",
         "orientation": 267,
+        "pleiades": "http://pleiades.stoa.org/places/442642",
         "wikipedia": "http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Lecce"
       },
       "geometry": {
@@ -3892,9 +3904,12 @@
           "arena-major": 53,
           "arena-minor": 30
         },
+        "golvinid": "164",
         "label": "Termini",
         "latintoponym": "Thermae Himerae",
-        "moderncountry": "Italy"
+        "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/462513",
+        "wikipedia": ["https://it.wikipedia.org/wiki/Anfiteatro_di_Termini_Imerese"]
       },
       "geometry": {
         "type": "Point",
