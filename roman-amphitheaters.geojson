@@ -70,6 +70,7 @@
         "military": true,
         "orientation": 245,
         "pleiades": "http://pleiades.stoa.org/places/893989",
+        "province": "syria" ,
         "moderncountry": "Syria"
       },
       "geometry": {
@@ -104,6 +105,7 @@
         "orientation": 245,
         "pleiades": "http://pleiades.stoa.org/places/148217",
         "moderncountry": "France",
+        "province": "narbonnensis" ,
         "see": "http://pleiades.stoa.org/places/148217/location-of-roman-amphitheater",
         "wikipedia": "http://en.wikipedia.org/wiki/Arles_Amphitheatre",
         "youtube": ["https://www.youtube.com/watch?v=oCz-76hb1LU"]
@@ -140,6 +142,7 @@
         "moderncountry": "France",
         "orientation": 145,
         "pleiades": "http://pleiades.stoa.org/places/167717",
+        "province": "lugdunensis" ,
         "wikipedia": "http://en.wikipedia.org/wiki/Amphitheatre_of_the_Three_Gauls"
       },
       "geometry": {
@@ -159,10 +162,11 @@
         "chronogroup": "Imperial",
         "created":81,
         "exclude": true,
-        "label": "Ludus Magnus",
-        "orientation": 105,
-        "pleiades": "http://pleiades.stoa.org/places/423025",
-        "moderncountry": "Italy",
+        "label": "Ludus Magnus" ,
+        "moderncountry": "Italy" ,
+        "orientation": 105 ,
+        "pleiades": "http://pleiades.stoa.org/places/423025" ,
+        "region": "region-i" ,
         "wikipedia": "http://en.wikipedia.org/wiki/Ludus_Magnus"
       },
       "geometry": {
@@ -194,9 +198,10 @@
         "golvinid": "152",
         "label": "Colosseum",
         "lastuse": {"date": 523, "source": "Letter of Theoderic to Flavius Anicius Maximus (Cassiordorus, Variae V.42)"},
+        "moderncountry": "Italy",
         "orientation": 110,
         "pleiades": "http://pleiades.stoa.org/places/423025",
-        "moderncountry": "Italy",
+        "region": "region-i",
         "see": "http://pleiades.stoa.org/places/285857974/centerpoint-of-amphitheatrum-flavium",
         "wikipedia": "http://en.wikipedia.org/wiki/Colosseum",
         "youtube": ["https://www.youtube.com/watch?v=kxwenPo1grc","https://www.youtube.com/watch?v=flXe8h3i5vc"]
@@ -230,6 +235,7 @@
         "moderncountry": "Italy",
         "orientation": 188,
         "pleiades": "http://pleiades.stoa.org/places/423025",
+        "region": "region-i",
         "wikipedia": "http://en.wikipedia.org/wiki/Amphitheatrum_Castrense"
       },
       "geometry": {
@@ -248,8 +254,8 @@
         "title": "Amphitheater at Eleutheropolis",
         "amphitheatrum": "http://amphi-theatrum.de/2397.html",
         "buildingtype": "amphitheater",
-        "chronogroup": "Second Century",
         "capacity": {"quantity": 3500},
+        "chronogroup": "Second Century",
         "dimensions": {
           "exterior-major": 71,
           "exterior-minor": 56,
@@ -261,6 +267,7 @@
         "moderncountry": "Israel",
         "orientation": 187,
         "pleiades": "http://pleiades.stoa.org/places/687854",
+        "province": "judaea",
         "youtube": ["https://www.youtube.com/watch?v=bA6YNf8ZwlI"]
       },
       "geometry": {
@@ -278,6 +285,16 @@
       "id": "pompeiiAmphitheater",
       "properties": {
         "title": "Amphitheater at Pompeii",
+        "bibliography": [
+                    {
+                        "dc:bibliographicCitation": "P. Zanker, <i>Pompeii: Public and private life</i> (Cambridge, MA, 1998) 68-72.",
+                        "worldcat": "http://www.worldcat.org/oclc/39143166"
+                    },
+                    {
+                        "dc:bibliographicCitation": "K. Welch, <i>The Roman Amphitheater from its Origins to the Colosseum</i> (Cambridge, MA, 2007) 192-198.",
+                        "worldcat": "http://www.worldcat.org/oclc/39143166"
+                    }
+                ],
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 22000},
         "chronogroup": "Republican",
@@ -294,20 +311,11 @@
         "moderncountry": "Italy",
         "orientation": 150,
         "pleiades": "http://pleiades.stoa.org/places/433032",
+        "region": "regio-i",
         "see":["https://3dwarehouse.sketchup.com/model.html?redirect=1&mid=6971b010096197d8dfd89dd71a555b12","http://pleiades.stoa.org/places/433032/amphitheater-of-pompeii"],
         "welchid": "1",
         "wikipedia": "http://en.wikipedia.org/wiki/Amphitheatre_of_Pompeii",
-        "youtube": ["https://www.youtube.com/watch?v=bqf4bJyo3rU"],
-        "bibliography": [
-                    {
-                        "dc:bibliographicCitation": "P. Zanker, <i>Pompeii: Public and private life</i> (Cambridge, MA, 1998) 68-72.",
-                        "worldcat": "http://www.worldcat.org/oclc/39143166"
-                    },
-                    {
-                        "dc:bibliographicCitation": "K. Welch, <i>The Roman Amphitheater from its Origins to the Colosseum</i> (Cambridge, MA, 2007) 192-198.",
-                        "worldcat": "http://www.worldcat.org/oclc/39143166"
-                    }
-                ]
+        "youtube": ["https://www.youtube.com/watch?v=bqf4bJyo3rU"]
       },
       "geometry": {
         "type": "Point",
@@ -341,6 +349,7 @@
         "moderncountry": "Spain",
         "orientation": 135,
         "pleiades": "http://pleiades.stoa.org/places/256155",
+        "province": "lusitania",
         "wikipedia": "http://en.wikipedia.org/wiki/Mérida_amphitheatre",
         "youtube": ["https://www.youtube.com/watch?v=g4gNhPD2dV4","https://www.youtube.com/watch?v=T3QufLdGrU0"]
       },
@@ -491,11 +500,13 @@
         "title": "Early Amphitheater at Pozzuoli",
         "buildingtype": "amphitheater",
         "chronogroup": "Republican",
-        "created":-100,
+        "created":-70,
         "label": "Pozzuoli (Early)",
+        "latintoponym": "Puteoli",
         "moderncountry": "Italy",
         "orientation": 218,
         "pleiades": "http://pleiades.stoa.org/places/432815",
+        "province": "regio-i",
         "welchid": "8"
       },
       "geometry": {
