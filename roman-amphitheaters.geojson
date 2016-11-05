@@ -6127,7 +6127,7 @@
         "latintoponym": "Venusia",
         "moderncountry": "Italy",
         "orientation": 138,
-        "pleiades": "https://pleiades.stoa.org/places/442847",
+        "pleiades": "http://pleiades.stoa.org/places/442847",
         "visibility": "none"
          },
         "geometry": {
@@ -7020,6 +7020,7 @@
         "label": "Suasa",
         "latintoponym": "Suasa",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/413324",
         "visibility": "good" },
         "geometry": {
           "type": "Point",
@@ -7041,6 +7042,7 @@
         "label": "Pollenzo",
         "latintoponym": "Pollentia",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/383745",
         "visibility": "street plan" },
         "geometry": {
           "type": "Point",
@@ -7062,6 +7064,7 @@
         "label": "Vercelli",
         "latintoponym": "Vercellae",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/383815",
         "visibility": "partial" },
         "geometry": {
           "type": "Point",
@@ -7084,6 +7087,7 @@
         "label": "San Giovanni in Carico",
         "latintoponym": "Fabrateria Nova",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/432825",
         "visibility": "poor" },
         "geometry": {
           "type": "Point",
@@ -7110,6 +7114,7 @@
         "label": "Megiddo",
         "latintoponym": "Legio",
         "moderncountry": "Israel",
+        "pleiades": "http://pleiades.stoa.org/places/678266",
         "vici": "http://vici.org/vici/18746",
         "visibility": "good" },
         "geometry": {
@@ -7132,6 +7137,7 @@
         "label": "Suessa Arunca",
         "latintoponym": "Suessa",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/433132",
         "visibility": "poor" ,
         "welchid": "11"},
         "geometry": {
@@ -7154,6 +7160,7 @@
         "label": "Altripalda",
         "latintoponym": "Abellinum",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/432618",
         "visibility": "none" ,
         "welchid": "12"},
         "geometry": {
@@ -7177,6 +7184,7 @@
         "latintoponym": "Compsa",
         "moderncountry": "Italy",
         "certainty": "uncertain",
+        "pleiades": "http://pleiades.stoa.org/places/442550",
         "visibility": "none" },
         "geometry": {
           "type": "Point",
@@ -7198,6 +7206,7 @@
         "latintoponym": "Eboracum",
         "moderncountry": "United Kingdom",
         "certainty": "uncertain",
+        "pleiades": "http://pleiades.stoa.org/places/89175",
         "visibility": "none" },
         "geometry": {
           "type": "Point",
