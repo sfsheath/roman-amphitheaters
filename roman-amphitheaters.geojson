@@ -6503,6 +6503,7 @@
         "label": "Todi",
         "latintoponym": "Tuder",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/423108",
         "visibility": "street plan"
          },
         "geometry": {
@@ -6874,6 +6875,7 @@
         "label": "Teano",
         "latintoponym": "Teanum",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/423108",
         "visibility": "none",
         "welchid": "7"
          },
@@ -6903,6 +6905,7 @@
         "label": "Henchir Douama",
         "latintoponym": "Uchi Maius",
         "moderncountry": "Tunisia",
+        "pleiades": "http://pleiades.stoa.org/places/315242",
         "visibility": "good"
          },
         "geometry": {

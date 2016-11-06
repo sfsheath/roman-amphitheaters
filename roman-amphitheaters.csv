@@ -225,7 +225,7 @@ id,title,label,pleiades,type,capacity,modcountry,chronogrp,certainty,youtube,ext
 "zagaroloLudus","Zagarolo Ludus","Zagarolo",,"practice-arena",,"Italy","Imperial",,,40,,,,41.858402,12.819255,1
 "tusculumAmphitheater","Tusculum Amphitheater","Tusculum","http://pleiades.stoa.org/places/423108","amphitheater",4853,"Italy","Second Century",,,73,54,49,30,41.798372,12.702103,582
 "forumNovumAmphitheater","Forum Novum Amphitheater","Forum Novum",,"amphitheater",,"Italy","First Century",,,,,45,25,42.329875,12.603363,137
-"todiAmphitheater","Todi Amphitheater","Todi",,"amphitheater",,"Italy","Imperial",,,90,60,,,42.778653,12.413528,330
+"todiAmphitheater","Todi Amphitheater","Todi","http://pleiades.stoa.org/places/423108","amphitheater",,"Italy","Imperial",,,90,60,,,42.778653,12.413528,330
 "terniAmphitheater","Terni Amphitheater","Terni",,"amphitheater",,"Italy","First Century",,,95,73,65,36,42.559785,12.64336,240
 "spoletoAmphitheater","Spoleto Amphitheater","Spoleto",,"amphitheater",,"Italy","Imperial",,,115,85,,,42.738427,12.738992,327
 "aquaeNeriAmphitheater","Aquae Neri Amphitheater","Aquae Neri",,"amphitheater",3926,"France","First Century",,,70,50,50,30,46.289891,2.658224,489
@@ -239,8 +239,8 @@ id,title,label,pleiades,type,capacity,modcountry,chronogrp,certainty,youtube,ext
 "canosaAmphitheater","Canosa Amphitheater","Canosa",,"amphitheater",,"Italy","Imperial",,,138,106,,,41.221739,16.05603,81
 "sipontoAmphitheater","Siponto Amphitheater","Siponto",,"amphitheater",,"Italy","Imperial",,,,,,,41.611536,15.888896,18
 "chietiAmphitheater","Chieti Amphitheater","Chieti",,"amphitheater",,"Italy","Imperial",,,,,,,42.345021,14.16255,343
-"teanoAmphitheater","Amphitheater at Teano","Teano",,"amphitheater",,"Italy","Republican",,,,,,,41.251661,14.065098,191
-"henchirDuomaAmphitheater","Henchir Douama Amphitheater","Henchir Douama",,"amphitheater",,"Tunisia","Imperial",,,55,43,,,36.412511,9.085182,418
+"teanoAmphitheater","Amphitheater at Teano","Teano","http://pleiades.stoa.org/places/423108","amphitheater",,"Italy","Republican",,,,,,,41.251661,14.065098,191
+"henchirDuomaAmphitheater","Henchir Douama Amphitheater","Henchir Douama","http://pleiades.stoa.org/places/315242","amphitheater",,"Tunisia","Imperial",,,55,43,,,36.412511,9.085182,418
 "ainToungaAmphitheater","Ain Tounga Amphitheater","Ain Tounga",,"amphitheater",3000,"Tunisia","Imperial",,,56,46,,,36.52782,9.361924,226
 "aleriaAmphitheater","Aleria Amphitheater","Aleria",,"amphitheater",1200,"France","Imperial",,,39.6,34,,,42.100889,9.5102,41
 "volterraAmphitheater","Volterra Amphitheater","Volterra",,"amphitheater",10000,"Italy","First Century",,,80,60,,,43.407162,10.862152,456
