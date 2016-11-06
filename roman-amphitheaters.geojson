@@ -6266,6 +6266,7 @@
         "latintoponym": "Veleia",
         "moderncountry": "Italy",
         "orientation": 205,
+        "pleiades": "http://pleiades.stoa.org/places/383811",
         "visibility": "good"
          },
         "geometry": {
@@ -6298,8 +6299,8 @@
         "latintoponym": "Herdoniae",
         "moderncountry": "Italy",
         "orientation": 171,
-        "province": "Apulia",
-        "regio": "II",
+        "pleiades": "http://pleiades.stoa.org/places/442613",
+        "region": "regio-ii",
         "visibility": "good"
          },
         "geometry": {
@@ -6596,6 +6597,7 @@
         "label": "Terni",
         "moderncountry": "Italy",
         "orientation": 120,
+        "pleiades": "http://pleiades.stoa.org/places/413178",
         "visibility": "good"
          },
         "geometry": {
@@ -6621,8 +6623,10 @@
           "source": "Golvin"
         },
         "label": "Spoleto",
+        "latintoponym": "Spoletium",
         "moderncountry": "Italy",
         "orientation": 188,
+        "pleiades": "http://pleiades.stoa.org/places/413320",
         "visibility": "good"
          },
         "geometry": {
@@ -6651,8 +6655,10 @@
         },
         "golvinid": "20",
         "label": "Aquae Neri",
+        "latintopnym": "Neriomagus",
         "moderncountry": "France",
         "orientation": 124,
+        "pleiades": "http://pleiades.stoa.org/places/138185",
         "visibility": "good"
          },
         "geometry": {
@@ -6680,8 +6686,10 @@
           "comment": "Very approximate"
         },
         "label": "Aurelium Commodianum",
+        "latintoponym": "Aurelium Commodianum",
         "moderncountry": "Tunisia",
         "orientation": 249,
+        "pleiades": "http://pleiades.stoa.org/places/315084",
         "visibility": "good"
          },
         "geometry": {
