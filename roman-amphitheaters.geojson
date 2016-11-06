@@ -4750,6 +4750,7 @@
         "latintoponym": "Quintana",
         "moderncountry": "Germany",
         "orientation": 107,
+        "pleiades": "http://pleiades.stoa.org/places/118919",
         "primarymaterial": "wood",
         "visibility": "none"
       },
@@ -4780,7 +4781,7 @@
         "label": "Nocera",
         "latintoponym": "Nuceria Alfaterna",
         "moderncountry": "Italy",
-        "pleiades": "http://pleiades.stoa.org/places/118919",
+        "pleiades": "http://pleiades.stoa.org/places/432985",
         "visibility": "none"
       },
       "geometry": {
@@ -6731,6 +6732,7 @@
         "label": "Falerone",
         "latintoponym": "Falerio",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/413127",
         "visibility": "poor"
          },
         "geometry": {
@@ -6752,6 +6754,7 @@
         "label": "Fermo",
         "latintoponym": "Firmum Picenum",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/413135",
         "visibility": "none"
          },
         "geometry": {
@@ -6780,6 +6783,7 @@
         "label": "Frosinone",
         "latintoponym": "Frusino",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/432852",
         "visibility": "none"
          },
         "geometry": {
