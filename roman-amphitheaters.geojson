@@ -4202,6 +4202,7 @@
         "latintoponym": "Narbo",
         "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/246347",
+        "province": "narbonnensis",
         "visibility": "none"
       },
       "geometry": {
@@ -4247,8 +4248,9 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "label": "Meaux",
-        "latintoponym": "Iatinum Fixtinnum",
+        "latintoponym": "Iatinon",
         "moderncountry": "France",
+        "pleiades": "http://pleiades.stoa.org/places/109059",
         "visibility": "none"
       },
       "geometry": {
@@ -4270,6 +4272,7 @@
         "label": "Chartres",
         "latintoponym": "Autricum",
         "moderncountry": "France",
+        "pleiades": "http://pleiades.stoa.org/places/108778",
         "visibility": "none"
       },
       "geometry": {
@@ -4334,6 +4337,7 @@
         "lastuse": {"date": 350, "comment": "The wikipedia article is of high quality so is currently the source for this date."},
         "latintoponym": "Caesarodunum Turonum",
         "moderncountry": "France",
+        "pleiades": "http://pleiades.stoa.org/places/138255",
         "visibility": "good",
         "wikipedia": "http://fr.wikipedia.org/wiki/Amphithéâtre_de_Tours"
       },
@@ -4356,6 +4360,7 @@
         "label": "Caistor St. Edmund",
         "latintoponym": "Venta Icenorum",
         "moderncountry": "United Kingdom",
+        "pleiades": "http://pleiades.stoa.org/places/79735",
         "title": "Amphitheater at Caistor Saint Edmund",
         "visibility": "none",
         "website": "http://www.norfarchtrust.org.uk/caistor"
@@ -4381,6 +4386,7 @@
         "latintoponym": "Capua",
         "moderncountry": "Italy",
         "orientation": 179,
+        "pleiades": "http://pleiades.stoa.org/places/432754",
         "visibility": "partial",
         "welchid": "2"
       },
@@ -4414,6 +4420,7 @@
         "latintoponym": "Capua",
         "moderncountry": "Italy",
         "orientation": 179,
+        "pleiades": "http://pleiades.stoa.org/places/432754",
         "visibility": "good",
         "youtube": ["https://www.youtube.com/watch?v=8q86tToFDwI","https://www.youtube.com/watch?v=93yf8t-lKGI"]
       },
@@ -4438,6 +4445,7 @@
         "label": "Literno",
         "latintoponym": "Liternum",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/432911",
         "visibility": "none",
         "welchid": "3"
       },
