@@ -234,18 +234,18 @@ id,title,label,pleiades,type,capacity,modcountry,chronogrp,certainty,youtube,ext
 "faleroneAmphitheater","Falerone Amphitheater","Falerone",,"amphitheater",,"Italy","Julio-Claudian",,,88.8,80,,,43.101106,13.495903,222
 "fermoAmphitheater","Fermo Amphitheater","Fermo",,"amphitheater",,"Italy","Imperial",,,,,,,43.161433,13.718231,290
 "frosinoneAmphitheater","Frosinone Amphitheater","Frosinone",,"amphitheater",,"Italy","Imperial",,,78,57,,,41.64507,13.353417,213
-"ruggeAmphitheater","Rugge Amphitheater","Rugge",,"amphitheater",,"Italy","Imperial",,,83,66,,,40.334316,18.146729,38
-"egnaziaAmphitheater","Egnazia Amphitheater","Egnazia",,"amphitheater",,"Italy","Third Century",,,,,,,40.887891,17.391188,2
-"canosaAmphitheater","Canosa Amphitheater","Canosa",,"amphitheater",,"Italy","Imperial",,,138,106,,,41.221739,16.05603,81
-"sipontoAmphitheater","Siponto Amphitheater","Siponto",,"amphitheater",,"Italy","Imperial",,,,,,,41.611536,15.888896,18
-"chietiAmphitheater","Chieti Amphitheater","Chieti",,"amphitheater",,"Italy","Imperial",,,,,,,42.345021,14.16255,343
+"ruggeAmphitheater","Rugge Amphitheater","Rugge","http://pleiades.stoa.org/places/442753","amphitheater",,"Italy","Imperial",,,83,66,,,40.334316,18.146729,38
+"egnaziaAmphitheater","Egnazia Amphitheater","Egnazia","http://pleiades.stoa.org/places/442573","amphitheater",,"Italy","Third Century",,,,,37,25,40.887891,17.391188,2
+"canosaAmphitheater","Canosa Amphitheater","Canosa","http://pleiades.stoa.org/places/442525","amphitheater",,"Italy","Imperial",,,138,106,,,41.221739,16.05603,81
+"sipontoAmphitheater","Siponto Amphitheater","Siponto","http://pleiades.stoa.org/places/442797","amphitheater",,"Italy","Imperial",,,,,,,41.611536,15.888896,18
+"chietiAmphitheater","Chieti Amphitheater","Chieti",,"amphitheater",,"Italy","Imperial",,,,,59,40.7,42.345021,14.16255,343
 "teanoAmphitheater","Amphitheater at Teano","Teano","http://pleiades.stoa.org/places/423108","amphitheater",,"Italy","Republican",,,,,,,41.251661,14.065098,191
 "henchirDuomaAmphitheater","Henchir Douama Amphitheater","Henchir Douama","http://pleiades.stoa.org/places/315242","amphitheater",,"Tunisia","Imperial",,,55,43,,,36.412511,9.085182,418
-"ainToungaAmphitheater","Ain Tounga Amphitheater","Ain Tounga","http://pleiades.stoa.org/places/315207","amphitheater",3000,"Tunisia","Imperial",,,56,46,,,36.52782,9.361924,226
-"aleriaAmphitheater","Aleria Amphitheater","Aleria",,"amphitheater",1200,"France","Imperial",,,39.6,34,,,42.100889,9.5102,41
-"volterraAmphitheater","Volterra Amphitheater","Volterra",,"amphitheater",10000,"Italy","First Century",,,80,60,,,43.407162,10.862152,456
+"ainToungaAmphitheater","Ain Tounga Amphitheater","Ain Tounga","http://pleiades.stoa.org/places/315207","amphitheater",3000,"Tunisia","Imperial",,,56,46,39,26.5,36.52782,9.361924,226
+"aleriaAmphitheater","Aleria Amphitheater","Aleria","http://pleiades.stoa.org/places/472048","amphitheater",1200,"France","Imperial",,,39.6,34,29.6,24,42.100889,9.5102,41
+"volterraAmphitheater","Volterra Amphitheater","Volterra","http://pleiades.stoa.org/places/403292","amphitheater",10000,"Italy","First Century",,,80,60,,,43.407162,10.862152,456
 "vastoAmphitheater","Amphitheater at Vasto","Vasto","http://pleiades.stoa.org/places/413171","amphitheater",,"Italy","Imperial",,,,,,,42.111291,14.708095,150
-"suasaAmphitheater","Amphitheater at Suasa","Suasa","http://pleiades.stoa.org/places/413324","amphitheater",,"Italy","Imperial",,,99,75,,,43.624682,12.986831,139
+"suasaAmphitheater","Amphitheater at Suasa","Suasa","http://pleiades.stoa.org/places/413324","amphitheater",,"Italy","Imperial",,,99,75,58,36,43.624682,12.986831,139
 "pollenzoAmphitheater","Amphitheater at Pollenzo","Pollenzo","http://pleiades.stoa.org/places/383745","amphitheater",,"Italy","Imperial",,,,,,,44.684698,7.895993,200
 "vercelliAmphitheater","Amphitheater at Vercelli","Vercelli","http://pleiades.stoa.org/places/383815","amphitheater",,"Italy","Imperial",,,,,,,45.319277,8.426863,126
 "sanGiovanniAmphitheater","Amphitheater at San Giovanni in Carico","San Giovanni in Carico","http://pleiades.stoa.org/places/432825","amphitheater",,"Italy","Imperial",,,,,,,41.518993,13.552957,87

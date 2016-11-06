@@ -6795,6 +6795,7 @@
         "label": "Rugge",
         "latintoponym": "Rudiae",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/442753",
         "visibility": "good"
          },
         "geometry": {
@@ -6816,13 +6817,14 @@
         "chronogroup": "Third Century",
         "dare": "http://dare.ht.lu.se/places/24251",
         "dimensions": {
-           "interior-major": 37,
-           "interior-minor": 25
+           "arena-major": 37,
+           "arena-minor": 25
         },
         "exclude": true,
         "label": "Egnazia",
         "latintoponym": "Egnatia",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/442573",
         "visibility": "good"
          },
         "geometry": {
@@ -6852,6 +6854,7 @@
         "label": "Canosa",
         "latintoponym": "Canusium",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/442525",
         "visibility": "none"
          },
         "geometry": {
@@ -6873,8 +6876,9 @@
         "chronogroup": "Imperial",
         "dare": "http://dare.ht.lu.se/places/24627",
         "label": "Siponto",
-        "latintoponym": "Sepius",
+        "latintoponym": "Sipous",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/442797",
         "visibility": "none"
          },
         "geometry": {
@@ -6896,8 +6900,8 @@
         "chronogroup": "Imperial",
         "dare": "http://dare.ht.lu.se/places/24627",
         "dimensions": {
-           "interior-major": 59,
-           "interior-minor": 40.7,
+           "arena-major": 59,
+           "arena-minor": 40.7,
            "source": "http://www.amphi-theatrum.de/2047.html"
         },
         "label": "Chieti",
@@ -6980,8 +6984,8 @@
         "dimensions": {
            "exterior-major": 56,
            "exterior-minor": 46,
-           "interior-major": 39,
-           "interior-minor": 26.5,
+           "arena-major": 39,
+           "arena-minor": 26.5,
            "source": "Golvin"
         },
         "golvinid": "116",
@@ -7012,14 +7016,16 @@
         "dimensions": {
            "exterior-major": 39.6,
            "exterior-minor": 34,
-           "interior-major": 29.6,
-           "interior-minor": 24,
+           "arena-major": 29.6,
+           "arena-minor": 24,
            "source": "Golvin"
         },
         "golvinid": "131",
         "label": "Aleria",
         "latintoponym": "Alalia",
         "moderncountry": "France",
+        "pleiades": "http://pleiades.stoa.org/places/472048",
+        "province": "corisca-et-sardinia",
         "visibility": "good"
          },
         "geometry": {
@@ -7049,6 +7055,7 @@
         "label": "Volterra",
         "latintoponym": "Volaterrae",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/403292",
         "visibility": "none"
          },
         "geometry": {
@@ -7094,8 +7101,8 @@
         "dimensions": {
            "exterior-major": 99,
            "exterior-minor": 75,
-           "interior-major": 58,
-           "interior-minor": 36,
+           "arena-major": 58,
+           "arena-minor": 36,
            "source": "http://maps.google.com"
         },
         "label": "Suasa",
