@@ -415,6 +415,7 @@
          },
         "golvinid": "101",
         "label": "Conimbriga",
+        "latintoponym": "Conimbriga",
         "moderncountry": "Portugal",
         "pleiades": "http://pleiades.stoa.org/places/236443"
       },
@@ -440,6 +441,7 @@
           "exterior-minor": 84
         },
         "label": "Cumae",
+        "latintoponym": "Cumae",
         "moderncountry": "Italy",
         "orientation": 202,
         "pleiades": "http://pleiades.stoa.org/places/432808",
@@ -478,6 +480,7 @@
         "orientation": 126,
         "period": "Vespasian",
         "pleiades": "http://pleiades.stoa.org/places/432815",
+        "region": "regio-i",
         "wikipedia": "http://en.wikipedia.org/wiki/Flavian_Amphitheater_(Pozzuoli)",
         "youtube": ["https://www.youtube.com/watch?v=VCCD-YeNQKk",
            "https://www.youtube.com/watch?v=lRV_NbfLgro",
@@ -595,10 +598,12 @@
         "created":120,
         "emperor": "Hadrian",
         "label": "Tivoli Villa",
+        "latintoponym": "Villa Hadriani",
         "moderncountry": "Italy",
         "size": "small",
         "pleiades": "http://pleiades.stoa.org/places/423127",
-        "private": true
+        "private": true,
+        "region": "regio-i"
       },
       "geometry": {
         "type": "Point",
@@ -662,6 +667,7 @@
          },
         "golvinid": "127",
         "label": "Marcianopolis",
+        "latintoponym": "Marcianopolis",
         "moderncountry": "Bulgaria",
         "pleiades": "http://pleiades.stoa.org/places/216878",
         "province": "thracia"
@@ -714,6 +720,7 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "label": "Nijmegen",
+        "latintoponym": "Ulpia Noviomagus",
         "moderncountry": "Netherlands",
         "pleiades": "http://pleiades.stoa.org/places/98921",
         "visibility": "none"
@@ -744,6 +751,7 @@
          },
          "golvinid": "122",
         "label": "Carnuntum (Mil.)",
+        "latintoponym": "Carnuntum",
         "military": true,
         "moderncountry": "Austria",
         "orientation": 231,
@@ -761,11 +769,12 @@
       "type": "Feature",
       "id": "carnuntumLudus",
       "properties": {
-        "title": "Ludus at Carnuntum",
+        "title": "Carnuntum (Ludus)",
         "buildingtype": "practice-arena",
         "chronogroup": "Imperial",
         "exclude": true,
         "label": "Carnuntum Ludus",
+        "latintoponym": "Carnuntum",
         "moderncountry": "Austria",
         "pleiades": "http://pleiades.stoa.org/places/128376",
         "see": "https://www.academia.edu/3791251/The_discovery_of_a_gladiatorial_school_at_Carnuntum",
@@ -797,6 +806,7 @@
          },
          "golvinid": "123",
         "label": "Carnuntum (Civ.)",
+        "latintoponym": "Carnuntum",
         "moderncountry": "Austria",
         "orientation": 193,
         "pleiades": "http://pleiades.stoa.org/places/128376",
@@ -955,9 +965,9 @@
          },
         "hypogeum": true,
         "label": "Italica",
+        "moderncountry": "Spain",
         "orientation": 264,
         "pleiades": "http://pleiades.stoa.org/places/256231",
-        "moderncountry": "Spain",
         "see": "http://pleiades.stoa.org/places/256231/roman-amphitheater-of-italica"
       },
       "geometry": {
@@ -1013,6 +1023,7 @@
           "comment": "Estimates from portion visible on Google Earth."
          },
         "label": "Catinia",
+        "latintoponym": "Catina",
         "orientation": 159,
         "pleiades": "http://pleiades.stoa.org/places/462270",
         "moderncountry": "Italy"
@@ -1043,6 +1054,7 @@
           "comment": "Estimates from portion visible on Google Earth."
          },
         "label": "Paestum",
+        "latintoponym": "Paestum",
         "orientation": 270,
         "pleiades": "http://pleiades.stoa.org/places/442733",
         "moderncountry": "Italy",
@@ -1071,6 +1083,7 @@
           "arena-minor": 34.5
          },
         "label": "Luna",
+        "latintoponym": "Luna",
         "moderncountry": "Italy",
         "orientation": 216,
         "pleiades": "http://pleiades.stoa.org/places/403235"
@@ -1086,12 +1099,13 @@
       }
     },{
       "type": "Feature",
-      "id": "casinumAmphitheater",
+      "id": "cassinoAmphitheater",
       "properties": {
-        "title": "Amphitheater at Casinum",
+        "title": "Amphitheater at Cassino",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
-        "label": "Casinum",
+        "label": "Cassino",
+        "latintoponym": "Casinum",
         "moderncountry": "Italy",
         "orientation": 215,
         "pleiades": "http://pleiades.stoa.org/places/432764"
@@ -1253,7 +1267,8 @@
         "label": "Cyrene",
         "moderncountry": "Libya",
         "orientation": 109,
-        "pleiades": "http://pleiades.stoa.org/places/373778"
+        "pleiades": "http://pleiades.stoa.org/places/373778",
+        "province": "cyrenaica"
       },
       "geometry": {
         "type": "Point",
@@ -1282,6 +1297,7 @@
         "golvinid": "105",
         "hypogeum": true,
         "label": "Libarna",
+        "latintoponym": "Libarna",
         "moderncountry": "Italy",
         "orientation": 140,
         "pleiades": "http://pleiades.stoa.org/places/383694",
@@ -1875,9 +1891,10 @@
         "golvinid": "16",
         "label": "Cimiez",
         "latintoponym": "Cemenelum",
-        "orientation": 181,
         "moderncountry": "France",
-        "pleiades": "http://pleiades.stoa.org/places/157834"
+        "orientation": 181,
+        "pleiades": "http://pleiades.stoa.org/places/157834",
+        "province": "narbonnensis"
       },
       "geometry": {
         "type": "Point",
@@ -4303,6 +4320,7 @@
         "latintoponym": "Augustomagus",
         "moderncountry": "France",
         "orientation": 267,
+        "pleiades": "http://pleiades.stoa.org/places/108776",
         "visibility": "good",
         "wikipedia": "http://fr.wikipedia.org/wiki/Arènes_de_Senlis"
       },
@@ -4815,13 +4833,14 @@
       "type": "Feature",
       "id": "nyonAmphitheater",
       "properties": {
+        "title": "Amphitheater at Nyon",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "label": "Nyon",
-        "latintoponym": "Colonia Iulia Equestris",
+        "latintoponym": "Noviodunum",
         "moderncountry": "Switzerland",
         "orientation": 232,
-        "title": "Amphitheater at Nyon",
+        "pleiades": "http://pleiades.stoa.org/places/177496",
         "visibility": "good"
       },
       "geometry": {
@@ -4837,6 +4856,7 @@
       "type": "Feature",
       "id": "bernAmphitheater",
       "properties": {
+        "title": "Amphitheater at Bern",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "capacity": {"quantity": 1946, "source": "Golvin"},
@@ -4852,7 +4872,6 @@
         "latintoponym": "Bremodorum",
         "moderncountry": "Switzerland",
         "orientation": 210,
-        "title": "Amphitheater at Bern",
         "visibility": "good",
         "wikipedia": "https://commons.wikimedia.org/wiki/File:Engehalbinsel_Römertheater_von_oben.jpg"
       },
@@ -4894,6 +4913,7 @@
       "type": "Feature",
       "id": "burnumAmphitheater",
       "properties": {
+        "title": "Amphitheater at Burnum",
         "amphitheatrum": "http://amphi-theatrum.de/1878.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
@@ -4905,9 +4925,10 @@
            "source": "http://maps.google.com"
         },
         "label": "Burnum",
+        "latintoponym": "Burnum",
         "moderncountry": "Croatia",
         "orientation": 201,
-        "title": "Amphitheater at Burnum",
+        "pleiades": "http://pleiades.stoa.org/places/197184",
         "visibility": "good"
       },
       "geometry": {
@@ -4929,6 +4950,7 @@
         "chronogroup": "Imperial",
         "label": "Gleisdorf",
         "moderncountry": "Austria",
+        "pleiades": "https://pleiades.stoa.org/places/197284",
         "title": "Amphitheater at Gleisdorf",
         "visibility": "none"
       },
@@ -5167,6 +5189,7 @@
         "label": "Bourges",
         "latintoponym": "Avaricum",
         "moderncountry": "France",
+        "pleiades": "http://pleiades.stoa.org/places/138207",
         "visibility": "street-plan"
       },
       "geometry": {
@@ -5194,6 +5217,7 @@
         "label": "Chassenon",
         "latintoponym": "Cassinomagus",
         "moderncountry": "France",
+        "pleiades": "http://pleiades.stoa.org/places/138275",
         "see": "http://www.amis-chassenon.org/72+lamphitheatre-de-chassenon.html", 
         "visibility": "poor"
       },
@@ -5222,6 +5246,7 @@
         "latintoponym": "Derventum",
         "moderncountry": "France",
         "orientation": 203,
+        "pleiades": "http://pleiades.stoa.org/places/138327",
         "see": "http://commons.wikimedia.org/wiki/File:Drevant_Amphitheatre_Gallo-Romain.JPG",
         "visibility": "poor"
       },
