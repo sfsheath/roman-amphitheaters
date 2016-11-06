@@ -4488,6 +4488,7 @@
         "latintoponym": "Nola",
         "moderncountry": "Italy",
         "orientation": 258,
+        "pleiades": "http://pleiades.stoa.org/places/432981",
         "visibility": "partial",
         "welchid": "13"
       },
@@ -4504,6 +4505,7 @@
       "type": "Feature",
       "id": "silchesterAmphitheater",
       "properties": {
+        "title": "Amphitheater at Silchester",
         "amphitheatrum": "http://amphi-theatrum.de/1493.html",
         "bibliography": "https://content.historicengland.org.uk/images-books/publications/iha-roman-amphitheatres-theatres-circuses/amphitheatres.pdf/",
         "buildingtype": "amphitheater",
@@ -4521,7 +4523,7 @@
         "latintoponym": "Calleva Atrebatum",
         "moderncountry": "United Kingdom",
         "orientation": 200,
-        "title": "Amphitheater at Silchester",
+        "pleiades": "http://pleiades.stoa.org/places/79368",
         "visibility": "partial",
         "youtube": ["https://www.youtube.com/watch?v=ScpzLOmZEXs"]
       },
@@ -4555,6 +4557,7 @@
         "latintoponym": "Durnovaria",
         "moderncountry": "United Kingdom",
         "orientation": 210,
+        "pleiades": "http://pleiades.stoa.org/places/79431",
         "visibility": "partial",
         "website": "http://www.maumburyrings.co.uk",
         "youtube": ["https://www.youtube.com/watch?v=ScpzLOmZEXs"]
@@ -4579,6 +4582,7 @@
         "latintoponym": "Bracara Augusta",
         "moderncountry": "Portugal",
         "orientation": 181,
+        "pleiades": "http://pleiades.stoa.org/places/236377",
         "visibility": "none"
       },
       "geometry": {
@@ -4586,8 +4590,7 @@
         "coordinates":[
                   -8.430075,
                   41.546669,
-                  175
-                  
+                  175  
         ],
         "source": "http://maps.google.com/"
       }
@@ -4608,7 +4611,6 @@
                   -4.516667,
                   38.645833,
                   659
-
         ],
         "source": "http://maps.google.com/"
       }
@@ -4629,7 +4631,6 @@
                   -5.566944,
                   42.598889,
                   846
-
         ],
         "source": "http://maps.google.com/"
       }
@@ -4791,10 +4792,11 @@
         "title": "Amphitheater at Bobadela",
         "amphitheatrum": "http://amphi-theatrum.de/1975.html",
         "buildingtype": "amphitheater",
-        "chronogroup": "Imperial",
+        "chronogroup": "Flavian",
         "label": "Bobadela",
         "moderncountry": "Portugal",
         "orientation": 189,
+        "province": "lusitania",
         "visibility": "good"
       },
       "geometry": {
@@ -4810,14 +4812,14 @@
       "type": "Feature",
       "id": "sopronAmphitheater",
       "properties": {
-        "amphitheatrum": "http://amphi-theatrum.de/1975.html",
+        "title": "Amphitheater at Sopron",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "moderncountry": "Hungary",
         "label": "Sopron",
         "latintoponym": "Scarabantia",
         "orientation": 162,
-        "title": "Amphitheater at Sopron",
+        "pleiades": "http://pleiades.stoa.org/places/197501",
         "visibility": "good"
       },
       "geometry": {
@@ -4872,6 +4874,7 @@
         "latintoponym": "Bremodorum",
         "moderncountry": "Switzerland",
         "orientation": 210,
+        "pleiades": "http://pleiades.stoa.org/places/177471",
         "visibility": "good",
         "wikipedia": "https://commons.wikimedia.org/wiki/File:Engehalbinsel_Römertheater_von_oben.jpg"
       },
@@ -4950,7 +4953,7 @@
         "chronogroup": "Imperial",
         "label": "Gleisdorf",
         "moderncountry": "Austria",
-        "pleiades": "https://pleiades.stoa.org/places/197284",
+        "pleiades": "http://pleiades.stoa.org/places/197284",
         "title": "Amphitheater at Gleisdorf",
         "visibility": "none"
       },
@@ -5031,6 +5034,7 @@
         "chronogroup": "Imperial",
         "label": "Palmyra",
         "moderncountry": "Syria",
+        "pleiades": "http://pleiades.stoa.org/places/668331",
         "visibility": "none"
       },
       "geometry": {
@@ -6907,6 +6911,7 @@
         "label": "Chieti",
         "latintoponym": "Teate Marrucinorum",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/413333",
         "visibility": "none"
          },
         "geometry": {
