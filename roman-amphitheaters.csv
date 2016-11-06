@@ -140,11 +140,11 @@ id,title,label,pleiades,type,capacity,modcountry,chronogrp,certainty,youtube,ext
 "ascoliPicenoAmphitheater","Amphitheater at Ascoli Picenum","Ascoli","http://pleiades.stoa.org/places/413036","amphitheater",,"Italy","Imperial",,,148,125,,,42.855655,13.570767,157
 "beneventoAmphitheater","Amphitheater at Benevento","Benevento","http://pleiades.stoa.org/places/432721","amphitheater",,"Italy","Republican",,,,,,,41.130009,14.781523,166
 "calviRisortaAmphitheater","Amphitheater at Calvi Risorta","Calvi Risorto","http://pleiades.stoa.org/places/432739","amphitheater",,"Italy","Republican",,,,,,,41.202429,14.137993,89
-"sanVittorinoAmphitheater","Amphitheater at San Vittorino","San Vittorino",,"amphitheater",20000,"Italy","First Century",,,90,68,64,42,42.400531,13.306027,672
-"beziersAmphitheater","Amphitheater at Béziers","Béziers",,"amphitheater",,"France","Imperial",,,,,,,43.339589,3.214026,56
-"agenAmphitheater","Amphitheater at Agen","Agen",,"amphitheater",15000,"France","Imperial",,,,,,,44.206545,0.622122,52
-"narbonneAmphitheater","Amphitheater at Narbonne","Narbonne",,"amphitheater",,"France","Flavian",,,121.6,93.2,75,46.6,43.184873,3.010181,14
-"amiensAmphitheater","Amphitheater at Amiens","Amiens",,"amphitheater",15000,"France","Second Century",,,,,,,49.8944,2.293485,32
+"sanVittorinoAmphitheater","Amphitheater at San Vittorino","San Vittorino","http://pleiades.stoa.org/places/413013","amphitheater",20000,"Italy","First Century",,,90,68,64,42,42.400531,13.306027,672
+"beziersAmphitheater","Amphitheater at Béziers","Béziers","http://pleiades.stoa.org/places/148056","amphitheater",,"France","Imperial",,,,,,,43.339589,3.214026,56
+"agenAmphitheater","Amphitheater at Agen","Agen","http://pleiades.stoa.org/places/138169","amphitheater",15000,"France","Imperial",,,,,,,44.206545,0.622122,52
+"narbonneAmphitheater","Amphitheater at Narbonne","Narbonne","http://pleiades.stoa.org/places/246347","amphitheater",,"France","Flavian",,,121.6,93.2,75,46.6,43.184873,3.010181,14
+"amiensAmphitheater","Amphitheater at Amiens","Amiens","http://pleiades.stoa.org/places/109321","amphitheater",15000,"France","Second Century",,,,,,,49.8944,2.293485,32
 "meauxAmphitheater","Amphitheater at Meaux","Meaux",,"amphitheater",,"France","Imperial",,,,,,,48.970006,2.883491,50
 "chartresAmphitheater","Amphitheater at Chartres","Chartres",,"amphitheater",,"France","Imperial",,,,,,,48.450069,1.48926,140
 "senlisAmphitheater","Amphitheater at Senlis","Senlis",,"amphitheater",,"France","First Century",,,90,83,41.5,34.45,49.205169,2.575376,64
@@ -241,7 +241,7 @@ id,title,label,pleiades,type,capacity,modcountry,chronogrp,certainty,youtube,ext
 "chietiAmphitheater","Chieti Amphitheater","Chieti",,"amphitheater",,"Italy","Imperial",,,,,,,42.345021,14.16255,343
 "teanoAmphitheater","Amphitheater at Teano","Teano","http://pleiades.stoa.org/places/423108","amphitheater",,"Italy","Republican",,,,,,,41.251661,14.065098,191
 "henchirDuomaAmphitheater","Henchir Douama Amphitheater","Henchir Douama","http://pleiades.stoa.org/places/315242","amphitheater",,"Tunisia","Imperial",,,55,43,,,36.412511,9.085182,418
-"ainToungaAmphitheater","Ain Tounga Amphitheater","Ain Tounga",,"amphitheater",3000,"Tunisia","Imperial",,,56,46,,,36.52782,9.361924,226
+"ainToungaAmphitheater","Ain Tounga Amphitheater","Ain Tounga","http://pleiades.stoa.org/places/315207","amphitheater",3000,"Tunisia","Imperial",,,56,46,,,36.52782,9.361924,226
 "aleriaAmphitheater","Aleria Amphitheater","Aleria",,"amphitheater",1200,"France","Imperial",,,39.6,34,,,42.100889,9.5102,41
 "volterraAmphitheater","Volterra Amphitheater","Volterra",,"amphitheater",10000,"Italy","First Century",,,80,60,,,43.407162,10.862152,456
 "vastoAmphitheater","Amphitheater at Vasto","Vasto","http://pleiades.stoa.org/places/413171","amphitheater",,"Italy","Imperial",,,,,,,42.111291,14.708095,150

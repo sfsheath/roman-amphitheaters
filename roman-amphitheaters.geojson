@@ -4132,7 +4132,8 @@
         "label": "San Vittorino",
         "latintoponym": "Amiternum",
         "moderncountry": "Italy",
-        "orientation": 110
+        "orientation": 110,
+        "pleiades": "http://pleiades.stoa.org/places/413013"
       },
       "geometry": {
         "type": "Point",
@@ -4153,6 +4154,7 @@
         "label": "Béziers",
         "latintoponym": "Baeterrae",
         "moderncountry": "France",
+        "pleiades": "http://pleiades.stoa.org/places/148056",
         "visibility": "street-plan"
       },
       "geometry": {
@@ -4176,6 +4178,7 @@
         "created": 215,
         "label": "Agen",
         "moderncountry": "France",
+        "pleiades": "http://pleiades.stoa.org/places/138169",
         "visibility": "none"
       },
       "geometry": {
@@ -4196,7 +4199,9 @@
         "chronogroup": "Flavian",
         "dimensions": {"arena-major":75,"arena-minor":46.6,"exterior-major":121.6,"exterior-minor":93.2},
         "label": "Narbonne",
+        "latintoponym": "Narbo",
         "moderncountry": "France",
+        "pleiades": "http://pleiades.stoa.org/places/246347",
         "visibility": "none"
       },
       "geometry": {
@@ -4219,7 +4224,9 @@
         "chronogroup": "Second Century",
         "golvinid": "102",
         "label": "Amiens",
+        "latintoponym": "Samarobriva Ambianorum",
         "moderncountry": "France",
+        "pleiades": "http://pleiades.stoa.org/places/109321",
         "visibility": "none"
       },
       "geometry": {
@@ -6938,6 +6945,7 @@
         "label": "Ain Tounga",
         "latintoponym": "Thignica",
         "moderncountry": "Tunisia",
+        "pleiades": "http://pleiades.stoa.org/places/315207",
         "visibility": "good"
          },
         "geometry": {
