@@ -4983,6 +4983,7 @@
         "label": "Skikda",
         "latintoponym": "Rusicade",
         "moderncountry": "Algeria",
+        "pleiades": "http://pleiades.stoa.org/places/305137",
         "visibility": "none"
       },
       "geometry": {
@@ -5006,6 +5007,7 @@
         "latintoponym": "Nova Trajana Bostra",
         "moderncountry": "Syria",
         "orientation": 199,
+        "pleiades": "http://pleiades.stoa.org/places/678073",
         "visibility": "partial"
       },
       "geometry": {
@@ -5054,6 +5056,7 @@
         "label": "St. Marcel",
         "latintoponym": "Argentomagus",
         "moderncountry": "France",
+        "pleiades": "http://pleiades.stoa.org/places/138192",
         "visibility": "none"
       },
       "geometry": {
@@ -5084,7 +5087,10 @@
         },
         "label": "Metz",
         "lastuse": {"date":300, "comment": "See bibliography."},
+        "latintoponym": " Divodurum",
         "moderncountry": "France",
+        "pleiades": "http://pleiades.stoa.org/places/108928",
+        "province": "belgica",
         "visibility": "none"
       },
       "geometry": {
@@ -5111,8 +5117,10 @@
          },
         "exclude": true,
         "label": "Grand",
+        "latintoponym": "Grannum",
         "moderncountry": "France",
         "orientation": 245,
+        "pleiades": "http://pleiades.stoa.org/places/109016",
         "visibility": "good"
       },
       "geometry": {
@@ -5134,6 +5142,7 @@
         "label": "Albegna",
         "latintoponym": "Albingaunum",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/157803",
         "visibility": "partial"
       },
       "geometry": {
@@ -5163,6 +5172,7 @@
         "label": "Aquino",
         "latintoponym": "Aquinum",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/432695",
         "visibility": "partial"
       },
       "geometry": {
