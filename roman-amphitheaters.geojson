@@ -4603,6 +4603,7 @@
         "chronogroup": "Imperial",
         "label": "Sisapo",
         "moderncountry": "Spain",
+        "pleiades": "http://pleiades.stoa.org/places/266043",
         "visibility": "partial"
       },
       "geometry": {
@@ -4623,6 +4624,7 @@
         "chronogroup": "Imperial",
         "label": "León",
         "moderncountry": "Spain",
+        "pleiades": "http://pleiades.stoa.org/places/236512",
         "visibility": "none"
       },
       "geometry": {
@@ -4644,6 +4646,7 @@
         "label": "Autun",
         "latintoponym": "Augustodunum",
         "moderncountry": "France",
+        "pleiades": "http://pleiades.stoa.org/places/177460",
         "visibility": "none"
       },
       "geometry": {
@@ -4676,6 +4679,7 @@
         "latintoponym": "Colonia Ulpia Traiana",
         "moderncountry": "Germany",
         "orientation": 224,
+        "pleiades": "http://pleiades.stoa.org/places/108896",
         "see": "https://3dwarehouse.sketchup.com/model.html?id=16596dabb2ebd0469b2513a62f433bae",
         "visibility": "good"
       },
@@ -4697,6 +4701,7 @@
         "chronogroup": "Imperial",
         "label": "Arnsburg",
         "moderncountry": "Germany",
+        "pleiades": "http://pleiades.stoa.org/places/118575",
         "title": "Amphitheater at Arnsburg",
         "visibility": "none"
       },
@@ -4721,6 +4726,7 @@
         "label": "Ierapetra",
         "moderncountry": "Greece",
         "orientation": 211,
+        "pleiades": "http://pleiades.stoa.org/places/589807",
         "visibility": "partial"
       },
       "geometry": {
@@ -4774,6 +4780,7 @@
         "label": "Nocera",
         "latintoponym": "Nuceria Alfaterna",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/118919",
         "visibility": "none"
       },
       "geometry": {
@@ -6529,6 +6536,7 @@
         },
         "label": "Forum Novum",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/413148",
         "visibility": "none"
          },
         "geometry": {
