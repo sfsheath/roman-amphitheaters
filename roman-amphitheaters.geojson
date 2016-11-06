@@ -631,6 +631,7 @@
         "moderncountry": "Greece",
         "orientation": 180,
         "pleiades": "http://pleiades.stoa.org/places/570182",
+        "province": "achaea",
         "see": "http://corinth.sas.upenn.edu/gisamphitheater.html",
         "welchid": "18"
       },
@@ -662,7 +663,8 @@
         "golvinid": "127",
         "label": "Marcianopolis",
         "moderncountry": "Bulgaria",
-        "pleiades": "http://pleiades.stoa.org/places/216878"
+        "pleiades": "http://pleiades.stoa.org/places/216878",
+        "province": "thracia"
       },
       "geometry": {
         "type": "Point",
@@ -692,7 +694,8 @@
         "label": "Porolissum",
         "moderncountry": "Romania",
         "orientation": 122,
-        "pleiades": "http://pleiades.stoa.org/places/207361"
+        "pleiades": "http://pleiades.stoa.org/places/207361",
+        "province": "dacia"
       },
       "geometry": {
         "type": "Point",
@@ -2920,6 +2923,7 @@
         "moderncountry": "Croatia",
         "orientation": 197,
         "pleiades": "http://pleiades.stoa.org/places/197448",
+        "region": "regio-x",
         "wikipedia": "http://en.wikipedia.org/wiki/Pula_Arena",
         "youtube": ["https://www.youtube.com/watch?v=hqTud5XxI_s","https://www.youtube.com/watch?v=YZGAZ6HFUmA","https://www.youtube.com/watch?v=oF1jrFn-5mY"]
       },
@@ -6266,6 +6270,7 @@
         "latintoponym": "Mevania",
         "moderncountry": "Italy",
         "orientation": 248,
+        "pleiades": "http://pleiades.stoa.org/places/413200",
         "visibility": "poor"
          },
         "geometry": {
@@ -6290,6 +6295,8 @@
         "label": "Minturno",
         "latintoponym": "Minturnae",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/432940",
+        "region": "regio-i",
         "visibility": "poor"
          },
         "geometry": {
@@ -6317,6 +6324,8 @@
         "label": "Sinuessa",
         "latintoponym": "Sinuessa",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/433122",
+        "region": "regio-i",
         "see": "http://www.signaromanorum.org/archives/8236",
         "visibility": "none"
          },
@@ -6349,6 +6358,7 @@
         "latintoponym": "Aphrodisias",
         "moderncountry": "Turkey",
         "orientation": 269,
+        "pleiades": "http://pleiades.stoa.org/places/638753",
         "visibility": "good"
          },
         "geometry": {
@@ -6377,6 +6387,7 @@
         "latintoponym": "Meninge",
         "moderncountry": "Tunisia",
         "orientation": 219,
+        "pleiades": "http://pleiades.stoa.org/places/344439",
         "visibility": "fair"
          },
         "geometry": {
@@ -6393,6 +6404,7 @@
       "id": "zagaroloLudus",
       "properties": {
         "title": "Zagarolo Ludus",
+        "amphitheatrum": "http://www.amphi-theatrum.de/2089.html",
         "buildingtype": "practice-arena",
         "chronogroup": "Imperial",
         "dare": "http://dare.ht.lu.se/places/24338",
@@ -6404,6 +6416,7 @@
         "label": "Zagarolo",
         "moderncountry": "Italy",
         "orientation": 152,
+        "region": "regio-i",
         "visibility": "good"
          },
         "geometry": {
@@ -6433,6 +6446,8 @@
         },
         "label": "Tusculum",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/423108",
+        "region": "regio-i",
         "visibility": "none"
          },
         "geometry": {
@@ -7001,8 +7016,9 @@
         "comment": "Location approximate, near to DARE marker.",
         "dare": "http://dare.ht.lu.se/places/24333",
         "label": "Vasto",
-        "latintoponym": "Histonum",
+        "latintoponym": "Histonium",
         "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/413171",
         "visibility": "none" },
         "geometry": {
           "type": "Point",
