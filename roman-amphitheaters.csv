@@ -230,7 +230,7 @@ id,title,label,pleiades,type,capacity,modcountry,chronogrp,certainty,youtube,ext
 "spoletoAmphitheater","Spoleto Amphitheater","Spoleto","http://pleiades.stoa.org/places/413320","amphitheater",,"Italy","Imperial",,,115,85,,,42.738427,12.738992,327
 "aquaeNeriAmphitheater","Aquae Neri Amphitheater","Aquae Neri","http://pleiades.stoa.org/places/138185","amphitheater",3926,"France","First Century",,,70,50,50,30,46.289891,2.658224,489
 "aurelumCommodianumAmphitheater","Aurelium Commodianum Amphitheater","Aurelium Commodianum","http://pleiades.stoa.org/places/315084","amphitheater",,"Tunisia","Second Century",,,65,55,,,36.527797,9.889218,205
-"jebelMorabaAmphitheater","Jebel Moraba Amphitheater","Jebel Moraba",,"amphitheater",,"Tunisia","Imperial",,,,,,,36.597655,9.860836,311
+"jebelMorabaAmphitheater","Jebel Moraba Amphitheater","Jebel Moraba","http://pleiades.stoa.org/places/208942158","amphitheater",,"Tunisia","Imperial",,,,,,,36.597655,9.860836,311
 "faleroneAmphitheater","Falerone Amphitheater","Falerone","http://pleiades.stoa.org/places/413127","amphitheater",,"Italy","Julio-Claudian",,,88.8,80,,,43.101106,13.495903,222
 "fermoAmphitheater","Fermo Amphitheater","Fermo","http://pleiades.stoa.org/places/413135","amphitheater",,"Italy","Imperial",,,,,,,43.161433,13.718231,290
 "frosinoneAmphitheater","Frosinone Amphitheater","Frosinone","http://pleiades.stoa.org/places/432852","amphitheater",,"Italy","Imperial",,,78,57,,,41.64507,13.353417,213
