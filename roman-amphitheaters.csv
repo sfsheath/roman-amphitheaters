@@ -165,7 +165,7 @@ id,title,label,pleiades,type,capacity,modcountry,chronogrp,certainty,youtube,ext
 "ierapetraAmphitheater","Amphitheater at Ierapetra","Ierapetra","http://pleiades.stoa.org/places/589807","amphitheater",,"Greece","Imperial",,,,,,,35.011385,25.745132,4
 "kunzingAmphitheater","Amphitheater at Künzing","Künzing","http://pleiades.stoa.org/places/118919","amphitheater",,"Germany","Imperial",,,,,,,48.667088,13.082821,308
 "noceraSuperioreAmphitheater","Amphitheater at Nocera Superiore","Nocera","http://pleiades.stoa.org/places/432985","amphitheater",,"Italy","Imperial",,,125,102,58,34,40.74575,14.657022,50
-"bobadelaAmphitheater","Amphitheater at Bobadela","Bobadela",,"amphitheater",,"Portugal","Flavian",,,,,,,40.361088,-7.893572,383
+"bobadelaAmphitheater","Amphitheater at Bobadela","Bobadela","http://pleiades.stoa.org/places/236458","amphitheater",,"Portugal","Flavian",,,,,,,40.361088,-7.893572,383
 "sopronAmphitheater","Amphitheater at Sopron","Sopron","http://pleiades.stoa.org/places/197501","amphitheater",,"Hungary","Imperial",,,,,,,47.692813,16.589397,283
 "nyonAmphitheater","Amphitheater at Nyon","Nyon","http://pleiades.stoa.org/places/177496","amphitheater",,"Switzerland","Imperial",,,,,,,46.383464,6.241301,391
 "bernAmphitheater","Amphitheater at Bern","Bern","http://pleiades.stoa.org/places/177471","amphitheater",1946,"Switzerland","Imperial",,,42.6,38.5,27.6,23.5,46.975715,7.451179,547

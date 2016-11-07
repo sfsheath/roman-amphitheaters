@@ -4802,8 +4802,10 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Flavian",
         "label": "Bobadela",
+        "latintoponym": "Elbocoris",
         "moderncountry": "Portugal",
         "orientation": 189,
+        "pleiades": "http://pleiades.stoa.org/places/236458",
         "province": "lusitania",
         "visibility": "good"
       },
