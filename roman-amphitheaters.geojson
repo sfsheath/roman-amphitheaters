@@ -386,7 +386,8 @@
         "military": true,
         "moderncountry": "United Kingdom",
         "orientation": 126,
-        "pleiades": "http://pleiades.stoa.org/places/89304"
+        "pleiades": "http://pleiades.stoa.org/places/89304",
+        "province": "britannia"
       },
       "geometry": {
         "type": "Point",
@@ -417,7 +418,8 @@
         "label": "Conimbriga",
         "latintoponym": "Conimbriga",
         "moderncountry": "Portugal",
-        "pleiades": "http://pleiades.stoa.org/places/236443"
+        "pleiades": "http://pleiades.stoa.org/places/236443",
+        "province": "lusitania"
       },
       "geometry": {
         "type": "Point",
@@ -445,6 +447,7 @@
         "moderncountry": "Italy",
         "orientation": 202,
         "pleiades": "http://pleiades.stoa.org/places/432808",
+        "region": "region-i",
         "see": "http://pleiades.stoa.org/places/432808/location-of-roman-amphitheater",
         "welchid": "4"
       },
@@ -544,6 +547,7 @@
         "moderncountry": "Italy",
         "orientation": 144,
         "pleiades": "http://pleiades.stoa.org/places/462503",
+        "province": "sicilia",
         "wikipedia": "http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Siracusa",
         "youtube": ["https://www.youtube.com/watch?v=aUcjHzMZCeY"]
       },
@@ -576,6 +580,7 @@
         "moderncountry": "Tunisia",
         "orientation": 212,
         "pleiades": "http://pleiades.stoa.org/places/314921",
+        "provicne": "proconsularis",
         "wikipedia": "http://en.wikipedia.org/wiki/Carthage_amphitheatre",
         "youtube": ["https://www.youtube.com/watch?v=oDiCqZCu06I"]
       },
@@ -718,11 +723,12 @@
         "title": "Amphitheater at Nijmegen",
         "amphitheatrum": "http://amphi-theatrum.de/1453.html",
         "buildingtype": "amphitheater",
-        "chronogroup": "Imperial",
+        "chronogroup": "Second Century",
         "label": "Nijmegen",
         "latintoponym": "Ulpia Noviomagus",
         "moderncountry": "Netherlands",
         "pleiades": "http://pleiades.stoa.org/places/98921",
+        "province": "germania-superior",
         "visibility": "none"
       },
       "geometry": {
@@ -755,6 +761,7 @@
         "military": true,
         "moderncountry": "Austria",
         "orientation": 231,
+        "province": "pannonia",
         "pleiades": "http://pleiades.stoa.org/places/128376"
       },
       "geometry": {
@@ -777,6 +784,7 @@
         "latintoponym": "Carnuntum",
         "moderncountry": "Austria",
         "pleiades": "http://pleiades.stoa.org/places/128376",
+        "province": "pannonia",
         "see": "https://www.academia.edu/3791251/The_discovery_of_a_gladiatorial_school_at_Carnuntum",
         "youtube": ["https://www.youtube.com/watch?v=aJFH3TCVzTk"]
       },
@@ -810,6 +818,7 @@
         "moderncountry": "Austria",
         "orientation": 193,
         "pleiades": "http://pleiades.stoa.org/places/128376",
+        "province": "pannonia",
         "see": "https://www.academia.edu/3791286/The_amphitheatre_of_Carnuntum_Towards_a_complete_3D_model_using_airborne_Structure_from_Motion_and_dense_image_matching",
         "youtube": ["https://www.youtube.com/watch?v=Z5TcbJdyEns"]
       },
@@ -842,7 +851,8 @@
         "label": "Leptis Magna",
         "moderncountry": "Libya",
         "orientation": 117,
-        "pleiades": "http://pleiades.stoa.org/places/344448"
+        "pleiades": "http://pleiades.stoa.org/places/344448",
+        "province": "proconsularis"
       },
       "geometry": {
         "type": "Point",
@@ -872,7 +882,8 @@
         "latintoponym": "Emporiae",
         "moderncountry": "Spain",
         "orientation": 248,
-        "pleiades": "http://pleiades.stoa.org/places/246382"
+        "pleiades": "http://pleiades.stoa.org/places/246382",
+        "province": "tarraconensis"
       },
       "geometry": {
         "type": "Point",
@@ -901,6 +912,7 @@
         "moderncountry": "Spain",
         "orientation": 237,
         "pleiades": "http://pleiades.stoa.org/places/246349",
+        "province": "tarraconensis",
         "youtube": ["https://www.youtube.com/watch?v=Z-1Qrk5qLAE",
           "https://www.youtube.com/watch?v=puw8pLl9vJU"]
       },
@@ -937,6 +949,7 @@
         "periodo": "http://n2t.net/ark:/99152/p0wf3wdp4xt",
         "pleiades": "http://pleiades.stoa.org/places/471899",
         "moderncountry": "Italy",
+        "province": "corisca-et-sardinia",
         "wikipedia": "http://en.wikipedia.org/wiki/Roman_Amphitheatre_of_Cagliari"
       },
       "geometry": {
@@ -968,6 +981,7 @@
         "moderncountry": "Spain",
         "orientation": 264,
         "pleiades": "http://pleiades.stoa.org/places/256231",
+        "province": "baetica",
         "see": "http://pleiades.stoa.org/places/256231/roman-amphitheater-of-italica"
       },
       "geometry": {
