@@ -166,7 +166,7 @@
         "moderncountry": "Italy" ,
         "orientation": 105 ,
         "pleiades": "http://pleiades.stoa.org/places/423025" ,
-        "region": "region-i" ,
+        "region": "regio-i" ,
         "wikipedia": "http://en.wikipedia.org/wiki/Ludus_Magnus"
       },
       "geometry": {
@@ -201,7 +201,7 @@
         "moderncountry": "Italy",
         "orientation": 110,
         "pleiades": "http://pleiades.stoa.org/places/423025",
-        "region": "region-i",
+        "region": "regio-i",
         "see": "http://pleiades.stoa.org/places/285857974/centerpoint-of-amphitheatrum-flavium",
         "wikipedia": "http://en.wikipedia.org/wiki/Colosseum",
         "youtube": ["https://www.youtube.com/watch?v=kxwenPo1grc","https://www.youtube.com/watch?v=flXe8h3i5vc"]
@@ -235,7 +235,7 @@
         "moderncountry": "Italy",
         "orientation": 188,
         "pleiades": "http://pleiades.stoa.org/places/423025",
-        "region": "region-i",
+        "region": "regio-i",
         "wikipedia": "http://en.wikipedia.org/wiki/Amphitheatrum_Castrense"
       },
       "geometry": {
@@ -447,7 +447,7 @@
         "moderncountry": "Italy",
         "orientation": 202,
         "pleiades": "http://pleiades.stoa.org/places/432808",
-        "region": "region-i",
+        "region": "regio-i",
         "see": "http://pleiades.stoa.org/places/432808/location-of-roman-amphitheater",
         "welchid": "4"
       },
@@ -580,7 +580,7 @@
         "moderncountry": "Tunisia",
         "orientation": 212,
         "pleiades": "http://pleiades.stoa.org/places/314921",
-        "provicne": "proconsularis",
+        "province": "proconsularis",
         "wikipedia": "http://en.wikipedia.org/wiki/Carthage_amphitheatre",
         "youtube": ["https://www.youtube.com/watch?v=oDiCqZCu06I"]
       },
@@ -1007,10 +1007,12 @@
           "arena-major": 47,
           "arena-minor": 31
          },
-        "label": "Segobria",
+        "label": "Segobriga",
+        "latintoponym": "Segobriga",
         "moderncountry": "Spain",
         "orientation": 235,
         "pleiades": "http://pleiades.stoa.org/places/266036",
+        "province": "tarraconensis",
         "see": "http://pleiades.stoa.org/places/266036/location-of-roman-amphitheater"
       },
       "geometry": {
@@ -1629,9 +1631,11 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "label": "Carthago Nova",
+        "latintoponym": "Carthago Nova",
         "moderncountry": "Spain",
         "orientation": 166,
         "pleiades": "http://pleiades.stoa.org/places/265849",
+        "province": "tarraconensis",
         "visibility": "none"
       },
       "geometry": {
@@ -2982,6 +2986,7 @@
         "moderncountry": "Spain",
         "orientation": 258,
         "pleiades": "http://pleiades.stoa.org/places/256058",
+        "province": "baetica",
         "welchid": "17"
       },
       "geometry": {
@@ -3642,7 +3647,8 @@
         "latintoponym": "Municipium Flavium Caparense",
         "moderncountry": "Spain",
         "orientation": 163,
-        "pleiades": "http://pleiades.stoa.org/places/236405"
+        "pleiades": "http://pleiades.stoa.org/places/236405",
+        "province": "lusitania"
       },
       "geometry": {
         "type": "Point",
@@ -3665,6 +3671,7 @@
         "latintoponym": "Colonia Patricia",
         "moderncountry": "Spain",
         "pleiades": "http://pleiades.stoa.org/places/256128",
+        "province": "baetica",
         "wikimapia": "http://wikimapia.org/1560328/Roman-amphitheater"
       },
       "geometry": {
@@ -4637,8 +4644,10 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
         "label": "León",
+        "latintoponym": "Legio",
         "moderncountry": "Spain",
         "pleiades": "http://pleiades.stoa.org/places/236512",
+        "province": "tarraconenis",
         "visibility": "none"
       },
       "geometry": {
@@ -7361,6 +7370,7 @@
         "latintoponym": "Barcino",
         "moderncountry": "Spain",
         "pleiades": "http://pleiades.stoa.org/places/246343",
+        "province": "tarraconensis",
         "visibility": "none" },
         "geometry": {
           "type": "Point",
