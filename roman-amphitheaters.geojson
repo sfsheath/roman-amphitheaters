@@ -2646,7 +2646,8 @@
         "label": "Mactaris",
         "moderncountry": "Tunisia",
         "orientation": 250,
-        "pleiades": "http://pleiades.stoa.org/places/324774"
+        "pleiades": "http://pleiades.stoa.org/places/324774",
+        "province": "proconsularis"
       },
       "geometry": {
         "type": "Point",
@@ -2672,6 +2673,7 @@
         "moderncountry": "United Kingdom",
         "orientation": 150,
         "pleiades": "http://pleiades.stoa.org/places/197225",
+        "province": "britannia",
         "youtube": [
             "https://www.youtube.com/watch?v=9RFDium7TYU",
             "https://www.youtube.com/watch?v=8Nfeu_GD8KM",
@@ -2709,6 +2711,7 @@
         "label": "Vindonissa",
         "moderncountry": "Switzerland",
         "orientation": 241,
+        "province": "germania-superior",
         "pleiades": "http://pleiades.stoa.org/places/177661"
       },
       "geometry": {
