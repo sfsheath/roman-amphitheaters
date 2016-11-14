@@ -1042,6 +1042,7 @@
         "latintoponym": "Catina",
         "orientation": 159,
         "pleiades": "http://pleiades.stoa.org/places/462270",
+        "province": "sicilia",
         "moderncountry": "Italy"
       },
       "geometry": {
@@ -1073,6 +1074,7 @@
         "latintoponym": "Paestum",
         "orientation": 270,
         "pleiades": "http://pleiades.stoa.org/places/442733",
+        "region": "regio-iii",
         "moderncountry": "Italy",
         "welchid": "10"
       },
@@ -1102,7 +1104,8 @@
         "latintoponym": "Luna",
         "moderncountry": "Italy",
         "orientation": 216,
-        "pleiades": "http://pleiades.stoa.org/places/403235"
+        "pleiades": "http://pleiades.stoa.org/places/403235",
+        "region": "regio-vii"
       },
       "geometry": {
         "type": "Point",
@@ -1151,7 +1154,8 @@
         "label": "Viminacium",
         "moderncountry": "Serbia",
         "orientation": 108,
-        "pleiades": "http://pleiades.stoa.org/places/207549"
+        "pleiades": "http://pleiades.stoa.org/places/207549",
+        "region": "regio-i"
       },
       "geometry": {
         "type": "Point",
@@ -1173,7 +1177,8 @@
         "label": "Flavia Solva", 
         "moderncountry": "Austria",
         "orientation": 189,
-        "pleiades": "http://pleiades.stoa.org/places/197273"
+        "pleiades": "http://pleiades.stoa.org/places/197273",
+        "province": "noricum"
       },
       "geometry": {
         "type": "Point",
@@ -1186,9 +1191,9 @@
       }
     },{
       "type": "Feature",
-      "id": "rusellaeAmphitheater",
+      "id": "roselleAmphitheater",
       "properties": {
-        "title": "Amphitheater at Rusellae",
+        "title": "Amphitheater at Roselle",
         "amphitheatrum": "http://www.amphi-theatrum.de/1478.html",
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 2309, "source": "Golvin"},
@@ -1200,11 +1205,13 @@
           "arena-minor": 20,
           "source": "Golvin"
          },
-        "label": "Rusellae",
+        "label": "Roselle",
+        "latintoponym" : "Rusellae",
         "moderncountry": "Italy", 
         "orientation": 261,
         "pleiades": "http://pleiades.stoa.org/places/413288",
         "pleiadesspecific": "http://pleiades.stoa.org/places/413288/location-of-roman-amphitheater",
+        "region": "regio-vii",
         "wikipedia": "http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Roselle"
       },
       "geometry": {
@@ -1228,6 +1235,7 @@
         "orientation": 160,
         "pleiades": "http://pleiades.stoa.org/places/109126",
         "moderncountry": "France",
+        "province": "lugdunensis",
         "wikipedia": "http://en.wikipedia.org/wiki/Arènes_de_Lutèce",
         "youtube": ["https://www.youtube.com/watch?v=DStHFfxd_qo"]
       },
@@ -1317,6 +1325,7 @@
         "moderncountry": "Italy",
         "orientation": 140,
         "pleiades": "http://pleiades.stoa.org/places/383694",
+        "region": "regio-ix",
         "source": "http://pleiades.stoa.org/places/383694/location-of-roman-amphitheater"
       },
       "geometry": {
@@ -1377,6 +1386,7 @@
         "moderncountry": "Italy",
         "orientation": 216,
         "pleiades": "http://pleiades.stoa.org/places/432617",
+        "region": "regio-i",
         "welchid": "5"
       },
       "geometry": {
@@ -1410,6 +1420,7 @@
         "moderncountry": "France",
         "orientation": 241,
         "pleiades": "http://pleiades.stoa.org/places/148142",
+        "province": "narbonensis",
         "youtube": ["https://www.youtube.com/watch?v=c384XQlnINo"]
       },
       "geometry": {
@@ -1440,6 +1451,7 @@
         "moderncountry": "United Kingdom",
         "orientation": 270,
         "pleiades": "http://pleiades.stoa.org/places/79534",
+        "province": "britannia",
         "source": "http://pleiades.stoa.org/places/79534/location-of-roman-amphitheater",
         "wikipedia": "https://en.wikipedia.org/wiki/Charterhouse_Roman_Town"
       },
@@ -1472,6 +1484,7 @@
         "moderncountry": "United Kingdom",
         "orientation": 156,
         "pleiades": "http://pleiades.stoa.org/places/79420",
+        "province": "britannia",
         "wikipedia": "https://en.wikipedia.org/wiki/Chester_Roman_Amphitheatre"
       },
       "geometry": {
@@ -1491,10 +1504,16 @@
         "buildingtype": "gallo-roman-amphitheater",
         "capacity": {"quantity": 5000},
         "chronogroup": "Second Century",
+        "dimensions": {
+            "arena-major" : 44,
+            "arena-minor": 39
+        },
         "label": "Gennes",
+        "latintoponym": "Geinum",
         "moderncountry": "France",
         "orientation": 239,
-        "pleiades": "http://pleiades.stoa.org/places/138371"
+        "pleiades": "http://pleiades.stoa.org/places/138371",
+        "province": "lugdunensis"
       },
       "geometry": {
         "type": "Point",
@@ -3094,6 +3113,7 @@
         "label": "Antioch",
         "moderncountry": "Turkey",
         "pleiades": "http://pleiades.stoa.org/places/658381",
+        "province": "syria",
         "welchid": "19"
       },
       "geometry": {
