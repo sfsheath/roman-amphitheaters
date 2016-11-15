@@ -1292,7 +1292,7 @@
         "moderncountry": "Libya",
         "orientation": 109,
         "pleiades": "http://pleiades.stoa.org/places/373778",
-        "province": "cyrenaica"
+        "province": "crete-et-cyrenaica"
       },
       "geometry": {
         "type": "Point",
@@ -2836,7 +2836,8 @@
         "label": "Gortyn",
         "moderncountry": "Greece",
         "orientation": 218,
-        "pleiades": "http://pleiades.stoa.org/places/589796"
+        "pleiades": "http://pleiades.stoa.org/places/589796",
+        "province": "crete-et-cyrenaica"
       },
       "geometry": {
         "type": "Point",
@@ -2864,7 +2865,8 @@
         "label": "Leptiminus",
         "moderncountry": "Tunisia",
         "orientation": 133,
-        "pleiades": "http://pleiades.stoa.org/places/324767"
+        "pleiades": "http://pleiades.stoa.org/places/324767",
+        "province": "proconsularis"
       },
       "geometry": {
         "type": "Point",
@@ -2881,7 +2883,7 @@
         "title": "Amphitheater at Micia",
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 1500},
-        "chronogroup": "Imperial",
+        "chronogroup": "Second Century",
         "dimensions": {
           "exterior-major": 56,
           "exterior-minor": 37,
@@ -2892,7 +2894,8 @@
         "label": "Micia",
         "moderncountry": "Romania",
         "orientation": 252,
-        "pleiades": "http://pleiades.stoa.org/places/207286"
+        "pleiades": "http://pleiades.stoa.org/places/207286",
+        "province": "dacia"
       },
       "geometry": {
         "type": "Point",
@@ -2922,7 +2925,8 @@
         "label": "Gemellae",
         "moderncountry": "Algeria",
         "orientation": 264,
-        "pleiades": "http://pleiades.stoa.org/places/334553"
+        "pleiades": "http://pleiades.stoa.org/places/334553",
+        "province": "mauretania"
       },
       "geometry": {
         "type": "Point",
@@ -3174,7 +3178,8 @@
         "label": "Sabratha",
         "moderncountry": "Libya",
         "orientation": 105,
-        "pleiades": "http://pleiades.stoa.org/places/344282"
+        "pleiades": "http://pleiades.stoa.org/places/344282",
+        "province": "proconsularis"
       },
       "geometry": {
         "type": "Point",
@@ -3194,7 +3199,8 @@
         "chronogroup": "Imperial",
         "label": "Salamis",
         "moderncountry": "Northern Cyprus",
-        "pleiades": "http://pleiades.stoa.org/places/707617"
+        "pleiades": "http://pleiades.stoa.org/places/707617",
+        "province": "cyprus"
       },
       "geometry": {
         "type": "Point",
@@ -3215,7 +3221,8 @@
         "label": "Paphos",
         "moderncountry": "Cyprus",
         "orientation": 105,
-        "pleiades": "http://pleiades.stoa.org/places/707586"
+        "pleiades": "http://pleiades.stoa.org/places/707586",
+        "province": "cyprus"
       },
       "geometry": {
         "type": "Point",
@@ -4670,7 +4677,7 @@
         "latintoponym": "Legio",
         "moderncountry": "Spain",
         "pleiades": "http://pleiades.stoa.org/places/236512",
-        "province": "tarraconenis",
+        "province": "tarraconensis",
         "visibility": "none"
       },
       "geometry": {
@@ -6383,6 +6390,7 @@
         "moderncountry": "Italy",
         "orientation": 248,
         "pleiades": "http://pleiades.stoa.org/places/413200",
+        "region": "regio-vi",
         "visibility": "poor"
          },
         "geometry": {
@@ -6471,6 +6479,7 @@
         "moderncountry": "Turkey",
         "orientation": 269,
         "pleiades": "http://pleiades.stoa.org/places/638753",
+        "province": "asia",
         "visibility": "good"
          },
         "geometry": {
@@ -6500,6 +6509,7 @@
         "moderncountry": "Tunisia",
         "orientation": 219,
         "pleiades": "http://pleiades.stoa.org/places/344439",
+        "province": "proconsularis",
         "visibility": "fair"
          },
         "geometry": {
