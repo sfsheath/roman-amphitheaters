@@ -105,7 +105,7 @@
         "orientation": 245,
         "pleiades": "http://pleiades.stoa.org/places/148217",
         "moderncountry": "France",
-        "province": "narbonnensis" ,
+        "province": "narbonensis" ,
         "see": "http://pleiades.stoa.org/places/148217/location-of-roman-amphitheater",
         "wikipedia": "http://en.wikipedia.org/wiki/Arles_Amphitheatre",
         "youtube": ["https://www.youtube.com/watch?v=oCz-76hb1LU"]
@@ -1074,8 +1074,8 @@
         "latintoponym": "Paestum",
         "orientation": 270,
         "pleiades": "http://pleiades.stoa.org/places/442733",
-        "region": "regio-iii",
         "moderncountry": "Italy",
+        "region": "regio-iii",
         "welchid": "10"
       },
       "geometry": {
@@ -1127,7 +1127,9 @@
         "latintoponym": "Casinum",
         "moderncountry": "Italy",
         "orientation": 215,
-        "pleiades": "http://pleiades.stoa.org/places/432764"
+        "pleiades": "http://pleiades.stoa.org/places/432764",
+        "region": "regio-i",
+        "trismegistos": "http://www.trismegistos.org/place/14453"
       },
       "geometry": {
         "type": "Point",
@@ -1338,9 +1340,9 @@
       }
     },{
       "type": "Feature",
-      "id": "luceriaNoukeriaAmphitheater",
+      "id": "luceraAmphitheater",
       "properties": {
-        "title": "Amphitheater at Luceria/Noukeria (Apoulon)",
+        "title": "Amphitheater at Lucera",
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 17149, "source": "Golvin"},
         "chronogroup": "Augustan",
@@ -1352,10 +1354,12 @@
           "source": "Golvin"
          },
         "golvinid": "12",
-        "label": "Luceria",
+        "label": "Lucera",
+        "latintoponym": "Luceria",
         "moderncountry": "Italy",
         "orientation": 109,
-        "pleiades": "http://pleiades.stoa.org/places/442640"
+        "pleiades": "http://pleiades.stoa.org/places/442640",
+        "region": "regio-ii"
       },
       "geometry": {
         "type": "Point",
@@ -1548,9 +1552,9 @@
       }
     },{
       "type": "Feature",
-      "id": "scylletiumScolaciumAmphitheater",
+      "id": "roccellettaAmphitheater",
       "properties": {
-        "title": "Amphitheater at Scylletium/Scolacium",
+        "title": "Amphitheater at Roccelletta di Borgia",
         "amphitheatrum": "http://www.amphi-theatrum.de/1598.html",
         "buildingtype": "amphitheater",
         "chronogroup": "First Century",
@@ -1561,11 +1565,12 @@
           "source": "http://maps.google.com"
         },
         "emperor": "Nerva",
-        "italianregion": "region ii",
-        "label": "Scylletium",
+        "label": "Roccelletta di Borgia",
+        "latintoponym": "Scylletium",
         "moderncountry": "Italy",
         "orientation": 204,
-        "pleiades": "http://pleiades.stoa.org/places/452439"
+        "pleiades": "http://pleiades.stoa.org/places/452439",
+        "region": "region iii"
       },
       "geometry": {
         "type": "Point",
@@ -1598,6 +1603,7 @@
         "moderncountry": "France",
         "orientation": 139,
         "pleiades": "http://pleiades.stoa.org/places/138248",
+        "province": "aquitania",
         "see": "http://www-ausonius.u-bordeaux3.fr/index.php/axes-de-recherche/espaces-fabrique-usages-representations/9-axes/97-le-palais-gallien-de-bordeaux-etude-restitution-valorisation"
       },
       "geometry": {
@@ -1713,6 +1719,7 @@
         "moderncountry": "Italy",
         "orientation": 100,
         "pleiades": "http://pleiades.stoa.org/places/413065",
+        "region": "regio-vi",
         "source": "http://pleiades.stoa.org/places/413065/location-of-roman-amphitheater"
       },
       "geometry": {
@@ -1735,7 +1742,8 @@
         "latintoponym": "Florentia",
         "moderncountry": "Italy",
         "orientation": 205,
-        "pleiades": "http://pleiades.stoa.org/places/413138"
+        "pleiades": "http://pleiades.stoa.org/places/413138",
+        "region": "regio-vii"
       },
       "geometry": {
         "type": "Point",
@@ -1765,6 +1773,7 @@
         "moderncountry": "Italy",
         "orientation": 173,
         "pleiades": "http://pleiades.stoa.org/places/413231",
+        "region": "regio-vi",
         "source": "http://pleiades.stoa.org/places/413231/location-of-roman-amphitheater"
       },
       "geometry": {
@@ -1816,7 +1825,8 @@
         "latintoponym": "Arretium",
         "moderncountry": "Italy",
         "orientation": 264,
-        "pleiades": "http://pleiades.stoa.org/places/413032"
+        "pleiades": "http://pleiades.stoa.org/places/413032",
+        "region": "regio-vii"
       },
       "geometry": {
         "type": "Point",
@@ -1829,7 +1839,7 @@
       }
     },{
       "type": "Feature",
-      "id": "larinumAmphitheater",
+      "id": "larinoAmphitheater",
       "properties": {
         "title": "Amphitheater at Larinum",
         "buildingtype": "amphitheater",
@@ -1840,10 +1850,12 @@
           "arena-major": 57,
           "arena-minor": 40
          },
-        "label": "Larinum",
+        "label": "Larin",
+        "latintoponym": "Larinum",
         "moderncountry": "Italy",
         "orientation": 148,
         "pleiades": "http://pleiades.stoa.org/places/442629",
+        "region": "regio-ii",
         "source": "http://pleiades.stoa.org/places/442629/location-of-roman-amphitheater"
       },
       "geometry": {
@@ -1931,7 +1943,7 @@
         "moderncountry": "France",
         "orientation": 181,
         "pleiades": "http://pleiades.stoa.org/places/157834",
-        "province": "narbonnensis"
+        "province": "narbonensis"
       },
       "geometry": {
         "type": "Point",
@@ -4270,7 +4282,7 @@
         "latintoponym": "Narbo",
         "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/246347",
-        "province": "narbonnensis",
+        "province": "narbonensis",
         "visibility": "none"
       },
       "geometry": {
