@@ -7450,7 +7450,7 @@
         "latintoponym": "Byzantium",
         "moderncountry": "Turkey",
         "pleiades": "http://pleiades.stoa.org/places/520985",
-        "province": "Thracia",
+        "province": "thracia",
         "visibility": "none" },
         "geometry": {
           "type": "Point",
