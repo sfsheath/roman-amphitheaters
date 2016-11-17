@@ -1884,6 +1884,7 @@
         "moderncountry": "Italy",
         "orientation": 157,
         "pleiades": "http://pleiades.stoa.org/places/413184",
+        "region": "regio-vii",
         "source": "http://pleiades.stoa.org/places/413184/location-of-lucus-feroniae-amphitheater",
         "welchid": "16"
       },
@@ -2592,8 +2593,10 @@
             "source": "http://en.wikipedia.org/wiki/Durrës_Amphitheatre"
         },
         "label": "Durrës",
+        "latintoponym": "Dyrrachium",
         "orientation": 179,
         "pleiades": "http://pleiades.stoa.org/places/481818",
+        "province": "macedonia",
         "moderncountry": "Albania",
         "wikipedia": "http://en.wikipedia.org/wiki/Durrës_Amphitheatre",
         "youtube": ["https://www.youtube.com/watch?v=Ot-KIRo5puc"]
@@ -4467,11 +4470,13 @@
         "amphitheatrum": "http://amphi-theatrum.de/2081.html",
         "buildingtype": "amphitheater",
         "chronogroup": "Republican",
+        "exclude": true,
         "label": "Capua I",
         "latintoponym": "Capua",
         "moderncountry": "Italy",
         "orientation": 179,
         "pleiades": "http://pleiades.stoa.org/places/432754",
+        "region": "regio-i",
         "visibility": "partial",
         "welchid": "2"
       },
@@ -4506,6 +4511,7 @@
         "moderncountry": "Italy",
         "orientation": 179,
         "pleiades": "http://pleiades.stoa.org/places/432754",
+        "region": "region-i",
         "visibility": "good",
         "youtube": ["https://www.youtube.com/watch?v=8q86tToFDwI","https://www.youtube.com/watch?v=93yf8t-lKGI"]
       },
@@ -4531,6 +4537,7 @@
         "latintoponym": "Liternum",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/432911",
+        "region": "regio-i",
         "visibility": "none",
         "welchid": "3"
       },
