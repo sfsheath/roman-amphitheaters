@@ -162,7 +162,7 @@ id,title,label,pleiades,type,capacity,modcountry,province,italyregion,chronogrp,
 "autunAmphitheater","Amphitheater at Autun","Autun","http://pleiades.stoa.org/places/177460","amphitheater",,"France",,,"Imperial",,,,,,,46.953003,4.310856,317
 "xantenAmphitheater","Amphitheater at Xanten","Xanten","http://pleiades.stoa.org/places/108896","amphitheater",10000,"Germany",,,"Imperial",,,96.5,87,58.5,49,51.667172,6.451386,21
 "arnsburgAmphitheater","Amphitheater at Arnsburg","Arnsburg","http://pleiades.stoa.org/places/118575","amphitheater",,"Germany",,,"Imperial",,,,,,,50.485657,8.787954,163
-"ierapetraAmphitheater","Amphitheater at Ierapetra","Ierapetra","http://pleiades.stoa.org/places/589807","amphitheater",,"Greece",,,"Imperial",,,,,,,35.011385,25.745132,4
+"ierapetraAmphitheater","Amphitheater at Ierapetra","Ierapetra","http://pleiades.stoa.org/places/589807","amphitheater",,"Greece","crete-et-cyrenaica",,"Imperial",,,,,,,35.011385,25.745132,4
 "kunzingAmphitheater","Amphitheater at Künzing","Künzing","http://pleiades.stoa.org/places/118919","amphitheater",,"Germany",,,"Imperial",,,,,,,48.667088,13.082821,308
 "noceraSuperioreAmphitheater","Amphitheater at Nocera Superiore","Nocera","http://pleiades.stoa.org/places/432985","amphitheater",,"Italy",,,"Imperial",,,125,102,58,34,40.74575,14.657022,50
 "bobadelaAmphitheater","Amphitheater at Bobadela","Bobadela","http://pleiades.stoa.org/places/236458","amphitheater",,"Portugal","lusitania",,"Flavian",,,,,,,40.361088,-7.893572,383
