@@ -3440,9 +3440,11 @@
          },
         "hypogeum": true,
         "label": "Trier",
+        "latintoponym": "Augusta Treverorum",
         "moderncountry": "Germany",
         "orientation": 181,
         "pleiades": "http://pleiades.stoa.org/places/108894",
+        "province": "belgica",
         "youtube": ["https://www.youtube.com/watch?v=WYOvPyCntiY","https://www.youtube.com/watch?v=kOv5vx9S0z8","https://www.youtube.com/watch?v=dl9PAgQuSNs"]
       },
       "geometry": {
@@ -3508,7 +3510,8 @@
         "latintoponym": "Eporedia",
         "moderncountry": "Italy", 
         "orientation": 264,
-        "pleiades": "http://pleiades.stoa.org/places/383642"
+        "pleiades": "http://pleiades.stoa.org/places/383642",
+        "region": "regio-xi"
       },
       "geometry": {
         "type": "Point",
@@ -3574,7 +3577,8 @@
         "military": true,
         "moderncountry": "Italy",
         "orientation": 93,
-        "pleiades": "http://pleiades.stoa.org/places/422885"
+        "pleiades": "http://pleiades.stoa.org/places/422885",
+        "trismegistos": "http://www.trismegistos.org/place/19939"
       },
       "geometry": {
         "type": "Point",
@@ -7207,6 +7211,7 @@
         "latintoponym": "Suasa",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/413324",
+        "region": "regio-vi",
         "visibility": "good" },
         "geometry": {
           "type": "Point",
@@ -7229,6 +7234,7 @@
         "latintoponym": "Pollentia",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/383745",
+        "region": "region-ix",
         "visibility": "street plan" },
         "geometry": {
           "type": "Point",
@@ -7251,6 +7257,7 @@
         "latintoponym": "Vercellae",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/383815",
+        "region": "region-xi",
         "visibility": "partial" },
         "geometry": {
           "type": "Point",
@@ -7274,6 +7281,7 @@
         "latintoponym": "Fabrateria Nova",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/432825",
+        "region": "regio-i",
         "visibility": "poor" },
         "geometry": {
           "type": "Point",
@@ -7324,6 +7332,7 @@
         "latintoponym": "Suessa",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/433132",
+        "region": "regio-i",
         "visibility": "poor" ,
         "welchid": "11"},
         "geometry": {
@@ -7347,6 +7356,7 @@
         "latintoponym": "Abellinum",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/432618",
+        "region": "regio-i",
         "visibility": "none" ,
         "welchid": "12"},
         "geometry": {
@@ -7371,6 +7381,7 @@
         "moderncountry": "Italy",
         "certainty": "uncertain",
         "pleiades": "http://pleiades.stoa.org/places/442550",
+        "region": "regio-ii",
         "visibility": "none" },
         "geometry": {
           "type": "Point",
@@ -7393,6 +7404,7 @@
         "moderncountry": "United Kingdom",
         "certainty": "uncertain",
         "pleiades": "http://pleiades.stoa.org/places/89175",
+        "province": "britannia",
         "visibility": "none" },
         "geometry": {
           "type": "Point",
@@ -7438,6 +7450,7 @@
         "latintoponym": "Byzantium",
         "moderncountry": "Turkey",
         "pleiades": "http://pleiades.stoa.org/places/520985",
+        "province": "Thracia",
         "visibility": "none" },
         "geometry": {
           "type": "Point",
@@ -7487,6 +7500,7 @@
         "latintoponym": "Regium Lepidi",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/383755",
+        "region": "regio-viii",
         "visibility": "none" },
         "geometry": {
           "type": "Point",
