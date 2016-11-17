@@ -246,8 +246,8 @@ id,title,label,pleiades,type,capacity,modcountry,province,italyregion,chronogrp,
 "volterraAmphitheater","Volterra Amphitheater","Volterra","http://pleiades.stoa.org/places/403292","amphitheater",10000,"Italy",,,"First Century",,,80,60,,,43.407162,10.862152,456
 "vastoAmphitheater","Amphitheater at Vasto","Vasto","http://pleiades.stoa.org/places/413171","amphitheater",,"Italy",,,"Imperial",,,,,,,42.111291,14.708095,150
 "suasaAmphitheater","Amphitheater at Suasa","Suasa","http://pleiades.stoa.org/places/413324","amphitheater",,"Italy",,"regio-vi","Imperial",,,99,75,58,36,43.624682,12.986831,139
-"pollenzoAmphitheater","Amphitheater at Pollenzo","Pollenzo","http://pleiades.stoa.org/places/383745","amphitheater",,"Italy",,"region-ix","Imperial",,,,,,,44.684698,7.895993,200
-"vercelliAmphitheater","Amphitheater at Vercelli","Vercelli","http://pleiades.stoa.org/places/383815","amphitheater",,"Italy",,"region-xi","Imperial",,,,,,,45.319277,8.426863,126
+"pollenzoAmphitheater","Amphitheater at Pollenzo","Pollenzo","http://pleiades.stoa.org/places/383745","amphitheater",,"Italy",,"regio-ix","Imperial",,,,,,,44.684698,7.895993,200
+"vercelliAmphitheater","Amphitheater at Vercelli","Vercelli","http://pleiades.stoa.org/places/383815","amphitheater",,"Italy",,"regio-xi","Imperial",,,,,,,45.319277,8.426863,126
 "sanGiovanniAmphitheater","Amphitheater at San Giovanni in Carico","San Giovanni in Carico","http://pleiades.stoa.org/places/432825","amphitheater",,"Italy",,"regio-i","Imperial",,,,,,,41.518993,13.552957,87
 "megiddoAmphitheater","Amphitheater at Megiddo","Megiddo","http://pleiades.stoa.org/places/678266","amphitheater",,"Israel",,,"Imperial",,,70,50,,,32.58102,35.183968,141
 "suessaAruncaAmphitheater","Amphitheater at Suessa Arunca","Suessa Arunca","http://pleiades.stoa.org/places/433132","amphitheater",,"Italy",,"regio-i","Republican",,,,,,,41.230843,13.933458,128

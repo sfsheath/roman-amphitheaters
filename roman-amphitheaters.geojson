@@ -7234,7 +7234,7 @@
         "latintoponym": "Pollentia",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/383745",
-        "region": "region-ix",
+        "region": "regio-ix",
         "visibility": "street plan" },
         "geometry": {
           "type": "Point",
@@ -7257,7 +7257,7 @@
         "latintoponym": "Vercellae",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/383815",
-        "region": "region-xi",
+        "region": "regio-xi",
         "visibility": "partial" },
         "geometry": {
           "type": "Point",
