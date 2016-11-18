@@ -1539,7 +1539,8 @@
         "label": "Scythopolis",
         "moderncountry": "Israel",
         "orientation": 98,
-        "pleiades": "http://pleiades.stoa.org/places/678378"
+        "pleiades": "http://pleiades.stoa.org/places/678378",
+        "province": "judaea"
       },
       "geometry": {
         "type": "Point",
@@ -6964,6 +6965,7 @@
         "latintoponym": "Canusium",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/442525",
+        "region": "regio-ii",
         "visibility": "none"
          },
         "geometry": {
@@ -6988,6 +6990,7 @@
         "latintoponym": "Sipous",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/442797",
+        "region": "regio-ii",
         "visibility": "none"
          },
         "geometry": {
@@ -7017,6 +7020,7 @@
         "latintoponym": "Teate Marrucinorum",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/413333",
+        "region": "regio-iv",
         "visibility": "none"
          },
         "geometry": {
@@ -7040,6 +7044,8 @@
         "latintoponym": "Teanum",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/423108",
+        "region": "regio-ii",
+        "trismegistos": "http://www.trismegistos.org/place/14481",
         "visibility": "none",
         "welchid": "7"
          },
@@ -7166,6 +7172,7 @@
         "latintoponym": "Volaterrae",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/403292",
+        "region": "region-vii",
         "visibility": "none"
          },
         "geometry": {
@@ -7190,6 +7197,8 @@
         "latintoponym": "Histonium",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/413171",
+        "region": "regio-iv",
+        "trismegistos": "http://www.trismegistos.org/place/14478",
         "visibility": "none" },
         "geometry": {
           "type": "Point",
@@ -7220,6 +7229,7 @@
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/413324",
         "region": "regio-vi",
+        "trismegistos": "http://www.trismegistos.org/place/14368",
         "visibility": "good" },
         "geometry": {
           "type": "Point",
@@ -7317,6 +7327,7 @@
         "latintoponym": "Legio",
         "moderncountry": "Israel",
         "pleiades": "http://pleiades.stoa.org/places/678266",
+        "province": "judaea",
         "vici": "http://vici.org/vici/18746",
         "visibility": "good" },
         "geometry": {
@@ -7486,6 +7497,8 @@
         "latintoponym": "Noviomagus Reginorum",
         "moderncountry": "United Kingdom",
         "pleiades": "http://pleiades.stoa.org/places/79622",
+        "province": "britannia",
+        "trismegistos": "http://www.trismegistos.org/place/15319",
         "visibility": "poor" },
         "geometry": {
           "type": "Point",
