@@ -2510,7 +2510,8 @@
         "latintoponym": "Urbs Saglia",
         "moderncountry": "Italy",
         "orientation": 221,
-        "pleiades": "http://pleiades.stoa.org/places/413364"
+        "pleiades": "http://pleiades.stoa.org/places/413364",
+        "region": "regio-v"
       },
       "geometry": {
         "type": "Point",
@@ -5121,6 +5122,8 @@
         "moderncountry": "Syria",
         "orientation": 199,
         "pleiades": "http://pleiades.stoa.org/places/678073",
+        "province": "syria",
+        "trimegistos": "http://www.trismegistos.org/place/2987",
         "visibility": "partial"
       },
       "geometry": {

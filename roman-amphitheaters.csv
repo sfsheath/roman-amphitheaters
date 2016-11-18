@@ -80,7 +80,7 @@ id,title,label,pleiades,type,capacity,modcountry,province,italyregion,chronogrp,
 "tiburAmphitheater","Amphitheater at Tibur","Tibur","http://pleiades.stoa.org/places/423081","amphitheater",,"Italy",,,"Imperial",,,,,,,41.960571,12.798114,248
 "caerleonAmphitheater","Amphitheater at Caerleon","Caerleon","http://pleiades.stoa.org/places/79532","amphitheater",6000,"United Kingdom",,,"Imperial",,"https://www.youtube.com/watch?v=VIT1JAOadho",80,66,55,41,51.6080589,-2.956878,13
 "telesiaAmphitheatre","Amphitheater at Telesia","Telesia","http://pleiades.stoa.org/places/433147","amphitheater",9000,"Italy",,,"Republican",,,112,,,,41.223911,14.500496,68
-"urbisagliaAmphitheater","Amphitheater at Urbs Salvia","Urbs Salvia","http://pleiades.stoa.org/places/413364","amphitheater",5150,"Italy",,,"Flavian",,,98,71,59,35,43.200877,13.387224,219
+"urbisagliaAmphitheater","Amphitheater at Urbs Salvia","Urbs Salvia","http://pleiades.stoa.org/places/413364","amphitheater",5150,"Italy",,"regio-v","Flavian",,,98,71,59,35,43.200877,13.387224,219
 "saintesAmphitheatre","Amphitheater at Saintes","Saintes","http://pleiades.stoa.org/places/138458","amphitheater",20197,"France",,,"Imperial",,"https://www.youtube.com/watch?v=2TCI21s-bxM",126.4,101.6,65.2,39.2,45.7453926,-0.6433512,20
 "assisiAmphitheatre","Amphitheater at Assisi","Assisi","http://pleiades.stoa.org/places/413037","amphitheater",,"Italy",,,"Imperial",,"https://www.youtube.com/watch?v=uLSmRRxtf4M",,,65,38,43.071077,12.620454,445
 "durresAmphitheatre","Amphitheater at Durrës","Durrës","http://pleiades.stoa.org/places/481818","amphitheater",20000,"Albania","macedonia",,"Second Century",,"https://www.youtube.com/watch?v=Ot-KIRo5puc",132.4,113.2,61.4,42.2,41.312241,19.445131,15
@@ -173,7 +173,7 @@ id,title,label,pleiades,type,capacity,modcountry,province,italyregion,chronogrp,
 "burnumAmphitheater","Amphitheater at Burnum","Burnum","http://pleiades.stoa.org/places/197184","amphitheater",,"Croatia",,,"Imperial",,,80,65,43,32,44.019098,16.018169,250
 "gleisdorfAmphitheater","Amphitheater at Gleisdorf","Gleisdorf","http://pleiades.stoa.org/places/197284","amphitheater",,"Austria",,,"Imperial",,,,,,,47.111055,15.707727,365
 "skikdaAmphitheater","Amphitheater at Skikda","Skikda","http://pleiades.stoa.org/places/305137","amphitheater",8000,"Algeria",,,"Imperial",,,77.3,58.8,57,38.5,36.876413,6.91383,38
-"bostraAmphitheater","Amphitheater at Bosra","Bosra","http://pleiades.stoa.org/places/678073","amphitheater",,"Syria",,,"Imperial",,,,,,,32.517923,36.479844,845
+"bostraAmphitheater","Amphitheater at Bosra","Bosra","http://pleiades.stoa.org/places/678073","amphitheater",,"Syria","syria",,"Imperial",,,,,,,32.517923,36.479844,845
 "palmyraAmphitheater","Possible Amphitheater at Palmyra","Palmyra","http://pleiades.stoa.org/places/668331","amphitheater",,"Syria","syria",,"Imperial","uncertain",,,,,,34.553789,38.273763,408
 "stMarcelAmphitheater","Amphitheater at Saint Marcel","St. Marcel","http://pleiades.stoa.org/places/138192","amphitheater",,"France","aquitania",,"Imperial","uncertain",,,,,,46.601549,1.518328,150
 "metzAmphitheater","Amphitheater at Metz","Metz","http://pleiades.stoa.org/places/108928","amphitheater",30000,"France","belgica",,"Late1stEarly2nd","uncertain",,148,125,,,49.107645,6.181932,171
