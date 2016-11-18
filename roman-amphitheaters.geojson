@@ -1267,7 +1267,8 @@
         "label": "Octodorus",
         "moderncountry": "Switzerland",
         "orientation": 230,
-        "pleiades": "http://pleiades.stoa.org/places/167859"
+        "pleiades": "http://pleiades.stoa.org/places/167859",
+        "province": "alpes-poeninae"
       },
       "geometry": {
         "type": "Point",
@@ -2154,7 +2155,7 @@
         "moderncountry": "France",
         "orientation": 175,
         "pleiades": "http://pleiades.stoa.org/places/138650",
-        "pleiades-specific": "http://pleiades.stoa.org/places/138650/location-of-roman-amphitheater"
+        "pleiadesspecific": "http://pleiades.stoa.org/places/138650/location-of-roman-amphitheater"
       },
       "geometry": {
         "type": "Point",
@@ -2250,9 +2251,9 @@
       }
     },{
       "type": "Feature",
-      "id": "colAugustaRauricaAmphitheatre",
+      "id": "augstAmphitheatre",
       "properties": {
-        "title": "Amphitheater at Col. Augusta Raurica",
+        "title": "Amphitheater at Augst",
         "buildingtype": "amphitheater",
         "created": 170,
         "capacity": {"quantity": 14313, "source": "Golvin"},
@@ -2264,10 +2265,12 @@
           "arena-minor": 33,
           "source": "Golvin"
          },
-        "label": "Aug. Raurica",
+        "label": "Augst",
+        "latintoponym": "Augusta Raurica",
         "moderncountry": "Switzerland",
         "orientation": 121,
         "pleiades": "http://pleiades.stoa.org/places/177494",
+        "province": "germania-superior",
         "source": "http://pleiades.stoa.org/places/177494/location-of-roman-amphitheater",
         "see": "http://www.augustaraurica.ch/en/visit/sights/amphitheatre/"
       },
@@ -2476,7 +2479,7 @@
         "moderncountry": "Italy",
         "orientation": 198,
         "pleiades": "http://pleiades.stoa.org/places/433147",
-        "source": "http://pleiades.stoa.org/places/433147/location-of-roman-amphitheater",
+        "pleiadesspecific": "http://pleiades.stoa.org/places/433147/location-of-roman-amphitheater",
         "welchid": "9"
       },
       "geometry": {
@@ -5142,6 +5145,7 @@
         "label": "Palmyra",
         "moderncountry": "Syria",
         "pleiades": "http://pleiades.stoa.org/places/668331",
+        "province": "syria",
         "visibility": "none"
       },
       "geometry": {
@@ -5168,6 +5172,7 @@
         "latintoponym": "Argentomagus",
         "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/138192",
+        "province": "aquitania",
         "visibility": "none"
       },
       "geometry": {
@@ -5232,6 +5237,7 @@
         "moderncountry": "France",
         "orientation": 245,
         "pleiades": "http://pleiades.stoa.org/places/109016",
+        "province": "belgica",
         "visibility": "good"
       },
       "geometry": {
