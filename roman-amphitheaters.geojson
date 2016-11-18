@@ -1796,7 +1796,8 @@
         "moderncountry": "Morocco",
         "orientation": 76,
         "pleiades": "http://pleiades.stoa.org/places/275666",
-        "source": "http://pleiades.stoa.org/places/275666/location-of-roman-amphitheater"
+        "source": "http://pleiades.stoa.org/places/275666/location-of-roman-amphitheater",
+        "province": "mauretania"
       },
       "geometry": {
         "type": "Point",
@@ -2323,7 +2324,9 @@
         "latintoponym": "Ulpia Traiana Sarmizegetusa",
         "moderncountry": "Romania",
         "orientation": 262,
-        "pleiades": "http://pleiades.stoa.org/places/207527"
+        "pleiades": "http://pleiades.stoa.org/places/207527",
+        "province": "dacia",
+        "trismegistos": "http://www.trismegistos.org/place/30060"
       },
       "geometry": {
         "type": "Point",
@@ -3057,7 +3060,8 @@
          },
         "label": "Caesarea",
         "moderncountry": "Israel",
-        "pleiades": "http://pleiades.stoa.org/places/678401"
+        "pleiades": "http://pleiades.stoa.org/places/678401",
+        "province": "judea"
       },
       "geometry": {
         "type": "Point",
@@ -3642,7 +3646,9 @@
         "label": "Ptolemais",
         "moderncountry": "Libya",
         "orientation": 241,
-        "pleiades": "http://pleiades.stoa.org/places/373879"
+        "pleiades": "http://pleiades.stoa.org/places/373879",
+        "province": "crete-et-cyrenaica",
+        "trismegistos": "http://www.trismegistos.org/place/2018"
       },
       "geometry": {
         "type": "Point",
@@ -4361,6 +4367,7 @@
         "latintoponym": "Autricum",
         "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/108778",
+        "province": "lugdunensis",
         "visibility": "none"
       },
       "geometry": {
@@ -4392,6 +4399,8 @@
         "moderncountry": "France",
         "orientation": 267,
         "pleiades": "http://pleiades.stoa.org/places/108776",
+        "province": "belgica",
+        "trismegistos": "http://www.trismegistos.org/place/24388",
         "visibility": "good",
         "wikipedia": "http://fr.wikipedia.org/wiki/Arènes_de_Senlis"
       },
@@ -4427,6 +4436,8 @@
         "latintoponym": "Caesarodunum Turonum",
         "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/138255",
+        "province": "lugdunensis",
+        "trismegistos": "http://www.trismegistos.org/place/3280",
         "visibility": "good",
         "wikipedia": "http://fr.wikipedia.org/wiki/Amphithéâtre_de_Tours"
       },
@@ -4450,6 +4461,7 @@
         "latintoponym": "Venta Icenorum",
         "moderncountry": "United Kingdom",
         "pleiades": "http://pleiades.stoa.org/places/79735",
+        "province": "britannia",
         "title": "Amphitheater at Caistor Saint Edmund",
         "visibility": "none",
         "website": "http://www.norfarchtrust.org.uk/caistor"
@@ -4564,6 +4576,8 @@
         "moderncountry": "Italy",
         "orientation": 258,
         "pleiades": "http://pleiades.stoa.org/places/432981",
+        "region": "region-i",
+        "trismegistos": "http://www.trismegistos.org/place/14341",
         "visibility": "partial",
         "welchid": "13"
       },
@@ -4599,6 +4613,7 @@
         "moderncountry": "United Kingdom",
         "orientation": 200,
         "pleiades": "http://pleiades.stoa.org/places/79368",
+        "province": "britannia",
         "visibility": "partial",
         "youtube": ["https://www.youtube.com/watch?v=ScpzLOmZEXs"]
       },
@@ -4633,6 +4648,7 @@
         "moderncountry": "United Kingdom",
         "orientation": 210,
         "pleiades": "http://pleiades.stoa.org/places/79431",
+        "province": "britannia",
         "visibility": "partial",
         "website": "http://www.maumburyrings.co.uk",
         "youtube": ["https://www.youtube.com/watch?v=ScpzLOmZEXs"]
@@ -4658,6 +4674,7 @@
         "moderncountry": "Portugal",
         "orientation": 181,
         "pleiades": "http://pleiades.stoa.org/places/236377",
+        "province": "tarraconensis",
         "visibility": "none"
       },
       "geometry": {
@@ -4679,6 +4696,7 @@
         "label": "Sisapo",
         "moderncountry": "Spain",
         "pleiades": "http://pleiades.stoa.org/places/266043",
+        "provinces": "baetica",
         "visibility": "partial"
       },
       "geometry": {
