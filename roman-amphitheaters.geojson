@@ -21,17 +21,21 @@
     "type": "@type",
 
     "amphitheatrum": {"@id": "rdfs:seeAlso","@type": "@id"},
-    "buildingtype": { "@id": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", "@type": "@id" },
-    "capacity": {"@id": "http://dbpedia.org/property/seatingCapacity" },
-    "chronogroup": {"@id": "dcterms:coverage"},
+    "buildingtype": { "@id": "ramphsont:type" },
+    "capacity": {"@id": "ramphsont:capacity" },
+    "chronogroup": {"@id": "ramphsont:chronogroup"},
     "comment": {"@id": "rdfs:comment" },
     "created": { "@id": "dcterms:created", "@type": "xsd:gDate" },
     "dedication": {"@id": "http://purl.org/roman-amphitheaters/ontology#dedication"},
     "emperor": "ramphsont:hasEmperor",
     "exclude": "ramphsont:exclude",
     "label": {"@id": "rdfs:label"},
+    "moderncountry": { "@id": "ramphsont:moderncountry"},
     "periodo": {"@id": "dcterms:coverage", "@type": "@id" },
-    "pleiades": {"@id": "gn:locatedIn","@type": "@id"},
+    "pleiades": {"@id": "ramphsont:pleiades","@type": "@id"},
+    "province": { "@id": "ramphsont:province"},
+    "quantity": { "@id": "ramphsont:quantity"},
+    "region": { "@id": "ramphsont:region"},
     "see": {"@id": "rdfs:seeAlso","@type": "@id" },
     "source": {"@id": "prov:wasDerivedFrom","@type": "@id" },
     "source-note": {"@id": "rdfs:comment" },
@@ -949,7 +953,7 @@
         "periodo": "http://n2t.net/ark:/99152/p0wf3wdp4xt",
         "pleiades": "http://pleiades.stoa.org/places/471899",
         "moderncountry": "Italy",
-        "province": "corisca-et-sardinia",
+        "province": "corsica-et-sardinia",
         "wikipedia": "http://en.wikipedia.org/wiki/Roman_Amphitheatre_of_Cagliari"
       },
       "geometry": {
@@ -1691,7 +1695,8 @@
         "moderncountry": "Austria",
         "orientation": 194,
         "pleiades": "http://pleiades.stoa.org/places/197583",
-        "pleiadesspecific": "http://pleiades.stoa.org/places/197583/location-of-roman-amphitheater"
+        "pleiadesspecific": "http://pleiades.stoa.org/places/197583/location-of-roman-amphitheater",
+        "province": "noricum"
       },
       "geometry": {
         "type": "Point",
@@ -1960,7 +1965,7 @@
       }
     },{
       "type": "Feature",
-      "id": "hydataHypsitanaForumTraianiAmphitheatre",
+      "id": "hydataHypsitanaForumTraianiAmphitheater",
       "properties": {
         "title": "Amphitheater at Hydata Hypsitana/Forum Traiani",
         "buildingtype": "amphitheater",
@@ -1970,6 +1975,7 @@
         "orientation": 209,
         "periodo": "http://n2t.net/ark:/99152/p0wf3wdp4xt",
         "pleiades": "http://pleiades.stoa.org/places/471947",
+        "province": "corsica-et-sardinia",
         "source": "http://pleiades.stoa.org/places/471947/location-of-roman-amphitheater"
       },
       "geometry": {
@@ -1992,6 +1998,7 @@
         "moderncountry": "Italy",
         "orientation": 98,
         "pleiades": "http://pleiades.stoa.org/places/403234",
+        "region": "regio-vii",
         "source": "http://pleiades.stoa.org/places/403234/location-of-roman-amphitheater"
       },
       "geometry": {
@@ -2004,7 +2011,7 @@
       }
     },{
       "type": "Feature",
-      "id": "hispellumAmphitheatre",
+      "id": "hispellumAmphitheater",
       "properties": {
         "title": "Amphitheater at Spello",
         "buildingtype": "amphitheater",
@@ -2014,6 +2021,7 @@
         "moderncountry": "Italy",
         "orientation": 124,
         "pleiades": "http://pleiades.stoa.org/places/413170",
+        "region": "regio-vi",
         "source": "http://pleiades.stoa.org/places/413170/location-of-roman-amphitheater"
       },
       "geometry": {
@@ -2026,7 +2034,7 @@
       }
     },{
       "type": "Feature",
-      "id": "veronaAmphitheatre",
+      "id": "veronaAmphitheater",
       "properties": {
         "title": "Amphitheater at Verona",
         "buildingtype": "amphitheater",
@@ -2041,9 +2049,11 @@
           "source": "Bomgardner"
          },
         "label": "Verona",
+        "latintoponym": "verona",
+        "moderncountry": "Italy",
         "orientation": 144,
         "pleiades": "http://pleiades.stoa.org/places/383816",
-        "moderncountry": "Italy",
+        "region": "regio-x",
         "wikipedia": "https://en.wikipedia.org/wiki/Verona_Arena",
         "source": "http://pleiades.stoa.org/places/383816/location-of-amphitheater",
         "youtube": ["https://www.youtube.com/watch?v=CJoS5abKuYc"]
@@ -2128,7 +2138,8 @@
         "label": "Aldburough",
         "latintoponym": "Isurium Brigantium",
         "moderncountry": "United Kingdom",
-        "pleiades": "http://pleiades.stoa.org/places/89209"
+        "pleiades": "http://pleiades.stoa.org/places/89209",
+        "province": "britannia"
       },
       "geometry": {
         "type": "Point",
@@ -2141,7 +2152,7 @@
       }
     },{
       "type": "Feature",
-      "id": "perigueuxAmphitheatre",
+      "id": "perigueuxAmphitheater",
       "properties": {
         "title": "Amphitheater at Perigueux",
         "buildingtype": "amphitheater",
@@ -2177,7 +2188,8 @@
         "latintoponym": "Civitas Camunnorum",
         "moderncountry": "Italy",
         "orientation": 152,
-        "pleiades": "http://pleiades.stoa.org/places/383617"
+        "pleiades": "http://pleiades.stoa.org/places/383617",
+        "region": "regio-x"
       },
       "geometry": {
         "type": "Point",
@@ -2209,7 +2221,8 @@
         "latintoponym": "Grumentum",
         "moderncountry": "Italy",
         "orientation": 220,
-        "pleiades": "http://pleiades.stoa.org/places/442603"
+        "pleiades": "http://pleiades.stoa.org/places/442603",
+        "region": "regio-iii"
       },
       "geometry": {
         "type": "Point",
@@ -2236,9 +2249,10 @@
          },
         "label": "Alba Fucens",
         "latintoponym": "Alba Fucens",
+        "moderncountry": "Italy",
         "orientation": 144,
         "pleiades": "http://pleiades.stoa.org/places/413005",
-        "moderncountry": "Italy",
+        "region": "regio-iv",
         "source": "http://pleiades.stoa.org/places/413005/amphitheater-of-alba-fucens"
       },
       "geometry": {
@@ -2251,7 +2265,7 @@
       }
     },{
       "type": "Feature",
-      "id": "augstAmphitheatre",
+      "id": "augstAmphitheater",
       "properties": {
         "title": "Amphitheater at Augst",
         "buildingtype": "amphitheater",
@@ -2284,7 +2298,7 @@
       }
     },{
       "type": "Feature",
-      "id": "sutriumAmphitheatre",
+      "id": "sutriumAmphitheater",
       "properties": {
         "title": "Amphitheater at Sutrium",
         "pleiades": "http://pleiades.stoa.org/places/413328",
@@ -2297,6 +2311,7 @@
         "label": "Sutrium",
         "moderncountry": "Italy",
         "orientation": 230,
+        "region": "regio-vii",
         "welchid": "15",
         "youtube": ["https://www.youtube.com/watch?v=OgHl5MT95bg","https://www.youtube.com/watch?v=Qh4YPqq_DfE"]
       },
@@ -2310,7 +2325,7 @@
       }
     },{
       "type": "Feature",
-      "id": "sarmizegetusaAmphitheatre",
+      "id": "sarmizegetusaAmphitheater",
       "properties": {
         "title": "Amphitheater at Ulpia Traiana Sarmizegetusa",
         "buildingtype": "amphitheater",
@@ -2342,7 +2357,7 @@
       }
     },{
       "type": "Feature",
-      "id": "salonaAmphitheatre",
+      "id": "salonaAmphitheater",
       "properties": {
         "title": "Amphitheater at Salona",
         "amphitheatrum": "http://www.amphi-theatrum.de/1565.html",
@@ -2362,7 +2377,8 @@
         "moderncountry": "Croatia",
         "orientation": 93,
         "pleiades": "http://pleiades.stoa.org/places/197488",
-        "source": "http://pleiades.stoa.org/places/197488/location-of-roman-amphitheater"
+        "pleiadesspecific": "http://pleiades.stoa.org/places/197488/location-of-roman-amphitheater",
+        "province": "dalmatia"
       },
       "geometry": {
         "type": "Point",
@@ -2374,7 +2390,7 @@
       }
     },{
       "type": "Feature",
-      "id": "londonAmphitheatre",
+      "id": "londonAmphitheater",
       "properties": {
         "title": "Amphitheater at London",
         "bibliography": "https://content.historicengland.org.uk/images-books/publications/iha-roman-amphitheatres-theatres-circuses/amphitheatres.pdf/",
@@ -2415,7 +2431,8 @@
         "label": "Tibur",
         "moderncountry": "Italy",
         "orientation": 197,
-        "pleiades": "http://pleiades.stoa.org/places/423081"
+        "pleiades": "http://pleiades.stoa.org/places/423081",
+        "region": "regio-i"
       },
       "geometry": {
         "type": "Point",
@@ -2464,7 +2481,7 @@
       }
     },{
       "type": "Feature",
-      "id": "telesiaAmphitheatre",
+      "id": "telesiaAmphitheater",
       "properties": {
         "title": "Amphitheater at Telesia",
         "buildingtype": "amphitheater",
@@ -2480,6 +2497,7 @@
         "orientation": 198,
         "pleiades": "http://pleiades.stoa.org/places/433147",
         "pleiadesspecific": "http://pleiades.stoa.org/places/433147/location-of-roman-amphitheater",
+        "region": "regio-iv",
         "welchid": "9"
       },
       "geometry": {
@@ -2524,7 +2542,7 @@
       }
     },{
       "type": "Feature",
-      "id": "saintesAmphitheatre",
+      "id": "saintesAmphitheater",
       "properties": {
         "title": "Amphitheater at Saintes",
         "buildingtype": "amphitheater",
@@ -2543,6 +2561,7 @@
         "moderncountry": "France",
         "orientation": 119,
         "pleiades": "http://pleiades.stoa.org/places/138458",
+        "province": "aquitania",
         "youtube": ["https://www.youtube.com/watch?v=2TCI21s-bxM"]
       },
       "geometry": {
@@ -2556,7 +2575,7 @@
       }
     },{
       "type": "Feature",
-      "id": "assisiAmphitheatre",
+      "id": "assisiAmphitheater",
       "properties": {
         "title": "Amphitheater at Assisi",
         "buildingtype": "amphitheater",
@@ -2571,6 +2590,7 @@
         "moderncountry": "Italy",
         "orientation": 225,
         "pleiades": "http://pleiades.stoa.org/places/413037",
+        "region": "regio-vi",
         "youtube": ["https://www.youtube.com/watch?v=uLSmRRxtf4M"]
       },
       "geometry": {
@@ -2584,7 +2604,7 @@
       }
     },{
       "type": "Feature",
-      "id": "durresAmphitheatre",
+      "id": "durresAmphitheater",
       "properties": {
         "title": "Amphitheater at Durrës",
         "bibliography": "http://dx.doi.org/10.1017/S1047759400013209",
@@ -3065,7 +3085,7 @@
         "label": "Caesarea",
         "moderncountry": "Israel",
         "pleiades": "http://pleiades.stoa.org/places/678401",
-        "province": "judea"
+        "province": "judaea"
       },
       "geometry": {
         "type": "Point",
@@ -3077,7 +3097,7 @@
       }
     },{
       "type": "Feature",
-      "id": "pergamumAmphitheater",
+      "id": "bergamaAmphitheater",
       "properties": {
         "title": "Amphitheater at Pergamum",
         "buildingtype": "amphitheater",
@@ -3091,10 +3111,13 @@
            "arena-major": 53,
            "arena-minor": 37
         },
-        "label": "Pergamum",
+        "label": "Bergama",
+        "latintoponym": "Pergamum",
         "moderncountry": "Turkey",
         "orientation": 194,
-        "pleiades": "http://pleiades.stoa.org/places/550812"
+        "pleiades": "http://pleiades.stoa.org/places/550812",
+        "province": "asia",
+        "trismegistoa": "http://www.trismegistos.org/place/1688"
       },
       "geometry": {
         "type": "Point",
@@ -3121,7 +3144,8 @@
         "label": "Anazarbus",
         "moderncountry": "Turkey",
         "orientation": 178,
-        "pleiades": "http://pleiades.stoa.org/places/658378"
+        "pleiades": "http://pleiades.stoa.org/places/658378",
+        "province": "cilicia"
       },
       "geometry": {
         "type": "Point",
@@ -3171,7 +3195,8 @@
         "label": "Cyzicus",
         "moderncountry": "Turkey",
         "orientation": 184,
-        "pleiades": "http://pleiades.stoa.org/places/511218"
+        "pleiades": "http://pleiades.stoa.org/places/511218",
+        "province": "asia"
       },
       "geometry": {
         "type": "Point",
@@ -3590,6 +3615,7 @@
         "moderncountry": "Italy",
         "orientation": 93,
         "pleiades": "http://pleiades.stoa.org/places/422885",
+        "region": "regio-i",
         "trismegistos": "http://www.trismegistos.org/place/19939"
       },
       "geometry": {
@@ -3908,7 +3934,8 @@
         "label": "Milan",
         "latintoponym": "Mediolanum",
         "moderncountry": "Italy",
-        "pleiades": "http://pleiades.stoa.org/places/383706"
+        "pleiades": "http://pleiades.stoa.org/places/383706",
+        "region": "regio-xi"
       },
       "geometry": {
         "type": "Point",
@@ -4050,7 +4077,8 @@
         "latintoponym": "Marruvium",
         "moderncountry": "Italy",
         "orientation": 139,
-        "pleiades": "http://pleiades.stoa.org/places/432927"
+        "pleiades": "http://pleiades.stoa.org/places/432927",
+        "region": "regio-iv"
       },
       "geometry": {
         "type": "Point",
@@ -4127,6 +4155,7 @@
         "moderncountry": "Italy",
         "orientation": 167,
         "pleiades": "http://pleiades.stoa.org/places/413014",
+        "region": "regio-v",
         "wiki": "http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Ancona"
       },
       "geometry": {
@@ -4153,9 +4182,10 @@
         },
         "golvinid": "91",
         "label": "Ascoli",
-        "latintoponym": "Ascolum Picenum",
+        "latintoponym": "Asculum Picenum",
         "moderncountry": "Italy",
-        "pleiades": "http://pleiades.stoa.org/places/413036"
+        "pleiades": "http://pleiades.stoa.org/places/413036",
+        "region": "regio-v"
       },
       "geometry": {
         "type": "Point",
@@ -4177,7 +4207,8 @@
         "label": "Benevento",
         "latintoponym": "Beneventum",
         "moderncountry": "Italy",
-        "pleiades": "http://pleiades.stoa.org/places/432721"
+        "pleiades": "http://pleiades.stoa.org/places/432721",
+        "region": "regio-ii"
       },
       "geometry": {
         "type": "Point",
@@ -4231,7 +4262,8 @@
         "latintoponym": "Amiternum",
         "moderncountry": "Italy",
         "orientation": 110,
-        "pleiades": "http://pleiades.stoa.org/places/413013"
+        "pleiades": "http://pleiades.stoa.org/places/413013",
+        "region": "regio-iv"
       },
       "geometry": {
         "type": "Point",
@@ -4528,7 +4560,7 @@
         "moderncountry": "Italy",
         "orientation": 179,
         "pleiades": "http://pleiades.stoa.org/places/432754",
-        "region": "region-i",
+        "region": "regio-i",
         "visibility": "good",
         "youtube": ["https://www.youtube.com/watch?v=8q86tToFDwI","https://www.youtube.com/watch?v=93yf8t-lKGI"]
       },
@@ -4580,7 +4612,7 @@
         "moderncountry": "Italy",
         "orientation": 258,
         "pleiades": "http://pleiades.stoa.org/places/432981",
-        "region": "region-i",
+        "region": "regio-i",
         "trismegistos": "http://www.trismegistos.org/place/14341",
         "visibility": "partial",
         "welchid": "13"
@@ -4700,7 +4732,7 @@
         "label": "Sisapo",
         "moderncountry": "Spain",
         "pleiades": "http://pleiades.stoa.org/places/266043",
-        "provinces": "baetica",
+        "province": "baetica",
         "visibility": "partial"
       },
       "geometry": {
@@ -4882,6 +4914,7 @@
         "latintoponym": "Nuceria Alfaterna",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/432985",
+        "region": "regio-i",
         "visibility": "none"
       },
       "geometry": {
@@ -5043,6 +5076,7 @@
         "moderncountry": "Croatia",
         "orientation": 201,
         "pleiades": "http://pleiades.stoa.org/places/197184",
+        "province": "dalmatia",
         "visibility": "good"
       },
       "geometry": {
@@ -5065,6 +5099,7 @@
         "label": "Gleisdorf",
         "moderncountry": "Austria",
         "pleiades": "http://pleiades.stoa.org/places/197284",
+        "province": "noricum",
         "title": "Amphitheater at Gleisdorf",
         "visibility": "none"
       },
@@ -5263,6 +5298,7 @@
         "latintoponym": "Albingaunum",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/157803",
+        "region": "regio-vii",
         "visibility": "partial"
       },
       "geometry": {
@@ -5293,6 +5329,7 @@
         "latintoponym": "Aquinum",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/432695",
+        "region": "regio-i",
         "visibility": "partial"
       },
       "geometry": {
@@ -5677,6 +5714,7 @@
         "latintoponym": "Ucubi",
         "moderncountry": "Spain",
         "pleiades": "http://pleiades.stoa.org/places/266081",
+        "province": "baetica",
         "visibility": "poor"
       },
       "geometry": {
@@ -5935,6 +5973,7 @@
         "orientation": 219,
         "pleiades": "http://pleiades.stoa.org/places/423012",
         "private": true,
+        "region": "regio-i",
         "visibility": "none"
       },
       "geometry": {
@@ -5980,10 +6019,12 @@
         "buildingtype": "amphitheater",
         "chronogroup": "Augustan",
         "created": -24,
+        "exclude": true,
         "label": "Statilius Taurus",
         "lastuse": {"date":64, "comment": "Destroyed in AD 64 fire."},
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/423025",
+        "region": "regio-i",
         "visibility": "none"
       },
       "geometry": {
@@ -6149,6 +6190,7 @@
         "moderncountry": "Italy",
         "orientation": 237,
         "pleiades": "http://pleiades.stoa.org/places/383578",
+        "region": "regio-ix",
         "vici": "http://vici.org/vici/4208",
         "visibility": "partial" },
         "geometry": {
@@ -6341,6 +6383,7 @@
         "moderncountry": "Italy",
         "orientation": 197,
         "pleiades": "http://pleiades.stoa.org/places/413179",
+        "region": "regio-v",
         "visibility": "partial"
          },
         "geometry": {
@@ -6680,6 +6723,7 @@
         "latintoponym": "Tuder",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/423108",
+        "region": "regio-vi",
         "visibility": "street plan"
          },
         "geometry": {
@@ -6739,6 +6783,7 @@
         "moderncountry": "Italy",
         "orientation": 188,
         "pleiades": "http://pleiades.stoa.org/places/413320",
+        "region": "regio-vi",
         "visibility": "good"
          },
         "geometry": {
@@ -6876,6 +6921,7 @@
         "latintoponym": "Firmum Picenum",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/413135",
+        "region": "regio-v",
         "visibility": "none"
          },
         "geometry": {
@@ -6905,6 +6951,7 @@
         "latintoponym": "Frusino",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/432852",
+        "region": "regio-i",
         "visibility": "none"
          },
         "geometry": {
@@ -7168,7 +7215,7 @@
         "latintoponym": "Alalia",
         "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/472048",
-        "province": "corisca-et-sardinia",
+        "province": "corsica-et-sardinia",
         "visibility": "good"
          },
         "geometry": {
@@ -7199,7 +7246,7 @@
         "latintoponym": "Volaterrae",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/403292",
-        "region": "region-vii",
+        "region": "regio-vii",
         "visibility": "none"
          },
         "geometry": {
