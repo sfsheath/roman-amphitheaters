@@ -30,6 +30,7 @@
     "emperor": "ramphsont:hasEmperor",
     "exclude": "ramphsont:exclude",
     "label": {"@id": "rdfs:label"},
+    "latintoponym": {"@id": "ramphsont:latintoponym"},
     "moderncountry": { "@id": "ramphsont:moderncountry"},
     "periodo": {"@id": "dcterms:coverage", "@type": "@id" },
     "pleiades": {"@id": "ramphsont:pleiades","@type": "@id"},
@@ -1922,7 +1923,8 @@
         "label": "Allifae",
         "moderncountry": "Italy",
         "orientation": 213,
-        "pleiades": "http://pleiades.stoa.org/places/432658"
+        "pleiades": "http://pleiades.stoa.org/places/432658",
+        "region": "regio-i"
       },
       "geometry": {
         "type": "Point",
@@ -2410,6 +2412,7 @@
         "moderncountry": "United Kingdom",
         "orientation": 90,
         "pleiades": "http://pleiades.stoa.org/places/79574",
+        "province": "britannia",
         "youtube": ["https://www.youtube.com/watch?v=qvw9xA-hTz8"]
       },
       "geometry": {
@@ -2465,6 +2468,7 @@
         "moderncountry": "United Kingdom",
         "orientation": 151,
         "pleiades": "http://pleiades.stoa.org/places/79532",
+        "province": "britannia",
         "youtube": [
            "https://www.youtube.com/watch?v=VIT1JAOadho",
            "https://www.youtube.com/watch?v=vV-DCm-MFNI"
@@ -3295,7 +3299,8 @@
         "latintoponym": "Moridunum",
         "moderncountry": "United Kingdom",
         "orientation": 253,
-        "pleiades": "http://pleiades.stoa.org/places/79602"
+        "pleiades": "http://pleiades.stoa.org/places/79602",
+        "province": "britannia"
       },
       "geometry": {
         "type": "Point",
@@ -3324,7 +3329,8 @@
         "label": "Caerwent",
         "latintoponym": "Venta Silurum",
         "moderncountry": "United Kingdom",
-        "pleiades": "http://pleiades.stoa.org/places/79733"
+        "pleiades": "http://pleiades.stoa.org/places/79733",
+        "province": "britannia"
       },
       "geometry": {
         "type": "Point",
@@ -3354,7 +3360,8 @@
         "label": "Tomen y Mur",
         "moderncountry": "United Kingdom",
         "orientation": 192,
-        "pleiades": "http://pleiades.stoa.org/places/142376597"
+        "pleiades": "http://pleiades.stoa.org/places/142376597",
+        "province": "britannia"
       },
       "geometry": {
         "type": "Point",
@@ -3515,7 +3522,8 @@
         "latintoponym": "Segusio",
         "moderncountry": "Italy",
         "orientation": 264,
-        "pleiades": "http://pleiades.stoa.org/places/167919"
+        "pleiades": "http://pleiades.stoa.org/places/167919",
+        "province": "alpes-cottiae"
       },
       "geometry": {
         "type": "Point",
@@ -3580,7 +3588,8 @@
         "label": "Bararus",
         "moderncountry": "Tunisia",
         "orientation": 244,
-        "pleiades": "http://pleiades.stoa.org/places/324673"
+        "pleiades": "http://pleiades.stoa.org/places/324673",
+        "region": "regio-xi"
       },
       "geometry": {
         "type": "Point",
@@ -3647,7 +3656,8 @@
         "lastuse": {"date": 425, "comment": "Reference to a Minerva article is given in Wikipedia entry."},
         "latintoponym": "Ulpia Serdica",
         "moderncountry": "Bulgaria",
-        "pleiades": "http://pleiades.stoa.org/places/207439"
+        "pleiades": "http://pleiades.stoa.org/places/207439",
+        "province": "thracia"
       },
       "geometry": {
         "type": "Point",
@@ -3957,7 +3967,8 @@
         "label": "Aquileia",
         "latintoponym": "Aquileia",
         "moderncountry": "Italy",
-        "pleiades": "http://pleiades.stoa.org/places/187290"
+        "pleiades": "http://pleiades.stoa.org/places/187290",
+        "region": "regio-x"
       },
       "geometry": {
         "type": "Point",
@@ -3984,10 +3995,11 @@
         },
         "golvinid": "90",
         "label": "Padua",
-        "latintoponym": "Patavia",
+        "latintoponym": "Patavium",
         "moderncountry": "Italy",
         "orientation": 188,
-        "pleiades": "http://pleiades.stoa.org/places/393473"
+        "pleiades": "http://pleiades.stoa.org/places/393473",
+        "region": "regio-x"
       },
       "geometry": {
         "type": "Point",
@@ -4019,6 +4031,7 @@
         "moderncountry": "Italy",
         "orientation": 267,
         "pleiades": "http://pleiades.stoa.org/places/442642",
+        "region": "regio-ii",
         "wikipedia": "http://it.wikipedia.org/wiki/Anfiteatro_romano_di_Lecce"
       },
       "geometry": {
@@ -4050,6 +4063,7 @@
         "latintoponym": "Thermae Himerae",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/462513",
+        "province": "sicilia",
         "wikipedia": ["https://it.wikipedia.org/wiki/Anfiteatro_di_Termini_Imerese"]
       },
       "geometry": {
@@ -4101,7 +4115,8 @@
         "latintoponym": "Trebula Mutuesca",
         "moderncountry": "Italy",
         "orientation": 267,
-        "pleiades": "http://pleiades.stoa.org/places/413350"
+        "pleiades": "http://pleiades.stoa.org/places/413350",
+        "region": "regio-iv"
       },
       "geometry": {
         "type": "Point",
@@ -4124,7 +4139,8 @@
         "latintoponym": "Volsinii Novi",
         "moderncountry": "Italy",
         "orientation": 130,
-        "pleiades": "http://pleiades.stoa.org/places/413389"
+        "pleiades": "http://pleiades.stoa.org/places/413389",
+        "region": "regio-vii"
       },
       "geometry": {
         "type": "Point",
@@ -4231,6 +4247,7 @@
         "latintoponym": "Cales",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/432739",
+        "region": "regio-i",
         "welchid": "6"
       },
       "geometry": {
@@ -4986,6 +5003,7 @@
         "moderncountry": "Switzerland",
         "orientation": 232,
         "pleiades": "http://pleiades.stoa.org/places/177496",
+        "province": "germania-superior",
         "visibility": "good"
       },
       "geometry": {
@@ -5018,6 +5036,7 @@
         "moderncountry": "Switzerland",
         "orientation": 210,
         "pleiades": "http://pleiades.stoa.org/places/177471",
+        "province": "germania-superior",
         "visibility": "good",
         "wikipedia": "https://commons.wikimedia.org/wiki/File:Engehalbinsel_Römertheater_von_oben.jpg"
       },
@@ -5569,6 +5588,7 @@
         "orientation": 218,
         "pleiades": "http://pleiades.stoa.org/places/422838",
         "private": true,
+        "region": "regio-iv",
         "visibility": "partial"
       },
       "geometry": {
@@ -6049,6 +6069,7 @@
         "moderncountry": "Bulgaria",
         "orientation": 174,
         "pleiades": "http://pleiades.stoa.org/places/216792",
+        "province": "thracia",
         "visibility": "good"
       },
       "geometry": {
@@ -6161,6 +6182,7 @@
         "latintoponym": "Altinum",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/393374",
+        "region": "regio-x",
         "visibility": "none" },
         "geometry": {
           "type": "Point",
@@ -6219,6 +6241,7 @@
         "moderncountry": "Italy",
         "orientation": 193,
         "pleiades": "http://pleiades.stoa.org/places/383579",
+        "region": "regio-xi",
         "vici": "http://vici.org/vici/4209",
         "visibility": "street plan" },
         "geometry": {
@@ -6254,6 +6277,7 @@
         "moderncountry": "Italy",
         "orientation": 268,
         "pleiades": "http://pleiades.stoa.org/places/413125",
+        "region": "regio-vii",
         "rockcut": true,
         "visibility": "good"
          },
@@ -6289,6 +6313,7 @@
         "moderncountry": "Italy",
         "orientation": 230,
         "pleiades": "http://pleiades.stoa.org/places/393379",
+        "region": "regio-viii",
         "vici": "http://vici.org/vici/4205",
         "visibility": "good"
          },
@@ -6323,6 +6348,7 @@
         "latintoponym": "Forum Cornelii",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/393424",
+        "region": "regio-viii",
         "visibility": "none"
          },
         "geometry": {
@@ -6355,6 +6381,7 @@
         "moderncountry": "Italy",
         "orientation": 138,
         "pleiades": "http://pleiades.stoa.org/places/442847",
+        "region": "regio-ii",
         "visibility": "none"
          },
         "geometry": {
@@ -6418,6 +6445,7 @@
         "moderncountry": "Italy",
         "orientation": 205,
         "pleiades": "http://pleiades.stoa.org/places/383811",
+        "region": "regio-viii",
         "visibility": "good"
          },
         "geometry": {
@@ -6694,6 +6722,7 @@
         "label": "Forum Novum",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/413148",
+        "region": "regio-iv",
         "visibility": "none"
          },
         "geometry": {
@@ -6751,9 +6780,11 @@
           "source": "http://maps.google.com" 
         },
         "label": "Terni",
+        "latintoponym": "Interamna Nahars",
         "moderncountry": "Italy",
         "orientation": 120,
         "pleiades": "http://pleiades.stoa.org/places/413178",
+        "region": "regio-vi",
         "visibility": "good"
          },
         "geometry": {
@@ -6899,6 +6930,7 @@
         "latintoponym": "Falerio",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/413127",
+        "region": "regio-v",
         "visibility": "poor"
          },
         "geometry": {
@@ -6980,6 +7012,7 @@
         "latintoponym": "Rudiae",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/442753",
+        "region": "regio-ii",
         "visibility": "good"
          },
         "geometry": {
@@ -7009,6 +7042,7 @@
         "latintoponym": "Egnatia",
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/442573",
+        "region": "regio-ii",
         "visibility": "good"
          },
         "geometry": {
