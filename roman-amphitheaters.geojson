@@ -2666,7 +2666,8 @@
         "military": true,
         "moderncountry": "Algeria",
         "orientation": 127,
-        "pleiades": "http://pleiades.stoa.org/places/334570"
+        "pleiades": "http://pleiades.stoa.org/places/334570",
+        "province": "mauretania"
       },
       "geometry": {
         "type": "Point",
@@ -3006,7 +3007,8 @@
         "label": "Cherchel",
         "moderncountry": "Algeria",
         "orientation": 256,
-        "pleiades": "http://pleiades.stoa.org/places/295279"
+        "pleiades": "http://pleiades.stoa.org/places/295279",
+        "province": "mauretania"
       },
       "geometry": {
         "type": "Point",
@@ -3461,7 +3463,8 @@
         "label": "Theveste",
         "moderncountry": "Algeria",
         "orientation": 156,
-        "pleiades": "http://pleiades.stoa.org/places/324831"
+        "pleiades": "http://pleiades.stoa.org/places/324831",
+        "province": "proconsularis"
       },
       "geometry": {
         "type": "Point",
@@ -5641,6 +5644,7 @@
         "moderncountry": "Tunisia",
         "orientation": 98,
         "pleiades": "http://pleiades.stoa.org/places/314857",
+        "province": "proconsularis",
         "visibility": "good"
       },
       "geometry": {
