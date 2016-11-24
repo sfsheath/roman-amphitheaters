@@ -1644,7 +1644,8 @@
         "latintoponym": "Uthina",
         "moderncountry": "Tunisia",
         "orientation": 238,
-        "pleiades": "http://pleiades.stoa.org/places/315247"
+        "pleiades": "http://pleiades.stoa.org/places/315247",
+        "province": "proconsularis"
       },
       "geometry": {
         "type": "Point",
@@ -2087,6 +2088,7 @@
         "moderncountry": "Hungary",
         "orientation": 253,
         "pleiades": "http://pleiades.stoa.org/places/197130",
+        "province": "pannonia",
         "created":275,
         "wikipedia": "http://en.wikipedia.org/wiki/Aquincum_Civil_Amphitheatre"
       },
@@ -2115,10 +2117,12 @@
           "source": "Golvin"
          },
         "label": "Aquincum (Military)",
+        "latintoponym": "Aquincum",
         "military": true,
         "moderncountry": "Hungary",
         "orientation": 195,
         "pleiades": "http://pleiades.stoa.org/places/197130",
+        "province": "pannonia",
         "wikipedia": "http://en.wikipedia.org/wiki/Aquincum_Military_Amphitheatre"
       },
       "geometry": {
@@ -2791,6 +2795,7 @@
         "moderncountry": "Tunisia",
         "orientation": 222,
         "pleiades": "http://pleiades.stoa.org/places/324835",
+        "province": "proconsularis",
         "youtube":["https://www.youtube.com/watch?v=bDDyEMg34Os",
                    "https://www.youtube.com/watch?v=HGjt7TVcbAY"]
       },
@@ -2827,6 +2832,7 @@
         "label": "Thysdrus (lg.)",
         "moderncountry": "Tunisia",
         "orientation": 257,
+        "province": "proconsularis",
         "wikipedia": ["http://fr.wikipedia.org/wiki/Amphith%C3%A9%C3%A2tre_d%27El_Jem","https://en.wikipedia.org/wiki/Amphitheatre_of_El_Jem"],
         "youtube": ["https://www.youtube.com/watch?v=bDDyEMg34Os"]
       },
@@ -3820,7 +3826,8 @@
         "label": "Besançon",
         "latintoponym": "Vesontio",
         "moderncountry": "France",
-        "pleiades": "http://pleiades.stoa.org/places/177657"
+        "pleiades": "http://pleiades.stoa.org/places/177657",
+        "province": "germania-superior"
       },
       "geometry": {
         "type": "Point",
@@ -3914,7 +3921,8 @@
         "label": "Rodez",
         "latintoponym": "Segodunum",
         "moderncountry": "France",
-        "pleiades": "http://pleiades.stoa.org/places/138579"
+        "pleiades": "http://pleiades.stoa.org/places/138579",
+        "province": "aquitania"
       },
       "geometry": {
         "type": "Point",
@@ -4302,6 +4310,7 @@
         "latintoponym": "Baeterrae",
         "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/148056",
+        "province": "narbonensis",
         "visibility": "street-plan"
       },
       "geometry": {
@@ -4828,6 +4837,7 @@
         "moderncountry": "Germany",
         "orientation": 224,
         "pleiades": "http://pleiades.stoa.org/places/108896",
+        "province": "germania-inferior",
         "see": "https://3dwarehouse.sketchup.com/model.html?id=16596dabb2ebd0469b2513a62f433bae",
         "visibility": "good"
       },
@@ -4850,6 +4860,7 @@
         "label": "Arnsburg",
         "moderncountry": "Germany",
         "pleiades": "http://pleiades.stoa.org/places/118575",
+        "province": "germania-superior",
         "title": "Amphitheater at Arnsburg",
         "visibility": "none"
       },
@@ -4901,6 +4912,7 @@
         "orientation": 107,
         "pleiades": "http://pleiades.stoa.org/places/118919",
         "primarymaterial": "wood",
+        "province": "raetia",
         "visibility": "none"
       },
       "geometry": {
@@ -4980,6 +4992,7 @@
         "latintoponym": "Scarabantia",
         "orientation": 162,
         "pleiades": "http://pleiades.stoa.org/places/197501",
+        "province": "pannonia",
         "visibility": "good"
       },
       "geometry": {
@@ -5064,6 +5077,7 @@
         "military": true,
         "moderncountry": "Germany",
         "pleiades": "http://pleiades.stoa.org/places/118638",
+        "province": "raetia",
         "visibility": "none"
       },
       "geometry": {
@@ -5152,6 +5166,7 @@
         "latintoponym": "Rusicade",
         "moderncountry": "Algeria",
         "pleiades": "http://pleiades.stoa.org/places/305137",
+        "province": "mauretania",
         "visibility": "none"
       },
       "geometry": {
@@ -5404,6 +5419,7 @@
         "latintoponym": "Cassinomagus",
         "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/138275",
+        "province": "aquitania",
         "see": "http://www.amis-chassenon.org/72+lamphitheatre-de-chassenon.html", 
         "visibility": "poor"
       },
@@ -5433,6 +5449,7 @@
         "moderncountry": "France",
         "orientation": 203,
         "pleiades": "http://pleiades.stoa.org/places/138327",
+        "province": "aquitania",
         "see": "http://commons.wikimedia.org/wiki/File:Drevant_Amphitheatre_Gallo-Romain.JPG",
         "visibility": "poor"
       },
@@ -5464,6 +5481,7 @@
         "latintoponym": "Seressi",
         "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/315150",
+        "province": "proconsularis",
         "orientation": 159,
         "visibility": "good"
       },
@@ -5497,6 +5515,7 @@
         "moderncountry": "Tunisia",
         "orientation": 176,
         "pleiades": "http://pleiades.stoa.org/places/315174",
+        "province": "proconsularis",
         "visibility": "poor"
       },
       "geometry": {
@@ -5679,6 +5698,7 @@
         "latintoponym": "Thuburbo Minus",
         "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/315219",
+        "province": "proconsularis",
         "visibility": "poor"
       },
       "geometry": {
@@ -5712,6 +5732,7 @@
         "moderncountry": "Tunisia",
         "orientation": 213,
         "pleiades": "http://pleiades.stoa.org/places/315220",
+        "province": "proconsularis",
         "visibility": "good"
       },
       "geometry": {
@@ -5763,11 +5784,13 @@
           "source": "Bomgardner"
          },
         "golvinid": "70",
-        "label": "Ulissipara",
-        "latintoponym": "Ulissipara",
+        "label": "Ulisippira",
+        "latintoponym": "Ulisippira",
         "moderncountry": "Tunisia",
         "orientation": 228,
         "pleiades": "http://pleiades.stoa.org/places/324839",
+        "province": "proconsularis",
+        "trismegistos": "http://www.trismegistos.org/place/17243",
         "visibility": "good"
       },
       "geometry": {
@@ -5801,6 +5824,7 @@
         "moderncountry": "Tunisia",
         "orientation": 176,
         "pleiades": "http://pleiades.stoa.org/places/324653",
+        "province": "proconsularis",
         "visibility": "good"
       },
       "geometry": {
@@ -5833,7 +5857,8 @@
         "latintoponym": "Tipasentium",
         "moderncountry": "Algeria",
         "orientation": 254,
-        "pleiades": "http://pleiades.stoa.org/places/295363",
+        "pleiades": "https://pleiades.stoa.org/places/295363",
+        "province": "mauretania",
         "romansites": "http://www.romansites.com/anfiteatri/tipasa_tipasentium.htm",
         "visibility": "good"
       },
@@ -5898,6 +5923,7 @@
         "latintoponym": "Pupput",
         "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/315121",
+        "province": "proconsularis",
         "visibility": "poor"
       },
       "geometry": {
@@ -5931,6 +5957,7 @@
         "moderncountry": "Tunisia",
         "orientation": 210,
         "pleiades": "http://pleiades.stoa.org/places/315152",
+        "province": "proconsularis",
         "visibility": "none"
       },
       "geometry": {
@@ -6128,6 +6155,7 @@
         "latintoponym": "Tigava Castra",
         "moderncountry": "Algeria",
         "pleiades": "http://pleiades.stoa.org/places/295357",
+        "province": "mauretania",
         "visibility": "none"
       },
       "geometry": {
@@ -6153,6 +6181,7 @@
         "latintoponym": "Carpis",
         "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/314920",
+        "province": "proconsularis",
         "visibility": "none"
       },
       "geometry": {
@@ -6860,7 +6889,7 @@
       }
     },{
       "type": "Feature",
-      "id": "aurelumCommodianumAmphitheater",
+      "id": "aureliumCommodianumAmphitheater",
       "properties": {
         "title": "Aurelium Commodianum Amphitheater",
         "amphitheatrum": "http://www.amphi-theatrum.de/1356.html",
@@ -6878,6 +6907,7 @@
         "moderncountry": "Tunisia",
         "orientation": 249,
         "pleiades": "http://pleiades.stoa.org/places/315084",
+        "province": "proconsularis",
         "visibility": "good"
          },
         "geometry": {
@@ -7217,6 +7247,7 @@
         "latintoponym": "Thignica",
         "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/315207",
+        "province": "proconsularis",
         "visibility": "good"
          },
         "geometry": {
