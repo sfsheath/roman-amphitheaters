@@ -15,7 +15,7 @@
 
     "coordinates": { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value", "@container": "@list" },
     "features": "@graph",
-    "geometry": {"@id": "http://geovocab.org/geometry#geometry"},
+    "geometry": {"@id": "ramphsont:geometry"},
     "id": "@id",
     "properties": { "@id": "rdfs:isDefinedBy" },
     "type": "@type",
@@ -5581,6 +5581,7 @@
         "moderncountry": "Tunisia",
         "orientation": 224,
         "pleiades": "http://pleiades.stoa.org/places/315211",
+        "province": "proconsularis",
         "visibility": "good"
       },
       "geometry": {
@@ -5897,6 +5898,7 @@
         "latintoponym": "Bulla Regia",
         "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/314912",
+        "province": "proconsularis",
         "visibility": "poor"
       },
       "geometry": {
@@ -5996,6 +5998,7 @@
         "moderncountry": "Tunisia",
         "orientation": 152,
         "pleiades": "http://pleiades.stoa.org/places/315201",
+        "province": "proconsularis",
         "visibility": "none"
       },
       "geometry": {

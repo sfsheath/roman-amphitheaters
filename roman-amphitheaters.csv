@@ -186,7 +186,7 @@ id,title,label,pleiades,type,capacity,modcountry,province,italyregion,chronogrp,
 "seressiAmphitheater","Amphitheater at Seressi","Seressi","http://pleiades.stoa.org/places/315150","amphitheater",7200,"Tunisia","proconsularis",,"Second Century",,,76,65.2,51.5,40.7,36.16351,9.775766,471
 "chemtouAmphitheater","Amphitheater at Chemtou","Chemtou","http://pleiades.stoa.org/places/315174","amphitheater",6500,"Tunisia","proconsularis",,"Second Century",,,61,52,30,21,36.490426,8.580552,171
 "bekaltaAmphitheater","Amphitheater at Bekalta","Bekalta","http://pleiades.stoa.org/places/324827","amphitheater",4400,"Tunisia",,,"Imperial",,,80,58,67,43,35.619149,11.042371,3
-"sidiBouArkoubAmphitheater","Amphitheater at Sidi bou Arkoub","Sidi bou Arkoub","http://pleiades.stoa.org/places/315211","amphitheater",3200,"Tunisia",,,"Imperial",,,56,38,38,22,36.310778,9.31926,277
+"sidiBouArkoubAmphitheater","Amphitheater at Sidi bou Arkoub","Sidi bou Arkoub","http://pleiades.stoa.org/places/315211","amphitheater",3200,"Tunisia","proconsularis",,"Imperial",,,56,38,38,22,36.310778,9.31926,277
 "genzanoPrivateAmphitheater","Private Amphitheater at Genzano","Genzano","http://pleiades.stoa.org/places/422838","amphitheater",1300,"Italy",,"regio-iv","Second Century",,,61,40,,,41.69286,12.696433,370
 "ainHedjahAmphitheater","Amphitheater at Ain Hedjah","Ain Hedjah","http://pleiades.stoa.org/places/314857","amphitheater",3000,"Tunisia","proconsularis",,"Second Century",,,57,42,43,28,36.391031,9.230632,412
 "uticaAmphitheater","Amphitheater at Utica","Utica","http://pleiades.stoa.org/places/315248","amphitheater",17100,"Tunisia",,,"Second Century",,,118,98,80,60,37.052472,10.057188,29
@@ -196,10 +196,10 @@ id,title,label,pleiades,type,capacity,modcountry,province,italyregion,chronogrp,
 "hencherZembraAmphitheater","Amphitheater at Henchir Zembra","Ulisippira","http://pleiades.stoa.org/places/324839","amphitheater",5400,"Tunisia","proconsularis",,"Second Century",,,69,53,48,32,35.958583,10.441193,21
 "botriaAmphitheater","Amphitheater at Botria","Acholla","http://pleiades.stoa.org/places/324653","amphitheater",11600,"Tunisia","proconsularis",,"Second Century",,,90,86,58,54,35.075962,11.018944,2
 "tipasaAmphitheater","Amphitheater at Tipasa","Tipasa","https://pleiades.stoa.org/places/295363","amphitheater",4398,"Algeria","mauretania",,"Late Second Century",,,77,55,57,35,36.593152,2.445456,16
-"bullaRegiaAmphitheater","Amphitheater at Bulla Regia","Bulla Regia","http://pleiades.stoa.org/places/314912","amphitheater",8300,"Tunisia",,,"Late Second Century",,,75,66,34,30,36.564169,8.762598,227
+"bullaRegiaAmphitheater","Amphitheater at Bulla Regia","Bulla Regia","http://pleiades.stoa.org/places/314912","amphitheater",8300,"Tunisia","proconsularis",,"Late Second Century",,,75,66,34,30,36.564169,8.762598,227
 "pupputAmphitheater","Amphitheater at Pupput","Pupput","http://pleiades.stoa.org/places/315121","amphitheater",,"Tunisia","proconsularis",,"Imperial",,,,,45,36,36.3929,10.5626,4
 "siccaVeneriaAmphitheater","Amphitheater at Sicca Veneria","Sicca Veneria","http://pleiades.stoa.org/places/315152","amphitheater",11300,"Tunisia","proconsularis",,"Imperial",,,100,80,70,50,36.18536115302,8.715302,748
-"thibariAmphitheater","Amphitheater at Thibari","Thibari","http://pleiades.stoa.org/places/315201","amphitheater",6300,"Tunisia",,,"Imperial",,,61.2,51.5,30.8,21,36.504836,9.083712,282
+"thibariAmphitheater","Amphitheater at Thibari","Thibari","http://pleiades.stoa.org/places/315201","amphitheater",6300,"Tunisia","proconsularis",,"Imperial",,,61.2,51.5,30.8,21,36.504836,9.083712,282
 "portusOvalStructure","Oval Structure at Portus","Portus Oval Structure","http://pleiades.stoa.org/places/423012","oval-structure",2000,"Italy",,"regio-i","Second Century",,,,,,,41.781816,12.25809,2
 "montbouyGallRomanAmphitheater","Gallo-Roman Amphitheater at Montbouy","Montbouy","http://pleiades.stoa.org/places/138468","gallo-roman-amphitheater",,"France",,,"Imperial",,,,,48,31,47.87286,2.819017,122
 "statiliusTaurusAmphitheater","Amphitheater of Statilius Taurus","Statilius Taurus","http://pleiades.stoa.org/places/423025","amphitheater",,"Italy",,"regio-i","Augustan",,,,,,,41.899614,12.469869,22
