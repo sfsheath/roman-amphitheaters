@@ -2167,12 +2167,13 @@
          "exterior-major": 131,
          "exterior-minor": 113
         },
-        "label": "Perigeux",
-        "latintoponym": "Vesuna Petrucorriorum",
+        "label": "Périgueux",
+        "latintoponym": "Vesunna Petrucoriorum",
         "moderncountry": "France",
         "orientation": 175,
         "pleiades": "http://pleiades.stoa.org/places/138650",
-        "pleiadesspecific": "http://pleiades.stoa.org/places/138650/location-of-roman-amphitheater"
+        "pleiadesspecific": "http://pleiades.stoa.org/places/138650/location-of-roman-amphitheater",
+        "province": "aquitania"
       },
       "geometry": {
         "type": "Point",
@@ -2868,7 +2869,8 @@
         "latintoponym": "Forum Julii",
         "moderncountry": "France",
         "orientation": 131,
-        "pleiades": "http://pleiades.stoa.org/places/157836"
+        "pleiades": "http://pleiades.stoa.org/places/157836",
+        "province": "narbonensis"
       },
       "geometry": {
         "type": "Point",
@@ -3401,7 +3403,8 @@
         "label": "Thaenae",
         "moderncountry": "Tunisia",
         "orientation": 143,
-        "pleiades": "http://pleiades.stoa.org/places/324825"
+        "pleiades": "http://pleiades.stoa.org/places/324825",
+        "province": "proconsularis"
       },
       "geometry": {
         "type": "Point",
@@ -3433,7 +3436,8 @@
         "latintoponym": "Sufetula",
         "moderncountry": "Tunisia",
         "orientation": 112,
-        "pleiades": "http://pleiades.stoa.org/places/324816"
+        "pleiades": "http://pleiades.stoa.org/places/324816",
+        "province": "proconsularis"
       },
       "geometry": {
         "type": "Point",
@@ -3724,9 +3728,11 @@
           "source": "Golvin"
          },
         "label": "Toulouse",
+        "latintoponym" : "Tolosa",
         "moderncountry": "France",
         "orientation": 167,
-        "pleiades": "http://pleiades.stoa.org/places/246694"
+        "pleiades": "http://pleiades.stoa.org/places/246694",
+        "province": "narbonensis"
       },
       "geometry": {
         "type": "Point",
@@ -3807,7 +3813,8 @@
         "label": "Lillebonne",
         "latintoponym": "Iuliobona",
         "moderncountry": "France",
-        "pleiades": "http://pleiades.stoa.org/places/109069"
+        "pleiades": "http://pleiades.stoa.org/places/109069",
+        "province": "lugdunensis"
       },
       "geometry": {
         "type": "Point",
@@ -3852,7 +3859,8 @@
         "label": "Limoges",
         "latintoponym": "Augustoritum",
         "moderncountry": "France",
-        "pleiades": "http://pleiades.stoa.org/places/138203"
+        "pleiades": "http://pleiades.stoa.org/places/138203",
+        "province": "aquitania"
       },
       "geometry": {
         "type": "Point",
@@ -3878,7 +3886,8 @@
         "label": "Poitiers",
         "latintoponym": "Limonum Pictonum",
         "moderncountry": "France",
-        "pleiades": "http://pleiades.stoa.org/places/138422"
+        "pleiades": "http://pleiades.stoa.org/places/138422",
+        "province": "aquitania"
       },
       "geometry": {
         "type": "Point",
@@ -3900,7 +3909,8 @@
         "label": "Reims",
         "latintoponym": "Durocortorum",
         "moderncountry": "France",
-        "pleiades": "http://pleiades.stoa.org/places/108945"
+        "pleiades": "http://pleiades.stoa.org/places/108945",
+        "province": "belgica"
       },
       "geometry": {
         "type": "Point",
@@ -4336,8 +4346,11 @@
         "chronogroup": "Imperial",
         "created": 215,
         "label": "Agen",
+        "latintoponym": "Aginnum",
         "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/138169",
+        "province": "aquitania",
+        "trismegistos": "http://www.trismegistos.org/place/22602",
         "visibility": "none"
       },
       "geometry": {
@@ -4387,6 +4400,7 @@
         "latintoponym": "Samarobriva Ambianorum",
         "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/109321",
+        "province": "belgica",
         "visibility": "none"
       },
       "geometry": {
@@ -4410,6 +4424,7 @@
         "latintoponym": "Iatinon",
         "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/109059",
+        "province": "lugdunensis",
         "visibility": "none"
       },
       "geometry": {
@@ -4807,6 +4822,7 @@
         "latintoponym": "Augustodunum",
         "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/177460",
+        "province": "lugdunensis",
         "visibility": "none"
       },
       "geometry": {
@@ -5394,6 +5410,7 @@
         "latintoponym": "Avaricum",
         "moderncountry": "France",
         "pleiades": "http://pleiades.stoa.org/places/138207",
+        "province": "aquitania",
         "visibility": "street-plan"
       },
       "geometry": {
@@ -5551,6 +5568,7 @@
         "moderncountry": "Tunisia",
         "orientation": 210,
         "pleiades": "http://pleiades.stoa.org/places/324827",
+        "province": "proconsularis",
         "visibility": "good"
       },
       "geometry": {
@@ -5679,6 +5697,7 @@
         "moderncountry": "Tunisia",
         "orientation": 137,
         "pleiades": "http://pleiades.stoa.org/places/315248",
+        "province": "proconsularis",
         "visibility": "good"
       },
       "geometry": {
@@ -6041,7 +6060,7 @@
       }
     },{
       "type": "Feature",
-      "id": "montbouyGallRomanAmphitheater",
+      "id": "montbouyGalloRomanAmphitheater",
       "properties": {
         "title": "Gallo-Roman Amphitheater at Montbouy",
         "buildingtype": "gallo-roman-amphitheater",
@@ -6054,6 +6073,7 @@
         "moderncountry": "France",
         "orientation": 164,
         "pleiades": "http://pleiades.stoa.org/places/138468",
+        "province": "lugdunensis",
         "visibility": "good"
       },
       "geometry": {
@@ -6126,9 +6146,10 @@
         "comment": "Specific location not known.",
         "golvinid": "45",
         "label": "Mesarfelta",
-        "latintoponym": "Mesareflta",
+        "latintoponym": "Mesarfelta",
         "moderncountry": "Algeria",
         "pleiades": "http://pleiades.stoa.org/places/334592",
+        "province": "mauretania",
         "visibility": "none"
       },
       "geometry": {
@@ -6883,6 +6904,7 @@
         "moderncountry": "France",
         "orientation": 124,
         "pleiades": "http://pleiades.stoa.org/places/138185",
+        "province": "aquitania",
         "visibility": "good"
          },
         "geometry": {
@@ -6938,6 +6960,7 @@
         "moderncountry": "Tunisia",
         "orientation": 144,
         "pleiades": "http://pleiades.stoa.org/places/208942158",
+        "province": "proconsularis",
         "visibility": "good"
          },
         "geometry": {
@@ -7221,6 +7244,7 @@
         "latintoponym": "Uchi Maius",
         "moderncountry": "Tunisia",
         "pleiades": "http://pleiades.stoa.org/places/315242",
+        "province": "proconsularis",
         "visibility": "good"
          },
         "geometry": {
