@@ -6,7 +6,7 @@
     <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://en.wikipedia.org/wiki/List_of_Roman_amphitheatres>, <http://en.wikipedia.org/wiki/Roman_amphitheatre> .
 
 <http://purl.org/roman-amphitheaters/id/agenAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (6.22122E-1
             4.4206545E1
@@ -22,15 +22,17 @@
             <http://purl.org/roman-amphitheaters/ontology#quantity> 15000
         ] ;
         <http://purl.org/roman-amphitheaters/ontology#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Aginnum" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/138169> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "aquitania" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Agen" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://amphi-theatrum.de/1552.html>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/ainHedjahAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (9.230632E0
             3.6391031E1
@@ -48,13 +50,14 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Agbia" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/314857> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Ain Hedjah" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.amphi-theatrum.de/1312.html>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/ainToungaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (9.361924E0
             3.652782E1
@@ -73,13 +76,14 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Thignica" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/315207> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Ain Tounga" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.amphi-theatrum.de/1532.html>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/albaFucensAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.3412289E1
             4.20772E1
@@ -104,7 +108,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/albegnaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (8.21089894E0
             4.4043708E1
@@ -125,7 +129,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/aldburoughAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-1.3796295999E0
             5.40881157E1
@@ -146,7 +150,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/aleriaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (9.510199999999999E0
             4.2100889E1
@@ -171,7 +175,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/allifaeAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.4334997E1
             4.1325601E1
@@ -192,7 +196,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/altinumAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.2399911E1
             4.5548996E1
@@ -213,7 +217,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/altripaldaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.4825649E1
             4.0917353E1
@@ -234,7 +238,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/amiensAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.293485E0
             4.98944E1
@@ -252,13 +256,14 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Samarobriva Ambianorum" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/109321> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "belgica" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Amiens" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://amphi-theatrum.de/1384.html>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/anazarbusAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (3.5894673E1
             3.7244094E1
@@ -278,7 +283,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/anconaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.3511791E1
             4.3624604E1
@@ -304,7 +309,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/antiochAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (3.6160437E1
             3.6202624E1
@@ -326,7 +331,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/aostaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (7.323481E0
             4.5740914E1
@@ -347,7 +352,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/aphrodisiasAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.8723061E1
             3.7712553E1
@@ -370,7 +375,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/aquaeNeriAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.658224E0
             4.6289891E1
@@ -388,12 +393,13 @@
         <http://purl.org/roman-amphitheaters/ontology#chronogroup> "First Century" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/138185> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "aquitania" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Aquae Neri"
     ] .
 
 <http://purl.org/roman-amphitheaters/id/aquileiaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.3370713E1
             4.5768239E1
@@ -415,7 +421,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/aquincumCivilAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.9047985E1
             4.7567577E1
@@ -431,13 +437,14 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Aquincum" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Hungary" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/197130> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "pannonia" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Aquincum (Civilian)" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://en.wikipedia.org/wiki/Aquincum_Civil_Amphitheatre>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/aquincumMilitaryAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.903906599E1
             4.7532947E1
@@ -450,15 +457,17 @@
         <http://purl.org/dc/terms/created> "150"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Military Amphitheater at Budapest" ;
         <http://purl.org/roman-amphitheaters/ontology#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Aquincum" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Hungary" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/197130> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "pannonia" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Aquincum (Military)" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://en.wikipedia.org/wiki/Aquincum_Military_Amphitheatre>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/aquinoAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.3691338E1
             4.149469E1
@@ -479,7 +488,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/arezzoAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.188037E1
             4.3460491E1
@@ -504,7 +513,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/arlesAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (4.631111E0
             4.3677778E1
@@ -529,7 +538,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/arnsburgAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (8.787953999999999E0
             5.0485657E1
@@ -543,13 +552,14 @@
         <http://purl.org/roman-amphitheaters/ontology#chronogroup> "Imperial" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Germany" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/118575> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "germania-superior" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Arnsburg" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://amphi-theatrum.de/1896.html>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/ascoliPicenoAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.3570767E1
             4.2855655E1
@@ -571,7 +581,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/assisiAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.2620454E1
             4.3071077E1
@@ -592,7 +602,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/augstAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (7.72061E0
             4.7529294E1
@@ -619,7 +629,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/augustaBagiennorumAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (7.85031E0
             4.4556438E1
@@ -639,8 +649,8 @@
         <http://www.w3.org/2000/01/rdf-schema#label> "Augusta Bagiennorum"
     ] .
 
-<http://purl.org/roman-amphitheaters/id/aurelumCommodianumAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+<http://purl.org/roman-amphitheaters/id/aureliumCommodianumAmphitheater>
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (9.889218E0
             3.6527797E1
@@ -655,13 +665,14 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Aurelium Commodianum" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/315084> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Aurelium Commodianum" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.amphi-theatrum.de/1356.html>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/autunAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (4.310856E0
             4.6953003E1
@@ -676,12 +687,13 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Augustodunum" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/177460> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "lugdunensis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Autun"
     ] .
 
 <http://purl.org/roman-amphitheaters/id/avellaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.4608415E1
             4.0961526E1
@@ -703,7 +715,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/bararusAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.0791226E1
             3.5211828E1
@@ -729,7 +741,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/barcelonaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.182077E0
             4.1383003E1
@@ -750,7 +762,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/bekaltaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.1042371E1
             3.5619149E1
@@ -768,12 +780,13 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Thapsus" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/324827> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Bekalta"
     ] .
 
 <http://purl.org/roman-amphitheaters/id/beneventoAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.4781523E1
             4.1130009E1
@@ -795,7 +808,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/bergamaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.7174177E1
             3.9125751E1
@@ -822,7 +835,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/bernAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (7.451179E0
             4.6975715E1
@@ -848,7 +861,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/besanconAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (6.015942E0
             4.7239027E1
@@ -863,13 +876,14 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Vesontio" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/177657> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "germania-superior" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Besançon" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://amphi-theatrum.de/1551.html>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/bevanaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.2615587E1
             4.2936903E1
@@ -894,7 +908,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/beziersAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (3.214026E0
             4.3339589E1
@@ -909,12 +923,13 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Baeterrae" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/148056> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "narbonensis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Béziers"
     ] .
 
 <http://purl.org/roman-amphitheaters/id/bobadelaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-7.893572E0
             4.0361088E1
@@ -936,7 +951,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/bolsenaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.1990158E1
             4.2650243E1
@@ -958,7 +973,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/bordeauxAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-5.82476E-1
             4.4847382E1
@@ -984,7 +999,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/bostraAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (3.6479844E1
             3.2517923E1
@@ -1006,7 +1021,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/botriaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.1018944E1
             3.5075962E1
@@ -1024,13 +1039,14 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Acholla" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/324653> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Acholla" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.amphi-theatrum.de/1311.html>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/bourgesAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.390815E0
             4.7084496E1
@@ -1045,12 +1061,13 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Avaricum" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/138207> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "aquitania" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Bourges"
     ] .
 
 <http://purl.org/roman-amphitheaters/id/bragaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-8.430075E0
             4.1546669E1
@@ -1071,7 +1088,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/bullaRegiaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (8.762598000000001E0
             3.6564169E1
@@ -1089,6 +1106,7 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Bulla Regia" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/314912> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#comment> "Location approximate." ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Bulla Regia" ;
@@ -1096,7 +1114,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/burnumAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.6018169E1
             4.4019098E1
@@ -1118,7 +1136,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/caerleonAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-2.956878E0
             5.16080589E1
@@ -1143,7 +1161,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/caerwentAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-2.766307E0
             5.1612173E1
@@ -1164,7 +1182,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/caesareaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (3.4897451E1
             3.2506473E1
@@ -1185,7 +1203,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/cagliariAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (9.113227999999999E0
             3.9223908E1
@@ -1213,7 +1231,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/caistorStEdmundAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.288445E0
             5.2579764E1
@@ -1235,7 +1253,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/calviRisortaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.4137993E1
             4.1202429E1
@@ -1257,7 +1275,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/canosaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.605603E1
             4.1221739E1
@@ -1280,7 +1298,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/caparraAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-6.100049E0
             4.0164159E1
@@ -1301,7 +1319,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/capuaImperialAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.4250089E1
             4.1085935E1
@@ -1327,7 +1345,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/capuaRepublicanAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.4250309E1
             4.1084593E1
@@ -1350,7 +1368,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/carmarthenAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-4.296651E0
             5.1862005E1
@@ -1372,7 +1390,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/carmonaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-5.650907E0
             3.7469674E1
@@ -1397,7 +1415,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/carnuntumCivilianAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.6850943E1
             4.8110019E1
@@ -1422,7 +1440,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/carnuntumLudus>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.6848689E1
             4.8109807E1
@@ -1444,7 +1462,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/carnuntumMilitaryAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.6892619E1
             4.8126824E1
@@ -1469,7 +1487,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/carpisAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.0557673E1
             3.6760727E1
@@ -1484,6 +1502,7 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Carpis" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/314920> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#comment> "Specific location not known." ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Carpis" ;
@@ -1491,7 +1510,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/carsulaeAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.2559172E1
             4.2639468E1
@@ -1516,7 +1535,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/carthageAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.0314924E1
             3.6856078E1
@@ -1540,7 +1559,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/carthagoNovaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-9.801609E-1
             3.7600645499E1
@@ -1561,7 +1580,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/cassinoAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.3823575E1
             4.1482933E1
@@ -1582,7 +1601,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/castraAlbanaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.266501E1
             4.1732637E1
@@ -1609,7 +1628,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/catiniaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.5085323E1
             3.7507096E1
@@ -1633,7 +1652,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/charterhouseAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-2.720301E0
             5.1305437E1
@@ -1658,7 +1677,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/chartresAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.48926E0
             4.8450069E1
@@ -1679,7 +1698,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/chassenonAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (7.68913E-1
             4.5850749E1
@@ -1694,6 +1713,7 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Cassinomagus" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/138275> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "aquitania" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "gallo-roman-amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#comment> "No longer extant and structure may have been a theater." ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Chassenon" ;
@@ -1701,7 +1721,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/chemtouAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (8.580552000000001E0
             3.6490426E1
@@ -1719,13 +1739,14 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Simmithu" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/315174> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#comment> "The amphitheater is often said to have been built to provide entertainment for prisoners working inthe local quarries. Reference needed." ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Chemtou"
     ] .
 
 <http://purl.org/roman-amphitheaters/id/cherchellAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.198958E0
             3.660878E1
@@ -1738,12 +1759,13 @@
         <http://purl.org/roman-amphitheaters/ontology#chronogroup> "Augustan" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Algeria" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/295279> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "mauretania" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Cherchel"
     ] .
 
 <http://purl.org/roman-amphitheaters/id/chesterAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-2.886928E0
             5.3189079E1
@@ -1765,7 +1787,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/chichesterAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-7.71186E-1
             5.0835394E1
@@ -1786,7 +1808,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/chietiAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.416255E1
             4.2345021E1
@@ -1808,7 +1830,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/cimiezAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (7.2752435E0
             4.371967279E1
@@ -1833,7 +1855,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/cirencesterAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-1.972188E0
             5.171151E1
@@ -1855,7 +1877,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/cividateCamunoAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.0280644E1
             4.594381289E1
@@ -1876,7 +1898,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/compsaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.5330556E1
             4.0870278E1
@@ -1897,7 +1919,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/conimbrigaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-8.49333E0
             4.0099444E1
@@ -1921,7 +1943,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/cordobaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-4.788888E0
             3.7884183E1
@@ -1943,7 +1965,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/corinthAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.2892126E1
             3.7909629E1
@@ -1967,7 +1989,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/cumaeAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.4056E1
             4.0841847E1
@@ -1989,7 +2011,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/cyreneAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.1850808E1
             3.2824526E1
@@ -2009,7 +2031,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/cyzicusAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.7884552E1
             4.0398213E1
@@ -2030,7 +2052,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/dambachAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.058318E1
             4.9104033E1
@@ -2044,13 +2066,14 @@
         <http://purl.org/roman-amphitheaters/ontology#chronogroup> "Imperial" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Germany" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/118638> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "raetia" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "oval-structure" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Dambach" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://amphi-theatrum.de/1792.html>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/djerbaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.0913907E1
             3.3685822E1
@@ -2072,7 +2095,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/dorchesterAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-2.440246E0
             5.0708044E1
@@ -2094,7 +2117,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/drevantAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.522625E0
             4.6693079E1
@@ -2109,6 +2132,7 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Derventum" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/138327> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "aquitania" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "gallo-roman-amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#comment> "Arena oval is almost complete so very a near a “full” amphitheater." ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Drevant" ;
@@ -2116,7 +2140,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/duraEuroposAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (4.0728926E1
             3.4749855E1
@@ -2144,7 +2168,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/durresAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.9445131E1
             4.1312241E1
@@ -2170,7 +2194,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/egnaziaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.7391188E1
             4.0887891E1
@@ -2193,7 +2217,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/eleutheropolisAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (3.4893845E1
             3.1608189E1
@@ -2217,7 +2241,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/empuriesAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (3.117431E0
             4.2130042E1
@@ -2242,7 +2266,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/espejoAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-4.554198E0
             3.7683989E1
@@ -2263,7 +2287,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/faleriiNoviAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.2361043E1
             4.2302681E1
@@ -2289,7 +2313,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/faleroneAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.3495903E1
             4.3101106E1
@@ -2311,7 +2335,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/ferentoAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.2594868E1
             4.2129831E1
@@ -2333,7 +2357,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/fermoAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.3718231E1
             4.3161433E1
@@ -2354,7 +2378,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/flaviaSolvaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.55657773E1
             4.676715349E1
@@ -2378,7 +2402,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/florenceAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.12595198E1
             4.37687303E1
@@ -2399,7 +2423,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/forumNovumAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.2603363E1
             4.2329875E1
@@ -2419,7 +2443,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/frejusAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (6.72871E0
             4.343446E1
@@ -2438,13 +2462,14 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Forum Julii" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/157836> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "narbonensis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Fréjus" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://amphi-theatrum.de/1540.html>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/frosinoneAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.3353417E1
             4.164507E1
@@ -2466,7 +2491,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/gemellaeAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (5.522904E0
             3.4636598E1
@@ -2491,7 +2516,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/gennesAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-2.386057E-1
             4.73352194E1
@@ -2515,7 +2540,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/genzanoPrivateAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.2696433E1
             4.169286E1
@@ -2538,7 +2563,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/gleisdorfAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.5707727E1
             4.7111055E1
@@ -2559,7 +2584,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/gortynAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.4953076E1
             3.5056454E1
@@ -2579,7 +2604,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/grandHalfAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (5.49096E0
             4.8385217E1
@@ -2604,7 +2629,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/grumentoAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.59115794E1
             4.02876404E1
@@ -2630,7 +2655,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/hadrianVillaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.2778929E1
             4.1941708E1
@@ -2652,7 +2677,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/hencherElKasbatAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (9.905668E0
             3.6398153E1
@@ -2670,13 +2695,14 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Thuburbo Maius" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/315220> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Thuburbo Maius" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.amphi-theatrum.de/1340.html>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/hencherZembraAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.0441193E1
             3.5958583E1
@@ -2691,16 +2717,17 @@
             <http://purl.org/roman-amphitheaters/ontology#quantity> 5400
         ] ;
         <http://purl.org/roman-amphitheaters/ontology#chronogroup> "Second Century" ;
-        <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Ulissipara" ;
+        <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Ulisippira" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/324839> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
-        <http://www.w3.org/2000/01/rdf-schema#label> "Ulissipara" ;
+        <http://www.w3.org/2000/01/rdf-schema#label> "Ulisippira" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.amphi-theatrum.de/1346.html>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/henchirDuomaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (9.085182E0
             3.6412511E1
@@ -2715,13 +2742,14 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Uchi Maius" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/315242> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Henchir Douama" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.amphi-theatrum.de/1345.html>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/hisaryaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.4703104E1
             4.2500071E1
@@ -2743,7 +2771,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/hispellumAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.26662021E1
             4.29957909E1
@@ -2764,7 +2792,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/hydataHypsitanaForumTraianiAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (8.804698E0
             3.9993171E1
@@ -2785,7 +2813,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/ierapetraAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.5745132E1
             3.5011385E1
@@ -2806,7 +2834,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/imolaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.1711992E1
             4.4353673E1
@@ -2832,7 +2860,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/istanbulAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.8985442E1
             4.1014686E1
@@ -2853,7 +2881,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/italicaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-6.046742E0
             3.7443893E1
@@ -2877,7 +2905,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/ivreaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (7.887734E0
             4.5467767E1
@@ -2902,7 +2930,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/jebelMorabaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (9.860836000000001E0
             3.6597655E1
@@ -2916,12 +2944,13 @@
         <http://purl.org/roman-amphitheaters/ontology#chronogroup> "Imperial" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/208942158> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Jebel Moraba"
     ] .
 
 <http://purl.org/roman-amphitheaters/id/kunzingAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.3082821E1
             4.8667088E1
@@ -2936,13 +2965,14 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Quintana" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Germany" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/118919> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "raetia" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Künzing" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://amphi-theatrum.de/1876.html>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/lambaesisAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (6.2599349E0
             3.54892469E1
@@ -2959,12 +2989,13 @@
         <http://purl.org/roman-amphitheaters/ontology#chronogroup> "Second Century" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Algeria" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/334570> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "mauretania" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Lambaesis"
     ] .
 
 <http://purl.org/roman-amphitheaters/id/larinoAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.49159226E1
             4.18058428E1
@@ -2985,7 +3016,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/lecceAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.8172733E1
             4.0352463E1
@@ -3010,7 +3041,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/leonAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-5.566944E0
             4.2598889E1
@@ -3031,7 +3062,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/leptiminusAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.0866282E1
             3.5678077E1
@@ -3053,7 +3084,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/leptisMagnaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.4309452E1
             3.263234E1
@@ -3078,7 +3109,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/libarnaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (8.867967E0
             4.4706013E1
@@ -3103,7 +3134,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/lillebonnAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (5.36724E-1
             4.9517759E1
@@ -3122,12 +3153,13 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Iuliobona" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/109069> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "lugdunensis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Lillebonne"
     ] .
 
 <http://purl.org/roman-amphitheaters/id/limogesAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.251841E0
             4.5830474E1
@@ -3142,13 +3174,14 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Augustoritum" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/138203> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "aquitania" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Limoges" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://amphi-theatrum.de/1549.html>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/liternoAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.40304E1
             4.0920949E1
@@ -3171,7 +3204,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/lixusAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-6.1084683E0
             3.519990039E1
@@ -3191,7 +3224,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/londonAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-9.2136E-2
             5.1515522E1
@@ -3216,7 +3249,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/luccaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.0505772199E1
             4.38455202E1
@@ -3237,7 +3270,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/luceraAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.5344984E1
             4.1508249E1
@@ -3262,7 +3295,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/ludusMagnusArena>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.2494913E1
             4.188995E1
@@ -3284,7 +3317,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/lunaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.0022386E1
             4.4062656E1
@@ -3305,7 +3338,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/lyonAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (4.830556E0
             4.5770556E1
@@ -3332,7 +3365,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/mactarisAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (9.2066727E0
             3.58556279E1
@@ -3355,7 +3388,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/marcianopolisAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.7556674E1
             4.3218689E1
@@ -3380,7 +3413,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/meauxAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.883491E0
             4.8970006E1
@@ -3395,13 +3428,14 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Iatinon" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/109059> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "lugdunensis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Meaux" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://amphi-theatrum.de/2416.html>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/megiddoAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (3.5183968E1
             3.258102E1
@@ -3422,7 +3456,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/meridaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-6.337952E0
             3.8916168E1
@@ -3448,7 +3482,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/mesarafeltaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (5.592835E0
             3.5036203E1
@@ -3460,9 +3494,10 @@
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
         <http://purl.org/dc/terms/title> "Amphitheater at Mesarfelta" ;
         <http://purl.org/roman-amphitheaters/ontology#chronogroup> "Second Century" ;
-        <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Mesareflta" ;
+        <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Mesarfelta" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Algeria" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/334592> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "mauretania" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#comment> "Specific location not known." ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Mesarfelta" ;
@@ -3470,7 +3505,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/metzAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (6.181932E0
             4.9107645E1
@@ -3495,7 +3530,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/miciaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.281731E1
             4.5915008E1
@@ -3517,7 +3552,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/milanAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (9.178518E0
             4.5456898E1
@@ -3543,7 +3578,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/minturnaeAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.3763859E1
             4.1241734E1
@@ -3563,8 +3598,8 @@
         <http://www.w3.org/2000/01/rdf-schema#label> "Minturno"
     ] .
 
-<http://purl.org/roman-amphitheaters/id/montbouyGallRomanAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+<http://purl.org/roman-amphitheaters/id/montbouyGalloRomanAmphitheater>
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.819017E0
             4.787286E1
@@ -3578,12 +3613,13 @@
         <http://purl.org/roman-amphitheaters/ontology#chronogroup> "Imperial" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/138468> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "lugdunensis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "gallo-roman-amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Montbouy"
     ] .
 
 <http://purl.org/roman-amphitheaters/id/monteleoneAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.2867528E1
             4.2228444E1
@@ -3605,7 +3641,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/narbonneAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (3.010181E0
             4.3184873E1
@@ -3626,7 +3662,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/newsteadAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-2.6919E0
             5.56026E1
@@ -3652,7 +3688,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/nijmegenAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (5.878859E0
             5.1838523E1
@@ -3673,7 +3709,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/nimesAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (4.359599E0
             4.3834876E1
@@ -3698,7 +3734,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/noceraSuperioreAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.4657022E1
             4.074575E1
@@ -3720,7 +3756,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/noleAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.452054E1
             4.0927702E1
@@ -3742,7 +3778,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/nyonAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (6.241301E0
             4.6383464E1
@@ -3763,7 +3799,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/ocriculumAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.2467190499E1
             4.24115648E1
@@ -3787,7 +3823,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/octodurusForumClaudiiVallensiumAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (7.073493E0
             4.6094356E1
@@ -3811,7 +3847,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/ordonaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.56231E1
             4.13105E1
@@ -3836,7 +3872,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/oudnaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.0169215E1
             3.6608597E1
@@ -3856,12 +3892,13 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Uthina" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/315247> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Uthina"
     ] .
 
 <http://purl.org/roman-amphitheaters/id/paduaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.1879039E1
             4.5411483E1
@@ -3883,7 +3920,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/paestumAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.5006449E1
             4.0422354E1
@@ -3908,7 +3945,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/palmyraAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (3.8273763E1
             3.4553789E1
@@ -3928,7 +3965,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/paphosAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (3.2405344E1
             3.4754942E1
@@ -3948,7 +3985,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/parisAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.352855E0
             4.8845097E1
@@ -3973,7 +4010,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/perigueuxAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (7.13249E-1
             4.518274E1
@@ -3985,15 +4022,16 @@
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
         <http://purl.org/dc/terms/title> "Amphitheater at Perigueux" ;
         <http://purl.org/roman-amphitheaters/ontology#chronogroup> "Imperial" ;
-        <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Vesuna Petrucorriorum" ;
+        <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Vesunna Petrucoriorum" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/138650> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "aquitania" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
-        <http://www.w3.org/2000/01/rdf-schema#label> "Perigeux"
+        <http://www.w3.org/2000/01/rdf-schema#label> "Périgueux"
     ] .
 
 <http://purl.org/roman-amphitheaters/id/poitiersAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (3.39589E-1
             4.657815E1
@@ -4008,13 +4046,14 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Limonum Pictonum" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/138422> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "aquitania" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Poitiers" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://amphi-theatrum.de/1381.html>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/pollenzoAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (7.895993E0
             4.4684698E1
@@ -4035,7 +4074,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/pompeiiAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.4495262E1
             4.0751213E1
@@ -4060,7 +4099,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/porolissumAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.3154052E1
             4.7177552E1
@@ -4082,7 +4121,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/portusOvalStructure>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.225809E1
             4.1781816E1
@@ -4108,7 +4147,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/pozzuoliEarlyAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.4127615E1
             4.0826239E1
@@ -4129,7 +4168,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/pozzuoliFlavianAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.4125315E1
             4.0825929E1
@@ -4154,7 +4193,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/ptolemaisAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.0945728E1
             3.2707953E1
@@ -4177,7 +4216,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/pulaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.3850243E1
             4.4873229E1
@@ -4202,7 +4241,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/pupputAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.05626E1
             3.63929E1
@@ -4217,6 +4256,7 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Pupput" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/315121> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#comment> "So far, available information is incomplete. Site as proxy for location." ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Pupput" ;
@@ -4224,7 +4264,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/reggioEmiliaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.0629951E1
             4.4702888E1
@@ -4245,7 +4285,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/reimsAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (4.018775E0
             4.9261265E1
@@ -4260,13 +4300,14 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Durocortorum" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/108945> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "belgica" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Reims" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://amphi-theatrum.de/1394.html>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/riminiAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.2575144E1
             4.4060057E1
@@ -4293,7 +4334,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/roccellettaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.659232919E1
             3.880688779E1
@@ -4317,7 +4358,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/rodezAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.571162E0
             4.4353698E1
@@ -4335,13 +4376,14 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Segodunum" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/138579> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "aquitania" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Rodez" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://amphi-theatrum.de/1484.html>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/romeAmphitheatrumCastrense>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.2515144E1
             4.1887715E1
@@ -4368,7 +4410,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/romeFlavianAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.2492269E1
             4.1890169E1
@@ -4393,7 +4435,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/roselleAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.1159132E1
             4.2828405E1
@@ -4418,7 +4460,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/ruggeAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.8146729E1
             4.0334316E1
@@ -4440,7 +4482,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/sabrathaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.249404E1
             3.2803879E1
@@ -4464,7 +4506,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/saintesAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-6.433512E-1
             4.57453926E1
@@ -4489,7 +4531,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/salamisAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (3.3902435E1
             3.5185517E1
@@ -4509,7 +4551,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/salonaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.6473893E1
             4.35381718E1
@@ -4533,7 +4575,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/sanBenedettoDeiMarsiAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.3627505E1
             4.2006504E1
@@ -4555,7 +4597,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/sanGiovanniAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.3552957E1
             4.1518993E1
@@ -4577,7 +4619,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/sanVittorinoAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.3306027E1
             4.2400531E1
@@ -4602,7 +4644,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/sarmizegetusaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.2785320599E1
             4.551667729E1
@@ -4623,7 +4665,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/sbeitlaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (9.114582E0
             3.5243617E1
@@ -4642,12 +4684,13 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Sufetula" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/324816> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Sbeitla"
     ] .
 
 <http://purl.org/roman-amphitheaters/id/scythopolisNysaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (3.5501631E1
             3.2498395E1
@@ -4668,7 +4711,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/segobrigaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-2.813944E0
             3.9886018E1
@@ -4693,7 +4736,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/senlisAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.575376E0
             4.9205169E1
@@ -4715,7 +4758,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/seressiAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (9.775766000000001E0
             3.616351E1
@@ -4733,12 +4776,13 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Seressi" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/315150> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Seressi"
     ] .
 
 <http://purl.org/roman-amphitheaters/id/siccaVeneriaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (8.715301999999999E0
             3.618536115302E1
@@ -4756,6 +4800,7 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Sicca Veneria" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/315152> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#comment> "Not located. Near casbah." ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Sicca Veneria" ;
@@ -4763,7 +4808,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/sidiBouArkoubAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (9.31926E0
             3.6310778E1
@@ -4781,12 +4826,13 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Thimisua" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/315211> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Sidi bou Arkoub"
     ] .
 
 <http://purl.org/roman-amphitheaters/id/silchesterAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-1.07547E0
             5.1358881E1
@@ -4813,7 +4859,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/sinuessaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.3846372E1
             4.1153584E1
@@ -4836,7 +4882,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/sipontoAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.5888896E1
             4.1611536E1
@@ -4858,7 +4904,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/sisapoAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-4.516667E0
             3.8645833E1
@@ -4878,7 +4924,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/skikdaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (6.91383E0
             3.6876413E1
@@ -4896,13 +4942,14 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Rusicade" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Algeria" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/305137> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "mauretania" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Skikda" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://amphi-theatrum.de/1505.html>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/sophiaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.332865E1
             4.2697178E1
@@ -4929,7 +4976,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/sopronAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.6589397E1
             4.7692813E1
@@ -4944,12 +4991,13 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Scarabantia" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Hungary" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/197501> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "pannonia" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Sopron"
     ] .
 
 <http://purl.org/roman-amphitheaters/id/spoletoAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.2738992E1
             4.2738427E1
@@ -4970,7 +5018,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/stMarcelAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.518328E0
             4.6601549E1
@@ -4992,7 +5040,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/statiliusTaurusAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.2469869E1
             4.1899614E1
@@ -5014,7 +5062,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/suasaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.2986831E1
             4.3624682E1
@@ -5035,7 +5083,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/suessaAruncaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.3933458E1
             4.1230843E1
@@ -5056,7 +5104,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/susaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (7.04497E0
             4.5133185E1
@@ -5082,7 +5130,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/sutriumAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.22293009E1
             4.22393124E1
@@ -5106,7 +5154,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/syracuseAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.5278934E1
             3.7074132E1
@@ -5131,7 +5179,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/tarragonaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.25878E0
             4.1114522E1
@@ -5155,7 +5203,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/teanoAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.4065098E1
             4.1251661E1
@@ -5177,7 +5225,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/tebourbaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (9.835436E0
             3.6827708E1
@@ -5192,13 +5240,14 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Thuburbo Minus" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/315219> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Thuburbo Minus" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.amphi-theatrum.de/1341.html>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/telesiaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.4500496E1
             4.1223911E1
@@ -5221,7 +5270,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/teramoAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.3703278E1
             4.2658183E1
@@ -5243,7 +5292,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/terminiImereseAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.3695186E1
             3.7983696E1
@@ -5266,7 +5315,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/terniAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.264336E1
             4.2559785E1
@@ -5287,7 +5336,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/thaenaeAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.0673126E1
             3.4655481E1
@@ -5305,12 +5354,13 @@
         <http://purl.org/roman-amphitheaters/ontology#chronogroup> "Imperial" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/324825> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Thaenae"
     ] .
 
 <http://purl.org/roman-amphitheaters/id/thevesteAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (8.123809E0
             3.5401171E1
@@ -5327,13 +5377,14 @@
         <http://purl.org/roman-amphitheaters/ontology#chronogroup> "Flavian" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Algeria" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/324831> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#comment> "Enlarged in late 3rd century." ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Theveste"
     ] .
 
 <http://purl.org/roman-amphitheaters/id/thibariAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (9.083712E0
             3.6504836E1
@@ -5351,6 +5402,7 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Thibari" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/315201> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#comment> "Not located." ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Thibari" ;
@@ -5358,7 +5410,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/thysdrusAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.0706939E1
             3.529639E1
@@ -5378,13 +5430,14 @@
         <http://purl.org/roman-amphitheaters/ontology#hasEmperor> "Gordian III" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/324835> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Thysdrus (lg.)" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://fr.wikipedia.org/wiki/Amphith%C3%A9%C3%A2tre_d%27El_Jem>, <https://en.wikipedia.org/wiki/Amphitheatre_of_El_Jem>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/thysdrusSmallAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.0707911E1
             3.5290106E1
@@ -5402,12 +5455,13 @@
         <http://purl.org/roman-amphitheaters/ontology#chronogroup> "Second Century" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/324835> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Thysdrus (Sm.)"
     ] .
 
 <http://purl.org/roman-amphitheaters/id/tiburAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.2798114E1
             4.1960571E1
@@ -5427,7 +5481,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/tigavaCastraAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.651389E0
             3.623195E1
@@ -5445,6 +5499,7 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Tigava Castra" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Algeria" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/295357> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "mauretania" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#comment> "Specific location not known." ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Tigava Castra" ;
@@ -5452,7 +5507,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/tipasaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.445456E0
             3.6593152E1
@@ -5470,13 +5525,14 @@
         <http://purl.org/roman-amphitheaters/ontology#chronogroup> "Late Second Century" ;
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Tipasentium" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Algeria" ;
-        <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/295363> ;
+        <http://purl.org/roman-amphitheaters/ontology#pleiades> <https://pleiades.stoa.org/places/295363> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "mauretania" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Tipasa"
     ] .
 
 <http://purl.org/roman-amphitheaters/id/todiAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.2413528E1
             4.2778653E1
@@ -5497,7 +5553,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/tomen-y-murAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-3.9235E0
             5.2931893E1
@@ -5521,7 +5577,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/toulouseAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.397664E0
             4.3614808E1
@@ -5534,14 +5590,16 @@
         <http://purl.org/dc/terms/created> "50"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Toulouse" ;
         <http://purl.org/roman-amphitheaters/ontology#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Tolosa" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/246694> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "narbonensis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Toulouse"
     ] .
 
 <http://purl.org/roman-amphitheaters/id/toursAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (6.96233E-1
             4.7395342E1
@@ -5567,7 +5625,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/trierAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (6.649088E0
             4.9748052E1
@@ -5592,7 +5650,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/tusculumAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.2702103E1
             4.1798372E1
@@ -5616,7 +5674,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/urbisagliaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.3387224E1
             4.3200877E1
@@ -5641,7 +5699,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/uticaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.0057188E1
             3.7052472E1
@@ -5659,13 +5717,14 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Utica" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/315248> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Utica" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.amphi-theatrum.de/2503.html>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/vastoAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.4708095E1
             4.2111291E1
@@ -5687,7 +5746,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/velleiaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (9.723475000000001E0
             4.4785084E1
@@ -5712,7 +5771,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/venosaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.5826303E1
             4.0969693E1
@@ -5738,7 +5797,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/vercelliAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (8.426863000000001E0
             4.5319277E1
@@ -5759,7 +5818,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/veronaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.099435E1
             4.543904E1
@@ -5785,7 +5844,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/viminaciumAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (2.1220083E1
             4.4737985E1
@@ -5808,7 +5867,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/vindonissaAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (8.213604999999999E0
             4.747629E1
@@ -5832,7 +5891,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/virunumAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.4366995899E1
             4.6697877699E1
@@ -5851,7 +5910,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/volterraAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.0862152E1
             4.3407162E1
@@ -5877,7 +5936,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/xantenAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (6.451386E0
             5.1667172E1
@@ -5895,13 +5954,14 @@
         <http://purl.org/roman-amphitheaters/ontology#latintoponym> "Colonia Ulpia Traiana" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Germany" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/108896> ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "germania-inferior" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Xanten" ;
         <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://amphi-theatrum.de/1450.html>, <https://3dwarehouse.sketchup.com/model.html?id=16596dabb2ebd0469b2513a62f433bae>
     ] .
 
 <http://purl.org/roman-amphitheaters/id/yorkAmphitheater>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (-1.080278E0
             5.3958333E1
@@ -5922,7 +5982,7 @@
     ] .
 
 <http://purl.org/roman-amphitheaters/id/zagaroloLudus>
-    <http://geovocab.org/geometry#geometry> [
+    <http://purl.org/roman-amphitheaters/ontology#geometry> [
         a <http://geovocab.org/geometry#Point> ;
         rdf:value (1.2819255E1
             4.1858402E1
