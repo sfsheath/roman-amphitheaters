@@ -1,5 +1,5 @@
 Most recent draft release: 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.159621.svg)](http://dx.doi.org/10.5281/zenodo.159621)
+[![DOI](https://zenodo.org/badge/15487558.svg)](https://zenodo.org/badge/latestdoi/15487558)
 
 roman-amphitheaters
 ===================
