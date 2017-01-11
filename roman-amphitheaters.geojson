@@ -3602,7 +3602,7 @@
         "moderncountry": "Tunisia",
         "orientation": 244,
         "pleiades": "http://pleiades.stoa.org/places/324673",
-        "region": "regio-xi"
+        "province": "proconsularis"
       },
       "geometry": {
         "type": "Point",

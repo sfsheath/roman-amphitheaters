@@ -115,7 +115,7 @@ id,title,label,pleiades,type,capacity,modcountry,province,italyregion,chronogrp,
 "trierAmphitheater","Amphitheater at Trier","Trier","http://pleiades.stoa.org/places/108894","amphitheater",20000,"Germany","belgica",,"Second Century",,"https://www.youtube.com/watch?v=WYOvPyCntiY",100,79,70.54,48.92,49.748052,6.649088,168
 "susaAmphitheater","Amphitheater at Susa","Susa","http://pleiades.stoa.org/places/167919","amphitheater",3015,"Italy","alpes-cottiae",,"Imperial",,,60,52,44,36,45.133185,7.04497,546
 "ivreaAmphitheater","Amphitheater at Ivrea","Ivrea","http://pleiades.stoa.org/places/383642","amphitheater",8046,"Italy",,"regio-xi","Imperial",,,96,72,67,42,45.467767,7.887734,240
-"bararusAmphitheater","Amphitheater at Bararus","Bararus","http://pleiades.stoa.org/places/324673","amphitheater",12000,"Tunisia",,"regio-xi","Severan",,,98,73.5,63.75,37.5,35.211828,10.791226,68
+"bararusAmphitheater","Amphitheater at Bararus","Bararus","http://pleiades.stoa.org/places/324673","amphitheater",12000,"Tunisia","proconsularis",,"Severan",,,98,73.5,63.75,37.5,35.211828,10.791226,68
 "castraAlbanaAmphitheater","Amphitheater at Castra Albana","Albana","http://pleiades.stoa.org/places/422885","amphitheater",20000,"Italy",,"regio-i","Severan",,,116.5,94,67.5,45,41.732637,12.66501,454
 "sophiaAmphitheater","Amphitheater at Sophia","Sophia","http://pleiades.stoa.org/places/207439","amphitheater",20000,"Bulgaria","thracia",,"Post-Severan",,,,,60.5,43,42.697178,23.32865,554
 "ptolemaisAmphitheater","Amphitheater at Ptolemais","Ptolemais","http://pleiades.stoa.org/places/373879","amphitheater",10878,"Libya","crete-et-cyrenaica",,"Imperial",,,89,86,47.5,44.5,32.707953,20.945728,12
