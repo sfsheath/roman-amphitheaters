@@ -2886,9 +2886,10 @@
       "id": "gortynAmphitheater",
       "properties": {
         "title": "Amphitheater at Gortyn",
+        "bibliography": ["Enzo Lippolis. 2016. Roman Gortyn: from Greek polis to provincial capital, in J.E. Frances, A. Kouremenos (ed.), <i>Roman Crete. New Perspectives</i>. Oxford-Philadelphia: 157-154.",
+                         "https://www.academia.edu/28758928/Roman_Gortyn_from_Greek_polis_to_provincial_capital_in_J.E._Frances_A._Kouremenos_ed._Roman_Crete._New_Perspectives_Oxford-Philadelphia_2016"],
         "buildingtype": "amphitheater",
         "chronogroup": "Second Century",
-        "created":150,
         "label": "Gortyn",
         "moderncountry": "Greece",
         "orientation": 218,
