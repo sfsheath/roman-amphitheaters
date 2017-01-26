@@ -734,7 +734,7 @@
         <http://purl.org/roman-amphitheaters/ontology#exclude> true ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/ontology#pleiades> <http://pleiades.stoa.org/places/324673> ;
-        <http://purl.org/roman-amphitheaters/ontology#region> "regio-xi" ;
+        <http://purl.org/roman-amphitheaters/ontology#province> "proconsularis" ;
         <http://purl.org/roman-amphitheaters/ontology#type> "amphitheater" ;
         <http://www.w3.org/2000/01/rdf-schema#comment> "Unfinished? Considered the last North African amphitheater." ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Bararus"
@@ -2593,7 +2593,6 @@
     ] ;
     a <http://geovocab.org/spatial#Feature> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> [
-        <http://purl.org/dc/terms/created> "150"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/dc/terms/title> "Amphitheater at Gortyn" ;
         <http://purl.org/roman-amphitheaters/ontology#chronogroup> "Second Century" ;
         <http://purl.org/roman-amphitheaters/ontology#moderncountry> "Greece" ;
