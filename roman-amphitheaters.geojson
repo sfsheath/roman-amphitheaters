@@ -1,7 +1,36 @@
 {
   "@context": {
+  
+    "geojson": "https://purl.org/geojson/vocab#",
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "LineString": "geojson:LineString",
+    "MultiLineString": "geojson:MultiLineString",
+    "MultiPoint": "geojson:MultiPoint",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Point": "geojson:Point",
+    "Polygon": "geojson:Polygon",
+    "bbox": {
+      "@container": "@list",
+      "@id": "geojson:bbox"
+    },
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "features": {
+      "@container": "@set",
+      "@id": "geojson:features"
+    },
+    "geometry": "geojson:geometry",
+    "id": "@id",
+    "properties": "geojson:properties",
+    "type": "@type",
+    "description": "http://purl.org/dc/terms/description",
+    "title": "http://purl.org/dc/terms/title",
+
     "dcterms": "http://purl.org/dc/terms/",
-    "gn": "http://www.geonames.org/ontology#",
     "prov": "http://www.w3.org/ns/prov#",
     "ramphsont": "http://purl.org/roman-amphitheaters/ontology#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
@@ -9,26 +38,21 @@
 
     "@base": "http://purl.org/roman-amphitheaters/id/#",
    
-    "Feature": {"@id": "http://geovocab.org/spatial#Feature"},
-    "FeatureCollection": {"@id": "http://example.org/vocab#FeatureCollection"},
-    "Point": {"@id": "http://geovocab.org/geometry#Point"},
-
-    "coordinates": { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value", "@container": "@list" },
-    "features": "@graph",
-    "geometry": {"@id": "ramphsont:geometry"},
-    "id": "@id",
-    "properties": { "@id": "rdfs:isDefinedBy" },
-    "type": "@type",
-
     "amphitheatrum": {"@id": "rdfs:seeAlso","@type": "@id"},
+    "arena-major": {"@id": "ramphsont:arena-major" },
+    "arena-minor": {"@id": "ramphsont:arena-major" },
     "buildingtype": { "@id": "ramphsont:type" },
     "capacity": {"@id": "ramphsont:capacity" },
     "chronogroup": {"@id": "ramphsont:chronogroup"},
     "comment": {"@id": "rdfs:comment" },
     "created": { "@id": "dcterms:created", "@type": "xsd:gDate" },
+    "dimensions": {"@id": "ramphsont:dimensions"},
     "dedication": {"@id": "http://purl.org/roman-amphitheaters/ontology#dedication"},
     "emperor": "ramphsont:hasEmperor",
     "exclude": "ramphsont:exclude",
+    "exterior-height": {"@id": "ramphsont:exterior-height" },
+    "exterior-major": {"@id": "ramphsont:exterior-major" },
+    "exterior-minor": {"@id": "ramphsont:exterior-minor" },
     "label": {"@id": "rdfs:label"},
     "latintoponym": {"@id": "ramphsont:latintoponym"},
     "moderncountry": { "@id": "ramphsont:moderncountry"},
@@ -39,15 +63,12 @@
     "region": { "@id": "ramphsont:region"},
     "see": {"@id": "rdfs:seeAlso","@type": "@id" },
     "source": {"@id": "prov:wasDerivedFrom","@type": "@id" },
-    "source-note": {"@id": "rdfs:comment" },
+    "source-note": {"@id": "ramphont:comment" },
     "title": {"@id": "dcterms:title"},
     "wikipedia": {"@id": "rdfs:seeAlso","@type": "@id"}
 
   },
   "type": "FeatureCollection",
-  "@id": "http://purl.org/roman-amphitheaters/",
-  "see": ["http://en.wikipedia.org/wiki/Roman_amphitheatre","http://en.wikipedia.org/wiki/List_of_Roman_amphitheatres"],
-  "periodo": "http://n2t.net/ark:/99152/p03wskdcctk",
   "features":[
     {
       "type": "Feature",
@@ -65,7 +86,7 @@
           "exterior-minor": 44,
           "arena-major": 31,
           "arena-minor": 25,
-          "source": "Golvin"
+          "source-note": "Golvin"
           },
         "emperor": "Septimius Severus",
         "exclude": true,
@@ -202,7 +223,7 @@
         "emperor": "Vespasian",
         "golvinid": "152",
         "label": "Colosseum",
-        "lastuse": {"date": 523, "source": "Letter of Theoderic to Flavius Anicius Maximus (Cassiordorus, Variae V.42)"},
+        "lastuse": {"date": 523, "source-note": "Letter of Theoderic to Flavius Anicius Maximus (Cassiordorus, Variae V.42)"},
         "moderncountry": "Italy",
         "orientation": 110,
         "pleiades": "http://pleiades.stoa.org/places/423025",
@@ -417,7 +438,7 @@
           "exterior-minor": 80,
           "arena-major": 54,
           "arena-minor": 40,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "golvinid": "101",
         "label": "Conimbriga",
@@ -479,7 +500,7 @@
           "exterior-minor": 116,
           "arena-major": 74.8,
           "arena-minor": 42,
-          "source": "Bomgardner"
+          "source-note": "Bomgardner"
          },
          "golvinid": "153",
         "label": "Pozzuoli (Flavian)",
@@ -536,7 +557,7 @@
         "title": "Amphitheater at Syracuse",
         "amphitheatrum": "http://amphi-theatrum.de/1514.html",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 28773, "source": "Golvin"},
+        "capacity": {"quantity": 28773, "source-note": "Golvin"},
         "chronogroup": "Julio-Claudian",
         "dimensions": {
           "exterior-major": 146.8,
@@ -579,7 +600,7 @@
           "exterior-minor": 93,
           "arena-major": 64,
           "arena-minor": 36,
-          "source": "Golvin"
+          "source-note": "Golvin"
         },
         "label": "Carthage",
         "moderncountry": "Tunisia",
@@ -639,7 +660,7 @@
           "exterior-minor": 70,
           "arena-major":  58,
           "arena-minor": 30,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
          "golvinid": "126",
         "label": "Corinth",
@@ -673,7 +694,7 @@
           "exterior-minor": 60,
           "arena-major": 50,
           "arena-minor": 40,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "golvinid": "127",
         "label": "Marcianopolis",
@@ -874,7 +895,7 @@
         "title": "Amphitheater at Empuries",
         "buildingtype": "amphitheater",
         "created":50,
-        "capacity": {"quantity": 3343, "source": "Golvin"},
+        "capacity": {"quantity": 3343, "source-note": "Golvin"},
         "chronogroup": "First Century",
         "dimensions": {
           "exterior-major": 86,
@@ -936,7 +957,7 @@
       "properties": {
         "title": "Amphitheater at Cagliari",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 12283, "source": "Golvin"},
+        "capacity": {"quantity": 12283, "source-note": "Golvin"},
         "chronogroup": "Second Century",
         "created": 100,
         "dimensions": {
@@ -944,7 +965,7 @@
           "exterior-minor": 79.2,
           "arena-major": 46.8,
           "arena-minor": 33.2,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "golvinid": "182",
         "hypogeum": true, 
@@ -1179,7 +1200,7 @@
       "properties": {
         "title": "Amphitheater at Flavia Solva",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 2729, "source": "Golvin"},
+        "capacity": {"quantity": 2729, "source-note": "Golvin"},
         "chronogroup": "Imperial",
         "label": "Flavia Solva", 
         "moderncountry": "Austria",
@@ -1203,14 +1224,14 @@
         "title": "Amphitheater at Roselle",
         "amphitheatrum": "http://www.amphi-theatrum.de/1478.html",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 2309, "source": "Golvin"},
+        "capacity": {"quantity": 2309, "source-note": "Golvin"},
         "chronogroup": "Julio-Claudian",
         "dimensions": {
           "exterior-major": 48,
           "exterior-minor": 37,
           "arena-major": 30,
           "arena-minor": 20,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "label": "Roselle",
         "latintoponym" : "Rusellae",
@@ -1261,7 +1282,7 @@
       "properties": {
         "title": "Amphitheater at Octodurus/Forum Claudii Vallensium",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 15550, "source": "Golvin"},
+        "capacity": {"quantity": 15550, "source-note": "Golvin"},
         "chronogroup": "Imperial",
 "dimensions": {
           "exterior-major": 118,
@@ -1294,7 +1315,7 @@
         "dimensions": {
           "arena-major": 32.7,
           "arena-minor": 28.8,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "label": "Cyrene",
         "moderncountry": "Libya",
@@ -1317,14 +1338,14 @@
       "properties": {
         "title": "Amphitheater at Libarna",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 5380, "source": "Golvin"},
+        "capacity": {"quantity": 5380, "source-note": "Golvin"},
         "chronogroup": "Imperial",
         "dimensions": {
           "exterior-major": 88,
           "exterior-minor": 58.7,
           "arena-major": 66,
           "arena-minor": 36.6,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "golvinid": "105",
         "hypogeum": true,
@@ -1350,14 +1371,14 @@
       "properties": {
         "title": "Amphitheater at Lucera",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 17149, "source": "Golvin"},
+        "capacity": {"quantity": 17149, "source-note": "Golvin"},
         "chronogroup": "Augustan",
         "dimensions": {
           "exterior-major": 126.8,
           "exterior-minor": 94.5,
           "arena-major": 72.2,
           "arena-minor": 43.2,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "golvinid": "12",
         "label": "Lucera",
@@ -1423,7 +1444,7 @@
            "exterior-minor": 101.4,
            "arena-major": 69.1,
            "arena-minor": 38.4,
-           "source": "Golvin"
+           "source-note": "Golvin"
         },
         "label": "Nimes",
         "latintoponym": "Nemausus",
@@ -1448,14 +1469,14 @@
       "properties": {
         "title": "Amphitheater at Charterhouse",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 2179, "source": "Golvin"},
+        "capacity": {"quantity": 2179, "source-note": "Golvin"},
         "chronogroup": "Imperial",
         "dimensions": {
           "exterior-major": 50,
           "exterior-minor": 39,
           "arena-major": 32,
           "arena-minor": 24,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "label": "Charterhouse",
         "moderncountry": "United Kingdom",
@@ -1488,7 +1509,7 @@
           "exterior-minor": 86.6,
           "arena-major": 56.7,
           "arena-minor": 48.3,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "latintoponym": "Deva Victrix",
         "moderncountry": "United Kingdom",
@@ -1595,14 +1616,14 @@
         "title": "Amphitheater at Bordeaux",
         "amphitheatrum": "http://www.amphi-theatrum.de/1388.html",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 22130, "source": "Golvin"},
+        "capacity": {"quantity": 22130, "source-note": "Golvin"},
         "chronogroup": "Second Century",
         "dimensions": {
            "exterior-major": 132.3,
            "exterior-minor": 110.6,
            "arena-major": 69.8,
            "arena-minor": 46.7,
-           "source": "Bomgardner"
+           "source-note": "Bomgardner"
           },
         "golvinid": "188",
         "label": "Bordeaux",
@@ -1629,14 +1650,14 @@
         "title": "Amphitheater at Oudna",
         "buildingtype": "amphitheater",
         "created":120,
-        "capacity": {"quantity": 11832, "source": "Golvin"},
+        "capacity": {"quantity": 11832, "source-note": "Golvin"},
         "chronogroup": "Second Century",
         "dimensions": {
           "exterior-major": 96,
           "exterior-minor": 81,
           "arena-major": 52.5,
           "arena-minor": 37.5,
-          "source": "Bomgardner"
+          "source-note": "Bomgardner"
         },
         "golvinid": "115",
         "hypogeum": true,
@@ -1691,7 +1712,7 @@
         "dimensions": {
           "exterior-major": 96,
           "exterior-minor": 42,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "label": "Virunum",
         "moderncountry": "Austria",
@@ -1714,14 +1735,14 @@
       "properties": {
         "title": "Amphitheater at Carsulae",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 5945, "source": "Golvin"},
+        "capacity": {"quantity": 5945, "source-note": "Golvin"},
         "chronogroup": "Imperial",
         "dimensions": {
           "exterior-major": 86.5,
           "exterior-minor": 62,
           "arena-major": 62.1,
           "arena-minor": 37.6,
-          "source": "Golvin"
+          "source-note": "Golvin"
         },
         "golvinid": "80",
         "label": "Carsulae",
@@ -1769,14 +1790,14 @@
       "properties": {
         "title": "Amphitheater at Ocriculum",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 17812, "source": "Golvin"},
+        "capacity": {"quantity": 17812, "source-note": "Golvin"},
         "chronogroup": "Imperial",
         "dimensions": {
            "exterior-major": 120,
            "exterior-minor": 98,
            "arena-major": 64,
            "arena-minor": 42,
-           "source": "Golvin"
+           "source-note": "Golvin"
         },
         "label": "Ocriculcum",
         "moderncountry": "Italy",
@@ -1829,7 +1850,7 @@
            "exterior-minor": 80,
            "arena-major": 71.9,
            "arena-minor": 42.7,
-           "source": "Golvin"
+           "source-note": "Golvin"
         },
         "label": "Arezzo",
         "latintoponym": "Arretium",
@@ -1942,12 +1963,12 @@
       "properties": {
         "title": "Amphitheater at Cimiéz",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 4245, "source": "Golvin"},
+        "capacity": {"quantity": 4245, "source-note": "Golvin"},
         "chronogroup": "Julio-Claudian",
         "dimensions": {
           "exterior-major": 55,
           "exterior-minor": 44,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "golvinid": "16",
         "label": "Cimiez",
@@ -2049,7 +2070,7 @@
           "exterior-minor": 123.42,
           "arena-major": 75.68,
           "arena-minor": 44.43,
-          "source": "Bomgardner"
+          "source-note": "Bomgardner"
          },
         "label": "Verona",
         "latintoponym": "verona",
@@ -2081,7 +2102,7 @@
           "exterior-minor": 75.5,
           "arena-major": 51,
           "arena-minor": 42,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "label": "Aquincum (Civilian)",
         "latintoponym": "Aquincum",
@@ -2114,7 +2135,7 @@
           "exterior-minor": 107,
           "arena-major": 88,
           "arena-minor": 42,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "label": "Aquincum (Military)",
         "latintoponym": "Aquincum",
@@ -2214,14 +2235,14 @@
         "title": "Amphitheater at Grumento",
         "amphitheatrum": "http://amphi-theatrum.de/1519.html",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 7657, "source": "Golvin"},
+        "capacity": {"quantity": 7657, "source-note": "Golvin"},
         "chronogroup": "Imperial",
         "dimensions": {
            "exterior-major": 90,
            "exterior-minor": 70,
            "arena-major": 60,
            "arena-minor": 40,
-           "source": "Golvin"
+           "source-note": "Golvin"
            },
         "golvinid": "92",
         "label": "Grumento",
@@ -2246,7 +2267,7 @@
       "properties": {
         "title": "Amphitheater at Alba Fucens",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 10720, "source": "Golvin"},
+        "capacity": {"quantity": 10720, "source-note": "Golvin"},
         "chronogroup": "Julio-Claudian",
         "dimensions": {
           "exterior-major": 103,
@@ -2277,14 +2298,14 @@
         "title": "Amphitheater at Augst",
         "buildingtype": "amphitheater",
         "created": 170,
-        "capacity": {"quantity": 14313, "source": "Golvin"},
+        "capacity": {"quantity": 14313, "source-note": "Golvin"},
         "chronogroup": "Late Second Century",
         "dimensions": {
           "exterior-major": 102,
           "exterior-minor": 87,
           "arena-major": 48,
           "arena-minor": 33,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "label": "Augst",
         "latintoponym": "Augusta Raurica",
@@ -2342,7 +2363,7 @@
           "exterior-minor": 69,
           "arena-major": 66,
           "arena-minor": 47,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "label": "Sarmizegetusa",
         "lastuse": {"date": 350, "source": "https://www.academia.edu/4276122/35917843_Dacia_Land_of_Transylvania"},
@@ -2377,7 +2398,7 @@
           "exterior-minor": 100.65,
           "arena-major": 64.30,
           "arena-minor": 40.20,
-          "source": "Bomgardner"
+          "source-note": "Bomgardner"
         },
         "golvinid": "181",
         "label": "Salona",
@@ -2458,14 +2479,14 @@
         "title": "Amphitheater at Caerleon",
         "bibliography": "https://content.historicengland.org.uk/images-books/publications/iha-roman-amphitheatres-theatres-circuses/amphitheatres.pdf/",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 6000, "source": "Golvin"},
+        "capacity": {"quantity": 6000, "source-note": "Golvin"},
         "chronogroup": "Imperial",
         "dimensions": {
           "exterior-major": 80,
           "exterior-minor": 66,
           "arena-major": 55,
           "arena-minor": 41,
-          "source": "Golvin"
+          "source-note": "Golvin"
         },
         "golvinid": "108",
         "label": "Caerleon",
@@ -2555,14 +2576,14 @@
       "properties": {
         "title": "Amphitheater at Saintes",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 20197, "source": "Golvin"},
+        "capacity": {"quantity": 20197, "source-note": "Golvin"},
         "chronogroup": "Imperial",
         "dimensions": {
           "exterior-major": 126.4,
           "exterior-minor": 101.6,
           "arena-major": 65.2,
           "arena-minor": 39.2,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "golvinid": "100",
         "label": "Saintes",
@@ -2660,7 +2681,7 @@
           "exterior-minor": 94,
           "arena-major": 68,
           "arena-minor": 55,
-          "source": "Golvin"
+          "source-note": "Golvin"
         },
         "hypogeum": true,
         "label": "Lambaesis",
@@ -2693,7 +2714,7 @@
            "exterior-minor": 49.6,
            "arena-major": 38.4,
            "arena-minor": 24.8,
-           "source": "Bomgardner"
+           "source-note": "Bomgardner"
         },
         "golvinid": "119",
         "label": "Mactaris",
@@ -2752,7 +2773,7 @@
           "created": 50
         },
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 15142, "source": "Golvin"},
+        "capacity": {"quantity": 15142, "source-note": "Golvin"},
         "chronogroup": "Flavian",
         "dimensions": {
           "exterior-major": 112,
@@ -2791,7 +2812,7 @@
             "exterior-minor": 72,
             "arena-major": 60,
             "arena-minor": 40,
-            "source": "Golvin"
+            "source-note": "Golvin"
          },
         "label": "Thysdrus (Sm.)",
         "moderncountry": "Tunisia",
@@ -2863,7 +2884,7 @@
            "exterior-minor": 85.7,
            "arena-major": 67.7,
            "arena-minor": 39.7,
-           "source": "Golvin"
+           "source-note": "Golvin"
           },
         "label": "Fréjus",
         "latintoponym": "Forum Julii",
@@ -2946,7 +2967,7 @@
           "exterior-minor": 37,
           "arena-major": 44,
           "arena-minor": 26,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "label": "Micia",
         "moderncountry": "Romania",
@@ -2968,7 +2989,7 @@
       "properties": {
         "title": "Amphitheater at Gemellae",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 3204, "source": "Golvin"},
+        "capacity": {"quantity": 3204, "source-note": "Golvin"},
         "chronogroup": "Hadrianic",
         "created": 132,
         "dimensions": {
@@ -2976,7 +2997,7 @@
            "exterior-minor": 52,
            "arena-major": 52,
            "arena-minor": 32,
-           "source": "Bomgardner"
+           "source-note": "Bomgardner"
          },
         "golvinid": "44",
         "label": "Gemellae",
@@ -3095,7 +3116,7 @@
           "exterior-minor": 77,
           "arena-major": 101,
           "arena-minor": 44,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "label": "Caesarea",
         "moderncountry": "Israel",
@@ -3117,7 +3138,7 @@
         "title": "Amphitheater at Pergamum",
         "buildingtype": "amphitheater",
         "created": 100,
-        "capacity": {"quantity": 23016, "source": "Golvin"},
+        "capacity": {"quantity": 23016, "source-note": "Golvin"},
         "chronogroup": "Second Century",
         "comment": "Date very approximate.",
         "dimensions": {
@@ -3236,7 +3257,7 @@
            "exterior-minor": 99,
            "arena-major": 65,
            "arena-minor": 49,
-           "source": "Bomgardner"
+           "source-note": "Bomgardner"
            },
         "golvinid": "120",
         "label": "Sabratha",
@@ -3334,7 +3355,7 @@
           "exterior-minor": 53,
           "arena-major": 44,
           "arena-minor": 35,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "golvinid": "128",
         "label": "Caerwent",
@@ -3358,14 +3379,14 @@
       "properties": {
         "title": "Amphitheater at Tomen y Mur",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 2772, "source": "Golvin"},
+        "capacity": {"quantity": 2772, "source-note": "Golvin"},
         "chronogroup": "Imperial",
         "dimensions": {
           "exterior-major": 52,
           "exterior-minor": 46,
           "arena-major": 35,
           "arena-minor": 28,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
          "golvinid": "31",
         "label": "Tomen y Mur",
@@ -3397,7 +3418,7 @@
             "exterior-minor": 61,
             "arena-major": 62,
             "arena-minor": 33,
-            "source": "Bomgardner"
+            "source-note": "Bomgardner"
         },
         "chronogroup": "Imperial",
         "golvinid": "71",
@@ -3430,7 +3451,7 @@
            "exterior-minor": 60,
            "arena-major": 47,
            "arena-minor": 37,
-           "source": "Bomgardner"
+           "source-note": "Bomgardner"
         },
         "golvinid": "113",
         "label": "Sbeitla",
@@ -3463,7 +3484,7 @@
            "exterior-minor": 70,
            "arena-major": 52.8,
            "arena-minor": 39.5,
-           "source": "Bomgardner"
+           "source-note": "Bomgardner"
         },
         "label": "Theveste",
         "moderncountry": "Algeria",
@@ -3494,7 +3515,7 @@
           "exterior-minor": 79,
           "arena-major": 70.54,
           "arena-minor": 48.92,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "hypogeum": true,
         "label": "Trier",
@@ -3522,13 +3543,13 @@
         "chronogroup": "Imperial",
         "created": -20,
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 3015, "source": "Golvin"},
+        "capacity": {"quantity": 3015, "source-note": "Golvin"},
         "dimensions": {
           "exterior-major": 60,
           "exterior-minor": 52,
           "arena-major": 44,
           "arena-minor": 36,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "golvinid": "15",
         "hypogeum": false,
@@ -3554,14 +3575,14 @@
       "properties": {
         "title": "Amphitheater at Ivrea",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 8046, "source": "Golvin"},
+        "capacity": {"quantity": 8046, "source-note": "Golvin"},
         "chronogroup": "Imperial",
         "dimensions": {
           "exterior-major": 96,
           "exterior-minor": 72,
           "arena-major": 67,
           "arena-minor": 42,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "golvinid": "55",
         "hypogeum": true,
@@ -3596,7 +3617,7 @@
            "exterior-minor": 73.5,
            "arena-major": 63.75,
            "arena-minor": 37.5,
-           "source": "Bomgardner"
+           "source-note": "Bomgardner"
            },
         "exclude": true,
         "label": "Bararus",
@@ -3695,7 +3716,7 @@
           "exterior-minor": 86,
           "arena-major": 47.5,
           "arena-minor": 44.5,
-          "source": "Golvin"
+          "source-note": "Golvin"
         },
         "label": "Ptolemais",
         "moderncountry": "Libya",
@@ -3726,7 +3747,7 @@
           "exterior-minor": 101,
           "arena-major": 59,
           "arena-minor": 49,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "label": "Toulouse",
         "latintoponym" : "Tolosa",
@@ -3802,13 +3823,13 @@
         "title": "Amphitheater at Lillebonne",
         "buildingtype": "amphitheater",
         "chronogroup": "First Century",
-        "capacity": {"quantity": 7245, "source": "Golvin"},
+        "capacity": {"quantity": 7245, "source-note": "Golvin"},
         "dimensions": {
           "exterior-major": 78,
           "exterior-minor": 75,
           "arena-major": 48,
           "arena-minor": 45,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "golvinid": "19",
         "label": "Lillebonne",
@@ -3954,14 +3975,14 @@
         "title": "Amphitheater at Milan",
         "amphitheatrum": "http://amphi-theatrum.de/1523.html",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 31649, "source": "Golvin"},
+        "capacity": {"quantity": 31649, "source-note": "Golvin"},
         "chronogroup": "First Century",
         "dimensions": {
           "exterior-major": 155,
           "exterior-minor": 125,
           "arena-major": 74,
           "arena-minor": 44,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "label": "Milan",
         "latintoponym": "Mediolanum",
@@ -4046,7 +4067,7 @@
            "exterior-minor": 83,
            "arena-major": 53.1,
            "arena-minor": 34.2,
-           "source": "Golvin"
+           "source-note": "Golvin"
         },
         "label": "Lecce",
         "latintoponym": "Lupiae",
@@ -4180,7 +4201,7 @@
         "title": "Amphitheater at Ancona",
         "amphitheatrum": "http://amphi-theatrum.de/1396.html",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 14168, "source": "Golvin"},
+        "capacity": {"quantity": 14168, "source-note": "Golvin"},
         "chronogroup": "Julio-Claudian",
         "dimensions": {
           "exterior-major": 111,
@@ -4216,7 +4237,7 @@
         "dimensions": {
           "exterior-major": 148,
           "exterior-minor": 125,
-          "source": "Golvin"
+          "source-note": "Golvin"
         },
         "golvinid": "91",
         "label": "Ascoli",
@@ -4295,7 +4316,7 @@
           "exterior-minor": 68,
           "arena-major": 64,
           "arena-minor": 42,
-          "source": "Golvin"
+          "source-note": "Golvin"
         },
         "label": "San Vittorino",
         "latintoponym": "Amiternum",
@@ -4473,7 +4494,7 @@
           "exterior-minor": 83,
           "arena-major": 41.5,
           "arena-minor": 34.45,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "label": "Senlis",
         "latintoponym": "Augustomagus",
@@ -4590,14 +4611,14 @@
         "title": "Imperial Amphitheater at Capua",
         "amphitheatrum": "http://amphi-theatrum.de/2082.html",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 37000, "source": "Golvin"},
+        "capacity": {"quantity": 37000, "source-note": "Golvin"},
         "chronogroup": "Flavian",
         "dimensions": {
           "exterior-major": 165,
           "exterior-minor": 135,
           "arena-major": 76.12,
           "arena-minor": 45.83,
-          "source": "Bomgardner"
+          "source-note": "Bomgardner"
          },
         "hypogeum": true,
         "label": "Capua II",
@@ -4679,7 +4700,7 @@
         "amphitheatrum": "http://amphi-theatrum.de/1493.html",
         "bibliography": "https://content.historicengland.org.uk/images-books/publications/iha-roman-amphitheatres-theatres-circuses/amphitheatres.pdf/",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 7147, "source": "Golvin"},
+        "capacity": {"quantity": 7147, "source-note": "Golvin"},
         "chronogroup": "Second Century",
         "comment": "See http://www.heritagedaily.com/2014/02/8-roman-ampitheatres-in-britain/101973",
         "dimensions": {
@@ -4687,7 +4708,7 @@
           "exterior-minor": 70,
           "arena-major": 49,
           "arena-minor": 40,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "label": "Silchester",
         "latintoponym": "Calleva Atrebatum",
@@ -4721,7 +4742,7 @@
           "exterior-minor": 77,
           "arena-major": 58,
           "arena-minor": 47,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "label": "Maumbury",
         "lastuse": {"date":150, "comment": "See the website but a better reference needed."},
@@ -4849,7 +4870,7 @@
            "exterior-minor": 87,
            "arena-major": 58.5,
            "arena-minor": 49,
-           "source": "Golvin"
+           "source-note": "Golvin"
         },
         "golvinid": "167",
         "label": "Xanten",
@@ -4957,7 +4978,7 @@
           "exterior-minor": 102,
           "arena-major": 58,
           "arena-minor": 34,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "label": "Nocera",
         "latintoponym": "Nuceria Alfaterna",
@@ -5055,13 +5076,13 @@
         "title": "Amphitheater at Bern",
         "buildingtype": "amphitheater",
         "chronogroup": "Imperial",
-        "capacity": {"quantity": 1946, "source": "Golvin"},
+        "capacity": {"quantity": 1946, "source-note": "Golvin"},
         "dimensions": {
           "exterior-major": 42.6,
           "exterior-minor": 38.5,
           "arena-major": 27.6,
           "arena-minor": 23.5,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "golvinid": "42",
         "label": "Bern",
@@ -5179,7 +5200,7 @@
           "exterior-minor": 58.8,
           "arena-major": 57,
           "arena-minor": 38.5,
-          "source": "Bomgardner"
+          "source-note": "Bomgardner"
         },
         "chronogroup": "Imperial",
         "label": "Skikda",
@@ -5376,7 +5397,7 @@
           "exterior-minor": 96,
           "arena-major": 55,
           "arena-minor": 36,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "golvinid": 147,
         "label": "Aquino",
@@ -5496,7 +5517,7 @@
           "exterior-minor": 65.2,
           "arena-major": 51.5,
           "arena-minor": 40.7,
-          "source": "Bomgardner"
+          "source-note": "Bomgardner"
          },
         "label": "Seressi",
         "latintoponym": "Seressi",
@@ -5561,7 +5582,7 @@
           "exterior-minor": 58,
           "arena-major": 67,
           "arena-minor": 43,
-          "source": "Bomgardner"
+          "source-note": "Bomgardner"
          },
         "golvinid": "185",
         "label": "Bekalta",
@@ -5656,7 +5677,7 @@
           "exterior-minor": 42,
           "arena-major": 43,
           "arena-minor": 28,
-          "source": "Bomgardner"
+          "source-note": "Bomgardner"
          },
         "golvinid": "64",
         "label": "Ain Hedjah",
@@ -5690,7 +5711,7 @@
           "exterior-minor": 98,
           "arena-major": 80,
           "arena-minor": 60,
-          "source": "Bomgardner" 
+          "source-note": "Bomgardner" 
          },
         "golvinid": "61",
         "label": "Utica",
@@ -5749,7 +5770,7 @@
           "exterior-minor": 61,
           "arena-major": 46,
           "arena-minor": 33,
-          "source": "Bomgardner"
+          "source-note": "Bomgardner"
          },
         "golvinid": "121",
         "label": "Thuburbo Maius",
@@ -5806,7 +5827,7 @@
           "exterior-minor": 53,
           "arena-major": 48,
           "arena-minor": 32,
-          "source": "Bomgardner"
+          "source-note": "Bomgardner"
          },
         "golvinid": "70",
         "label": "Ulisippira",
@@ -5841,7 +5862,7 @@
           "exterior-minor": 86,
           "arena-major": 58,
           "arena-minor": 54,
-          "source": "Bomgardner"
+          "source-note": "Bomgardner"
          },
         "golvinid": "118",
         "label": "Acholla",
@@ -5867,14 +5888,14 @@
       "properties": {
         "title": "Amphitheater at Tipasa",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 4398, "source": "Golvin"},
+        "capacity": {"quantity": 4398, "source-note": "Golvin"},
         "chronogroup": "Late Second Century",
         "dimensions": {
           "exterior-major": 77,
           "exterior-minor":55 ,
           "arena-major": 57,
           "arena-minor": 35,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "golvinid": "130",
         "label": "Tipasa",
@@ -5911,7 +5932,7 @@
           "exterior-minor": 66,
           "arena-major": 34,
           "arena-minor": 30,
-          "source": "Bomgardner"
+          "source-note": "Bomgardner"
          },
         "golvinid": "117",
         "label": "Bulla Regia",
@@ -5942,7 +5963,7 @@
         "dimensions": {
           "arena-major": 45,
           "arena-minor": 36,
-          "source": "Golvin"
+          "source-note": "Golvin"
          },
         "golvinid": "298",
         "label": "Pupput",
@@ -5976,7 +5997,7 @@
           "exterior-minor": 80,
           "arena-major": 70,
           "arena-minor": 50,
-          "source": "Bomgardner"
+          "source-note": "Bomgardner"
          },
         "label": "Sicca Veneria",
         "latintoponym": "Sicca Veneria",
@@ -6010,7 +6031,7 @@
           "exterior-minor": 51.5,
           "arena-major": 30.8,
           "arena-minor": 21,
-          "source": "Bomgardner"
+          "source-note": "Bomgardner"
          },
         "golvinid": "62",
         "label": "Thibari",
@@ -6177,7 +6198,7 @@
           "exterior-minor": 37,
           "arena-major": 44,
           "arena-minor": 26,
-          "source": "Bomgardner"
+          "source-note": "Bomgardner"
         },
         "golvinid": "46",
         "label": "Tigava Castra",
@@ -6263,7 +6284,7 @@
         "dimensions": {
            "exterior-major": 104,
            "exterior-minor": 78,
-           "source": "Golvin"
+           "source-note": "Golvin"
         },
         "label": "Augusta Bagiennorum",
         "latintoponym": "Augusta Bagiennorum",
@@ -6319,7 +6340,7 @@
         "amphitheatrum": "http://www.amphi-theatrum.de/1545.html",
         "bibliography": "http://dx.doi.org/10.1017/S0068246200000799",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 7986, "source": "Golvin"},
+        "capacity": {"quantity": 7986, "source-note": "Golvin"},
         "chronogroup": "Augustan",
         "citywall": "outside",
         "dimensions": {
@@ -6327,7 +6348,7 @@
            "exterior-minor": 66.4,
            "arena-major": 54.3,
            "arena-minor": 32.7,
-           "source": "Golvin"
+           "source-note": "Golvin"
         },
         "golvinid": "146",
         "label": "Falerii Novi",
@@ -6355,7 +6376,7 @@
         "title": "Amphitheater at Rimini",
         "amphitheatrum": "http://www.amphi-theatrum.de/1404.html",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 13967, "source": "Golvin"},
+        "capacity": {"quantity": 13967, "source-note": "Golvin"},
         "chronogroup": "Hadrianic",
         "citywalls": "inside",
         "comment": "Date on the basis of coins of Hadrian found in foundations.",
@@ -6391,7 +6412,7 @@
         "title": "Amphitheater at Imola",
         "bibliography": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0006%3Aalphabetic+letter%3DF%3Aentry+group%3D2%3Aentry%3Dforum-cornelii",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 11914, "source": "Golvin"},
+        "capacity": {"quantity": 11914, "source-note": "Golvin"},
         "chronogroup": "Imperial",
         "comment": "Briefly mentioned in PECS via Perseus, with dimensions. Said to have been covered.",
         "dimensions": {
@@ -6399,7 +6420,7 @@
            "exterior-minor": 81,
            "arena-major": 67,
            "arena-minor": 40,
-           "source": "Golvin"
+           "source-note": "Golvin"
         },
         "golvinid": "56",
         "label": "Imola",
@@ -6425,14 +6446,14 @@
         "title": "Amphitheater at Venosa",
         "amphitheatrum": "http://www.amphi-theatrum.de/1517.html",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 10602, "source": "Golvin"},
+        "capacity": {"quantity": 10602, "source-note": "Golvin"},
         "chronogroup": "Imperial",
         "dimensions": {
            "exterior-major": 98,
            "exterior-minor": 77,
            "arena-major": 58,
            "arena-minor": 37,
-           "source": "Golvin"
+           "source-note": "Golvin"
         },
         "label": "Venosa",
         "latintoponym": "Venusia",
@@ -6486,7 +6507,7 @@
       "properties": {
         "title": "Amphitheater at Velleia",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 2901, "source": "Golvin"},
+        "capacity": {"quantity": 2901, "source-note": "Golvin"},
         "chronogroup": "Julio-Claudian",
         "chronocertainty": "possible",
         "dimensions": {
@@ -6494,7 +6515,7 @@
            "exterior-minor": 44.1,
            "arena-major": 37,
            "arena-minor": 25.5,
-           "source": "Golvin"
+           "source-note": "Golvin"
         },
         "golvinid": "14",
         "hypogeum": true,
@@ -6521,7 +6542,7 @@
       "properties": {
         "title": "Amphitheater at Ordona",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 6318, "source": "Golvin"},
+        "capacity": {"quantity": 6318, "source-note": "Golvin"},
         "chronogroup": "First Century",
         "chronocertainty": "possible",
         "dimensions": {
@@ -6529,7 +6550,7 @@
            "exterior-minor": 59.4,
            "arena-major": 44.6,
            "arena-minor": 28.4,
-           "source": "Golvin"
+           "source-note": "Golvin"
         },
         "golvinid": "26",
         "label": "Ordona",
@@ -6556,14 +6577,14 @@
         "title": "Amphitheater at Bevagna",
         "bibliography": "http://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Europe/Italy/Umbria/Perugia/Bevagna/Bevagna/Roman/amphitheatre.html",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 6251, "source": "Golvin"},
+        "capacity": {"quantity": 6251, "source-note": "Golvin"},
         "chronogroup": "Imperial",
         "dimensions": {
            "exterior-major": 80,
            "exterior-minor": 53,
            "arena-major": 44,
            "arena-minor": 24,
-           "source": "Golvin"
+           "source-note": "Golvin"
         },
         "golvinid": "282",
         "label": "Bevagna",
@@ -6620,7 +6641,7 @@
         "dimensions": {
            "exterior-major": 80,
            "exterior-minor": 45,
-           "source": "Golvin"
+           "source-note": "Golvin"
         },
         "label": "Sinuessa",
         "latintoponym": "Sinuessa",
@@ -6738,7 +6759,7 @@
       "properties": {
         "title": "Tusculum Amphitheater",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 4853, "source": "Golvin"},
+        "capacity": {"quantity": 4853, "source-note": "Golvin"},
         "chronogroup": "Second Century",
         "dare": "http://dare.ht.lu.se/places/24338",
         "dimensions": {
@@ -6746,7 +6767,7 @@
            "exterior-minor": 54,
            "arena-major": 49,
            "arena-minor": 30,
-           "source": "Golvin"
+           "source-note": "Golvin"
         },
         "label": "Tusculum",
         "moderncountry": "Italy",
@@ -6803,7 +6824,7 @@
         "dimensions": {
            "exterior-major": 90,
            "exterior-minor": 60,
-           "source": "Golvin"
+           "source-note": "Golvin"
         },
         "golvinid": "283",
         "label": "Todi",
@@ -6865,7 +6886,7 @@
         "dimensions": {
           "exterior-major": 115,
           "exterior-minor": 85,
-          "source": "Golvin"
+          "source-note": "Golvin"
         },
         "label": "Spoleto",
         "latintoponym": "Spoletium",
@@ -6890,14 +6911,14 @@
       "properties": {
         "title": "Aquae Neri Amphitheater",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 3926, "source": "Golvin"},
+        "capacity": {"quantity": 3926, "source-note": "Golvin"},
         "chronogroup": "First Century" ,
         "dimensions": {
           "exterior-major": 70,
           "exterior-minor": 50,
           "arena-major": 50,
           "arena-minor": 30,
-          "source": "Golvin"
+          "source-note": "Golvin"
         },
         "golvinid": "20",
         "label": "Aquae Neri",
@@ -7238,7 +7259,7 @@
         "dimensions": {
            "exterior-major": 55,
            "exterior-minor": 43,
-           "source": "Golvin"
+           "source-note": "Golvin"
             },
         "dare": "http://dare.ht.lu.se/places/24393",
         "label": "Henchir Douama",
@@ -7264,7 +7285,7 @@
         "title": "Ain Tounga Amphitheater",
         "amphitheatrum": "http://www.amphi-theatrum.de/1532.html",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 3000, "source": "Golvin"},
+        "capacity": {"quantity": 3000, "source-note": "Golvin"},
         "chronogroup": "Imperial",
         "dare": "http://dare.ht.lu.se/places/24386",
         "dimensions": {
@@ -7272,7 +7293,7 @@
            "exterior-minor": 46,
            "arena-major": 39,
            "arena-minor": 26.5,
-           "source": "Golvin"
+           "source-note": "Golvin"
         },
         "golvinid": "116",
         "label": "Ain Tounga",
@@ -7297,7 +7318,7 @@
       "properties": {
         "title": "Aleria Amphitheater",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 1200, "source": "Golvin"},
+        "capacity": {"quantity": 1200, "source-note": "Golvin"},
         "chronogroup": "Imperial",
         "dare": "http://dare.ht.lu.se/places/24133",
         "dimensions": {
@@ -7305,7 +7326,7 @@
            "exterior-minor": 34,
            "arena-major": 29.6,
            "arena-minor": 24,
-           "source": "Golvin"
+           "source-note": "Golvin"
         },
         "golvinid": "131",
         "label": "Aleria",
@@ -7331,7 +7352,7 @@
         "title": "Volterra Amphitheater",
         "bibliography": "http://news.discovery.com/history/archaeology/gladiator-colosseum-found-in-tuscany-151111.htm",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 10000, "source": "Golvin"},
+        "capacity": {"quantity": 10000, "source-note": "Golvin"},
         "chronogroup": "First Century",
         "comment": "Newly discovered in 2015. Location approximate.",
         "dimensions": {
