@@ -36,9 +36,9 @@
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
 
-    "@base": "http://purl.org/roman-amphitheaters/id/#",
+    "@base": "http://purl.org/roman-amphitheaters/resource#",
    
-    "amphitheatrum": {"@id": "ramphs:amphitheatrum","@type": "@id"},
+    "amphitheatrum": {"@id": "ramphsont:amphitheatrum","@type": "@id"},
     "arena-major": {"@id": "ramphsont:arena-major" },
     "arena-minor": {"@id": "ramphsont:arena-major" },
     "buildingtype": { "@id": "ramphsont:type" },
@@ -71,7 +71,7 @@
     
     "roman-amphitheater-chronogrps": {
       "@container": "@set",
-      "@id": "http://example.org/ex/"
+      "@id": "http://example.org/resouece/chronogrps#"
     }
 
   },
