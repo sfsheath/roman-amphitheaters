@@ -36,7 +36,7 @@ id,title,label,pleiades,welch,golvin,type,capacity,modcountry,province,italyregi
 "viminaciumAmphitheater","Amphitheater at Viminacium","Viminacium","http://pleiades.stoa.org/places/207549",,,"amphitheater",12000,"Serbia",,"regio-i","Second Century",,,85,,,,44.737985,21.220083,72
 "flaviaSolvaAmphitheater","Amphitheater at Flavia Solva","Flavia Solva","http://pleiades.stoa.org/places/197273",,,"amphitheater",2729,"Austria","noricum",,"Imperial",,,,,,,46.76715349,15.5657773,266
 "roselleAmphitheater","Amphitheater at Roselle","Roselle","http://pleiades.stoa.org/places/413288",,,"amphitheater",2309,"Italy",,"regio-vii","Julio-Claudian",,,48,37,30,20,42.828405,11.159132,165
-"parisAmphitheater","Amphitheater at Paris","Paris","http://pleiades.stoa.org/places/109126",,,"gallo-roman-amphitheater",15000,"France","lugdunensis",,"Flavian",,"https://www.youtube.com/watch?v=DStHFfxd_qo",,,,,48.845097,2.352855,46
+"parisAmphitheater","Amphitheater at Paris","Paris","http://pleiades.stoa.org/places/109126",,,"gallo-roman-amphitheater",15000,"France","lugdunensis",,"Flavian",,"https://www.youtube.com/watch?v=DStHFfxd-qo",,,,,48.845097,2.352855,46
 "octodurusForumClaudiiVallensiumAmphitheater","Amphitheater at Octodurus/Forum Claudii Vallensium","Octodorus","http://pleiades.stoa.org/places/167859",,,"amphitheater",15550,"Switzerland","alpes-poeninae",,"Imperial",,,118,106,74,62,46.094356,7.073493,480
 "cyreneAmphitheater","Amphitheater at Cyrene","Cyrene","http://pleiades.stoa.org/places/373778",,,"amphitheater",,"Libya","crete-et-cyrenaica",,"Imperial",,,,,32.7,28.8,32.824526,21.850808,550
 "libarnaAmphitheater","Amphitheater at Libarna","Libarna","http://pleiades.stoa.org/places/383694",,"105","amphitheater",5380,"Italy",,"regio-ix","Imperial",,,88,58.7,66,36.6,44.706013,8.867967,225
@@ -96,7 +96,7 @@ id,title,label,pleiades,welch,golvin,type,capacity,modcountry,province,italyregi
 "miciaAmphitheater","Amphitheater at Micia","Micia","http://pleiades.stoa.org/places/207286",,,"amphitheater",1500,"Romania","dacia",,"Second Century",,,56,37,44,26,45.915008,22.81731,183
 "gemellaeAmphitheater","Amphitheater at Gemellae","Gemellae","http://pleiades.stoa.org/places/334553",,"44","amphitheater",3204,"Algeria","mauretania",,"Hadrianic",,,72,52,52,32,34.636598,5.522904,83
 "cherchellAmphitheater","Amphitheater at Cherchell","Cherchel","http://pleiades.stoa.org/places/295279",,,"amphitheater",,"Algeria","mauretania",,"Augustan",,,145,78,98,37,36.60878,2.198958,29
-"pulaAmphitheater","Amphitheater at Pula","Pula","http://pleiades.stoa.org/places/197448",,,"amphitheater",26000,"Croatia",,"regio-x","Julio-Claudian",,"https://www.youtube.com/watch?v=hqTud5XxI_s",132.45,105.1,67.95,41.65,44.873229,13.850243,16
+"pulaAmphitheater","Amphitheater at Pula","Pula","http://pleiades.stoa.org/places/197448",,,"amphitheater",26000,"Croatia",,"regio-x","Julio-Claudian",,"https://www.youtube.com/watch?v=hqTud5XxI-s",132.45,105.1,67.95,41.65,44.873229,13.850243,16
 "carmonaAmphitheater","Amphitheater at Carmona","Carmona","http://pleiades.stoa.org/places/256058","17",,"amphitheater",8000,"Spain","baetica",,"Caesarean",,,,,,,37.469674,-5.650907,223
 "caesareaAmphitheater","Amphitheater at Caesarea","Caesarea","http://pleiades.stoa.org/places/678401",,,"amphitheater",,"Israel","judaea",,"Second Century",,,134,77,101,44,32.506473,34.897451,11
 "bergamaAmphitheater","Amphitheater at Pergamum","Bergama","http://pleiades.stoa.org/places/550812",,,"amphitheater",23016,"Turkey","asia",,"Second Century",,,136.2,107.4,53,37,39.125751,27.174177,100
