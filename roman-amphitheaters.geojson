@@ -71,7 +71,7 @@
     
     "roman-amphitheater-chronogrps": {
       "@container": "@set",
-      "@id": "http://example.org/resouece/chronogrps#"
+      "@id": "http://example.org/resource/chronogrps#"
     }
 
   },
