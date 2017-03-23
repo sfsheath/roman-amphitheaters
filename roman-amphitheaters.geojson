@@ -36,7 +36,8 @@
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
 
-    "@base": "http://purl.org/roman-amphitheaters/resource#",
+    "@base": "http://purl.org/roman-amphitheaters/resource/",
+    "@vocab": "http://purl.org/roman-amphitheaters/resource/",
    
     "amphitheatrum": {"@id": "ramphsprops:amphitheatrum","@type": "@id"},
     "arena-major": {"@id": "ramphsprops:arena-major" },
@@ -59,9 +60,9 @@
     "moderncountry": { "@id": "ramphsprops:moderncountry"},
     "periodo": {"@id": "ramphsprops:periodo", "@type": "@id" },
     "pleiades": {"@id": "ramphsprops:pleiades","@type": "@id"},
-    "province": { "@id": "ramphsprops:province"},
+    "province": { "@id": "ramphsprops:province","@type": "@id"},
     "quantity": { "@id": "ramphsprops:quantity"},
-    "region": { "@id": "ramphsprops:region"},
+    "region": { "@id": "ramphsprops:region","@type": "@id"},
     "see": {"@id": "ramphsprops:see","@type": "@id" },
     "source": {"@id": "ramphsprops:source","@type": "@id" },
     "source-note": {"@id": "ramphsprops:source-note" },
