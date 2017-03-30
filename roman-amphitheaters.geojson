@@ -59,7 +59,7 @@
     "label": {"@id": "rdfs:label"},
     "latintoponym": {"@id": "ramphsprops:latintoponym"},
     "moderncountry": { "@id": "ramphsprops:moderncountry"},
-    "orientation": {"@id": "ramphsprops:exterior-minor" },
+    "orientation": {"@id": "ramphsprops:orientation" },
     "periodo": {"@id": "ramphsprops:periodo", "@type": "@id" },
     "pleiades": {"@id": "ramphsprops:pleiades","@type": "@id"},
     "province": { "@id": "ramphsprops:province","@type": "@id"},
