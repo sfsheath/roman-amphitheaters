@@ -55,6 +55,7 @@
     "exterior-height": {"@id": "ramphsprops:exterior-height" },
     "exterior-major": {"@id": "ramphsprops:exterior-major" },
     "exterior-minor": {"@id": "ramphsprops:exterior-minor" },
+    "hypogeim": {"@id": "ramphsprops:hypogeum" },
     "label": {"@id": "rdfs:label"},
     "latintoponym": {"@id": "ramphsprops:latintoponym"},
     "moderncountry": { "@id": "ramphsprops:moderncountry"},
