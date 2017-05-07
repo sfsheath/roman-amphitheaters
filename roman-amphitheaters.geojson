@@ -41,7 +41,7 @@
    
     "amphitheatrum": {"@id": "ramphsprops:amphitheatrum","@type": "@id"},
     "arena-major": {"@id": "ramphsprops:arena-major" },
-    "arena-minor": {"@id": "ramphsprops:arena-major" },
+    "arena-minor": {"@id": "ramphsprops:arena-minor" },
     "buildingtype": { "@id": "ramphsprops:type" },
     "capacity": {"@id": "ramphsprops:capacity" },
     "chronogroup": {"@id": "ramphsprops:chronogroup"},
