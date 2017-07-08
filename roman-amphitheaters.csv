@@ -33,7 +33,7 @@ id,title,label,pleiades,welch,golvin,type,capacity,modcountry,province,italyregi
 "paestumAmphitheater","Amphitheater at Paestum","Paestum","http://pleiades.stoa.org/places/442733","10",,"amphitheater",4500,"Italy",,"regio-iii","Republican",,,79,59,56,35,40.422354,15.006449,18
 "lunaAmphitheater","Amphitheater at Luna","Luna","http://pleiades.stoa.org/places/403235",,,"amphitheater",,"Italy",,"regio-vii","Imperial",,,87,71,52,34.5,44.062656,10.022386,4
 "cassinoAmphitheater","Amphitheater at Cassino","Cassino","http://pleiades.stoa.org/places/432764",,,"amphitheater",,"Italy",,"regio-i","Imperial",,,,,,,41.482933,13.823575,73
-"viminaciumAmphitheater","Amphitheater at Viminacium","Viminacium","http://pleiades.stoa.org/places/207549",,,"amphitheater",12000,"Serbia",,"regio-i","Second Century",,,85,,,,44.737985,21.220083,72
+"viminaciumAmphitheater","Amphitheater at Viminacium","Viminacium","http://pleiades.stoa.org/places/207549",,,"amphitheater",12000,"Serbia","moesia-superior",,"Second Century",,,85,,,,44.737985,21.220083,72
 "flaviaSolvaAmphitheater","Amphitheater at Flavia Solva","Flavia Solva","http://pleiades.stoa.org/places/197273",,,"amphitheater",2729,"Austria","noricum",,"Imperial",,,,,,,46.76715349,15.5657773,266
 "roselleAmphitheater","Amphitheater at Roselle","Roselle","http://pleiades.stoa.org/places/413288",,,"amphitheater",2309,"Italy",,"regio-vii","Julio-Claudian",,,48,37,30,20,42.828405,11.159132,165
 "parisAmphitheater","Amphitheater at Paris","Paris","http://pleiades.stoa.org/places/109126",,,"gallo-roman-amphitheater",15000,"France","lugdunensis",,"Flavian",,"https://www.youtube.com/watch?v=DStHFfxd-qo",,,,,48.845097,2.352855,46
