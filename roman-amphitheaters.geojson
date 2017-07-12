@@ -42,14 +42,14 @@
     "amphitheatrum": {"@id": "ramphsprops:amphitheatrum","@type": "@id"},
     "arena-major": {"@id": "ramphsprops:arena-major" },
     "arena-minor": {"@id": "ramphsprops:arena-minor" },
-    "buildingtype": { "@id": "ramphsprops:type" },
+    "buildingtype": { "@id": "ramphsprops:building-type" },
     "capacity": {"@id": "ramphsprops:capacity" },
     "chronogroup": {"@id": "ramphsprops:chronogroup","@type": "@id"},
     "comment": {"@id": "ramphsprops:comment" },
     "created": { "@id": "ramphsprops:created", "@type": "xsd:gDate" },
     "dimensions": {"@id": "ramphsprops:dimensions"},
     "dedication": {"@id": "ramphsprops:dedication"},
-    "emperor": "ramphsprops:emperor",
+    "emperor": {"@id":"ramphsprops:emperor"},
     "end-date": {"@id": "ramphsprops:end-date" },
     "exclude": {"@id":"ramphsprops:exclude"},
     "exterior-height": {"@id": "ramphsprops:exterior-height" },
@@ -70,12 +70,7 @@
     "source-note": {"@id": "ramphsprops:source-note" },
     "start-date": {"@id": "ramphsprops:start-date" },
     "title": {"@id": "dcterms:title"},
-    "wikipedia": {"@id": "ramphsprops:wikpedia","@type": "@id"},
-    
-    "roman-amphitheater-chronogrps": {
-      "@container": "@set",
-      "@id": "http://example.org/resource/chronogrps"
-    }
+    "wikipedia": {"@id": "ramphsprops:wikpedia","@type": "@id"}
 
   },
   "type": "FeatureCollection",
@@ -7736,7 +7731,7 @@
       }
     }
   ],
-  "roman-amphitheater-chronogroups":[
+  "roman-amphitheaters-chronogroups":[
     {
         "@id": "republican",
         "label": "Republican",
@@ -7846,5 +7841,57 @@
         "comment": "End Date is approximate year by which amphitheaters are no longer being built.",
         "periodo": "http://n2t.net/ark:/99152/p077pzf9m52"
     }
-  ]
+  ],
+  "roman-amphitheaters-vocabulary":[
+   {
+        "@id": "dcterms:title",
+        "label": "Title",
+        "ramphsprops:x-sort-order": "011-header"
+    },{
+        "@id": "ramphsprops:amphitheatrum",
+        "label": "Amphitheatrum Page",
+        "ramphsprops:x-sort-order": "110-links"
+    },{
+        "@id": "ramphsprops:arena-major",
+        "label": "Arena Major Axis",
+        "ramphsprops:x-sort-order": "050-quantities"
+    },{
+        "@id": "ramphsprops:arena-minor",
+        "label": "Arena Minor",
+        "ramphsprops:x-sort-order": "050-quantities"
+    },{
+        "@id": "ramphsprops:building-type",
+        "label": "Amphitheatrum Page",
+        "ramphsprops:x-sort-order": "050-quantities"
+    },{
+        "@id": "ramphsprops:capacity",
+        "label": "Capacity",
+        "ramphsprops:x-sort-order": "050-quantities"
+    },{
+        "@id": "ramphsprops:chronogroup",
+        "label": "Chronological Group",
+        "ramphsprops:x-sort-order": "011-header"
+    },{
+        "@id": "ramphsprops:comment",
+        "label": "Comment",
+        "ramphsprops:x-sort-order": "011-header"
+    },{
+        "@id": "ramphsprops:created",
+        "label": "Created",
+        "ramphsprops:x-sort-order": "011-header"
+    },{
+        "@id": "ramphsprops:created",
+        "label": "Created",
+        "ramphsprops:x-sort-order": "011-header"
+    },{
+        "@id": "ramphsprops:dimensions",
+        "label": "Dimensions",
+        "ramphsprops:x-sort-order": "011-header"
+    },
+    {
+        "@id": "rdfs:label",
+        "label": "Label",
+        "ramphsprops:x-sort-order": "012-header"
+    }
+   ]
 }

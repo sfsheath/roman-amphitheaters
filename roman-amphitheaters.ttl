@@ -1,5 +1,9 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
+<http://purl.org/roman-amphitheaters/properties#capacity>
+    <http://purl.org/roman-amphitheaters/properties#x-sort-order> "010-quantities" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Capacity" .
+
 <http://purl.org/roman-amphitheaters/resource/agenAmphitheater>
     a <https://purl.org/geojson/vocab#Feature> ;
     <https://purl.org/geojson/vocab#geometry> [
@@ -16,7 +20,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 15000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#created> "215"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Aginnum" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "France" ;
@@ -44,7 +48,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 3000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 43 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 28 ;
@@ -80,7 +84,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 3000 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 39 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 2.65E1 ;
@@ -114,7 +118,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 10720 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Julio-Claudian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/julio-claudian> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 64 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 37 ;
@@ -143,7 +147,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Albegna" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Albingaunum" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/157803> ;
@@ -165,7 +169,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Aldborough" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Isurium Brigantium" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "United Kingdom" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/89209> ;
@@ -190,7 +194,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 1200 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 2.96E1 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 24 ;
@@ -222,7 +226,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Allifae" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/2038.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 72 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 48 ;
@@ -250,7 +254,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Altinum" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 80 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 58 ;
@@ -279,7 +283,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Altripalda" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Republican" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/republican> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Abellinum" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/432618> ;
@@ -307,7 +311,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 15000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Samarobriva Ambianorum" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/109321> ;
@@ -330,7 +334,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Anazarbus" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 60 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 43 ;
@@ -362,7 +366,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 14168 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Julio-Claudian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/julio-claudian> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 67 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 53 ;
@@ -391,7 +395,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Antioch" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Republican" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/republican> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Location not specific." ;
         <http://purl.org/roman-amphitheaters/properties#created> "-50"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Turkey" ;
@@ -414,7 +418,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Aosta" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Julio-Claudian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/julio-claudian> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 150 ;
             <http://purl.org/roman-amphitheaters/properties#exterior-minor> 115 ;
@@ -443,7 +447,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Late Roman Amphitheater at Aphrodisas" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Fourth Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/fourth-century> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Inserted into east end of pre-existing stadium." ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 59 ;
@@ -479,7 +483,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 3926 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "First Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/first-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 50 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 30 ;
@@ -510,7 +514,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Aquileia" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Location approximate" ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Aquileia" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
@@ -532,7 +536,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Civil Amphitheater at Budapest" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#created> "275"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 51 ;
@@ -563,7 +567,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Military Amphitheater at Budapest" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#created> "150"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 88 ;
@@ -595,7 +599,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Aquino" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 55 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 36 ;
@@ -628,7 +632,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 8000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Flavian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/flavian> ;
         <http://purl.org/roman-amphitheaters/properties#created> "80"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 7.190000000000001E1 ;
@@ -661,7 +665,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 20000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Flavian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/flavian> ;
         <http://purl.org/roman-amphitheaters/properties#created> "90"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 47 ;
@@ -697,7 +701,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Arnsburg" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1896.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Germany" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/118575> ;
         <http://purl.org/roman-amphitheaters/properties#province> <http://purl.org/roman-amphitheaters/resource/germania-superior> ;
@@ -719,7 +723,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Ascoli Picenum" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1518.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 148 ;
             <http://purl.org/roman-amphitheaters/properties#exterior-minor> 125 ;
@@ -746,7 +750,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Assisi" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 65 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 38 ;
@@ -777,7 +781,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 14313 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Late Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/late-second-century> ;
         <http://purl.org/roman-amphitheaters/properties#created> "170"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 48 ;
@@ -809,7 +813,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Augusta Benniorum" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Julio-Claudian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/julio-claudian> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 104 ;
             <http://purl.org/roman-amphitheaters/properties#exterior-minor> 78 ;
@@ -847,7 +851,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Aurelium Commodianum Amphitheater" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://www.amphi-theatrum.de/1356.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#comment> "Very approximate" ;
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 65 ;
@@ -877,7 +881,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Autun" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Augustodunum" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/177460> ;
@@ -900,7 +904,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Abella" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1461.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Republican" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/republican> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 6.25E1 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 35 ;
@@ -933,7 +937,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 12000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Severan" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/severan> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Unfinished? Considered the last North African amphitheater." ;
         <http://purl.org/roman-amphitheaters/properties#created> "220"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
@@ -964,7 +968,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Barcelona" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Barcino" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Spain" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/246343> ;
@@ -990,7 +994,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 4400
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 67 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 43 ;
@@ -1022,7 +1026,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Benevento" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1776.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Republican" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/republican> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Beneventum" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/432721> ;
@@ -1047,7 +1051,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 23016 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Date very approximate." ;
         <http://purl.org/roman-amphitheaters/properties#created> "100"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
@@ -1082,7 +1086,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 1946 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 2.76E1 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 2.35E1 ;
@@ -1115,7 +1119,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Besançon" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1551.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Vesontio" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/177657> ;
@@ -1140,7 +1144,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 6251 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 44 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 24 ;
@@ -1172,7 +1176,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Béziers" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Baeterrae" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/148056> ;
@@ -1195,7 +1199,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Bobadela" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1975.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Flavian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/flavian> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Elbocoris" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Portugal" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 189 ;
@@ -1219,7 +1223,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Bolsena" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1554.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Flavian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/flavian> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Volsinii Novi" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 130 ;
@@ -1246,7 +1250,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 22130 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 6.98E1 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 4.67E1 ;
@@ -1278,7 +1282,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Bosra" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/2002.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Nova Trajana Bostra" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Syria" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 199 ;
@@ -1306,7 +1310,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 11600
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 58 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 54 ;
@@ -1337,7 +1341,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Bourges" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#comment> "Dimensions very approximate on the basis of modern street plan." ;
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 108 ;
@@ -1364,7 +1368,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Braga" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Bracara Augusta" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Portugal" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 181 ;
@@ -1391,7 +1395,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 8300
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Late Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/late-second-century> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Location approximate." ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 34 ;
@@ -1423,7 +1427,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Burnum" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1878.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 43 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 32 ;
@@ -1457,7 +1461,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 6000 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 55 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 41 ;
@@ -1489,7 +1493,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Caerwent" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 44 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 35 ;
@@ -1517,7 +1521,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Caesarea" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Date very approximate." ;
         <http://purl.org/roman-amphitheaters/properties#created> "150"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
@@ -1555,7 +1559,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 12283 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#created> "100"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 4.68E1 ;
@@ -1590,7 +1594,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Caistor Saint Edmund" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1986.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Venta Icenorum" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "United Kingdom" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/79735> ;
@@ -1614,7 +1618,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Calvi Risorta" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1462.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Republican" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/republican> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Cales" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/432739> ;
@@ -1637,7 +1641,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Canosa Amphitheater" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://www.amphi-theatrum.de/1607.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 138 ;
             <http://purl.org/roman-amphitheaters/properties#exterior-minor> 106 ;
@@ -1666,7 +1670,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Caparra" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 30 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 19
@@ -1697,7 +1701,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 37000 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Flavian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/flavian> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 7.612E1 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 4.583E1 ;
@@ -1730,7 +1734,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Republican Amphitheater at Capua" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/2081.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Republican" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/republican> ;
         <http://purl.org/roman-amphitheaters/properties#exclude> true ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Capua" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
@@ -1755,7 +1759,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Carmarthen" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#created> "125"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Moridunum" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "United Kingdom" ;
@@ -1781,7 +1785,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 8000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Caesarean" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/caesarean> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Size is only estimate based on Welch reporting a comparison with Sutrium." ;
         <http://purl.org/roman-amphitheaters/properties#created> "-50"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Carmo" ;
@@ -1810,7 +1814,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 13000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#created> "100"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 66 ;
@@ -1841,7 +1845,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Carnuntum (Ludus)" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#exclude> true ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Carnuntum" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Austria" ;
@@ -1868,7 +1872,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 8000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "First Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/first-century> ;
         <http://purl.org/roman-amphitheaters/properties#created> "80"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 71 ;
@@ -1900,7 +1904,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Carpis" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://www.amphi-theatrum.de/1316.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Specific location not known." ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Carpis" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Tunisia" ;
@@ -1928,7 +1932,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 5945 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 6.21E1 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 3.76E1 ;
@@ -1960,7 +1964,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 30000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#created> "100"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 64 ;
@@ -1991,7 +1995,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Carthago Nova/Col. Urbs Iulia" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Carthago Nova" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Spain" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 166 ;
@@ -2014,7 +2018,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Cassino" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Casinum" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 215 ;
@@ -2041,7 +2045,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 20000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Severan" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/severan> ;
         <http://purl.org/roman-amphitheaters/properties#created> "212"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 6.75E1 ;
@@ -2077,7 +2081,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 16000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 52 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 38 ;
@@ -2109,7 +2113,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 2179 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 32 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 24 ;
@@ -2139,7 +2143,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Chartres" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Autricum" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/108778> ;
@@ -2161,7 +2165,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Chassenon" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "No longer extant and structure may have been a theater." ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 60 ;
@@ -2193,7 +2197,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 6500
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "The amphitheater is often said to have been built to provide entertainment for prisoners working inthe local quarries. Reference needed." ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 30 ;
@@ -2223,7 +2227,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Cherchell" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Augustan" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/augustan> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 98 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 37 ;
@@ -2250,7 +2254,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Chester" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Flavian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/flavian> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 5.67E1 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 4.83E1 ;
@@ -2285,7 +2289,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Chichester" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Flavian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/flavian> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 70 ;
             <http://purl.org/roman-amphitheaters/properties#exterior-minor> 60 ;
@@ -2315,7 +2319,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Chieti Amphitheater" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://www.amphi-theatrum.de/23938.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 59 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 4.07E1 ;
@@ -2347,7 +2351,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 4245 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Julio-Claudian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/julio-claudian> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 55 ;
             <http://purl.org/roman-amphitheaters/properties#exterior-minor> 44 ;
@@ -2376,7 +2380,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Cirencester" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1490.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Corinium Dobunnorum" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "United Kingdom" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 150 ;
@@ -2400,7 +2404,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Cividate Camuno" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Civitas Camunnorum" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 152 ;
@@ -2422,7 +2426,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Compsa" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Republican" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/republican> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Compsa" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/442550> ;
@@ -2448,7 +2452,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 4000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Julio-Claudian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/julio-claudian> ;
         <http://purl.org/roman-amphitheaters/properties#created> "50"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 54 ;
@@ -2478,7 +2482,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Cordoba" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "First Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/first-century> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Discovered in 2003." ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Colonia Patricia" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Spain" ;
@@ -2504,7 +2508,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 14000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Caesarean" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/caesarean> ;
         <http://purl.org/roman-amphitheaters/properties#created> "-44"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 58 ;
@@ -2535,7 +2539,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Cumae" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Republican" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/republican> ;
         <http://purl.org/roman-amphitheaters/properties#created> "-100"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 114 ;
@@ -2564,7 +2568,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Cyrene" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 3.27E1 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 2.88E1 ;
@@ -2590,7 +2594,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Cyzicus" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Location not specific." ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 150 ;
@@ -2617,7 +2621,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at “Dambach”" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1792.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Germany" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/118638> ;
         <http://purl.org/roman-amphitheaters/properties#province> <http://purl.org/roman-amphitheaters/resource/raetia> ;
@@ -2642,7 +2646,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Djerba Amphitheater" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "As confirmed by A. Rabinowitz. Pending bibliography check, ext. major approximate." ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 68 ;
@@ -2672,7 +2676,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Dorchester / Maumbury Henge" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1491.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Flavian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/flavian> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 58 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 47 ;
@@ -2709,7 +2713,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Drevant" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Arena oval is almost complete so very a near a “full” amphitheater." ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 25 ;
@@ -2742,7 +2746,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 1000 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "N. Pollard's “Soldiers, Cities, and Civilians in Roman Syria”, p. 52"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Severan" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/severan> ;
         <http://purl.org/roman-amphitheaters/properties#created> "216"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dedication> "http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD023604" ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
@@ -2780,7 +2784,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 20000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#created> "100"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 6.14E1 ;
@@ -2815,7 +2819,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Egnazia Amphitheater" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://www.amphi-theatrum.de/1610.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Third Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/third-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 37 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 25
@@ -2847,7 +2851,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 3500
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 47 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 38 ;
@@ -2882,7 +2886,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 3343 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "First Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/first-century> ;
         <http://purl.org/roman-amphitheaters/properties#created> "50"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 71 ;
@@ -2912,7 +2916,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Espejo" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Caesarean" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/caesarean> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Ucubi" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Spain" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/266081> ;
@@ -2939,7 +2943,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 7986 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Augustan" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/augustan> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 5.43E1 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 3.27E1 ;
@@ -2974,7 +2978,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Falerone Amphitheater" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://www.amphi-theatrum.de/1525.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Julio-Claudian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/julio-claudian> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 8.88E1 ;
             <http://purl.org/roman-amphitheaters/properties#exterior-minor> 80
@@ -3002,7 +3006,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Ferento" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1470.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Republican" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/republican> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 68 ;
             <http://purl.org/roman-amphitheaters/properties#exterior-minor> 40 ;
@@ -3031,7 +3035,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Fermo Amphitheater" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Firmum Picenum" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/413135> ;
@@ -3062,7 +3066,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 2729 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Austria" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 189 ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/197273> ;
@@ -3089,7 +3093,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Florence" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Florentia" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 205 ;
@@ -3111,7 +3115,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Forum Novum Amphitheater" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "First Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/first-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 45 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 25
@@ -3151,7 +3155,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 12000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Flavian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/flavian> ;
         <http://purl.org/roman-amphitheaters/properties#created> "100"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 6.77E1 ;
@@ -3182,7 +3186,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Frosinone Amphitheater" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://www.amphi-theatrum.de/1531.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 78 ;
             <http://purl.org/roman-amphitheaters/properties#exterior-minor> 57
@@ -3214,7 +3218,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 3204 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Hadrianic" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/hadrianic> ;
         <http://purl.org/roman-amphitheaters/properties#created> "132"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 52 ;
@@ -3247,7 +3251,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 5000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 44 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 39
@@ -3276,7 +3280,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 1300
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 61 ;
             <http://purl.org/roman-amphitheaters/properties#exterior-minor> 40
@@ -3305,7 +3309,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Gleisdorf" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/2424.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Austria" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/197284> ;
         <http://purl.org/roman-amphitheaters/properties#province> <http://purl.org/roman-amphitheaters/resource/noricum> ;
@@ -3326,7 +3330,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Gortyn" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Greece" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 218 ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/589796> ;
@@ -3351,7 +3355,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 17000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Third Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/third-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 50 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 41 ;
@@ -3385,7 +3389,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 7657 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 60 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 40 ;
@@ -3414,7 +3418,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Hadrian's Villa at Tivoli" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Hadrianic" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/hadrianic> ;
         <http://purl.org/roman-amphitheaters/properties#created> "120"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#emperor> "Hadrian" ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Villa Hadriani" ;
@@ -3448,7 +3452,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 7500
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 46 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 33 ;
@@ -3483,7 +3487,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 5400
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 48 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 32 ;
@@ -3516,7 +3520,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Henchir Douama Amphitheater" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://www.amphi-theatrum.de/1345.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 55 ;
             <http://purl.org/roman-amphitheaters/properties#exterior-minor> 43 ;
@@ -3545,7 +3549,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Hisarya" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://www.amphi-theatrum.de/2003.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Diocletianopolis" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Bulgaria" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 174 ;
@@ -3567,7 +3571,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Spello" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Hispellum" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 124 ;
@@ -3589,7 +3593,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Hydata Hypsitana/Forum Traiani" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 209 ;
         <http://purl.org/roman-amphitheaters/properties#periodo> <http://n2t.net/ark:/99152/p0wf3wdp4xt> ;
@@ -3613,7 +3617,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Ierapetra" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/2128.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Greece" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 211 ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/589807> ;
@@ -3640,7 +3644,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 11914 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Briefly mentioned in PECS via Perseus, with dimensions. Said to have been covered." ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 67 ;
@@ -3680,7 +3684,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Istanbul" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Byzantium" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Turkey" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/520985> ;
@@ -3705,7 +3709,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 25000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#created> "140"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 70 ;
@@ -3739,7 +3743,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 8046 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 67 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 42 ;
@@ -3770,7 +3774,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Jebel Moraba Amphitheater" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 144 ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/208942158> ;
@@ -3800,7 +3804,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Künzing" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1876.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Quintana" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Germany" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 107 ;
@@ -3827,7 +3831,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 15400
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 68 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 55 ;
@@ -3856,7 +3860,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Larinum" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 57 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 40 ;
@@ -3901,7 +3905,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 25000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 5.31E1 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 3.42E1 ;
@@ -3931,7 +3935,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at León" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Legio" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Spain" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/236512> ;
@@ -3955,7 +3959,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 9000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 45 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 26 ;
@@ -3985,7 +3989,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 16000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Neronian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/neronian> ;
         <http://purl.org/roman-amphitheaters/properties#created> "56"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dedication> "http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD015590" ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
@@ -4019,7 +4023,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 5380 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 66 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 3.66E1 ;
@@ -4055,7 +4059,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 7245 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "First Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/first-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 48 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 45 ;
@@ -4085,7 +4089,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Limoges" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1549.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Augustoritum" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/138203> ;
@@ -4107,7 +4111,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Literno" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1862.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Republican" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/republican> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Location is incorrect. Said to be south of city wall." ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Liternum" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
@@ -4130,7 +4134,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Lixus" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Morocco" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 76 ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/275666> ;
@@ -4155,7 +4159,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 6500
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Flavian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/flavian> ;
         <http://purl.org/roman-amphitheaters/properties#created> "70"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 60 ;
@@ -4186,7 +4190,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Lucca" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Luca" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 98 ;
@@ -4213,7 +4217,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 17149 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Augustan" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/augustan> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 7.22E1 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 4.32E1 ;
@@ -4242,7 +4246,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Ludus Magnus Arena" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#created> "81"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#exclude> true ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
@@ -4266,7 +4270,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Luna" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 52 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 3.45E1 ;
@@ -4297,7 +4301,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 20000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "The capacity refers to number of seats after the early 2nd AD century expansion. In AD 19 the capacity was under 2000." ;
         <http://purl.org/roman-amphitheaters/properties#created> "19"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
@@ -4333,7 +4337,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 5000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 3.84E1 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 2.48E1 ;
@@ -4365,7 +4369,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 4000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Severan" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/severan> ;
         <http://purl.org/roman-amphitheaters/properties#created> "200"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 50 ;
@@ -4396,7 +4400,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Meaux" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/2416.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Iatinon" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/109059> ;
@@ -4418,18 +4422,18 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Megiddo" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 70 ;
             <http://purl.org/roman-amphitheaters/properties#exterior-minor> 50 ;
-            <http://purl.org/roman-amphitheaters/properties#source> <http://www.hadashot-esi.org.il/Report-Detail-Eng.aspx?id=5390>
+            <http://purl.org/roman-amphitheaters/properties#source> <http://www.hadashot-esi.org.il/report_detail_eng.aspx?id=5390>
         ] ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Legio" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Israel" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/678266> ;
         <http://purl.org/roman-amphitheaters/properties#province> <http://purl.org/roman-amphitheaters/resource/judaea> ;
         <http://purl.org/roman-amphitheaters/properties#type> "amphitheater" ;
-        <http://purl.org/roman-amphitheaters/resource/bibliography> "http://www.hadashot-esi.org.il/Report-Detail-Eng.aspx?id=5390" ;
+        <http://purl.org/roman-amphitheaters/resource/bibliography> "http://www.hadashot-esi.org.il/report_detail_eng.aspx?id=5390" ;
         <http://purl.org/roman-amphitheaters/resource/vici> "http://vici.org/vici/18746" ;
         <http://purl.org/roman-amphitheaters/resource/visibility> "good" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Megiddo"
@@ -4449,7 +4453,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 15000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Julio-Claudian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/julio-claudian> ;
         <http://purl.org/roman-amphitheaters/properties#created> "-8"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 64 ;
@@ -4484,7 +4488,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Mesarfelta" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://www.amphi-theatrum.de/1446.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Specific location not known." ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Mesarfelta" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Algeria" ;
@@ -4512,7 +4516,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 30000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Late1stEarly2nd" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/late-1st-early-2nd> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 148 ;
             <http://purl.org/roman-amphitheaters/properties#exterior-minor> 125 ;
@@ -4548,7 +4552,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 1500
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 44 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 26 ;
@@ -4581,7 +4585,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 31649 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "First Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/first-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 74 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 44 ;
@@ -4609,7 +4613,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Minturno" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "First Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/first-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 130
         ] ;
@@ -4634,7 +4638,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Gallo-Roman Amphitheater at Montbouy" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 48 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 31
@@ -4661,7 +4665,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Monteleone" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1504.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Trebula Mutuesca" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 267 ;
@@ -4683,7 +4687,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Narbonne" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Flavian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/flavian> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 75 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 4.66E1 ;
@@ -4719,7 +4723,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 1500
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Flavian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/flavian> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Date based on main period of military activity at the site." ;
         <http://purl.org/roman-amphitheaters/properties#created> "80"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
@@ -4752,7 +4756,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Nijmegen" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1453.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Ulpia Noviomagus" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Netherlands" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/98921> ;
@@ -4777,7 +4781,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 24000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Flavian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/flavian> ;
         <http://purl.org/roman-amphitheaters/properties#created> "90"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 6.909999999999999E1 ;
@@ -4810,7 +4814,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Nocera Superiore" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1515.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 58 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 34 ;
@@ -4840,7 +4844,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Nole" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1594.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Republican" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/republican> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Nola" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 258 ;
@@ -4865,7 +4869,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Nyon" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Noviodunum" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Switzerland" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 232 ;
@@ -4891,7 +4895,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 17812 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 64 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 42 ;
@@ -4924,7 +4928,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 15550 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 74 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 62 ;
@@ -4955,7 +4959,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 6318 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "First Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/first-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 4.46E1 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 2.84E1 ;
@@ -4991,7 +4995,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 11832 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#created> "120"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 5.25E1 ;
@@ -5024,7 +5028,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Padua" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1399.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Julio-Claudian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/julio-claudian> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 7.640000000000001E1 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 3.95E1 ;
@@ -5056,7 +5060,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 4500
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Republican" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/republican> ;
         <http://purl.org/roman-amphitheaters/properties#created> "-75"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 56 ;
@@ -5087,7 +5091,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Possible Amphitheater at Palmyra" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Syria" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/668331> ;
         <http://purl.org/roman-amphitheaters/properties#province> <http://purl.org/roman-amphitheaters/resource/syria> ;
@@ -5111,7 +5115,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Paphos" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Cyprus" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 105 ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/707586> ;
@@ -5135,7 +5139,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 15000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Flavian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/flavian> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Lutetia Parisiorum" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 160 ;
@@ -5159,7 +5163,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Perigueux" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 131 ;
             <http://purl.org/roman-amphitheaters/properties#exterior-minor> 113
@@ -5187,7 +5191,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Poitiers" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1381.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 108 ;
             <http://purl.org/roman-amphitheaters/properties#exterior-minor> 88
@@ -5212,7 +5216,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Pollenzo" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Pollentia" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/383745> ;
@@ -5237,7 +5241,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 22000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Republican" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/republican> ;
         <http://purl.org/roman-amphitheaters/properties#created> "-80"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 66 ;
@@ -5281,7 +5285,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Porolissum" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1443.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "There was a wooden predecessor." ;
         <http://purl.org/roman-amphitheaters/properties#created> "157"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
@@ -5314,7 +5318,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 2000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Not certainly an Amphitheater." ;
         <http://purl.org/roman-amphitheaters/properties#exclude> true ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Portus" ;
@@ -5346,7 +5350,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Early Amphitheater at Pozzuoli" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Republican" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/republican> ;
         <http://purl.org/roman-amphitheaters/properties#created> "-70"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Puteoli" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
@@ -5372,7 +5376,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 35700
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Flavian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/flavian> ;
         <http://purl.org/roman-amphitheaters/properties#created> "70"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 7.48E1 ;
@@ -5409,7 +5413,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 10878
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 4.75E1 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 4.45E1 ;
@@ -5440,7 +5444,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 26000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Julio-Claudian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/julio-claudian> ;
         <http://purl.org/roman-amphitheaters/properties#created> "1"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 6.795E1 ;
@@ -5473,7 +5477,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Pupput" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://www.amphi-theatrum.de/1326.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "So far, available information is incomplete. Site as proxy for location." ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 45 ;
@@ -5502,7 +5506,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Reggio Emilia" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Regium Lepidi" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/383755> ;
@@ -5526,7 +5530,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Reims" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1394.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Durocortorum" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/108945> ;
@@ -5560,7 +5564,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 13967 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Hadrianic" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/hadrianic> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Date on the basis of coins of Hadrian found in foundations." ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 7.376000000000001E1 ;
@@ -5594,7 +5598,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Roccelletta di Borgia" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://www.amphi-theatrum.de/1598.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "First Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/first-century> ;
         <http://purl.org/roman-amphitheaters/properties#created> "98"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 88 ;
@@ -5627,7 +5631,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 15000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Segodunum" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/138579> ;
@@ -5651,7 +5655,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 7000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Severan" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/severan> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Brick construction." ;
         <http://purl.org/roman-amphitheaters/properties#created> "218"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
@@ -5684,7 +5688,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 50000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Flavian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/flavian> ;
         <http://purl.org/roman-amphitheaters/properties#created> "80"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 83 ;
@@ -5707,7 +5711,7 @@
             <http://purl.org/roman-amphitheaters/properties#source-note> "Letter of Theoderic to Flavius Anicius Maximus (Cassiordorus, Variae V.42)" ;
             <http://purl.org/roman-amphitheaters/resource/date> 523
         ] ;
-        <http://purl.org/roman-amphitheaters/resource/youtube> "https://www.youtube.com/watch?v=flXe8h3i5vc", "https://www.youtube.com/watch?v=kxwenPo1grc" ;
+        <http://purl.org/roman-amphitheaters/resource/youtube> "https://www.youtube.com/watch?v=UtwG_ziYI0Y", "https://www.youtube.com/watch?v=flXe8h3i5vc", "https://www.youtube.com/watch?v=kxwenPo1grc" ;
         <http://www.w3.org/2000/01/rdf-schema#label> "Colosseum"
     ] .
 
@@ -5727,7 +5731,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 2309 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Julio-Claudian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/julio-claudian> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 30 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 20 ;
@@ -5759,7 +5763,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Rugge Amphitheater" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://www.amphi-theatrum.de/2217.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 83 ;
             <http://purl.org/roman-amphitheaters/properties#exterior-minor> 66
@@ -5789,7 +5793,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 20700
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#created> "125"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 65 ;
@@ -5823,7 +5827,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 20197 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 6.52E1 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 3.92E1 ;
@@ -5854,7 +5858,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Salamis" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Northern Cyprus" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/707617> ;
         <http://purl.org/roman-amphitheaters/properties#province> <http://purl.org/roman-amphitheaters/resource/cyprus> ;
@@ -5877,7 +5881,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 13380
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#created> "170"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 6.43E1 ;
@@ -5909,7 +5913,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at San Benedetto dei Marsi" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1601.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 101 ;
             <http://purl.org/roman-amphitheaters/properties#source> <http://maps.google.com/>
@@ -5936,7 +5940,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at San Giovanni in Carico" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://www.amphi-theatrum.de/2084.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Fabrateria Nova" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/432825> ;
@@ -5963,7 +5967,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 20000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "First Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/first-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 64 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 42 ;
@@ -5992,7 +5996,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Ulpia Traiana Sarmizegetusa" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 66 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 47 ;
@@ -6029,7 +6033,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 6500
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#created> "160"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 47 ;
@@ -6060,7 +6064,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Scythopolis/Nysa" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#exclude> true ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Israel" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 98 ;
@@ -6089,7 +6093,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 7500
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Flavian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/flavian> ;
         <http://purl.org/roman-amphitheaters/properties#created> "90"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 47 ;
@@ -6120,7 +6124,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Senlis" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1483.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "First Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/first-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 4.15E1 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 3.445E1 ;
@@ -6155,7 +6159,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 7200
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 5.15E1 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 4.07E1 ;
@@ -6195,7 +6199,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 11300
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Not located. Near casbah." ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 70 ;
@@ -6229,7 +6233,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 3200
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 38 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 22 ;
@@ -6263,7 +6267,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 7147 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "See http://www.heritagedaily.com/2014/02/8-roman-ampitheatres-in-britain/101973" ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 49 ;
@@ -6296,7 +6300,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Sinuessa" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Probably not precisely located." ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 80 ;
@@ -6326,7 +6330,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Siponto Amphitheater" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://www.amphi-theatrum.de/2222.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Sipous" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/442797> ;
@@ -6349,7 +6353,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Sisapo" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Spain" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/266043> ;
         <http://purl.org/roman-amphitheaters/properties#province> <http://purl.org/roman-amphitheaters/resource/baetica> ;
@@ -6374,7 +6378,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 8000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 57 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 3.85E1 ;
@@ -6406,7 +6410,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 20000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Post-Severan" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/post-severan> ;
         <http://purl.org/roman-amphitheaters/properties#created> "284"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 6.05E1 ;
@@ -6439,7 +6443,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Sopron" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Scarabantia" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Hungary" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 162 ;
@@ -6462,7 +6466,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Spoleto Amphitheater" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 115 ;
             <http://purl.org/roman-amphitheaters/properties#exterior-minor> 85 ;
@@ -6492,7 +6496,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Saint Marcel" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1618.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Argentomagus" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "France" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/138192> ;
@@ -6517,7 +6521,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater of Statilius Taurus" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Augustan" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/augustan> ;
         <http://purl.org/roman-amphitheaters/properties#created> "-24"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#exclude> true ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
@@ -6544,7 +6548,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Suasa" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 58 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 36 ;
@@ -6575,7 +6579,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Suessa Arunca" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Republican" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/republican> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Suessa" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/433132> ;
@@ -6603,7 +6607,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 3015 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#created> "-20"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 44 ;
@@ -6637,7 +6641,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 8500
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Republican" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/republican> ;
         <http://purl.org/roman-amphitheaters/properties#created> "-50"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 230 ;
@@ -6666,7 +6670,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 28773 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Julio-Claudian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/julio-claudian> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 6.98E1 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 3.97E1 ;
@@ -6702,7 +6706,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 15000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#created> "100"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 62 ;
@@ -6731,7 +6735,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Teano" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Republican" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/republican> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Actual location not known." ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Teanum" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
@@ -6757,7 +6761,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Thuburbo Minus" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://www.amphi-theatrum.de/1341.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Thuburbo Minus" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Tunisia" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/315219> ;
@@ -6782,7 +6786,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 9000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Republican" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/republican> ;
         <http://purl.org/roman-amphitheaters/properties#created> "-75"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 112 ;
@@ -6811,7 +6815,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Teramo" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://www.amphi-theatrum.de/1406.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 7.393000000000001E1 ;
             <http://purl.org/roman-amphitheaters/properties#exterior-minor> 5.616E1
@@ -6839,7 +6843,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Termini Imerese" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://amphi-theatrum.de/1555.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Flavian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/flavian> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Location approximate." ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 53 ;
@@ -6869,7 +6873,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Terni Amphitheater" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "First Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/first-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 65 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 36 ;
@@ -6903,7 +6907,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 8700
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#created> "125"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 62 ;
@@ -6936,7 +6940,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 9400
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Flavian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/flavian> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Enlarged in late 3rd century." ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 5.28E1 ;
@@ -6969,7 +6973,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 6300
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Not located." ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 3.08E1 ;
@@ -7009,7 +7013,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 35000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Post-Severan" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/post-severan> ;
         <http://purl.org/roman-amphitheaters/properties#created> "238"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 65 ;
@@ -7046,7 +7050,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 9000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#created> "125"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 60 ;
@@ -7076,7 +7080,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Tibur" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
         <http://purl.org/roman-amphitheaters/properties#orientation> 197 ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/423081> ;
@@ -7101,7 +7105,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 2300
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Specific location not known." ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 44 ;
@@ -7136,7 +7140,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 4398 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Late Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/late-second-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 57 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 35 ;
@@ -7172,7 +7176,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Todi Amphitheater" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 90 ;
             <http://purl.org/roman-amphitheaters/properties#exterior-minor> 60 ;
@@ -7205,7 +7209,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 2772 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 35 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 28 ;
@@ -7234,7 +7238,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Toulouse" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#created> "50"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 59 ;
@@ -7268,7 +7272,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 34000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Hadrianic" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/hadrianic> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Large capacity based on recent work as well described in Wikipedia." ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 68 ;
@@ -7308,7 +7312,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 20000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#created> "100"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 7.054000000000001E1 ;
@@ -7344,7 +7348,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 4853 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 49 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 30 ;
@@ -7377,7 +7381,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 5150
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Flavian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/flavian> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 59 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 35 ;
@@ -7410,7 +7414,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 17100
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 80 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 60 ;
@@ -7441,7 +7445,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Vasto" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Location approximate, near to DARE marker." ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Histonium" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
@@ -7470,7 +7474,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 2901 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Julio-Claudian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/julio-claudian> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 37 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 2.55E1 ;
@@ -7508,7 +7512,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 10602 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 58 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 37 ;
@@ -7538,7 +7542,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Vercelli" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Vercellae" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "Italy" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/383815> ;
@@ -7563,7 +7567,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 30000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Julio-Claudian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/julio-claudian> ;
         <http://purl.org/roman-amphitheaters/properties#created> "30"^^<http://www.w3.org/2001/XMLSchema#gDate> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 7.568000000000001E1 ;
@@ -7599,7 +7603,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 12000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Second Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/second-century> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 85 ;
             <http://purl.org/roman-amphitheaters/properties#source> <http://maps.google.com>
@@ -7629,7 +7633,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 15142 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Flavian" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/flavian> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 64 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 51 ;
@@ -7642,7 +7646,7 @@
         <http://purl.org/roman-amphitheaters/properties#province> <http://purl.org/roman-amphitheaters/resource/germania-superior> ;
         <http://purl.org/roman-amphitheaters/properties#type> "amphitheater" ;
         <http://purl.org/roman-amphitheaters/resource/firstphase> [
-            <http://purl.org/roman-amphitheaters/properties#chronogroup> "Julio-Claudian" ;
+            <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/julio-claudian> ;
             <http://purl.org/roman-amphitheaters/properties#created> "50"^^<http://www.w3.org/2001/XMLSchema#gDate>
         ] ;
         <http://purl.org/roman-amphitheaters/resource/golvinid> "17" ;
@@ -7660,7 +7664,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at Virunum" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 96 ;
             <http://purl.org/roman-amphitheaters/properties#exterior-minor> 42 ;
@@ -7692,7 +7696,7 @@
             <http://purl.org/roman-amphitheaters/properties#quantity> 10000 ;
             <http://purl.org/roman-amphitheaters/properties#source-note> "Golvin"
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "First Century" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/first-century> ;
         <http://purl.org/roman-amphitheaters/properties#comment> "Newly discovered in 2015. Location approximate." ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 80 ;
@@ -7725,7 +7729,7 @@
         <http://purl.org/roman-amphitheaters/properties#capacity> [
             <http://purl.org/roman-amphitheaters/properties#quantity> 10000
         ] ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#arena-major> 5.85E1 ;
             <http://purl.org/roman-amphitheaters/properties#arena-minor> 49 ;
@@ -7757,7 +7761,7 @@
     ] ;
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Amphitheater at York" ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#latintoponym> "Eboracum" ;
         <http://purl.org/roman-amphitheaters/properties#moderncountry> "United Kingdom" ;
         <http://purl.org/roman-amphitheaters/properties#pleiades> <http://pleiades.stoa.org/places/89175> ;
@@ -7781,7 +7785,7 @@
     <https://purl.org/geojson/vocab#properties> [
         <http://purl.org/dc/terms/title> "Zagarolo Ludus" ;
         <http://purl.org/roman-amphitheaters/properties#amphitheatrum> <http://www.amphi-theatrum.de/2089.html> ;
-        <http://purl.org/roman-amphitheaters/properties#chronogroup> "Imperial" ;
+        <http://purl.org/roman-amphitheaters/properties#chronogroup> <http://purl.org/roman-amphitheaters/resource/imperial> ;
         <http://purl.org/roman-amphitheaters/properties#dimensions> [
             <http://purl.org/roman-amphitheaters/properties#exterior-major> 40 ;
             <http://purl.org/roman-amphitheaters/properties#source> <http://maps.google.com>
@@ -7798,7 +7802,8 @@
     ] .
 
 []
-    <http://purl.org/roman-amphitheaters/resource/roman-amphitheater-chronogroups> <http://purl.org/roman-amphitheaters/resource/augustan>, <http://purl.org/roman-amphitheaters/resource/caesarean>, <http://purl.org/roman-amphitheaters/resource/first-century>, <http://purl.org/roman-amphitheaters/resource/flavian>, <http://purl.org/roman-amphitheaters/resource/fourth-century>, <http://purl.org/roman-amphitheaters/resource/hadrianic>, <http://purl.org/roman-amphitheaters/resource/imperial>, <http://purl.org/roman-amphitheaters/resource/julio-claudian>, <http://purl.org/roman-amphitheaters/resource/late-1st-early-2nd>, <http://purl.org/roman-amphitheaters/resource/late-second-century>, <http://purl.org/roman-amphitheaters/resource/neronian>, <http://purl.org/roman-amphitheaters/resource/post-severan>, <http://purl.org/roman-amphitheaters/resource/republican>, <http://purl.org/roman-amphitheaters/resource/second-century>, <http://purl.org/roman-amphitheaters/resource/severan>, <http://purl.org/roman-amphitheaters/resource/third-century> ;
+    <http://purl.org/roman-amphitheaters/resource/roman-amphitheaters-chronogroups> <http://purl.org/roman-amphitheaters/resource/augustan>, <http://purl.org/roman-amphitheaters/resource/caesarean>, <http://purl.org/roman-amphitheaters/resource/first-century>, <http://purl.org/roman-amphitheaters/resource/flavian>, <http://purl.org/roman-amphitheaters/resource/fourth-century>, <http://purl.org/roman-amphitheaters/resource/hadrianic>, <http://purl.org/roman-amphitheaters/resource/imperial>, <http://purl.org/roman-amphitheaters/resource/julio-claudian>, <http://purl.org/roman-amphitheaters/resource/late-1st-early-2nd>, <http://purl.org/roman-amphitheaters/resource/late-second-century>, <http://purl.org/roman-amphitheaters/resource/neronian>, <http://purl.org/roman-amphitheaters/resource/post-severan>, <http://purl.org/roman-amphitheaters/resource/republican>, <http://purl.org/roman-amphitheaters/resource/second-century>, <http://purl.org/roman-amphitheaters/resource/severan>, <http://purl.org/roman-amphitheaters/resource/third-century> ;
+    <http://purl.org/roman-amphitheaters/resource/roman-amphitheaters-vocabulary> <http://purl.org/roman-amphitheaters/properties#capacity> ;
     a <https://purl.org/geojson/vocab#FeatureCollection> ;
     <https://purl.org/geojson/vocab#features> <http://purl.org/roman-amphitheaters/resource/agenAmphitheater>, <http://purl.org/roman-amphitheaters/resource/ainHedjahAmphitheater>, <http://purl.org/roman-amphitheaters/resource/ainToungaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/albaFucensAmphitheater>, <http://purl.org/roman-amphitheaters/resource/albegnaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/aldburoughAmphitheater>, <http://purl.org/roman-amphitheaters/resource/aleriaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/allifaeAmphitheater>, <http://purl.org/roman-amphitheaters/resource/altinumAmphitheater>, <http://purl.org/roman-amphitheaters/resource/altripaldaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/amiensAmphitheater>, <http://purl.org/roman-amphitheaters/resource/anazarbusAmphitheater>, <http://purl.org/roman-amphitheaters/resource/anconaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/antiochAmphitheater>, <http://purl.org/roman-amphitheaters/resource/aostaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/aphrodisiasAmphitheater>, <http://purl.org/roman-amphitheaters/resource/aquaeNeriAmphitheater>, <http://purl.org/roman-amphitheaters/resource/aquileiaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/aquincumCivilAmphitheater>, <http://purl.org/roman-amphitheaters/resource/aquincumMilitaryAmphitheater>, <http://purl.org/roman-amphitheaters/resource/aquinoAmphitheater>, <http://purl.org/roman-amphitheaters/resource/arezzoAmphitheater>, <http://purl.org/roman-amphitheaters/resource/arlesAmphitheater>, <http://purl.org/roman-amphitheaters/resource/arnsburgAmphitheater>, <http://purl.org/roman-amphitheaters/resource/ascoliPicenoAmphitheater>, <http://purl.org/roman-amphitheaters/resource/assisiAmphitheater>, <http://purl.org/roman-amphitheaters/resource/augstAmphitheater>, <http://purl.org/roman-amphitheaters/resource/augustaBagiennorumAmphitheater>, <http://purl.org/roman-amphitheaters/resource/aureliumCommodianumAmphitheater>, <http://purl.org/roman-amphitheaters/resource/autunAmphitheater>, <http://purl.org/roman-amphitheaters/resource/avellaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/bararusAmphitheater>, <http://purl.org/roman-amphitheaters/resource/barcelonaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/bekaltaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/beneventoAmphitheater>, <http://purl.org/roman-amphitheaters/resource/bergamaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/bernAmphitheater>, <http://purl.org/roman-amphitheaters/resource/besanconAmphitheater>, <http://purl.org/roman-amphitheaters/resource/bevanaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/beziersAmphitheater>, <http://purl.org/roman-amphitheaters/resource/bobadelaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/bolsenaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/bordeauxAmphitheater>, <http://purl.org/roman-amphitheaters/resource/bostraAmphitheater>, <http://purl.org/roman-amphitheaters/resource/botriaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/bourgesAmphitheater>, <http://purl.org/roman-amphitheaters/resource/bragaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/bullaRegiaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/burnumAmphitheater>, <http://purl.org/roman-amphitheaters/resource/caerleonAmphitheater>, <http://purl.org/roman-amphitheaters/resource/caerwentAmphitheater>, <http://purl.org/roman-amphitheaters/resource/caesareaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/cagliariAmphitheater>, <http://purl.org/roman-amphitheaters/resource/caistorStEdmundAmphitheater>, <http://purl.org/roman-amphitheaters/resource/calviRisortaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/canosaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/caparraAmphitheater>, <http://purl.org/roman-amphitheaters/resource/capuaImperialAmphitheater>, <http://purl.org/roman-amphitheaters/resource/capuaRepublicanAmphitheater>, <http://purl.org/roman-amphitheaters/resource/carmarthenAmphitheater>, <http://purl.org/roman-amphitheaters/resource/carmonaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/carnuntumCivilianAmphitheater>, <http://purl.org/roman-amphitheaters/resource/carnuntumLudus>, <http://purl.org/roman-amphitheaters/resource/carnuntumMilitaryAmphitheater>, <http://purl.org/roman-amphitheaters/resource/carpisAmphitheater>, <http://purl.org/roman-amphitheaters/resource/carsulaeAmphitheater>, <http://purl.org/roman-amphitheaters/resource/carthageAmphitheater>, <http://purl.org/roman-amphitheaters/resource/carthagoNovaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/cassinoAmphitheater>, <http://purl.org/roman-amphitheaters/resource/castraAlbanaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/catiniaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/charterhouseAmphitheater>, <http://purl.org/roman-amphitheaters/resource/chartresAmphitheater>, <http://purl.org/roman-amphitheaters/resource/chassenonAmphitheater>, <http://purl.org/roman-amphitheaters/resource/chemtouAmphitheater>, <http://purl.org/roman-amphitheaters/resource/cherchellAmphitheater>, <http://purl.org/roman-amphitheaters/resource/chesterAmphitheater>, <http://purl.org/roman-amphitheaters/resource/chichesterAmphitheater>, <http://purl.org/roman-amphitheaters/resource/chietiAmphitheater>, <http://purl.org/roman-amphitheaters/resource/cimiezAmphitheater>, <http://purl.org/roman-amphitheaters/resource/cirencesterAmphitheater>, <http://purl.org/roman-amphitheaters/resource/cividateCamunoAmphitheater>, <http://purl.org/roman-amphitheaters/resource/compsaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/conimbrigaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/cordobaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/corinthAmphitheater>, <http://purl.org/roman-amphitheaters/resource/cumaeAmphitheater>, <http://purl.org/roman-amphitheaters/resource/cyreneAmphitheater>, <http://purl.org/roman-amphitheaters/resource/cyzicusAmphitheater>, <http://purl.org/roman-amphitheaters/resource/dambachAmphitheater>, <http://purl.org/roman-amphitheaters/resource/djerbaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/dorchesterAmphitheater>, <http://purl.org/roman-amphitheaters/resource/drevantAmphitheater>, <http://purl.org/roman-amphitheaters/resource/duraEuroposAmphitheater>, <http://purl.org/roman-amphitheaters/resource/durresAmphitheater>, <http://purl.org/roman-amphitheaters/resource/egnaziaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/eleutheropolisAmphitheater>, <http://purl.org/roman-amphitheaters/resource/empuriesAmphitheater>, <http://purl.org/roman-amphitheaters/resource/espejoAmphitheater>, <http://purl.org/roman-amphitheaters/resource/faleriiNoviAmphitheater>, <http://purl.org/roman-amphitheaters/resource/faleroneAmphitheater>, <http://purl.org/roman-amphitheaters/resource/ferentoAmphitheater>, <http://purl.org/roman-amphitheaters/resource/fermoAmphitheater>, <http://purl.org/roman-amphitheaters/resource/flaviaSolvaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/florenceAmphitheater>, <http://purl.org/roman-amphitheaters/resource/forumNovumAmphitheater>, <http://purl.org/roman-amphitheaters/resource/frejusAmphitheater>, <http://purl.org/roman-amphitheaters/resource/frosinoneAmphitheater>, <http://purl.org/roman-amphitheaters/resource/gemellaeAmphitheater>, <http://purl.org/roman-amphitheaters/resource/gennesAmphitheater>, <http://purl.org/roman-amphitheaters/resource/genzanoPrivateAmphitheater>, <http://purl.org/roman-amphitheaters/resource/gleisdorfAmphitheater>, <http://purl.org/roman-amphitheaters/resource/gortynAmphitheater>, <http://purl.org/roman-amphitheaters/resource/grandHalfAmphitheater>, <http://purl.org/roman-amphitheaters/resource/grumentoAmphitheater>, <http://purl.org/roman-amphitheaters/resource/hadrianVillaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/hencherElKasbatAmphitheater>, <http://purl.org/roman-amphitheaters/resource/hencherZembraAmphitheater>, <http://purl.org/roman-amphitheaters/resource/henchirDuomaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/hisaryaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/hispellumAmphitheater>, <http://purl.org/roman-amphitheaters/resource/hydataHypsitanaForumTraianiAmphitheater>, <http://purl.org/roman-amphitheaters/resource/ierapetraAmphitheater>, <http://purl.org/roman-amphitheaters/resource/imolaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/istanbulAmphitheater>, <http://purl.org/roman-amphitheaters/resource/italicaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/ivreaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/jebelMorabaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/kunzingAmphitheater>, <http://purl.org/roman-amphitheaters/resource/lambaesisAmphitheater>, <http://purl.org/roman-amphitheaters/resource/larinoAmphitheater>, <http://purl.org/roman-amphitheaters/resource/lecceAmphitheater>, <http://purl.org/roman-amphitheaters/resource/leonAmphitheater>, <http://purl.org/roman-amphitheaters/resource/leptiminusAmphitheater>, <http://purl.org/roman-amphitheaters/resource/leptisMagnaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/libarnaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/lillebonnAmphitheater>, <http://purl.org/roman-amphitheaters/resource/limogesAmphitheater>, <http://purl.org/roman-amphitheaters/resource/liternoAmphitheater>, <http://purl.org/roman-amphitheaters/resource/lixusAmphitheater>, <http://purl.org/roman-amphitheaters/resource/londonAmphitheater>, <http://purl.org/roman-amphitheaters/resource/luccaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/luceraAmphitheater>, <http://purl.org/roman-amphitheaters/resource/ludusMagnusArena>, <http://purl.org/roman-amphitheaters/resource/lunaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/lyonAmphitheater>, <http://purl.org/roman-amphitheaters/resource/mactarisAmphitheater>, <http://purl.org/roman-amphitheaters/resource/marcianopolisAmphitheater>, <http://purl.org/roman-amphitheaters/resource/meauxAmphitheater>, <http://purl.org/roman-amphitheaters/resource/megiddoAmphitheater>, <http://purl.org/roman-amphitheaters/resource/meridaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/mesarafeltaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/metzAmphitheater>, <http://purl.org/roman-amphitheaters/resource/miciaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/milanAmphitheater>, <http://purl.org/roman-amphitheaters/resource/minturnaeAmphitheater>, <http://purl.org/roman-amphitheaters/resource/montbouyGalloRomanAmphitheater>, <http://purl.org/roman-amphitheaters/resource/monteleoneAmphitheater>, <http://purl.org/roman-amphitheaters/resource/narbonneAmphitheater>, <http://purl.org/roman-amphitheaters/resource/newsteadAmphitheater>, <http://purl.org/roman-amphitheaters/resource/nijmegenAmphitheater>, <http://purl.org/roman-amphitheaters/resource/nimesAmphitheater>, <http://purl.org/roman-amphitheaters/resource/noceraSuperioreAmphitheater>, <http://purl.org/roman-amphitheaters/resource/noleAmphitheater>, <http://purl.org/roman-amphitheaters/resource/nyonAmphitheater>, <http://purl.org/roman-amphitheaters/resource/ocriculumAmphitheater>, <http://purl.org/roman-amphitheaters/resource/octodurusForumClaudiiVallensiumAmphitheater>, <http://purl.org/roman-amphitheaters/resource/ordonaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/oudnaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/paduaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/paestumAmphitheater>, <http://purl.org/roman-amphitheaters/resource/palmyraAmphitheater>, <http://purl.org/roman-amphitheaters/resource/paphosAmphitheater>, <http://purl.org/roman-amphitheaters/resource/parisAmphitheater>, <http://purl.org/roman-amphitheaters/resource/perigueuxAmphitheater>, <http://purl.org/roman-amphitheaters/resource/poitiersAmphitheater>, <http://purl.org/roman-amphitheaters/resource/pollenzoAmphitheater>, <http://purl.org/roman-amphitheaters/resource/pompeiiAmphitheater>, <http://purl.org/roman-amphitheaters/resource/porolissumAmphitheater>, <http://purl.org/roman-amphitheaters/resource/portusOvalStructure>, <http://purl.org/roman-amphitheaters/resource/pozzuoliEarlyAmphitheater>, <http://purl.org/roman-amphitheaters/resource/pozzuoliFlavianAmphitheater>, <http://purl.org/roman-amphitheaters/resource/ptolemaisAmphitheater>, <http://purl.org/roman-amphitheaters/resource/pulaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/pupputAmphitheater>, <http://purl.org/roman-amphitheaters/resource/reggioEmiliaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/reimsAmphitheater>, <http://purl.org/roman-amphitheaters/resource/riminiAmphitheater>, <http://purl.org/roman-amphitheaters/resource/roccellettaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/rodezAmphitheater>, <http://purl.org/roman-amphitheaters/resource/romeAmphitheatrumCastrense>, <http://purl.org/roman-amphitheaters/resource/romeFlavianAmphitheater>, <http://purl.org/roman-amphitheaters/resource/roselleAmphitheater>, <http://purl.org/roman-amphitheaters/resource/ruggeAmphitheater>, <http://purl.org/roman-amphitheaters/resource/sabrathaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/saintesAmphitheater>, <http://purl.org/roman-amphitheaters/resource/salamisAmphitheater>, <http://purl.org/roman-amphitheaters/resource/salonaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/sanBenedettoDeiMarsiAmphitheater>, <http://purl.org/roman-amphitheaters/resource/sanGiovanniAmphitheater>, <http://purl.org/roman-amphitheaters/resource/sanVittorinoAmphitheater>, <http://purl.org/roman-amphitheaters/resource/sarmizegetusaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/sbeitlaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/scythopolisNysaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/segobrigaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/senlisAmphitheater>, <http://purl.org/roman-amphitheaters/resource/seressiAmphitheater>, <http://purl.org/roman-amphitheaters/resource/siccaVeneriaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/sidiBouArkoubAmphitheater>, <http://purl.org/roman-amphitheaters/resource/silchesterAmphitheater>, <http://purl.org/roman-amphitheaters/resource/sinuessaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/sipontoAmphitheater>, <http://purl.org/roman-amphitheaters/resource/sisapoAmphitheater>, <http://purl.org/roman-amphitheaters/resource/skikdaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/sophiaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/sopronAmphitheater>, <http://purl.org/roman-amphitheaters/resource/spoletoAmphitheater>, <http://purl.org/roman-amphitheaters/resource/stMarcelAmphitheater>, <http://purl.org/roman-amphitheaters/resource/statiliusTaurusAmphitheater>, <http://purl.org/roman-amphitheaters/resource/suasaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/suessaAruncaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/susaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/sutriumAmphitheater>, <http://purl.org/roman-amphitheaters/resource/syracuseAmphitheater>, <http://purl.org/roman-amphitheaters/resource/tarragonaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/teanoAmphitheater>, <http://purl.org/roman-amphitheaters/resource/tebourbaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/telesiaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/teramoAmphitheater>, <http://purl.org/roman-amphitheaters/resource/terminiImereseAmphitheater>, <http://purl.org/roman-amphitheaters/resource/terniAmphitheater>, <http://purl.org/roman-amphitheaters/resource/thaenaeAmphitheater>, <http://purl.org/roman-amphitheaters/resource/thevesteAmphitheater>, <http://purl.org/roman-amphitheaters/resource/thibariAmphitheater>, <http://purl.org/roman-amphitheaters/resource/thysdrusAmphitheater>, <http://purl.org/roman-amphitheaters/resource/thysdrusSmallAmphitheater>, <http://purl.org/roman-amphitheaters/resource/tiburAmphitheater>, <http://purl.org/roman-amphitheaters/resource/tigavaCastraAmphitheater>, <http://purl.org/roman-amphitheaters/resource/tipasaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/todiAmphitheater>, <http://purl.org/roman-amphitheaters/resource/tomen-y-murAmphitheater>, <http://purl.org/roman-amphitheaters/resource/toulouseAmphitheater>, <http://purl.org/roman-amphitheaters/resource/toursAmphitheater>, <http://purl.org/roman-amphitheaters/resource/trierAmphitheater>, <http://purl.org/roman-amphitheaters/resource/tusculumAmphitheater>, <http://purl.org/roman-amphitheaters/resource/urbisagliaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/uticaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/vastoAmphitheater>, <http://purl.org/roman-amphitheaters/resource/velleiaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/venosaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/vercelliAmphitheater>, <http://purl.org/roman-amphitheaters/resource/veronaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/viminaciumAmphitheater>, <http://purl.org/roman-amphitheaters/resource/vindonissaAmphitheater>, <http://purl.org/roman-amphitheaters/resource/virunumAmphitheater>, <http://purl.org/roman-amphitheaters/resource/volterraAmphitheater>, <http://purl.org/roman-amphitheaters/resource/xantenAmphitheater>, <http://purl.org/roman-amphitheaters/resource/yorkAmphitheater>, <http://purl.org/roman-amphitheaters/resource/zagaroloLudus> .
 
