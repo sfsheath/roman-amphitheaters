@@ -7870,7 +7870,7 @@
     },{
         "@id": "ramphsprops:chronogroup",
         "label": "Chronological Group",
-        "ramphsprops:x-sort-order": "011-header"
+        "ramphsprops:x-sort-order": "012-chronology"
     },{
         "@id": "ramphsprops:comment",
         "label": "Comment",
@@ -7880,13 +7880,29 @@
         "label": "Created",
         "ramphsprops:x-sort-order": "011-header"
     },{
-        "@id": "ramphsprops:created",
-        "label": "Created",
-        "ramphsprops:x-sort-order": "011-header"
-    },{
         "@id": "ramphsprops:dimensions",
         "label": "Dimensions",
         "ramphsprops:x-sort-order": "011-header"
+    },{
+        "@id": "ramphsprops:emperor",
+        "label": "Emperor",
+        "ramphsprops:x-sort-order": "012-chronology"
+    },{
+        "@id": "ramphsprops:exclude",
+        "label": "Exclude from 2nd Century Group",
+        "ramphsprops:x-sort-order": "012-chronology"
+    },{
+        "@id": "ramphsprops:golvinid",
+        "label": "Golvin Catalog No.",
+        "ramphsprops:x-sort-order": "014-identifiers"
+    },{
+        "@id": "ramphsprops:hypogeum",
+        "label": "Hypogeum",
+        "ramphsprops:x-sort-order": "012-chronology"
+    },{
+        "@id": "ramphsprops:military",
+        "label": "Military",
+        "ramphsprops:x-sort-order": "012-chronology"
     },
     {
         "@id": "rdfs:label",
