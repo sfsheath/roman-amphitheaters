@@ -42,6 +42,7 @@
     "amphitheatrum": {"@id": "ramphsprops:amphitheatrum","@type": "@id"},
     "arena-major": {"@id": "ramphsprops:arena-major" },
     "arena-minor": {"@id": "ramphsprops:arena-minor" },
+    "bibliography": { "@id": "ramphsprops:bibliography" },
     "buildingtype": { "@id": "ramphsprops:building-type" },
     "capacity": {"@id": "ramphsprops:capacity" },
     "chronogroup": {"@id": "ramphsprops:chronogroup","@type": "@id"},
@@ -57,12 +58,14 @@
     "exterior-minor": {"@id": "ramphsprops:exterior-minor" },
     "hypogeum": {"@id": "ramphsprops:hypogeum" },
     "label": {"@id": "rdfs:label"},
+    "lastuse": {"@id": "ramphsprops:last-use"},
     "latintoponym": {"@id": "ramphsprops:latintoponym"},
     "military": { "@id": "ramphsprops:military"},
     "moderncountry": { "@id": "ramphsprops:moderncountry"},
     "orientation": {"@id": "ramphsprops:orientation" },
     "periodo": {"@id": "ramphsprops:periodo", "@type": "@id" },
     "pleiades": {"@id": "ramphsprops:pleiades","@type": "@id"},
+    "pleiadesspecific": {"@id": "ramphsprops:pleiades-specific","@type": "@id"},
     "province": { "@id": "ramphsprops:province","@type": "@id"},
     "quantity": { "@id": "ramphsprops:quantity"},
     "region": { "@id": "ramphsprops:region","@type": "@id"},
@@ -72,7 +75,7 @@
     "start-date": {"@id": "ramphsprops:start-date" },
     "title": {"@id": "dcterms:title"},
     "welchid": {"@id": "ramphsprops:welchid"},
-    "wikipedia": {"@id": "ramphsprops:wikpedia","@type": "@id"},
+    "wikipedia": {"@id": "ramphsprops:wikipedia","@type": "@id"},
     "youtube": {"@id": "ramphsprops:youtube","@type": "@id"}
 
   },
@@ -7864,6 +7867,10 @@
         "label": "Arena Minor",
         "ramphsprops:x-sort-order": "050-quantities"
     },{
+        "@id": "ramphsprops:bibliography",
+        "label": "Bibliography",
+        "ramphsprops:x-sort-order": "200-other"
+    },{
         "@id": "ramphsprops:building-type",
         "label": "Building Type",
         "ramphsprops:x-sort-order": "011-header"
@@ -7896,6 +7903,14 @@
         "label": "Exclude from 2nd Century Group",
         "ramphsprops:x-sort-order": "012-chronology"
     },{
+        "@id": "ramphsprops:exterior-major",
+        "label": "Exterior Major Axis",
+        "ramphsprops:x-sort-order": "050-quantities"
+    },{
+        "@id": "ramphsprops:exterior-minor",
+        "label": "Exterior Minor",
+        "ramphsprops:x-sort-order": "050-quantities"
+    },{
         "@id": "ramphsprops:golvinid",
         "label": "Golvin Catalog No.",
         "ramphsprops:x-sort-order": "014-identifiers"
@@ -7906,6 +7921,10 @@
     },{
         "@id": "ramphsprops:latintoponym",
         "label": "Latin Toponym",
+        "ramphsprops:x-sort-order": "012-chronology"
+    },{
+        "@id": "ramphsprops:last-use",
+        "label": "Last Use",
         "ramphsprops:x-sort-order": "012-chronology"
     },{
         "@id": "ramphsprops:military",
@@ -7920,17 +7939,41 @@
         "label": "Orientation",
         "ramphsprops:x-sort-order": "200-other"
     },{
+        "@id": "ramphsprops:pleiades",
+        "label": "Pleiades URI",
+        "ramphsprops:x-sort-order": "110-links"
+    },{
+        "@id": "ramphsprops:pleiades-specific",
+        "label": "Pleiades URI for Building",
+        "ramphsprops:x-sort-order": "110-links"
+    },{
+        "@id": "ramphsprops:quantity",
+        "label": "Quantity",
+        "ramphsprops:x-sort-order": "050-quantities"
+    },{
+        "@id": "ramphsprops:source",
+        "label": "Source",
+        "ramphsprops:x-sort-order": "110-links"
+    },{
         "@id": "ramphsprops:region",
         "label": "Italian Region",
         "ramphsprops:x-sort-order": "011-header"
     },{
-        "@id": "ramphsprops:youtube",
-        "label": "YouTube",
-        "ramphsprops:x-sort-order": "110-links"
+        "@id": "ramphsprops:see",
+        "label": "See Also",
+        "ramphsprops:x-sort-order": "200-other"
     },{
         "@id": "ramphsprops:welchid",
         "label": "Welch ID",
         "ramphsprops:x-sort-order": "014-identifiers"
+    },{
+        "@id": "ramphsprops:wikipedia",
+        "label": "Wikipedia",
+        "ramphsprops:x-sort-order": "110-links"
+    },{
+        "@id": "ramphsprops:youtube",
+        "label": "YouTube",
+        "ramphsprops:x-sort-order": "110-links"
     },{
         "@id": "rdfs:label",
         "label": "Label",
