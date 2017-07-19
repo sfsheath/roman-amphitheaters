@@ -7920,6 +7920,10 @@
         "label": "Orientation",
         "ramphsprops:x-sort-order": "200-other"
     },{
+        "@id": "ramphsprops:region",
+        "label": "Italian Region",
+        "ramphsprops:x-sort-order": "011-header"
+    },{
         "@id": "ramphsprops:youtube",
         "label": "YouTube",
         "ramphsprops:x-sort-order": "110-links"
