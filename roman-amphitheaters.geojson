@@ -58,6 +58,7 @@
     "hypogeum": {"@id": "ramphsprops:hypogeum" },
     "label": {"@id": "rdfs:label"},
     "latintoponym": {"@id": "ramphsprops:latintoponym"},
+    "military": { "@id": "ramphsprops:military"},
     "moderncountry": { "@id": "ramphsprops:moderncountry"},
     "orientation": {"@id": "ramphsprops:orientation" },
     "periodo": {"@id": "ramphsprops:periodo", "@type": "@id" },
@@ -70,7 +71,9 @@
     "source-note": {"@id": "ramphsprops:source-note" },
     "start-date": {"@id": "ramphsprops:start-date" },
     "title": {"@id": "dcterms:title"},
-    "wikipedia": {"@id": "ramphsprops:wikpedia","@type": "@id"}
+    "welchid": {"@id": "ramphsprops:welchid"},
+    "wikipedia": {"@id": "ramphsprops:wikpedia","@type": "@id"},
+    "youtube": {"@id": "ramphsprops:youtube","@type": "@id"}
 
   },
   "type": "FeatureCollection",
@@ -316,6 +319,7 @@
       "id": "pompeiiAmphitheater",
       "properties": {
         "title": "Amphitheater at Pompeii",
+        "amphitheatrum": "http://www.amphi-theatrum.de/1367.html",
         "bibliography": [
                     {
                         "dc:bibliographicCitation": "P. Zanker, <i>Pompeii: Public and private life</i> (Cambridge, MA, 1998) 68-72.",
@@ -7861,8 +7865,8 @@
         "ramphsprops:x-sort-order": "050-quantities"
     },{
         "@id": "ramphsprops:building-type",
-        "label": "Amphitheatrum Page",
-        "ramphsprops:x-sort-order": "050-quantities"
+        "label": "Building Type",
+        "ramphsprops:x-sort-order": "011-header"
     },{
         "@id": "ramphsprops:capacity",
         "label": "Capacity",
@@ -7900,11 +7904,30 @@
         "label": "Hypogeum",
         "ramphsprops:x-sort-order": "012-chronology"
     },{
+        "@id": "ramphsprops:latintoponym",
+        "label": "Latin Toponym",
+        "ramphsprops:x-sort-order": "012-chronology"
+    },{
         "@id": "ramphsprops:military",
         "label": "Military",
-        "ramphsprops:x-sort-order": "012-chronology"
-    },
-    {
+        "ramphsprops:x-sort-order": "200-other"
+    },{
+        "@id": "ramphsprops:moderncountry",
+        "label": "Modern Country",
+        "ramphsprops:x-sort-order": "011-header"
+    },{
+        "@id": "ramphsprops:orientation",
+        "label": "Orientation",
+        "ramphsprops:x-sort-order": "200-other"
+    },{
+        "@id": "ramphsprops:youtube",
+        "label": "YouTube",
+        "ramphsprops:x-sort-order": "110-links"
+    },{
+        "@id": "ramphsprops:welchid",
+        "label": "Welch ID",
+        "ramphsprops:x-sort-order": "014-identifiers"
+    },{
         "@id": "rdfs:label",
         "label": "Label",
         "ramphsprops:x-sort-order": "012-header"
