@@ -47,6 +47,7 @@
     "capacity": {"@id": "ramphsprops:capacity" },
     "chronogroup": {"@id": "ramphsprops:chronogroup","@type": "@id"},
     "comment": {"@id": "ramphsprops:comment" },
+    "commonsimage": {"@id": "ramphsprops:commons-image"},
     "created": { "@id": "ramphsprops:created", "@type": "xsd:gDate" },
     "dimensions": {"@id": "ramphsprops:dimensions"},
     "dedication": {"@id": "ramphsprops:dedication"},
@@ -336,6 +337,7 @@
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 22000},
         "chronogroup": "republican",
+        "commonsimage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Pompeji_-_Arena.jpg/1024px-Pompeji_-_Arena.jpg",
         "created":-80,
         "dimensions": {
           "exterior-major": 135,
@@ -3525,6 +3527,7 @@
         "created": 100,
         "capacity": {"quantity": 20000},
         "chronogroup": "second-century",
+        "commonsimage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Amphitheater_Trier_Germany_-_panoramio_%285%29.jpg/1024px-Amphitheater_Trier_Germany_-_panoramio_%285%29.jpg",
         "dimensions": {
           "exterior-major": 100,
           "exterior-minor": 79,
@@ -7890,6 +7893,10 @@
         "label": "Comment",
         "ramphsprops:x-sort-order": "011-header"
     },{
+        "@id": "ramphsprops:commons-image",
+        "label": "Wiki Commons Image",
+        "ramphsprops:x-sort-order": "000-000"
+    },{
         "@id": "ramphsprops:created",
         "label": "Created",
         "ramphsprops:x-sort-order": "011-header"
@@ -7950,17 +7957,25 @@
         "label": "Pleiades URI for Building",
         "ramphsprops:x-sort-order": "110-links"
     },{
+        "@id": "ramphsprops:province",
+        "label": "Province",
+        "ramphsprops:x-sort-order": "050-header"
+    },{
         "@id": "ramphsprops:quantity",
         "label": "Quantity",
         "ramphsprops:x-sort-order": "050-quantities"
+    },{
+        "@id": "ramphsprops:region",
+        "label": "Italian Region",
+        "ramphsprops:x-sort-order": "011-header"
     },{
         "@id": "ramphsprops:source",
         "label": "Source",
         "ramphsprops:x-sort-order": "110-links"
     },{
-        "@id": "ramphsprops:region",
-        "label": "Italian Region",
-        "ramphsprops:x-sort-order": "011-header"
+        "@id": "ramphsprops:source-note",
+        "label": "Source Note",
+        "ramphsprops:x-sort-order": "110-links"
     },{
         "@id": "ramphsprops:see",
         "label": "See Also",
