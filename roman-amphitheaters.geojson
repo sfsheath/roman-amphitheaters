@@ -574,6 +574,7 @@
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 28773, "source-note": "Golvin"},
         "chronogroup": "julio-claudian",
+        "commonsimage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Coliseu_Romà_-_panoramio.jpg/1024px-Coliseu_Romà_-_panoramio.jpg",
         "dimensions": {
           "exterior-major": 146.8,
           "exterior-minor": 118.7,
@@ -1102,6 +1103,7 @@
         "title": "Amphitheater at Paestum",
         "buildingtype": "amphitheater",
         "chronogroup": "republican",
+        "commonsimage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Paestum_BW_2013-05-17_13-16-32.jpg/1024px-Paestum_BW_2013-05-17_13-16-32.jpg",
         "created": -75,
         "capacity": {"quantity": 4500},
         "dimensions": {
@@ -2284,6 +2286,7 @@
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 10720, "source-note": "Golvin"},
         "chronogroup": "julio-claudian",
+        "commonsimage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/100819_Alba_Fucens_Anfiteatro.jpg/1024px-100819_Alba_Fucens_Anfiteatro.jpg",
         "dimensions": {
           "exterior-major": 103,
           "exterior-minor": 76,
@@ -2356,7 +2359,7 @@
         "orientation": 230,
         "region": "regio-vii",
         "welchid": "15",
-        "youtube": ["https://www.youtube.com/watch?v=OgHl5MT95bg","https://www.youtube.com/watch?v=Qh4YPqq-DfE"]
+        "youtube": ["https://www.youtube.com/watch?v=OgHl5MT95bg"]
       },
       "geometry": {
         "type": "Point",
