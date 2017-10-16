@@ -240,7 +240,8 @@
         "orientation": 110,
         "pleiades": "http://pleiades.stoa.org/places/423025",
         "region": "regio-i",
-        "see": "http://pleiades.stoa.org/places/285857974/centerpoint-of-amphitheatrum-flavium",
+        "pleiadesspecific": "http://pleiades.stoa.org/places/285857974/centerpoint-of-amphitheatrum-flavium",
+        "see": "http://numismatics.org/collection/1954.203.170",
         "wikipedia": "http://en.wikipedia.org/wiki/Colosseum",
         "youtube": ["https://www.youtube.com/watch?v=kxwenPo1grc","https://www.youtube.com/watch?v=flXe8h3i5vc", "https://www.youtube.com/watch?v=UtwG_ziYI0Y"]
       },
