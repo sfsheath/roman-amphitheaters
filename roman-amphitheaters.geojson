@@ -7746,6 +7746,29 @@
         ],
         "source": "http://maps.google.com"
       }
+    },{
+      "type": "Feature",
+      "id": "tharrosAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Tharros",
+        "buildingtype": "amphitheater",
+        "chronogroup": "imperial",
+        "comment": "Brought my attention by Eric Poehler",
+        "label": "Tharros",
+        "latintoponym": "Tharros",
+        "moderncountry": "Italy",
+        "pleiades": "http://pleiades.stoa.org/places/472032",
+        "province": "corsica-et-sardinia",
+        "visibility": "good" },
+        "geometry": {
+          "type": "Point",
+          "coordinates":[
+               8.440713,
+               39.876577,
+               27
+        ],
+        "source": "http://maps.google.com"
+      }
     }
   ],
   "roman-amphitheaters-chronogroups":[
