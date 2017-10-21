@@ -4129,7 +4129,7 @@
         "moderncountry": "Italy",
         "pleiades": "http://pleiades.stoa.org/places/462513",
         "province": "sicilia",
-        "wikipedia": ["https://it.wikipedia.org/wiki/Anfiteatro-di-Termini-Imerese"]
+        "wikipedia": "https://it.wikipedia.org/wiki/Anfiteatro-di-Termini-Imerese"
       },
       "geometry": {
         "type": "Point",
