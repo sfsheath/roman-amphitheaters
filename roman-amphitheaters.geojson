@@ -52,7 +52,7 @@
     "dimensions": {"@id": "ramphsprops:dimensions"},
     "dedication": {"@id": "ramphsprops:dedication"},
     "emperor": {"@id":"ramphsprops:emperor"},
-    "end-date": {"@id": "ramphsprops:end-date" },
+    "end_date": {"@id": "ramphsprops:end_date" },
     "exclude": {"@id":"ramphsprops:exclude"},
     "exterior-height": {"@id": "ramphsprops:exterior-height" },
     "exterior-major": {"@id": "ramphsprops:exterior-major" },
@@ -73,7 +73,7 @@
     "see": {"@id": "ramphsprops:see","@type": "@id" },
     "source": {"@id": "ramphsprops:source","@type": "@id" },
     "source-note": {"@id": "ramphsprops:source-note" },
-    "start-date": {"@id": "ramphsprops:start-date" },
+    "start_date": {"@id": "ramphsprops:start_date" },
     "title": {"@id": "dcterms:title"},
     "welchid": {"@id": "ramphsprops:welchid"},
     "wikipedia": {"@id": "ramphsprops:wikipedia","@type": "@id"},
@@ -7771,113 +7771,113 @@
       }
     }
   ],
-  "roman-amphitheaters-chronogroups":[
+  "roman_amphitheaters_chronogroups":[
     {
-        "@id": "republican",
+        "id": "republican",
         "label": "Republican",
-        "earliest-start-date": -80,
-        "start-date": -70,
-        "end-date": -31,
-        "latest-end-date": -27,
+        "earliest-start_date": -80,
+        "start_date": -70,
+        "end_date": -31,
+        "latest-end_date": -27,
         "periodo": "http://n2t.net/ark:/99152/p077pzf85fk"
     },
     {
-        "@id": "caesarean",
+        "id": "caesarean",
         "label": "Caesarean",
-        "start-date": -49,
-        "end-date": -44
+        "start_date": -49,
+        "end_date": -44
     },
     {
-        "@id": "augustan",
+        "id": "augustan",
         "label": "Augustan",
-        "earliest-start-date": -31,
-        "start-date": -27,
-        "end-date": 14,
+        "earliest-start_date": -31,
+        "start_date": -27,
+        "end_date": 14,
         "periodo": "http://n2t.net/ark:/99152/p077pzfw3mb"
     },
     {
-        "@id": "julio-claudian",
+        "id": "julio-claudian",
         "label": "Julio-Claudian",
-        "earliest-start-date": -31,
-        "start-date": -27,
-        "end-date": 68
+        "earliest-start_date": -31,
+        "start_date": -27,
+        "end_date": 68
     },
     {
-        "@id": "neronian",
+        "id": "neronian",
         "label": "Neronian",
-        "start-date": 54,
-        "end-date": 68
+        "start_date": 54,
+        "end_date": 68
     },
     {
-        "@id": "flavian",
+        "id": "flavian",
         "label": "Flavian",
-        "start-date": 69,
-        "end-date": 96,
+        "start_date": 69,
+        "end_date": 96,
         "periodo": "http://n2t.net/ark:/99152/p077pzfw49m"
     },
     {
-        "@id": "first-century",
+        "id": "first-century",
         "label": "First Century",
-        "start-date": 1,
-        "end-date": 99
+        "start_date": 1,
+        "end_date": 99
     },
     {
-        "@id": "late-1st-early-2nd",
+        "id": "late-1st-early-2nd",
         "label": "Late 1st - Early2nd",
-        "earliest-start-date": 50,
-        "start-date": 75,
-        "end-date": 125,
-        "latest-end-date": 150
+        "earliest-start_date": 50,
+        "start_date": 75,
+        "end_date": 125,
+        "latest-end_date": 150
     },
     {
-        "@id": "hadrianic",
+        "id": "hadrianic",
         "label": "Hadrianic",
-        "start-date": 117,
-        "end-date": 138
+        "start_date": 117,
+        "end_date": 138
     },
     {
-        "@id": "second-century",
+        "id": "second-century",
         "label": "Second Century",
-        "start-date": 100,
-        "end-date": 199
+        "start_date": 100,
+        "end_date": 199
     },
     {
-        "@id": "late-second-century",
+        "id": "late-second-century",
         "label": "Late Second Century",
-        "start-date": 150,
-        "end-date": 199
+        "start_date": 150,
+        "end_date": 199
     },
     {
-        "@id": "severan",
+        "id": "severan",
         "label": "Severan",
-        "start-date": 193,
-        "end-date": 235,
+        "start_date": 193,
+        "end_date": 235,
         "periodo": "http://n2t.net/ark:/99152/p077pzfr5f7"
     },{
-        "@id": "third-century",
+        "id": "third-century",
         "label": "Third Century",
-        "start-date": 200,
-        "end-date": 299
+        "start_date": 200,
+        "end_date": 299
     },
     {
-        "@id": "post-severan",
+        "id": "post-severan",
         "label": "Post-Severan",
-        "start-date": 235,
-        "end-date": 280,
-        "latest-end-date": 300
+        "start_date": 235,
+        "end_date": 280,
+        "latest-end_date": 300
     },
     {
-        "@id": "fourth-century",
+        "id": "fourth-century",
         "label": "Fourth Century",
-        "start-date": 300,
-        "end-date": 350
+        "start_date": 300,
+        "end_date": 350
     },
     {
-        "@id": "imperial",
+        "id": "imperial",
         "label": "Imperial",
-        "start-date": 50,
-        "end-date": 280,
-        "latest-end-date": 325,
+        "start_date": 50,
+        "end_date": 280,
+        "latest-end_date": 325,
         "comment": "End Date is approximate year by which amphitheaters are no longer being built.",
         "periodo": "http://n2t.net/ark:/99152/p077pzf9m52"
     }
