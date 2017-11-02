@@ -5729,7 +5729,7 @@
         "amphitheatrum": "http://www.amphi-theatrum.de/2503.html",
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 17100},
-        "chronogroup": "second-century",
+        "chronogroup": "hadrianic",
         "dimensions": {
           "exterior-major": 118,
           "exterior-minor": 98,

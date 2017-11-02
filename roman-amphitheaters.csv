@@ -189,7 +189,7 @@ id,title,label,pleiades,welch,golvin,type,capacity,modcountry,province,italyregi
 "sidiBouArkoubAmphitheater","Amphitheater at Sidi bou Arkoub","Sidi bou Arkoub","https://pleiades.stoa.org/places/315211",,,"amphitheater",3200,"Tunisia","proconsularis",,"imperial",,,56,38,38,22,36.310778,9.31926,277
 "genzanoPrivateAmphitheater","Private Amphitheater at Genzano","Genzano","https://pleiades.stoa.org/places/422838",,,"amphitheater",1300,"Italy",,"regio-iv","second-century",,,61,40,,,41.69286,12.696433,370
 "ainHedjahAmphitheater","Amphitheater at Ain Hedjah","Ain Hedjah","https://pleiades.stoa.org/places/314857",,"64","amphitheater",3000,"Tunisia","proconsularis",,"second-century",,,57,42,43,28,36.391031,9.230632,412
-"uticaAmphitheater","Amphitheater at Utica","Utica","https://pleiades.stoa.org/places/315248",,"61","amphitheater",17100,"Tunisia","proconsularis",,"second-century",,,118,98,80,60,37.052472,10.057188,29
+"uticaAmphitheater","Amphitheater at Utica","Utica","https://pleiades.stoa.org/places/315248",,"61","amphitheater",17100,"Tunisia","proconsularis",,"hadrianic",,,118,98,80,60,37.052472,10.057188,29
 "tebourbaAmphitheater","Amphitheater at Thuburbo Minus","Thuburbo Minus","https://pleiades.stoa.org/places/315219",,"69","amphitheater",,"Tunisia","proconsularis",,"second-century",,,,,,,36.827708,9.835436,43
 "hencherElKasbatAmphitheater","Amphitheater at Henchir el Kasbat","Thuburbo Maius","https://pleiades.stoa.org/places/315220",,"121","amphitheater",7500,"Tunisia","proconsularis",,"second-century",,,74,61,46,33,36.398153,9.905668,201
 "espejoAmphitheater","Amphitheater at Espejo","Espejo","https://pleiades.stoa.org/places/266081",,,"amphitheater",,"Spain","baetica",,"caesarean",,,,,,,37.683989,-4.554198,352
