@@ -2729,7 +2729,7 @@
         "title": "Amphitheater at Mactaris",
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 5000},
-        "chronogroup": "imperial",
+        "chronogroup": "second-century",
         "dimensions": {
            "exterior-major": 63.2,
            "exterior-minor": 49.6,
