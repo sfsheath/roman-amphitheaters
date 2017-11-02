@@ -111,7 +111,7 @@ id,title,label,pleiades,welch,golvin,type,capacity,modcountry,province,italyregi
 "tomen-y-murAmphitheater","Amphitheater at Tomen y Mur","Tomen y Mur","https://pleiades.stoa.org/places/142376597",,"31","amphitheater",2772,"United Kingdom","britannia",,"imperial",,,52,46,35,28,52.931893,-3.9235,295
 "thaenaeAmphitheater","Amphitheater at Thaenae","Thaenae","https://pleiades.stoa.org/places/324825",,"71","amphitheater",8700,"Tunisia","proconsularis",,"imperial",,,90,61,62,33,34.655481,10.673126,7
 "sbeitlaAmphitheater","Amphitheater at Sbeitla","Sbeitla","https://pleiades.stoa.org/places/324816",,"113","amphitheater",6500,"Tunisia","proconsularis",,"second-century",,,72,60,47,37,35.243617,9.114582,556
-"thevesteAmphitheater","Amphitheater at Theveste","Theveste","https://pleiades.stoa.org/places/324831",,,"amphitheater",9400,"Algeria","proconsularis",,"flavian",,,83,70,52.8,39.5,35.401171,8.123809,877
+"tebessaAmphitheater","Amphitheater at Theveste","Tebessa","https://pleiades.stoa.org/places/324831",,,"amphitheater",9400,"Algeria","proconsularis",,"flavian",,,83,70,52.8,39.5,35.401171,8.123809,877
 "trierAmphitheater","Amphitheater at Trier","Trier","https://pleiades.stoa.org/places/108894",,,"amphitheater",20000,"Germany","belgica",,"second-century",,"https://www.youtube.com/watch?v=WYOvPyCntiY",100,79,70.54,48.92,49.748052,6.649088,168
 "susaAmphitheater","Amphitheater at Susa","Susa","https://pleiades.stoa.org/places/167919",,"15","amphitheater",3015,"Italy","alpes-cottiae",,"imperial",,,60,52,44,36,45.133185,7.04497,546
 "ivreaAmphitheater","Amphitheater at Ivrea","Ivrea","https://pleiades.stoa.org/places/383642",,"55","amphitheater",8046,"Italy",,"regio-xi","imperial",,,96,72,67,42,45.467767,7.887734,240
@@ -258,4 +258,4 @@ id,title,label,pleiades,welch,golvin,type,capacity,modcountry,province,italyregi
 "istanbulAmphitheater","Amphitheater at Istanbul","Istanbul","https://pleiades.stoa.org/places/520985",,,"amphitheater",,"Turkey","thracia",,"imperial","uncertain",,,,,,41.014686,28.985442,32
 "chichesterAmphitheater","Amphitheater at Chichester","Chichester","https://pleiades.stoa.org/places/79622",,,"amphitheater",,"United Kingdom","britannia",,"flavian",,,70,60,,,50.835394,-0.771186,14
 "reggioEmiliaAmphitheater","Amphitheater at Reggio Emilia","Reggio Emilia","https://pleiades.stoa.org/places/383755",,,"amphitheater",,"Italy",,"regio-viii","imperial","uncertain",,,,,,44.702888,10.629951,59
-"tharrosAmphitheater","Amphitheater at Tharros","Tharros","https://pleiades.stoa.org/places/472032",,,"amphitheater",,"Italy","corsica-et-sardinia",,"imperial",,,,,,,39.876577,8.440713,27
+"tharrosAmphitheater","Amphitheater at Tharros","Tharros","https://pleiades.stoa.org/places/472032",,,"amphitheater",,"Italy","corsica-et-sardinia",,"imperial",,,50,46,32,32,39.876577,8.440713,27

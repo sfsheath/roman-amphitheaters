@@ -3493,12 +3493,13 @@
       }
     },{
       "type": "Feature",
-      "id": "thevesteAmphitheater",
+      "id": "tebessaAmphitheater",
       "properties": {
         "title": "Amphitheater at Theveste",
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 9400},
         "chronogroup": "flavian",
+        "created": 76,
         "comment": "Enlarged in late 3rd century.",
         "dimensions": {
            "exterior-major": 83,
@@ -3507,7 +3508,8 @@
            "arena-minor": 39.5,
            "source-note": "Bomgardner"
         },
-        "label": "Theveste",
+        "label": "Tebessa",
+        "latintoponym": "Theveste",
         "moderncountry": "Algeria",
         "orientation": 156,
         "pleiades": "https://pleiades.stoa.org/places/324831",
@@ -7754,6 +7756,13 @@
         "buildingtype": "amphitheater",
         "chronogroup": "imperial",
         "comment": "Brought to my attention by Eric Poehler",
+        "dimensions": {
+           "exterior-major": 50,
+           "exterior-minor": 46,
+           "arena-major": 32,
+           "arena-minor": 32,
+           "source": "http://maps.google.com"
+        },
         "label": "Tharros",
         "latintoponym": "Tharros",
         "moderncountry": "Italy",
