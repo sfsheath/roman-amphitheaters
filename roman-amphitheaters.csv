@@ -185,7 +185,7 @@ id,title,label,pleiades,welch,golvin,type,capacity,modcountry,province,italyregi
 "drevantAmphitheater","Amphitheater at Drevant","Drevant","https://pleiades.stoa.org/places/138327",,,"gallo-roman-amphitheater",,"France","aquitania",,"imperial",,,56,,25,,46.693079,2.522625,164
 "seressiAmphitheater","Amphitheater at Seressi","Seressi","https://pleiades.stoa.org/places/315150",,,"amphitheater",7200,"Tunisia","proconsularis",,"second-century",,,76,65.2,51.5,40.7,36.16351,9.775766,471
 "chemtouAmphitheater","Amphitheater at Chemtou","Chemtou","https://pleiades.stoa.org/places/315174",,"67","amphitheater",6500,"Tunisia","proconsularis",,"second-century",,,61,52,30,21,36.490426,8.580552,171
-"bekaltaAmphitheater","Amphitheater at Bekalta","Bekalta","https://pleiades.stoa.org/places/324827",,"185","amphitheater",4400,"Tunisia","proconsularis",,"imperial",,,80,58,67,43,35.619149,11.042371,3
+"bekaltaAmphitheater","Amphitheater at Bekalta","Bekalta","https://pleiades.stoa.org/places/324827",,"185","amphitheater",4400,"Tunisia","proconsularis",,"second-century",,,80,58,67,43,35.619149,11.042371,3
 "sidiBouArkoubAmphitheater","Amphitheater at Sidi bou Arkoub","Sidi bou Arkoub","https://pleiades.stoa.org/places/315211",,,"amphitheater",3200,"Tunisia","proconsularis",,"imperial",,,56,38,38,22,36.310778,9.31926,277
 "genzanoPrivateAmphitheater","Private Amphitheater at Genzano","Genzano","https://pleiades.stoa.org/places/422838",,,"amphitheater",1300,"Italy",,"regio-iv","second-century",,,61,40,,,41.69286,12.696433,370
 "ainHedjahAmphitheater","Amphitheater at Ain Hedjah","Ain Hedjah","https://pleiades.stoa.org/places/314857",,"64","amphitheater",3000,"Tunisia","proconsularis",,"second-century",,,57,42,43,28,36.391031,9.230632,412
@@ -241,7 +241,7 @@ id,title,label,pleiades,welch,golvin,type,capacity,modcountry,province,italyregi
 "chietiAmphitheater","Chieti Amphitheater","Chieti","https://pleiades.stoa.org/places/413333",,,"amphitheater",,"Italy",,"regio-iv","imperial",,,,,59,40.7,42.345021,14.16255,343
 "teanoAmphitheater","Amphitheater at Teano","Teano","https://pleiades.stoa.org/places/423108","7",,"amphitheater",,"Italy",,"regio-ii","republican",,,,,,,41.251661,14.065098,191
 "henchirDuomaAmphitheater","Henchir Douama Amphitheater","Henchir Douama","https://pleiades.stoa.org/places/315242",,,"amphitheater",,"Tunisia","proconsularis",,"imperial",,,55,43,,,36.412511,9.085182,418
-"ainToungaAmphitheater","Ain Tounga Amphitheater","Ain Tounga","https://pleiades.stoa.org/places/315207",,"116","amphitheater",3000,"Tunisia","proconsularis",,"imperial",,,56,46,39,26.5,36.52782,9.361924,226
+"ainToungaAmphitheater","Ain Tounga Amphitheater","Ain Tounga","https://pleiades.stoa.org/places/315207",,"116","amphitheater",3000,"Tunisia","proconsularis",,"second-century",,,56,46,39,26.5,36.52782,9.361924,226
 "aleriaAmphitheater","Aleria Amphitheater","Aleria","https://pleiades.stoa.org/places/472048",,"131","amphitheater",1200,"France","corsica-et-sardinia",,"imperial",,,39.6,34,29.6,24,42.100889,9.5102,41
 "volterraAmphitheater","Volterra Amphitheater","Volterra","https://pleiades.stoa.org/places/403292",,,"amphitheater",10000,"Italy",,"regio-vii","first-century",,,80,60,,,43.407162,10.862152,456
 "vastoAmphitheater","Amphitheater at Vasto","Vasto","https://pleiades.stoa.org/places/413171",,,"amphitheater",,"Italy",,"regio-iv","imperial",,,,,,,42.111291,14.708095,150

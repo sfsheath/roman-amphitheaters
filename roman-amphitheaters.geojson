@@ -5600,7 +5600,7 @@
         "title": "Amphitheater at Bekalta",
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 4400},
-        "chronogroup": "imperial",
+        "chronogroup": "second-century",
         "dimensions": {
           "exterior-major": 80,
           "exterior-minor": 58,
@@ -7310,7 +7310,7 @@
         "amphitheatrum": "http://www.amphi-theatrum.de/1532.html",
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 3000, "source-note": "Golvin"},
-        "chronogroup": "imperial",
+        "chronogroup": "second-century",
         "dare": "http://dare.ht.lu.se/places/24386",
         "dimensions": {
            "exterior-major": 56,
