@@ -2201,7 +2201,7 @@
       "properties": {
         "title": "Amphitheater at Perigueux",
         "buildingtype": "amphitheater",
-        "chronogroup": "imperial",
+        "chronogroup": "first-century",
         "dimensions": {
          "exterior-major": 131,
          "exterior-minor": 113
@@ -2230,6 +2230,11 @@
         "title": "Amphitheater at Cividate Camuno",
         "buildingtype": "amphitheater",
         "chronogroup": "imperial",
+        "dimensions": {
+         "exterior-major": 73,
+         "exterior-minor": 60,
+         "source": "http://maps.google.com/"
+        },
         "label": "Cividate Camuno",
         "latintoponym": "Civitas Camunnorum",
         "moderncountry": "Italy",
@@ -2255,6 +2260,7 @@
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 7657, "source-note": "Golvin"},
         "chronogroup": "imperial",
+        "commonsimage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Grumentum-amphitheater-b.jpg/1024px-Grumentum-amphitheater-b.jpg",
         "dimensions": {
            "exterior-major": 90,
            "exterior-minor": 70,
@@ -2268,7 +2274,8 @@
         "moderncountry": "Italy",
         "orientation": 220,
         "pleiades": "https://pleiades.stoa.org/places/442603",
-        "region": "regio-iii"
+        "region": "regio-iii",
+        "visibility": "good"
       },
       "geometry": {
         "type": "Point",
@@ -7464,6 +7471,11 @@
         "buildingtype": "amphitheater",
         "chronogroup": "imperial",
         "dare": "http://dare.ht.lu.se/places/24620",
+        "dimensions": {
+           "exterior-major": 120,
+           "exterior-minor": 93,
+           "source": "http://maps.google.com"
+        },
         "label": "Pollenzo",
         "latintoponym": "Pollentia",
         "moderncountry": "Italy",

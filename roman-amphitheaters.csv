@@ -68,8 +68,8 @@ id,title,label,pleiades,welch,golvin,type,capacity,modcountry,province,italyregi
 "aquincumCivilAmphitheater","Civil Amphitheater at Budapest","Aquincum (Civilian)","https://pleiades.stoa.org/places/197130",,,"amphitheater",,"Hungary","pannonia",,"imperial",,,86.5,75.5,51,42,47.567577,19.047985,105
 "aquincumMilitaryAmphitheater","Military Amphitheater at Budapest","Aquincum (Military)","https://pleiades.stoa.org/places/197130",,,"amphitheater",,"Hungary","pannonia",,"imperial",,,131,107,88,42,47.532947,19.03906599,101
 "aldburoughAmphitheater","Amphitheater at Aldborough","Aldburough","https://pleiades.stoa.org/places/89209",,,"amphitheater",,"United Kingdom","britannia",,"imperial",,,,,,,54.0881157,-1.3796295999,41
-"perigueuxAmphitheater","Amphitheater at Perigueux","Périgueux","https://pleiades.stoa.org/places/138650",,,"amphitheater",,"France","aquitania",,"imperial",,,131,113,,,45.18274,0.713249,97
-"cividateCamunoAmphitheater","Amphitheater at Cividate Camuno","Cividate Camuno","https://pleiades.stoa.org/places/383617",,,"amphitheater",,"Italy",,"regio-x","imperial",,,,,,,45.94381289,10.280644,283
+"perigueuxAmphitheater","Amphitheater at Perigueux","Périgueux","https://pleiades.stoa.org/places/138650",,,"amphitheater",,"France","aquitania",,"first-century",,,131,113,,,45.18274,0.713249,97
+"cividateCamunoAmphitheater","Amphitheater at Cividate Camuno","Cividate Camuno","https://pleiades.stoa.org/places/383617",,,"amphitheater",,"Italy",,"regio-x","imperial",,,73,60,,,45.94381289,10.280644,283
 "grumentoAmphitheater","Amphitheater at Grumento","Grumento","https://pleiades.stoa.org/places/442603",,"92","amphitheater",7657,"Italy",,"regio-iii","imperial",,,90,70,60,40,40.2876404,15.9115794,579
 "albaFucensAmphitheater","Amphitheater at Alba Fucens","Alba Fucens","https://pleiades.stoa.org/places/413005",,,"amphitheater",10720,"Italy",,"regio-iv","julio-claudian",,,103,76,64,37,42.0772,13.412289,977
 "augstAmphitheater","Amphitheater at Augst","Augst","https://pleiades.stoa.org/places/177494",,,"amphitheater",14313,"Switzerland","germania-superior",,"late-second-century",,,102,87,48,33,47.529294,7.72061,285
@@ -246,7 +246,7 @@ id,title,label,pleiades,welch,golvin,type,capacity,modcountry,province,italyregi
 "volterraAmphitheater","Volterra Amphitheater","Volterra","https://pleiades.stoa.org/places/403292",,,"amphitheater",10000,"Italy",,"regio-vii","first-century",,,80,60,,,43.407162,10.862152,456
 "vastoAmphitheater","Amphitheater at Vasto","Vasto","https://pleiades.stoa.org/places/413171",,,"amphitheater",,"Italy",,"regio-iv","imperial",,,,,,,42.111291,14.708095,150
 "suasaAmphitheater","Amphitheater at Suasa","Suasa","https://pleiades.stoa.org/places/413324",,,"amphitheater",,"Italy",,"regio-vi","imperial",,,99,75,58,36,43.624682,12.986831,139
-"pollenzoAmphitheater","Amphitheater at Pollenzo","Pollenzo","https://pleiades.stoa.org/places/383745",,,"amphitheater",,"Italy",,"regio-ix","imperial",,,,,,,44.684698,7.895993,200
+"pollenzoAmphitheater","Amphitheater at Pollenzo","Pollenzo","https://pleiades.stoa.org/places/383745",,,"amphitheater",,"Italy",,"regio-ix","imperial",,,120,93,,,44.684698,7.895993,200
 "vercelliAmphitheater","Amphitheater at Vercelli","Vercelli","https://pleiades.stoa.org/places/383815",,,"amphitheater",,"Italy",,"regio-xi","imperial",,,,,,,45.319277,8.426863,126
 "sanGiovanniAmphitheater","Amphitheater at San Giovanni in Carico","San Giovanni in Carico","https://pleiades.stoa.org/places/432825",,,"amphitheater",,"Italy",,"regio-i","imperial",,,,,,,41.518993,13.552957,87
 "megiddoAmphitheater","Amphitheater at Megiddo","Megiddo","https://pleiades.stoa.org/places/678266",,,"amphitheater",,"Israel","judaea",,"imperial",,,70,50,,,32.58102,35.183968,141
