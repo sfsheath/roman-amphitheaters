@@ -941,6 +941,7 @@
       "id": "tarragonaAmphitheater",
       "properties": {
         "title": "Amphitheater at Tarragona",
+        "bibliography": "http://www.academicroom.com/sites/default/files/article/231/Simon+Keay,+Recent+Archaeological+Work+in+Roman+Iberia.pdf",
         "buildingtype": "amphitheater",
         "created":100,
         "capacity": {"quantity": 15000},
@@ -987,6 +988,7 @@
         "golvinid": "182",
         "hypogeum": true,
         "label": "Cagliari",
+        "lastuse": {"date": 425, "comment": "http://www.academicroom.com/sites/default/files/article/231/Simon+Keay,+Recent+Archaeological+Work+in+Roman+Iberia.pdf"},
         "latintoponym": "Carales",
         "orientation": 235,
         "periodo": "http://n2t.net/ark:/99152/p0wf3wdp4xt",
@@ -4870,7 +4872,15 @@
       "properties": {
         "title": "Amphitheater at Autun",
         "buildingtype": "amphitheater",
-        "chronogroup": "imperial",
+        "chronogroup": "flavian",
+        "dimensions": {
+          "exterior-major": 154,
+          "exterior-minor": 130,
+          "arena-major": 74,
+          "arena-minor": 49,
+          "source-note": "Golvin"
+         },
+        "golvinid": "157",
         "label": "Autun",
         "latintoponym": "Augustodunum",
         "moderncountry": "France",
@@ -5035,6 +5045,10 @@
         "amphitheatrum": "http://amphi-theatrum.de/1975.html",
         "buildingtype": "amphitheater",
         "chronogroup": "flavian",
+        "dimensions": {
+          "arena-major": 50,
+          "arena-minor": 40
+          },
         "label": "Bobadela",
         "latintoponym": "Elbocoris",
         "moderncountry": "Portugal",
@@ -5512,7 +5526,7 @@
         "title": "Amphitheater at Drevant",
         "buildingtype": "gallo-roman-amphitheater",
         "chronogroup": "imperial",
-        "comment": "Arena oval is almost complete so very a near a “full” amphitheater.",
+        "comment": "Arena oval is almost complete so very near a “full” amphitheater.",
         "dimensions": {
           "exterior-major": 56,
           "arena-major": 25
@@ -7580,7 +7594,7 @@
         "moderncountry": "Italy",
         "pleiades": "https://pleiades.stoa.org/places/433132",
         "region": "regio-i",
-        "visibility": "poor",
+        "visibility": "none",
         "welchid": "11"},
         "geometry": {
           "type": "Point",
@@ -7768,6 +7782,7 @@
         "buildingtype": "amphitheater",
         "chronogroup": "imperial",
         "comment": "Brought to my attention by Eric Poehler",
+        "commonsimage": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Roman_amphitheatre%2C_Tharros%2C_Sardinia_%2815939330434%29.jpg/1280px-Roman_amphitheatre%2C_Tharros%2C_Sardinia_%2815939330434%29.jpg",
         "dimensions": {
            "exterior-major": 50,
            "exterior-minor": 46,

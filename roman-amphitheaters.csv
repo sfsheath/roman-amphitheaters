@@ -159,13 +159,13 @@ id,title,label,pleiades,welch,golvin,type,capacity,modcountry,province,italyregi
 "bragaAmphitheater","Amphitheater at Braga","Braga","https://pleiades.stoa.org/places/236377",,,"amphitheater",,"Portugal","tarraconensis",,"imperial",,,,,,,41.546669,-8.430075,175
 "sisapoAmphitheater","Amphitheater at Sisapo","Sisapo","https://pleiades.stoa.org/places/266043",,,"amphitheater",,"Spain","baetica",,"imperial",,,,,,,38.645833,-4.516667,659
 "leonAmphitheater","Amphitheater at León","León","https://pleiades.stoa.org/places/236512",,,"amphitheater",,"Spain","tarraconensis",,"imperial",,,,,,,42.598889,-5.566944,846
-"autunAmphitheater","Amphitheater at Autun","Autun","https://pleiades.stoa.org/places/177460",,,"amphitheater",,"France","lugdunensis",,"imperial",,,,,,,46.953003,4.310856,317
+"autunAmphitheater","Amphitheater at Autun","Autun","https://pleiades.stoa.org/places/177460",,"157","amphitheater",,"France","lugdunensis",,"flavian",,,154,130,74,49,46.953003,4.310856,317
 "xantenAmphitheater","Amphitheater at Xanten","Xanten","https://pleiades.stoa.org/places/108896",,"167","amphitheater",10000,"Germany","germania-inferior",,"imperial",,,96.5,87,58.5,49,51.667172,6.451386,21
 "arnsburgAmphitheater","Amphitheater at Arnsburg","Arnsburg","https://pleiades.stoa.org/places/118575",,,"amphitheater",,"Germany","germania-superior",,"imperial",,,,,,,50.485657,8.787954,163
 "ierapetraAmphitheater","Amphitheater at Ierapetra","Ierapetra","https://pleiades.stoa.org/places/589807",,,"amphitheater",,"Greece","crete-et-cyrenaica",,"imperial",,,,,,,35.011385,25.745132,4
 "kunzingAmphitheater","Amphitheater at Künzing","Künzing","https://pleiades.stoa.org/places/118919",,,"amphitheater",,"Germany","raetia",,"imperial",,,,,,,48.667088,13.082821,308
 "noceraSuperioreAmphitheater","Amphitheater at Nocera Superiore","Nocera","https://pleiades.stoa.org/places/432985",,,"amphitheater",,"Italy",,"regio-i","imperial",,,125,102,58,34,40.74575,14.657022,50
-"bobadelaAmphitheater","Amphitheater at Bobadela","Bobadela","https://pleiades.stoa.org/places/236458",,,"amphitheater",,"Portugal","lusitania",,"flavian",,,,,,,40.361088,-7.893572,383
+"bobadelaAmphitheater","Amphitheater at Bobadela","Bobadela","https://pleiades.stoa.org/places/236458",,,"amphitheater",,"Portugal","lusitania",,"flavian",,,,,50,40,40.361088,-7.893572,383
 "sopronAmphitheater","Amphitheater at Sopron","Sopron","https://pleiades.stoa.org/places/197501",,,"amphitheater",,"Hungary","pannonia",,"imperial",,,,,,,47.692813,16.589397,283
 "nyonAmphitheater","Amphitheater at Nyon","Nyon","https://pleiades.stoa.org/places/177496",,,"amphitheater",,"Switzerland","germania-superior",,"imperial",,,,,,,46.383464,6.241301,391
 "bernAmphitheater","Amphitheater at Bern","Bern","https://pleiades.stoa.org/places/177471",,"42","amphitheater",1946,"Switzerland","germania-superior",,"imperial",,,42.6,38.5,27.6,23.5,46.975715,7.451179,547
