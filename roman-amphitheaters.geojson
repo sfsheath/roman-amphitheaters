@@ -3634,7 +3634,7 @@
         "title": "Amphitheater at Ivrea",
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 8046, "sourcenote": "Golvin"},
-        "chronogroup": "imperial",
+        "chronogroup": "first-century",
         "dimensions": {
           "exteriormajor": 96,
           "exteriorminor": 72,
@@ -7268,7 +7268,7 @@
         "title": "Chieti Amphitheater",
         "amphitheatrum": "http://www.amphi-theatrum.de/23938.html",
         "buildingtype": "amphitheater",
-        "chronogroup": "imperial",
+        "chronogroup": "first-century",
         "dare": "http://dare.ht.lu.se/places/24627",
         "dimensions": {
            "arenamajor": 59,
