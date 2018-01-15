@@ -1227,6 +1227,13 @@
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 2729, "sourcenote": "Golvin"},
         "chronogroup": "imperial",
+        "dimensions": {
+          "exteriormajor": 97,
+          "exteriorminor": 45,
+          "arenamajor": 85,
+          "arenaminor": 35,
+          "sourcenote": "Golvin"
+         },
         "label": "Flavia Solva",
         "moderncountry": "Austria",
         "orientation": 189,
@@ -2665,11 +2672,11 @@
       "properties": {
         "title": "Amphitheater at Assisi",
         "buildingtype": "amphitheater",
-        "chronogroup": "imperial",
+        "chronogroup": "first-century",
         "dimensions": {
-          "arenamajor": 65,
-          "arenaminor": 38,
-          "source": "http://maps.google.com" 
+          "arenamajor": 60,
+          "arenaminor": 35,
+          "sourcenote": "Golvin" 
         },
         "label": "Assisi",
         "latintoponym": "Asisium",
@@ -2935,7 +2942,7 @@
         "capacity": {"quantity": 12000},
         "created": 100,
         "chronogroup": "flavian",
-"dimensions": {
+        "dimensions": {
            "exteriormajor": 113.7,
            "exteriorminor": 85.7,
            "arenamajor": 67.7,
@@ -2967,6 +2974,10 @@
                          "https://www.academia.edu/28758928/Roman-Gortyn-from-Greek-polis-to-provincial-capital-in-J.E.-Frances-A.-Kouremenos-ed.-Roman-Crete.-New-Perspectives-Oxford-Philadelphia-2016"],
         "buildingtype": "amphitheater",
         "chronogroup": "second-century",
+        "dimensions": {
+           "exteriormajor": 85,
+           "source": "http://maps.google.com/"
+          },
         "label": "Gortyn",
         "moderncountry": "Greece",
         "orientation": 218,
@@ -3912,7 +3923,15 @@
         "title": "Amphitheater at Besançon",
         "amphitheatrum": "http://amphi-theatrum.de/1551.html",
         "buildingtype": "amphitheater",
+        "capacity": {"sourcenote": "Golvin", "quantity": 13816},
         "chronogroup": "second-century",
+        "dimensions": {
+          "exteriormajor": 110,
+          "exteriorminor": 85,
+          "arenamajor": 62,
+          "arenaminor": 37,
+          "sourcenote": "Golvin"
+         },
         "label": "Besançon",
         "latintoponym": "Vesontio",
         "moderncountry": "France",
