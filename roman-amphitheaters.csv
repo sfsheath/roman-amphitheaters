@@ -1,4 +1,4 @@
-"id","title","label","latintoponym","pleiades","welchid","golvinid","buildingtype","chronogroup","secondcentury","capacity","modcountry","romanregion","arenamajor","arenaminor","extmajor","extminor","exteriorheight","latitude","longitude","elevation"
+"id","title","label","latintoponym","pleiades","welchid","golvinid","buildingtype","chronogroup","secondcentury","capacity","modcountry","romanregion","arenamajor","arenaminor","extmajor","extminor","exteriorheight","longitude","latitude","elevation"
 "duraEuroposAmphitheater","Amphitheater at Dura Europos","Dura","","https://pleiades.stoa.org/places/893989","","129","amphitheater","severan",False,1000.0,"Syria","syria",31.0,25.0,50.0,44.0,"",40.728926,34.749855,223
 "arlesAmphitheater","Amphitheater at Arles","Arles","Arelate","https://pleiades.stoa.org/places/148217","","154","amphitheater","flavian",True,20000.0,"France","narbonensis",47.0,32.0,136.0,107.0,"",4.631111,43.677778,21
 "lyonAmphitheater","Amphitheater at Lyon","Lyon","Lugdunum","https://pleiades.stoa.org/places/167717","","","amphitheater","second-century",True,20000.0,"France","lugdunensis",67.6,42.0,105.0,"","",4.830556,45.770556,206
@@ -28,7 +28,7 @@
 "tarragonaAmphitheater","Amphitheater at Tarragona","Tarragona","","https://pleiades.stoa.org/places/246349","","","amphitheater","second-century",True,15000.0,"Spain","tarraconensis",62.0,39.0,95.0,69.5,"",1.25878,41.114522,13
 "cagliariAmphitheater","Amphitheater at Cagliari","Cagliari","Carales","https://pleiades.stoa.org/places/471899","","182","amphitheater","second-century",True,12283.0,"Italy","corsica-et-sardinia",46.8,33.2,92.8,79.2,"",9.113228,39.223908,60
 "italicaAmphitheater","Amphitheater at Italica","Italica","","https://pleiades.stoa.org/places/256231","","","amphitheater","second-century",True,25000.0,"Spain","baetica",70.0,44.0,160.0,136.0,"",-6.046742,37.443893,17
-"segobrigaAmphitheater","Amphitheater at Segobriga","Segobriga","Segobriga","https://pleiades.stoa.org/places/266036","","","amphitheater","flavian",True,7500.0,"Spain","tarraconensis",47.0,31.0,75.0,64.0,"",-2.813944,39.886018,817
+"segobrigaAmphitheater","Amphitheater at Segobriga","Segobriga","Segobriga","https://pleiades.stoa.org/places/266036","","88","amphitheater","flavian",True,7500.0,"Spain","tarraconensis",47.0,31.0,75.0,64.0,"",-2.813944,39.886018,817
 "catiniaAmphitheater","Amphitheater at Catinia","Catinia","Catina","https://pleiades.stoa.org/places/462270","","","amphitheater","imperial",True,16000.0,"Italy","sicilia",52.0,38.0,90.0,70.0,"",15.085323,37.507096,31
 "paestumAmphitheater","Amphitheater at Paestum","Paestum","Paestum","https://pleiades.stoa.org/places/442733","10","","amphitheater","republican",True,4500.0,"Italy","regio-iii",56.0,35.0,79.0,59.0,"",15.006449,40.422354,18
 "lunaAmphitheater","Amphitheater at Luna","Luna","Luna","https://pleiades.stoa.org/places/403235","","","amphitheater","imperial",True,"","Italy","regio-vii",52.0,34.5,87.0,71.0,"",10.022386,44.062656,4
@@ -62,7 +62,7 @@
 "allifaeAmphitheater","Amphitheater at Allifae","Allifae","","https://pleiades.stoa.org/places/432658","","","amphitheater","imperial",True,"","Italy","regio-i",72.0,48.0,107.0,84.0,"",14.334997,41.325601,106
 "cimiezAmphitheater","Amphitheater at Cimiéz","Cimiez","Cemenelum","https://pleiades.stoa.org/places/157834","","16","amphitheater","julio-claudian",True,4245.0,"France","narbonensis","","",55.0,44.0,"",7.2752435,43.71967279,112
 "hydataHypsitanaForumTraianiAmphitheater","Amphitheater at Hydata Hypsitana/Forum Traiani","Forum Traiani","","https://pleiades.stoa.org/places/471947","","","amphitheater","imperial",True,"","Italy","corsica-et-sardinia","","","","","",8.804698,39.993171,49
-"luccaAmphitheater","Amphitheater at Lucca","Lucca","Luca","https://pleiades.stoa.org/places/403234","","","amphitheater","imperial",True,"","Italy","regio-vii","","","","","",10.505772199,43.8455202,19
+"luccaAmphitheater","Amphitheater at Lucca","Lucca","Luca","https://pleiades.stoa.org/places/403234","","135","amphitheater","imperial",True,15048.0,"Italy","regio-vii",80.0,53.0,124.0,96.0,"",10.505772199,43.8455202,19
 "hispellumAmphitheater","Amphitheater at Spello","Spello","Hispellum","https://pleiades.stoa.org/places/413170","","","amphitheater","imperial",True,"","Italy","regio-vi","","",82.0,"","",12.6662021,42.9957909,211
 "veronaAmphitheater","Amphitheater at Verona","Verona","verona","https://pleiades.stoa.org/places/383816","","","amphitheater","julio-claudian",True,30000.0,"Italy","regio-x",75.68,44.43,152.43,123.42,"",10.99435,45.43904,62
 "aquincumCivilAmphitheater","Civil Amphitheater at Budapest","Aquincum (Civilian)","Aquincum","https://pleiades.stoa.org/places/197130","","","amphitheater","imperial",True,"","Hungary","pannonia",51.0,42.0,86.5,75.5,"",19.047985,47.567577,105
@@ -129,7 +129,7 @@
 "reimsAmphitheater","Amphitheater at Reims","Reims","Durocortorum","https://pleiades.stoa.org/places/108945","","","amphitheater","imperial",True,"","France","belgica","","","","","",4.018775,49.261265,80
 "rodezAmphitheater","Amphitheater at Rodez","Rodez","Segodunum","https://pleiades.stoa.org/places/138579","","22","amphitheater","imperial",True,15000.0,"France","aquitania","","","","","",2.571162,44.353698,611
 "milanAmphitheater","Amphitheater at Milan","Milan","Mediolanum","https://pleiades.stoa.org/places/383706","","","amphitheater","first-century",True,31649.0,"Italy","regio-xi",74.0,44.0,155.0,125.0,"",9.178518,45.456898,116
-"aquileiaAmphitheater","Amphitheater at Aquileia","Aquileia","Aquileia","https://pleiades.stoa.org/places/187290","","","amphitheater","imperial",True,"","Italy","regio-x","","","","","",13.370713,45.768239,2
+"aquileiaAmphitheater","Amphitheater at Aquileia","Aquileia","Aquileia","https://pleiades.stoa.org/places/187290","","","amphitheater","flavian",True,"","Italy","regio-x",72.0,46.0,142.0,118.0,"",13.370713,45.768239,2
 "paduaAmphitheater","Amphitheater at Padua","Padua","Patavium","https://pleiades.stoa.org/places/393473","","90","amphitheater","julio-claudian",True,"","Italy","regio-x",76.4,39.5,102.5,65.5,"",11.879039,45.411483,17
 "lecceAmphitheater","Amphitheater at Lecce","Lecce","Lupiae","https://pleiades.stoa.org/places/442642","","","amphitheater","imperial",True,25000.0,"Italy","regio-ii",53.1,34.2,101.9,83.0,"",18.172733,40.352463,51
 "terminiImereseAmphitheater","Amphitheater at Termini Imerese","Termini","Thermae Himerae","https://pleiades.stoa.org/places/462513","","164","amphitheater","flavian",True,"","Italy","sicilia",53.0,30.0,98.0,75.0,"",13.695186,37.983696,76
@@ -219,7 +219,7 @@
 "ordonaAmphitheater","Amphitheater at Ordona","Ordona","Herdoniae","https://pleiades.stoa.org/places/442613","","26","amphitheater","first-century",True,6318.0,"Italy","regio-ii",44.6,28.4,74.5,59.4,"",15.6231,41.3105,127
 "bevanaAmphitheater","Amphitheater at Bevagna","Bevagna","Mevania","https://pleiades.stoa.org/places/413200","","282","amphitheater","imperial",True,6251.0,"Italy","regio-vi",44.0,24.0,80.0,53.0,"",12.615587,42.936903,215
 "minturnaeAmphitheater","Amphitheater at Minturno","Minturno","Minturnae","https://pleiades.stoa.org/places/432940","","","amphitheater","first-century",True,"","Italy","regio-i","","",130.0,"","",13.763859,41.241734,10
-"sinuessaAmphitheater","Amphitheater at Sinuessa","Sinuessa","Sinuessa","https://pleiades.stoa.org/places/433122","","","amphitheater","imperial",True,"","Italy","regio-i","","",80.0,45.0,"",13.846372,41.153584,5
+"sinuessaAmphitheater","Amphitheater at Sinuessa","Sinuessa","Sinuessa","https://pleiades.stoa.org/places/433122","","274","amphitheater","imperial",True,"","Italy","regio-i","","",80.0,45.0,"",13.846372,41.153584,5
 "aphrodisiasAmphitheater","Late Roman Amphitheater at Aphrodisas","Aphrodisias","Aphrodisias","https://pleiades.stoa.org/places/638753","","","arena-in-stadium","fourth-century",False,"","Turkey","asia",59.0,30.0,"","","",28.723061,37.712553,526
 "djerbaAmphitheater","Djerba Amphitheater","Djerba","Meninge","https://pleiades.stoa.org/places/344439","","","amphitheater","imperial",True,"","Tunisia","proconsularis","","",68.0,"","",10.913907,33.685822,1
 "zagaroloLudus","Zagarolo Ludus","Zagarolo","","https://pleiades.stoa.org/places/423086","","","practice-arena","imperial",False,"","Italy","regio-i","","",40.0,"","",12.819255,41.858402,275

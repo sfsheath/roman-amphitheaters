@@ -1051,6 +1051,7 @@
           "arenamajor": 47,
           "arenaminor": 31
          },
+        "golvinid": "88",
         "label": "Segobriga",
         "latintoponym": "Segobriga",
         "moderncountry": "Spain",
@@ -2057,7 +2058,16 @@
       "properties": {
         "title": "Amphitheater at Lucca",
         "buildingtype": "amphitheater",
+        "capacity": { "sourcenote": "Golvin", "quantity": 15048 },
         "chronogroup": "imperial",
+        "dimensions": {
+          "exteriormajor": 124,
+          "exteriorminor": 96,
+          "arenamajor": 80,
+          "arenaminor": 53,
+          "sourcenote": "Golvin"
+         },
+        "golvinid": "135",
         "label": "Lucca",
         "latintoponym": "Luca",
         "moderncountry": "Italy",
@@ -4082,8 +4092,15 @@
       "properties": {
         "title": "Amphitheater at Aquileia",
         "buildingtype": "amphitheater",
-        "chronogroup": "imperial",
+        "chronogroup": "flavian",
         "comment": "Location approximate",
+        "dimensions": {
+          "exteriormajor": 142,
+          "exteriorminor": 118,
+          "arenamajor": 72,
+          "arenaminor": 46,
+          "sourcenote": "Golvin"
+         },
         "label": "Aquileia",
         "latintoponym": "Aquileia",
         "moderncountry": "Italy",
@@ -6731,6 +6748,7 @@
            "exteriorminor": 45,
            "sourcenote": "Golvin"
         },
+        "golvinid": "274",
         "label": "Sinuessa",
         "latintoponym": "Sinuessa",
         "moderncountry": "Italy",
