@@ -225,7 +225,7 @@
 "zagaroloLudus","Zagarolo Ludus","Zagarolo","","https://pleiades.stoa.org/places/423086","","","practice-arena","imperial",False,"","Italy","regio-i","","",40.0,"","",12.819255,41.858402,275
 "tusculumAmphitheater","Tusculum Amphitheater","Tusculum","","https://pleiades.stoa.org/places/423108","","","amphitheater","second-century",True,4853.0,"Italy","regio-i",49.0,30.0,73.0,54.0,"",12.702103,41.798372,582
 "forumNovumAmphitheater","Forum Novum Amphitheater","Forum Novum","","https://pleiades.stoa.org/places/413148","","","amphitheater","first-century",True,"","Italy","regio-iv",45.0,25.0,"","","",12.603363,42.329875,137
-"todiAmphitheater","Todi Amphitheater","Todi","Tuder","https://pleiades.stoa.org/places/423108","","283","amphitheater","imperial",True,"","Italy","regio-vi","","",90.0,60.0,"",12.413528,42.778653,330
+"todiAmphitheater","Todi Amphitheater","Todi","Tuder","https://pleiades.stoa.org/places/413354","","283","amphitheater","imperial",True,"","Italy","regio-vi","","",90.0,60.0,"",12.413528,42.778653,330
 "terniAmphitheater","Terni Amphitheater","Terni","Interamna Nahars","https://pleiades.stoa.org/places/413178","","","amphitheater","first-century",True,"","Italy","regio-vi",65.0,36.0,95.0,73.0,"",12.64336,42.559785,240
 "spoletoAmphitheater","Spoleto Amphitheater","Spoleto","Spoletium","https://pleiades.stoa.org/places/413320","","","amphitheater","imperial",True,"","Italy","regio-vi","","",115.0,85.0,"",12.738992,42.738427,327
 "aquaeNeriAmphitheater","Aquae Neri Amphitheater","Aquae Neri","","https://pleiades.stoa.org/places/138185","","20","amphitheater","first-century",True,3926.0,"France","aquitania",50.0,30.0,70.0,50.0,"",2.658224,46.289891,489
@@ -239,7 +239,7 @@
 "canosaAmphitheater","Canosa Amphitheater","Canosa","Canusium","https://pleiades.stoa.org/places/442525","","","amphitheater","imperial",False,"","Italy","regio-ii","","",138.0,106.0,"",16.05603,41.221739,81
 "sipontoAmphitheater","Siponto Amphitheater","Siponto","Sipous","https://pleiades.stoa.org/places/442797","","","amphitheater","imperial",True,"","Italy","regio-ii","","","","","",15.888896,41.611536,18
 "chietiAmphitheater","Chieti Amphitheater","Chieti","Teate Marrucinorum","https://pleiades.stoa.org/places/413333","","","amphitheater","first-century",True,"","Italy","regio-iv",59.0,40.7,"","","",14.16255,42.345021,343
-"teanoAmphitheater","Amphitheater at Teano","Teano","Teanum","https://pleiades.stoa.org/places/423108","7","","amphitheater","republican",True,"","Italy","regio-ii","","","","","",14.065098,41.251661,191
+"teanoAmphitheater","Amphitheater at Teano","Teano","Teanum Sidicinum","https://pleiades.stoa.org/places/433146","7","","amphitheater","republican",True,"","Italy","regio-ii","","","","","",14.065098,41.251661,191
 "henchirDuomaAmphitheater","Henchir Douama Amphitheater","Henchir Douama","Uchi Maius","https://pleiades.stoa.org/places/315242","","","amphitheater","imperial",True,"","Tunisia","proconsularis","","",55.0,43.0,"",9.085182,36.412511,418
 "ainToungaAmphitheater","Ain Tounga Amphitheater","Ain Tounga","Thignica","https://pleiades.stoa.org/places/315207","","116","amphitheater","second-century",True,3000.0,"Tunisia","proconsularis",39.0,26.5,56.0,46.0,"",9.361924,36.52782,226
 "aleriaAmphitheater","Aleria Amphitheater","Aleria","Alalia","https://pleiades.stoa.org/places/472048","","131","amphitheater","imperial",True,1200.0,"France","corsica-et-sardinia",29.6,24.0,39.6,34.0,"",9.5102,42.100889,41
