@@ -74,6 +74,7 @@
     "sourcenote": {"@id": "ramphsprops:sourcenote" },
     "startdate": {"@id": "ramphsprops:startdate" },
     "title": {"@id": "dcterms:title"},
+    "visibility": {"@id": "ramphsprops:visibility" },
     "welchid": {"@id": "ramphsprops:welchid"},
     "wikipedia": {"@id": "ramphsprops:wikipedia","@type": "@id"},
     "youtube": {"@id": "ramphsprops:youtube","@type": "@id"}
@@ -126,7 +127,7 @@
         "title": "Amphitheater at Arles",
         "amphitheatrum": "http://amphi-theatrum.de/1371.html",
         "buildingtype": "amphitheater",
-        "capacity": {"quantity": 20000},
+        "capacity": {"quantity": 23354, "sourcenote": "Golvin"},
         "chronogroup": "flavian",
         "citywall": "inside",
         "created":90,
@@ -241,7 +242,7 @@
         "orientation": 110,
         "pleiades": "https://pleiades.stoa.org/places/423025",
         "region": "regio-i",
-        "pleiadesspecific": "https://pleiades.stoa.org/places/285857974/centerpoint-of-amphitheatrum-flavium",
+        "pleiadesspecific": "https://pleiades.stoa.org/places/285857974",
         "see": "http://numismatics.org/collection/1954.203.170",
         "wikipedia": "http://en.wikipedia.org/wiki/Colosseum",
         "youtube": ["https://www.youtube.com/watch?v=kxwenPo1grc","https://www.youtube.com/watch?v=flXe8h3i5vc", "https://www.youtube.com/watch?v=UtwG_ziYI0Y"]
@@ -1216,6 +1217,7 @@
             "source": "http://maps.google.com"
         },
         "label": "Viminacium",
+        "lastuse": {"sourcenote": "Recent Excavations on the Amphitheatre of Viminacium (Upper Moesia)", "date": 300 },
         "moderncountry": "Serbia",
         "orientation": 108,
         "pleiades": "https://pleiades.stoa.org/places/207549",
@@ -3286,7 +3288,7 @@
         "title": "Amphitheater at Antioch",
         "created": -50,
         "buildingtype": "amphitheater",
-        "chronogroup": "republican",
+        "chronogroup": "caesarean",
         "comment": "Location not specific.",
         "label": "Antioch",
         "moderncountry": "Turkey",
@@ -3595,9 +3597,9 @@
       "properties": {
         "title": "Amphitheater at Trier",
         "buildingtype": "amphitheater",
-        "created": 100,
-        "capacity": {"quantity": 20000},
-        "chronogroup": "second-century",
+        "created": 2200,
+        "capacity": {"quantity": 8742, "sourcenote": "Golvin" },
+        "chronogroup": "third-century",
         "commonsimage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Amphitheater_Trier_Germany_-_panoramio_%285%29.jpg/1024px-Amphitheater_Trier_Germany_-_panoramio_%285%29.jpg",
         "dimensions": {
           "exteriormajor": 100,
@@ -5117,6 +5119,7 @@
         "buildingtype": "amphitheater",
         "chronogroup": "flavian",
         "dimensions": {
+          
           "arenamajor": 50,
           "arenaminor": 40
           },
@@ -5482,13 +5485,20 @@
       "id": "albegnaAmphitheater",
       "properties": {
         "title": "Amphitheater at Albegna",
+        "amphitheatrum": "http://amphi-theatrum.de/1508.html",
         "buildingtype": "amphitheater",
         "chronogroup": "imperial",
+        "dimensions": {
+          "exteriormajor": 70,
+          "exteriorminor": 50,
+          "source": "http://amphi-theatrum.de/1508.html"
+         },
         "label": "Albegna",
         "latintoponym": "Albingaunum",
         "moderncountry": "Italy",
         "pleiades": "https://pleiades.stoa.org/places/157803",
         "region": "regio-vii",
+        "vici": "http://vici.org/vici/4199",
         "visibility": "partial"
       },
       "geometry": {
@@ -6907,6 +6917,7 @@
         "title": "Forum Novum Amphitheater",
         "bibliography": "https://archive.is/TzNZV",
         "buildingtype": "amphitheater",
+        "capacity": {"quantity":2000, "sourcenote": "See bibliography."},
         "chronogroup": "first-century",
         "lastuse": {"date": 225, "comment": "As indicated in bibliography."},
         "dare": "http://dare.ht.lu.se/places/23997",
@@ -7039,7 +7050,7 @@
         },
         "golvinid": "20",
         "label": "Aquae Neri",
-        "latintopnym": "Neriomagus",
+        "latintoponym": "Neriomagus",
         "moderncountry": "France",
         "orientation": 124,
         "pleiades": "https://pleiades.stoa.org/places/138185",
@@ -7874,6 +7885,33 @@
                8.440713,
                39.876577,
                27
+        ],
+        "source": "http://maps.google.com"
+      }
+    },{
+      "type": "Feature",
+      "id": "torreparedonesAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Torreparedones",
+        "buildingtype": "amphitheater",
+        "chronogroup": "flavian",
+        "dimensions": {
+           "exteriormajor": 69,
+           "exteriorminor": 61,
+           "source": "http://doi.org/10.5281/zenodo.258079"
+        },
+        "label": "Torreparedones",
+        "latintoponym": "Colonia Virtus Iulia",
+        "moderncountry": "Spain",
+        "pleiades": "https://pleiades.stoa.org/places/265938",
+        "province": "baetica",
+        "visibility": "poor" },
+        "geometry": {
+          "type": "Point",
+          "coordinates":[
+               -4.380600,
+               37.752468,
+               510
         ],
         "source": "http://maps.google.com"
       }
