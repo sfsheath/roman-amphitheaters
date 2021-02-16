@@ -1660,6 +1660,7 @@
       "properties": {
         "title": "Amphitheater at Bordeaux",
         "amphitheatrum": "http://www.amphi-theatrum.de/1388.html",
+        "bibliography": "https://journals.openedition.org/mcv/7022",
         "buildingtype": "amphitheater",
         "capacity": {"quantity": 22130, "sourcenote": "Golvin"},
         "chronogroup": "second-century",
@@ -1676,8 +1677,7 @@
         "moderncountry": "France",
         "orientation": 139,
         "pleiades": "https://pleiades.stoa.org/places/138248",
-        "province": "aquitania",
-        "see": "http://www-ausonius.u-bordeaux3.fr/index.php/axes-de-recherche/espaces-fabrique-usages-representations/9-axes/97-le-palais-gallien-de-bordeaux-etude-restitution-valorisation"
+        "province": "aquitania"
       },
       "geometry": {
         "type": "Point",
@@ -5582,6 +5582,7 @@
           "arenaminor": 40,
           "comment": "Dimensions from 1844 publication."
          },
+        "exclude": true ,
         "label": "Chassenon",
         "latintoponym": "Cassinomagus",
         "moderncountry": "France",
@@ -7914,6 +7915,29 @@
                510
         ],
         "source": "http://maps.google.com"
+      }
+    },{
+      "type": "Feature",
+      "id": "nazilliAmphitheater",
+      "properties": {
+        "title": "Amphitheater at Nazilli",
+        "bibliography": "https://www.archaeology.org/news/8975-200824-anatolia-mastaura-amphitheater" ,
+        "buildingtype": "amphitheater",
+        "exclude": true ,
+        "label": "Nazilli",
+        "latintoponym": "Mastaura",
+        "moderncountry": "Turkey",
+        "pleiades": "https://pleiades.stoa.org/places/599790",
+        "province": "asia",
+        "visibility": "good" },
+        "geometry": {
+          "type": "Point",
+          "coordinates":[
+               28.341756,
+               37.956332,
+               207
+        ],
+        "source": "https://maps.google.com"
       }
     }
   ],
