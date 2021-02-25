@@ -1,3 +1,6 @@
+THIS REPO IS NOW OUT OF DATE. See https://github.com/roman-amphitheaters/roman-amphitheaters
+
+
 Most recent draft release: 
 
 [![DOI](https://zenodo.org/badge/15487558.svg)](https://zenodo.org/badge/latestdoi/15487558)
