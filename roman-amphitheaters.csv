@@ -181,7 +181,7 @@
 "albegnaAmphitheater","Amphitheater at Albegna","Albegna","Albingaunum","https://pleiades.stoa.org/places/157803","","","amphitheater","imperial",True,"","Italy","regio-vii","","",70.0,50.0,"",8.21089894,44.043708,34
 "aquinoAmphitheater","Amphitheater at Aquino","Aquino","Aquinum","https://pleiades.stoa.org/places/432695","",147,"amphitheater","imperial",True,"","Italy","regio-i",55.0,36.0,115.0,96.0,"",13.691338,41.49469,111
 "bourgesAmphitheater","Amphitheater at Bourges","Bourges","Avaricum","https://pleiades.stoa.org/places/138207","","","amphitheater","imperial",True,"","France","aquitania","","",108.0,70.0,"",2.390815,47.084496,133
-"chassenonAmphitheater","Amphitheater at Chassenon","Chassenon","Cassinomagus","https://pleiades.stoa.org/places/138275","","","gallo-roman-amphitheater","imperial",True,"","France","aquitania",60.0,40.0,"","","",0.768913,45.850749,217
+"chassenonAmphitheater","Amphitheater at Chassenon","Chassenon","Cassinomagus","https://pleiades.stoa.org/places/138275","","","gallo-roman-amphitheater","imperial",False,"","France","aquitania",60.0,40.0,"","","",0.768913,45.850749,217
 "drevantAmphitheater","Amphitheater at Drevant","Drevant","Derventum","https://pleiades.stoa.org/places/138327","","","gallo-roman-amphitheater","imperial",True,"","France","aquitania",25.0,"",56.0,"","",2.522625,46.693079,164
 "seressiAmphitheater","Amphitheater at Seressi","Seressi","Seressi","https://pleiades.stoa.org/places/315150","","","amphitheater","second-century",True,7200.0,"Tunisia","proconsularis",51.5,40.7,76.0,65.2,"",9.775766,36.16351,471
 "chemtouAmphitheater","Amphitheater at Chemtou","Chemtou","Simmithu","https://pleiades.stoa.org/places/315174","","67","amphitheater","second-century",True,6500.0,"Tunisia","proconsularis",30.0,21.0,61.0,52.0,"",8.580552,36.490426,171
@@ -260,3 +260,4 @@
 "reggioEmiliaAmphitheater","Amphitheater at Reggio Emilia","Reggio Emilia","Regium Lepidi","https://pleiades.stoa.org/places/383755","","","amphitheater","imperial",True,"","Italy","regio-viii","","","","","",10.629951,44.702888,59
 "tharrosAmphitheater","Amphitheater at Tharros","Tharros","Tharros","https://pleiades.stoa.org/places/472032","","","amphitheater","imperial",True,"","Italy","corsica-et-sardinia",32.0,32.0,50.0,46.0,"",8.440713,39.876577,27
 "torreparedonesAmphitheater","Amphitheater at Torreparedones","Torreparedones","Colonia Virtus Iulia","https://pleiades.stoa.org/places/265938","","","amphitheater","flavian",True,"","Spain","baetica","","",69.0,61.0,"",-4.3806,37.752468,510
+"nazilliAmphitheater","Amphitheater at Nazilli","Nazilli","Mastaura","https://pleiades.stoa.org/places/599790","","","amphitheater","",False,"","Turkey","asia","","","","","",28.341756,37.956332,207
