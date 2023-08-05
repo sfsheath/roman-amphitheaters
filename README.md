@@ -1,4 +1,4 @@
-THIS REPO IS NOW OUT OF DATE. See https://github.com/roman-amphitheaters/roman-amphitheaters
+THIS REPO IS NOW OUT OF DATE AND HAS BEEN ARCHIVED. See https://github.com/roman-amphitheaters/roman-amphitheaters
 
 
 
